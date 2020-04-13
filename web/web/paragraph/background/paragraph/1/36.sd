@@ -1,0 +1,970 @@
+(ROOT
+  (SBARQ
+    (WHNP
+      (NP (DT The) (NN Truth))
+      (PP (IN about)
+        (NP (NNP Fitness) (NNPS Myths))))
+    (SQ (VBP Are)
+      (NP (PRP you))
+      (VP (VBG trying)
+        (S
+          (VP (TO to)
+            (VP (VB lose)
+              (S
+                (NP (DT some) (JJ extra) (NNS pounds))
+                (ADJP (RB so) (JJ youll))
+                (S
+                  (VP (VB look)
+                    (ADJP (JJ good)
+                      (PP (IN in)
+                        (NP (PRP$ your) (NN summer) (NNS clothes))))))))))))
+    (. ?)))
+
+det(Truth-2, The-1)
+dep(trying-8, Truth-2)
+case(Myths-5, about-3)
+compound(Myths-5, Fitness-4)
+nmod:about(Truth-2, Myths-5)
+aux(trying-8, Are-6)
+nsubj(trying-8, you-7)
+nsubj(lose-10, you-7)
+root(ROOT-0, trying-8)
+mark(lose-10, to-9)
+xcomp(trying-8, lose-10)
+det(pounds-13, some-11)
+amod(pounds-13, extra-12)
+nsubj(look-16, pounds-13)
+advmod(youll-15, so-14)
+dep(look-16, youll-15)
+xcomp(lose-10, look-16)
+xcomp(look-16, good-17)
+case(clothes-21, in-18)
+nmod:poss(clothes-21, your-19)
+compound(clothes-21, summer-20)
+nmod:in(good-17, clothes-21)
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (DT the) (NN summer)))
+    (, ,)
+    (NP (JJ many) (NNS people))
+    (VP (VBP decide)
+      (S
+        (VP (TO to)
+          (VP (VB get)
+            (NP (NN fit))))))
+    (. .)))
+
+case(summer-3, In-1)
+det(summer-3, the-2)
+nmod:in(decide-7, summer-3)
+amod(people-6, many-5)
+nsubj(decide-7, people-6)
+nsubj(get-9, people-6)
+root(ROOT-0, decide-7)
+mark(get-9, to-8)
+xcomp(decide-7, get-9)
+dobj(get-9, fit-10)
+
+(ROOT
+  (S (CC But)
+    (SBAR (IN while)
+      (S
+        (NP (PRP$ their) (NN motivation))
+        (VP (VBZ is)
+          (ADJP (JJ good)))))
+    (, ,)
+    (NP (PRP$ their) (NNS methods))
+    (ADVP (RB sometimes))
+    (VP (VBP are) (RB not))
+    (. .)))
+
+cc(are-11, But-1)
+mark(good-6, while-2)
+nmod:poss(motivation-4, their-3)
+nsubj(good-6, motivation-4)
+cop(good-6, is-5)
+advcl(are-11, good-6)
+nmod:poss(methods-9, their-8)
+nsubj(are-11, methods-9)
+advmod(are-11, sometimes-10)
+root(ROOT-0, are-11)
+neg(are-11, not-12)
+
+(ROOT
+  (S
+    (PP (IN Over)
+      (NP (DT the) (NNS years)))
+    (, ,)
+    (NP (NNS statements))
+    (VP (VBP like)
+      (VP (VB eat)
+        (ADVP (RBR less))
+        (S
+          (VP (TO to)
+            (VP (VB lose)
+              (SBAR
+                (S
+                  (NP (NN weight))
+                  (VP (VBP have)
+                    (VP (VBN been)
+                      (VP (VBN passed)
+                        (PRT (RP around))
+                        (PP (IN as)
+                          (NP (JJ good) (NN advice)))))))))))))
+    (. .)))
+
+case(years-3, Over-1)
+det(years-3, the-2)
+nmod:over(like-6, years-3)
+nsubj(like-6, statements-5)
+root(ROOT-0, like-6)
+xcomp(like-6, eat-7)
+advmod(eat-7, less-8)
+mark(lose-10, to-9)
+xcomp(eat-7, lose-10)
+nsubjpass(passed-14, weight-11)
+aux(passed-14, have-12)
+auxpass(passed-14, been-13)
+ccomp(lose-10, passed-14)
+compound:prt(passed-14, around-15)
+case(advice-18, as-16)
+amod(advice-18, good-17)
+nmod:as(passed-14, advice-18)
+
+(ROOT
+  (S (CC But)
+    (PP (IN in)
+      (NP (NN fact)))
+    (, ,)
+    (NP (JJ such) (NN fitness) (NNS strategies))
+    (VP (VBP are)
+      (VP (VBN unhealthyXand)
+        (S
+          (ADJP (RB even) (JJ dangerous)))))
+    (. .)))
+
+cc(unhealthyXand-9, But-1)
+case(fact-3, in-2)
+nmod:in(unhealthyXand-9, fact-3)
+amod(strategies-7, such-5)
+compound(strategies-7, fitness-6)
+nsubjpass(unhealthyXand-9, strategies-7)
+auxpass(unhealthyXand-9, are-8)
+root(ROOT-0, unhealthyXand-9)
+advmod(dangerous-11, even-10)
+xcomp(unhealthyXand-9, dangerous-11)
+
+(ROOT
+  (S
+    (ADVP (RB Unfortunately))
+    (, ,)
+    (NP (JJ many) (NNS people))
+    (VP (VBP want)
+      (S
+        (VP (TO to)
+          (VP (VB lose)
+            (NP (NN weight))
+            (ADVP
+              (ADVP (RB so) (RB badly))
+              (SBAR (IN that)
+                (S
+                  (NP (PRP they))
+                  (VP (MD will)
+                    (VP (VB believe)
+                      (ADJP (DT any) (JJ adviceXgood)
+                        (CC or)
+                        (JJ bad)))))))))))
+    (. .)))
+
+advmod(want-5, Unfortunately-1)
+amod(people-4, many-3)
+nsubj(want-5, people-4)
+nsubj(lose-7, people-4)
+root(ROOT-0, want-5)
+mark(lose-7, to-6)
+xcomp(want-5, lose-7)
+dobj(lose-7, weight-8)
+advmod(badly-10, so-9)
+advmod(lose-7, badly-10)
+mark(believe-14, that-11)
+nsubj(believe-14, they-12)
+aux(believe-14, will-13)
+advcl(badly-10, believe-14)
+dep(adviceXgood-16, any-15)
+xcomp(believe-14, adviceXgood-16)
+cc(adviceXgood-16, or-17)
+xcomp(believe-14, bad-18)
+conj:or(adviceXgood-16, bad-18)
+
+(ROOT
+  (SINV
+    (ADVP (RB Here))
+    (VBP are)
+    (NP
+      (NP (CD four))
+      (PP (IN of)
+        (NP
+          (NP (DT the) (RBS most) (JJ often-heard) (NNS myths))
+          (PP (IN about)
+            (S
+              (VP (VBG getting)
+                (NP (NN fit))))))))
+    (. .)))
+
+advmod(four-3, Here-1)
+dep(four-3, are-2)
+root(ROOT-0, four-3)
+case(myths-8, of-4)
+det(myths-8, the-5)
+advmod(myths-8, most-6)
+amod(myths-8, often-heard-7)
+nmod:of(four-3, myths-8)
+mark(getting-10, about-9)
+acl(myths-8, getting-10)
+dobj(getting-10, fit-11)
+
+(ROOT
+  (S
+    (SBAR (IN If)
+      (S
+        (NP (PRP I))
+        (ADVP (RB just))
+        (VP (VBP eat)
+          (ADJP (JJR less)))))
+    (, ,)
+    (NP (PRP I))
+    (VP (MD will)
+      (VP (VB lose)
+        (NP (NN weight))))
+    (. .)))
+
+mark(eat-4, If-1)
+nsubj(eat-4, I-2)
+advmod(eat-4, just-3)
+advcl(lose-9, eat-4)
+xcomp(eat-4, less-5)
+nsubj(lose-9, I-7)
+aux(lose-9, will-8)
+root(ROOT-0, lose-9)
+dobj(lose-9, weight-10)
+
+(ROOT
+  (S
+    (S
+      (NP (JJ Many) (NNS people))
+      (ADVP (RB only))
+      (VP (VB focus)
+        (PP (IN on)
+          (NP
+            (NP (DT the) (NN amount))
+            (PP (IN of)
+              (NP (NN food)))))))
+    (NP (PRP they))
+    (VP (VBP consume)
+      (NP (DT each) (NN day)))
+    (. .)))
+
+amod(people-2, Many-1)
+nsubj(focus-4, people-2)
+advmod(focus-4, only-3)
+dep(consume-11, focus-4)
+case(amount-7, on-5)
+det(amount-7, the-6)
+nmod:on(focus-4, amount-7)
+case(food-9, of-8)
+nmod:of(amount-7, food-9)
+nsubj(consume-11, they-10)
+root(ROOT-0, consume-11)
+det(day-13, each-12)
+nmod:tmod(consume-11, day-13)
+
+(ROOT
+  (S
+    (NP (PRP They))
+    (VP (VBP fail)
+      (S
+        (VP (TO to)
+          (VP (VB pay)
+            (NP (NN attention))
+            (PP (TO to)
+              (NP
+                (NP (WP what) (NN theyre))
+                (VP (VBG eating))))))))
+    (. .)))
+
+nsubj(fail-2, They-1)
+nsubj(pay-4, They-1)
+root(ROOT-0, fail-2)
+mark(pay-4, to-3)
+xcomp(fail-2, pay-4)
+dobj(pay-4, attention-5)
+case(theyre-8, to-6)
+det(theyre-8, what-7)
+nmod:to(pay-4, theyre-8)
+acl(theyre-8, eating-9)
+
+(ROOT
+  (S (IN So)
+    (NP (PRP they))
+    (VP (MD may)
+      (VP (VB be)
+        (VP (VBG eating)
+          (UCP
+            (ADJP (JJR less))
+            (, ,)
+            (CC but)
+            (ADVP (RB theyre))
+            (RB not)
+            (NP (JJ eating) (NN healthily))))))
+    (. .)))
+
+dep(eating-5, So-1)
+nsubj(eating-5, they-2)
+aux(eating-5, may-3)
+aux(eating-5, be-4)
+root(ROOT-0, eating-5)
+xcomp(eating-5, less-6)
+cc(less-6, but-8)
+advmod(less-6, theyre-9)
+xcomp(eating-5, not-10)
+conj:but(less-6, not-10)
+amod(healthily-12, eating-11)
+dep(less-6, healthily-12)
+
+(ROOT
+  (S
+    (VP (VB Be)
+      (ADJP (JJ sure)
+        (S
+          (VP (TO to)
+            (VP (VB eat)
+              (NP
+                (NP (DT a) (JJ good) (NN balance))
+                (PP (IN of)
+                  (NP
+                    (NP (NN protein))
+                    (, ,)
+                    (NP (NNS carbohydrates))
+                    (, ,)
+                    (CC and)
+                    (NP (NNS fats))))))))))
+    (. .)))
+
+cop(sure-2, Be-1)
+root(ROOT-0, sure-2)
+mark(eat-4, to-3)
+xcomp(sure-2, eat-4)
+det(balance-7, a-5)
+amod(balance-7, good-6)
+dobj(eat-4, balance-7)
+case(protein-9, of-8)
+nmod:of(balance-7, protein-9)
+nmod:of(balance-7, carbohydrates-11)
+conj:and(protein-9, carbohydrates-11)
+cc(protein-9, and-13)
+nmod:of(balance-7, fats-14)
+conj:and(protein-9, fats-14)
+
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (VBP need)
+      (S
+        (NP (DT all) (CD three) (NN food) (NNS groups))
+        (VP (TO to)
+          (VP (VB maintain)
+            (NP (DT a) (JJ healthy) (NN body))))))
+    (. .)))
+
+nsubj(need-2, You-1)
+root(ROOT-0, need-2)
+det(groups-6, all-3)
+nummod(groups-6, three-4)
+compound(groups-6, food-5)
+dobj(need-2, groups-6)
+nsubj(maintain-8, groups-6)
+mark(maintain-8, to-7)
+xcomp(need-2, maintain-8)
+det(body-11, a-9)
+amod(body-11, healthy-10)
+dobj(maintain-8, body-11)
+
+(ROOT
+  (S
+    (SBAR
+      (WHNP (WP What))
+      (S
+        (NP (PRP you))
+        (VP (VBP eat))))
+    (VP (VBZ is)
+      (ADJP (JJ important)))
+    (. .)))
+
+dobj(eat-3, What-1)
+nsubj(eat-3, you-2)
+csubj(important-5, eat-3)
+cop(important-5, is-4)
+root(ROOT-0, important-5)
+
+(ROOT
+  (S
+    (NP (NNP Running))
+    (VP (VBZ is)
+      (NP
+        (NP (PDT all) (DT the) (NN exercise))
+        (SBAR
+          (S
+            (NP (PRP I))
+            (VP (VBP need)
+              (S
+                (VP (TO to)
+                  (VP (VB lose)
+                    (NP (NN weight))))))))))
+    (. .)))
+
+nsubj(exercise-5, Running-1)
+cop(exercise-5, is-2)
+det:predet(exercise-5, all-3)
+det(exercise-5, the-4)
+root(ROOT-0, exercise-5)
+nsubj(need-7, I-6)
+nsubj(lose-9, I-6)
+acl:relcl(exercise-5, need-7)
+mark(lose-9, to-8)
+xcomp(need-7, lose-9)
+dobj(lose-9, weight-10)
+
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (VBP need)
+      (NP (JJ aerobic) (NN exercise))
+      (S
+        (VP (TO to)
+          (VP (VB burn)
+            (PRT (RP off))
+            (NP (PRP$ your) (JJ extra) (NN fat))))))
+    (. .)))
+
+nsubj(need-2, You-1)
+root(ROOT-0, need-2)
+amod(exercise-4, aerobic-3)
+dobj(need-2, exercise-4)
+mark(burn-6, to-5)
+advcl(need-2, burn-6)
+compound:prt(burn-6, off-7)
+nmod:poss(fat-10, your-8)
+amod(fat-10, extra-9)
+dobj(burn-6, fat-10)
+
+(ROOT
+  (S (CC But)
+    (NP (DT that))
+    (ADVP (RB alone))
+    (VP (VBP doesnt)
+      (VP (VB help)
+        (S
+          (NP (PRP you))
+          (VP (VB get)
+            (ADJP (JJ fit))))))
+    (. .)))
+
+cc(doesnt-4, But-1)
+nsubj(doesnt-4, that-2)
+advmod(doesnt-4, alone-3)
+root(ROOT-0, doesnt-4)
+xcomp(doesnt-4, help-5)
+nsubj(get-7, you-6)
+ccomp(help-5, get-7)
+xcomp(get-7, fit-8)
+
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (MD must)
+      (ADVP (RB also))
+      (VP (VB lift)
+        (S
+          (NP (NNS weights))
+          (VP (TO to)
+            (VP (VB build)
+              (NP (NN muscle)))))))
+    (. .)))
+
+nsubj(lift-4, You-1)
+aux(lift-4, must-2)
+advmod(lift-4, also-3)
+root(ROOT-0, lift-4)
+dobj(lift-4, weights-5)
+nsubj(build-7, weights-5)
+mark(build-7, to-6)
+xcomp(lift-4, build-7)
+dobj(build-7, muscle-8)
+
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (VBP need)
+      (S
+        (VP (DT both) (TO to)
+          (VP (VB get)
+            (NP (DT the)
+              (ADJP (RBS most) (JJ effective))
+              (NN workout))))))
+    (. .)))
+
+nsubj(need-2, You-1)
+root(ROOT-0, need-2)
+dep(get-5, both-3)
+mark(get-5, to-4)
+ccomp(need-2, get-5)
+det(workout-9, the-6)
+advmod(effective-8, most-7)
+amod(workout-9, effective-8)
+dobj(get-5, workout-9)
+
+(ROOT
+  (S
+    (SBAR (IN If)
+      (S
+        (NP (PRP I))
+        (VP (VBP build)
+          (NP (NN muscle)))))
+    (, ,)
+    (NP (PRP I))
+    (VP (MD will)
+      (VP (VB gain)
+        (NP (NN weight))))
+    (. .)))
+
+mark(build-3, If-1)
+nsubj(build-3, I-2)
+advcl(gain-8, build-3)
+dobj(build-3, muscle-4)
+nsubj(gain-8, I-6)
+aux(gain-8, will-7)
+root(ROOT-0, gain-8)
+dobj(gain-8, weight-9)
+
+(ROOT
+  (S
+    (NP (DT This) (NN statement))
+    (VP (VBZ is)
+      (ADVP (RB actually))
+      (ADJP (JJ true)))
+    (. .)))
+
+det(statement-2, This-1)
+nsubj(true-5, statement-2)
+cop(true-5, is-3)
+advmod(true-5, actually-4)
+root(ROOT-0, true-5)
+
+(ROOT
+  (S
+    (S
+      (NP (NNP Muscle))
+      (VP (VBZ is)
+        (ADJP (RBR more) (JJ dense)
+          (PP (IN than)
+            (ADJP (JJ fat))))))
+    (, ,) (IN so)
+    (S
+      (NP (DT the) (JJ same) (NN amount))
+      (VP (VBZ weighs)
+        (ADJP (JJR more))))
+    (. .)))
+
+nsubj(dense-4, Muscle-1)
+cop(dense-4, is-2)
+advmod(dense-4, more-3)
+root(ROOT-0, dense-4)
+case(fat-6, than-5)
+advcl:than(dense-4, fat-6)
+dep(dense-4, so-8)
+det(amount-11, the-9)
+amod(amount-11, same-10)
+nsubj(weighs-12, amount-11)
+parataxis(dense-4, weighs-12)
+xcomp(weighs-12, more-13)
+
+(ROOT
+  (S (CC But)
+    (NP (NN muscle))
+    (ADVP (RB also))
+    (VP (VBZ takes)
+      (PRT (RP up))
+      (NP (JJR less) (NN space)))
+    (. .)))
+
+cc(takes-4, But-1)
+nsubj(takes-4, muscle-2)
+advmod(takes-4, also-3)
+root(ROOT-0, takes-4)
+compound:prt(takes-4, up-5)
+amod(space-7, less-6)
+dobj(takes-4, space-7)
+
+(ROOT
+  (S
+    (S
+      (SBAR
+        (WHADVP (WRB When))
+        (S
+          (NP (PRP you))
+          (VP (VB replace)
+            (ADJP (JJ fat)
+              (PP (IN with)
+                (NP (NN muscle)))))))
+      (, ,)
+      (NP (PRP you))
+      (VP (MD will)
+        (VP (VB be)
+          (ADJP (JJR thinner)))))
+    (CC and)
+    (S
+      (NP (PRP$ your) (NNS clothes))
+      (VP (MD will)
+        (VP (VB feel)
+          (NP (JJR looser)))))
+    (. .)))
+
+advmod(replace-3, When-1)
+nsubj(replace-3, you-2)
+advcl(thinner-11, replace-3)
+xcomp(replace-3, fat-4)
+case(muscle-6, with-5)
+nmod:with(fat-4, muscle-6)
+nsubj(thinner-11, you-8)
+aux(thinner-11, will-9)
+cop(thinner-11, be-10)
+root(ROOT-0, thinner-11)
+cc(thinner-11, and-12)
+nmod:poss(clothes-14, your-13)
+nsubj(feel-16, clothes-14)
+aux(feel-16, will-15)
+conj:and(thinner-11, feel-16)
+dobj(feel-16, looser-17)
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN miracle) (NNS diets))
+      (VP (VBN advertised)
+        (PP (IN on)
+          (NP (NN TV)))))
+    (VP (MD will)
+      (VP (VB help)
+        (S
+          (NP (PRP me))
+          (VP (VB lose)
+            (NP (NN weight))))))
+    (. .)))
+
+det(diets-3, The-1)
+compound(diets-3, miracle-2)
+nsubj(help-8, diets-3)
+acl(diets-3, advertised-4)
+case(TV-6, on-5)
+nmod:on(advertised-4, TV-6)
+aux(help-8, will-7)
+root(ROOT-0, help-8)
+nsubj(lose-10, me-9)
+ccomp(help-8, lose-10)
+dobj(lose-10, weight-11)
+
+(ROOT
+  (S
+    (S
+      (VP
+        (ADVP (RB Just))
+        (VB go)
+        (NP (NN channel) (NN surfing))))
+    (CC and)
+    (S
+      (NP (PRP you))
+      (VP (MD will)
+        (VP (VB see)
+          (NP (NNS ads))
+          (PP (IN for)
+            (NP
+              (NP (DT the) (JJS latest) (NN diet) (NN pill))
+              (CC or)
+              (NP (NN exercise) (NN machine)))))))
+    (. .)))
+
+advmod(go-2, Just-1)
+root(ROOT-0, go-2)
+compound(surfing-4, channel-3)
+dobj(go-2, surfing-4)
+cc(go-2, and-5)
+nsubj(see-8, you-6)
+aux(see-8, will-7)
+conj:and(go-2, see-8)
+dobj(see-8, ads-9)
+case(pill-14, for-10)
+det(pill-14, the-11)
+amod(pill-14, latest-12)
+compound(pill-14, diet-13)
+nmod:for(see-8, pill-14)
+cc(pill-14, or-15)
+compound(machine-17, exercise-16)
+nmod:for(see-8, machine-17)
+conj:or(pill-14, machine-17)
+
+(ROOT
+  (S
+    (NP (PRP They))
+    (VP (VBP promise)
+      (NP (DT a) (NN miracle) (NN solution))
+      (PP (TO to)
+        (NP (PRP$ your) (NN weight) (NN problem))))
+    (. .)))
+
+nsubj(promise-2, They-1)
+root(ROOT-0, promise-2)
+det(solution-5, a-3)
+compound(solution-5, miracle-4)
+dobj(promise-2, solution-5)
+case(problem-9, to-6)
+nmod:poss(problem-9, your-7)
+compound(problem-9, weight-8)
+nmod:to(promise-2, problem-9)
+
+(ROOT
+  (S (CC But)
+    (ADVP (RB usually))
+    (, ,)
+    (NP (DT the) (NNS products) (NN dont))
+    (VP
+      (VP (VBP live)
+        (PRT (RP up))
+        (PP (TO to)
+          (NP (PRP$ their) (NN promise))))
+      (CC and)
+      (VP (MD can)
+        (ADVP (RB even))
+        (VP (VB be)
+          (ADJP (JJ dangerous)))))
+    (. .)))
+
+cc(live-7, But-1)
+advmod(live-7, usually-2)
+det(dont-6, the-4)
+compound(dont-6, products-5)
+nsubj(live-7, dont-6)
+nsubj(dangerous-16, dont-6)
+root(ROOT-0, live-7)
+compound:prt(live-7, up-8)
+case(promise-11, to-9)
+nmod:poss(promise-11, their-10)
+nmod:to(live-7, promise-11)
+cc(live-7, and-12)
+aux(dangerous-16, can-13)
+advmod(dangerous-16, even-14)
+cop(dangerous-16, be-15)
+conj:and(live-7, dangerous-16)
+
+(ROOT
+  (S
+    (NP (NNP Dont))
+    (VP (VB waste)
+      (NP (PRP$ your) (NN money))
+      (PP (IN on)
+        (NP (PRP them))))
+    (. .)))
+
+nsubj(waste-2, Dont-1)
+root(ROOT-0, waste-2)
+nmod:poss(money-4, your-3)
+dobj(waste-2, money-4)
+case(them-6, on-5)
+nmod:on(waste-2, them-6)
+
+(ROOT
+  (S
+    (NP (DT The) (JJS best) (NN advice))
+    (SBAR (IN As)
+      (S
+        (NP (PRP you))
+        (VP (MD can)
+          (VP (VB see)
+            (PP (IN from)
+              (NP (DT the)
+                (ADJP (JJ above))
+                (, ,)
+                (ADJP (RB not) (DT all))
+                (NN fitness) (NN advice)))))))
+    (VP (VBZ is)
+      (NP (JJ good) (NN advice)))
+    (. .)))
+
+det(advice-3, The-1)
+amod(advice-3, best-2)
+nsubj(advice-18, advice-3)
+mark(see-7, As-4)
+nsubj(see-7, you-5)
+aux(see-7, can-6)
+dep(advice-18, see-7)
+case(advice-15, from-8)
+det(advice-15, the-9)
+amod(advice-15, above-10)
+neg(all-13, not-12)
+amod(advice-15, all-13)
+compound(advice-15, fitness-14)
+nmod:from(see-7, advice-15)
+cop(advice-18, is-16)
+amod(advice-18, good-17)
+root(ROOT-0, advice-18)
+
+(ROOT
+  (S
+    (VP (VB Be)
+      (ADJP (JJ careful)
+        (SBAR
+          (WHNP (WDT which))
+          (S
+            (VP (VBD advice)
+              (SBAR
+                (S
+                  (NP (PRP you))
+                  (VP (VBP follow)))))))))
+    (. .)))
+
+cop(careful-2, Be-1)
+root(ROOT-0, careful-2)
+nsubj(advice-4, which-3)
+ccomp(careful-2, advice-4)
+nsubj(follow-6, you-5)
+ccomp(advice-4, follow-6)
+
+(ROOT
+  (SBARQ (RB So) (, ,)
+    (WHNP (WP what))
+    (SQ
+      (VP (VBZ is)
+        (NP (DT the) (JJS best) (NN way))
+        (S
+          (VP (TO to)
+            (VP (VB get)
+              (NP (NN fit)))))))
+    (. ?)))
+
+advmod(way-7, So-1)
+nsubj(way-7, what-3)
+cop(way-7, is-4)
+det(way-7, the-5)
+amod(way-7, best-6)
+root(ROOT-0, way-7)
+mark(get-9, to-8)
+advcl(way-7, get-9)
+dobj(get-9, fit-10)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB Eat)
+        (ADVP (RB healthily)))
+      (CC and)
+      (VP (VB maintain)
+        (NP
+          (NP (DT a) (JJ good) (NN balance))
+          (PP (IN of)
+            (NP (JJ aerobic)
+              (CC and)
+              (JJ muscle-building) (NNS exercises))))))
+    (. .)))
+
+root(ROOT-0, Eat-1)
+advmod(Eat-1, healthily-2)
+cc(Eat-1, and-3)
+conj:and(Eat-1, maintain-4)
+det(balance-7, a-5)
+amod(balance-7, good-6)
+dobj(maintain-4, balance-7)
+case(exercises-12, of-8)
+amod(exercises-12, aerobic-9)
+cc(aerobic-9, and-10)
+conj:and(aerobic-9, muscle-building-11)
+amod(exercises-12, muscle-building-11)
+nmod:of(balance-7, exercises-12)
+
+(ROOT
+  (S
+    (VP (VB Make)
+      (NP (PRP$ your) (JJ healthy) (NN lifestyle))
+      (ADVP (RB last))
+      (PP
+        (PP (IN for)
+          (NP (DT a) (NN lifetime)))
+        (, ,)
+        (CONJP (RB not) (RB just))
+        (PP (IN for)
+          (NP (DT the) (NN summer)))))
+    (. .)))
+
+root(ROOT-0, Make-1)
+nmod:poss(lifestyle-4, your-2)
+amod(lifestyle-4, healthy-3)
+dobj(Make-1, lifestyle-4)
+advmod(Make-1, last-5)
+case(lifetime-8, for-6)
+det(lifetime-8, a-7)
+nmod:for(Make-1, lifetime-8)
+neg(just-11, not-10)
+dep(lifetime-8, just-11)
+case(summer-14, for-12)
+det(summer-14, the-13)
+conj(lifetime-8, summer-14)
+
+(ROOT
+  (S
+    (NP (NNP VVby) (NNP Melissa) (NNP Tan/This) (NN article))
+    (ADVP (RB first))
+    (VP (VBD appeared)
+      (SBAR
+        (FRAG
+          (PP (IN in)
+            (NP
+              (NP (NNP Studio) (NNP Classroom))
+              (, ,)))
+          (NP (NNP July) (CD 2005))
+          (: /))))
+    (. ?)))
+
+compound(article-4, VVby-1)
+compound(article-4, Melissa-2)
+compound(article-4, Tan/This-3)
+nsubj(appeared-6, article-4)
+advmod(appeared-6, first-5)
+root(ROOT-0, appeared-6)
+case(Classroom-9, in-7)
+compound(Classroom-9, Studio-8)
+nmod:in(July-11, Classroom-9)
+dep(appeared-6, July-11)
+nummod(July-11, 2005-12)
+
+(ROOT
+  (FRAG
+    (NP
+      (NP (NNP Overseas) (NNP Radio)
+        (CC &)
+        (NNP Television))
+      (NP (NNP Inc.)))
+    (: /)
+    (NP
+      (NP (NNP Reprinted))
+      (PP (IN by)
+        (NP (NN permission))))))
+
+compound(Radio-2, Overseas-1)
+root(ROOT-0, Radio-2)
+cc(Radio-2, &-3)
+conj:&(Radio-2, Television-4)
+appos(Radio-2, Inc.-5)
+dep(Radio-2, Reprinted-7)
+case(permission-9, by-8)
+nmod:by(Reprinted-7, permission-9)
+

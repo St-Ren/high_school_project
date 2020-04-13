@@ -1,0 +1,853 @@
+(ROOT
+  (S
+    (NP (DT The) (NNP Little) (NNP Shepherd))
+    (VP (VBZ Boy))
+    (. .)))
+
+det(Shepherd-3, The-1)
+compound(Shepherd-3, Little-2)
+nsubj(Boy-4, Shepherd-3)
+root(ROOT-0, Boy-4)
+
+(ROOT
+  (S
+    (ADVP (RB Once)
+      (PP (IN upon)
+        (NP (DT a) (NN time))))
+    (NP (EX there))
+    (VP (VBD was)
+      (NP (DT a)
+        (ADJP (RB little) (JJ shepherd))
+        (NN boy)))
+    (. .)))
+
+advmod(was-6, Once-1)
+case(time-4, upon-2)
+det(time-4, a-3)
+nmod:upon(Once-1, time-4)
+expl(was-6, there-5)
+root(ROOT-0, was-6)
+det(boy-10, a-7)
+advmod(shepherd-9, little-8)
+amod(boy-10, shepherd-9)
+nsubj(was-6, boy-10)
+
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (VBD was)
+      (ADJP (JJ famous)
+        (PP (IN for)
+          (NP
+            (NP (DT the) (JJ clever) (NN answer))
+            (SBAR
+              (S
+                (NP (PRP he))
+                (VP (MD could)
+                  (VP (VB give)
+                    (PP (TO to)
+                      (NP (DT any) (NN question)))))))))))
+    (. .)))
+
+nsubj(famous-3, He-1)
+cop(famous-3, was-2)
+root(ROOT-0, famous-3)
+case(answer-7, for-4)
+det(answer-7, the-5)
+amod(answer-7, clever-6)
+nmod:for(famous-3, answer-7)
+nsubj(give-10, he-8)
+aux(give-10, could-9)
+acl:relcl(answer-7, give-10)
+case(question-13, to-11)
+det(question-13, any-12)
+nmod:to(give-10, question-13)
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN king))
+      (PP (IN of)
+        (NP (DT the) (NN country))))
+    (VP
+      (VP (VBN heard)
+        (PP (IN about)
+          (NP (PRP him))))
+      (CC and)
+      (VP (VBN sent)
+        (PP (IN for)
+          (NP (PRP him)))
+        (SBAR (IN in) (NN order)
+          (S
+            (VP (TO to)
+              (VP (VB test)
+                (NP (DT the) (NNS boys) (NNS powers))))))))
+    (. .)))
+
+det(king-2, The-1)
+nsubj(heard-6, king-2)
+nsubj(sent-10, king-2)
+case(country-5, of-3)
+det(country-5, the-4)
+nmod:of(king-2, country-5)
+root(ROOT-0, heard-6)
+case(him-8, about-7)
+nmod:about(heard-6, him-8)
+cc(heard-6, and-9)
+conj:and(heard-6, sent-10)
+case(him-12, for-11)
+nmod:for(sent-10, him-12)
+mark(test-16, in-13)
+mwe(in-13, order-14)
+mark(test-16, to-15)
+advcl(sent-10, test-16)
+det(powers-19, the-17)
+compound(powers-19, boys-18)
+dobj(test-16, powers-19)
+
+(ROOT
+  (S
+    (SBAR (IN If)
+      (S
+        (NP (PRP you))
+        (VP
+          (VP (MD can)
+            (VP (VB answer)
+              (NP (PRP$ my) (CD three) (NNS questions))))
+          (, ,)
+          (VP (VBD said)
+            (NP (DT the) (NN king))))))
+    (, ,)
+    (NP (PRP I))
+    (VP (MD will)
+      (VP (VB take)
+        (NP (PRP you))
+        (PP (IN as)
+          (NP (PRP$ my) (JJ own) (NN child)))))
+    (. .)))
+
+mark(answer-4, If-1)
+nsubj(answer-4, you-2)
+aux(answer-4, can-3)
+advcl(take-15, answer-4)
+nmod:poss(questions-7, my-5)
+nummod(questions-7, three-6)
+dobj(answer-4, questions-7)
+dep(answer-4, said-9)
+det(king-11, the-10)
+dobj(said-9, king-11)
+nsubj(take-15, I-13)
+aux(take-15, will-14)
+root(ROOT-0, take-15)
+dobj(take-15, you-16)
+case(child-20, as-17)
+nmod:poss(child-20, my-18)
+amod(child-20, own-19)
+nmod:as(take-15, child-20)
+
+(ROOT
+  (S (RB Then)
+    (NP (PRP you))
+    (VP (MD can)
+      (VP (VB live)
+        (PP (IN with)
+          (NP (PRP me)))
+        (PP
+          (ADVP (RB here))
+          (IN in)
+          (NP (DT the) (NN palace)))))
+    (. .)))
+
+advmod(live-4, Then-1)
+nsubj(live-4, you-2)
+aux(live-4, can-3)
+root(ROOT-0, live-4)
+case(me-6, with-5)
+nmod:with(live-4, me-6)
+advmod(palace-10, here-7)
+case(palace-10, in-8)
+det(palace-10, the-9)
+nmod:in(live-4, palace-10)
+
+(ROOT
+  (S
+    (SBAR (IN As)
+      (S
+        (NP (PRP you))
+        (VP (VBP wish)))
+      (, ,))
+    (VP (VBD replied)
+      (NP (DT the) (NN boy)))
+    (. .)))
+
+mark(wish-3, As-1)
+nsubj(wish-3, you-2)
+csubj(replied-5, wish-3)
+root(ROOT-0, replied-5)
+det(boy-7, the-6)
+dobj(replied-5, boy-7)
+
+(ROOT
+  (SBARQ
+    (WHNP (WP What))
+    (SQ (VBP are)
+      (NP (PRP$ your) (NNS questions)))
+    (. ?)))
+
+root(ROOT-0, What-1)
+cop(What-1, are-2)
+nmod:poss(questions-4, your-3)
+nsubj(What-1, questions-4)
+
+(ROOT
+  (SINV
+    (S
+      (NP (RB Here))
+      (VP (VBZ is)
+        (NP (DT the) (JJ first))))
+    (, ,)
+    (VP (VBD said))
+    (NP (DT the) (NN king))
+    (. .)))
+
+nsubj(first-4, Here-1)
+cop(first-4, is-2)
+det(first-4, the-3)
+ccomp(said-6, first-4)
+root(ROOT-0, said-6)
+det(king-8, the-7)
+nsubj(said-6, king-8)
+
+(ROOT
+  (SBARQ
+    (WHNP
+      (WHNP
+        (WHADJP (WRB How) (JJ many))
+        (NNS drops))
+      (PP (IN of)
+        (NP (NN water))))
+    (SQ (VBP are)
+      (NP (EX there))
+      (PP (IN in)
+        (NP (DT the) (NN sea))))
+    (. ?)))
+
+advmod(many-2, How-1)
+amod(drops-3, many-2)
+nsubj(are-6, drops-3)
+case(water-5, of-4)
+nmod:of(drops-3, water-5)
+root(ROOT-0, are-6)
+expl(are-6, there-7)
+case(sea-10, in-8)
+det(sea-10, the-9)
+nmod:in(are-6, sea-10)
+
+(ROOT
+  (S
+    (NP
+      (NP (PRP$ Your) (NN Majesty))
+      (, ,)
+      (VP (VBN replied)
+        (NP (DT the) (NN boy))
+        (, ,)
+        (SBAR (IN if)
+          (S
+            (NP (PRP you))
+            (VP (MD can)
+              (VP (VB block)
+                (PRT (RP up))
+                (NP
+                  (NP (PDT all) (DT the) (NNS rivers))
+                  (PP (IN in)
+                    (NP (DT the) (NN world))))
+                (SBAR (RB so) (IN that)
+                  (S
+                    (NP
+                      (NP (DT no) (JJR more) (NN water))
+                      (, ,) (RB not) (RB even)
+                      (NP (DT a) (JJ single) (NN drop))
+                      (, ,))
+                    (VP (MD can)
+                      (VP (VB flow)
+                        (PP (IN into)
+                          (NP (DT the) (NN sea))))))))))))
+      (, ,))
+    (RB then)
+    (NP (PRP I))
+    (VP (MD will)
+      (VP (VB tell)
+        (NP (PRP you))
+        (SBAR
+          (WHADJP (WRB how) (JJ many))
+          (S
+            (NP (NNS drops))
+            (ADVP (RB there))
+            (VP (VBP are)
+              (PP (IN in)
+                (NP (PRP it))))))))
+    (. .)))
+
+nmod:poss(Majesty-2, Your-1)
+nsubj(tell-40, Majesty-2)
+acl(Majesty-2, replied-4)
+det(boy-6, the-5)
+dobj(replied-4, boy-6)
+mark(block-11, if-8)
+nsubj(block-11, you-9)
+aux(block-11, can-10)
+advcl(replied-4, block-11)
+compound:prt(block-11, up-12)
+det:predet(rivers-15, all-13)
+det(rivers-15, the-14)
+dobj(block-11, rivers-15)
+case(world-18, in-16)
+det(world-18, the-17)
+nmod:in(rivers-15, world-18)
+mark(flow-32, so-19)
+mwe(so-19, that-20)
+neg(water-23, no-21)
+amod(water-23, more-22)
+nsubj(flow-32, water-23)
+neg(water-23, not-25)
+advmod(water-23, even-26)
+det(drop-29, a-27)
+amod(drop-29, single-28)
+dep(water-23, drop-29)
+aux(flow-32, can-31)
+advcl(block-11, flow-32)
+case(sea-35, into-33)
+det(sea-35, the-34)
+nmod:into(flow-32, sea-35)
+advmod(tell-40, then-37)
+nsubj(tell-40, I-38)
+aux(tell-40, will-39)
+root(ROOT-0, tell-40)
+dobj(tell-40, you-41)
+advmod(many-43, how-42)
+dep(it-48, many-43)
+nsubj(it-48, drops-44)
+advmod(it-48, there-45)
+cop(it-48, are-46)
+case(it-48, in-47)
+ccomp(tell-40, it-48)
+
+(ROOT
+  (SINV
+    (S
+      (NP (RB Here))
+      (VP (VBZ is)
+        (NP (DT the) (JJ second) (NN question))))
+    (, ,)
+    (VP (VBD said))
+    (NP (DT the) (NN king))
+    (. .)))
+
+nsubj(question-5, Here-1)
+cop(question-5, is-2)
+det(question-5, the-3)
+amod(question-5, second-4)
+ccomp(said-7, question-5)
+root(ROOT-0, said-7)
+det(king-9, the-8)
+nsubj(said-7, king-9)
+
+(ROOT
+  (SBARQ
+    (WHNP
+      (WHADJP (WRB How) (JJ many))
+      (NNS stars))
+    (SQ (VBP are)
+      (NP (EX there))
+      (PP (IN in)
+        (NP (DT the) (NN sky))))
+    (. ?)))
+
+advmod(many-2, How-1)
+amod(stars-3, many-2)
+nsubj(are-4, stars-3)
+root(ROOT-0, are-4)
+expl(are-4, there-5)
+case(sky-8, in-6)
+det(sky-8, the-7)
+nmod:in(are-4, sky-8)
+
+(ROOT
+  (SINV
+    (S
+      (VP (VB Give)
+        (NP (PRP me))
+        (NP
+          (NP (DT a) (JJ big) (NN sheet))
+          (PP (IN of)
+            (NP (NN paper))))))
+    (, ,)
+    (VP (VBD said))
+    (NP (DT the) (NN boy))
+    (. .)))
+
+ccomp(said-9, Give-1)
+iobj(Give-1, me-2)
+det(sheet-5, a-3)
+amod(sheet-5, big-4)
+dobj(Give-1, sheet-5)
+case(paper-7, of-6)
+nmod:of(sheet-5, paper-7)
+root(ROOT-0, said-9)
+det(boy-11, the-10)
+nsubj(said-9, boy-11)
+
+(ROOT
+  (S (RB Then)
+    (NP (PRP he))
+    (VP
+      (VP (VBD took)
+        (NP (DT a) (NN pen)))
+      (CC and)
+      (VP (VBD made)
+        (NP (RB so) (JJ many) (NN dots))
+        (PP (IN on)
+          (NP (DT the) (NN paper)))
+        (SBAR (IN that)
+          (S
+            (NP (PRP it))
+            (VP (VBD was)
+              (ADJP (JJ impossible)
+                (S
+                  (VP (TO to)
+                    (VP (VB tell)
+                      (NP (CD one) (NN dot))
+                      (PP (IN from)
+                        (NP (DT the) (JJ next))))))))))))
+    (. .)))
+
+advmod(took-3, Then-1)
+nsubj(took-3, he-2)
+nsubj(made-7, he-2)
+root(ROOT-0, took-3)
+det(pen-5, a-4)
+dobj(took-3, pen-5)
+cc(took-3, and-6)
+conj:and(took-3, made-7)
+advmod(dots-10, so-8)
+amod(dots-10, many-9)
+dobj(made-7, dots-10)
+case(paper-13, on-11)
+det(paper-13, the-12)
+nmod:on(made-7, paper-13)
+mark(impossible-17, that-14)
+nsubj(impossible-17, it-15)
+nsubj(tell-19, it-15)
+cop(impossible-17, was-16)
+ccomp(made-7, impossible-17)
+mark(tell-19, to-18)
+xcomp(impossible-17, tell-19)
+nummod(dot-21, one-20)
+dobj(tell-19, dot-21)
+case(next-24, from-22)
+det(next-24, the-23)
+nmod:from(tell-19, next-24)
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBD made)
+      (S
+        (NP (DT the) (NN king))
+        (ADJP (RB quite) (JJ dizzy))
+        (SBAR (RB just)
+          (S
+            (VP (TO to)
+              (VP (VB look)
+                (PP (IN at)
+                  (NP (PRP it)))))))))
+    (. .)))
+
+nsubj(made-2, It-1)
+root(ROOT-0, made-2)
+det(king-4, the-3)
+nsubj(look-9, king-4)
+advmod(dizzy-6, quite-5)
+dep(look-9, dizzy-6)
+advmod(look-9, just-7)
+mark(look-9, to-8)
+xcomp(made-2, look-9)
+case(it-11, at-10)
+nmod:at(look-9, it-11)
+
+(ROOT
+  (SINV
+    (S
+      (NP (EX There))
+      (VP (VBP are)
+        (PP (IN as)
+          (NP
+            (NP (JJ many) (NNS stars))
+            (PP (IN in)
+              (NP (DT the) (NN sky)))))
+        (SBAR (IN as)
+          (S
+            (NP (EX there))
+            (VP (VBP are)
+              (VP (VBG dots)
+                (PP (IN on)
+                  (NP
+                    (NP (DT this) (NN sheet))
+                    (PP (IN of)
+                      (NP (NN paper)))))))))))
+    (, ,)
+    (VP (VBD said))
+    (NP (DT the) (NN boy))
+    (. .)))
+
+expl(are-2, There-1)
+ccomp(said-19, are-2)
+case(stars-5, as-3)
+amod(stars-5, many-4)
+nmod:as(are-2, stars-5)
+case(sky-8, in-6)
+det(sky-8, the-7)
+nmod:in(stars-5, sky-8)
+mark(dots-12, as-9)
+expl(dots-12, there-10)
+aux(dots-12, are-11)
+advcl(are-2, dots-12)
+case(sheet-15, on-13)
+det(sheet-15, this-14)
+nmod:on(dots-12, sheet-15)
+case(paper-17, of-16)
+nmod:of(sheet-15, paper-17)
+root(ROOT-0, said-19)
+det(boy-21, the-20)
+nsubj(said-19, boy-21)
+
+(ROOT
+  (S
+    (VP (VB Count)
+      (NP (PRP them)))
+    (. !)))
+
+root(ROOT-0, Count-1)
+dobj(Count-1, them-2)
+
+(ROOT
+  (S (CC But)
+    (NP (DT no) (NN one))
+    (VP (VBD was)
+      (ADJP (JJ able)
+        (S
+          (VP (TO to)
+            (VP (VB count)
+              (NP (PRP them)))))))
+    (. .)))
+
+cc(able-5, But-1)
+neg(one-3, no-2)
+nsubj(able-5, one-3)
+nsubj(count-7, one-3)
+cop(able-5, was-4)
+root(ROOT-0, able-5)
+mark(count-7, to-6)
+xcomp(able-5, count-7)
+dobj(count-7, them-8)
+
+(ROOT
+  (SINV
+    (S
+      (ADVP (RB Here))
+      (, ,)
+      (ADVP (RB then))
+      (, ,)
+      (VP (VBZ is)
+        (NP (PRP$ my) (JJ third) (NN question))))
+    (, ,)
+    (VP (VBD said))
+    (NP (DT the) (NN king))
+    (. .)))
+
+advmod(question-8, Here-1)
+advmod(question-8, then-3)
+cop(question-8, is-5)
+nmod:poss(question-8, my-6)
+amod(question-8, third-7)
+ccomp(said-10, question-8)
+root(ROOT-0, said-10)
+det(king-12, the-11)
+nsubj(said-10, king-12)
+
+(ROOT
+  (SBARQ
+    (WHNP
+      (WHADJP (WRB How) (JJ many))
+      (NNS seconds))
+    (SQ (VBP are)
+      (NP (EX there))
+      (PP (IN in)
+        (NP (NN eternity))))
+    (. ?)))
+
+advmod(many-2, How-1)
+amod(seconds-3, many-2)
+nsubj(are-4, seconds-3)
+root(ROOT-0, are-4)
+expl(are-4, there-5)
+case(eternity-7, in-6)
+nmod:in(are-4, eternity-7)
+
+(ROOT
+  (S
+    (ADVP (RB Thats))
+    (ADVP (RB easy))
+    (, ,)
+    (VP (VBD replied)
+      (NP (DT the) (NN boy)))
+    (. .)))
+
+advmod(replied-4, Thats-1)
+advmod(replied-4, easy-2)
+root(ROOT-0, replied-4)
+det(boy-6, the-5)
+dobj(replied-4, boy-6)
+
+(ROOT
+  (S
+    (NP (EX There))
+    (VP (VBZ is)
+      (NP
+        (NP (DT a) (JJ huge) (NN mountain))
+        (VP (VBN called)
+          (NP (NNP Diamond) (NNP Mountain)))))
+    (. .)))
+
+expl(is-2, There-1)
+root(ROOT-0, is-2)
+det(mountain-5, a-3)
+amod(mountain-5, huge-4)
+nsubj(is-2, mountain-5)
+acl(mountain-5, called-6)
+compound(Mountain-8, Diamond-7)
+dobj(called-6, Mountain-8)
+
+(ROOT
+  (S
+    (NP (PRP$ Its) (NN twenty))
+    (VP
+      (ADVP
+        (ADVP
+          (NP (CD thousand) (NNS feet))
+          (RB high))
+        (CC and)
+        (NP (CD twenty) (NNS miles)))
+      (VBP round))
+    (. .)))
+
+nmod:poss(twenty-2, Its-1)
+nsubj(round-9, twenty-2)
+nummod(feet-4, thousand-3)
+nmod:npmod(high-5, feet-4)
+advmod(round-9, high-5)
+cc(high-5, and-6)
+nummod(miles-8, twenty-7)
+conj:and(high-5, miles-8)
+advmod(round-9, miles-8)
+root(ROOT-0, round-9)
+
+(ROOT
+  (S
+    (PP (IN Once)
+      (NP (DT every) (CD hundred) (NNS years)))
+    (NP (DT a) (NN sparrow))
+    (VP (VBZ comes)
+      (CC and)
+      (VBZ sharpens)
+      (NP (PRP$ its) (NN beak))
+      (PP (IN on)
+        (NP (DT this) (NN mountain))))
+    (. .)))
+
+case(years-4, Once-1)
+det(years-4, every-2)
+nummod(years-4, hundred-3)
+nmod:once(comes-7, years-4)
+det(sparrow-6, a-5)
+nsubj(comes-7, sparrow-6)
+nsubj(sharpens-9, sparrow-6)
+root(ROOT-0, comes-7)
+cc(comes-7, and-8)
+conj:and(comes-7, sharpens-9)
+nmod:poss(beak-11, its-10)
+dobj(comes-7, beak-11)
+case(mountain-14, on-12)
+det(mountain-14, this-13)
+nmod:on(comes-7, mountain-14)
+
+(ROOT
+  (S
+    (SBAR
+      (WHADVP (WRB When))
+      (S
+        (NP (DT the) (JJ whole) (NN mountain))
+        (VP (VBZ has)
+          (VP (VBN been)
+            (VP (VBN worn)
+              (PRT (RP away)))))))
+    (, ,)
+    (NP (DT that))
+    (VP (MD will)
+      (VP (VB be)
+        (NP
+          (NP (DT the) (NN end))
+          (PP (IN of)
+            (NP
+              (NP (DT the) (JJ first) (NN second))
+              (PP (IN of)
+                (NP (NN eternity))))))))
+    (. .)))
+
+advmod(worn-7, When-1)
+det(mountain-4, the-2)
+amod(mountain-4, whole-3)
+nsubjpass(worn-7, mountain-4)
+aux(worn-7, has-5)
+auxpass(worn-7, been-6)
+advcl(end-14, worn-7)
+compound:prt(worn-7, away-8)
+nsubj(end-14, that-10)
+aux(end-14, will-11)
+cop(end-14, be-12)
+det(end-14, the-13)
+root(ROOT-0, end-14)
+case(second-18, of-15)
+det(second-18, the-16)
+amod(second-18, first-17)
+nmod:of(end-14, second-18)
+case(eternity-20, of-19)
+nmod:of(second-18, eternity-20)
+
+(ROOT
+  (SINV
+    (FRAG
+      (INTJ (JJ Good)))
+    (, ,)
+    (VP (VBD said))
+    (NP (DT the) (NN king))
+    (. .)))
+
+dep(said-3, Good-1)
+root(ROOT-0, said-3)
+det(king-5, the-4)
+nsubj(said-3, king-5)
+
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (VBP have)
+      (VP (VBN answered)
+        (NP (PRP$ my) (NNS questions))
+        (PP (IN with)
+          (NP
+            (NP (DT the) (NN wisdom))
+            (PP (IN of)
+              (NP (DT a) (JJ great) (NN scholar)))))))
+    (. .)))
+
+nsubj(answered-3, You-1)
+aux(answered-3, have-2)
+root(ROOT-0, answered-3)
+nmod:poss(questions-5, my-4)
+dobj(answered-3, questions-5)
+case(wisdom-8, with-6)
+det(wisdom-8, the-7)
+nmod:with(answered-3, wisdom-8)
+case(scholar-12, of-9)
+det(scholar-12, a-10)
+amod(scholar-12, great-11)
+nmod:of(wisdom-8, scholar-12)
+
+(ROOT
+  (S
+    (S
+      (NP (PRP You))
+      (VP (MD shall)
+        (VP (VB stay)
+          (PP (IN in)
+            (NP (PRP$ my) (NN palace))))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (PRP I))
+      (VP (MD will)
+        (VP (VB look)
+          (PP (IN upon)
+            (NP (PRP you)))
+          (PP (IN as)
+            (NP (PRP$ my) (JJ own) (NN child))))))
+    (. .)))
+
+nsubj(stay-3, You-1)
+aux(stay-3, shall-2)
+root(ROOT-0, stay-3)
+case(palace-6, in-4)
+nmod:poss(palace-6, my-5)
+nmod:in(stay-3, palace-6)
+cc(stay-3, and-8)
+nsubj(look-11, I-9)
+aux(look-11, will-10)
+conj:and(stay-3, look-11)
+case(you-13, upon-12)
+nmod:upon(look-11, you-13)
+case(child-17, as-14)
+nmod:poss(child-17, my-15)
+amod(child-17, own-16)
+nmod:as(look-11, child-17)
+
+(ROOT
+  (S
+    (VP (VB VVfrom)
+      (NP (PRP$ My) (NNP Second) (NNP Story) (NNP Book))
+      (PP (IN by)
+        (NP
+          (NP (NNP Richard) (NNP Bamberger))
+          (, ,)
+          (VP (VBN published)
+            (PP (IN by)
+              (NP (NNP Oliver)
+                (CC &)
+                (NNP Boyd)))))))
+    (. .)))
+
+root(ROOT-0, VVfrom-1)
+nmod:poss(Book-5, My-2)
+compound(Book-5, Second-3)
+compound(Book-5, Story-4)
+dobj(VVfrom-1, Book-5)
+case(Bamberger-8, by-6)
+compound(Bamberger-8, Richard-7)
+nmod:by(VVfrom-1, Bamberger-8)
+acl(Bamberger-8, published-10)
+case(Oliver-12, by-11)
+nmod:by(published-10, Oliver-12)
+cc(Oliver-12, &-13)
+nmod:by(published-10, Boyd-14)
+conj:&(Oliver-12, Boyd-14)
+
+(ROOT
+  (S
+    (VP (VBN Reprinted)
+      (PP (IN by)
+        (NP
+          (NP (NN permission))
+          (PP (IN of)
+            (NP (DT The) (NNP Random) (NNP House) (NNP Group) (NNP Ltd.))))))
+    (. .)))
+
+root(ROOT-0, Reprinted-1)
+case(permission-3, by-2)
+nmod:by(Reprinted-1, permission-3)
+case(Ltd.-9, of-4)
+det(Ltd.-9, The-5)
+compound(Ltd.-9, Random-6)
+compound(Ltd.-9, House-7)
+compound(Ltd.-9, Group-8)
+nmod:of(permission-3, Ltd.-9)
+

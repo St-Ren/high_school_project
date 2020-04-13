@@ -1,0 +1,1259 @@
+(ROOT
+  (NP
+    (NP (NNP Feeding))
+    (NP
+      (NP (DT the) (NNP World))
+      (PP (IN in)
+        (NP (DT the) (NNP Future))))
+    (. .)))
+
+root(ROOT-0, Feeding-1)
+det(World-3, the-2)
+dep(Feeding-1, World-3)
+case(Future-6, in-4)
+det(Future-6, the-5)
+nmod:in(World-3, Future-6)
+
+(ROOT
+  (S
+    (NP (NN Today))
+    (NP (EX there))
+    (VP (VBP are)
+      (NP
+        (NP
+          (QP (CD six) (CD billion))
+          (NNS people))
+        (PP (IN on)
+          (NP (NN earth)))))
+    (. .)))
+
+nmod:tmod(are-3, Today-1)
+expl(are-3, there-2)
+root(ROOT-0, are-3)
+compound(billion-5, six-4)
+nummod(people-6, billion-5)
+nsubj(are-3, people-6)
+case(earth-8, on-7)
+nmod:on(people-6, earth-8)
+
+(ROOT
+  (S
+    (PP (IN By)
+      (NP (DT the) (NN year) (CD 2050)))
+    (NP (EX there))
+    (VP (MD may)
+      (VP (VB be)
+        (NP
+          (NP
+            (QP (RB as) (JJ many) (IN as) (CD 12.5) (CD billion)))
+          (, ,)
+          (SBAR
+            (WHNP (WDT which))
+            (S
+              (VP (VBZ is)
+                (NP
+                  (NP (DT a) (NN lot))
+                  (PP (IN of)
+                    (NP (NNS people)
+                      (S
+                        (VP (TO to)
+                          (VP (VB feed)))))))))))))
+    (. .)))
+
+case(year-3, By-1)
+det(year-3, the-2)
+nmod:by(billion-12, year-3)
+nummod(year-3, 2050-4)
+expl(billion-12, there-5)
+aux(billion-12, may-6)
+cop(billion-12, be-7)
+advmod(billion-12, as-8)
+advmod(billion-12, many-9)
+advmod(billion-12, as-10)
+compound(billion-12, 12.5-11)
+root(ROOT-0, billion-12)
+nsubj(lot-17, billion-12)
+ref(billion-12, which-14)
+cop(lot-17, is-15)
+det(lot-17, a-16)
+acl:relcl(billion-12, lot-17)
+case(people-19, of-18)
+nmod:of(lot-17, people-19)
+mark(feed-21, to-20)
+acl(people-19, feed-21)
+
+(ROOT
+  (SQ (MD Can)
+    (NP (NNS farmers))
+    (ADVP (RB all)
+      (PP (IN over)
+        (NP (DT the) (NN world))))
+    (VP (VB provide)
+      (NP (JJ enough) (NN food))
+      (PP (IN for)
+        (NP (NN everyone))))
+    (. ?)))
+
+aux(provide-7, Can-1)
+nsubj(provide-7, farmers-2)
+advmod(provide-7, all-3)
+case(world-6, over-4)
+det(world-6, the-5)
+nmod:over(all-3, world-6)
+root(ROOT-0, provide-7)
+amod(food-9, enough-8)
+dobj(provide-7, food-9)
+case(everyone-11, for-10)
+nmod:for(provide-7, everyone-11)
+
+(ROOT
+  (S
+    (NP
+      (NP
+        (NP (DT The) (JJ Western) (NN world) (POS 's))
+        (NN answer))
+      (PP (TO to)
+        (NP (DT the) (NN question))))
+    (VP (VBZ is)
+      (S
+        (VP (TO to)
+          (VP (VB use)
+            (NP (NN technology))
+            (S
+              (VP (TO to)
+                (VP (VB produce)
+                  (NP (NN food))
+                  (ADVP (RBR more) (RB quickly)))))))))
+    (. .)))
+
+det(world-3, The-1)
+amod(world-3, Western-2)
+nmod:poss(answer-5, world-3)
+case(world-3, 's-4)
+nsubj(is-9, answer-5)
+nsubj(use-11, answer-5)
+case(question-8, to-6)
+det(question-8, the-7)
+nmod:to(answer-5, question-8)
+root(ROOT-0, is-9)
+mark(use-11, to-10)
+xcomp(is-9, use-11)
+dobj(use-11, technology-12)
+mark(produce-14, to-13)
+advcl(use-11, produce-14)
+dobj(produce-14, food-15)
+advmod(quickly-17, more-16)
+advmod(produce-14, quickly-17)
+
+(ROOT
+  (S
+    (NP (DT This) (NN approach))
+    (VP (VBZ has)
+      (VP (VBN been)
+        (ADJP (RB very) (JJ successful))))
+    (. .)))
+
+det(approach-2, This-1)
+nsubj(successful-6, approach-2)
+aux(successful-6, has-3)
+cop(successful-6, been-4)
+advmod(successful-6, very-5)
+root(ROOT-0, successful-6)
+
+(ROOT
+  (S
+    (PP (IN Since)
+      (NP (CD 1961)))
+    (, ,)
+    (S
+      (NP
+        (NP (NNS farmers))
+        (PP (IN in)
+          (NP (DT the) (NNP West))))
+      (VP (VBP have)
+        (VP (VBN produced)
+          (NP
+            (NP
+              (QP (RB nearly) (DT a) (NN quarter) (JJR more))
+              (NN food))
+            (PP (IN per)
+              (NP (NN person)))))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (PRP they))
+      (VP (VBP have)
+        (VP (VBN produced)
+          (NP (PRP it))
+          (PP (IN at)
+            (NP (DT a) (NN cost) (CD 40) (NN percent)))
+          (ADVP (RBR lower) (IN than) (RB before)))))
+    (. .)))
+
+case(1961-2, Since-1)
+nmod:since(produced-9, 1961-2)
+nsubj(produced-9, farmers-4)
+case(West-7, in-5)
+det(West-7, the-6)
+nmod:in(farmers-4, West-7)
+aux(produced-9, have-8)
+root(ROOT-0, produced-9)
+advmod(quarter-12, nearly-10)
+advmod(quarter-12, a-11)
+nummod(food-14, quarter-12)
+advmod(quarter-12, more-13)
+dobj(produced-9, food-14)
+case(person-16, per-15)
+nmod:per(food-14, person-16)
+cc(produced-9, and-18)
+nsubj(produced-21, they-19)
+aux(produced-21, have-20)
+conj:and(produced-9, produced-21)
+dobj(produced-21, it-22)
+case(percent-27, at-23)
+det(percent-27, a-24)
+compound(percent-27, cost-25)
+nummod(percent-27, 40-26)
+nmod:at(produced-21, percent-27)
+advmod(before-30, lower-28)
+case(before-30, than-29)
+advmod(produced-21, before-30)
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NNS foods))
+      (SBAR
+        (S
+          (NP (PRP they))
+          (VP (VBP are)
+            (VP (VBG producing))))))
+    (VP (VBP include)
+      (NP (NN wheat) (, ,) (NN corn) (, ,)
+        (CC and)
+        (NN rice)))
+    (. .)))
+
+det(foods-2, The-1)
+nsubj(include-6, foods-2)
+nsubj(producing-5, they-3)
+aux(producing-5, are-4)
+acl:relcl(foods-2, producing-5)
+root(ROOT-0, include-6)
+dobj(include-6, wheat-7)
+dobj(include-6, corn-9)
+conj:and(wheat-7, corn-9)
+cc(wheat-7, and-11)
+dobj(include-6, rice-12)
+conj:and(wheat-7, rice-12)
+
+(ROOT
+  (S
+    (NP (DT These))
+    (VP (VBP are)
+      (ADJP (JJ important)
+        (SBAR (IN because)
+          (S
+            (NP (PRP they))
+            (VP (VBP represent)
+              (NP
+                (NP (NN half))
+                (PP (IN of)
+                  (NP
+                    (NP (PDT all) (DT the) (NN food))
+                    (SBAR
+                      (S
+                        (NP (PRP we))
+                        (VP (VBP eat)
+                          (PP (IN in)
+                            (NP (DT the) (NN world))))))))))))))
+    (. .)))
+
+nsubj(important-3, These-1)
+cop(important-3, are-2)
+root(ROOT-0, important-3)
+mark(represent-6, because-4)
+nsubj(represent-6, they-5)
+ccomp(important-3, represent-6)
+dobj(represent-6, half-7)
+case(food-11, of-8)
+det:predet(food-11, all-9)
+det(food-11, the-10)
+nmod:of(half-7, food-11)
+nsubj(eat-13, we-12)
+acl:relcl(food-11, eat-13)
+case(world-16, in-14)
+det(world-16, the-15)
+nmod:in(eat-13, world-16)
+
+(ROOT
+  (S
+    (NP
+      (NP (CD One) (NN way))
+      (SBAR
+        (S
+          (VP (TO to)
+            (VP (VB produce)
+              (NP (JJR more) (NN food)))))))
+    (VP (VBZ is)
+      (PP (IN by)
+        (S
+          (VP (VBG growing)
+            (NP (JJR stronger) (NNS plants))))))
+    (. .)))
+
+nummod(way-2, One-1)
+nsubj(growing-9, way-2)
+mark(produce-4, to-3)
+acl(way-2, produce-4)
+amod(food-6, more-5)
+dobj(produce-4, food-6)
+cop(growing-9, is-7)
+mark(growing-9, by-8)
+root(ROOT-0, growing-9)
+amod(plants-11, stronger-10)
+dobj(growing-9, plants-11)
+
+(ROOT
+  (S
+    (PP (IN For)
+      (NP
+        (NP (NNS thousands))
+        (PP (IN of)
+          (NP (NNS years)))))
+    (, ,)
+    (NP (NNS farmers))
+    (VP (VBP have)
+      (VP (VBN tried)
+        (S
+          (VP (TO to)
+            (VP (VB make)
+              (S
+                (NP (PRP$ their) (NNS crops))
+                (ADJP (JJR stronger))))))))
+    (. .)))
+
+case(thousands-2, For-1)
+nmod:for(tried-8, thousands-2)
+case(years-4, of-3)
+nmod:of(thousands-2, years-4)
+nsubj(tried-8, farmers-6)
+nsubj(make-10, farmers-6)
+aux(tried-8, have-7)
+root(ROOT-0, tried-8)
+mark(make-10, to-9)
+xcomp(tried-8, make-10)
+nmod:poss(crops-12, their-11)
+nsubj(stronger-13, crops-12)
+xcomp(make-10, stronger-13)
+
+(ROOT
+  (S
+    (NP (DT Every) (NN season))
+    (, ,)
+    (NP (PRP they))
+    (VP (VBP pick)
+      (NP
+        (NP (DT the) (JJS strongest))
+        (CC and)
+        (NP
+          (NP (JJ healthiest) (NNS plants))
+          (PP (IN for)
+            (NP (DT the) (JJ next) (NN season))))))
+    (. .)))
+
+det(season-2, Every-1)
+nsubj(pick-5, season-2)
+nsubj(pick-5, they-4)
+root(ROOT-0, pick-5)
+det(strongest-7, the-6)
+dobj(pick-5, strongest-7)
+cc(strongest-7, and-8)
+amod(plants-10, healthiest-9)
+dobj(pick-5, plants-10)
+conj:and(strongest-7, plants-10)
+case(season-14, for-11)
+det(season-14, the-12)
+amod(season-14, next-13)
+nmod:for(plants-10, season-14)
+
+(ROOT
+  (S (CC But)
+    (NP (DT this) (NN method))
+    (VP (VBZ works)
+      (ADVP (RB very) (RB slowly)))
+    (. .)))
+
+cc(works-4, But-1)
+det(method-3, this-2)
+nsubj(works-4, method-3)
+root(ROOT-0, works-4)
+advmod(slowly-6, very-5)
+advmod(works-4, slowly-6)
+
+(ROOT
+  (S
+    (PP (IN Since)
+      (NP (CD 1983)))
+    (, ,)
+    (ADVP (RB however))
+    (, ,)
+    (NP (NNS scientists))
+    (VP (VBP have)
+      (VP (VBN been)
+        (ADJP (JJ able)
+          (S
+            (VP (TO to)
+              (VP (VB develop)
+                (NP (JJR stronger) (NNS plants))
+                (ADVP (RBR more) (RB quickly))
+                (PP (IN by)
+                  (S
+                    (VP (VBG changing)
+                      (NP (PRP$ their) (JJ genetic) (NN material)))))))))))
+    (. .)))
+
+case(1983-2, Since-1)
+nmod:since(able-9, 1983-2)
+advmod(able-9, however-4)
+nsubj(able-9, scientists-6)
+nsubj(develop-11, scientists-6)
+aux(able-9, have-7)
+cop(able-9, been-8)
+root(ROOT-0, able-9)
+mark(develop-11, to-10)
+xcomp(able-9, develop-11)
+amod(plants-13, stronger-12)
+dobj(develop-11, plants-13)
+advmod(quickly-15, more-14)
+advmod(develop-11, quickly-15)
+mark(changing-17, by-16)
+advcl(develop-11, changing-17)
+nmod:poss(material-20, their-18)
+amod(material-20, genetic-19)
+dobj(changing-17, material-20)
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP Foods))
+      (PP (IN from)
+        (NP
+          (NP (NNS plants))
+          (VP (VBN grown)
+            (PP (IN in)
+              (NP (DT this) (NN way)))))))
+    (VP (VBP are)
+      (VP (VBN called)
+        (NP
+          (NP
+            (ADJP (RB genetically) (JJ modified))
+            (NNS foods))
+          (, ,)
+          (CC or)
+          (NP
+            (NP (NNP GM))
+            (NP (NNS foods))))))
+    (. .)))
+
+nsubjpass(called-9, Foods-1)
+case(plants-3, from-2)
+nmod:from(Foods-1, plants-3)
+acl(plants-3, grown-4)
+case(way-7, in-5)
+det(way-7, this-6)
+nmod:in(grown-4, way-7)
+auxpass(called-9, are-8)
+root(ROOT-0, called-9)
+advmod(modified-11, genetically-10)
+amod(foods-12, modified-11)
+dobj(called-9, foods-12)
+cc(foods-12, or-14)
+dobj(called-9, GM-15)
+conj:or(foods-12, GM-15)
+dep(GM-15, foods-16)
+
+(ROOT
+  (S
+    (NP (DT These) (NNP GM) (NNS foods))
+    (PRN (, ,)
+      (S
+        (NP (JJ many) (NNS people))
+        (VP (VBP believe)))
+      (, ,))
+    (VP (VBP are)
+      (NP
+        (NP (DT the) (JJS best) (NN answer))
+        (PP (TO to)
+          (S
+            (VP (VBG feeding)
+              (NP (DT the) (JJ worlds) (VBG growing) (NN population)))))))
+    (. .)))
+
+det(foods-3, These-1)
+compound(foods-3, GM-2)
+nsubj(answer-12, foods-3)
+amod(people-6, many-5)
+nsubj(believe-7, people-6)
+parataxis(answer-12, believe-7)
+cop(answer-12, are-9)
+det(answer-12, the-10)
+amod(answer-12, best-11)
+root(ROOT-0, answer-12)
+mark(feeding-14, to-13)
+acl(answer-12, feeding-14)
+det(population-18, the-15)
+amod(population-18, worlds-16)
+amod(population-18, growing-17)
+dobj(feeding-14, population-18)
+
+(ROOT
+  (S
+    (NP (DT Some) (NNP GM) (NNS plants))
+    (VP (MD may)
+      (VP (VB have)
+        (NP (JJ other) (NNS advantages))
+        (ADVP (RB as) (RB well))))
+    (. .)))
+
+det(plants-3, Some-1)
+compound(plants-3, GM-2)
+nsubj(have-5, plants-3)
+aux(have-5, may-4)
+root(ROOT-0, have-5)
+amod(advantages-7, other-6)
+dobj(have-5, advantages-7)
+advmod(have-5, as-8)
+mwe(as-8, well-9)
+
+(ROOT
+  (S
+    (NP (PRP They))
+    (VP (MD may)
+      (ADVP (RB also))
+      (VP (VB be)
+        (ADJP (JJ able)
+          (S
+            (VP (TO to)
+              (VP (VB help)
+                (VP (VB fight)
+                  (NP (JJ human) (NNS diseases)))))))))
+    (. .)))
+
+nsubj(able-5, They-1)
+nsubj(help-7, They-1)
+aux(able-5, may-2)
+advmod(able-5, also-3)
+cop(able-5, be-4)
+root(ROOT-0, able-5)
+mark(help-7, to-6)
+xcomp(able-5, help-7)
+xcomp(help-7, fight-8)
+amod(diseases-10, human-9)
+dobj(fight-8, diseases-10)
+
+(ROOT
+  (S
+    (NP
+      (NP (DT A) (NN kind))
+      (PP (IN of)
+        (NP (NN rice))))
+    (VP (VBZ is)
+      (VP (VBG being)
+        (VP (VBN developed) (, ,)
+          (PP (IN for)
+            (NP
+              (NP (NN example))
+              (, ,)
+              (SBAR
+                (WHNP (WDT which))
+                (S
+                  (VP (MD may)
+                    (VP (VB help)
+                      (VP (VB prevent)
+                        (NP (DT some) (NNS people))
+                        (PP (IN from)
+                          (S
+                            (VP (VBG going)
+                              (ADJP (JJ blind)))))))))))))))
+    (. .)))
+
+det(kind-2, A-1)
+nsubjpass(developed-7, kind-2)
+case(rice-4, of-3)
+nmod:of(kind-2, rice-4)
+aux(developed-7, is-5)
+auxpass(developed-7, being-6)
+root(ROOT-0, developed-7)
+case(example-10, for-9)
+nmod:for(developed-7, example-10)
+nsubj(help-14, example-10)
+ref(example-10, which-12)
+aux(help-14, may-13)
+acl:relcl(example-10, help-14)
+xcomp(help-14, prevent-15)
+det(people-17, some-16)
+dobj(prevent-15, people-17)
+mark(going-19, from-18)
+advcl(prevent-15, going-19)
+xcomp(going-19, blind-20)
+
+(ROOT
+  (S
+    (NP (NNP GM) (NNS foods))
+    (VP (VBP are)
+      (VP (VBG being)
+        (VP (VBN welcomed)
+          (PP (IN by)
+            (NP
+              (ADJP (DT both) (JJ rich)
+                (CC and)
+                (JJ poor))
+              (NNS countries))))))
+    (. .)))
+
+compound(foods-2, GM-1)
+nsubjpass(welcomed-5, foods-2)
+aux(welcomed-5, are-3)
+auxpass(welcomed-5, being-4)
+root(ROOT-0, welcomed-5)
+case(countries-11, by-6)
+cc:preconj(rich-8, both-7)
+amod(countries-11, rich-8)
+cc(rich-8, and-9)
+conj:and(rich-8, poor-10)
+amod(countries-11, poor-10)
+nmod:by(welcomed-5, countries-11)
+
+(ROOT
+  (S
+    (NP (NNP Rich) (NNS countries))
+    (VP (VBP produce)
+      (NP (NNP GM) (NNS foods))
+      (SBAR
+        (SBAR (IN because)
+          (S
+            (NP (PRP they))
+            (VP (VBP are)
+              (ADJP (JJ easy)
+                (S
+                  (VP (TO to)
+                    (VP (VB grow))))))))
+        (CC and)
+        (SBAR (IN because)
+          (S
+            (NP (PRP they))
+            (VP (MD can)
+              (VP (VB bring)
+                (PP (IN in)
+                  (NP (JJR more) (NN money)))))))))
+    (. .)))
+
+compound(countries-2, Rich-1)
+nsubj(produce-3, countries-2)
+root(ROOT-0, produce-3)
+compound(foods-5, GM-4)
+dobj(produce-3, foods-5)
+mark(easy-9, because-6)
+nsubj(easy-9, they-7)
+nsubj(grow-11, they-7)
+cop(easy-9, are-8)
+advcl(produce-3, easy-9)
+mark(grow-11, to-10)
+xcomp(easy-9, grow-11)
+cc(easy-9, and-12)
+mark(bring-16, because-13)
+nsubj(bring-16, they-14)
+aux(bring-16, can-15)
+advcl(produce-3, bring-16)
+conj:and(easy-9, bring-16)
+case(money-19, in-17)
+amod(money-19, more-18)
+nmod:in(bring-16, money-19)
+
+(ROOT
+  (S
+    (NP (NNP Poor) (NNS countries))
+    (VP (VBP are)
+      (ADJP (JJ interested)
+        (PP (IN in)
+          (NP (PRP them))))
+      (SBAR (IN because)
+        (S
+          (NP (PRP they))
+          (VP (MD can)
+            (VP (VB be)
+              (VP (VBN used)
+                (S
+                  (VP (TO to)
+                    (VP (VB feed)
+                      (NP (JJ many) (NNS people)))))))))))
+    (. .)))
+
+compound(countries-2, Poor-1)
+nsubj(interested-4, countries-2)
+cop(interested-4, are-3)
+root(ROOT-0, interested-4)
+case(them-6, in-5)
+nmod:in(interested-4, them-6)
+mark(used-11, because-7)
+nsubjpass(used-11, they-8)
+nsubj(feed-13, they-8)
+aux(used-11, can-9)
+auxpass(used-11, be-10)
+advcl(interested-4, used-11)
+mark(feed-13, to-12)
+xcomp(used-11, feed-13)
+amod(people-15, many-14)
+dobj(feed-13, people-15)
+
+(ROOT
+  (S
+    (S
+      (NP (NNP China))
+      (VP (VBZ is)
+        (ADVP (RB already))
+        (VP (VBG growing)
+          (NP
+            (NP (NNS thousands))
+            (PP (IN of)
+              (NP
+                (NP (NNS hectares))
+                (PP (IN of)
+                  (NP (NNP GM) (NNS foods)))))))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (JJ African) (NNS countries))
+      (VP (VBP are)
+        (VP (VBG beginning)
+          (S
+            (VP (TO to)
+              (VP (VB grow)
+                (NP (PRP them))
+                (ADVP (RB as) (RB well))))))))
+    (. .)))
+
+nsubj(growing-4, China-1)
+aux(growing-4, is-2)
+advmod(growing-4, already-3)
+root(ROOT-0, growing-4)
+dobj(growing-4, thousands-5)
+case(hectares-7, of-6)
+nmod:of(thousands-5, hectares-7)
+case(foods-10, of-8)
+compound(foods-10, GM-9)
+nmod:of(hectares-7, foods-10)
+cc(growing-4, and-12)
+amod(countries-14, African-13)
+nsubj(beginning-16, countries-14)
+nsubj(grow-18, countries-14)
+aux(beginning-16, are-15)
+conj:and(growing-4, beginning-16)
+mark(grow-18, to-17)
+xcomp(beginning-16, grow-18)
+dobj(grow-18, them-19)
+advmod(grow-18, as-20)
+mwe(as-20, well-21)
+
+(ROOT
+  (S
+    (ADVP (RB However))
+    (, ,)
+    (NP (NNP GM) (NNS plants))
+    (VP (VBP are) (RB not)
+      (ADJP (JJ perfect)))
+    (. .)))
+
+advmod(perfect-7, However-1)
+compound(plants-4, GM-3)
+nsubj(perfect-7, plants-4)
+cop(perfect-7, are-5)
+neg(perfect-7, not-6)
+root(ROOT-0, perfect-7)
+
+(ROOT
+  (S
+    (NP (JJ Many) (NNS people))
+    (VP (VBP believe)
+      (SBAR
+        (S
+          (NP (PRP they))
+          (VP (VBP are)
+            (ADJP (JJ unnatural))))))
+    (. .)))
+
+amod(people-2, Many-1)
+nsubj(believe-3, people-2)
+root(ROOT-0, believe-3)
+nsubj(unnatural-6, they-4)
+cop(unnatural-6, are-5)
+ccomp(believe-3, unnatural-6)
+
+(ROOT
+  (S
+    (NP (DT Some))
+    (ADVP (RB even))
+    (VP (VBP think)
+      (SBAR
+        (S
+          (NP (PRP they))
+          (VP (MD could)
+            (VP (VB harm)
+              (NP (PRP us)))))))
+    (. .)))
+
+nsubj(think-3, Some-1)
+advmod(think-3, even-2)
+root(ROOT-0, think-3)
+nsubj(harm-6, they-4)
+aux(harm-6, could-5)
+ccomp(think-3, harm-6)
+dobj(harm-6, us-7)
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (CD one) (NN experiment)))
+    (, ,)
+    (NP
+      (NP
+        (NP (JJ genetic) (NN material))
+        (PP (IN from)
+          (NP (DT a) (NN snowdrop))))
+      (, ,)
+      (NP
+        (NP (DT a) (NN kind))
+        (PP (IN of)
+          (NP (NN flower))))
+      (, ,))
+    (VP (VBD was)
+      (VP (VBN added)
+        (PP (TO to)
+          (NP (DT a) (NN potato) (NN plant)))
+        (S
+          (VP (TO to)
+            (VP (VB help)
+              (NP (DT the) (NN plant) (NN fight) (NN disease)))))))
+    (. .)))
+
+case(experiment-3, In-1)
+nummod(experiment-3, one-2)
+nmod:in(added-17, experiment-3)
+amod(material-6, genetic-5)
+nsubjpass(added-17, material-6)
+nsubj(help-23, material-6)
+case(snowdrop-9, from-7)
+det(snowdrop-9, a-8)
+nmod:from(material-6, snowdrop-9)
+det(kind-12, a-11)
+appos(material-6, kind-12)
+case(flower-14, of-13)
+nmod:of(kind-12, flower-14)
+auxpass(added-17, was-16)
+root(ROOT-0, added-17)
+case(plant-21, to-18)
+det(plant-21, a-19)
+compound(plant-21, potato-20)
+nmod:to(added-17, plant-21)
+mark(help-23, to-22)
+xcomp(added-17, help-23)
+det(disease-27, the-24)
+compound(disease-27, plant-25)
+compound(disease-27, fight-26)
+dobj(help-23, disease-27)
+
+(ROOT
+  (S
+    (S
+      (NP (DT The) (NNS potatoes))
+      (VP (VBD were)
+        (ADVP (RB later))
+        (VP (VBN fed)
+          (PP (TO to)
+            (NP (NNS rats))))))
+    (CC and)
+    (S
+      (NP (DT the) (NNS rats))
+      (VP (VBD became)
+        (ADJP (JJ ill))))
+    (. .)))
+
+det(potatoes-2, The-1)
+nsubjpass(fed-5, potatoes-2)
+auxpass(fed-5, were-3)
+advmod(fed-5, later-4)
+root(ROOT-0, fed-5)
+case(rats-7, to-6)
+nmod:to(fed-5, rats-7)
+cc(fed-5, and-8)
+det(rats-10, the-9)
+nsubj(became-11, rats-10)
+conj:and(fed-5, became-11)
+xcomp(became-11, ill-12)
+
+(ROOT
+  (SQ (VBD Did)
+    (NP (PRP they))
+    (VP (VB become)
+      (ADVP (RB ill))
+      (SBAR (IN because)
+        (S
+          (PP (IN of)
+            (NP (DT the) (NNP GM) (NN food)))
+          (NP (PRP they))
+          (VP (VBD ate)))))
+    (. ?)))
+
+aux(become-3, Did-1)
+nsubj(become-3, they-2)
+root(ROOT-0, become-3)
+advmod(become-3, ill-4)
+mark(ate-11, because-5)
+case(food-9, of-6)
+det(food-9, the-7)
+compound(food-9, GM-8)
+nmod:of(ate-11, food-9)
+nsubj(ate-11, they-10)
+advcl(become-3, ate-11)
+
+(ROOT
+  (S
+    (NP (DT No) (NN one))
+    (VP (VBZ knows)
+      (PP (IN for)
+        (ADJP (JJ sure))))
+    (. .)))
+
+neg(one-2, No-1)
+nsubj(knows-3, one-2)
+root(ROOT-0, knows-3)
+case(sure-5, for-4)
+advcl:for(knows-3, sure-5)
+
+(ROOT
+  (S
+    (NP (DT No) (NN one))
+    (VP (VBZ knows)
+      (SBAR
+        (WHADVP (WRB how)
+          (ADJP (JJ good)
+            (CC or)
+            (JJ bad)))
+        (S
+          (NP (DT these) (NNS foods))
+          (VP (MD may)
+            (VP (VB be)
+              (PP (IN for)
+                (NP (JJ human) (NNS beings))))))))
+    (. .)))
+
+neg(one-2, No-1)
+nsubj(knows-3, one-2)
+root(ROOT-0, knows-3)
+advmod(beings-14, how-4)
+dep(how-4, good-5)
+cc(good-5, or-6)
+dep(how-4, bad-7)
+conj:or(good-5, bad-7)
+det(foods-9, these-8)
+nsubj(beings-14, foods-9)
+aux(beings-14, may-10)
+cop(beings-14, be-11)
+case(beings-14, for-12)
+amod(beings-14, human-13)
+ccomp(knows-3, beings-14)
+
+(ROOT
+  (S
+    (NP (EX There))
+    (VP (VBZ is)
+      (NP
+        (NP (DT another) (NN problem))
+        (PP (IN with)
+          (NP (NNP GM) (NNS plants)))))
+    (. .)))
+
+expl(is-2, There-1)
+root(ROOT-0, is-2)
+det(problem-4, another-3)
+nsubj(is-2, problem-4)
+case(plants-7, with-5)
+compound(plants-7, GM-6)
+nmod:with(problem-4, plants-7)
+
+(ROOT
+  (S
+    (NP (PRP They))
+    (VP (VBP are) (RB not)
+      (VP (VBN built)
+        (S
+          (VP (TO to)
+            (VP (VB live)
+              (PP (IN through)
+                (NP
+                  (NP (DT all) (NNS kinds))
+                  (PP (IN of)
+                    (NP (NNS changes))))))))))
+    (. .)))
+
+nsubjpass(built-4, They-1)
+nsubj(live-6, They-1)
+auxpass(built-4, are-2)
+neg(built-4, not-3)
+root(ROOT-0, built-4)
+mark(live-6, to-5)
+xcomp(built-4, live-6)
+case(kinds-9, through-7)
+det(kinds-9, all-8)
+nmod:through(live-6, kinds-9)
+case(changes-11, of-10)
+nmod:of(kinds-9, changes-11)
+
+(ROOT
+  (S
+    (NP (DT The) (NN weather)
+      (CC and)
+      (NN climate))
+    (VP (MD can)
+      (VP (VB change) (, ,)
+        (PP (IN for)
+          (NP (NN example)))))
+    (. .)))
+
+det(weather-2, The-1)
+nsubj(change-6, weather-2)
+cc(weather-2, and-3)
+conj:and(weather-2, climate-4)
+nsubj(change-6, climate-4)
+aux(change-6, can-5)
+root(ROOT-0, change-6)
+case(example-9, for-8)
+nmod:for(change-6, example-9)
+
+(ROOT
+  (S
+    (ADVP (RB Sometimes))
+    (, ,)
+    (NP
+      (NP (DT a) (JJ whole) (NN crop))
+      (PP (IN of)
+        (NP (NN wheat))))
+    (VP (MD may)
+      (VP (VB fail)
+        (SBAR (IN if)
+          (S
+            (NP (DT the) (NN winter))
+            (ADVP (RB suddenly))
+            (VP (VBZ becomes)
+              (ADJP (RB very) (JJ cold)))))))
+    (. .)))
+
+advmod(fail-9, Sometimes-1)
+det(crop-5, a-3)
+amod(crop-5, whole-4)
+nsubj(fail-9, crop-5)
+case(wheat-7, of-6)
+nmod:of(crop-5, wheat-7)
+aux(fail-9, may-8)
+root(ROOT-0, fail-9)
+mark(becomes-14, if-10)
+det(winter-12, the-11)
+nsubj(becomes-14, winter-12)
+advmod(becomes-14, suddenly-13)
+advcl(fail-9, becomes-14)
+advmod(cold-16, very-15)
+xcomp(becomes-14, cold-16)
+
+(ROOT
+  (S
+    (S
+      (NP (NNP New) (NNS diseases))
+      (VP (MD can)
+        (ADVP (RB also))
+        (VP (VB occur))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (NNS farmers))
+      (VP (MD may)
+        (VP (VB lose)
+          (NP
+            (NP (DT all))
+            (PP (IN of)
+              (NP (PRP$ their) (NNS plants))))
+          (PP (TO to)
+            (NP (JJ such) (NNS diseases))))))
+    (. .)))
+
+compound(diseases-2, New-1)
+nsubj(occur-5, diseases-2)
+aux(occur-5, can-3)
+advmod(occur-5, also-4)
+root(ROOT-0, occur-5)
+cc(occur-5, and-7)
+nsubj(lose-10, farmers-8)
+aux(lose-10, may-9)
+conj:and(occur-5, lose-10)
+dobj(lose-10, all-11)
+case(plants-14, of-12)
+nmod:poss(plants-14, their-13)
+nmod:of(all-11, plants-14)
+case(diseases-17, to-15)
+amod(diseases-17, such-16)
+nmod:to(lose-10, diseases-17)
+
+(ROOT
+  (S
+    (NP (NNP Making) (NNP GM) (NNS foods))
+    (VP (VBZ is)
+      (NP
+        (NP (RB only) (CD one) (NN way))
+        (PP (IN of)
+          (NP
+            (NP (VBG feeding) (NNS people))
+            (PP (IN in)
+              (NP (CD 2050)))))))
+    (. .)))
+
+compound(foods-3, Making-1)
+compound(foods-3, GM-2)
+nsubj(way-7, foods-3)
+cop(way-7, is-4)
+advmod(way-7, only-5)
+nummod(way-7, one-6)
+root(ROOT-0, way-7)
+case(people-10, of-8)
+amod(people-10, feeding-9)
+nmod:of(way-7, people-10)
+case(2050-12, in-11)
+nmod:in(people-10, 2050-12)
+
+(ROOT
+  (S
+    (NP (EX There))
+    (VP (VBP are)
+      (NP
+        (NP (JJ strong) (NNS feelings))
+        (PP (IN against)
+          (NP (PRP them))))
+      (SBAR (IN because)
+        (S
+          (NP (PRP they))
+          (VP (VBP are)
+            (ADJP (JJ unnatural))))))
+    (. .)))
+
+expl(are-2, There-1)
+root(ROOT-0, are-2)
+amod(feelings-4, strong-3)
+nsubj(are-2, feelings-4)
+case(them-6, against-5)
+nmod:against(feelings-4, them-6)
+mark(unnatural-10, because-7)
+nsubj(unnatural-10, they-8)
+cop(unnatural-10, are-9)
+advcl(are-2, unnatural-10)
+
+(ROOT
+  (S
+    (NP (PRP They))
+    (VP (MD may)
+      (VP
+        (VP (VB feed)
+          (NP (NNS people)))
+        (, ,)
+        (CC and)
+        (ADVP (RB then))
+        (VP
+          (VP (VB hurt)
+            (NP (PRP them)))
+          (CC or)
+          (VP
+            (NP (PRP$ their) (NNS children))
+            (ADVP (RB later))))))
+    (. .)))
+
+nsubj(feed-3, They-1)
+nsubj(hurt-8, They-1)
+aux(feed-3, may-2)
+root(ROOT-0, feed-3)
+dobj(feed-3, people-4)
+cc(feed-3, and-6)
+advmod(hurt-8, then-7)
+conj:and(feed-3, hurt-8)
+dobj(hurt-8, them-9)
+cc(hurt-8, or-10)
+nmod:poss(children-12, their-11)
+conj:and(feed-3, children-12)
+conj:or(hurt-8, children-12)
+advmod(children-12, later-13)
+
+(ROOT
+  (S (CC But)
+    (S
+      (NP
+        (ADJP (DT both) (JJ rich)
+          (CC and)
+          (JJ poor))
+        (NNS countries))
+      (VP (VBP are)
+        (ADJP (RB very) (JJ interested)
+          (PP (IN in)
+            (NP (PRP$ their) (NN use))))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (PRP they))
+      (VP (VBP are) (RB not)
+        (VP (VBG going)
+          (S
+            (VP (TO to)
+              (VP (VB go)
+                (PRT (RP away))))))))
+    (. .)))
+
+cc(interested-9, But-1)
+cc:preconj(rich-3, both-2)
+amod(countries-6, rich-3)
+cc(rich-3, and-4)
+conj:and(rich-3, poor-5)
+amod(countries-6, poor-5)
+nsubj(interested-9, countries-6)
+cop(interested-9, are-7)
+advmod(interested-9, very-8)
+root(ROOT-0, interested-9)
+case(use-12, in-10)
+nmod:poss(use-12, their-11)
+nmod:in(interested-9, use-12)
+cc(interested-9, and-14)
+nsubj(going-18, they-15)
+nsubj(go-20, they-15)
+aux(going-18, are-16)
+neg(going-18, not-17)
+conj:and(interested-9, going-18)
+mark(go-20, to-19)
+xcomp(going-18, go-20)
+compound:prt(go-20, away-21)
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (CD 2050)))
+    (NP (PRP we))
+    (VP (MD may)
+      (VP (VB think)
+        (ADVP (RB differently))
+        (PP (IN about)
+          (NP (PRP them)))))
+    (. .)))
+
+case(2050-2, In-1)
+nmod:in(think-5, 2050-2)
+nsubj(think-5, we-3)
+aux(think-5, may-4)
+root(ROOT-0, think-5)
+advmod(think-5, differently-6)
+case(them-8, about-7)
+nmod:about(think-5, them-8)
+

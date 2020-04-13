@@ -1,0 +1,1269 @@
+(ROOT
+  (NP
+    (NP (DT The) (NN Cost))
+    (PP (IN of)
+      (NP (NNP Gratefulness)))
+    (. .)))
+
+det(Cost-2, The-1)
+root(ROOT-0, Cost-2)
+case(Gratefulness-4, of-3)
+nmod:of(Cost-2, Gratefulness-4)
+
+(ROOT
+  (S
+    (SBAR
+      (WHADVP (WRB When))
+      (S
+        (NP (PRP I))
+        (VP (VBD was)
+          (PP (IN about)
+            (NP (NN thirteen))))))
+    (, ,)
+    (NP (PRP$ my) (NN father))
+    (ADVP (RB frequently))
+    (VP (VBD took)
+      (NP (PRP me))
+      (PP (IN on)
+        (NP (JJ short) (NNS outings)))
+      (PP (IN on)
+        (NP (NNP Saturdays))))
+    (. .)))
+
+advmod(thirteen-5, When-1)
+nsubj(thirteen-5, I-2)
+cop(thirteen-5, was-3)
+case(thirteen-5, about-4)
+advcl:about(took-10, thirteen-5)
+nmod:poss(father-8, my-7)
+nsubj(took-10, father-8)
+advmod(took-10, frequently-9)
+root(ROOT-0, took-10)
+dobj(took-10, me-11)
+case(outings-14, on-12)
+amod(outings-14, short-13)
+nmod:on(took-10, outings-14)
+case(Saturdays-16, on-15)
+nmod:on(took-10, Saturdays-16)
+
+(ROOT
+  (S
+    (PP (IN On)
+      (NP
+        (NP (DT the) (NN way) (NN home))
+        (PP (IN from)
+          (NP (DT these) (NNS trips)))))
+    (, ,)
+    (NP (PRP we))
+    (ADVP (RB often))
+    (VP (VBD stopped)
+      (PP (IN for)
+        (NP (JJ ten-cent) (NN ice) (NN cream) (NNS cones))))
+    (. .)))
+
+case(home-4, On-1)
+det(home-4, the-2)
+compound(home-4, way-3)
+nmod:on(stopped-11, home-4)
+case(trips-7, from-5)
+det(trips-7, these-6)
+nmod:from(home-4, trips-7)
+nsubj(stopped-11, we-9)
+advmod(stopped-11, often-10)
+root(ROOT-0, stopped-11)
+case(cones-16, for-12)
+amod(cones-16, ten-cent-13)
+compound(cones-16, ice-14)
+compound(cones-16, cream-15)
+nmod:for(stopped-11, cones-16)
+
+(ROOT
+  (S
+    (S
+      (NP (PRP I))
+      (VP (VBP couldnt)
+        (VP (VB be)
+          (ADJP (JJ sure)
+            (SBAR
+              (S
+                (NP (PRP$ my) (NN father))
+                (VP (MD would)
+                  (VP (VB stop)
+                    (PP (IN at)
+                      (NP (DT the) (NN ice) (NN cream) (NN store)))))))))))
+    (, ,)
+    (CC but)
+    (S
+      (SBAR
+        (PP (IN from)
+          (NP (DT the) (NN time)))
+        (S
+          (NP (PRP we))
+          (VP (VBD started)
+            (S
+              (VP (VBG heading)
+                (NP (NN home)))))))
+      (, ,)
+      (NP (PRP I))
+      (VP (MD would)
+        (VP (VB hope)
+          (CC and)
+          (VB pray)
+          (SBAR (IN that)
+            (S
+              (NP (PRP he))
+              (VP (MD would)))))))
+    (. .)))
+
+nsubj(couldnt-2, I-1)
+root(ROOT-0, couldnt-2)
+cop(sure-4, be-3)
+xcomp(couldnt-2, sure-4)
+nmod:poss(father-6, my-5)
+nsubj(stop-8, father-6)
+aux(stop-8, would-7)
+ccomp(sure-4, stop-8)
+case(store-13, at-9)
+det(store-13, the-10)
+compound(store-13, ice-11)
+compound(store-13, cream-12)
+nmod:at(stop-8, store-13)
+cc(couldnt-2, but-15)
+case(time-18, from-16)
+det(time-18, the-17)
+nmod:from(started-20, time-18)
+nsubj(started-20, we-19)
+advcl(hope-26, started-20)
+xcomp(started-20, heading-21)
+dobj(heading-21, home-22)
+nsubj(hope-26, I-24)
+nsubj(pray-28, I-24)
+aux(hope-26, would-25)
+conj:but(couldnt-2, hope-26)
+cc(hope-26, and-27)
+conj:but(couldnt-2, pray-28)
+conj:and(hope-26, pray-28)
+mark(would-31, that-29)
+nsubj(would-31, he-30)
+ccomp(hope-26, would-31)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBD knew)
+      (SBAR
+        (S
+          (NP (PRP we))
+          (VP (MD would)
+            (VP (DT either)
+              (VP (VB go)
+                (ADVP (RB straight))
+                (PP (IN for)
+                  (NP (DT the) (NN ice) (NN cream) (NN store))))
+              (CC or)
+              (VP (VB turn)
+                (CC and)
+                (VB go)
+                (NP (NN home) (NN empty-handed))))))))
+    (. .)))
+
+nsubj(knew-2, I-1)
+root(ROOT-0, knew-2)
+nsubj(go-6, we-3)
+nsubj(turn-14, we-3)
+aux(go-6, would-4)
+cc:preconj(go-6, either-5)
+ccomp(knew-2, go-6)
+advmod(go-6, straight-7)
+case(store-12, for-8)
+det(store-12, the-9)
+compound(store-12, ice-10)
+compound(store-12, cream-11)
+nmod:for(go-6, store-12)
+cc(go-6, or-13)
+ccomp(knew-2, turn-14)
+conj:or(go-6, turn-14)
+cc(turn-14, and-15)
+conj:or(go-6, go-16)
+conj:and(turn-14, go-16)
+compound(empty-handed-18, home-17)
+dobj(turn-14, empty-handed-18)
+
+(ROOT
+  (SQ
+    (S
+      (NP (PRP He))
+      (VP (MD would)
+        (VP (VB ask))))
+    (, ,)
+    (SQ (MD Would)
+      (NP (PRP you))
+      (VP (VB like)
+        (SBAR
+          (S
+            (NP
+              (NP (DT an) (NN ice) (NN cream) (NN cone))
+              (CC and)
+              (NP (PRP I)))
+            (VP (MD would)
+              (VP (VB say)
+                (PRN (, ,)
+                  (S
+                    (NP (DT That))
+                    (VP (VBZ sounds)
+                      (ADJP (JJ great))))
+                  (, ,))
+                (NP (NNP Dad))))))))
+    (. !)))
+
+nsubj(ask-3, He-1)
+aux(ask-3, would-2)
+dep(like-7, ask-3)
+aux(like-7, Would-5)
+nsubj(like-7, you-6)
+root(ROOT-0, like-7)
+det(cone-11, an-8)
+compound(cone-11, ice-9)
+compound(cone-11, cream-10)
+nsubj(say-15, cone-11)
+cc(cone-11, and-12)
+conj:and(cone-11, I-13)
+nsubj(say-15, I-13)
+aux(say-15, would-14)
+ccomp(like-7, say-15)
+nsubj(sounds-18, That-17)
+parataxis(say-15, sounds-18)
+xcomp(sounds-18, great-19)
+dobj(say-15, Dad-21)
+
+(ROOT
+  (S
+    (NP (NN Id))
+    (ADVP (RB always))
+    (VP (VBP have)
+      (NP
+        (NP (NN chocolate)
+          (CC and)
+          (NN hed))
+        (SBAR
+          (S
+            (VP (VBP have)
+              (S
+                (ADJP (NN vanilla))))))))
+    (. .)))
+
+nsubj(have-3, Id-1)
+advmod(have-3, always-2)
+root(ROOT-0, have-3)
+dobj(have-3, chocolate-4)
+cc(chocolate-4, and-5)
+dobj(have-3, hed-6)
+conj:and(chocolate-4, hed-6)
+acl:relcl(chocolate-4, have-7)
+xcomp(have-7, vanilla-8)
+
+(ROOT
+  (S
+    (S
+      (NP (PRP He))
+      (VP (MD would)
+        (VP (VB hand)
+          (NP (PRP me))
+          (NP (CD twenty) (NNS cents)))))
+    (CC and)
+    (S
+      (NP (PRP I))
+      (VP (MD would)
+        (VP (VB run)
+          (PRT (RP in))
+          (S
+            (VP (TO to)
+              (VP (VB buy)
+                (NP (PRP$ our) (NNS cones))))))))
+    (. .)))
+
+nsubj(hand-3, He-1)
+aux(hand-3, would-2)
+root(ROOT-0, hand-3)
+iobj(hand-3, me-4)
+nummod(cents-6, twenty-5)
+dobj(hand-3, cents-6)
+cc(hand-3, and-7)
+nsubj(run-10, I-8)
+nsubj(buy-13, I-8)
+aux(run-10, would-9)
+conj:and(hand-3, run-10)
+compound:prt(run-10, in-11)
+mark(buy-13, to-12)
+xcomp(run-10, buy-13)
+nmod:poss(cones-15, our-14)
+dobj(buy-13, cones-15)
+
+(ROOT
+  (S
+    (NP (NNP Wed))
+    (VP (VBP eat)
+      (NP (PRP them))
+      (PP (IN in)
+        (NP (DT the) (NN car))))
+    (. .)))
+
+nsubj(eat-2, Wed-1)
+root(ROOT-0, eat-2)
+dobj(eat-2, them-3)
+case(car-6, in-4)
+det(car-6, the-5)
+nmod:in(eat-2, car-6)
+
+(ROOT
+  (S
+    (S
+      (NP (PRP I))
+      (VP (VBD loved)
+        (NP (PRP$ my) (NN dad))))
+    (CC and)
+    (S
+      (NP (PRP I))
+      (VP (VBD loved)
+        (NP
+          (NP (NN ice) (NN creamXso))
+          (SBAR
+            (S
+              (NP (DT this))
+              (VP (VBD was)
+                (NP (NN heaven))))))))
+    (. .)))
+
+nsubj(loved-2, I-1)
+root(ROOT-0, loved-2)
+nmod:poss(dad-4, my-3)
+dobj(loved-2, dad-4)
+cc(loved-2, and-5)
+nsubj(loved-7, I-6)
+conj:and(loved-2, loved-7)
+compound(creamXso-9, ice-8)
+dobj(loved-7, creamXso-9)
+nsubj(heaven-12, this-10)
+cop(heaven-12, was-11)
+acl:relcl(creamXso-9, heaven-12)
+
+(ROOT
+  (S
+    (S
+      (NP (CD One) (JJ fateful) (NN day))
+      (NP (PRP we))
+      (VP (VBD were)
+        (VP (VBG heading)
+          (NP (NN home)))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (PRP I))
+      (VP (VBD was)
+        (VP (VBG hoping)
+          (CC and)
+          (VBG praying)
+          (PP (IN for)
+            (NP
+              (NP (DT the) (JJ beautiful) (NN sound))
+              (PP (IN of)
+                (NP (PRP$ his) (NN offer))))))))
+    (. .)))
+
+nummod(day-3, One-1)
+amod(day-3, fateful-2)
+nmod:tmod(heading-6, day-3)
+nsubj(heading-6, we-4)
+aux(heading-6, were-5)
+root(ROOT-0, heading-6)
+dobj(heading-6, home-7)
+cc(heading-6, and-9)
+nsubj(hoping-12, I-10)
+nsubj(praying-14, I-10)
+aux(hoping-12, was-11)
+conj:and(heading-6, hoping-12)
+cc(hoping-12, and-13)
+conj:and(heading-6, praying-14)
+conj:and(hoping-12, praying-14)
+case(sound-18, for-15)
+det(sound-18, the-16)
+amod(sound-18, beautiful-17)
+nmod:for(hoping-12, sound-18)
+case(offer-21, of-19)
+nmod:poss(offer-21, his-20)
+nmod:of(sound-18, offer-21)
+
+(ROOT
+  (S (RB Then)
+    (NP (PRP it))
+    (VP (VBD came) (, ,)
+      (SQ (MD Would)
+        (NP (PRP you))
+        (VP (VB like)
+          (NP (DT an) (NN ice) (NN cream) (NN cone))
+          (NP (NN today)))))
+    (. ?)))
+
+advmod(came-3, Then-1)
+nsubj(came-3, it-2)
+root(ROOT-0, came-3)
+aux(like-7, Would-5)
+nsubj(like-7, you-6)
+dep(came-3, like-7)
+det(cone-11, an-8)
+compound(cone-11, ice-9)
+compound(cone-11, cream-10)
+dobj(like-7, cone-11)
+nmod:tmod(like-7, today-12)
+
+(ROOT
+  (S
+    (NP (DT That))
+    (VP (VBZ sounds)
+      (NP
+        (NP (JJ great))
+        (, ,)
+        (NP (NNP Dad))))
+    (. !)))
+
+nsubj(sounds-2, That-1)
+root(ROOT-0, sounds-2)
+dobj(sounds-2, great-3)
+appos(great-3, Dad-5)
+
+(ROOT
+  (S (CC But)
+    (ADVP (RB then))
+    (NP (PRP he))
+    (VP
+      (VP (VBD said))
+      (PRN (, ,)
+        (S
+          (NP (PRP It))
+          (VP (VBZ sounds)
+            (ADJP (JJ good)
+              (PP (TO to)
+                (NP (PRP me))))
+            (ADVP (RB too))))
+        (, ,))
+      (ADVP (RB Son)))
+    (. .)))
+
+cc(said-4, But-1)
+advmod(said-4, then-2)
+nsubj(said-4, he-3)
+root(ROOT-0, said-4)
+nsubj(sounds-7, It-6)
+parataxis(said-4, sounds-7)
+xcomp(sounds-7, good-8)
+case(me-10, to-9)
+nmod:to(good-8, me-10)
+advmod(sounds-7, too-11)
+advmod(said-4, Son-13)
+
+(ROOT
+  (SBARQ
+    (WHADVP (WRB How))
+    (SQ (MD would)
+      (NP (PRP you))
+      (VP (VB like)
+        (S
+          (VP (TO to)
+            (VP (VB treat)
+              (NP (NN today)))))))
+    (. ?)))
+
+advmod(like-4, How-1)
+aux(like-4, would-2)
+nsubj(like-4, you-3)
+nsubj(treat-6, you-3)
+root(ROOT-0, like-4)
+mark(treat-6, to-5)
+xcomp(like-4, treat-6)
+nmod:tmod(treat-6, today-7)
+
+(ROOT
+  (NP (CD Twenty) (NNS cents) (. !)))
+
+nummod(cents-2, Twenty-1)
+root(ROOT-0, cents-2)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN mind))
+    (VP (VBD reeled))
+    (. .)))
+
+nmod:poss(mind-2, My-1)
+nsubj(reeled-3, mind-2)
+root(ROOT-0, reeled-3)
+
+(ROOT
+  (S
+    (S
+      (NP (PRP I))
+      (VP (MD could)
+        (VP (VB afford)
+          (NP (PRP it)))))
+    (, ,)
+    (CC but)
+    (S
+      (NP (NN saving) (NN money))
+      (VP (VBD was)
+        (ADJP (JJ important))))
+    (. .)))
+
+nsubj(afford-3, I-1)
+aux(afford-3, could-2)
+root(ROOT-0, afford-3)
+dobj(afford-3, it-4)
+cc(afford-3, but-6)
+compound(money-8, saving-7)
+nsubj(important-10, money-8)
+cop(important-10, was-9)
+conj:but(afford-3, important-10)
+
+(ROOT
+  (S
+    (NP (NNP Dad))
+    (VP (VBD had)
+      (ADVP (RB often))
+      (VP (VBN told)
+        (S
+          (NP (PRP me))
+          (NP (DT that)))))
+    (. .)))
+
+nsubj(told-4, Dad-1)
+aux(told-4, had-2)
+advmod(told-4, often-3)
+root(ROOT-0, told-4)
+nsubj(that-6, me-5)
+xcomp(told-4, that-6)
+
+(ROOT
+  (S (CC And)
+    (SBAR
+      (WHADVP (WRB when))
+      (S
+        (NP (PRP it))
+        (VP (VBD came)
+          (PP (TO to)
+            (NP (PRP$ my) (JJ own) (NN money))))))
+    (, ,)
+    (NP
+      (NP (NN ice) (NN cream))
+      (ADJP (RB just) (JJ didnt)))
+    (VP (VBP seem)
+      (PP (IN like)
+        (NP (DT a) (JJ good) (NN thing)))
+      (S
+        (VP (TO to)
+          (VP (VB spend)
+            (NP (PRP it))
+            (PRT (RP on))))))
+    (. .)))
+
+cc(seem-14, And-1)
+advmod(came-4, when-2)
+nsubj(came-4, it-3)
+advcl(seem-14, came-4)
+case(money-8, to-5)
+nmod:poss(money-8, my-6)
+amod(money-8, own-7)
+nmod:to(came-4, money-8)
+compound(cream-11, ice-10)
+nsubj(seem-14, cream-11)
+nsubj(spend-20, cream-11)
+advmod(didnt-13, just-12)
+amod(cream-11, didnt-13)
+root(ROOT-0, seem-14)
+case(thing-18, like-15)
+det(thing-18, a-16)
+amod(thing-18, good-17)
+nmod:like(seem-14, thing-18)
+mark(spend-20, to-19)
+xcomp(seem-14, spend-20)
+dobj(spend-20, it-21)
+compound:prt(spend-20, on-22)
+
+(ROOT
+  (SBARQ
+    (WHADVP (WRB Why))
+    (SQ
+      (VP (VBD didnt))
+      (NP (PRP it))
+      (VP (VB occur)
+        (PP (TO to)
+          (NP (PRP me)))
+        (SBAR (IN that)
+          (S
+            (NP (DT this))
+            (VP (VBD was)
+              (NP (DT a) (JJ golden) (NN opportunity)
+                (S
+                  (VP (TO to)
+                    (VP (VB give)
+                      (NP (NN something))
+                      (PRT (RP back))
+                      (PP (TO to)
+                        (NP (PRP$ my)
+                          (ADJP (RB very) (JJ generous))
+                          (NN father))))))))))))
+    (. ?)))
+
+advmod(didnt-2, Why-1)
+root(ROOT-0, didnt-2)
+nsubj(didnt-2, it-3)
+dep(didnt-2, occur-4)
+case(me-6, to-5)
+nmod:to(occur-4, me-6)
+mark(opportunity-12, that-7)
+nsubj(opportunity-12, this-8)
+cop(opportunity-12, was-9)
+det(opportunity-12, a-10)
+amod(opportunity-12, golden-11)
+ccomp(occur-4, opportunity-12)
+mark(give-14, to-13)
+acl(opportunity-12, give-14)
+dobj(give-14, something-15)
+compound:prt(give-14, back-16)
+case(father-21, to-17)
+nmod:poss(father-21, my-18)
+advmod(generous-20, very-19)
+amod(father-21, generous-20)
+nmod:to(give-14, father-21)
+
+(ROOT
+  (FRAG
+    (ADJP
+      (WHADVP (WRB Why))
+      (JJ didnt))
+    (S
+      (S
+        (NP (PRP I))
+        (VP (VBP think)
+          (SBAR (IN that)
+            (S
+              (NP (PRP he))
+              (VP (VBD had)
+                (VP (VBN bought)
+                  (NP (PRP me))
+                  (PP (IN at)
+                    (NP
+                      (ADJP (JJS least) (JJ fifty))
+                      (NN cream) (NNS cones)))))))))
+      (, ,)
+      (CC and)
+      (S
+        (NP (PRP I))
+        (VP (VBD had)
+          (ADVP (RB never))
+          (VP (VBN bought)
+            (NP (PRP him))
+            (NP (DT a) (JJ single) (NN one))))))
+    (. ?)))
+
+advmod(didnt-2, Why-1)
+root(ROOT-0, didnt-2)
+nsubj(think-4, I-3)
+dep(didnt-2, think-4)
+mark(bought-8, that-5)
+nsubj(bought-8, he-6)
+aux(bought-8, had-7)
+ccomp(think-4, bought-8)
+dobj(bought-8, me-9)
+case(cones-14, at-10)
+dep(fifty-12, least-11)
+amod(cones-14, fifty-12)
+compound(cones-14, cream-13)
+nmod:at(bought-8, cones-14)
+cc(think-4, and-16)
+nsubj(bought-20, I-17)
+aux(bought-20, had-18)
+neg(bought-20, never-19)
+dep(didnt-2, bought-20)
+conj:and(think-4, bought-20)
+iobj(bought-20, him-21)
+det(one-24, a-22)
+amod(one-24, single-23)
+dobj(bought-20, one-24)
+
+(ROOT
+  (S (CC But)
+    (NP
+      (NP (DT all))
+      (SBAR
+        (S
+          (NP (PRP I))
+          (VP (MD could)
+            (VP (VB think))))))
+    (VP (VBD was)
+      (NP
+        (NP (DT the) (NN idea))
+        (PP (IN of)
+          (S
+            (VP (VBG spending)
+              (NP (CD twenty) (NNS cents)))))))
+    (. !)))
+
+cc(idea-8, But-1)
+nsubj(idea-8, all-2)
+nsubj(think-5, I-3)
+aux(think-5, could-4)
+acl:relcl(all-2, think-5)
+cop(idea-8, was-6)
+det(idea-8, the-7)
+root(ROOT-0, idea-8)
+mark(spending-10, of-9)
+acl(idea-8, spending-10)
+nummod(cents-12, twenty-11)
+dobj(spending-10, cents-12)
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP
+        (NP (DT a) (NN fit))
+        (PP (IN of)
+          (NP (JJ selfish) (, ,) (JJ miserly) (NN ingratitude)))))
+    (, ,)
+    (NP (PRP I))
+    (VP (VBD said)
+      (NP
+        (NP (DT the) (JJ awful) (NNS words))
+        (SBAR
+          (WHNP (WDT that))
+          (S
+            (VP (VBP have)
+              (VP (VBN rung)
+                (PP (IN in)
+                  (NP
+                    (NP (PRP$ my) (NNS ears))
+                    (SBAR
+                      (S
+                        (FRAG
+                          (FRAG
+                            (ADVP (RB ever))
+                            (ADVP (IN since)))
+                          (: :)
+                          (FRAG
+                            (INTJ (UH Well))
+                            (, ,)
+                            (PP (IN in)
+                              (NP (DT that) (NN case)))))
+                        (, ,)
+                        (NP (PRP I))
+                        (VP (VBP guess)
+                          (SBAR
+                            (S
+                              (NP (NNP Ill))
+                              (VP (VBP pass)))))))))))))))
+    (. .)))
+
+case(fit-3, In-1)
+det(fit-3, a-2)
+nmod:in(said-11, fit-3)
+case(ingratitude-8, of-4)
+amod(ingratitude-8, selfish-5)
+amod(ingratitude-8, miserly-7)
+nmod:of(fit-3, ingratitude-8)
+nsubj(said-11, I-10)
+root(ROOT-0, said-11)
+det(words-14, the-12)
+amod(words-14, awful-13)
+dobj(said-11, words-14)
+nsubj(rung-17, words-14)
+ref(words-14, that-15)
+aux(rung-17, have-16)
+acl:relcl(words-14, rung-17)
+case(ears-20, in-18)
+nmod:poss(ears-20, my-19)
+nmod:in(rung-17, ears-20)
+dep(guess-31, ever-21)
+dep(ever-21, since-22)
+parataxis(ever-21, Well-24)
+case(case-28, in-26)
+det(case-28, that-27)
+nmod:in(Well-24, case-28)
+nsubj(guess-31, I-30)
+acl:relcl(ears-20, guess-31)
+nsubj(pass-33, Ill-32)
+ccomp(guess-31, pass-33)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN father))
+    (ADVP (RB just))
+    (VP (VBD said) (, ,)
+      (ADVP (DT All) (RB right))
+      (, ,)
+      (S
+        (VP (VBG Son))))
+    (. .)))
+
+nmod:poss(father-2, My-1)
+nsubj(said-4, father-2)
+advmod(said-4, just-3)
+root(ROOT-0, said-4)
+dep(right-7, All-6)
+advmod(said-4, right-7)
+xcomp(said-4, Son-9)
+
+(ROOT
+  (S (CC But)
+    (SBAR (IN as)
+      (S
+        (NP (PRP we))
+        (VP (VBD turned)
+          (S
+            (VP (TO to)
+              (VP (VB head)
+                (NP (NN home))))))))
+    (, ,)
+    (NP (PRP I))
+    (VP (VBD realized)
+      (SBAR
+        (WHADVP (WRB how)
+          (ADJP (JJ wrong)))
+        (S
+          (NP (PRP I))
+          (VP (VBD had)
+            (VP
+              (VP (VBN been))
+              (CC and)
+              (VP (VBN begged)
+                (S
+                  (NP (PRP him))
+                  (VP (TO to)
+                    (VP (VB turn)
+                      (ADVP (RB back)))))))))))
+    (. .)))
+
+cc(realized-10, But-1)
+mark(turned-4, as-2)
+nsubj(turned-4, we-3)
+nsubj(head-6, we-3)
+advcl(realized-10, turned-4)
+mark(head-6, to-5)
+xcomp(turned-4, head-6)
+dobj(head-6, home-7)
+nsubj(realized-10, I-9)
+root(ROOT-0, realized-10)
+advmod(been-15, how-11)
+dep(how-11, wrong-12)
+nsubj(been-15, I-13)
+nsubj(begged-17, I-13)
+aux(been-15, had-14)
+ccomp(realized-10, been-15)
+cc(been-15, and-16)
+ccomp(realized-10, begged-17)
+conj:and(been-15, begged-17)
+dobj(begged-17, him-18)
+nsubj(turn-20, him-18)
+mark(turn-20, to-19)
+xcomp(begged-17, turn-20)
+advmod(turn-20, back-21)
+
+(ROOT
+  (S
+    (NP (NNP Ill))
+    (VP (VBP pay))
+    (. !)))
+
+nsubj(pay-2, Ill-1)
+root(ROOT-0, pay-2)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBD pleaded))
+    (. .)))
+
+nsubj(pleaded-2, I-1)
+root(ROOT-0, pleaded-2)
+
+(ROOT
+  (S (CC But)
+    (NP (PRP he))
+    (ADVP (RB just))
+    (VP (VBD said) (, ,)
+      (S
+        (NP (NNP Thats))
+        (ADVP (UH OK))))
+    (. .)))
+
+cc(said-4, But-1)
+nsubj(said-4, he-2)
+advmod(said-4, just-3)
+root(ROOT-0, said-4)
+xcomp(said-4, Thats-6)
+advmod(Thats-6, OK-7)
+
+(ROOT
+  (S
+    (S
+      (NP (PRP We))
+      (VP (VBP dont)
+        (ADVP (RB really))
+        (VP (VB need)
+          (NP (NN ice) (NN cream)))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (PRP he))
+      (VP (VBP wouldnt)
+        (VP (VB listen)
+          (PP (TO to)
+            (NP (PRP$ my) (NN pleading))))))
+    (. .)))
+
+nsubj(dont-2, We-1)
+root(ROOT-0, dont-2)
+advmod(dont-2, really-3)
+dep(dont-2, need-4)
+compound(cream-6, ice-5)
+dobj(need-4, cream-6)
+cc(dont-2, and-8)
+nsubj(wouldnt-10, he-9)
+conj:and(dont-2, wouldnt-10)
+xcomp(wouldnt-10, listen-11)
+case(pleading-14, to-12)
+nmod:poss(pleading-14, my-13)
+nmod:to(listen-11, pleading-14)
+
+(ROOT
+  (S
+    (NP (PRP We))
+    (VP (VBD drove)
+      (NP (NN home)))
+    (. .)))
+
+nsubj(drove-2, We-1)
+root(ROOT-0, drove-2)
+dobj(drove-2, home-3)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBD felt)
+      (ADJP (JJ awful))
+      (PP (IN about)
+        (NP (PRP$ my) (NNS selfishness)
+          (CC and)
+          (NNS ungratefulness))))
+    (. .)))
+
+nsubj(felt-2, I-1)
+root(ROOT-0, felt-2)
+xcomp(felt-2, awful-3)
+case(selfishness-6, about-4)
+nmod:poss(selfishness-6, my-5)
+nmod:about(felt-2, selfishness-6)
+cc(selfishness-6, and-7)
+nmod:about(felt-2, ungratefulness-8)
+conj:and(selfishness-6, ungratefulness-8)
+
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (VBP didnt)
+      (SBAR
+        (SBAR
+          (S
+            (VP (VBP rub)
+              (NP (PRP it))
+              (PP (IN in))
+              (, ,)
+              (ADVP (RB though)))))
+        (, ,)
+        (CC or)
+        (SBAR (RB even)
+          (S
+            (VP (VBP act)
+              (ADJP (JJ disappointed)))))))
+    (. .)))
+
+nsubj(didnt-2, He-1)
+root(ROOT-0, didnt-2)
+dep(didnt-2, rub-3)
+dobj(rub-3, it-4)
+nmod(rub-3, in-5)
+advmod(rub-3, though-7)
+cc(rub-3, or-9)
+advmod(act-11, even-10)
+dep(didnt-2, act-11)
+conj:or(rub-3, act-11)
+xcomp(act-11, disappointed-12)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBD learned)
+      (SBAR (IN that)
+        (S
+          (NP (NN generosity))
+          (VP (VBZ goes)
+            (SBAR
+              (S
+                (NP
+                  (NP (CD two) (NNS ways))
+                  (CC and)
+                  (NP (NN gratitude)))
+                (VP
+                  (ADVP (RB sometimes))
+                  (VBZ costs)
+                  (NP (DT a) (JJ little)
+                    (QP (JJR more) (IN than) (RB just)))
+                  (S
+                    (VP (VB thank)
+                      (NP (PRP you)))))))))))
+    (. .)))
+
+nsubj(learned-2, I-1)
+root(ROOT-0, learned-2)
+mark(goes-5, that-3)
+nsubj(goes-5, generosity-4)
+ccomp(learned-2, goes-5)
+nummod(ways-7, two-6)
+nsubj(costs-11, ways-7)
+cc(ways-7, and-8)
+conj:and(ways-7, gratitude-9)
+nsubj(costs-11, gratitude-9)
+advmod(costs-11, sometimes-10)
+ccomp(goes-5, costs-11)
+det(just-16, a-12)
+amod(just-16, little-13)
+advmod(just-16, more-14)
+mwe(more-14, than-15)
+dobj(costs-11, just-16)
+dep(costs-11, thank-17)
+dobj(thank-17, you-18)
+
+(ROOT
+  (S
+    (S
+      (PP (IN On)
+        (NP (DT that) (NN day)))
+      (NP (NNS gratefulness))
+      (VP (MD would)
+        (VP (VB have)
+          (VP (VBN cost)
+            (NP (PRP me))
+            (NP (CD twenty) (NNS cents))))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (PRP it))
+      (VP (MD would)
+        (VP (VB have)
+          (VP (VBN been)
+            (NP
+              (NP (DT the) (JJS best) (NN ice))
+              (SBAR
+                (S
+                  (NP (NN cream) (NN Id))
+                  (ADVP (RB ever))
+                  (VP (VBD had)))))))))
+    (. .)))
+
+case(day-3, On-1)
+det(day-3, that-2)
+nmod:on(cost-7, day-3)
+nsubj(cost-7, gratefulness-4)
+aux(cost-7, would-5)
+aux(cost-7, have-6)
+root(ROOT-0, cost-7)
+iobj(cost-7, me-8)
+nummod(cents-10, twenty-9)
+dobj(cost-7, cents-10)
+cc(cost-7, and-12)
+nsubj(ice-19, it-13)
+aux(ice-19, would-14)
+aux(ice-19, have-15)
+cop(ice-19, been-16)
+det(ice-19, the-17)
+amod(ice-19, best-18)
+conj:and(cost-7, ice-19)
+compound(Id-21, cream-20)
+nsubj(had-23, Id-21)
+advmod(had-23, ever-22)
+acl:relcl(ice-19, had-23)
+
+(ROOT
+  (S
+    (NP (NNP Ill))
+    (VP (VB tell)
+      (NP (PRP you))
+      (NP (CD one) (JJR more) (NN thing)))
+    (. .)))
+
+nsubj(tell-2, Ill-1)
+root(ROOT-0, tell-2)
+iobj(tell-2, you-3)
+nummod(thing-6, one-4)
+amod(thing-6, more-5)
+dobj(tell-2, thing-6)
+
+(ROOT
+  (SQ
+    (S
+      (S
+        (NP (PRP We))
+        (VP (VBD went)
+          (PP (IN on)
+            (NP (DT another) (NN trip)))
+          (NP (DT the) (JJ next) (NN week))))
+      (, ,)
+      (CC and)
+      (S
+        (SBAR (IN as)
+          (S
+            (NP (PRP we))
+            (VP (VBD approached)
+              (NP (DT the) (JJ crucial) (NN corner)))))
+        (NP (PRP I))
+        (VP (VBD said) (, ,)
+          (ADVP (RB Dad)))))
+    (, ,)
+    (SQ (MD would)
+      (NP (PRP you))
+      (VP (VB like)
+        (NP (DT an) (NN ice) (NN cream) (NN cone))
+        (NP (NN today))))
+    (. ?)))
+
+nsubj(went-2, We-1)
+dep(like-24, went-2)
+case(trip-5, on-3)
+det(trip-5, another-4)
+nmod:on(went-2, trip-5)
+det(week-8, the-6)
+amod(week-8, next-7)
+nmod:tmod(went-2, week-8)
+cc(went-2, and-10)
+mark(approached-13, as-11)
+nsubj(approached-13, we-12)
+advcl(said-18, approached-13)
+det(corner-16, the-14)
+amod(corner-16, crucial-15)
+dobj(approached-13, corner-16)
+nsubj(said-18, I-17)
+conj:and(went-2, said-18)
+dep(like-24, said-18)
+advmod(said-18, Dad-20)
+aux(like-24, would-22)
+nsubj(like-24, you-23)
+root(ROOT-0, like-24)
+det(cone-28, an-25)
+compound(cone-28, ice-26)
+compound(cone-28, cream-27)
+dobj(like-24, cone-28)
+nmod:tmod(like-24, today-29)
+
+(ROOT
+  (S
+    (NP (PRP$ My))
+    (VP (VBP treat))
+    (. .)))
+
+nsubj(treat-2, My-1)
+root(ROOT-0, treat-2)
+
+(ROOT
+  (S
+    (NP
+      (NP
+        (NP (NN w))
+        (PP (IN by)
+          (NP (NNP Randal) (NNP Jones))))
+      (, ,)
+      (NP
+        (NP (DT The) (NN Cost))
+        (PP (IN of)
+          (NP
+            (NP (NNP Gratefulness))
+            (PP (IN from)
+              (NP
+                (NP (NNP Chicken) (NNP Soup))
+                (PP (IN for)
+                  (NP (DT the) (JJ Teenage) (NN Soul))))))))
+      (, ,))
+    (VP (VBD edited)
+      (PP (IN by)
+        (NP
+          (NP (NNP Jack) (NNP Canfield))
+          (, ,)
+          (NP (NNP Mark) (NNP Victor) (NNP Hansen))
+          (, ,)
+          (CC and)
+          (NP (NNP Kimberly) (NNP Kirberger)))))
+    (. .)))
+
+nsubj(edited-18, w-1)
+case(Jones-4, by-2)
+compound(Jones-4, Randal-3)
+nmod:by(w-1, Jones-4)
+det(Cost-7, The-6)
+appos(w-1, Cost-7)
+case(Gratefulness-9, of-8)
+nmod:of(Cost-7, Gratefulness-9)
+case(Soup-12, from-10)
+compound(Soup-12, Chicken-11)
+nmod:from(Gratefulness-9, Soup-12)
+case(Soul-16, for-13)
+det(Soul-16, the-14)
+amod(Soul-16, Teenage-15)
+nmod:for(Soup-12, Soul-16)
+root(ROOT-0, edited-18)
+case(Canfield-21, by-19)
+compound(Canfield-21, Jack-20)
+nmod:by(edited-18, Canfield-21)
+compound(Hansen-25, Mark-23)
+compound(Hansen-25, Victor-24)
+nmod:by(edited-18, Hansen-25)
+conj:and(Canfield-21, Hansen-25)
+cc(Canfield-21, and-27)
+compound(Kirberger-29, Kimberly-28)
+nmod:by(edited-18, Kirberger-29)
+conj:and(Canfield-21, Kirberger-29)
+
+(ROOT
+  (FRAG
+    (NP (NN Copyright))
+    (. ?)))
+
+root(ROOT-0, Copyright-1)
+
+(ROOT
+  (NP
+    (NP (CD 1996))
+    (PP (IN by)
+      (NP (NNP Randal) (NNP Jones)))
+    (. .)))
+
+root(ROOT-0, 1996-1)
+case(Jones-4, by-2)
+compound(Jones-4, Randal-3)
+nmod:by(1996-1, Jones-4)
+
+(ROOT
+  (VP (VBN Reprinted)
+    (PP (IN with)
+      (NP
+        (NP (NN permission))
+        (PP (IN of)
+          (NP
+            (NP (NNP Health) (NNPS Communications))
+            (, ,)
+            (NP (NNP Inc.) (NNP www.hcibooks.com))))))))
+
+root(ROOT-0, Reprinted-1)
+case(permission-3, with-2)
+nmod:with(Reprinted-1, permission-3)
+case(Communications-6, of-4)
+compound(Communications-6, Health-5)
+nmod:of(permission-3, Communications-6)
+compound(www.hcibooks.com-9, Inc.-8)
+appos(Communications-6, www.hcibooks.com-9)
+

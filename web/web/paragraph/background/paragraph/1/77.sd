@@ -1,0 +1,1322 @@
+(ROOT
+  (S
+    (NP
+      (NP (NNP Today) (NNP Sally) (NNP Oh))
+      (, ,)
+      (NP (DT a) (NN reporter))
+      (, ,))
+    (VP (VBZ is)
+      (VP (VBG interviewing)
+        (NP
+          (NP (DT a) (JJ successful) (NN advertising) (NN agency) (NN executive))
+          (, ,)
+          (NP (NNP Amy) (NNP Baines))
+          (, ,)
+          (SBAR
+            (WHNP (WP who))
+            (S
+              (VP (VBZ uses)
+                (NP (DT the) (NN Internet))
+                (PP (IN at)
+                  (NP (NN work)))
+                (S
+                  (VP (TO to)
+                    (VP (VB watch)
+                      (NP (PRP$ her) (JJ 3-year-old) (NN son) (NN Harry))
+                      (SBAR (IN while)
+                        (S
+                          (NP (PRP he))
+                          (VP (VBZ is)
+                            (PP (IN at)
+                              (NP (NN day) (NN care)))))))))))))))
+    (. .)))
+
+compound(Oh-3, Today-1)
+compound(Oh-3, Sally-2)
+nsubj(interviewing-9, Oh-3)
+det(reporter-6, a-5)
+appos(Oh-3, reporter-6)
+aux(interviewing-9, is-8)
+root(ROOT-0, interviewing-9)
+det(executive-14, a-10)
+amod(executive-14, successful-11)
+compound(executive-14, advertising-12)
+compound(executive-14, agency-13)
+dobj(interviewing-9, executive-14)
+nsubj(uses-20, executive-14)
+compound(Baines-17, Amy-16)
+appos(executive-14, Baines-17)
+ref(executive-14, who-19)
+acl:relcl(executive-14, uses-20)
+det(Internet-22, the-21)
+dobj(uses-20, Internet-22)
+case(work-24, at-23)
+nmod:at(uses-20, work-24)
+mark(watch-26, to-25)
+advcl(uses-20, watch-26)
+nmod:poss(Harry-30, her-27)
+amod(Harry-30, 3-year-old-28)
+compound(Harry-30, son-29)
+dobj(watch-26, Harry-30)
+mark(care-36, while-31)
+nsubj(care-36, he-32)
+cop(care-36, is-33)
+case(care-36, at-34)
+compound(care-36, day-35)
+advcl:at(watch-26, care-36)
+
+(ROOT
+  (NP
+    (NP (NNP Sally))
+    (: :)
+    (S
+      (S
+        (VP (VB Tell)
+          (NP (PRP us))
+          (PP (IN about)
+            (NP (PRP$ your) (NN work)))))
+      (CC and)
+      (ADVP
+        (PP (IN about)
+          (NP (NNP Harrys) (NN schedule)))
+        (IN while))
+      (S
+        (VP (VB youre)
+          (PP (IN at)
+            (NP (NN work))))))
+    (. .)))
+
+root(ROOT-0, Sally-1)
+parataxis(Sally-1, Tell-3)
+dobj(Tell-3, us-4)
+case(work-7, about-5)
+nmod:poss(work-7, your-6)
+nmod:about(Tell-3, work-7)
+cc(Tell-3, and-8)
+case(schedule-11, about-9)
+compound(schedule-11, Harrys-10)
+advmod(Tell-3, schedule-11)
+case(schedule-11, while-12)
+parataxis(Sally-1, youre-13)
+conj:and(Tell-3, youre-13)
+case(work-15, at-14)
+nmod:at(youre-13, work-15)
+
+(ROOT
+  (NP
+    (NP (NNP Amy))
+    (: :)
+    (S
+      (NP (PRP I))
+      (VP
+        (VP (VB start)
+          (NP (NN work))
+          (PP (IN at)
+            (NP (CD 9:00))))
+        (CC and)
+        (VP (VB finish)
+          (PP (IN at)
+            (NP (CD 6:00))))))
+    (. .)))
+
+root(ROOT-0, Amy-1)
+nsubj(start-4, I-3)
+nsubj(finish-9, I-3)
+parataxis(Amy-1, start-4)
+dobj(start-4, work-5)
+case(9:00-7, at-6)
+nmod:at(start-4, 9:00-7)
+cc(start-4, and-8)
+parataxis(Amy-1, finish-9)
+conj:and(start-4, finish-9)
+case(6:00-11, at-10)
+nmod:at(finish-9, 6:00-11)
+
+(ROOT
+  (S
+    (S
+      (NP (PRP I))
+      (VP (VBP work)
+        (NP (DT all) (NN week))))
+    (, ,)
+    (CC and)
+    (S
+      (ADVP (RB sometimes))
+      (NP (PRP I))
+      (VP (VBP have)
+        (S
+          (VP (TO to)
+            (VP (VB travel))))))
+    (. .)))
+
+nsubj(work-2, I-1)
+root(ROOT-0, work-2)
+det(week-4, all-3)
+nmod:tmod(work-2, week-4)
+cc(work-2, and-6)
+advmod(have-9, sometimes-7)
+nsubj(have-9, I-8)
+nsubj(travel-11, I-8)
+conj:and(work-2, have-9)
+mark(travel-11, to-10)
+xcomp(have-9, travel-11)
+
+(ROOT
+  (S
+    (NP (NNP Harry))
+    (VP (VBZ is)
+      (PP (IN at)
+        (NP
+          (NP (DT the) (JJ day-care) (NN center))
+          (PP (IN from)
+            (NP (CD 8:30)))))
+      (PP (IN until)
+        (NP (CD 6:30))))
+    (. .)))
+
+nsubj(center-6, Harry-1)
+cop(center-6, is-2)
+case(center-6, at-3)
+det(center-6, the-4)
+amod(center-6, day-care-5)
+root(ROOT-0, center-6)
+case(8:30-8, from-7)
+nmod:from(center-6, 8:30-8)
+case(6:30-10, until-9)
+nmod:until(center-6, 6:30-10)
+
+(ROOT
+  (S
+    (VP (VB Its)
+      (NP (DT a) (JJ long) (NN day))
+      (PP (IN for)
+        (NP
+          (NP (DT both))
+          (PP (IN of)
+            (NP (PRP us))))))
+    (. .)))
+
+root(ROOT-0, Its-1)
+det(day-4, a-2)
+amod(day-4, long-3)
+nmod:tmod(Its-1, day-4)
+case(both-6, for-5)
+nmod:for(Its-1, both-6)
+case(us-8, of-7)
+nmod:of(both-6, us-8)
+
+(ROOT
+  (FRAG
+    (NP (NNP Sally))
+    (: :)
+    (S (CC And)
+      (NP (PRP you))
+      (VP (MD can)
+        (VP (VB keep)
+          (PP (IN in)
+            (NP
+              (NP (NN touch))
+              (PP (IN with)
+                (NP (NNP Harry)))))
+          (PP (IN during)
+            (NP (DT the) (NN day))))))
+    (. ?)))
+
+root(ROOT-0, Sally-1)
+cc(keep-6, And-3)
+nsubj(keep-6, you-4)
+aux(keep-6, can-5)
+parataxis(Sally-1, keep-6)
+case(touch-8, in-7)
+nmod:in(keep-6, touch-8)
+case(Harry-10, with-9)
+nmod:with(touch-8, Harry-10)
+case(day-13, during-11)
+det(day-13, the-12)
+nmod:during(keep-6, day-13)
+
+(ROOT
+  (NP
+    (NP (NNP Amy))
+    (: :)
+    (NP (NNP Thats) (NN right))
+    (. .)))
+
+root(ROOT-0, Amy-1)
+compound(right-4, Thats-3)
+dep(Amy-1, right-4)
+
+(ROOT
+  (SBARQ
+    (WHADVP
+      (ADVP (RB Sally) (: :))
+      (WRB How))
+    (SQ (VBP do)
+      (NP (PRP you))
+      (VP (VB get)
+        (S
+          (VP (TO to)
+            (VP (VB see)
+              (NP (NNP Harry))
+              (PP (IN during)
+                (NP (DT the) (NN day))))))))
+    (. ?)))
+
+advmod(How-3, Sally-1)
+advmod(get-6, How-3)
+aux(get-6, do-4)
+nsubj(get-6, you-5)
+nsubj(see-8, you-5)
+root(ROOT-0, get-6)
+mark(see-8, to-7)
+xcomp(get-6, see-8)
+dobj(see-8, Harry-9)
+case(day-12, during-10)
+det(day-12, the-11)
+nmod:during(see-8, day-12)
+
+(ROOT
+  (FRAG
+    (NP (NNP Amy))
+    (: :)
+    (S
+      (NP (DT The) (JJ day-care) (NN center))
+      (VP (VBZ has)
+        (NP
+          (NP (DT a) (JJ video) (NN camera))
+          (SBAR
+            (WHNP (WDT that))
+            (S
+              (VP (VBZ is)
+                (VP (VBN connected)
+                  (PP (TO to)
+                    (NP (DT a) (JJ special) (NN website))))))))))
+    (. .)))
+
+root(ROOT-0, Amy-1)
+det(center-5, The-3)
+amod(center-5, day-care-4)
+nsubj(has-6, center-5)
+parataxis(Amy-1, has-6)
+det(camera-9, a-7)
+amod(camera-9, video-8)
+dobj(has-6, camera-9)
+nsubjpass(connected-12, camera-9)
+ref(camera-9, that-10)
+auxpass(connected-12, is-11)
+acl:relcl(camera-9, connected-12)
+case(website-16, to-13)
+det(website-16, a-14)
+amod(website-16, special-15)
+nmod:to(connected-12, website-16)
+
+(ROOT
+  (S
+    (SBAR
+      (WHADVP (WRB When))
+      (S
+        (NP (PRP I))
+        (VP (VBP want)
+          (S
+            (VP (TO to)
+              (VP (VB see)
+                (NP (PRP him))))))))
+    (, ,)
+    (NP (PRP I))
+    (VP (MD can)
+      (VP
+        (VP (VB call)
+          (PRT (RP up))
+          (NP (DT the) (NN website)))
+        (CC and)
+        (VP (VB see)
+          (NP (DT the) (NN center))
+          (PP (IN on)
+            (NP (PRP$ my) (NN computer) (NN screen))))))
+    (. .)))
+
+advmod(want-3, When-1)
+nsubj(want-3, I-2)
+nsubj(see-5, I-2)
+advcl(call-10, want-3)
+mark(see-5, to-4)
+xcomp(want-3, see-5)
+dobj(see-5, him-6)
+nsubj(call-10, I-8)
+nsubj(see-15, I-8)
+aux(call-10, can-9)
+root(ROOT-0, call-10)
+compound:prt(call-10, up-11)
+det(website-13, the-12)
+dobj(call-10, website-13)
+cc(call-10, and-14)
+conj:and(call-10, see-15)
+det(center-17, the-16)
+dobj(see-15, center-17)
+case(screen-21, on-18)
+nmod:poss(screen-21, my-19)
+compound(screen-21, computer-20)
+nmod:on(see-15, screen-21)
+
+(ROOT
+  (SBARQ
+    (WHADVP
+      (ADVP (RB Sally) (: :))
+      (WRB How))
+    (SQ (VBZ does)
+      (NP (DT that))
+      (VP (VB make)
+        (S
+          (NP (PRP you))
+          (VP (VB feel)))))
+    (. ?)))
+
+advmod(How-3, Sally-1)
+advmod(make-6, How-3)
+aux(make-6, does-4)
+nsubj(make-6, that-5)
+root(ROOT-0, make-6)
+nsubj(feel-8, you-7)
+ccomp(make-6, feel-8)
+
+(ROOT
+  (NP
+    (NP (NNP Amy))
+    (: :)
+    (NP (JJ Wonderful))
+    (. .)))
+
+root(ROOT-0, Amy-1)
+dep(Amy-1, Wonderful-3)
+
+(ROOT
+  (S
+    (PP (IN For)
+      (NP (NN example)))
+    (, ,)
+    (SBAR
+      (WHADVP (WRB when))
+      (S
+        (NP (PRP I))
+        (VP (VBD dropped)
+          (NP (NNP Harry))
+          (PRT (RP off))
+          (PP (IN at)
+            (NP (DT the) (NN center)))
+          (NP (NN yesterday)))))
+    (, ,)
+    (NP (PRP he))
+    (VP (VBD started)
+      (S
+        (VP (TO to)
+          (VP (VB cry)))))
+    (. .)))
+
+case(example-2, For-1)
+nmod:for(started-15, example-2)
+advmod(dropped-6, when-4)
+nsubj(dropped-6, I-5)
+advcl(started-15, dropped-6)
+dobj(dropped-6, Harry-7)
+compound:prt(dropped-6, off-8)
+case(center-11, at-9)
+det(center-11, the-10)
+nmod:at(dropped-6, center-11)
+nmod:tmod(dropped-6, yesterday-12)
+nsubj(started-15, he-14)
+nsubj(cry-17, he-14)
+root(ROOT-0, started-15)
+mark(cry-17, to-16)
+xcomp(started-15, cry-17)
+
+(ROOT
+  (S
+    (S
+      (NP (PRP I))
+      (VP (VBD had)
+        (S
+          (VP (TO to)
+            (VP (VB leave))))))
+    (, ,)
+    (CC but)
+    (S
+      (NP (PRP he))
+      (ADVP (RB just))
+      (VP (VBP wouldnt)
+        (VP (VB stop)
+          (S
+            (VP (VBG crying))))))
+    (. .)))
+
+nsubj(had-2, I-1)
+nsubj(leave-4, I-1)
+root(ROOT-0, had-2)
+mark(leave-4, to-3)
+xcomp(had-2, leave-4)
+cc(had-2, but-6)
+nsubj(wouldnt-9, he-7)
+advmod(wouldnt-9, just-8)
+conj:but(had-2, wouldnt-9)
+xcomp(wouldnt-9, stop-10)
+xcomp(stop-10, crying-11)
+
+(ROOT
+  (S
+    (S
+      (NP (PRP I))
+      (VP (VBD felt)
+        (ADJP (JJ bad))))
+    (, ,)
+    (CC but)
+    (S
+      (NP (PRP I))
+      (VP (VBD needed)
+        (S
+          (VP (TO to)
+            (VP (VB get)
+              (S
+                (VP (TO to)
+                  (VP (VB work)))))))))
+    (. .)))
+
+nsubj(felt-2, I-1)
+root(ROOT-0, felt-2)
+xcomp(felt-2, bad-3)
+cc(felt-2, but-5)
+nsubj(needed-7, I-6)
+nsubj(get-9, I-6)
+nsubj(work-11, I-6)
+conj:but(felt-2, needed-7)
+mark(get-9, to-8)
+xcomp(needed-7, get-9)
+mark(work-11, to-10)
+xcomp(get-9, work-11)
+
+(ROOT
+  (S (RB Then)
+    (PP (IN at)
+      (NP (NN work)))
+    (, ,)
+    (NP (PRP I))
+    (VP (VBD was)
+      (ADJP (RB so) (JJ worried))
+      (SBAR (IN that)
+        (S
+          (NP (PRP I))
+          (VP (VBP couldnt)
+            (VP (VB concentrate))))))
+    (. .)))
+
+advmod(worried-8, Then-1)
+case(work-3, at-2)
+nmod:at(worried-8, work-3)
+nsubj(worried-8, I-5)
+cop(worried-8, was-6)
+advmod(worried-8, so-7)
+root(ROOT-0, worried-8)
+mark(couldnt-11, that-9)
+nsubj(couldnt-11, I-10)
+ccomp(worried-8, couldnt-11)
+xcomp(couldnt-11, concentrate-12)
+
+(ROOT
+  (S (IN So)
+    (NP (PRP I))
+    (VP
+      (VP (VBD logged)
+        (PRT (RP on)))
+      (CC and)
+      (VP (VBD went)
+        (PP (TO to)
+          (NP (DT the) (NN website)))))
+    (. .)))
+
+dep(logged-3, So-1)
+nsubj(logged-3, I-2)
+nsubj(went-6, I-2)
+root(ROOT-0, logged-3)
+compound:prt(logged-3, on-4)
+cc(logged-3, and-5)
+conj:and(logged-3, went-6)
+case(website-9, to-7)
+det(website-9, the-8)
+nmod:to(went-6, website-9)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (MD could)
+      (VP (VB see)
+        (NP
+          (NP (NNP Harry))
+          (VP (VBG playing)
+            (NP (DT a) (NN game))
+            (, ,)
+            (S
+              (ADJP (RB as) (JJ happy))
+              (SBAR (IN as)
+                (S
+                  (VP (MD could)
+                    (VP (VB be))))))))))
+    (. .)))
+
+nsubj(see-3, I-1)
+aux(see-3, could-2)
+root(ROOT-0, see-3)
+dobj(see-3, Harry-4)
+acl(Harry-4, playing-5)
+det(game-7, a-6)
+dobj(playing-5, game-7)
+nsubj(be-13, game-7)
+advmod(happy-10, as-9)
+dep(be-13, happy-10)
+mark(be-13, as-11)
+aux(be-13, could-12)
+xcomp(playing-5, be-13)
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBD made)
+      (SBAR
+        (S
+          (NP (PRP me))
+          (VP (VBP feel)
+            (ADVP (RBR better))))))
+    (. .)))
+
+nsubj(made-2, It-1)
+root(ROOT-0, made-2)
+nsubj(feel-4, me-3)
+ccomp(made-2, feel-4)
+advmod(feel-4, better-5)
+
+(ROOT
+  (FRAG
+    (WHNP (WP What)
+      (NP (DT a) (NN relief)))
+    (. !)))
+
+root(ROOT-0, What-1)
+det(relief-3, a-2)
+dep(What-1, relief-3)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB concentrate)
+        (PP (IN on)
+          (NP (PRP$ my) (NN work))))
+      (CC and)
+      (VP (VBD had)
+        (NP (DT a)
+          (ADJP (RB very) (JJ productive))
+          (NN morning))))
+    (. .)))
+
+root(ROOT-0, concentrate-1)
+case(work-4, on-2)
+nmod:poss(work-4, my-3)
+nmod:on(concentrate-1, work-4)
+cc(concentrate-1, and-5)
+conj:and(concentrate-1, had-6)
+det(morning-10, a-7)
+advmod(productive-9, very-8)
+amod(morning-10, productive-9)
+nmod:tmod(had-6, morning-10)
+
+(ROOT
+  (NP
+    (NP (NNP Sally))
+    (: :)
+    (SQ (MD Can)
+      (NP (NN anyone))
+      (VP (VB visit)
+        (NP (DT the) (NN website)))
+      (. ?))))
+
+root(ROOT-0, Sally-1)
+aux(visit-5, Can-3)
+nsubj(visit-5, anyone-4)
+parataxis(Sally-1, visit-5)
+det(website-7, the-6)
+dobj(visit-5, website-7)
+
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (VBP need)
+      (NP (DT a) (JJ special) (NN name)
+        (CC and)
+        (NN password)
+        (S
+          (VP (TO to)
+            (VP (VB get)
+              (PP (IN into)
+                (NP (DT the) (NN system))))))))
+    (. .)))
+
+nsubj(need-2, You-1)
+root(ROOT-0, need-2)
+det(name-5, a-3)
+amod(name-5, special-4)
+dobj(need-2, name-5)
+cc(name-5, and-6)
+dobj(need-2, password-7)
+conj:and(name-5, password-7)
+mark(get-9, to-8)
+acl(password-7, get-9)
+case(system-12, into-10)
+det(system-12, the-11)
+nmod:into(get-9, system-12)
+
+(ROOT
+  (NP
+    (NP (NNP Sally))
+    (: :)
+    (SQ (VBP Do)
+      (NP (DT the) (JJ day-care) (NNS workers))
+      (VP (VB like)
+        (NP (PRP it)))
+      (. ?))))
+
+root(ROOT-0, Sally-1)
+aux(like-7, Do-3)
+det(workers-6, the-4)
+amod(workers-6, day-care-5)
+nsubj(like-7, workers-6)
+parataxis(Sally-1, like-7)
+dobj(like-7, it-8)
+
+(ROOT
+  (FRAG
+    (NP (NNP Amy))
+    (: :)
+    (S
+      (PP (IN At)
+        (NP (JJ first)))
+      (, ,)
+      (NP (PRP they))
+      (VP (VBD felt)
+        (ADJP (JJ self-conscious))))
+    (. .)))
+
+root(ROOT-0, Amy-1)
+case(first-4, At-3)
+nmod:at(felt-7, first-4)
+nsubj(felt-7, they-6)
+parataxis(Amy-1, felt-7)
+xcomp(felt-7, self-conscious-8)
+
+(ROOT
+  (S (CC But)
+    (ADVP (RB now))
+    (, ,)
+    (NP (PRP they))
+    (VP (VBP dont)
+      (VP (VB seem)
+        (S
+          (VP (TO to)
+            (VP (VB notice))))))
+    (. .)))
+
+cc(dont-5, But-1)
+advmod(dont-5, now-2)
+nsubj(dont-5, they-4)
+root(ROOT-0, dont-5)
+xcomp(dont-5, seem-6)
+mark(notice-8, to-7)
+xcomp(seem-6, notice-8)
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN activity))
+      (PP (IN in)
+        (NP (DT the) (JJ day-care) (NN center))))
+    (VP (VBZ goes)
+      (PP (IN on)
+        (ADJP (RB as) (JJ usual))))
+    (. .)))
+
+det(activity-2, The-1)
+nsubj(goes-7, activity-2)
+case(center-6, in-3)
+det(center-6, the-4)
+amod(center-6, day-care-5)
+nmod:in(activity-2, center-6)
+root(ROOT-0, goes-7)
+case(usual-10, on-8)
+advmod(usual-10, as-9)
+advcl:on(goes-7, usual-10)
+
+(ROOT
+  (VP (VB Sally) (: :)
+    (SBARQ
+      (WHADVP (WRB How) (RB often))
+      (SQ (VBP do)
+        (NP (PRP you))
+        (VP (VB log)
+          (PRT (RP on))
+          (S
+            (VP (TO to)
+              (VP (VB see)
+                (NP (PRP$ your) (NN son)))))))
+      (. ?))))
+
+root(ROOT-0, Sally-1)
+advmod(often-4, How-3)
+advmod(log-7, often-4)
+aux(log-7, do-5)
+nsubj(log-7, you-6)
+nsubj(see-10, you-6)
+ccomp(Sally-1, log-7)
+compound:prt(log-7, on-8)
+mark(see-10, to-9)
+xcomp(log-7, see-10)
+nmod:poss(son-12, your-11)
+dobj(see-10, son-12)
+
+(ROOT
+  (FRAG
+    (NP (NNP Amy))
+    (: :)
+    (FRAG
+      (ADVP (RB Usually))
+      (PP (IN about)
+        (NP
+          (NP
+            (QP (CD four)
+              (CC or)
+              (CD five) (NNS times)))
+          (NP (DT a) (NN day)))))
+    (. .)))
+
+root(ROOT-0, Amy-1)
+dep(Amy-1, Usually-3)
+case(four-5, about-4)
+nmod:about(Usually-3, four-5)
+cc(four-5, or-6)
+nummod(times-8, five-7)
+nmod:about(Usually-3, times-8)
+conj:or(four-5, times-8)
+det(day-10, a-9)
+dep(four-5, day-10)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (ADVP (RB just))
+    (VP (VBP like)
+      (S
+        (VP (TO to)
+          (VP
+            (VP (VB see)
+              (NP (PRP him)))
+            (CC and)
+            (VP (VB know)
+              (NP
+                (NP (WP what) (NN kind))
+                (PP (IN of)
+                  (NP (NN day) (NN hes) (NNS having)))))))))
+    (. .)))
+
+nsubj(like-3, I-1)
+nsubj(see-5, I-1)
+nsubj(know-8, I-1)
+advmod(like-3, just-2)
+root(ROOT-0, like-3)
+mark(see-5, to-4)
+xcomp(like-3, see-5)
+dobj(see-5, him-6)
+cc(see-5, and-7)
+xcomp(like-3, know-8)
+conj:and(see-5, know-8)
+det(kind-10, what-9)
+dobj(know-8, kind-10)
+case(having-14, of-11)
+compound(having-14, day-12)
+compound(having-14, hes-13)
+nmod:of(kind-10, having-14)
+
+(ROOT
+  (NP
+    (NP (NNP Sally))
+    (: :)
+    (SQ (VBZ Does)
+      (NP (DT the) (NN camera))
+      (VP (VB follow)
+        (NP (DT the) (NNS children))
+        (ADVP (RB everywhere)))
+      (. ?))))
+
+root(ROOT-0, Sally-1)
+aux(follow-6, Does-3)
+det(camera-5, the-4)
+nsubj(follow-6, camera-5)
+parataxis(Sally-1, follow-6)
+det(children-8, the-7)
+dobj(follow-6, children-8)
+advmod(follow-6, everywhere-9)
+
+(ROOT
+  (NP
+    (NP (NNP Amy))
+    (: :)
+    (NP (RB Almost) (RB everywhere))
+    (. .)))
+
+root(ROOT-0, Amy-1)
+advmod(everywhere-4, Almost-3)
+dep(Amy-1, everywhere-4)
+
+(ROOT
+  (FRAG
+    (ADVP (RB Its))
+    (RB not)
+    (PP (IN on) (IN in)
+      (NP
+        (NP (DT the) (NN room))
+        (UCP
+          (SBAR
+            (WHADVP (WRB where))
+            (S
+              (NP (DT the) (NNS children))
+              (VP (VBP take)
+                (NP (PRP$ their) (NNS naps)))))
+          (CC or)
+          (PP (IN in)
+            (NP (DT the) (NN book) (NN corner))))))
+    (. .)))
+
+dep(not-2, Its-1)
+root(ROOT-0, not-2)
+case(room-6, on-3)
+case(room-6, in-4)
+det(room-6, the-5)
+nmod:in(not-2, room-6)
+advmod(take-10, where-7)
+det(children-9, the-8)
+nsubj(take-10, children-9)
+dep(room-6, take-10)
+nmod:poss(naps-12, their-11)
+dobj(take-10, naps-12)
+cc(take-10, or-13)
+case(corner-17, in-14)
+det(corner-17, the-15)
+compound(corner-17, book-16)
+dep(room-6, corner-17)
+conj:or(take-10, corner-17)
+
+(ROOT
+  (S (CC But)
+    (SBAR (IN if)
+      (S
+        (S
+          (NP (PRP I))
+          (VP (VBP log)
+            (PRT (RP on))))
+        (CC and)
+        (S
+          (NP (NN dont))
+          (VP (VBP see)
+            (NP (PRP him))))))
+    (, ,)
+    (NP (PRP I))
+    (VP (MD can)
+      (VP (VB ask)
+        (NP (PRP$ his) (NN teacher)
+          (S
+            (VP (TO to)
+              (VP (VB bring)
+                (NP (PRP him))
+                (PRT (RP over))
+                (PP (IN into)
+                  (NP
+                    (NP (DT the) (NN view))
+                    (PP (IN of)
+                      (NP (DT the) (NN camera)))))))))))
+    (. .)))
+
+cc(ask-13, But-1)
+mark(log-4, if-2)
+nsubj(log-4, I-3)
+advcl(ask-13, log-4)
+compound:prt(log-4, on-5)
+cc(log-4, and-6)
+nsubj(see-8, dont-7)
+conj:and(log-4, see-8)
+advcl(ask-13, see-8)
+dobj(see-8, him-9)
+nsubj(ask-13, I-11)
+aux(ask-13, can-12)
+root(ROOT-0, ask-13)
+nmod:poss(teacher-15, his-14)
+dobj(ask-13, teacher-15)
+mark(bring-17, to-16)
+acl(teacher-15, bring-17)
+dobj(bring-17, him-18)
+compound:prt(bring-17, over-19)
+case(view-22, into-20)
+det(view-22, the-21)
+nmod:into(bring-17, view-22)
+case(camera-25, of-23)
+det(camera-25, the-24)
+nmod:of(view-22, camera-25)
+
+(ROOT
+  (NP
+    (NP (NNP Sally))
+    (: :)
+    (SQ (VBP Do)
+      (NP (PRP you))
+      (VP (VB consider)
+        (S
+          (NP (PRP it))
+          (ADJP (JJ good)
+            (PP (IN for)
+              (NP (DT the) (JJ day-care) (NN center))))
+          (S
+            (VP (TO to)
+              (VP (VB have)
+                (NP (PDT such) (DT a) (NN system)))))))
+      (. ?))))
+
+root(ROOT-0, Sally-1)
+aux(consider-5, Do-3)
+nsubj(consider-5, you-4)
+parataxis(Sally-1, consider-5)
+nsubj(have-13, it-6)
+dep(have-13, good-7)
+case(center-11, for-8)
+det(center-11, the-9)
+amod(center-11, day-care-10)
+nmod:for(good-7, center-11)
+mark(have-13, to-12)
+xcomp(consider-5, have-13)
+det:predet(system-16, such-14)
+det(system-16, a-15)
+dobj(have-13, system-16)
+
+(ROOT
+  (FRAG
+    (NP (NNP Amy))
+    (: :)
+    (S
+      (NP (PRP I))
+      (VP (VBP think)
+        (ADVP (RB so))))
+    (. .)))
+
+root(ROOT-0, Amy-1)
+nsubj(think-4, I-3)
+parataxis(Amy-1, think-4)
+advmod(think-4, so-5)
+
+(ROOT
+  (S
+    (NP
+      (NP (PRP$ Its) (NN good))
+      (SBAR (IN because)
+        (S
+          (NP (PRP I))
+          (VP (MD can)
+            (VP
+              (VP (VB check)
+                (PRT (RP in)))
+              (CC and)
+              (VP (VB find)
+                (PRT (RP out))
+                (SBAR (IN whether)
+                  (S
+                    (NP (DT the) (NN center))
+                    (VP (VBZ is)
+                      (VP (VBG doing)
+                        (ADJP (JJ good))))))))))))
+    (VP (VBP work)
+      (PP (IN with)
+        (NP (NNP Harry))))
+    (. .)))
+
+nmod:poss(good-2, Its-1)
+nsubj(work-17, good-2)
+mark(check-6, because-3)
+nsubj(check-6, I-4)
+nsubj(find-9, I-4)
+aux(check-6, can-5)
+acl:relcl(good-2, check-6)
+compound:prt(check-6, in-7)
+cc(check-6, and-8)
+acl:relcl(good-2, find-9)
+conj:and(check-6, find-9)
+compound:prt(find-9, out-10)
+mark(doing-15, whether-11)
+det(center-13, the-12)
+nsubj(doing-15, center-13)
+aux(doing-15, is-14)
+ccomp(find-9, doing-15)
+xcomp(doing-15, good-16)
+root(ROOT-0, work-17)
+case(Harry-19, with-18)
+nmod:with(work-17, Harry-19)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (MD can)
+      (VP (VB see)
+        (SBAR
+          (SBAR (IN whether)
+            (S
+              (NP (PRP he))
+              (VP (VBZ is)
+                (VP (VBG getting)
+                  (NP (JJ enough) (NN attention))))))
+          (CC and)
+          (SBAR (IN if)
+            (S
+              (NP (DT the) (NN center))
+              (VP (VBZ is)
+                (VP (VBG following)
+                  (NP (DT the) (JJ educational) (NN program))
+                  (SBAR (IN that)
+                    (S
+                      (NP (PRP they))
+                      (VP (VBP say)
+                        (SBAR
+                          (S
+                            (NP (PRP they))
+                            (VP (VBP offer))))))))))))))
+    (. .)))
+
+nsubj(see-3, I-1)
+aux(see-3, can-2)
+root(ROOT-0, see-3)
+mark(getting-7, whether-4)
+nsubj(getting-7, he-5)
+aux(getting-7, is-6)
+advcl(see-3, getting-7)
+amod(attention-9, enough-8)
+dobj(getting-7, attention-9)
+cc(getting-7, and-10)
+mark(following-15, if-11)
+det(center-13, the-12)
+nsubj(following-15, center-13)
+aux(following-15, is-14)
+advcl(see-3, following-15)
+conj:and(getting-7, following-15)
+det(program-18, the-16)
+amod(program-18, educational-17)
+dobj(following-15, program-18)
+mark(say-21, that-19)
+nsubj(say-21, they-20)
+ccomp(following-15, say-21)
+nsubj(offer-23, they-22)
+ccomp(say-21, offer-23)
+
+(ROOT
+  (FRAG
+    (NP (NNP Sally))
+    (: :)
+    (S
+      (VP (VBP Are)
+        (ADVP (RB there))
+        (NP
+          (NP (DT any) (JJ other) (NNS benefits))
+          (PP (TO to)
+            (NP (DT this) (NN system))))))
+    (. ?)))
+
+root(ROOT-0, Sally-1)
+cop(benefits-7, Are-3)
+advmod(benefits-7, there-4)
+det(benefits-7, any-5)
+amod(benefits-7, other-6)
+parataxis(Sally-1, benefits-7)
+case(system-10, to-8)
+det(system-10, this-9)
+nmod:to(benefits-7, system-10)
+
+(ROOT
+  (S
+    (NP
+      (NP (PRP$ My) (NNS parents))
+      (, ,)
+      (SBAR
+        (WHNP (WP who))
+        (S
+          (VP (VBP live)
+            (ADVP
+              (NP (CD 2,000) (NNS miles))
+              (RB away)))))
+      (, ,))
+    (VP (MD can)
+      (VP
+        (VP (VB log)
+          (PRT (RP on)))
+        (CC and)
+        (VP (VB see)
+          (NP (PRP$ their) (JJ first) (NN grandchild))
+          (S
+            (VP (VBG doing)
+              (NP (JJ important) (JJ new) (NNS things)))))))
+    (. .)))
+
+nmod:poss(parents-2, My-1)
+nsubj(live-5, parents-2)
+nsubj(log-11, parents-2)
+nsubj(see-14, parents-2)
+ref(parents-2, who-4)
+acl:relcl(parents-2, live-5)
+nummod(miles-7, 2,000-6)
+nmod:npmod(away-8, miles-7)
+advmod(live-5, away-8)
+aux(log-11, can-10)
+root(ROOT-0, log-11)
+compound:prt(log-11, on-12)
+cc(log-11, and-13)
+conj:and(log-11, see-14)
+nmod:poss(grandchild-17, their-15)
+amod(grandchild-17, first-16)
+dobj(see-14, grandchild-17)
+xcomp(see-14, doing-18)
+amod(things-21, important-19)
+amod(things-21, new-20)
+dobj(doing-18, things-21)
+
+(ROOT
+  (S
+    (PP (IN With)
+      (NP (DT the) (NN Internet)))
+    (, ,)
+    (NP (PRP$ its))
+    (ADVP (RB as) (IN though))
+    (VP (VBD were)
+      (VP (VBG living)
+        (PP (IN in)
+          (NP (DT the) (JJ same) (NN house)))))
+    (. .)))
+
+case(Internet-3, With-1)
+det(Internet-3, the-2)
+nmod:with(living-9, Internet-3)
+nsubj(living-9, its-5)
+advmod(living-9, as-6)
+case(as-6, though-7)
+aux(living-9, were-8)
+root(ROOT-0, living-9)
+case(house-13, in-10)
+det(house-13, the-11)
+amod(house-13, same-12)
+nmod:in(living-9, house-13)
+
+(ROOT
+  (S
+    (NP (NNP Sally) (NNP Oh))
+    (VP (VBZ thanks)
+      (NP
+        (NP (NNP Amy) (NNP Baines))
+        (PP (IN for)
+          (NP (DT the) (NN interview)))))
+    (. .)))
+
+compound(Oh-2, Sally-1)
+nsubj(thanks-3, Oh-2)
+root(ROOT-0, thanks-3)
+compound(Baines-5, Amy-4)
+dobj(thanks-3, Baines-5)
+case(interview-8, for-6)
+det(interview-8, the-7)
+nmod:for(Baines-5, interview-8)
+
+(ROOT
+  (S
+    (NP (NNP Sally))
+    (VP (VBZ concludes)
+      (PP (IN by)
+        (S
+          (VP (VBG saying)
+            (SBAR (IN that)
+              (S
+                (NP
+                  (NP (JJ day-care) (NNS centers))
+                  (PP (IN with)
+                    (NP
+                      (NP (JJ video) (NNS cameras))
+                      (VP (VBN linked)
+                        (PP (TO to)
+                          (NP (NNS websites)))))))
+                (VP (VBP are)
+                  (ADJP (JJ good)
+                    (PP (IN for)
+                      (S
+                        (VP (VBG working)
+                          (NP (NNS parents)))))))))))))
+    (. .)))
+
+nsubj(concludes-2, Sally-1)
+root(ROOT-0, concludes-2)
+mark(saying-4, by-3)
+advcl(concludes-2, saying-4)
+mark(good-15, that-5)
+amod(centers-7, day-care-6)
+nsubj(good-15, centers-7)
+case(cameras-10, with-8)
+amod(cameras-10, video-9)
+nmod:with(centers-7, cameras-10)
+acl(cameras-10, linked-11)
+case(websites-13, to-12)
+nmod:to(linked-11, websites-13)
+cop(good-15, are-14)
+ccomp(saying-4, good-15)
+mark(working-17, for-16)
+advcl(good-15, working-17)
+dobj(working-17, parents-18)
+
+(ROOT
+  (S
+    (NP (DT These) (NNS parents))
+    (VP (MD can)
+      (VP (VB concentrate)
+        (PP (IN at)
+          (NP (NN work)))
+        (SBAR (IN because)
+          (S
+            (NP (PRP they))
+            (VP (VBP know)
+              (SBAR (IN that)
+                (S
+                  (NP (PRP$ their) (NNS children))
+                  (VP (VBP are)
+                    (VP (VBG getting)
+                      (NP (JJ good) (NN care) (NNS thanks))
+                      (PP (TO to)
+                        (NP
+                          (NP (DT the) (NNS wonders))
+                          (PP (IN of)
+                            (NP (NN technology))))))))))))))
+    (. .)))
+
+det(parents-2, These-1)
+nsubj(concentrate-4, parents-2)
+aux(concentrate-4, can-3)
+root(ROOT-0, concentrate-4)
+case(work-6, at-5)
+nmod:at(concentrate-4, work-6)
+mark(know-9, because-7)
+nsubj(know-9, they-8)
+advcl(concentrate-4, know-9)
+mark(getting-14, that-10)
+nmod:poss(children-12, their-11)
+nsubj(getting-14, children-12)
+aux(getting-14, are-13)
+ccomp(know-9, getting-14)
+amod(thanks-17, good-15)
+compound(thanks-17, care-16)
+dobj(getting-14, thanks-17)
+case(wonders-20, to-18)
+det(wonders-20, the-19)
+nmod:to(getting-14, wonders-20)
+case(technology-22, of-21)
+nmod:of(wonders-20, technology-22)
+

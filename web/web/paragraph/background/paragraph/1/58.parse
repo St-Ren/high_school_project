@@ -1,0 +1,1146 @@
+(ROOT
+  (S
+    (VP (VBG Using)
+      (ADVP (RB Politically))
+      (NP (NNP Correct) (NNP English)))
+    (. .)))
+
+root(ROOT-0, Using-1)
+advmod(Using-1, Politically-2)
+compound(English-4, Correct-3)
+dobj(Using-1, English-4)
+
+(ROOT
+  (S
+    (SBAR (IN If)
+      (S
+        (NP (PRP you))
+        (VP (VBP dont)
+          (SBAR
+            (S
+              (VP (VBP want)
+                (S
+                  (VP (TO to)
+                    (VP (VB offend)
+                      (NP (NN someone)))))))))))
+    (, ,)
+    (NP (PRP you))
+    (VP (VBD had)
+      (ADVP (RBR better))
+      (VP (VB know)
+        (SBAR
+          (SBAR
+            (WHNP (WDT which) (JJ English) (NNS words))
+            (S
+              (VP (TO to)
+                (VP (VB use)))))
+          (: --)
+          (CC and)
+          (SBAR
+            (WHNP (WDT which))
+            (S
+              (VP (TO to)
+                (VP (VB avoid))))))))
+    (. .)))
+
+mark(dont-3, If-1)
+nsubj(dont-3, you-2)
+advcl(know-12, dont-3)
+ccomp(dont-3, want-4)
+mark(offend-6, to-5)
+xcomp(want-4, offend-6)
+dobj(offend-6, someone-7)
+nsubj(know-12, you-9)
+dep(know-12, had-10)
+mwe(had-10, better-11)
+root(ROOT-0, know-12)
+det(words-15, which-13)
+amod(words-15, English-14)
+nsubj(use-17, words-15)
+mark(use-17, to-16)
+dep(know-12, use-17)
+cc(use-17, and-19)
+nsubj(avoid-22, which-20)
+mark(avoid-22, to-21)
+dep(know-12, avoid-22)
+conj:and(use-17, avoid-22)
+
+(ROOT
+  (S
+    (VP (VB Imagine)
+      (SBAR (IN that)
+        (S
+          (NP (PRP you))
+          (VP (VBP are)
+            (PP (IN in)
+              (NP
+                (NP (DT a) (NN restaurant))
+                (PP (IN in)
+                  (NP (NNP America)))))))))
+    (. .)))
+
+root(ROOT-0, Imagine-1)
+mark(restaurant-7, that-2)
+nsubj(restaurant-7, you-3)
+cop(restaurant-7, are-4)
+case(restaurant-7, in-5)
+det(restaurant-7, a-6)
+ccomp(Imagine-1, restaurant-7)
+case(America-9, in-8)
+nmod:in(restaurant-7, America-9)
+
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (VBP want)
+      (SBAR
+        (S
+          (NP
+            (NP (DT some) (NN water))
+            (, ,)
+            (SBAR (IN so)
+              (S
+                (NP (PRP you))
+                (VP (VBP call)
+                  (PRT (RP out)))))
+            (, ,))
+          (VP (VBZ Waitress)))))
+    (. !)))
+
+nsubj(want-2, You-1)
+root(ROOT-0, want-2)
+det(water-4, some-3)
+nsubj(Waitress-11, water-4)
+mark(call-8, so-6)
+nsubj(call-8, you-7)
+acl:relcl(water-4, call-8)
+compound:prt(call-8, out-9)
+ccomp(want-2, Waitress-11)
+
+(ROOT
+  (S
+    (S
+      (NP (DT A) (NN waitress))
+      (VP (VBZ comes)
+        (PP (TO to)
+          (NP (PRP$ your) (NN table)))))
+    (, ,)
+    (CC but)
+    (S
+      (NP (PRP she))
+      (VP (VBZ looks)
+        (NP (DT a) (JJ little) (NN irritated))))
+    (. .)))
+
+det(waitress-2, A-1)
+nsubj(comes-3, waitress-2)
+root(ROOT-0, comes-3)
+case(table-6, to-4)
+nmod:poss(table-6, your-5)
+nmod:to(comes-3, table-6)
+cc(comes-3, but-8)
+nsubj(looks-10, she-9)
+conj:but(comes-3, looks-10)
+det(irritated-13, a-11)
+amod(irritated-13, little-12)
+dobj(looks-10, irritated-13)
+
+(ROOT
+  (SBARQ
+    (WHNP (WP What))
+    (SQ (VBD did)
+      (NP (PRP you))
+      (VP (VB do)
+        (ADJP (JJ wrong))))
+    (. ?)))
+
+dobj(wrong-5, What-1)
+aux(do-4, did-2)
+nsubj(do-4, you-3)
+root(ROOT-0, do-4)
+xcomp(do-4, wrong-5)
+
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (MD may)
+      (VP (VB have)
+        (VP (VBN offended)
+          (NP (PRP her))
+          (PP (IN by)
+            (S
+              (VP (VBG calling)
+                (NP (PRP her))
+                (NP (DT a) (NN waitress))))))))
+    (. .)))
+
+nsubj(offended-4, You-1)
+aux(offended-4, may-2)
+aux(offended-4, have-3)
+root(ROOT-0, offended-4)
+dobj(offended-4, her-5)
+mark(calling-7, by-6)
+advcl(offended-4, calling-7)
+iobj(calling-7, her-8)
+det(waitress-10, a-9)
+dobj(calling-7, waitress-10)
+
+(ROOT
+  (S
+    (NP (NN Today))
+    (NP (JJ many) (NNS people))
+    (VP (VBP prefer)
+      (NP (DT the) (NN word) (NN server))
+      (PP (TO to)
+        (NP (NN waiter)
+          (CC or)
+          (NN waitress))))
+    (. .)))
+
+nmod:tmod(prefer-4, Today-1)
+amod(people-3, many-2)
+nsubj(prefer-4, people-3)
+root(ROOT-0, prefer-4)
+det(server-7, the-5)
+compound(server-7, word-6)
+dobj(prefer-4, server-7)
+case(waiter-9, to-8)
+nmod:to(prefer-4, waiter-9)
+cc(waiter-9, or-10)
+nmod:to(prefer-4, waitress-11)
+conj:or(waiter-9, waitress-11)
+
+(ROOT
+  (FRAG (WRB Why) (. ?)))
+
+root(ROOT-0, Why-1)
+
+(ROOT
+  (S
+    (PP (IN As)
+      (NP (NN society) (NNS changes)))
+    (, ,)
+    (ADVP (RB so))
+    (VP (VBZ does)
+      (NP (PRP$ our) (NN language)))
+    (. .)))
+
+case(changes-3, As-1)
+compound(changes-3, society-2)
+nmod:as(does-6, changes-3)
+advmod(does-6, so-5)
+root(ROOT-0, does-6)
+nmod:poss(language-8, our-7)
+dobj(does-6, language-8)
+
+(ROOT
+  (S
+    (NP (NN Today))
+    (NP (DT the) (NN word) (NN server))
+    (VP (VBZ is)
+      (VP (VBN considered)
+        (S
+          (ADJP
+            (ADJP (RBR more) (RB politically) (JJ correct))
+            (PRN (-LRB- -LRB-)
+              (CC or)
+              (NX (NNS PC))
+              (-RRB- -RRB-))))
+        (PP (IN by)
+          (NP (JJ many) (NNS people)))))
+    (. .)))
+
+nmod:tmod(considered-6, Today-1)
+det(server-4, the-2)
+compound(server-4, word-3)
+nsubjpass(considered-6, server-4)
+auxpass(considered-6, is-5)
+root(ROOT-0, considered-6)
+advmod(correct-9, more-7)
+advmod(correct-9, politically-8)
+xcomp(considered-6, correct-9)
+dep(correct-9, or-11)
+dep(or-11, PC-12)
+case(people-16, by-14)
+amod(people-16, many-15)
+nmod:by(considered-6, people-16)
+
+(ROOT
+  (S
+    (ADVP (RB Politically))
+    (NP (NNP correct) (NNP English))
+    (VP (VBZ is)
+      (NP (DT an) (NN attempt)
+        (S
+          (VP (TO to)
+            (VP (VB make)
+              (S
+                (NP (NN language))
+                (ADJP (RBR more) (JJ respectful)
+                  (PP (TO to)
+                    (NP (DT all) (NNS people))))))))))
+    (. .)))
+
+advmod(attempt-6, Politically-1)
+compound(English-3, correct-2)
+nsubj(attempt-6, English-3)
+cop(attempt-6, is-4)
+det(attempt-6, an-5)
+root(ROOT-0, attempt-6)
+mark(make-8, to-7)
+acl(attempt-6, make-8)
+nsubj(respectful-11, language-9)
+advmod(respectful-11, more-10)
+xcomp(make-8, respectful-11)
+case(people-14, to-12)
+det(people-14, all-13)
+nmod:to(respectful-11, people-14)
+
+(ROOT
+  (S
+    (NP
+      (NP (NNS Words))
+      (SBAR
+        (WHNP (WDT that))
+        (S
+          (VP (VBD put)
+            (NP
+              (ADJP (RB too) (JJ much))
+              (NN emphasis))
+            (PP (IN on)
+              (NP (NN gender)))))))
+    (VP (VBP are)
+      (ADVP (RB slowly))
+      (VP (VBG being)
+        (VP (VBN taken)
+          (PRT (RP away))
+          (PP (IN from)
+            (NP (DT the) (JJ English) (NN vocabulary))))))
+    (. .)))
+
+nsubj(put-3, Words-1)
+nsubjpass(taken-12, Words-1)
+ref(Words-1, that-2)
+acl:relcl(Words-1, put-3)
+advmod(much-5, too-4)
+amod(emphasis-6, much-5)
+dobj(put-3, emphasis-6)
+case(gender-8, on-7)
+nmod:on(put-3, gender-8)
+aux(taken-12, are-9)
+advmod(taken-12, slowly-10)
+auxpass(taken-12, being-11)
+root(ROOT-0, taken-12)
+compound:prt(taken-12, away-13)
+case(vocabulary-17, from-14)
+det(vocabulary-17, the-15)
+amod(vocabulary-17, English-16)
+nmod:from(taken-12, vocabulary-17)
+
+(ROOT
+  (S
+    (NP (PRP They))
+    (VP (VBP include)
+      (NP
+        (NP (NNS words))
+        (SBAR
+          (WHNP (WDT that))
+          (S
+            (VP (VBP end)
+              (PP (IN in)
+                (NP (NN ess)
+                  (CC or)
+                  (NN man))))))))
+    (. .)))
+
+nsubj(include-2, They-1)
+root(ROOT-0, include-2)
+dobj(include-2, words-3)
+nsubj(end-5, words-3)
+ref(words-3, that-4)
+acl:relcl(words-3, end-5)
+case(ess-7, in-6)
+nmod:in(end-5, ess-7)
+cc(ess-7, or-8)
+nmod:in(end-5, man-9)
+conj:or(ess-7, man-9)
+
+(ROOT
+  (S
+    (PP (IN For)
+      (NP (NN example)))
+    (, ,)
+    (NP
+      (NP (JJ many) (NNS women))
+      (SBAR
+        (WHNP (WP who))
+        (S
+          (VP (VBP serve)
+            (NP
+              (NP (NNS passengers))
+              (PP (IN on)
+                (NP (NNS airplanes))))))))
+    (VP
+      (VP
+        (ADVP (RB now))
+        (VBP prefer)
+        (S
+          (VP (TO to)
+            (VP (VB be)
+              (VP (VBN called)
+                (NP (NN flight) (NNS attendants)))))))
+      (, ,) (RB not)
+      (VP (VBZ stewardesses)))
+    (. .)))
+
+case(example-2, For-1)
+nmod:for(prefer-12, example-2)
+amod(women-5, many-4)
+nsubj(serve-7, women-5)
+nsubj(prefer-12, women-5)
+nsubjpass(called-15, women-5)
+ref(women-5, who-6)
+acl:relcl(women-5, serve-7)
+dobj(serve-7, passengers-8)
+case(airplanes-10, on-9)
+nmod:on(passengers-8, airplanes-10)
+advmod(prefer-12, now-11)
+root(ROOT-0, prefer-12)
+mark(called-15, to-13)
+auxpass(called-15, be-14)
+xcomp(prefer-12, called-15)
+compound(attendants-17, flight-16)
+dobj(called-15, attendants-17)
+neg(stewardesses-20, not-19)
+dep(prefer-12, stewardesses-20)
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (DT the) (NN past)))
+    (, ,)
+    (NP (JJ only) (NNS women))
+    (VP (MD could)
+      (VP (VB be)
+        (NP (NN flight) (NNS attendants))))
+    (. .)))
+
+case(past-3, In-1)
+det(past-3, the-2)
+nmod:in(attendants-10, past-3)
+amod(women-6, only-5)
+nsubj(attendants-10, women-6)
+aux(attendants-10, could-7)
+cop(attendants-10, be-8)
+compound(attendants-10, flight-9)
+root(ROOT-0, attendants-10)
+
+(ROOT
+  (S (CC But)
+    (NP (NN today))
+    (, ,)
+    (NP (JJ many) (NNS men))
+    (VP (VBP have)
+      (VP (VBN entered)
+        (NP (DT the) (NN profession)))
+      (, ,)
+      (ADVP (RB too)))
+    (. .)))
+
+cc(entered-7, But-1)
+nmod:tmod(entered-7, today-2)
+amod(men-5, many-4)
+nsubj(entered-7, men-5)
+aux(entered-7, have-6)
+root(ROOT-0, entered-7)
+det(profession-9, the-8)
+dobj(entered-7, profession-9)
+advmod(entered-7, too-11)
+
+(ROOT
+  (S
+    (NP (NN Flight) (NN attendant))
+    (VP (VBZ is)
+      (NP (DT a) (JJR better) (NN word))
+      (, ,)
+      (SBAR (IN because)
+        (S
+          (NP (PRP it))
+          (VP (VBZ includes)
+            (NP (CC both)
+              (NNS men)
+              (CC and)
+              (NNS women))))))
+    (. .)))
+
+compound(attendant-2, Flight-1)
+nsubj(word-6, attendant-2)
+cop(word-6, is-3)
+det(word-6, a-4)
+amod(word-6, better-5)
+root(ROOT-0, word-6)
+mark(includes-10, because-8)
+nsubj(includes-10, it-9)
+advcl(word-6, includes-10)
+cc:preconj(men-12, both-11)
+dobj(includes-10, men-12)
+cc(men-12, and-13)
+dobj(includes-10, women-14)
+conj:and(men-12, women-14)
+
+(ROOT
+  (S (CC And)
+    (NP (JJ many) (NNS women))
+    (VP (VBP are)
+      (VP (VBG entering)
+        (NP
+          (NP (NNS jobs))
+          (SBAR
+            (WHNP (WDT that))
+            (S
+              (VP (VBD were)
+                (ADJP
+                  (ADVP (RB once) (RB only))
+                  (VBN occupied)
+                  (PP (IN by)
+                    (NP (NNS men))))))))))
+    (. .)))
+
+cc(entering-5, And-1)
+amod(women-3, many-2)
+nsubj(entering-5, women-3)
+aux(entering-5, are-4)
+root(ROOT-0, entering-5)
+dobj(entering-5, jobs-6)
+nsubjpass(occupied-11, jobs-6)
+ref(jobs-6, that-7)
+auxpass(occupied-11, were-8)
+advmod(only-10, once-9)
+advmod(occupied-11, only-10)
+acl:relcl(jobs-6, occupied-11)
+case(men-13, by-12)
+nmod:by(occupied-11, men-13)
+
+(ROOT
+  (S (IN So)
+    (NP
+      (NP (NNS words))
+      (PP (IN like)
+        (NP (NN policeman))))
+    (VP (VBP are)
+      (VP (VBG being)
+        (VP (VBN replaced))))
+    (. .)))
+
+dep(replaced-7, So-1)
+nsubjpass(replaced-7, words-2)
+case(policeman-4, like-3)
+nmod:like(words-2, policeman-4)
+aux(replaced-7, are-5)
+auxpass(replaced-7, being-6)
+root(ROOT-0, replaced-7)
+
+(ROOT
+  (S
+    (ADVP (RB Now))
+    (NP (NN police) (NN officer))
+    (VP (VBZ is)
+      (NP (DT the) (JJ preferred) (NN term)))
+    (. .)))
+
+advmod(term-7, Now-1)
+compound(officer-3, police-2)
+nsubj(term-7, officer-3)
+cop(term-7, is-4)
+det(term-7, the-5)
+amod(term-7, preferred-6)
+root(ROOT-0, term-7)
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN use))
+      (PP (IN of)
+        (NP (NNS pronouns))))
+    (VP (VBZ is)
+      (NP (DT another) (NN problem)))
+    (. .)))
+
+det(use-2, The-1)
+nsubj(problem-7, use-2)
+case(pronouns-4, of-3)
+nmod:of(use-2, pronouns-4)
+cop(problem-7, is-5)
+det(problem-7, another-6)
+root(ROOT-0, problem-7)
+
+(ROOT
+  (S
+    (ADVP (RB Unfortunately))
+    (, ,)
+    (NP (NNP English))
+    (VP (VBZ has)
+      (NP
+        (NP (DT no) (JJ gender-neutral) (NN singular) (NN pronoun))
+        (SBAR
+          (WHNP (WDT that))
+          (S
+            (VP (MD can)
+              (VP (VB be)
+                (VP (VBN used)
+                  (S
+                    (VP (TO to)
+                      (VP (VB replace)
+                        (NP
+                          (NP (PRP he))
+                          (CC or)
+                          (NP (PRP she)))))))))))))
+    (. .)))
+
+advmod(has-4, Unfortunately-1)
+nsubj(has-4, English-3)
+root(ROOT-0, has-4)
+neg(pronoun-8, no-5)
+amod(pronoun-8, gender-neutral-6)
+compound(pronoun-8, singular-7)
+dobj(has-4, pronoun-8)
+nsubjpass(used-12, pronoun-8)
+nsubj(replace-14, pronoun-8)
+ref(pronoun-8, that-9)
+aux(used-12, can-10)
+auxpass(used-12, be-11)
+acl:relcl(pronoun-8, used-12)
+mark(replace-14, to-13)
+xcomp(used-12, replace-14)
+dobj(replace-14, he-15)
+cc(he-15, or-16)
+dobj(replace-14, she-17)
+conj:or(he-15, she-17)
+
+(ROOT
+  (S
+    (NP (DT This))
+    (VP (VBZ creates)
+      (NP
+        (NP (NNS problems))
+        (PP (IN for)
+          (NP
+            (NP (NNS advocates))
+            (PP (IN of)
+              (NP (NNP PC) (NNP English)))))))
+    (. .)))
+
+nsubj(creates-2, This-1)
+root(ROOT-0, creates-2)
+dobj(creates-2, problems-3)
+case(advocates-5, for-4)
+nmod:for(problems-3, advocates-5)
+case(English-8, of-6)
+compound(English-8, PC-7)
+nmod:of(advocates-5, English-8)
+
+(ROOT
+  (SBARQ
+    (WHADVP (WRB How))
+    (SQ (VBP do)
+      (NP (PRP you))
+      (VP (VB treat)
+        (NP (DT both) (NNS genders))
+        (ADVP (RB fairly)
+          (PP (IN without)
+            (NP (PDT such) (DT a) (NN pronoun))))))
+    (. ?)))
+
+advmod(treat-4, How-1)
+aux(treat-4, do-2)
+nsubj(treat-4, you-3)
+root(ROOT-0, treat-4)
+det(genders-6, both-5)
+dobj(treat-4, genders-6)
+advmod(treat-4, fairly-7)
+case(pronoun-11, without-8)
+det:predet(pronoun-11, such-9)
+det(pronoun-11, a-10)
+nmod:without(fairly-7, pronoun-11)
+
+(ROOT
+  (S
+    (NP (NNS People))
+    (ADVP (RB sometimes))
+    (VP (VBP say) (, ,)
+      (S
+        (SBAR (IN If)
+          (S
+            (NP (DT a) (NN person))
+            (VP (VBZ wants)
+              (S
+                (VP (TO to)
+                  (VP (VB learn)
+                    (NP (NNP English))))))))
+        (, ,)
+        (NP (PRP he))
+        (VP (MD should)
+          (VP (VB study)
+            (NP (DT every) (NN day))))))
+    (. .)))
+
+nsubj(say-3, People-1)
+advmod(say-3, sometimes-2)
+root(ROOT-0, say-3)
+mark(wants-8, If-5)
+det(person-7, a-6)
+nsubj(wants-8, person-7)
+nsubj(learn-10, person-7)
+advcl(study-15, wants-8)
+mark(learn-10, to-9)
+xcomp(wants-8, learn-10)
+dobj(learn-10, English-11)
+nsubj(study-15, he-13)
+aux(study-15, should-14)
+ccomp(say-3, study-15)
+det(day-17, every-16)
+nmod:tmod(study-15, day-17)
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (DT this) (NN sentence)))
+    (, ,)
+    (NP (PRP he))
+    (VP (VBZ is)
+      (VP (VBN supposed)
+        (S
+          (VP (TO to)
+            (VP (VB mean)
+              (NP
+                (NP (PRP he))
+                (CC or)
+                (NP (PRP she))))))))
+    (. .)))
+
+case(sentence-3, In-1)
+det(sentence-3, this-2)
+nmod:in(supposed-7, sentence-3)
+nsubjpass(supposed-7, he-5)
+nsubj(mean-9, he-5)
+auxpass(supposed-7, is-6)
+root(ROOT-0, supposed-7)
+mark(mean-9, to-8)
+xcomp(supposed-7, mean-9)
+dobj(mean-9, he-10)
+cc(he-10, or-11)
+dobj(mean-9, she-12)
+conj:or(he-10, she-12)
+
+(ROOT
+  (S (CC But)
+    (NP (NNS studies))
+    (VP (VBP show)
+      (SBAR (IN that)
+        (S
+          (SBAR
+            (WHADVP (WRB when))
+            (S
+              (NP (NNS people))
+              (VP (VBP read)
+                (S
+                  (NP (DT the) (NN word))
+                  (NP (PRP he))))))
+          (, ,)
+          (NP (PRP they))
+          (VP (VBZ visualize)
+            (NP (RB only) (DT a) (NN male))))))
+    (. .)))
+
+cc(show-3, But-1)
+nsubj(show-3, studies-2)
+root(ROOT-0, show-3)
+mark(visualize-13, that-4)
+advmod(read-7, when-5)
+nsubj(read-7, people-6)
+advcl(visualize-13, read-7)
+det(word-9, the-8)
+nsubj(he-10, word-9)
+xcomp(read-7, he-10)
+nsubj(visualize-13, they-12)
+ccomp(show-3, visualize-13)
+advmod(male-16, only-14)
+det(male-16, a-15)
+dobj(visualize-13, male-16)
+
+(ROOT
+  (S
+    (S
+      (S (RB So)
+        (VP (TO to)
+          (VP (VB treat)
+            (NP (DT both) (NNS genders))
+            (ADVP (RB fairly)))))
+      (, ,)
+      (NP (NNS people))
+      (VP
+        (VP (VBP change)
+          (NP (PRP he))
+          (PP (TO to)
+            (NP (PRP they))))
+        (CC and)
+        (VP (VBP make)
+          (NP (DT the) (NN sentence) (NN plural)))))
+    (: :)
+    (S
+      (SBAR (IN If)
+        (S
+          (NP (NNS people))
+          (VP (VBP want)
+            (S
+              (VP (TO to)
+                (VP (VB learn)
+                  (NP (NNP English))))))))
+      (, ,)
+      (NP (PRP they))
+      (VP (MD should)
+        (VP (VB study)
+          (NP (DT every) (NN day)))))
+    (. .)))
+
+advmod(treat-3, So-1)
+mark(treat-3, to-2)
+advcl(change-9, treat-3)
+det(genders-5, both-4)
+dobj(treat-3, genders-5)
+advmod(treat-3, fairly-6)
+nsubj(change-9, people-8)
+nsubj(make-14, people-8)
+root(ROOT-0, change-9)
+dobj(change-9, he-10)
+case(they-12, to-11)
+nmod:to(change-9, they-12)
+cc(change-9, and-13)
+conj:and(change-9, make-14)
+det(plural-17, the-15)
+compound(plural-17, sentence-16)
+dobj(make-14, plural-17)
+mark(want-21, If-19)
+nsubj(want-21, people-20)
+nsubj(learn-23, people-20)
+advcl(study-28, want-21)
+mark(learn-23, to-22)
+xcomp(want-21, learn-23)
+dobj(learn-23, English-24)
+nsubj(study-28, they-26)
+aux(study-28, should-27)
+parataxis(change-9, study-28)
+det(day-30, every-29)
+nmod:tmod(study-28, day-30)
+
+(ROOT
+  (S
+    (NP (NNP PC) (NNP English))
+    (VP (VBZ goes)
+      (PP (IN beyond)
+        (NP (NN gender))))
+    (. .)))
+
+compound(English-2, PC-1)
+nsubj(goes-3, English-2)
+root(ROOT-0, goes-3)
+case(gender-5, beyond-4)
+nmod:beyond(goes-3, gender-5)
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (ADVP (RB also))
+    (VP (VBZ includes)
+      (NP
+        (NP (NNS issues))
+        (PP (IN of)
+          (NP (NN race)
+            (CC and)
+            (NNS disabilities)))))
+    (. .)))
+
+nsubj(includes-3, It-1)
+advmod(includes-3, also-2)
+root(ROOT-0, includes-3)
+dobj(includes-3, issues-4)
+case(race-6, of-5)
+nmod:of(issues-4, race-6)
+cc(race-6, and-7)
+nmod:of(issues-4, disabilities-8)
+conj:and(race-6, disabilities-8)
+
+(ROOT
+  (S
+    (PP (IN For)
+      (NP (NN example)))
+    (, ,)
+    (NP (DT some) (NNS people))
+    (VP (VBP prefer)
+      (NP (DT the) (NN term) (NN person))
+      (PP (IN with)
+        (NP
+          (NP (DT a) (NN disability))
+          (PP (TO to)
+            (NP (NNS handicapped))))))
+    (. .)))
+
+case(example-2, For-1)
+nmod:for(prefer-6, example-2)
+det(people-5, some-4)
+nsubj(prefer-6, people-5)
+root(ROOT-0, prefer-6)
+det(person-9, the-7)
+compound(person-9, term-8)
+dobj(prefer-6, person-9)
+case(disability-12, with-10)
+det(disability-12, a-11)
+nmod:with(prefer-6, disability-12)
+case(handicapped-14, to-13)
+nmod:to(disability-12, handicapped-14)
+
+(ROOT
+  (S
+    (NP (DT The) (NN word) (NNS handicapped))
+    (VP (MD can)
+      (VP (VB be)
+        (VP (VBN considered)
+          (ADJP (JJ disrespectful))
+          (SBAR (IN because)
+            (S
+              (NP (PRP it))
+              (VP (VBZ implies)
+                (SBAR (IN that)
+                  (S
+                    (NP (DT a) (NN person))
+                    (VP (VBZ is)
+                      (ADJP (JJ helpless)))))))))))
+    (. .)))
+
+det(handicapped-3, The-1)
+compound(handicapped-3, word-2)
+nsubjpass(considered-6, handicapped-3)
+aux(considered-6, can-4)
+auxpass(considered-6, be-5)
+root(ROOT-0, considered-6)
+xcomp(considered-6, disrespectful-7)
+mark(implies-10, because-8)
+nsubj(implies-10, it-9)
+advcl(considered-6, implies-10)
+mark(helpless-15, that-11)
+det(person-13, a-12)
+nsubj(helpless-15, person-13)
+cop(helpless-15, is-14)
+ccomp(implies-10, helpless-15)
+
+(ROOT
+  (S
+    (S
+      (S
+        (VP (VBG Changing)
+          (NP (NNS ones) (NN language))))
+      (VP (VBZ takes)
+        (NP (NN time))
+        (, ,)
+        (ADVP (RB however))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (DT some) (JJ non-PC) (NNS words))
+      (VP (VBP are)
+        (ADVP (RB still))
+        (VP
+          (VP
+            (ADVP (RB frequently))
+            (VBN heard))
+          (CC and)
+          (VP (VBN used)))))
+    (. .)))
+
+csubj(takes-4, Changing-1)
+compound(language-3, ones-2)
+dobj(Changing-1, language-3)
+root(ROOT-0, takes-4)
+dobj(takes-4, time-5)
+advmod(takes-4, however-7)
+cc(takes-4, and-9)
+det(words-12, some-10)
+amod(words-12, non-PC-11)
+nsubjpass(heard-16, words-12)
+nsubjpass(used-18, words-12)
+auxpass(heard-16, are-13)
+advmod(heard-16, still-14)
+advmod(heard-16, frequently-15)
+conj:and(takes-4, heard-16)
+cc(heard-16, and-17)
+conj:and(takes-4, used-18)
+conj:and(heard-16, used-18)
+
+(ROOT
+  (S (CC But)
+    (SBAR (IN if)
+      (S
+        (NP (PRP you))
+        (VP (VBP dont))))
+    (VP (VBP want)
+      (S
+        (VP (TO to)
+          (VP (VB offend)
+            (NP
+              (NP (NN someone))
+              (, ,)
+              (NP (PRP$ its) (JJS best)))
+            (S
+              (VP (TO to)
+                (VP (VB try)
+                  (S
+                    (VP (TO to)
+                      (VP (VB avoid)
+                        (NP (DT these) (NNS words))))))))))))
+    (. .)))
+
+cc(want-5, But-1)
+mark(dont-4, if-2)
+nsubj(dont-4, you-3)
+csubj(want-5, dont-4)
+root(ROOT-0, want-5)
+mark(offend-7, to-6)
+xcomp(want-5, offend-7)
+dobj(offend-7, someone-8)
+nmod:poss(best-11, its-10)
+appos(someone-8, best-11)
+mark(try-13, to-12)
+advcl(offend-7, try-13)
+mark(avoid-15, to-14)
+xcomp(try-13, avoid-15)
+det(words-17, these-16)
+dobj(avoid-15, words-17)
+
+(ROOT
+  (S
+    (NP (DT Some) (NNS people))
+    (VP (VBP think)
+      (SBAR
+        (S
+          (NP (NNP PC) (NNP English))
+          (VP (VBZ has)
+            (VP (VBN gone)
+              (ADVP (RB too) (RB far)))))))
+    (. .)))
+
+det(people-2, Some-1)
+nsubj(think-3, people-2)
+root(ROOT-0, think-3)
+compound(English-5, PC-4)
+nsubj(gone-7, English-5)
+aux(gone-7, has-6)
+ccomp(think-3, gone-7)
+advmod(far-9, too-8)
+advmod(gone-7, far-9)
+
+(ROOT
+  (S
+    (NP (PRP They))
+    (VP (VBP dont)
+      (PP (IN like)
+        (S
+          (VP (VBG being)
+            (VP (VBN told)
+              (SBAR
+                (WHNP (WP what) (NNS words))
+                (S
+                  (NP (PRP they))
+                  (VP (VBP have)
+                    (S
+                      (VP (TO to)
+                        (VP (VB use))))))))))))
+    (. .)))
+
+nsubj(dont-2, They-1)
+root(ROOT-0, dont-2)
+mark(told-5, like-3)
+auxpass(told-5, being-4)
+advcl(dont-2, told-5)
+det(words-7, what-6)
+dobj(have-9, words-7)
+nsubj(use-11, words-7)
+nsubj(have-9, they-8)
+ccomp(told-5, have-9)
+mark(use-11, to-10)
+xcomp(have-9, use-11)
+
+(ROOT
+  (S (CC And)
+    (NP (PRP they))
+    (VP (VBP dont)
+      (PP (IN like)
+        (S
+          (VP (VBG changing)
+            (NP (PRP$ their) (NN speech)))))
+      (, ,)
+      (S
+        (ADVP (RB just))
+        (VP (TO to)
+          (VP (VB make)
+            (S
+              (NP (NNS others))
+              (VP (VB feel)
+                (ADVP (RBR better))))))))
+    (. .)))
+
+cc(dont-3, And-1)
+nsubj(dont-3, they-2)
+nsubj(make-11, they-2)
+root(ROOT-0, dont-3)
+mark(changing-5, like-4)
+advcl(dont-3, changing-5)
+nmod:poss(speech-7, their-6)
+dobj(changing-5, speech-7)
+advmod(make-11, just-9)
+mark(make-11, to-10)
+xcomp(dont-3, make-11)
+nsubj(feel-13, others-12)
+ccomp(make-11, feel-13)
+advmod(feel-13, better-14)
+
+(ROOT
+  (S (CC But)
+    (NP (JJS most) (NNS people))
+    (VP (VBP agree)
+      (SBAR (IN that)
+        (S
+          (S
+            (VP (VBG using)
+              (NP (JJ respectful) (NN language))))
+          (VP (VBZ is)
+            (ADJP (JJ fair))))))
+    (. .)))
+
+cc(agree-4, But-1)
+amod(people-3, most-2)
+nsubj(agree-4, people-3)
+root(ROOT-0, agree-4)
+mark(fair-10, that-5)
+csubj(fair-10, using-6)
+amod(language-8, respectful-7)
+dobj(using-6, language-8)
+cop(fair-10, is-9)
+ccomp(agree-4, fair-10)
+
+(ROOT
+  (S (CC So)
+    (NP (PRP they))
+    (ADVP (RB simply))
+    (VP (VBP change)
+      (PP (IN with)
+        (NP (DT the) (NNS times))))
+    (. .)))
+
+cc(change-4, So-1)
+nsubj(change-4, they-2)
+advmod(change-4, simply-3)
+root(ROOT-0, change-4)
+case(times-7, with-5)
+det(times-7, the-6)
+nmod:with(change-4, times-7)
+

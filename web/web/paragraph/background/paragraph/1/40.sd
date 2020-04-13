@@ -1,0 +1,1194 @@
+(ROOT
+  (S
+    (NP (NNP Telephone))
+    (VP (VBZ Talk))
+    (. .)))
+
+nsubj(Talk-2, Telephone-1)
+root(ROOT-0, Talk-2)
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP Jessica))
+      (, ,)
+      (NP
+        (NP (NN leader))
+        (PP (IN of)
+          (NP
+            (NP (DT the) (NN drama) (NN club))
+            (PP (IN at)
+              (NP (DT a) (JJ local) (JJ high) (NN school))))))
+      (, ,))
+    (VP (VBZ tries)
+      (S
+        (VP (TO to)
+          (VP (VB call)
+            (NP
+              (NP (NNP Dr.) (NNP Power))
+              (PP (IN for)
+                (NP (DT a) (NN workshop) (NN presentation))))))))
+    (. .)))
+
+nsubj(tries-14, Jessica-1)
+nsubj(call-16, Jessica-1)
+appos(Jessica-1, leader-3)
+case(club-7, of-4)
+det(club-7, the-5)
+compound(club-7, drama-6)
+nmod:of(leader-3, club-7)
+case(school-12, at-8)
+det(school-12, a-9)
+amod(school-12, local-10)
+amod(school-12, high-11)
+nmod:at(club-7, school-12)
+root(ROOT-0, tries-14)
+mark(call-16, to-15)
+xcomp(tries-14, call-16)
+compound(Power-18, Dr.-17)
+dobj(call-16, Power-18)
+case(presentation-22, for-19)
+det(presentation-22, a-20)
+compound(presentation-22, workshop-21)
+nmod:for(Power-18, presentation-22)
+
+(ROOT
+  (NP
+    (NP (NNP Receptionist))
+    (: :)
+    (NP (NNP Power) (NNP Drama) (NNP Society))
+    (. .)))
+
+root(ROOT-0, Receptionist-1)
+compound(Society-5, Power-3)
+compound(Society-5, Drama-4)
+dep(Receptionist-1, Society-5)
+
+(ROOT
+  (SBARQ
+    (WHADVP (WRB How))
+    (SQ (MD may)
+      (NP (PRP I))
+      (VP (VB direct)
+        (NP (PRP$ your) (NN call))))
+    (. ?)))
+
+advmod(direct-4, How-1)
+aux(direct-4, may-2)
+nsubj(direct-4, I-3)
+root(ROOT-0, direct-4)
+nmod:poss(call-6, your-5)
+dobj(direct-4, call-6)
+
+(ROOT
+  (NP
+    (NP (NNP Jessica))
+    (: :)
+    (NP
+      (NP (NNP May))
+      (SBAR
+        (S
+          (NP (PRP I))
+          (VP
+            (VP (VBP speak)
+              (PP (TO to)
+                (NP (NNP Dr.) (NNP Power))))
+            (PRN (, ,)
+              (INTJ (VB please)))))))
+    (. ?)))
+
+root(ROOT-0, Jessica-1)
+dep(Jessica-1, May-3)
+nsubj(speak-5, I-4)
+acl:relcl(May-3, speak-5)
+case(Power-8, to-6)
+compound(Power-8, Dr.-7)
+nmod:to(speak-5, Power-8)
+discourse(speak-5, please-10)
+
+(ROOT
+  (FRAG
+    (NP (NN Receptionist))
+    (: :)
+    (S
+      (NP (NNP Whos))
+      (VP
+        (VP (VBG calling))
+        (PRN (, ,)
+          (INTJ (VB please)))))
+    (. ?)))
+
+root(ROOT-0, Receptionist-1)
+nsubj(calling-4, Whos-3)
+appos(Receptionist-1, calling-4)
+discourse(calling-4, please-6)
+
+(ROOT
+  (FRAG
+    (NP (NNP Jessica))
+    (: :)
+    (S
+      (NP (DT This))
+      (VP (VBZ is)
+        (ADJP (JJ Jessica))
+        (, ,)
+        (PP (IN from)
+          (NP (NNP Sunrise) (NNP High) (NNP School)))))
+    (. .)))
+
+root(ROOT-0, Jessica-1)
+nsubj(Jessica-5, This-3)
+cop(Jessica-5, is-4)
+parataxis(Jessica-1, Jessica-5)
+case(School-10, from-7)
+compound(School-10, Sunrise-8)
+compound(School-10, High-9)
+nmod:from(Jessica-5, School-10)
+
+(ROOT
+  (NP
+    (NP (NNP Receptionist))
+    (: :)
+    (NP
+      (NP (JJ Please) (NN hold))
+      (PP (IN for)
+        (NP (DT a) (NN moment))))
+    (. .)))
+
+root(ROOT-0, Receptionist-1)
+amod(hold-4, Please-3)
+dep(Receptionist-1, hold-4)
+case(moment-7, for-5)
+det(moment-7, a-6)
+nmod:for(hold-4, moment-7)
+
+(ROOT
+  (NP
+    (NP (NNP Jessica))
+    (: :)
+    (NP (NNP Sure))
+    (. .)))
+
+root(ROOT-0, Jessica-1)
+dep(Jessica-1, Sure-3)
+
+(ROOT
+  (FRAG
+    (NP (NN Receptionist))
+    (: :)
+    (FRAG
+      (ADJP (JJ Im) (JJ sorry))
+      (, ,)
+      (NP
+        (NP (NNP Dr.) (NNP Power) (NNP isnt))
+        (ADJP (JJ available)
+          (PP (IN at)
+            (NP (DT the) (NN moment))))))
+    (. .)))
+
+root(ROOT-0, Receptionist-1)
+amod(sorry-4, Im-3)
+dep(isnt-8, sorry-4)
+compound(isnt-8, Dr.-6)
+compound(isnt-8, Power-7)
+dep(Receptionist-1, isnt-8)
+amod(isnt-8, available-9)
+case(moment-12, at-10)
+det(moment-12, the-11)
+nmod:at(available-9, moment-12)
+
+(ROOT
+  (SQ (MD Would)
+    (NP (PRP you))
+    (VP (VB like)
+      (S
+        (VP (TO to)
+          (VP (VB leave)
+            (NP
+              (NP (DT a) (NN message))
+              (PP (IN for)
+                (NP (PRP him))))))))
+    (. ?)))
+
+aux(like-3, Would-1)
+nsubj(like-3, you-2)
+nsubj(leave-5, you-2)
+root(ROOT-0, like-3)
+mark(leave-5, to-4)
+xcomp(like-3, leave-5)
+det(message-7, a-6)
+dobj(leave-5, message-7)
+case(him-9, for-8)
+nmod:for(message-7, him-9)
+
+(ROOT
+  (NP
+    (NP (NNP Jessica))
+    (: :)
+    (NP (JJ OK))
+    (. .)))
+
+root(ROOT-0, Jessica-1)
+dep(Jessica-1, OK-3)
+
+(ROOT
+  (NP
+    (NP (NNP Receptionist))
+    (: :)
+    (SQ (MD Can)
+      (NP (PRP you))
+      (VP (VB give)
+        (NP (PRP me))
+        (NP
+          (NP (PRP$ your) (NN name))
+          (ADVP (RB again))))
+      (. ?))))
+
+root(ROOT-0, Receptionist-1)
+aux(give-5, Can-3)
+nsubj(give-5, you-4)
+parataxis(Receptionist-1, give-5)
+iobj(give-5, me-6)
+nmod:poss(name-8, your-7)
+dobj(give-5, name-8)
+advmod(name-8, again-9)
+
+(ROOT
+  (NP
+    (NP (NNP Jessica))
+    (: :)
+    (NP (PRP$ Its) (NNP Jessica) (NNP Chen))
+    (. .)))
+
+root(ROOT-0, Jessica-1)
+nmod:poss(Chen-5, Its-3)
+compound(Chen-5, Jessica-4)
+dep(Jessica-1, Chen-5)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN number))
+    (VP (VBZ is)
+      (NP (CD 2345-6789)))
+    (. .)))
+
+nmod:poss(number-2, My-1)
+nsubj(2345-6789-4, number-2)
+cop(2345-6789-4, is-3)
+root(ROOT-0, 2345-6789-4)
+
+(ROOT
+  (NP
+    (NP (NNP Receptionist))
+    (: :)
+    (SQ (MD Can)
+      (NP (PRP I))
+      (VP (VB tell)
+        (NP
+          (NP (PRP him))
+          (SBAR
+            (WHNP (WP what))
+            (S
+              (NP (PRP$ its))
+              (ADJP (IN about))))))
+      (. ?))))
+
+root(ROOT-0, Receptionist-1)
+aux(tell-5, Can-3)
+nsubj(tell-5, I-4)
+parataxis(Receptionist-1, tell-5)
+dobj(tell-5, him-6)
+dep(about-9, him-6)
+ref(him-6, what-7)
+dep(about-9, its-8)
+acl:relcl(him-6, about-9)
+
+(ROOT
+  (FRAG
+    (NP (NNP Jessica))
+    (: :)
+    (S
+      (NP (PRP We))
+      (VP (VBP want)
+        (S
+          (VP (TO to)
+            (VP (VB invite)
+              (S
+                (NP (PRP him))
+                (VP (TO to)
+                  (VP (VB give)
+                    (NP (PRP us))
+                    (NP (DT a) (NN workshop))))))))))
+    (. .)))
+
+root(ROOT-0, Jessica-1)
+nsubj(want-4, We-3)
+nsubj(invite-6, We-3)
+parataxis(Jessica-1, want-4)
+mark(invite-6, to-5)
+xcomp(want-4, invite-6)
+dobj(invite-6, him-7)
+nsubj(give-9, him-7)
+mark(give-9, to-8)
+xcomp(invite-6, give-9)
+iobj(give-9, us-10)
+det(workshop-12, a-11)
+dobj(give-9, workshop-12)
+
+(ROOT
+  (S
+    (S
+      (VP (VB Receptionist) (: :)
+        (ADVP (UH OK))))
+    (, ,)
+    (NP (NNP Ill))
+    (VP (VBP pass)
+      (NP (PRP$ your) (NN message))
+      (PRT (RP along)))
+    (. .)))
+
+ccomp(pass-6, Receptionist-1)
+advmod(Receptionist-1, OK-3)
+nsubj(pass-6, Ill-5)
+root(ROOT-0, pass-6)
+nmod:poss(message-8, your-7)
+dobj(pass-6, message-8)
+compound:prt(pass-6, along-9)
+
+(ROOT
+  (FRAG
+    (NP (NNP Jessica))
+    (: :)
+    (S
+      (NP (DT That))
+      (VP (MD would)
+        (VP (VB be)
+          (ADJP (JJ great))
+          (, ,)
+          (ADVP (NNS thanks)))))
+    (. .)))
+
+root(ROOT-0, Jessica-1)
+nsubj(great-6, That-3)
+aux(great-6, would-4)
+cop(great-6, be-5)
+parataxis(Jessica-1, great-6)
+advmod(great-6, thanks-8)
+
+(ROOT
+  (S
+    (NP (CD Three) (NNS hours) (RB later))
+    (, ,)
+    (NP (NNP Dr.) (NNP Power))
+    (VP (VBZ returns)
+      (SBAR
+        (S
+          (NP (NNP Jessicas))
+          (VP (VBP call)))))
+    (. .)))
+
+nummod(hours-2, Three-1)
+nsubj(returns-7, hours-2)
+advmod(hours-2, later-3)
+compound(Power-6, Dr.-5)
+nsubj(returns-7, Power-6)
+root(ROOT-0, returns-7)
+nsubj(call-9, Jessicas-8)
+ccomp(returns-7, call-9)
+
+(ROOT
+  (FRAG
+    (NP (NNP Voice))
+    (: :)
+    (FRAG (RB Hello))
+    (. ?)))
+
+root(ROOT-0, Voice-1)
+dep(Voice-1, Hello-3)
+
+(ROOT
+  (NP
+    (NP (NNP Dr.) (NNP Power))
+    (: :)
+    (NP (NNP Hi))
+    (. .)))
+
+compound(Power-2, Dr.-1)
+root(ROOT-0, Power-2)
+dep(Power-2, Hi-4)
+
+(ROOT
+  (SQ (VBZ Is)
+    (NP (NNP Jessica))
+    (VP (VBN Chen)
+      (ADVP (RB there))
+      (PRN (, ,)
+        (INTJ (VB please))))
+    (. ?)))
+
+auxpass(Chen-3, Is-1)
+nsubjpass(Chen-3, Jessica-2)
+root(ROOT-0, Chen-3)
+advmod(Chen-3, there-4)
+discourse(Chen-3, please-6)
+
+(ROOT
+  (NP
+    (NP (NNP Voice))
+    (: :)
+    (NP
+      (NP (NNP Theres))
+      (NP
+        (NP (DT no) (NNP Jessica))
+        (ADVP (RB here))))
+    (. .)))
+
+root(ROOT-0, Voice-1)
+dep(Voice-1, Theres-3)
+neg(Jessica-5, no-4)
+dep(Theres-3, Jessica-5)
+advmod(Jessica-5, here-6)
+
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (MD must)
+      (VP (VB have)
+        (NP (DT the) (JJ wrong) (NN number))))
+    (. .)))
+
+nsubj(have-3, You-1)
+aux(have-3, must-2)
+root(ROOT-0, have-3)
+det(number-6, the-4)
+amod(number-6, wrong-5)
+dobj(have-3, number-6)
+
+(ROOT
+  (NP
+    (NP (NNP Dr.) (NNP Power))
+    (: :)
+    (NP (NNP Oh))
+    (. .)))
+
+compound(Power-2, Dr.-1)
+root(ROOT-0, Power-2)
+dep(Power-2, Oh-4)
+
+(ROOT
+  (S
+    (VP (VB Sorry)
+      (S
+        (VP (TO to)
+          (VP (VB bother)
+            (NP (PRP you))))))
+    (. .)))
+
+root(ROOT-0, Sorry-1)
+mark(bother-3, to-2)
+xcomp(Sorry-1, bother-3)
+dobj(bother-3, you-4)
+
+(ROOT
+  (NP
+    (NP (NNP Voice))
+    (: :)
+    (NP (DT No) (NN problem))
+    (. .)))
+
+root(ROOT-0, Voice-1)
+neg(problem-4, No-3)
+dep(Voice-1, problem-4)
+
+(ROOT
+  (NP
+    (NP
+      (PRN (-LRB- -LRB-)
+        (ADJP (JJ hangs)
+          (PRT (RP up)))
+        (-RRB- -RRB-))
+      (NNP Dr.) (NNP Power))
+    (: :)
+    (S
+      (NP (PRP I))
+      (VP (MD must)
+        (VP (VB have)
+          (VP (VBN dialed)
+            (S
+              (NP (PRP$ her) (NN number))
+              (ADJP (JJ wrong)))))))
+    (. .)))
+
+dep(Power-6, hangs-2)
+dep(hangs-2, up-3)
+compound(Power-6, Dr.-5)
+root(ROOT-0, Power-6)
+nsubj(dialed-11, I-8)
+aux(dialed-11, must-9)
+aux(dialed-11, have-10)
+parataxis(Power-6, dialed-11)
+nmod:poss(number-13, her-12)
+nsubj(wrong-14, number-13)
+xcomp(dialed-11, wrong-14)
+
+(ROOT
+  (S
+    (NP (NNP Ill))
+    (VP (VBP try)
+      (ADVP (RB again)))
+    (. .)))
+
+nsubj(try-2, Ill-1)
+root(ROOT-0, try-2)
+advmod(try-2, again-3)
+
+(ROOT
+  (S
+    (NP (NNP Dr.) (NNP Power))
+    (VP (VBZ dials)
+      (ADVP (RB carefully)))
+    (. .)))
+
+compound(Power-2, Dr.-1)
+nsubj(dials-3, Power-2)
+root(ROOT-0, dials-3)
+advmod(dials-3, carefully-4)
+
+(ROOT
+  (S
+    (NP (DT This) (NN time))
+    (, ,)
+    (NP (NNP Jessica))
+    (VP (VBZ answers))
+    (. .)))
+
+det(time-2, This-1)
+nsubj(answers-5, time-2)
+nsubj(answers-5, Jessica-4)
+root(ROOT-0, answers-5)
+
+(ROOT
+  (NP
+    (NP (NNP Dr.) (NNP Power))
+    (: :)
+    (NP (NNP Hello))
+    (. .)))
+
+compound(Power-2, Dr.-1)
+root(ROOT-0, Power-2)
+dep(Power-2, Hello-4)
+
+(ROOT
+  (S
+    (NP (NNP May))
+    (NP (PRP I))
+    (VP (VBP speak)
+      (PP (TO to)
+        (NP (NNP Jessica) (NNP Chen))))
+    (. ?)))
+
+nmod:tmod(speak-3, May-1)
+nsubj(speak-3, I-2)
+root(ROOT-0, speak-3)
+case(Chen-6, to-4)
+compound(Chen-6, Jessica-5)
+nmod:to(speak-3, Chen-6)
+
+(ROOT
+  (FRAG
+    (NP (NNP Jessica))
+    (: :)
+    (S
+      (VP (VBG Speaking)))
+    (. .)))
+
+root(ROOT-0, Jessica-1)
+parataxis(Jessica-1, Speaking-3)
+
+(ROOT
+  (NP
+    (NP (NNP Dr.) (NNP Power))
+    (: :)
+    (S
+      (NP (DT This))
+      (VP (VBZ is)
+        (NP (NNP Dr.) (NNP Power))))
+    (. .)))
+
+compound(Power-2, Dr.-1)
+root(ROOT-0, Power-2)
+nsubj(Power-7, This-4)
+cop(Power-7, is-5)
+compound(Power-7, Dr.-6)
+parataxis(Power-2, Power-7)
+
+(ROOT
+  (NP
+    (NP (NNP Jessica))
+    (: :)
+    (NP (NNP Hi))
+    (. !)))
+
+root(ROOT-0, Jessica-1)
+dep(Jessica-1, Hi-3)
+
+(ROOT
+  (S
+    (NP (NNP Dr.) (NNP Power))
+    (, ,)
+    (NP (PRP I))
+    (VP (VBD was)
+      (VP (VBG wondering)
+        (SBAR (IN if)
+          (S
+            (NP (PRP you))
+            (VP (MD could)
+              (VP (VB give)
+                (NP (PRP$ our) (JJ high) (NNS schools) (NN drama) (NN club))
+                (NP
+                  (NP (DT a) (NN weekend) (NN workshop))
+                  (PP (IN on)
+                    (NP (NN drama) (NNS skills))))))))))
+    (. ?)))
+
+compound(Power-2, Dr.-1)
+nsubj(wondering-6, Power-2)
+nsubj(wondering-6, I-4)
+aux(wondering-6, was-5)
+root(ROOT-0, wondering-6)
+mark(give-10, if-7)
+nsubj(give-10, you-8)
+aux(give-10, could-9)
+advcl(wondering-6, give-10)
+nmod:poss(club-15, our-11)
+amod(club-15, high-12)
+compound(club-15, schools-13)
+compound(club-15, drama-14)
+dep(give-10, club-15)
+det(workshop-18, a-16)
+compound(workshop-18, weekend-17)
+dobj(give-10, workshop-18)
+case(skills-21, on-19)
+compound(skills-21, drama-20)
+nmod:on(workshop-18, skills-21)
+
+(ROOT
+  (NP
+    (NP (NNP Dr.) (NNP Power))
+    (: :)
+    (NP
+      (NP (NNP Im))
+      (ADJP (RB not) (JJ sure)))
+    (. .)))
+
+compound(Power-2, Dr.-1)
+root(ROOT-0, Power-2)
+dep(Power-2, Im-4)
+neg(sure-6, not-5)
+amod(Im-4, sure-6)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN schedule))
+    (VP (VBZ is)
+      (ADJP (JJ full)
+        (PP (IN for)
+          (NP (DT the) (JJ coming) (CD three) (NNS months)))))
+    (. .)))
+
+nmod:poss(schedule-2, My-1)
+nsubj(full-4, schedule-2)
+cop(full-4, is-3)
+root(ROOT-0, full-4)
+case(months-9, for-5)
+det(months-9, the-6)
+amod(months-9, coming-7)
+nummod(months-9, three-8)
+nmod:for(full-4, months-9)
+
+(ROOT
+  (NP
+    (NP (NNP Jessica))
+    (: :)
+    (NP (NNP Thats) (NNP OK))
+    (. .)))
+
+root(ROOT-0, Jessica-1)
+compound(OK-4, Thats-3)
+dep(Jessica-1, OK-4)
+
+(ROOT
+  (S
+    (NP (PRP We))
+    (VP (MD can)
+      (VP (VB wait)
+        (SBAR (IN until)
+          (S
+            (NP (PRP you))
+            (VP (VBP are)
+              (ADJP (JJ available)))))))
+    (. .)))
+
+nsubj(wait-3, We-1)
+aux(wait-3, can-2)
+root(ROOT-0, wait-3)
+mark(available-7, until-4)
+nsubj(available-7, you-5)
+cop(available-7, are-6)
+advcl(wait-3, available-7)
+
+(ROOT
+  (NP
+    (NP (NNP Dr.) (NNP Power))
+    (: :)
+    (NP
+      (NP (NNP Well) (NNP K))
+      (SBAR
+        (S
+          (NP (PRP I))
+          (VP (VBP know)
+            (NP
+              (NP (DT a) (NN couple))
+              (PP (IN of)
+                (NP
+                  (NP (NNS people))
+                  (SBAR
+                    (WHNP (WP who))
+                    (S
+                      (VP (VBP are)
+                        (ADJP (RB pretty) (JJ good)
+                          (PP (IN at)
+                            (NP (NN drama) (NN performance))))))))))))))
+    (. .)))
+
+compound(Power-2, Dr.-1)
+root(ROOT-0, Power-2)
+compound(K-5, Well-4)
+dep(Power-2, K-5)
+nsubj(know-7, I-6)
+acl:relcl(K-5, know-7)
+det(couple-9, a-8)
+dobj(know-7, couple-9)
+case(people-11, of-10)
+nmod:of(couple-9, people-11)
+nsubj(good-15, people-11)
+ref(people-11, who-12)
+cop(good-15, are-13)
+advmod(good-15, pretty-14)
+acl:relcl(people-11, good-15)
+case(performance-18, at-16)
+compound(performance-18, drama-17)
+nmod:at(good-15, performance-18)
+
+(ROOT
+  (SQ (VBP Have)
+    (NP (PRP you))
+    (VP (VBN invited)
+      (NP (NNP Steven) (NNP Prince)))
+    (. ?)))
+
+aux(invited-3, Have-1)
+nsubj(invited-3, you-2)
+root(ROOT-0, invited-3)
+compound(Prince-5, Steven-4)
+dobj(invited-3, Prince-5)
+
+(ROOT
+  (S
+    (VP (VB Hes)
+      (NP (DT a) (JJ real) (NN genius)))
+    (. .)))
+
+root(ROOT-0, Hes-1)
+det(genius-4, a-2)
+amod(genius-4, real-3)
+dobj(Hes-1, genius-4)
+
+(ROOT
+  (FRAG
+    (NP (NNP Jessica))
+    (: :)
+    (S (CC But)
+      (NP (PRP we))
+      (VP (VBP know)
+        (SBAR
+          (S
+            (NP (PRP you))
+            (VP (VBP are)
+              (NP (DT the) (JJS best) (NN actor))
+              (ADVP (RB ever)))))))
+    (. .)))
+
+root(ROOT-0, Jessica-1)
+cc(know-5, But-3)
+nsubj(know-5, we-4)
+parataxis(Jessica-1, know-5)
+nsubj(actor-10, you-6)
+cop(actor-10, are-7)
+det(actor-10, the-8)
+amod(actor-10, best-9)
+ccomp(know-5, actor-10)
+advmod(actor-10, ever-11)
+
+(ROOT
+  (S
+    (NP (NNP Weve))
+    (VP
+      (VP (VBN seen)
+        (NP (PRP$ your) (NNS plays))
+        (NP (JJ many) (NNS times)))
+      (CC and)
+      (VP (VBD were)
+        (ADJP (RB really) (JJ impressed)
+          (PP (IN with)
+            (NP (PRP$ your) (NN performance))))
+        (PP (IN on)
+          (NP (NN stage)))))
+    (. .)))
+
+nsubj(seen-2, Weve-1)
+nsubj(impressed-10, Weve-1)
+root(ROOT-0, seen-2)
+nmod:poss(plays-4, your-3)
+dep(seen-2, plays-4)
+amod(times-6, many-5)
+dobj(seen-2, times-6)
+cc(seen-2, and-7)
+cop(impressed-10, were-8)
+advmod(impressed-10, really-9)
+conj:and(seen-2, impressed-10)
+case(performance-13, with-11)
+nmod:poss(performance-13, your-12)
+nmod:with(impressed-10, performance-13)
+case(stage-15, on-14)
+nmod:on(impressed-10, stage-15)
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (MD would)
+      (ADVP (RB really))
+      (VP (VB be)
+        (NP
+          (NP (DT an) (NN honor))
+          (PP (IN for)
+            (NP (PRP$ our) (NN school))))
+        (SBAR (IN if)
+          (S
+            (NP (PRP you))
+            (VP (MD could)
+              (VP (VB give)
+                (NP (PRP$ our) (NN club))
+                (NP (DT a) (NN workshop))))))))
+    (. .)))
+
+nsubj(honor-6, It-1)
+aux(honor-6, would-2)
+advmod(honor-6, really-3)
+cop(honor-6, be-4)
+det(honor-6, an-5)
+root(ROOT-0, honor-6)
+case(school-9, for-7)
+nmod:poss(school-9, our-8)
+nmod:for(honor-6, school-9)
+mark(give-13, if-10)
+nsubj(give-13, you-11)
+aux(give-13, could-12)
+advcl(honor-6, give-13)
+nmod:poss(club-15, our-14)
+dep(give-13, club-15)
+det(workshop-17, a-16)
+dobj(give-13, workshop-17)
+
+(ROOT
+  (NP
+    (NP (NNP Dr.) (NNP Power))
+    (: :)
+    (S
+      (S
+        (VP (VB Let)
+          (S
+            (NP (PRP me))
+            (VP (VB see)
+              (NP (NNP K) (NNP Dr.) (NNP Power))))))
+      (CC and)
+      (S
+        (NP (NNP Jessica))
+        (VP (VBP speak)
+          (PP (IN for)
+            (NP (DT a) (JJ few) (NNS minutes))))))
+    (. .)))
+
+compound(Power-2, Dr.-1)
+root(ROOT-0, Power-2)
+parataxis(Power-2, Let-4)
+nsubj(see-6, me-5)
+ccomp(Let-4, see-6)
+compound(Power-9, K-7)
+compound(Power-9, Dr.-8)
+dobj(see-6, Power-9)
+cc(Let-4, and-10)
+nsubj(speak-12, Jessica-11)
+parataxis(Power-2, speak-12)
+conj:and(Let-4, speak-12)
+case(minutes-16, for-13)
+det(minutes-16, a-14)
+amod(minutes-16, few-15)
+nmod:for(speak-12, minutes-16)
+
+(ROOT
+  (NP
+    (NP (NNP Jessica))
+    (: :)
+    (S
+      (NP (NNP Dr.) (NNP Power))
+      (, ,)
+      (NP (PRP I))
+      (VP (VBD cant)
+        (ADJP (JJ express)
+          (PP (TO to)
+            (NP (PRP you))))
+        (SBAR
+          (WHADVP (WRB how)
+            (ADJP (JJ excited)))
+          (S
+            (NP (PRP I))
+            (VP (VBP am)
+              (PP (IN about)
+                (NP (DT this))))))))
+    (. .)))
+
+root(ROOT-0, Jessica-1)
+compound(Power-4, Dr.-3)
+nsubj(cant-7, Power-4)
+nsubj(cant-7, I-6)
+parataxis(Jessica-1, cant-7)
+xcomp(cant-7, express-8)
+case(you-10, to-9)
+nmod:to(express-8, you-10)
+advmod(this-16, how-11)
+dep(how-11, excited-12)
+nsubj(this-16, I-13)
+cop(this-16, am-14)
+case(this-16, about-15)
+ccomp(cant-7, this-16)
+
+(ROOT
+  (NP
+    (NP (NNP Dr.) (NNP Power))
+    (: :)
+    (S
+      (NP (PRP I))
+      (VP (MD can)
+        (VP (VB tell)
+          (PP (IN from)
+            (NP (PRP$ your) (NN voice))))))
+    (. .)))
+
+compound(Power-2, Dr.-1)
+root(ROOT-0, Power-2)
+nsubj(tell-6, I-4)
+aux(tell-6, can-5)
+parataxis(Power-2, tell-6)
+case(voice-9, from-7)
+nmod:poss(voice-9, your-8)
+nmod:from(tell-6, voice-9)
+
+(ROOT
+  (FRAG
+    (NP (NNP Jessica))
+    (: :)
+    (S (CC And)
+      (NP (PRP it))
+      (VP (MD will)
+        (VP (VB be)
+          (ADJP (RB very) (JJ exciting)
+            (S
+              (VP (TO to)
+                (VP (VB tell)
+                  (NP (PRP$ my) (NN club) (NNS members))
+                  (NP (DT the) (JJ good) (NN news)))))))))
+    (. !)))
+
+root(ROOT-0, Jessica-1)
+cc(exciting-8, And-3)
+nsubj(exciting-8, it-4)
+nsubj(tell-10, it-4)
+aux(exciting-8, will-5)
+cop(exciting-8, be-6)
+advmod(exciting-8, very-7)
+parataxis(Jessica-1, exciting-8)
+mark(tell-10, to-9)
+xcomp(exciting-8, tell-10)
+nmod:poss(members-13, my-11)
+compound(members-13, club-12)
+dep(tell-10, members-13)
+det(news-16, the-14)
+amod(news-16, good-15)
+dobj(tell-10, news-16)
+
+(ROOT
+  (S
+    (VP (VB Thank)
+      (S
+        (NP (PRP you))
+        (ADJP (RB very) (JJ much))))
+    (. .)))
+
+root(ROOT-0, Thank-1)
+nsubj(much-4, you-2)
+advmod(much-4, very-3)
+xcomp(Thank-1, much-4)
+
+(ROOT
+  (NP
+    (NP (NNP Dr.) (NNP Power))
+    (: :)
+    (NP (NNP Youre) (NNP welcome))
+    (. .)))
+
+compound(Power-2, Dr.-1)
+root(ROOT-0, Power-2)
+compound(welcome-5, Youre-4)
+dep(Power-2, welcome-5)
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ is)
+      (ADVP (RB always))
+      (NP (PRP$ my) (NN pleasure)
+        (S
+          (VP (TO to)
+            (VP (VB share)
+              (NP (PRP$ my) (NN experience))
+              (PP (IN with)
+                (NP (JJ young) (NNS people))))))))
+    (. .)))
+
+nsubj(pleasure-5, It-1)
+cop(pleasure-5, is-2)
+advmod(pleasure-5, always-3)
+nmod:poss(pleasure-5, my-4)
+root(ROOT-0, pleasure-5)
+mark(share-7, to-6)
+acl(pleasure-5, share-7)
+nmod:poss(experience-9, my-8)
+dobj(share-7, experience-9)
+case(people-12, with-10)
+amod(people-12, young-11)
+nmod:with(share-7, people-12)
+
+(ROOT
+  (FRAG
+    (NP (NNP Jessica))
+    (: :)
+    (S (CC So)
+      (NP (NNP Ill))
+      (VP (VBD e-mail)
+        (NP (PRP you))
+        (PP (IN about)
+          (NP (DT the) (NNS details)))
+        (NP (JJ next) (NN week))))
+    (. .)))
+
+root(ROOT-0, Jessica-1)
+cc(e-mail-5, So-3)
+nsubj(e-mail-5, Ill-4)
+parataxis(Jessica-1, e-mail-5)
+dobj(e-mail-5, you-6)
+case(details-9, about-7)
+det(details-9, the-8)
+nmod:about(e-mail-5, details-9)
+amod(week-11, next-10)
+nmod:tmod(e-mail-5, week-11)
+
+(ROOT
+  (FRAG
+    (NP (NNP Dr.) (NNP Power))
+    (: :)
+    (S (CC And)
+      (NP (NNP Ill))
+      (VP (VBZ e-mail)
+        (NP (PRP you))
+        (NP (PRP$ my) (NN file))
+        (SBAR
+          (WHADVP (WRB when))
+          (S
+            (NP (PRP$ its))
+            (VP (VBN done))))))
+    (. .)))
+
+compound(Power-2, Dr.-1)
+root(ROOT-0, Power-2)
+cc(e-mail-6, And-4)
+nsubj(e-mail-6, Ill-5)
+parataxis(Power-2, e-mail-6)
+iobj(e-mail-6, you-7)
+nmod:poss(file-9, my-8)
+dobj(e-mail-6, file-9)
+advmod(done-12, when-10)
+nsubj(done-12, its-11)
+advcl(e-mail-6, done-12)
+
+(ROOT
+  (NP
+    (NP (NNP Jessica))
+    (: :)
+    (S
+      (NP (NNP Please))
+      (VP (VB take)
+        (NP (PRP$ your) (NN time))))
+    (. .)))
+
+root(ROOT-0, Jessica-1)
+nsubj(take-4, Please-3)
+parataxis(Jessica-1, take-4)
+nmod:poss(time-6, your-5)
+dobj(take-4, time-6)
+
+(ROOT
+  (NP
+    (NP (PRP$ Its) (CD four) (NNS months))
+    (PP (IN from)
+      (NP (RB now)))
+    (. .)))
+
+nmod:poss(months-3, Its-1)
+nummod(months-3, four-2)
+root(ROOT-0, months-3)
+case(now-5, from-4)
+nmod:from(months-3, now-5)
+
+(ROOT
+  (NP
+    (NP (NNP Dr.) (NNP Power))
+    (: :)
+    (NP (JJ OK))
+    (. .)))
+
+compound(Power-2, Dr.-1)
+root(ROOT-0, Power-2)
+dep(Power-2, OK-4)
+
+(ROOT
+  (NP
+    (NP (NNP Jessica))
+    (: :)
+    (NP (NNP Bye-bye))
+    (. .)))
+
+root(ROOT-0, Jessica-1)
+dep(Jessica-1, Bye-bye-3)
+
+(ROOT
+  (S
+    (VP (VB -)
+      (PP (IN by)
+        (NP (NNP Harriet) (NNP Anderson))))))
+
+root(ROOT-0, --1)
+case(Anderson-4, by-2)
+compound(Anderson-4, Harriet-3)
+nmod:by(--1, Anderson-4)
+

@@ -1,0 +1,1272 @@
+(ROOT
+  (NP (NNP The) (NNP Seven-Day) (NNP Anti-procrastination) (NNP Plan) (. .)))
+
+compound(Plan-4, The-1)
+compound(Plan-4, Seven-Day-2)
+compound(Plan-4, Anti-procrastination-3)
+root(ROOT-0, Plan-4)
+
+(ROOT
+  (S
+    (NP (JJ Many) (NNS students))
+    (VP
+      (VP (VBD procrastinate))
+      (, ,)
+      (CC or)
+      (VP (VBD put)
+        (PRT (RP off)))
+      (, ,)
+      (S
+        (VP (VBG doing)
+          (NP (DT an) (NN assignment))
+          (PP (IN until)
+            (NP (DT the) (RB very) (JJ last) (NN minute))))))
+    (. .)))
+
+amod(students-2, Many-1)
+nsubj(procrastinate-3, students-2)
+nsubj(put-6, students-2)
+root(ROOT-0, procrastinate-3)
+cc(procrastinate-3, or-5)
+conj:or(procrastinate-3, put-6)
+compound:prt(put-6, off-7)
+advcl(procrastinate-3, doing-9)
+det(assignment-11, an-10)
+dobj(doing-9, assignment-11)
+case(minute-16, until-12)
+det(minute-16, the-13)
+advmod(minute-16, very-14)
+amod(minute-16, last-15)
+nmod:until(doing-9, minute-16)
+
+(ROOT
+  (S
+    (NP (RB Here))
+    (VP (VBP are)
+      (NP
+        (NP (CD seven) (NNS strategies))
+        (SBAR
+          (S
+            (NP (PRP you))
+            (VP (MD can)
+              (VP (VB use)
+                (S
+                  (VP (TO to)
+                    (VP (VB eliminate)
+                      (NP (NN procrastination)))))))))))
+    (. .)))
+
+nsubj(strategies-4, Here-1)
+cop(strategies-4, are-2)
+nummod(strategies-4, seven-3)
+root(ROOT-0, strategies-4)
+nsubj(use-7, you-5)
+nsubj(eliminate-9, you-5)
+aux(use-7, can-6)
+acl:relcl(strategies-4, use-7)
+mark(eliminate-9, to-8)
+xcomp(use-7, eliminate-9)
+dobj(eliminate-9, procrastination-10)
+
+(ROOT
+  (S
+    (NP (DT The) (NNS suggestions))
+    (VP (VBP are)
+      (VP (VBN tied)
+        (PP (TO to)
+          (NP
+            (NP (DT the) (NNS days))
+            (PP (IN of)
+              (NP (DT the) (NN week)))))
+        (S
+          (VP (TO to)
+            (VP (VB help)
+              (S
+                (NP (PRP you))
+                (VP (VB remember)
+                  (NP (PRP them)))))))))
+    (. .)))
+
+det(suggestions-2, The-1)
+nsubjpass(tied-4, suggestions-2)
+nsubj(help-12, suggestions-2)
+auxpass(tied-4, are-3)
+root(ROOT-0, tied-4)
+case(days-7, to-5)
+det(days-7, the-6)
+nmod:to(tied-4, days-7)
+case(week-10, of-8)
+det(week-10, the-9)
+nmod:of(days-7, week-10)
+mark(help-12, to-11)
+xcomp(tied-4, help-12)
+nsubj(remember-14, you-13)
+ccomp(help-12, remember-14)
+dobj(remember-14, them-15)
+
+(ROOT
+  (FRAG
+    (NP (NNP Monday))
+    (: :)
+    (S
+      (VP (VB Make)
+        (S
+          (NP (PRP It))
+          (NP
+            (NP (NNP Meaningful))
+            (SBAR
+              (WHNP (WP What))
+              (S
+                (VP (VBZ is)
+                  (ADJP (JJ important)
+                    (PP (IN about)
+                      (NP
+                        (NP (DT the) (NN job))
+                        (SBAR
+                          (S
+                            (NP (PRP you))
+                            (VP (VBP 've)
+                              (VP (VBN been)
+                                (VP (VBG putting)
+                                  (PRT (RP off)))))))))))))))))
+    (. ?)))
+
+root(ROOT-0, Monday-1)
+parataxis(Monday-1, Make-3)
+nsubj(Meaningful-5, It-4)
+xcomp(Make-3, Meaningful-5)
+nsubj(important-8, Meaningful-5)
+ref(Meaningful-5, What-6)
+cop(important-8, is-7)
+acl:relcl(Meaningful-5, important-8)
+case(job-11, about-9)
+det(job-11, the-10)
+nmod:about(important-8, job-11)
+nsubj(putting-15, you-12)
+aux(putting-15, 've-13)
+aux(putting-15, been-14)
+acl:relcl(job-11, putting-15)
+compound:prt(putting-15, off-16)
+
+(ROOT
+  (S
+    (VP (VB List)
+      (NP
+        (NP (PDT all) (DT the) (NNS benefits))
+        (PP (IN of)
+          (S
+            (VP (VBG completing)
+              (NP (PRP it)))))))
+    (. .)))
+
+root(ROOT-0, List-1)
+det:predet(benefits-4, all-2)
+det(benefits-4, the-3)
+dobj(List-1, benefits-4)
+mark(completing-6, of-5)
+acl(benefits-4, completing-6)
+dobj(completing-6, it-7)
+
+(ROOT
+  (S
+    (VP (VB Look)
+      (PP (IN at)
+        (NP (PRP it)))
+      (PP (IN in)
+        (NP (NN relation)))
+      (PP (TO to)
+        (NP (PRP$ your) (NNS goals))))
+    (. .)))
+
+root(ROOT-0, Look-1)
+case(it-3, at-2)
+nmod:at(Look-1, it-3)
+case(relation-5, in-4)
+nmod:in(Look-1, relation-5)
+case(goals-8, to-6)
+nmod:poss(goals-8, your-7)
+nmod:to(Look-1, goals-8)
+
+(ROOT
+  (S
+    (VP (VB Be)
+      (ADJP (JJ specific)
+        (PP (IN about)
+          (NP
+            (NP
+              (NP (DT the) (NNS rewards))
+              (PP (IN for)
+                (S
+                  (VP (VBG getting)
+                    (S
+                      (NP (PRP it))
+                      (VP (VBN done)))))))
+            (, ,)
+            (PP (VBG including)
+              (SBAR
+                (WHADVP (WRB how))
+                (S
+                  (NP (PRP you))
+                  (VP (MD will)
+                    (VP (VB feel)
+                      (SBAR
+                        (WHADVP (WRB when))
+                        (S
+                          (NP (DT the) (NN task))
+                          (VP (VBZ is)
+                            (VP (VBN completed))))))))))))))
+    (. .)))
+
+cop(specific-2, Be-1)
+root(ROOT-0, specific-2)
+case(rewards-5, about-3)
+det(rewards-5, the-4)
+nmod:about(specific-2, rewards-5)
+mark(getting-7, for-6)
+acl(rewards-5, getting-7)
+nsubj(done-9, it-8)
+dep(getting-7, done-9)
+case(feel-15, including-11)
+advmod(feel-15, how-12)
+nsubj(feel-15, you-13)
+aux(feel-15, will-14)
+acl:including(rewards-5, feel-15)
+advmod(completed-20, when-16)
+det(task-18, the-17)
+nsubjpass(completed-20, task-18)
+auxpass(completed-20, is-19)
+advcl(feel-15, completed-20)
+
+(ROOT
+  (S
+    (NP (NNP Tuesday))
+    (: :)
+    (VP (VBP Take)
+      (SBAR
+        (S
+          (NP (PRP It))
+          (ADVP (RB Apart))
+          (VP (VBD Break)
+            (NP (DT a) (JJ big) (NN job))
+            (PP (IN into)
+              (NP
+                (NP (DT a) (NN series))
+                (PP (IN of)
+                  (NP
+                    (NP (JJ small) (NNS ones))
+                    (SBAR
+                      (S
+                        (NP (PRP you))
+                        (VP (MD can)
+                          (VP (VB do)
+                            (PP (IN in)
+                              (NP (CD fifteen) (NNS minutes)
+                                (QP (CC or)
+                                  (JJR less))))))))))))))))
+    (. .)))
+
+nsubj(Take-3, Tuesday-1)
+root(ROOT-0, Take-3)
+nsubj(Break-6, It-4)
+advmod(Break-6, Apart-5)
+ccomp(Take-3, Break-6)
+det(job-9, a-7)
+amod(job-9, big-8)
+dobj(Break-6, job-9)
+case(series-12, into-10)
+det(series-12, a-11)
+nmod:into(Break-6, series-12)
+case(ones-15, of-13)
+amod(ones-15, small-14)
+nmod:of(series-12, ones-15)
+nsubj(do-18, you-16)
+aux(do-18, can-17)
+acl:relcl(ones-15, do-18)
+case(minutes-21, in-19)
+nummod(minutes-21, fifteen-20)
+nmod:in(do-18, minutes-21)
+cc(less-23, or-22)
+nummod(minutes-21, less-23)
+
+(ROOT
+  (S
+    (SBAR (IN If)
+      (S
+        (NP (DT a) (JJ long) (NN reading) (NN assignment))
+        (VP (VBZ intimidates)
+          (NP (PRP you))))
+      (, ,))
+    (VP (VBP divide)
+      (NP (PRP it))
+      (PP (IN into)
+        (NP (JJ two-page)
+          (CC or)
+          (JJ three-page) (NNS sections))))
+    (. .)))
+
+mark(intimidates-6, If-1)
+det(assignment-5, a-2)
+amod(assignment-5, long-3)
+compound(assignment-5, reading-4)
+nsubj(intimidates-6, assignment-5)
+csubj(divide-9, intimidates-6)
+dobj(intimidates-6, you-7)
+root(ROOT-0, divide-9)
+dobj(divide-9, it-10)
+case(sections-15, into-11)
+amod(sections-15, two-page-12)
+cc(two-page-12, or-13)
+conj:or(two-page-12, three-page-14)
+amod(sections-15, three-page-14)
+nmod:into(divide-9, sections-15)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB Make)
+        (NP
+          (NP (DT a) (NN list))
+          (PP (IN of)
+            (NP (DT the) (NNS sections)))))
+      (CC and)
+      (VP (VB cross)
+        (NP (PRP them))
+        (ADVP (RB off))
+        (SBAR (IN as)
+          (S
+            (NP (PRP you))
+            (VP (VB complete)
+              (NP (PRP them))
+              (SBAR (IN so)
+                (S
+                  (NP (PRP you))
+                  (VP (MD can)
+                    (VP (VB see)
+                      (NP (PRP$ your) (NN progress)))))))))))
+    (. .)))
+
+root(ROOT-0, Make-1)
+det(list-3, a-2)
+dobj(Make-1, list-3)
+case(sections-6, of-4)
+det(sections-6, the-5)
+nmod:of(list-3, sections-6)
+cc(Make-1, and-7)
+conj:and(Make-1, cross-8)
+dobj(cross-8, them-9)
+advmod(cross-8, off-10)
+mark(complete-13, as-11)
+nsubj(complete-13, you-12)
+advcl(cross-8, complete-13)
+dobj(complete-13, them-14)
+mark(see-18, so-15)
+nsubj(see-18, you-16)
+aux(see-18, can-17)
+advcl(complete-13, see-18)
+nmod:poss(progress-20, your-19)
+dobj(see-18, progress-20)
+
+(ROOT
+  (NP
+    (NP (NNP Wednesday))
+    (: :)
+    (NP
+      (NP
+        (NP (NNP Write))
+        (NP (DT an) (NNP Intention) (NNP Statement) (NNP Write)))
+      (NP
+        (NP (DT an) (NN intention) (NN statement))
+        (PP (IN on)
+          (NP (DT an) (NN index) (NN card)))))
+    (. .)))
+
+root(ROOT-0, Wednesday-1)
+dep(Wednesday-1, Write-3)
+det(Write-7, an-4)
+compound(Write-7, Intention-5)
+compound(Write-7, Statement-6)
+dep(Write-3, Write-7)
+det(statement-10, an-8)
+compound(statement-10, intention-9)
+dep(Write-3, statement-10)
+case(card-14, on-11)
+det(card-14, an-12)
+compound(card-14, index-13)
+nmod:on(statement-10, card-14)
+
+(ROOT
+  (S
+    (PP (IN For)
+      (NP (NN example)))
+    (, ,)
+    (SBAR (IN if)
+      (S
+        (NP (PRP you))
+        (VP (MD ca) (RB n't)
+          (VP (VB get)
+            (VP (VBN started)
+              (PP (IN with)
+                (NP
+                  (NP (PRP$ your) (NN report))
+                  (PP (IN on)
+                    (NP (NNP Beethoven))))))))))
+    (PRN (, ,)
+      (S
+        (NP (PRP you))
+        (VP (MD might)
+          (VP (VB write))))
+      (, ,))
+    (`` ``)
+    (NP (PRP I))
+    (VP (VBP intend)
+      (S
+        (VP (TO to)
+          (VP (VB find)
+            (NP
+              (NP
+                (QP (IN at) (JJS least) (CD five))
+                (NNS articles))
+              (PP (IN about)
+                (NP (PRP him))))
+            (PP (IN by)
+              (NP
+                (NP (CD 9:00) (NN p.m.))
+                (SBAR
+                  (S
+                    (NP (PRP I))
+                    (VP (MD will)
+                      (VP (VB reward)
+                        (NP (PRP myself))
+                        (PP (IN with)
+                          (NP
+                            (NP (DT an) (NN hour))
+                            (PP (IN of)
+                              (NP (JJ guilt-free) (JJ recreational) (NN reading)))))))))))))))
+    (. .) ('' '')))
+
+case(example-2, For-1)
+nmod:for(intend-22, example-2)
+mark(started-9, if-4)
+nsubjpass(started-9, you-5)
+aux(started-9, ca-6)
+neg(started-9, n't-7)
+auxpass(started-9, get-8)
+advcl(intend-22, started-9)
+case(report-12, with-10)
+nmod:poss(report-12, your-11)
+nmod:with(started-9, report-12)
+case(Beethoven-14, on-13)
+nmod:on(report-12, Beethoven-14)
+nsubj(write-18, you-16)
+aux(write-18, might-17)
+parataxis(intend-22, write-18)
+nsubj(intend-22, I-21)
+nsubj(find-24, I-21)
+root(ROOT-0, intend-22)
+mark(find-24, to-23)
+xcomp(intend-22, find-24)
+case(least-26, at-25)
+nmod:npmod(five-27, least-26)
+nummod(articles-28, five-27)
+dobj(find-24, articles-28)
+case(him-30, about-29)
+nmod:about(articles-28, him-30)
+case(p.m.-33, by-31)
+nummod(p.m.-33, 9:00-32)
+nmod:by(find-24, p.m.-33)
+nsubj(reward-36, I-34)
+aux(reward-36, will-35)
+acl:relcl(p.m.-33, reward-36)
+dobj(reward-36, myself-37)
+case(hour-40, with-38)
+det(hour-40, an-39)
+nmod:with(reward-36, hour-40)
+case(reading-44, of-41)
+amod(reading-44, guilt-free-42)
+amod(reading-44, recreational-43)
+nmod:of(hour-40, reading-44)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB Carry)
+        (NP (DT the) (NN card))
+        (PP (IN with)
+          (NP (PRP you))))
+      (CC or)
+      (VP (VB post)
+        (NP (PRP it))
+        (PP (IN in)
+          (NP (PRP$ your) (NN study) (NN area)))
+        (SBAR
+          (WHADVP (WRB where))
+          (S
+            (NP (PRP you))
+            (VP (MD will)
+              (VP (VB see)
+                (NP (PRP it))
+                (ADVP (RB often))))))))
+    (. .)))
+
+root(ROOT-0, Carry-1)
+det(card-3, the-2)
+dobj(Carry-1, card-3)
+case(you-5, with-4)
+nmod:with(Carry-1, you-5)
+cc(Carry-1, or-6)
+conj:or(Carry-1, post-7)
+dobj(post-7, it-8)
+case(area-12, in-9)
+nmod:poss(area-12, your-10)
+compound(area-12, study-11)
+nmod:in(post-7, area-12)
+advmod(see-16, where-13)
+nsubj(see-16, you-14)
+aux(see-16, will-15)
+advcl(post-7, see-16)
+dobj(see-16, it-17)
+advmod(see-16, often-18)
+
+(ROOT
+  (X
+    (NP (NNP Thursday))
+    (: :)
+    (FRAG
+      (VP (VB Tell)
+        (NP
+          (NP (NN Everyone) (NN Announce))
+          (ADVP (RB publicly)))
+        (NP (PRP$ your) (NN intention)
+          (S
+            (VP (TO to)
+              (VP (VB get)
+                (NP
+                  (NP (DT the) (NN job))
+                  (VP (VBN done)))))))))
+    (. .)))
+
+root(ROOT-0, Thursday-1)
+dep(Thursday-1, Tell-3)
+compound(Announce-5, Everyone-4)
+iobj(Tell-3, Announce-5)
+advmod(Announce-5, publicly-6)
+nmod:poss(intention-8, your-7)
+dobj(Tell-3, intention-8)
+mark(get-10, to-9)
+acl(intention-8, get-10)
+det(job-12, the-11)
+dobj(get-10, job-12)
+acl(job-12, done-13)
+
+(ROOT
+  (S
+    (VP (VB Tell)
+      (NP
+        (NP (DT a) (NN friend))
+        (SBAR
+          (S
+            (NP (PRP you))
+            (VP (VBP plan)
+              (S
+                (VP (TO to)
+                  (VP (VB learn)
+                    (NP
+                      (QP (CD one) (CD hundred))
+                      (JJ new) (JJ English) (NNS words))
+                    (NP (DT a) (NN week))
+                    (, ,)
+                    (PP (IN for)
+                      (NP (NN example)))))))))))
+    (. .)))
+
+root(ROOT-0, Tell-1)
+det(friend-3, a-2)
+dobj(Tell-1, friend-3)
+nsubj(plan-5, you-4)
+nsubj(learn-7, you-4)
+acl:relcl(friend-3, plan-5)
+mark(learn-7, to-6)
+xcomp(plan-5, learn-7)
+compound(hundred-9, one-8)
+nummod(words-12, hundred-9)
+amod(words-12, new-10)
+amod(words-12, English-11)
+dobj(learn-7, words-12)
+det(week-14, a-13)
+nmod:tmod(learn-7, week-14)
+case(example-17, for-16)
+nmod:for(learn-7, example-17)
+
+(ROOT
+  (S
+    (NP
+      (NP (JJ Include) (NN anyone))
+      (SBAR
+        (WHNP (WP who))
+        (S
+          (VP (MD will)
+            (VP (VB suggest)
+              (S
+                (NP (NNS ways))
+                (VP (TO to)
+                  (VP (VB get)
+                    (NP (PRP it))))))))))
+    (VP (VBN done))
+    (. .)))
+
+amod(anyone-2, Include-1)
+nsubj(suggest-5, anyone-2)
+nsubj(done-10, anyone-2)
+ref(anyone-2, who-3)
+aux(suggest-5, will-4)
+acl:relcl(anyone-2, suggest-5)
+dobj(suggest-5, ways-6)
+nsubj(get-8, ways-6)
+mark(get-8, to-7)
+xcomp(suggest-5, get-8)
+dobj(get-8, it-9)
+root(ROOT-0, done-10)
+
+(ROOT
+  (S
+    (VP (VB Make)
+      (S
+        (NP (DT the) (NN world))
+        (NP (PRP$ your) (NN support) (NN group))))
+    (. .)))
+
+root(ROOT-0, Make-1)
+det(world-3, the-2)
+nsubj(group-6, world-3)
+nmod:poss(group-6, your-4)
+compound(group-6, support-5)
+xcomp(Make-1, group-6)
+
+(ROOT
+  (S
+    (NP (NNP Friday))
+    (: :)
+    (VP (VBP Find)
+      (NP
+        (NP (DT a) (NN Reward))
+        (SBAR
+          (S
+            (NP (PRP You))
+            (VP
+              (VP (VBP deserve)
+                (NP (DT a) (NN reward))
+                (PP (IN for)
+                  (S
+                    (VP (VBG accomplishing)
+                      (NP (DT a) (NN task))))))
+              (, ,)
+              (CC but)
+              (VP (VB construct)
+                (NP (NNS rewards))
+                (ADVP (RB carefully))))))))
+    (. .)))
+
+nsubj(Find-3, Friday-1)
+root(ROOT-0, Find-3)
+det(Reward-5, a-4)
+dobj(Find-3, Reward-5)
+nsubj(deserve-7, You-6)
+nsubj(construct-16, You-6)
+acl:relcl(Reward-5, deserve-7)
+det(reward-9, a-8)
+dobj(deserve-7, reward-9)
+mark(accomplishing-11, for-10)
+advcl(deserve-7, accomplishing-11)
+det(task-13, a-12)
+dobj(accomplishing-11, task-13)
+cc(deserve-7, but-15)
+acl:relcl(Reward-5, construct-16)
+conj:but(deserve-7, construct-16)
+dobj(construct-16, rewards-17)
+advmod(construct-16, carefully-18)
+
+(ROOT
+  (S
+    (VP (VB Be)
+      (ADJP (JJ willing)
+        (S
+          (VP (TO to)
+            (VP (VB withhold)
+              (NP (PRP them))
+              (SBAR (IN if)
+                (S
+                  (NP (PRP you))
+                  (VP (VBP do) (RB not)
+                    (VP (VB complete)
+                      (NP (DT the) (NN task)))))))))))
+    (. .)))
+
+cop(willing-2, Be-1)
+root(ROOT-0, willing-2)
+mark(withhold-4, to-3)
+xcomp(willing-2, withhold-4)
+dobj(withhold-4, them-5)
+mark(complete-10, if-6)
+nsubj(complete-10, you-7)
+aux(complete-10, do-8)
+neg(complete-10, not-9)
+advcl(withhold-4, complete-10)
+det(task-12, the-11)
+dobj(complete-10, task-12)
+
+(ROOT
+  (S
+    (VP (VB Do) (RB n't)
+      (VP (VB pick)
+        (NP
+          (NP (DT a) (NN movie))
+          (PP (IN as)
+            (NP (DT a) (NN reward))))
+        (PP (IN for)
+          (S
+            (VP (VBG studying)
+              (NP (NN biology))
+              (SBAR (IN if)
+                (S
+                  (NP (PRP you))
+                  (VP (VBP plan)
+                    (S
+                      (VP (TO to)
+                        (VP (VB go)
+                          (PP (TO to)
+                            (NP (DT the) (NN movie)))
+                          (ADVP (RB anyway)))))))))))))
+    (. .)))
+
+aux(pick-3, Do-1)
+neg(pick-3, n't-2)
+root(ROOT-0, pick-3)
+det(movie-5, a-4)
+dobj(pick-3, movie-5)
+case(reward-8, as-6)
+det(reward-8, a-7)
+nmod:as(movie-5, reward-8)
+mark(studying-10, for-9)
+advcl(pick-3, studying-10)
+dobj(studying-10, biology-11)
+mark(plan-14, if-12)
+nsubj(plan-14, you-13)
+nsubj(go-16, you-13)
+advcl(studying-10, plan-14)
+mark(go-16, to-15)
+xcomp(plan-14, go-16)
+case(movie-19, to-17)
+det(movie-19, the-18)
+nmod:to(go-16, movie-19)
+advmod(go-16, anyway-20)
+
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (MD might)
+      (VP (VB find)
+        (SBAR (IN that)
+          (S
+            (NP
+              (NP (NNS movies))
+              (, ,)
+              (NP (JJ new) (NNS clothes))
+              (, ,)
+              (CC or)
+              (NP
+                (NP (DT an) (JJ extra) (NN hour))
+                (VP (VBG riding)
+                  (NP (PRP$ your) (NN bicycle)))))
+            (VP (VBP are)
+              (NP
+                (NP (JJR more) (NN fun))
+                (SBAR
+                  (WHADVP (WRB when))
+                  (S
+                    (NP (PRP you))
+                    (VP (VBP 've)
+                      (VP (VBN earned)
+                        (NP (PRP them))))))))))))
+    (. .)))
+
+nsubj(find-3, You-1)
+aux(find-3, might-2)
+root(ROOT-0, find-3)
+mark(fun-19, that-4)
+nsubj(fun-19, movies-5)
+amod(clothes-8, new-7)
+conj:or(movies-5, clothes-8)
+nsubj(fun-19, clothes-8)
+cc(movies-5, or-10)
+det(hour-13, an-11)
+amod(hour-13, extra-12)
+conj:or(movies-5, hour-13)
+nsubj(fun-19, hour-13)
+acl(hour-13, riding-14)
+nmod:poss(bicycle-16, your-15)
+dobj(riding-14, bicycle-16)
+cop(fun-19, are-17)
+amod(fun-19, more-18)
+ccomp(find-3, fun-19)
+advmod(earned-23, when-20)
+nsubj(earned-23, you-21)
+aux(earned-23, 've-22)
+acl:relcl(fun-19, earned-23)
+dobj(earned-23, them-24)
+
+(ROOT
+  (FRAG
+    (NP (NNP Saturday))
+    (: :)
+    (S
+      (VP (VB Settle)
+        (SBAR
+          (S
+            (NP (PRP It))
+            (ADVP (RB Now))
+            (VP (VBP Do)
+              (NP (PRP it))
+              (ADVP (RB now)))))))
+    (. .)))
+
+root(ROOT-0, Saturday-1)
+parataxis(Saturday-1, Settle-3)
+nsubj(Do-6, It-4)
+advmod(Do-6, Now-5)
+ccomp(Settle-3, Do-6)
+dobj(Do-6, it-7)
+advmod(Do-6, now-8)
+
+(ROOT
+  (S
+    (NP (DT The) (NN minute))
+    (PRN
+      (S
+        (NP (PRP you))
+        (VP (VBP notice)
+          (S
+            (NP (PRP yourself))
+            (ADJP (JJ procrastinating)))))
+      (, ,))
+    (NP (PRP you))
+    (VP (MD should)
+      (VP (VB plunge)
+        (PP (IN into)
+          (NP (DT the) (NN task)))))
+    (. .)))
+
+det(minute-2, The-1)
+nsubj(plunge-10, minute-2)
+nsubj(notice-4, you-3)
+parataxis(plunge-10, notice-4)
+nsubj(procrastinating-6, yourself-5)
+xcomp(notice-4, procrastinating-6)
+nsubj(plunge-10, you-8)
+aux(plunge-10, should-9)
+root(ROOT-0, plunge-10)
+case(task-13, into-11)
+det(task-13, the-12)
+nmod:into(plunge-10, task-13)
+
+(ROOT
+  (S
+    (VP (VB Imagine)
+      (NP (PRP yourself))
+      (PP (IN at)
+        (NP
+          (NP (DT a) (NN mountain) (NN lake))
+          (, ,)
+          (VP (VBN poised)
+            (PP (TO to)
+              (NP (NN dive)))
+            (PP (IN in))))))
+    (. .)))
+
+root(ROOT-0, Imagine-1)
+dobj(Imagine-1, yourself-2)
+case(lake-6, at-3)
+det(lake-6, a-4)
+compound(lake-6, mountain-5)
+nmod:at(Imagine-1, lake-6)
+acl(lake-6, poised-8)
+case(dive-10, to-9)
+nmod:in(poised-8, dive-10)
+case(dive-10, in-11)
+
+(ROOT
+  (S
+    (NP (JJ Gradual) (NN immersion))
+    (VP (MD would)
+      (VP (VB be)
+        (ADJP (JJ slow)
+          (SBAR
+            (S
+              (VP (VBP torture)))))))
+    (. .)))
+
+amod(immersion-2, Gradual-1)
+nsubj(slow-5, immersion-2)
+aux(slow-5, would-3)
+cop(slow-5, be-4)
+root(ROOT-0, slow-5)
+ccomp(slow-5, torture-6)
+
+(ROOT
+  (S (RB Then)
+    (VP (VB be)
+      (ADJP (JJ sure)
+        (S
+          (VP (TO to)
+            (VP (VB savor)
+              (NP
+                (NP (DT the) (NN feeling))
+                (PP (IN of)
+                  (S
+                    (VP (VBG having)
+                      (NP
+                        (NP (DT the) (NN task))
+                        (PP (IN behind)
+                          (NP (PRP you)))))))))))))
+    (. .)))
+
+advmod(sure-3, Then-1)
+cop(sure-3, be-2)
+root(ROOT-0, sure-3)
+mark(savor-5, to-4)
+xcomp(sure-3, savor-5)
+det(feeling-7, the-6)
+dobj(savor-5, feeling-7)
+mark(having-9, of-8)
+acl(feeling-7, having-9)
+det(task-11, the-10)
+dobj(having-9, task-11)
+case(you-13, behind-12)
+nmod:behind(task-11, you-13)
+
+(ROOT
+  (NP
+    (NP (NNP Sunday))
+    (: :)
+    (S
+      (SBAR
+        (ADVP (RB Say) (RB No))
+        (WHADVP (WRB When))
+        (S
+          (NP (PRP you))
+          (VP (VBP keep)
+            (S
+              (VP (VBG pushing)
+                (NP (DT a) (NN task))
+                (PP (IN into)
+                  (NP (DT the) (JJ low-priority) (NN category))))))))
+      (, ,)
+      (VP (VB re-examine)
+        (NP (DT the) (NN purpose))
+        (PP (IN for)
+          (S
+            (VP (VBG doing)
+              (NP (PRP it))
+              (ADVP (IN at) (DT all)))))))
+    (. .)))
+
+root(ROOT-0, Sunday-1)
+advmod(No-4, Say-3)
+advmod(keep-7, No-4)
+advmod(keep-7, When-5)
+nsubj(keep-7, you-6)
+advcl(re-examine-16, keep-7)
+xcomp(keep-7, pushing-8)
+det(task-10, a-9)
+dobj(pushing-8, task-10)
+case(category-14, into-11)
+det(category-14, the-12)
+amod(category-14, low-priority-13)
+nmod:into(pushing-8, category-14)
+parataxis(Sunday-1, re-examine-16)
+det(purpose-18, the-17)
+dobj(re-examine-16, purpose-18)
+mark(doing-20, for-19)
+advcl(re-examine-16, doing-20)
+dobj(doing-20, it-21)
+case(all-23, at-22)
+nmod:at(doing-20, all-23)
+
+(ROOT
+  (S
+    (SBAR (IN If)
+      (S
+        (NP (PRP you))
+        (VP (VBP realize)
+          (SBAR
+            (S
+              (NP (PRP you))
+              (ADVP (RB really))
+              (VP (VBP do) (RB n't)
+                (VP (VB intend)
+                  (S
+                    (VP (TO to)
+                      (VP (VB do)
+                        (NP (NN something))))))))))))
+    (, ,)
+    (VP (VB quit)
+      (S
+        (VP (VBG telling)
+          (NP (PRP yourself))))
+      (SBAR (IN that)
+        (S
+          (NP (PRP you))
+          (VP (MD will)))))
+    (. .)))
+
+mark(realize-3, If-1)
+nsubj(realize-3, you-2)
+advcl(quit-13, realize-3)
+nsubj(intend-8, you-4)
+nsubj(do-10, you-4)
+advmod(intend-8, really-5)
+aux(intend-8, do-6)
+neg(intend-8, n't-7)
+ccomp(realize-3, intend-8)
+mark(do-10, to-9)
+xcomp(intend-8, do-10)
+dobj(do-10, something-11)
+root(ROOT-0, quit-13)
+xcomp(quit-13, telling-14)
+dobj(telling-14, yourself-15)
+mark(will-18, that-16)
+nsubj(will-18, you-17)
+ccomp(quit-13, will-18)
+
+(ROOT
+  (S
+    (NP (DT That))
+    (VP (VBZ 's)
+      (VP (VBG procrastinating)))
+    (. .)))
+
+nsubj(procrastinating-3, That-1)
+aux(procrastinating-3, 's-2)
+root(ROOT-0, procrastinating-3)
+
+(ROOT
+  (S
+    (S
+      (ADVP (RB Just))
+      (VP (VB say)
+        (FRAG
+          (INTJ (RB NO)))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (PRP you))
+      (VP (VBP do) (RB n't)
+        (VP (VB have)
+          (S
+            (VP (TO to)
+              (VP (VB carry)
+                (PRT (RP around))
+                (NP
+                  (NP (DT the) (NN baggage))
+                  (PP (IN of)
+                    (NP (DT an) (JJ undone) (NN task))))))))))
+    (. .)))
+
+advmod(say-2, Just-1)
+root(ROOT-0, say-2)
+dep(say-2, NO-3)
+cc(say-2, and-5)
+nsubj(have-9, you-6)
+nsubj(carry-11, you-6)
+aux(have-9, do-7)
+neg(have-9, n't-8)
+conj:and(say-2, have-9)
+mark(carry-11, to-10)
+xcomp(have-9, carry-11)
+compound:prt(carry-11, around-12)
+det(baggage-14, the-13)
+dobj(carry-11, baggage-14)
+case(task-18, of-15)
+det(task-18, an-16)
+amod(task-18, undone-17)
+nmod:of(baggage-14, task-18)
+
+(ROOT
+  (S
+    (SBAR (IN If)
+      (S
+        (NP (PRP you))
+        (VP (VBP are)
+          (VP (VBG going)
+            (S
+              (VP (TO to)
+                (VP (VB procrastinate))))))))
+    (, ,)
+    (NP (PRP you))
+    (VP (MD can)
+      (ADVP (RB also))
+      (VP (VB choose)
+        (S (RB not)
+          (VP (TO to)))))
+    (. .)))
+
+mark(going-4, If-1)
+nsubj(going-4, you-2)
+nsubj(procrastinate-6, you-2)
+aux(going-4, are-3)
+advcl(choose-11, going-4)
+mark(procrastinate-6, to-5)
+xcomp(going-4, procrastinate-6)
+nsubj(choose-11, you-8)
+nsubj(to-13, you-8)
+aux(choose-11, can-9)
+advmod(choose-11, also-10)
+root(ROOT-0, choose-11)
+neg(to-13, not-12)
+xcomp(choose-11, to-13)
+
+(ROOT
+  (S
+    (VP (VB Consider)
+      (NP
+        (NP (DT the) (NNS consequences))
+        (PP (IN of)
+          (S
+            (VP (VBG postponing))))))
+    (. .)))
+
+root(ROOT-0, Consider-1)
+det(consequences-3, the-2)
+dobj(Consider-1, consequences-3)
+mark(postponing-5, of-4)
+acl(consequences-3, postponing-5)
+
+(ROOT
+  (S
+    (S
+      (VP (VBG Recognizing)
+        (NP
+          (NP (DT the) (NNS costs))
+          (PP (IN of)
+            (NP (NN procrastination))))))
+    (VP (MD may)
+      (ADVP (RB just))
+      (VP (VB help)
+        (S
+          (NP (PRP you))
+          (VP (NN kick)
+            (NP (DT the) (NN habit))))))
+    (. .)))
+
+csubj(help-8, Recognizing-1)
+det(costs-3, the-2)
+dobj(Recognizing-1, costs-3)
+case(procrastination-5, of-4)
+nmod:of(costs-3, procrastination-5)
+aux(help-8, may-6)
+advmod(help-8, just-7)
+root(ROOT-0, help-8)
+nsubj(kick-10, you-9)
+ccomp(help-8, kick-10)
+det(habit-12, the-11)
+dobj(kick-10, habit-12)
+
+(ROOT
+  (S
+    (ADVP (RB Finally))
+    (, ,)
+    (VP (VB ask)
+      (S
+        (NP (PRP yourself))
+        (ADJP (RB straight))
+        (SBAR
+          (ADVP (RB out))
+          (IN if)
+          (S
+            (NP (NN procrastination))
+            (ADVP (RB actually))
+            (VP (VBZ works)
+              (PP (IN in)
+                (NP (PRP$ your) (NN favor))))))))
+    (. .)))
+
+advmod(ask-3, Finally-1)
+root(ROOT-0, ask-3)
+nsubj(works-10, yourself-4)
+dep(works-10, straight-5)
+advmod(works-10, out-6)
+mark(works-10, if-7)
+nsubj(works-10, procrastination-8)
+advmod(works-10, actually-9)
+xcomp(ask-3, works-10)
+case(favor-13, in-11)
+nmod:poss(favor-13, your-12)
+nmod:in(works-10, favor-13)
+
+(ROOT
+  (S
+    (S
+      (NP (DT Some) (NNS people))
+      (ADVP (RB really))
+      (VP (VBP do)
+        (VP (VB thrive)
+          (PP (IN under)
+            (NP (NN pressure))))))
+    (, ,)
+    (CC and)
+    (S
+      (SBAR (IN if)
+        (S
+          (NP (PRP you))
+          (VP (VBP do)
+            (NP
+              (NP (PRP$ your) (JJS best) (NN work))
+              (SBAR
+                (WHADVP (WRB when))
+                (S
+                  (NP (PRP you))
+                  (VP (VBP are)
+                    (VP (VBG pushing)
+                      (ADVP (RB hard))
+                      (PP (IN against)
+                        (NP (DT an) (JJ imminent) (NN deadline)))))))))))
+      (, ,)
+      (NP (PRP you))
+      (VP (MD may)
+        (VP (VB be)
+          (NP
+            (NP (CD one))
+            (PP (IN of)
+              (NP (DT those) (NNS people)))))))
+    (. .)))
+
+det(people-2, Some-1)
+nsubj(thrive-5, people-2)
+advmod(thrive-5, really-3)
+aux(thrive-5, do-4)
+root(ROOT-0, thrive-5)
+case(pressure-7, under-6)
+nmod:under(thrive-5, pressure-7)
+cc(thrive-5, and-9)
+mark(do-12, if-10)
+nsubj(do-12, you-11)
+advcl(one-29, do-12)
+nmod:poss(work-15, your-13)
+amod(work-15, best-14)
+dobj(do-12, work-15)
+advmod(pushing-19, when-16)
+nsubj(pushing-19, you-17)
+aux(pushing-19, are-18)
+acl:relcl(work-15, pushing-19)
+advmod(pushing-19, hard-20)
+case(deadline-24, against-21)
+det(deadline-24, an-22)
+amod(deadline-24, imminent-23)
+nmod:against(pushing-19, deadline-24)
+nsubj(one-29, you-26)
+aux(one-29, may-27)
+cop(one-29, be-28)
+conj:and(thrive-5, one-29)
+case(people-32, of-30)
+det(people-32, those-31)
+nmod:of(one-29, people-32)
+

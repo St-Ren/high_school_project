@@ -1,0 +1,1101 @@
+(ROOT
+  (NP
+    (NP (NNP Unit) (CD 4))
+    (NP (DT A) (NNP Colorful) (NNP Life))
+    (. .)))
+
+root(ROOT-0, Unit-1)
+nummod(Unit-1, 4-2)
+det(Life-5, A-3)
+compound(Life-5, Colorful-4)
+dep(Unit-1, Life-5)
+
+(ROOT
+  (S
+    (PP (IN As)
+      (ADJP (JJ usual)))
+    (, ,)
+    (NP (NNP Amber))
+    (VP
+      (VP (VBD woke)
+        (PRT (RP up))
+        (ADVP (RB late) (RB again)))
+      (CC and)
+      (VP (VBD had)
+        (S
+          (VP (TO to)
+            (VP (VB run)
+              (ADVP (RB fast) (RB enough))
+              (S
+                (VP (TO to)
+                  (VP (VB catch)
+                    (NP (DT the) (JJ yellow) (NN school) (NN bus))))))))))
+    (. .)))
+
+case(usual-2, As-1)
+advcl:as(woke-5, usual-2)
+nsubj(woke-5, Amber-4)
+nsubj(had-10, Amber-4)
+nsubj(run-12, Amber-4)
+nsubj(catch-16, Amber-4)
+root(ROOT-0, woke-5)
+compound:prt(woke-5, up-6)
+advmod(again-8, late-7)
+advmod(woke-5, again-8)
+cc(woke-5, and-9)
+conj:and(woke-5, had-10)
+mark(run-12, to-11)
+xcomp(had-10, run-12)
+advmod(enough-14, fast-13)
+advmod(run-12, enough-14)
+mark(catch-16, to-15)
+xcomp(run-12, catch-16)
+det(bus-20, the-17)
+amod(bus-20, yellow-18)
+compound(bus-20, school-19)
+dobj(catch-16, bus-20)
+
+(ROOT
+  (S
+    (ADVP (RB Luckily))
+    (, ,)
+    (S
+      (NP (DT the) (NN traffic) (NNS lights))
+      (VP (VBD turned)
+        (ADJP (JJ green))
+        (SBAR (RB just) (IN as)
+          (S
+            (NP (PRP she))
+            (VP (VBD was)
+              (VP (IN about)
+                (S
+                  (VP (TO to)
+                    (VP (VB cross)
+                      (NP (DT the) (NN road)))))))))))
+    (, ,) (IN so)
+    (S
+      (NP (PRP she))
+      (VP (VBD made)
+        (NP (PRP it))
+        (PP (TO to)
+          (NP (DT the) (NN bus)))))
+    (. .)))
+
+advmod(turned-6, Luckily-1)
+det(lights-5, the-3)
+compound(lights-5, traffic-4)
+nsubj(turned-6, lights-5)
+root(ROOT-0, turned-6)
+xcomp(turned-6, green-7)
+advmod(about-12, just-8)
+mark(about-12, as-9)
+nsubj(about-12, she-10)
+nsubj(cross-14, she-10)
+aux(about-12, was-11)
+advcl(turned-6, about-12)
+mark(cross-14, to-13)
+xcomp(about-12, cross-14)
+det(road-16, the-15)
+dobj(cross-14, road-16)
+dep(turned-6, so-18)
+nsubj(made-20, she-19)
+parataxis(turned-6, made-20)
+dobj(made-20, it-21)
+case(bus-24, to-22)
+det(bus-24, the-23)
+nmod:to(made-20, bus-24)
+
+(ROOT
+  (S
+    (SBAR
+      (WHADVP (WRB When))
+      (S
+        (NP (DT the) (NN bus))
+        (VP (VBD passed)
+          (NP
+            (NP (DT the) (JJ golden) (NNS arches))
+            (PP (IN of)
+              (NP (NNP McDonalds)))))))
+    (, ,)
+    (NP (PRP she))
+    (VP (VBD felt)
+      (NP (DT a) (JJ sudden) (NN desire))
+      (S
+        (VP (TO to)
+          (VP (VB have)
+            (NP (DT a) (NN hamburger))))))
+    (. .)))
+
+advmod(passed-4, When-1)
+det(bus-3, the-2)
+nsubj(passed-4, bus-3)
+advcl(felt-12, passed-4)
+det(arches-7, the-5)
+amod(arches-7, golden-6)
+dobj(passed-4, arches-7)
+case(McDonalds-9, of-8)
+nmod:of(arches-7, McDonalds-9)
+nsubj(felt-12, she-11)
+root(ROOT-0, felt-12)
+det(desire-15, a-13)
+amod(desire-15, sudden-14)
+dobj(felt-12, desire-15)
+mark(have-17, to-16)
+advcl(felt-12, have-17)
+det(hamburger-19, a-18)
+dobj(have-17, hamburger-19)
+
+(ROOT
+  (S
+    (NP (PRP She))
+    (VP (VBP hadnt)
+      (SBAR
+        (S
+          (VP (VBD had)
+            (NP (NN breakfast))
+            (NP (DT that) (NN morning))
+            (SBAR (IN because)
+              (S
+                (NP
+                  (NP (DT the) (NN fruit) (NN salad))
+                  (PP (IN on)
+                    (NP
+                      (NP (DT the) (JJ blue) (NN dish))
+                      (SBAR
+                        (WHNP (WDT which))
+                        (S
+                          (NP (PRP$ her) (NN mother))
+                          (VP (VBD had)
+                            (VP (VBN prepared)
+                              (PP (IN for)
+                                (NP (PRP her))))))))))
+                (VP (VBD looked)
+                  (ADVP (RB far)
+                    (PP (IN from)
+                      (ADJP (JJ delicious)))))))))))
+    (. .)))
+
+nsubj(hadnt-2, She-1)
+root(ROOT-0, hadnt-2)
+ccomp(hadnt-2, had-3)
+dobj(had-3, breakfast-4)
+det(morning-6, that-5)
+nmod:tmod(had-3, morning-6)
+mark(looked-22, because-7)
+det(salad-10, the-8)
+compound(salad-10, fruit-9)
+nsubj(looked-22, salad-10)
+case(dish-14, on-11)
+det(dish-14, the-12)
+amod(dish-14, blue-13)
+nmod:on(salad-10, dish-14)
+dobj(prepared-19, dish-14)
+ref(dish-14, which-15)
+nmod:poss(mother-17, her-16)
+nsubj(prepared-19, mother-17)
+aux(prepared-19, had-18)
+acl:relcl(dish-14, prepared-19)
+case(her-21, for-20)
+nmod:for(prepared-19, her-21)
+advcl(had-3, looked-22)
+advmod(looked-22, far-23)
+case(delicious-25, from-24)
+advcl:from(far-23, delicious-25)
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (ADVP (RB also))
+    (VP (VBD occurred)
+      (PP (TO to)
+        (NP (NNP Amber)))
+      (SBAR (IN that)
+        (S
+          (NP (PRP she))
+          (VP (MD should)
+            (VP (VB stay)
+              (PP (IN on)
+                (NP (PRP$ her) (NN diet))))))))
+    (. .)))
+
+nsubj(occurred-3, It-1)
+advmod(occurred-3, also-2)
+root(ROOT-0, occurred-3)
+case(Amber-5, to-4)
+nmod:to(occurred-3, Amber-5)
+mark(stay-9, that-6)
+nsubj(stay-9, she-7)
+aux(stay-9, should-8)
+ccomp(occurred-3, stay-9)
+case(diet-12, on-10)
+nmod:poss(diet-12, her-11)
+nmod:on(stay-9, diet-12)
+
+(ROOT
+  (S
+    (ADVP (RB Thus))
+    (, ,)
+    (NP (PRP she))
+    (VP (VBD was)
+      (PP (IN in)
+        (NP (DT a)
+          (ADJP (RB really) (JJ black))
+          (NN mood))))
+    (. .)))
+
+advmod(mood-9, Thus-1)
+nsubj(mood-9, she-3)
+cop(mood-9, was-4)
+case(mood-9, in-5)
+det(mood-9, a-6)
+advmod(black-8, really-7)
+amod(mood-9, black-8)
+root(ROOT-0, mood-9)
+
+(ROOT
+  (S
+    (ADVP (RB Perhaps))
+    (NP (PRP you))
+    (VP (VBP have)
+      (VP (VBN noticed)
+        (SBAR (IN that)
+          (S
+            (NP (JJ several) (NNS colors))
+            (VP (VBP are)
+              (VP (VBN used)
+                (PP (IN in)
+                  (NP (DT the) (JJ above) (NN story)))))))))
+    (. .)))
+
+advmod(noticed-4, Perhaps-1)
+nsubj(noticed-4, you-2)
+aux(noticed-4, have-3)
+root(ROOT-0, noticed-4)
+mark(used-9, that-5)
+amod(colors-7, several-6)
+nsubjpass(used-9, colors-7)
+auxpass(used-9, are-8)
+ccomp(noticed-4, used-9)
+case(story-13, in-10)
+det(story-13, the-11)
+amod(story-13, above-12)
+nmod:in(used-9, story-13)
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (NN fact)))
+    (, ,)
+    (NP (NNS colors))
+    (VP (VBP play)
+      (NP
+        (NP (DT a)
+          (ADJP (RBR more) (JJ influential))
+          (NN role))
+        (PP (IN in)
+          (NP (PRP$ our) (NN life))))
+      (SBAR (IN than)
+        (S
+          (NP (PRP we))
+          (VP (MD can)
+            (ADVP (RB ever))
+            (VP (VB imagine))))))
+    (. .)))
+
+case(fact-2, In-1)
+nmod:in(play-5, fact-2)
+nsubj(play-5, colors-4)
+root(ROOT-0, play-5)
+det(role-9, a-6)
+advmod(influential-8, more-7)
+amod(role-9, influential-8)
+dobj(play-5, role-9)
+case(life-12, in-10)
+nmod:poss(life-12, our-11)
+nmod:in(role-9, life-12)
+mark(imagine-17, than-13)
+nsubj(imagine-17, we-14)
+aux(imagine-17, can-15)
+advmod(imagine-17, ever-16)
+advcl(play-5, imagine-17)
+
+(ROOT
+  (S
+    (VP (VB Take)
+      (NP (DT the) (JJ English) (NN language))
+      (, ,)
+      (PP (IN for)
+        (NP (NN example))))
+    (. .)))
+
+root(ROOT-0, Take-1)
+det(language-4, the-2)
+amod(language-4, English-3)
+dobj(Take-1, language-4)
+case(example-7, for-6)
+nmod:for(Take-1, example-7)
+
+(ROOT
+  (S
+    (NP (PRP We))
+    (VP (MD may)
+      (VP (VB describe)
+        (NP (DT a) (JJ sick) (NN person))
+        (PP (IN as)
+          (S
+            (VP (VBG being)
+              (ADJP
+                (NP (DT a) (RB bit))
+                (JJ green)))))))
+    (. .)))
+
+nsubj(describe-3, We-1)
+aux(describe-3, may-2)
+root(ROOT-0, describe-3)
+det(person-6, a-4)
+amod(person-6, sick-5)
+dobj(describe-3, person-6)
+mark(green-11, as-7)
+cop(green-11, being-8)
+det(bit-10, a-9)
+nmod:npmod(green-11, bit-10)
+advcl(describe-3, green-11)
+
+(ROOT
+  (S
+    (ADVP (RB Sometimes))
+    (, ,)
+    (NP (PRP we))
+    (VP (MD may)
+      (ADVP (RB also))
+      (VP (VB use)
+        (NP
+          (NP (JJ symbolic) (NNS meanings))
+          (PP (IN of)
+            (NP (NNS colors))))
+        (S
+          (VP (TO to)
+            (VP (VB talk)
+              (PP (IN about)
+                (NP (NNS things))))))))
+    (. .)))
+
+advmod(use-6, Sometimes-1)
+nsubj(use-6, we-3)
+aux(use-6, may-4)
+advmod(use-6, also-5)
+root(ROOT-0, use-6)
+amod(meanings-8, symbolic-7)
+dobj(use-6, meanings-8)
+case(colors-10, of-9)
+nmod:of(meanings-8, colors-10)
+mark(talk-12, to-11)
+advcl(use-6, talk-12)
+case(things-14, about-13)
+nmod:about(talk-12, things-14)
+
+(ROOT
+  (S
+    (PP (IN For)
+      (NP (NN example)))
+    (, ,)
+    (S
+      (VP (TO to)
+        (VP (VB describe)
+          (NP (DT a) (JJ boring) (NN show)))))
+    (, ,)
+    (NP (PRP we))
+    (VP (MD can)
+      (VP (VB say)
+        (SBAR (IN that)
+          (S
+            (NP (DT this) (NN show))
+            (VP (VBZ is)
+              (ADJP
+                (NP (DT a) (RB bit))
+                (JJ gray)))))))
+    (. .)))
+
+case(example-2, For-1)
+nmod:for(say-12, example-2)
+mark(describe-5, to-4)
+advcl(say-12, describe-5)
+det(show-8, a-6)
+amod(show-8, boring-7)
+dobj(describe-5, show-8)
+nsubj(say-12, we-10)
+aux(say-12, can-11)
+root(ROOT-0, say-12)
+mark(gray-19, that-13)
+det(show-15, this-14)
+nsubj(gray-19, show-15)
+cop(gray-19, is-16)
+det(bit-18, a-17)
+nmod:npmod(gray-19, bit-18)
+ccomp(say-12, gray-19)
+
+(ROOT
+  (S
+    (SBAR (IN As)
+      (S
+        (NP (PRP we))
+        (VP (MD can)
+          (VP (VB see)))))
+    (, ,)
+    (NP (NNS colors))
+    (VP (VBP do)
+      (S
+        (VP (VBG spice)
+          (PRT (RP up))
+          (NP (JJ ordinary) (NNS conversations)))))
+    (. .)))
+
+mark(see-4, As-1)
+nsubj(see-4, we-2)
+aux(see-4, can-3)
+advcl(do-7, see-4)
+nsubj(do-7, colors-6)
+root(ROOT-0, do-7)
+xcomp(do-7, spice-8)
+compound:prt(spice-8, up-9)
+amod(conversations-11, ordinary-10)
+dobj(spice-8, conversations-11)
+
+(ROOT
+  (S
+    (ADVP (IN Besides))
+    (, ,)
+    (NP
+      (NP (NNS effects))
+      (PP (IN of)
+        (NP (NNS colors))))
+    (VP (MD can)
+      (VP (VB be)
+        (VP (VBN applied)
+          (PP (TO to)
+            (NP
+              (NP (JJ many) (NNS parts))
+              (PP (IN of)
+                (NP (PRP$ our) (JJ daily) (NN life))))))))
+    (. .)))
+
+advmod(applied-8, Besides-1)
+nsubjpass(applied-8, effects-3)
+case(colors-5, of-4)
+nmod:of(effects-3, colors-5)
+aux(applied-8, can-6)
+auxpass(applied-8, be-7)
+root(ROOT-0, applied-8)
+case(parts-11, to-9)
+amod(parts-11, many-10)
+nmod:to(applied-8, parts-11)
+case(life-15, of-12)
+nmod:poss(life-15, our-13)
+amod(life-15, daily-14)
+nmod:of(parts-11, life-15)
+
+(ROOT
+  (SQ (VBP Have)
+    (NP (PRP you))
+    (VP
+      (ADVP (RB ever))
+      (VBN thought)
+      (PP (IN about)
+        (SBAR
+          (WHADVP (WRB why))
+          (S
+            (S
+              (NP (NN school) (NNS buses)
+                (CC and)
+                (NNS taxis))
+              (VP (VBP are)
+                (VP (VBN painted)
+                  (S
+                    (ADJP (JJ yellow))))))
+            (, ,)
+            (CC and)
+            (S
+              (NP (NN stop) (NNS signs))
+              (ADJP (JJ red)))))))
+    (. ?)))
+
+aux(thought-4, Have-1)
+nsubj(thought-4, you-2)
+advmod(thought-4, ever-3)
+root(ROOT-0, thought-4)
+mark(painted-12, about-5)
+advmod(painted-12, why-6)
+compound(buses-8, school-7)
+nsubjpass(painted-12, buses-8)
+nsubj(red-18, buses-8)
+cc(buses-8, and-9)
+conj:and(buses-8, taxis-10)
+nsubjpass(painted-12, taxis-10)
+auxpass(painted-12, are-11)
+advcl(thought-4, painted-12)
+xcomp(painted-12, yellow-13)
+cc(painted-12, and-15)
+compound(signs-17, stop-16)
+dep(red-18, signs-17)
+advcl(thought-4, red-18)
+conj:and(painted-12, red-18)
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ is)
+      (SBAR (IN because)
+        (S
+          (NP (JJ yellow))
+          (VP (VBZ is)
+            (ADJP (JJ bright) (RB enough)
+              (S
+                (VP (TO to)
+                  (VP (VB attract)
+                    (NP (NNS peoples) (NN attention))))))
+            (, ,)
+            (ADVP (RB even)
+              (PP (IN in)
+                (NP (JJ heavy) (NN traffic))))))))
+    (. .)))
+
+nsubj(is-2, It-1)
+root(ROOT-0, is-2)
+mark(bright-6, because-3)
+nsubj(bright-6, yellow-4)
+nsubj(attract-9, yellow-4)
+cop(bright-6, is-5)
+advcl(is-2, bright-6)
+advmod(bright-6, enough-7)
+mark(attract-9, to-8)
+xcomp(bright-6, attract-9)
+compound(attention-11, peoples-10)
+dobj(attract-9, attention-11)
+advmod(bright-6, even-13)
+case(traffic-16, in-14)
+amod(traffic-16, heavy-15)
+nmod:in(even-13, traffic-16)
+
+(ROOT
+  (S
+    (S
+      (PP (IN As)
+        (PP (IN for)
+          (NP (NN red))))
+      (, ,)
+      (NP (PRP it))
+      (VP (VBZ is)
+        (ADVP (RB usually))
+        (VP (VBN used)
+          (S
+            (VP (TO to)
+              (VP (VB indicate)
+                (NP (NN warning))))))))
+    (: ;)
+    (S
+      (PP (IN as)
+        (NP (DT a) (NN result)))
+      (, ,)
+      (NP (JJS most) (NN traffic) (NNS signs))
+      (VP (VBP use)
+        (NP (DT this) (NN color))))
+    (. .)))
+
+case(red-3, As-1)
+mwe(As-1, for-2)
+nmod:as_for(used-8, red-3)
+nsubjpass(used-8, it-5)
+nsubj(indicate-10, it-5)
+auxpass(used-8, is-6)
+advmod(used-8, usually-7)
+root(ROOT-0, used-8)
+mark(indicate-10, to-9)
+xcomp(used-8, indicate-10)
+dobj(indicate-10, warning-11)
+case(result-15, as-13)
+det(result-15, a-14)
+nmod:as(use-20, result-15)
+amod(signs-19, most-17)
+compound(signs-19, traffic-18)
+nsubj(use-20, signs-19)
+parataxis(used-8, use-20)
+det(color-22, this-21)
+dobj(use-20, color-22)
+
+(ROOT
+  (S
+    (SBAR
+      (WHADVP (WRB How))
+      (S
+        (NP (NNS colors))
+        (VP (VBP affect)
+          (NP (NN appetite)))))
+    (VP (VBZ is)
+      (NP (DT another) (NN thing))
+      (SBAR (IN that)
+        (S
+          (NP (JJS most) (NNS people))
+          (ADVP (RB probably))
+          (VP (VBP do) (RB not)
+            (VP (VB notice))))))
+    (. .)))
+
+advmod(affect-3, How-1)
+nsubj(affect-3, colors-2)
+csubj(thing-7, affect-3)
+dobj(affect-3, appetite-4)
+cop(thing-7, is-5)
+det(thing-7, another-6)
+root(ROOT-0, thing-7)
+mark(notice-14, that-8)
+amod(people-10, most-9)
+nsubj(notice-14, people-10)
+advmod(notice-14, probably-11)
+aux(notice-14, do-12)
+neg(notice-14, not-13)
+ccomp(thing-7, notice-14)
+
+(ROOT
+  (S
+    (PP (VBG According)
+      (PP (TO to)
+        (NP (NNS studies))))
+    (, ,)
+    (NP
+      (NP (DT the) (NNS colors))
+      (PP (IN of)
+        (NP (DT a) (NN dining) (NN environment))))
+    (VP (MD can)
+      (VP (VB influence)
+        (SBAR
+          (WHADJP (WRB how) (JJ much))
+          (S
+            (NP (PRP we))
+            (VP (VBP eat))))))
+    (. .)))
+
+case(studies-3, According-1)
+mwe(According-1, to-2)
+nmod:according_to(influence-12, studies-3)
+det(colors-6, the-5)
+nsubj(influence-12, colors-6)
+case(environment-10, of-7)
+det(environment-10, a-8)
+compound(environment-10, dining-9)
+nmod:of(colors-6, environment-10)
+aux(influence-12, can-11)
+root(ROOT-0, influence-12)
+advmod(much-14, how-13)
+dep(eat-16, much-14)
+nsubj(eat-16, we-15)
+ccomp(influence-12, eat-16)
+
+(ROOT
+  (S
+    (NP (JJS Most) (NN fast-food) (NNS restaurants))
+    (VP (VBP are)
+      (VP (VBN decorated)
+        (PP (IN in)
+          (NP (JJ bright) (NNS colors)))
+        (S
+          (VP (TO to)
+            (VP (VB increase)
+              (NP (NNS peoples) (NNS appetites)))))))
+    (. .)))
+
+amod(restaurants-3, Most-1)
+compound(restaurants-3, fast-food-2)
+nsubjpass(decorated-5, restaurants-3)
+nsubj(increase-10, restaurants-3)
+auxpass(decorated-5, are-4)
+root(ROOT-0, decorated-5)
+case(colors-8, in-6)
+amod(colors-8, bright-7)
+nmod:in(decorated-5, colors-8)
+mark(increase-10, to-9)
+xcomp(decorated-5, increase-10)
+compound(appetites-12, peoples-11)
+dobj(increase-10, appetites-12)
+
+(ROOT
+  (S
+    (NP (DT This))
+    (VP (VBZ is)
+      (SBAR (IN because)
+        (S
+          (NP (JJ bright) (NNS colors))
+          (VP
+            (VP (VBP are)
+              (NP
+                (NP (DT the) (JJ natural) (NNS colors))
+                (PP (IN of)
+                  (NP (JJ many) (NNS foods)))))
+            (CC and)
+            (VP (VBP are)
+              (ADJP (JJ able)
+                (S
+                  (VP (TO to)
+                    (VP (VB raise)
+                      (NP (NNS peoples) (NNS spirits)))))))))))
+    (. .)))
+
+nsubj(is-2, This-1)
+root(ROOT-0, is-2)
+mark(colors-9, because-3)
+amod(colors-5, bright-4)
+nsubj(colors-9, colors-5)
+nsubj(able-15, colors-5)
+nsubj(raise-17, colors-5)
+cop(colors-9, are-6)
+det(colors-9, the-7)
+amod(colors-9, natural-8)
+advcl(is-2, colors-9)
+case(foods-12, of-10)
+amod(foods-12, many-11)
+nmod:of(colors-9, foods-12)
+cc(colors-9, and-13)
+cop(able-15, are-14)
+advcl(is-2, able-15)
+conj:and(colors-9, able-15)
+mark(raise-17, to-16)
+xcomp(able-15, raise-17)
+compound(spirits-19, peoples-18)
+dobj(raise-17, spirits-19)
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP Blue))
+      (, ,)
+      (PP (IN in)
+        (NP
+          (NP (NN comparison))
+          (PP (IN with)
+            (NP (JJ bright) (NNS colors)))))
+      (, ,))
+    (VP (MD may)
+      (VP (VB spoil)
+        (NP (DT a) (NNS persons) (NN appetite))
+        (SBAR (IN because)
+          (S
+            (NP (RB very) (JJ few) (NNS foods))
+            (VP (VBP are)
+              (ADJP (JJ blue)
+                (PP (IN in)
+                  (NP (NN nature)))))))))
+    (. .)))
+
+nsubj(spoil-10, Blue-1)
+case(comparison-4, in-3)
+nmod:in(Blue-1, comparison-4)
+case(colors-7, with-5)
+amod(colors-7, bright-6)
+nmod:with(comparison-4, colors-7)
+aux(spoil-10, may-9)
+root(ROOT-0, spoil-10)
+det(appetite-13, a-11)
+compound(appetite-13, persons-12)
+dobj(spoil-10, appetite-13)
+mark(blue-19, because-14)
+advmod(foods-17, very-15)
+amod(foods-17, few-16)
+nsubj(blue-19, foods-17)
+cop(blue-19, are-18)
+advcl(spoil-10, blue-19)
+case(nature-21, in-20)
+nmod:in(blue-19, nature-21)
+
+(ROOT
+  (S
+    (PP (IN For)
+      (NP
+        (NP (NNS people))
+        (SBAR
+          (WHNP (WP who))
+          (S
+            (VP (VBP are)
+              (PP (IN on)
+                (NP (DT a) (NN diet))))))))
+    (, ,)
+    (NP (JJ blue) (NNS dishes)
+      (CC and)
+      (NNS bowls))
+    (VP (MD might)
+      (VP (VB help)))
+    (. .)))
+
+case(people-2, For-1)
+nsubj(diet-7, people-2)
+nmod:for(help-14, people-2)
+ref(people-2, who-3)
+cop(diet-7, are-4)
+case(diet-7, on-5)
+det(diet-7, a-6)
+acl:relcl(people-2, diet-7)
+amod(dishes-10, blue-9)
+nsubj(help-14, dishes-10)
+cc(dishes-10, and-11)
+conj:and(dishes-10, bowls-12)
+nsubj(help-14, bowls-12)
+aux(help-14, might-13)
+root(ROOT-0, help-14)
+
+(ROOT
+  (S
+    (S
+      (VP (VB Believe)
+        (NP (PRP it))
+        (CC or)
+        (RB not)))
+    (, ,)
+    (SBAR (IN though)
+      (S
+        (NP (PRP we))
+        (VP (MD may) (RB not)
+          (VP (VB be)
+            (ADJP (JJ aware)
+              (PP (IN of)
+                (NP (PRP them))))))))
+    (, ,)
+    (NP (NNS colors))
+    (VP (VBP are)
+      (ADVP (RB everywhere))
+      (PP (DT both)
+        (PP (IN in)
+          (NP (PRP$ our) (JJ daily) (NN routine)))
+        (CC and)
+        (PP (IN in)
+          (NP (JJ everyday) (NNS conversations)))))
+    (. !)))
+
+ccomp(routine-22, Believe-1)
+dobj(Believe-1, it-2)
+cc(Believe-1, or-3)
+conj:or(Believe-1, not-4)
+ccomp(routine-22, not-4)
+mark(aware-11, though-6)
+nsubj(aware-11, we-7)
+aux(aware-11, may-8)
+neg(aware-11, not-9)
+cop(aware-11, be-10)
+advcl(routine-22, aware-11)
+case(them-13, of-12)
+nmod:of(aware-11, them-13)
+nsubj(routine-22, colors-15)
+cop(routine-22, are-16)
+advmod(routine-22, everywhere-17)
+cc:preconj(routine-22, both-18)
+case(routine-22, in-19)
+nmod:poss(routine-22, our-20)
+amod(routine-22, daily-21)
+root(ROOT-0, routine-22)
+cc(routine-22, and-23)
+case(conversations-26, in-24)
+amod(conversations-26, everyday-25)
+conj:and(routine-22, conversations-26)
+
+(ROOT
+  (S
+    (SBAR
+      (WHADVP (WRB When))
+      (S
+        (NP (NNP Amber))
+        (VP (VBD got)
+          (PP (TO to)
+            (NP (PRP$ her) (NN classroom))))))
+    (, ,)
+    (NP
+      (NP (PRP$ her) (JJS best) (NN friend))
+      (, ,)
+      (NP (NNP Violet))
+      (, ,))
+    (VP (VBD walked)
+      (PRT (RP over))
+      (S
+        (VP (TO to)
+          (VP (VB greet)
+            (NP (PRP her))))))
+    (. .)))
+
+advmod(got-3, When-1)
+nsubj(got-3, Amber-2)
+advcl(walked-14, got-3)
+case(classroom-6, to-4)
+nmod:poss(classroom-6, her-5)
+nmod:to(got-3, classroom-6)
+nmod:poss(friend-10, her-8)
+amod(friend-10, best-9)
+nsubj(walked-14, friend-10)
+nsubj(greet-17, friend-10)
+appos(friend-10, Violet-12)
+root(ROOT-0, walked-14)
+compound:prt(walked-14, over-15)
+mark(greet-17, to-16)
+xcomp(walked-14, greet-17)
+dobj(greet-17, her-18)
+
+(ROOT
+  (NP
+    (NP (NN Morning))
+    (, ,)
+    (NP (NNP Amber))
+    (. !)))
+
+root(ROOT-0, Morning-1)
+appos(Morning-1, Amber-3)
+
+(ROOT
+  (SBARQ
+    (WHNP (WP What))
+    (SQ
+      (VP (VBD happened)))
+    (. ?)))
+
+nsubj(happened-2, What-1)
+root(ROOT-0, happened-2)
+
+(ROOT
+  (SINV
+    (S
+      (NP (PRP You))
+      (VP (VBP look)
+        (ADJP
+          (NP (DT a) (RB bit))
+          (JJ green))))
+    (, ,)
+    (VP (VBD said))
+    (NP (NNP Violet))
+    (. .)))
+
+nsubj(look-2, You-1)
+ccomp(said-7, look-2)
+det(bit-4, a-3)
+nmod:npmod(green-5, bit-4)
+xcomp(look-2, green-5)
+root(ROOT-0, said-7)
+nsubj(said-7, Violet-8)
+
+(ROOT
+  (FRAG
+    (ADVP (RB just))
+    (NP (NN feeling))
+    (. .)))
+
+dep(feeling-2, just-1)
+root(ROOT-0, feeling-2)
+
+(ROOT
+  (SINV
+    (FRAG
+      (ADJP (JJ blue)))
+    (, ,)
+    (VP (VBD replied))
+    (NP (NNP Amber))
+    (. .)))
+
+dep(replied-3, blue-1)
+root(ROOT-0, replied-3)
+nsubj(replied-3, Amber-4)
+
+(ROOT
+  (FRAG
+    (WHADVP (WRB Why))
+    (RB not)
+    (VP (VB come)
+      (PP (TO to)
+        (NP
+          (NP (PRP$ my) (NN place) (NN tonight))
+          (VP (VBD said)
+            (NP (NNP Violet))))))
+    (. .)))
+
+dep(come-3, Why-1)
+neg(come-3, not-2)
+root(ROOT-0, come-3)
+case(tonight-7, to-4)
+nmod:poss(tonight-7, my-5)
+compound(tonight-7, place-6)
+nmod:to(come-3, tonight-7)
+acl(tonight-7, said-8)
+dobj(said-8, Violet-9)
+
+(ROOT
+  (S
+    (VP (VB Guess)
+      (SBAR
+        (WHNP (WP what))
+        (S
+          (NP (PRP I))
+          (ADVP (RB just))
+          (VP (VBD bought)))))
+    (. !)))
+
+root(ROOT-0, Guess-1)
+dobj(bought-5, what-2)
+nsubj(bought-5, I-3)
+advmod(bought-5, just-4)
+ccomp(Guess-1, bought-5)
+
+(ROOT
+  (NP (DT A) (JJ new) (JJ video) (NN game) (. !)))
+
+det(game-4, A-1)
+amod(game-4, new-2)
+amod(game-4, video-3)
+root(ROOT-0, game-4)
+
+(ROOT
+  (FRAG
+    (NP (PRP$ Its) (NN red-hot))
+    (. .)))
+
+nmod:poss(red-hot-2, Its-1)
+root(ROOT-0, red-hot-2)
+
+(ROOT
+  (S
+    (NP (NNP Amber))
+    (VP
+      (VP (VBD was)
+        (VP (VBN tickled)
+          (ADJP (JJ pink)
+            (S
+              (VP (TO to)
+                (VP (VB have)
+                  (NP (DT the) (NN chance)
+                    (S
+                      (VP (TO to)
+                        (VP (VB play)
+                          (NP (DT the) (JJ video) (NN game))))))))))))
+      (CC and)
+      (VP (VBD said))
+      (, ,)
+      (VP (VBZ Sounds)
+        (ADJP (JJ great))))
+    (. !)))
+
+nsubjpass(tickled-3, Amber-1)
+nsubjpass(said-15, Amber-1)
+auxpass(tickled-3, was-2)
+root(ROOT-0, tickled-3)
+xcomp(tickled-3, pink-4)
+mark(have-6, to-5)
+xcomp(pink-4, have-6)
+det(chance-8, the-7)
+dobj(have-6, chance-8)
+mark(play-10, to-9)
+acl(chance-8, play-10)
+det(game-13, the-11)
+amod(game-13, video-12)
+dobj(play-10, game-13)
+cc(tickled-3, and-14)
+conj:and(tickled-3, said-15)
+dep(tickled-3, Sounds-17)
+xcomp(Sounds-17, great-18)
+
+(ROOT
+  (NP (NNP XBarbara) (NNP Cromarty)))
+
+compound(Cromarty-2, XBarbara-1)
+root(ROOT-0, Cromarty-2)
+

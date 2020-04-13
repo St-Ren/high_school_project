@@ -1,0 +1,789 @@
+(ROOT
+  (S
+    (PP (IN For)
+      (NP
+        (NP (CD 9) (NN %))
+        (PP (IN of)
+          (NP
+            (NP (DT the) (NNS people))
+            (PP (IN in)
+              (NP (DT the) (NN world)))))))
+    (, ,)
+    (NP (PRP it))
+    (VP (VBZ is)
+      (ADJP (JJ natural)
+        (S
+          (VP (TO to)
+            (VP (VB live)
+              (NP (PRP$ their) (NNS lives))
+              (ADVP (RB mainly))
+              (S
+                (VP (VBG using)
+                  (NP (DT the) (JJ right) (NN hand)))))))))
+    (. .)))
+
+case(%-3, For-1)
+nummod(%-3, 9-2)
+nmod:for(natural-13, %-3)
+case(people-6, of-4)
+det(people-6, the-5)
+nmod:of(%-3, people-6)
+case(world-9, in-7)
+det(world-9, the-8)
+nmod:in(people-6, world-9)
+nsubj(natural-13, it-11)
+nsubj(live-15, it-11)
+cop(natural-13, is-12)
+root(ROOT-0, natural-13)
+mark(live-15, to-14)
+xcomp(natural-13, live-15)
+nmod:poss(lives-17, their-16)
+dobj(live-15, lives-17)
+advmod(live-15, mainly-18)
+xcomp(live-15, using-19)
+det(hand-22, the-20)
+amod(hand-22, right-21)
+dobj(using-19, hand-22)
+
+(ROOT
+  (S
+    (NP (PRP They))
+    (VP (VBP use)
+      (NP (PRP$ their) (JJ right) (NN hand))
+      (S
+        (VP (TO to)
+          (VP (VB write)
+            (CC and)
+            (VB draw)))))
+    (. .)))
+
+nsubj(use-2, They-1)
+root(ROOT-0, use-2)
+nmod:poss(hand-5, their-3)
+amod(hand-5, right-4)
+dobj(use-2, hand-5)
+mark(write-7, to-6)
+advcl(use-2, write-7)
+cc(write-7, and-8)
+advcl(use-2, draw-9)
+conj:and(write-7, draw-9)
+
+(ROOT
+  (S
+    (NP (PRP They))
+    (VP (VBP use)
+      (S
+        (NP (PRP it))
+        (VP (TO to)
+          (VP (VB hold)
+            (NP
+              (NP (NNS chopsticks)
+                (CC and)
+                (NNS forks))
+              (, ,)
+              (NP (NNS toothbrushes))
+              (, ,)
+              (CC and)
+              (NP (JJ remote) (NNS controls)))))))
+    (. .)))
+
+nsubj(use-2, They-1)
+root(ROOT-0, use-2)
+dobj(use-2, it-3)
+nsubj(hold-5, it-3)
+mark(hold-5, to-4)
+xcomp(use-2, hold-5)
+dobj(hold-5, chopsticks-6)
+cc(chopsticks-6, and-7)
+dobj(hold-5, forks-8)
+conj:and(chopsticks-6, forks-8)
+dobj(hold-5, toothbrushes-10)
+conj:and(chopsticks-6, toothbrushes-10)
+cc(chopsticks-6, and-12)
+amod(controls-14, remote-13)
+dobj(hold-5, controls-14)
+conj:and(chopsticks-6, controls-14)
+
+(ROOT
+  (S
+    (NP (PRP They))
+    (ADVP (RB also))
+    (VP (VBP use)
+      (S
+        (NP (PRP it))
+        (VP (TO to)
+          (VP (VB play)
+            (NP (NN basketball)
+              (CC and)
+              (NN Wii))))))
+    (. .)))
+
+nsubj(use-3, They-1)
+advmod(use-3, also-2)
+root(ROOT-0, use-3)
+dobj(use-3, it-4)
+nsubj(play-6, it-4)
+mark(play-6, to-5)
+xcomp(use-3, play-6)
+dobj(play-6, basketball-7)
+cc(basketball-7, and-8)
+dobj(play-6, Wii-9)
+conj:and(basketball-7, Wii-9)
+
+(ROOT
+  (S
+    (NP (EX There))
+    (VP (VBP are) (, ,)
+      (ADVP (RB however))
+      (, ,)
+      (NP
+        (NP (NNS people))
+        (SBAR
+          (WHNP (WP who))
+          (S
+            (VP (VBP prefer)
+              (S
+                (VP (TO to)
+                  (VP (VB reach)
+                    (PRT (RP out))
+                    (PP (TO to)
+                      (NP
+                        (NP (DT the) (NN world))
+                        (PP (IN with)
+                          (NP (PRP$ their) (JJ left) (NN hand)))))))))))))
+    (. .)))
+
+expl(are-2, There-1)
+root(ROOT-0, are-2)
+advmod(are-2, however-4)
+nsubj(are-2, people-6)
+nsubj(prefer-8, people-6)
+nsubj(reach-10, people-6)
+ref(people-6, who-7)
+acl:relcl(people-6, prefer-8)
+mark(reach-10, to-9)
+xcomp(prefer-8, reach-10)
+compound:prt(reach-10, out-11)
+case(world-14, to-12)
+det(world-14, the-13)
+nmod:to(reach-10, world-14)
+case(hand-18, with-15)
+nmod:poss(hand-18, their-16)
+amod(hand-18, left-17)
+nmod:with(world-14, hand-18)
+
+(ROOT
+  (S
+    (NP (DT These) (JJ left-handed) (NNS people))
+    (VP (VBP face)
+      (NP
+        (NP (DT a) (NN lot))
+        (PP (IN of)
+          (NP (NNS difficulties)))))
+    (. .)))
+
+det(people-3, These-1)
+amod(people-3, left-handed-2)
+nsubj(face-4, people-3)
+root(ROOT-0, face-4)
+det(lot-6, a-5)
+dobj(face-4, lot-6)
+case(difficulties-8, of-7)
+nmod:of(lot-6, difficulties-8)
+
+(ROOT
+  (S
+    (NP (PRP They))
+    (VP (VBP have)
+      (NP
+        (NP (DT a) (JJ hard) (NN time))
+        (VP (VBG writing)
+          (PP (IN from)
+            (NP (NN left)))
+          (PP (TO to)
+            (NP (NN right))))))
+    (. .)))
+
+nsubj(have-2, They-1)
+root(ROOT-0, have-2)
+det(time-5, a-3)
+amod(time-5, hard-4)
+dobj(have-2, time-5)
+acl(time-5, writing-6)
+case(left-8, from-7)
+nmod:from(writing-6, left-8)
+case(right-10, to-9)
+nmod:to(writing-6, right-10)
+
+(ROOT
+  (S
+    (NP (PRP They))
+    (ADVP (RB also))
+    (VP (VBP look)
+      (NP
+        (NP (JJ awkward))
+        (SBAR
+          (WHADVP (WRB when))
+          (S
+            (NP (PRP they))
+            (VP (VBP use)
+              (NP (NNS scissors)))))))
+    (. .)))
+
+nsubj(look-3, They-1)
+advmod(look-3, also-2)
+root(ROOT-0, look-3)
+dobj(look-3, awkward-4)
+advmod(use-7, when-5)
+nsubj(use-7, they-6)
+acl:relcl(awkward-4, use-7)
+dobj(use-7, scissors-8)
+
+(ROOT
+  (S
+    (NP (DT That))
+    (VP (VBZ 's)
+      (UCP
+        (SBAR
+          (WHADVP (WRB why))
+          (S
+            (NP (NNS left-handedness))
+            (VP (VBD was)
+              (ADVP (RB once))
+              (VP (VBN thought)
+                (PP (IN of)
+                  (PP (IN as)
+                    (S
+                      (VP (VBG being)
+                        (ADJP (JJ abnormal))))))))))
+        (CC and)
+        (PP
+          (ADVP (RB sometimes))
+          (RB even)
+          (NP (DT a) (NN disease)))))
+    (. .)))
+
+nsubjpass(thought-7, That-1)
+cop(thought-7, 's-2)
+advmod(thought-7, why-3)
+nsubjpass(thought-7, left-handedness-4)
+auxpass(thought-7, was-5)
+advmod(thought-7, once-6)
+root(ROOT-0, thought-7)
+case(abnormal-11, of-8)
+mark(abnormal-11, as-9)
+cop(abnormal-11, being-10)
+dep(thought-7, abnormal-11)
+cc(thought-7, and-12)
+advmod(disease-16, sometimes-13)
+advmod(disease-16, even-14)
+det(disease-16, a-15)
+conj:and(thought-7, disease-16)
+
+(ROOT
+  (S (CC But)
+    (, ,)
+    (PP (IN in)
+      (NP (NN fact)))
+    (, ,)
+    (NP (JJ left-handed) (NNS people))
+    (VP (VBP are)
+      (ADJP (JJ normal)
+        (CC and)
+        (JJ healthy)))
+    (. .)))
+
+cc(normal-9, But-1)
+case(fact-4, in-3)
+nmod:in(normal-9, fact-4)
+amod(people-7, left-handed-6)
+nsubj(normal-9, people-7)
+nsubj(healthy-11, people-7)
+cop(normal-9, are-8)
+root(ROOT-0, normal-9)
+cc(normal-9, and-10)
+conj:and(normal-9, healthy-11)
+
+(ROOT
+  (S
+    (NP (PRP They))
+    (VP (MD can)
+      (ADVP (RB also))
+      (VP (VB be)
+        (ADJP (RB very) (JJ outstanding))))
+    (. .)))
+
+nsubj(outstanding-6, They-1)
+aux(outstanding-6, can-2)
+advmod(outstanding-6, also-3)
+cop(outstanding-6, be-4)
+advmod(outstanding-6, very-5)
+root(ROOT-0, outstanding-6)
+
+(ROOT
+  (S
+    (S
+      (PP (IN For)
+        (NP (NN example)))
+      (, ,)
+      (NP (NNP da) (NNP Vinci)
+        (CC and)
+        (NNP Napoleon))
+      (VP (VBD were)
+        (NP (DT both) (NNS left-handers))))
+    (, ,)
+    (CC and)
+    (SINV
+      (ADVP (RB so))
+      (VP (VBZ is)
+        (NP (DT the) (JJ popular) (NN singer)))
+      (NP (NNP Wang) (NNP Leehom)))
+    (. .)))
+
+case(example-2, For-1)
+nmod:for(left-handers-10, example-2)
+compound(Vinci-5, da-4)
+nsubj(left-handers-10, Vinci-5)
+cc(Vinci-5, and-6)
+conj:and(Vinci-5, Napoleon-7)
+nsubj(left-handers-10, Napoleon-7)
+cop(left-handers-10, were-8)
+det(left-handers-10, both-9)
+root(ROOT-0, left-handers-10)
+cc(left-handers-10, and-12)
+advmod(singer-17, so-13)
+cop(singer-17, is-14)
+det(singer-17, the-15)
+amod(singer-17, popular-16)
+conj:and(left-handers-10, singer-17)
+compound(Leehom-19, Wang-18)
+nsubj(singer-17, Leehom-19)
+
+(ROOT
+  (S
+    (PP (IN As)
+      (PP (IN for)
+        (NP
+          (NP (DT the) (NNS causes))
+          (PP (IN of)
+            (NP (NNS left-handedness))))))
+    (, ,)
+    (NP (DT some) (NNS scientists))
+    (VP (VBP think)
+      (SBAR
+        (S
+          (NP (PRP it))
+          (VP (VBZ comes)
+            (PP (IN from)
+              (NP
+                (NP (CD one) (POS 's))
+                (NNS parents)))))))
+    (. .)))
+
+case(causes-4, As-1)
+mwe(As-1, for-2)
+det(causes-4, the-3)
+nmod:as_for(think-10, causes-4)
+case(left-handedness-6, of-5)
+nmod:of(causes-4, left-handedness-6)
+det(scientists-9, some-8)
+nsubj(think-10, scientists-9)
+root(ROOT-0, think-10)
+nsubj(comes-12, it-11)
+ccomp(think-10, comes-12)
+case(parents-16, from-13)
+nmod:poss(parents-16, one-14)
+case(one-14, 's-15)
+nmod:from(comes-12, parents-16)
+
+(ROOT
+  (S
+    (NP (NNS Others))
+    (VP (VBP say)
+      (SBAR
+        (S
+          (NP (PRP it))
+          (VP (VBZ comes)
+            (PP (IN from)
+              (NP (NNS hormones)))))))
+    (. .)))
+
+nsubj(say-2, Others-1)
+root(ROOT-0, say-2)
+nsubj(comes-4, it-3)
+ccomp(say-2, comes-4)
+case(hormones-6, from-5)
+nmod:from(comes-4, hormones-6)
+
+(ROOT
+  (S
+    (ADVP (RB Actually))
+    (, ,)
+    (NP (DT the) (JJ main) (NNS causes))
+    (VP (VBP are)
+      (ADVP (RB still))
+      (ADJP (JJ unknown)))
+    (. .)))
+
+advmod(unknown-8, Actually-1)
+det(causes-5, the-3)
+amod(causes-5, main-4)
+nsubj(unknown-8, causes-5)
+cop(unknown-8, are-6)
+advmod(unknown-8, still-7)
+root(ROOT-0, unknown-8)
+
+(ROOT
+  (S
+    (ADVP (RB Fortunately))
+    (, ,)
+    (NP (NNS people))
+    (VP (VBP are)
+      (ADVP (RB now))
+      (ADJP (RBR more) (JJ aware)
+        (PP (IN of)
+          (NP (PRP$ their) (JJ left-handed) (NNS friends))))
+      (ADVP (IN out) (RB there)))
+    (. .)))
+
+advmod(aware-7, Fortunately-1)
+nsubj(aware-7, people-3)
+cop(aware-7, are-4)
+advmod(aware-7, now-5)
+advmod(aware-7, more-6)
+root(ROOT-0, aware-7)
+case(friends-11, of-8)
+nmod:poss(friends-11, their-9)
+amod(friends-11, left-handed-10)
+nmod:of(aware-7, friends-11)
+case(there-13, out-12)
+advmod(aware-7, there-13)
+
+(ROOT
+  (S
+    (NP (EX There))
+    (VP (VBP are)
+      (NP
+        (NP (NNS tools))
+        (VP (VBN made)
+          (PP (IN for)
+            (NP
+              (NP (DT the) (NN safety)
+                (CC and)
+                (NN convenience))
+              (PP (IN of)
+                (NP (JJ left-handed) (NNS people))))))))
+    (. .)))
+
+expl(are-2, There-1)
+root(ROOT-0, are-2)
+nsubj(are-2, tools-3)
+acl(tools-3, made-4)
+case(safety-7, for-5)
+det(safety-7, the-6)
+nmod:for(made-4, safety-7)
+cc(safety-7, and-8)
+nmod:for(made-4, convenience-9)
+conj:and(safety-7, convenience-9)
+case(people-12, of-10)
+amod(people-12, left-handed-11)
+nmod:of(safety-7, people-12)
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NNS designs))
+      (PP (IN of)
+        (NP (NNS doors) (, ,) (NNS desks) (, ,)
+          (CC and)
+          (NN computer) (NNS mouses))))
+    (VP (VBP are)
+      (ADJP (RBR more) (JJ friendly)
+        (PP (TO to)
+          (NP (PRP them)))))
+    (. .)))
+
+det(designs-2, The-1)
+nsubj(friendly-13, designs-2)
+case(desks-6, of-3)
+compound(desks-6, doors-4)
+nmod:of(designs-2, desks-6)
+cc(desks-6, and-8)
+compound(mouses-10, computer-9)
+nmod:of(designs-2, mouses-10)
+conj:and(desks-6, mouses-10)
+cop(friendly-13, are-11)
+advmod(friendly-13, more-12)
+root(ROOT-0, friendly-13)
+case(them-15, to-14)
+nmod:to(friendly-13, them-15)
+
+(ROOT
+  (S
+    (NP (JJ Special) (NNS shops)
+      (CC and)
+      (NNS websites))
+    (VP (MD can)
+      (ADVP (RB also))
+      (VP (VB be)
+        (VP (VBN found)
+          (PP (IN for)
+            (NP (NNS left-handers))))))
+    (. .)))
+
+amod(shops-2, Special-1)
+nsubjpass(found-8, shops-2)
+cc(shops-2, and-3)
+conj:and(shops-2, websites-4)
+nsubjpass(found-8, websites-4)
+aux(found-8, can-5)
+advmod(found-8, also-6)
+auxpass(found-8, be-7)
+root(ROOT-0, found-8)
+case(left-handers-10, for-9)
+nmod:for(found-8, left-handers-10)
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (NNP England)))
+    (, ,)
+    (NP (EX there))
+    (VP (VBZ is)
+      (ADVP (RB even))
+      (NP
+        (NP (DT a) (NN piano))
+        (PP (IN for)
+          (NP (DT the) (JJ left-handed)))))
+    (. .)))
+
+case(England-2, In-1)
+nmod:in(is-5, England-2)
+expl(is-5, there-4)
+root(ROOT-0, is-5)
+advmod(is-5, even-6)
+det(piano-8, a-7)
+nsubj(is-5, piano-8)
+case(left-handed-11, for-9)
+det(left-handed-11, the-10)
+nmod:for(piano-8, left-handed-11)
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN keyboard))
+      (CC and)
+      (NP (NNS pedals)))
+    (VP (VBP are)
+      (ADJP (JJ reversed)))
+    (. !)))
+
+det(keyboard-2, The-1)
+nsubj(reversed-6, keyboard-2)
+cc(keyboard-2, and-3)
+conj:and(keyboard-2, pedals-4)
+nsubj(reversed-6, pedals-4)
+cop(reversed-6, are-5)
+root(ROOT-0, reversed-6)
+
+(ROOT
+  (S
+    (NP (EX There))
+    (VP (VBZ is)
+      (NP
+        (NP (CD one) (NN way))
+        (SBAR
+          (S
+            (NP (DT the) (NN public))
+            (VP (MD can)
+              (VP (VB show)
+                (NP (NNS thoughtfulness))
+                (PP (TO to)
+                  (NP
+                    (NP (NNS lefthanders))
+                    (, ,)
+                    (SBAR
+                      (WHNP (WDT which))
+                      (S
+                        (VP (VBZ is)
+                          (S
+                            (VP (TO to)
+                              (VP (VB say) (`` ``)
+                                (NP
+                                  (NP (JJ Happy) (NNP Left-Handers) (POS '))
+                                  (NN Day))))))))))))))))
+    (. !) ('' '')))
+
+expl(is-2, There-1)
+root(ROOT-0, is-2)
+nummod(way-4, one-3)
+nsubj(is-2, way-4)
+nsubj(is-14, way-4)
+nsubj(say-16, way-4)
+det(public-6, the-5)
+nsubj(show-8, public-6)
+aux(show-8, can-7)
+acl:relcl(way-4, show-8)
+dobj(show-8, thoughtfulness-9)
+case(lefthanders-11, to-10)
+nmod:to(show-8, lefthanders-11)
+nsubj(is-14, lefthanders-11)
+nsubj(say-16, lefthanders-11)
+ref(way-4, which-13)
+ref(lefthanders-11, which-13)
+acl:relcl(lefthanders-11, is-14)
+mark(say-16, to-15)
+xcomp(is-14, say-16)
+amod(Left-Handers-19, Happy-18)
+nmod:poss(Day-21, Left-Handers-19)
+case(Left-Handers-19, '-20)
+nmod:tmod(say-16, Day-21)
+
+(ROOT
+  (NP
+    (NP (DT every) (NNP August))
+    (NP (CD 1))
+    (. .)))
+
+det(August-2, every-1)
+root(ROOT-0, August-2)
+dep(August-2, 1-3)
+
+(ROOT
+  (SBARQ
+    (WHNP (WP Who))
+    (SQ
+      (VP (VBZ knows)))
+    (. ?)))
+
+nsubj(knows-2, Who-1)
+root(ROOT-0, knows-2)
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ 's)
+      (ADJP (JJ possible))
+      (SBAR (IN that)
+        (S
+          (NP (NNS people))
+          (VP (MD might)
+            (ADVP (RB even))
+            (VP (VB meet)
+              (NP
+                (NP (PRP$ their) (NNP Mr.))
+                (CC or)
+                (NP (NNP Ms.) (`` ``) (NN Right) ('' '')))
+              (SBAR (IN while)
+                (S
+                  (NP (PRP they))
+                  (VP (VBP are)
+                    (VP (VBG celebrating)
+                      (NP
+                        (NP (DT the) (NNS uniqueness))
+                        (PP (IN of)
+                          (NP
+                            (NP (DT a) (JJ left-handed) (NN friend))
+                            (PP (IN on)
+                              (NP (DT this) (JJ special) (NN day)))))))))))))))
+    (. .)))
+
+nsubj(possible-3, It-1)
+cop(possible-3, 's-2)
+root(ROOT-0, possible-3)
+mark(meet-8, that-4)
+nsubj(meet-8, people-5)
+aux(meet-8, might-6)
+advmod(meet-8, even-7)
+ccomp(possible-3, meet-8)
+nmod:poss(Mr.-10, their-9)
+dobj(meet-8, Mr.-10)
+cc(Mr.-10, or-11)
+compound(Right-14, Ms.-12)
+dobj(meet-8, Right-14)
+conj:or(Mr.-10, Right-14)
+mark(celebrating-19, while-16)
+nsubj(celebrating-19, they-17)
+aux(celebrating-19, are-18)
+advcl(meet-8, celebrating-19)
+det(uniqueness-21, the-20)
+dobj(celebrating-19, uniqueness-21)
+case(friend-25, of-22)
+det(friend-25, a-23)
+amod(friend-25, left-handed-24)
+nmod:of(uniqueness-21, friend-25)
+case(day-29, on-26)
+det(day-29, this-27)
+amod(day-29, special-28)
+nmod:on(friend-25, day-29)
+
+(ROOT
+  (S (CC But)
+    (NP (DT a) (NN person))
+    (VP (MD should)
+      (VP (VB be)
+        (ADJP (JJ careful))
+        (SBAR
+          (WHADVP (WRB when))
+          (S
+            (NP (PRP he)
+              (CC or)
+              (PRP she))
+            (VP (VBZ greets)
+              (NP
+                (NP
+                  (NP (DT a) (JJ left-handed) (NN friend))
+                  (PP (IN with)
+                    (NP (DT a) (JJ friendly) (NN hug))))
+                (CC or)
+                (NP
+                  (NP (DT a) (JJ polite) (NN kiss))
+                  (PP (IN on)
+                    (NP (DT the) (NN cheek))))))))))
+    (. .)))
+
+cc(careful-6, But-1)
+det(person-3, a-2)
+nsubj(careful-6, person-3)
+aux(careful-6, should-4)
+cop(careful-6, be-5)
+root(ROOT-0, careful-6)
+advmod(greets-11, when-7)
+nsubj(greets-11, he-8)
+cc(he-8, or-9)
+conj:or(he-8, she-10)
+nsubj(greets-11, she-10)
+advcl(careful-6, greets-11)
+det(friend-14, a-12)
+amod(friend-14, left-handed-13)
+dobj(greets-11, friend-14)
+case(hug-18, with-15)
+det(hug-18, a-16)
+amod(hug-18, friendly-17)
+nmod:with(friend-14, hug-18)
+cc(friend-14, or-19)
+det(kiss-22, a-20)
+amod(kiss-22, polite-21)
+dobj(greets-11, kiss-22)
+conj:or(friend-14, kiss-22)
+case(cheek-25, on-23)
+det(cheek-25, the-24)
+nmod:on(kiss-22, cheek-25)
+
+(ROOT
+  (S
+    (NP (PRP$ Their) (NNS heads))
+    (VP (MD might)
+      (VP (VB bump)
+        (PP (IN into)
+          (NP (DT each) (JJ other)))))
+    (. !)))
+
+nmod:poss(heads-2, Their-1)
+nsubj(bump-4, heads-2)
+aux(bump-4, might-3)
+root(ROOT-0, bump-4)
+case(other-7, into-5)
+det(other-7, each-6)
+nmod:into(bump-4, other-7)
+

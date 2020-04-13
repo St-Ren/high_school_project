@@ -1,0 +1,951 @@
+(ROOT
+  (S
+    (NP (NNP Kacey) (NNP McCallister))
+    (ADVP (RB always))
+    (VP (VBD dreamed)
+      (PP (IN of)
+        (S
+          (VP (VBG playing)
+            (NP (NN basketball))
+            (PP (IN on)
+              (NP (DT the) (NNPS Boys) (NNP Club) (NN team)))))))
+    (. .)))
+
+compound(McCallister-2, Kacey-1)
+nsubj(dreamed-4, McCallister-2)
+advmod(dreamed-4, always-3)
+root(ROOT-0, dreamed-4)
+mark(playing-6, of-5)
+advcl(dreamed-4, playing-6)
+dobj(playing-6, basketball-7)
+case(team-12, on-8)
+det(team-12, the-9)
+compound(team-12, Boys-10)
+compound(team-12, Club-11)
+nmod:on(playing-6, team-12)
+
+(ROOT
+  (S
+    (S
+      (PP (IN At)
+        (NP (JJ first)))
+      (NP (DT the) (NN coach) (NN wouldnt))
+      (VP (VBD let)
+        (SBAR
+          (S
+            (NP (PRP him))
+            (VP (VBP play))))))
+    (, ,) (IN so)
+    (S
+      (NP (NNP Kacey))
+      (VP (VBD practiced)
+        (ADJP (JJ hard))))
+    (. .)))
+
+case(first-2, At-1)
+nmod:at(let-6, first-2)
+det(wouldnt-5, the-3)
+compound(wouldnt-5, coach-4)
+nsubj(let-6, wouldnt-5)
+root(ROOT-0, let-6)
+nsubj(play-8, him-7)
+ccomp(let-6, play-8)
+dep(let-6, so-10)
+nsubj(practiced-12, Kacey-11)
+parataxis(let-6, practiced-12)
+xcomp(practiced-12, hard-13)
+
+(ROOT
+  (S
+    (S
+      (ADVP (RB Now))
+      (NP (PRP he))
+      (VP (VBZ is)
+        (PP (IN on)
+          (NP (DT the) (NN team)))))
+    (, ,)
+    (CC but)
+    (S
+      (NP (PRP he))
+      (VP (VBZ is) (RB not)
+        (NP (DT the) (JJS best) (NN player))))
+    (. .)))
+
+advmod(team-6, Now-1)
+nsubj(team-6, he-2)
+cop(team-6, is-3)
+case(team-6, on-4)
+det(team-6, the-5)
+root(ROOT-0, team-6)
+cc(team-6, but-8)
+nsubj(player-14, he-9)
+cop(player-14, is-10)
+neg(player-14, not-11)
+det(player-14, the-12)
+amod(player-14, best-13)
+conj:but(team-6, player-14)
+
+(ROOT
+  (S
+    (S
+      (NP (DT This) (JJ 11-year-old) (NN boy))
+      (VP (MD can)
+        (VP
+          (VP (VB dribble))
+          (CC and)
+          (VP (VB pass)
+            (FRAG
+              (CONJP (RB as) (RB well) (IN as))
+              (NP (DT the) (JJ other) (NNS kids)))))))
+    (, ,)
+    (CC but)
+    (S
+      (NP (PRP he))
+      (VP (VBZ moves)
+        (ADVP (RB up)
+          (CC and)
+          (RB down))
+        (ADVP
+          (NP (DT the) (NN court))
+          (RBR more) (RB slowly))))
+    (. .)))
+
+det(boy-3, This-1)
+amod(boy-3, 11-year-old-2)
+nsubj(dribble-5, boy-3)
+nsubj(pass-7, boy-3)
+aux(dribble-5, can-4)
+root(ROOT-0, dribble-5)
+cc(dribble-5, and-6)
+conj:and(dribble-5, pass-7)
+cc(kids-13, as-8)
+mwe(as-8, well-9)
+mwe(as-8, as-10)
+det(kids-13, the-11)
+amod(kids-13, other-12)
+dep(pass-7, kids-13)
+cc(dribble-5, but-15)
+nsubj(moves-17, he-16)
+conj:but(dribble-5, moves-17)
+advmod(moves-17, up-18)
+cc(up-18, and-19)
+advmod(moves-17, down-20)
+conj:and(up-18, down-20)
+det(court-22, the-21)
+dep(slowly-24, court-22)
+advmod(slowly-24, more-23)
+advmod(moves-17, slowly-24)
+
+(ROOT
+  (S (CC And)
+    (S
+      (VP (VBG shooting)
+        (NP (DT a) (NN basket))))
+    (VP (VBZ is)
+      (ADJP (JJ difficult)
+        (PP (IN for)
+          (NP (NNP Kacey))))
+      (SBAR (IN because)
+        (S
+          (NP (PRP he))
+          (VP (VBZ has)
+            (NP (DT no) (NNS legs))))))
+    (. .)))
+
+cc(difficult-6, And-1)
+csubj(difficult-6, shooting-2)
+det(basket-4, a-3)
+dobj(shooting-2, basket-4)
+cop(difficult-6, is-5)
+root(ROOT-0, difficult-6)
+case(Kacey-8, for-7)
+nmod:for(difficult-6, Kacey-8)
+mark(has-11, because-9)
+nsubj(has-11, he-10)
+advcl(difficult-6, has-11)
+neg(legs-13, no-12)
+dobj(has-11, legs-13)
+
+(ROOT
+  (S
+    (NP (NNP Kacey))
+    (VP (VBD lost)
+      (NP (DT both) (NNS legs))
+      (PP (IN in)
+        (NP (DT an) (NN accident))))
+    (. .)))
+
+nsubj(lost-2, Kacey-1)
+root(ROOT-0, lost-2)
+det(legs-4, both-3)
+dobj(lost-2, legs-4)
+case(accident-7, in-5)
+det(accident-7, an-6)
+nmod:in(lost-2, accident-7)
+
+(ROOT
+  (S
+    (S
+      (SBAR
+        (WHADVP (WRB When))
+        (S
+          (NP (PRP he))
+          (VP (VBD was)
+            (NP (CD six)))))
+      (, ,)
+      (NP (PRP he))
+      (VP (VBD ran)
+        (PP (IN into)
+          (NP (DT the) (NN street)))))
+    (CC and)
+    (S
+      (NP (DT a) (NN tractor-trailer))
+      (VP (VBD hit)
+        (NP (PRP him))))
+    (. .)))
+
+advmod(six-4, When-1)
+nsubj(six-4, he-2)
+cop(six-4, was-3)
+advcl(ran-7, six-4)
+nsubj(ran-7, he-6)
+root(ROOT-0, ran-7)
+case(street-10, into-8)
+det(street-10, the-9)
+nmod:into(ran-7, street-10)
+cc(ran-7, and-11)
+det(tractor-trailer-13, a-12)
+nsubj(hit-14, tractor-trailer-13)
+conj:and(ran-7, hit-14)
+dobj(hit-14, him-15)
+
+(ROOT
+  (S (CC But)
+    (NP (NNP Kacey) (NNP doesnt))
+    (VP (VBP let)
+      (S
+        (NP (PRP$ his) (JJ physical) (NN challenge))
+        (VP (VB stop)
+          (NP (PRP him))
+          (PP (IN from)
+            (S
+              (VP (VBG doing)
+                (NP
+                  (NP (DT the) (NNS things))
+                  (SBAR
+                    (S
+                      (NP (PRP he))
+                      (VP (VBZ loves)))))))))))
+    (. .)))
+
+cc(let-4, But-1)
+compound(doesnt-3, Kacey-2)
+nsubj(let-4, doesnt-3)
+root(ROOT-0, let-4)
+nmod:poss(challenge-7, his-5)
+amod(challenge-7, physical-6)
+nsubj(stop-8, challenge-7)
+ccomp(let-4, stop-8)
+dobj(stop-8, him-9)
+mark(doing-11, from-10)
+advcl(stop-8, doing-11)
+det(things-13, the-12)
+dobj(doing-11, things-13)
+nsubj(loves-15, he-14)
+acl:relcl(things-13, loves-15)
+
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (VBZ has)
+      (VP (VBN learned)
+        (S
+          (VP (TO to)
+            (VP (VB play)
+              (NP (JJ many) (NNS sports)))))))
+    (. .)))
+
+nsubj(learned-3, He-1)
+nsubj(play-5, He-1)
+aux(learned-3, has-2)
+root(ROOT-0, learned-3)
+mark(play-5, to-4)
+xcomp(learned-3, play-5)
+amod(sports-7, many-6)
+dobj(play-5, sports-7)
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (NN basketball)))
+    (NP (PRP he))
+    (VP
+      (VP (VBZ dribbles)
+        (NP (DT the) (NN ball))
+        (PP (IN with)
+          (NP (CD one) (NN hand))))
+      (CC and)
+      (VP (VBZ uses)
+        (NP (PRP$ his) (JJ other) (NN hand))
+        (S
+          (VP (TO to)
+            (VP (VB move)
+              (NP (PRP$ his) (NN body))
+              (PP (IN around)
+                (NP (DT the) (NN court))))))))
+    (. .)))
+
+case(basketball-2, In-1)
+nmod:in(dribbles-4, basketball-2)
+nsubj(dribbles-4, he-3)
+nsubj(uses-11, he-3)
+root(ROOT-0, dribbles-4)
+det(ball-6, the-5)
+dobj(dribbles-4, ball-6)
+case(hand-9, with-7)
+nummod(hand-9, one-8)
+nmod:with(dribbles-4, hand-9)
+cc(dribbles-4, and-10)
+conj:and(dribbles-4, uses-11)
+nmod:poss(hand-14, his-12)
+amod(hand-14, other-13)
+dobj(uses-11, hand-14)
+mark(move-16, to-15)
+advcl(uses-11, move-16)
+nmod:poss(body-18, his-17)
+dobj(move-16, body-18)
+case(court-21, around-19)
+det(court-21, the-20)
+nmod:around(move-16, court-21)
+
+(ROOT
+  (S
+    (NP (NNP Kacey))
+    (ADVP (RB also))
+    (VP (VBZ plays)
+      (NP (NN baseball)))
+    (. .)))
+
+nsubj(plays-3, Kacey-1)
+advmod(plays-3, also-2)
+root(ROOT-0, plays-3)
+dobj(plays-3, baseball-4)
+
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (MD can)
+      (VP (VB catch)
+        (CC and)
+        (VB throw)
+        (NP (DT the) (NN ball))
+        (ADVP (RB very) (RB well))))
+    (. .)))
+
+nsubj(catch-3, He-1)
+nsubj(throw-5, He-1)
+aux(catch-3, can-2)
+root(ROOT-0, catch-3)
+cc(catch-3, and-4)
+conj:and(catch-3, throw-5)
+det(ball-7, the-6)
+dobj(catch-3, ball-7)
+advmod(well-9, very-8)
+advmod(catch-3, well-9)
+
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (MD can)
+      (VP (VB hit)
+        (NP (DT the) (NN ball))
+        (ADVP (RB well))
+        (, ,)
+        (ADVP (RB too))))
+    (. .)))
+
+nsubj(hit-3, He-1)
+aux(hit-3, can-2)
+root(ROOT-0, hit-3)
+det(ball-5, the-4)
+dobj(hit-3, ball-5)
+advmod(hit-3, well-6)
+advmod(hit-3, too-8)
+
+(ROOT
+  (S
+    (S
+      (NP (PRP He))
+      (VP (VBZ is)
+        (NP (DT the) (NNS teams) (NN catcher))))
+    (, ,) (IN so)
+    (S
+      (NP (PRP he))
+      (VP (VBP doesnt)
+        (VP (VB have)
+          (S
+            (VP (TO to)
+              (VP (VB move)
+                (PRT (RP around))
+                (ADVP (RB so) (RB much))))))))
+    (. .)))
+
+nsubj(catcher-5, He-1)
+cop(catcher-5, is-2)
+det(catcher-5, the-3)
+compound(catcher-5, teams-4)
+root(ROOT-0, catcher-5)
+dep(catcher-5, so-7)
+nsubj(doesnt-9, he-8)
+parataxis(catcher-5, doesnt-9)
+xcomp(doesnt-9, have-10)
+mark(move-12, to-11)
+xcomp(have-10, move-12)
+compound:prt(move-12, around-13)
+advmod(much-15, so-14)
+advmod(move-12, much-15)
+
+(ROOT
+  (S
+    (NP (NNP Kacey))
+    (VP (VBZ is)
+      (NP
+        (NP (CD one))
+        (PP (IN of)
+          (NP
+            (NP
+              (QP (JJR more) (IN than) (CD 50,000))
+              (ADJP (RB physically) (JJ challenged))
+              (NNS people))
+            (PP (IN in)
+              (NP (DT the) (NNP United) (NNPS States)))))
+        (SBAR
+          (WHNP (WP who))
+          (S
+            (VP (VBP play)
+              (NP (NNS sports)))))))
+    (. .)))
+
+nsubj(one-3, Kacey-1)
+cop(one-3, is-2)
+root(ROOT-0, one-3)
+nsubj(play-16, one-3)
+case(people-10, of-4)
+advmod(50,000-7, more-5)
+mwe(more-5, than-6)
+nummod(people-10, 50,000-7)
+advmod(challenged-9, physically-8)
+amod(people-10, challenged-9)
+nmod:of(one-3, people-10)
+case(States-14, in-11)
+det(States-14, the-12)
+compound(States-14, United-13)
+nmod:in(people-10, States-14)
+ref(one-3, who-15)
+acl:relcl(one-3, play-16)
+dobj(play-16, sports-17)
+
+(ROOT
+  (S
+    (NP (DT These) (NNS days) (NN physically))
+    (VP (VBD challenged)
+      (SBAR
+        (S
+          (NP (NNS people))
+          (VP (VBP are)
+            (VP (VBG doing)
+              (NP
+                (NP (NN everything))
+                (PP (IN from)
+                  (NP (NN biking)
+                    (CC and)
+                    (NN scuba) (NN diving))))
+              (PP (TO to)
+                (NP (NN mountain)))
+              (S
+                (VP (VBG climbing)
+                  (CC and)
+                  (VBG rafting))))))))
+    (. .)))
+
+det(physically-3, These-1)
+compound(physically-3, days-2)
+nsubj(challenged-4, physically-3)
+root(ROOT-0, challenged-4)
+nsubj(doing-7, people-5)
+aux(doing-7, are-6)
+ccomp(challenged-4, doing-7)
+dobj(doing-7, everything-8)
+case(diving-13, from-9)
+compound(diving-13, biking-10)
+cc(biking-10, and-11)
+conj:and(biking-10, scuba-12)
+compound(diving-13, scuba-12)
+nmod:from(everything-8, diving-13)
+case(mountain-15, to-14)
+nmod:to(doing-7, mountain-15)
+advcl(doing-7, climbing-16)
+cc(climbing-16, and-17)
+advcl(doing-7, rafting-18)
+conj:and(climbing-16, rafting-18)
+
+(ROOT
+  (S
+    (NP (PRP They))
+    (VP (VBP are)
+      (VP
+        (VP (VBG dancing))
+        (CC and)
+        (VP (VBG doing)
+          (NP (JJ martial) (NNS arts))
+          (ADVP (RB as) (RB well)))))
+    (. .)))
+
+nsubj(dancing-3, They-1)
+nsubj(doing-5, They-1)
+aux(dancing-3, are-2)
+root(ROOT-0, dancing-3)
+cc(dancing-3, and-4)
+conj:and(dancing-3, doing-5)
+amod(arts-7, martial-6)
+dobj(doing-5, arts-7)
+advmod(doing-5, as-8)
+mwe(as-8, well-9)
+
+(ROOT
+  (S
+    (NP (DT Some)
+      (ADJP (RB physically) (JJ challenged))
+      (NNS people))
+    (VP (VBP are)
+      (NP (JJ great) (NNS athletes)))
+    (. .)))
+
+det(people-4, Some-1)
+advmod(challenged-3, physically-2)
+amod(people-4, challenged-3)
+nsubj(athletes-7, people-4)
+cop(athletes-7, are-5)
+amod(athletes-7, great-6)
+root(ROOT-0, athletes-7)
+
+(ROOT
+  (S
+    (PP (IN With)
+      (NP (JJ hard) (NN work)
+        (CC and)
+        (JJ strong) (NNS wills)))
+    (, ,)
+    (NP (PRP they))
+    (VP
+      (VP (VB go)
+        (PP (IN beyond)
+          (NP (PRP$ their) (JJ physical) (NNS challenges))))
+      (CC and)
+      (VP (VB make)
+        (S
+          (NP (PRP$ their) (NNS dreams))
+          (VP (VB come)
+            (ADJP (JJ true))))))
+    (. .)))
+
+case(work-3, With-1)
+amod(work-3, hard-2)
+nmod:with(go-9, work-3)
+cc(work-3, and-4)
+amod(wills-6, strong-5)
+conj:and(work-3, wills-6)
+nmod:with(go-9, wills-6)
+nsubj(go-9, they-8)
+nsubj(make-15, they-8)
+root(ROOT-0, go-9)
+case(challenges-13, beyond-10)
+nmod:poss(challenges-13, their-11)
+amod(challenges-13, physical-12)
+nmod:beyond(go-9, challenges-13)
+cc(go-9, and-14)
+conj:and(go-9, make-15)
+nmod:poss(dreams-17, their-16)
+nsubj(come-18, dreams-17)
+ccomp(make-15, come-18)
+xcomp(come-18, true-19)
+
+(ROOT
+  (S
+    (NP (NNP Sharon) (NNP Hedrick))
+    (VP (VBD was)
+      (NP (DT the) (JJ first) (NN woman)
+        (S
+          (VP (TO to)
+            (VP (VB race)
+              (NP
+                (NP (DT the) (NNP Boston) (NNP Marathon))
+                (PP (IN in)
+                  (NP (DT a) (NN wheelchair)))))))))
+    (. .)))
+
+compound(Hedrick-2, Sharon-1)
+nsubj(woman-6, Hedrick-2)
+cop(woman-6, was-3)
+det(woman-6, the-4)
+amod(woman-6, first-5)
+root(ROOT-0, woman-6)
+mark(race-8, to-7)
+acl(woman-6, race-8)
+det(Marathon-11, the-9)
+compound(Marathon-11, Boston-10)
+dobj(race-8, Marathon-11)
+case(wheelchair-14, in-12)
+det(wheelchair-14, a-13)
+nmod:in(Marathon-11, wheelchair-14)
+
+(ROOT
+  (S
+    (NP (PRP She))
+    (ADVP (RB also))
+    (VP (VBD competed)
+      (PP (IN in)
+        (NP (DT the) (CD 1988) (NNP Seoul) (NNPS Olympics))))
+    (. .)))
+
+nsubj(competed-3, She-1)
+advmod(competed-3, also-2)
+root(ROOT-0, competed-3)
+case(Olympics-8, in-4)
+det(Olympics-8, the-5)
+nummod(Olympics-8, 1988-6)
+compound(Olympics-8, Seoul-7)
+nmod:in(competed-3, Olympics-8)
+
+(ROOT
+  (S
+    (ADVP (RB There))
+    (NP (PRP she))
+    (VP (VBD won)
+      (NP (DT the) (JJ womens) (NN wheelchair))
+      (NP
+        (NP (JJ 800-meter) (NN race))
+        (PP (IN in)
+          (NP (NN record) (NN time)))))
+    (. .)))
+
+advmod(won-3, There-1)
+nsubj(won-3, she-2)
+root(ROOT-0, won-3)
+det(wheelchair-6, the-4)
+amod(wheelchair-6, womens-5)
+iobj(won-3, wheelchair-6)
+amod(race-8, 800-meter-7)
+dobj(won-3, race-8)
+case(time-11, in-9)
+compound(time-11, record-10)
+nmod:in(race-8, time-11)
+
+(ROOT
+  (S
+    (NP (NNP Diana) (NNP Golden))
+    (VP (VBD became)
+      (NP
+        (NP (DT the) (NNP U.S.) (NNP Alpine) (NNP Skier))
+        (PP (IN of)
+          (NP (DT the) (NN year) (NN skiing))))
+      (PP (IN on)
+        (NP (CD one) (NN leg))))
+    (. .)))
+
+compound(Golden-2, Diana-1)
+nsubj(became-3, Golden-2)
+root(ROOT-0, became-3)
+det(Skier-7, the-4)
+compound(Skier-7, U.S.-5)
+compound(Skier-7, Alpine-6)
+xcomp(became-3, Skier-7)
+case(skiing-11, of-8)
+det(skiing-11, the-9)
+compound(skiing-11, year-10)
+nmod:of(Skier-7, skiing-11)
+case(leg-14, on-12)
+nummod(leg-14, one-13)
+nmod:on(became-3, leg-14)
+
+(ROOT
+  (S
+    (NP (PRP She))
+    (VP (VBD came)
+      (PP (IN in)
+        (NP (NN 10th)))
+      (, ,)
+      (S
+        (VP (VBG racing)
+          (PP (IN against)
+            (NP (JJ able-bodied) (NNS skiers))))))
+    (. .)))
+
+nsubj(came-2, She-1)
+root(ROOT-0, came-2)
+case(10th-4, in-3)
+nmod:in(came-2, 10th-4)
+xcomp(came-2, racing-6)
+case(skiers-9, against-7)
+amod(skiers-9, able-bodied-8)
+nmod:against(racing-6, skiers-9)
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (CD 1988)))
+    (NP (DT the) (NNP U.S.) (NNP Olympic) (NNP Committee))
+    (VP (VBD named)
+      (NP (PRP her))
+      (NP
+        (NP (NNP Female) (NNP Skier))
+        (PP (IN of)
+          (NP
+            (NP (DT the) (NN Year))
+            (PP (IN over)
+              (NP (DT all) (JJ other) (NNS racers)))))
+        (, ,)
+        (PP (VBG including)
+          (NP (JJ able-bodied) (NNS skiers)))))
+    (. .)))
+
+case(1988-2, In-1)
+nmod:in(named-7, 1988-2)
+det(Committee-6, the-3)
+compound(Committee-6, U.S.-4)
+compound(Committee-6, Olympic-5)
+nsubj(named-7, Committee-6)
+root(ROOT-0, named-7)
+iobj(named-7, her-8)
+compound(Skier-10, Female-9)
+dobj(named-7, Skier-10)
+case(Year-13, of-11)
+det(Year-13, the-12)
+nmod:of(Skier-10, Year-13)
+case(racers-17, over-14)
+det(racers-17, all-15)
+amod(racers-17, other-16)
+nmod:over(Year-13, racers-17)
+case(skiers-21, including-19)
+amod(skiers-21, able-bodied-20)
+nmod:including(Skier-10, skiers-21)
+
+(ROOT
+  (S
+    (NP (DT The) (NNP Paralympic) (NNPS Games))
+    (VP (VBP are)
+      (PP (IN for)
+        (NP (RB physically) (CD challenged) (NNS people))))
+    (. .)))
+
+det(Games-3, The-1)
+compound(Games-3, Paralympic-2)
+nsubj(people-8, Games-3)
+cop(people-8, are-4)
+case(people-8, for-5)
+advmod(people-8, physically-6)
+nummod(people-8, challenged-7)
+root(ROOT-0, people-8)
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (CD 1996)))
+    (, ,)
+    (NP (DT the) (NNP Tenth) (NNP Paralympic) (NNPS Games))
+    (VP (VBD were)
+      (VP (VBN held)
+        (PP (IN in)
+          (NP (NNP Atlanta) (, ,) (NNP Georgia)))
+        (, ,)
+        (ADVP (RB right)
+          (PP (IN after)
+            (NP (DT the) (NN summer) (NNS Olympics))))))
+    (. .)))
+
+case(1996-2, In-1)
+nmod:in(held-9, 1996-2)
+det(Games-7, the-4)
+compound(Games-7, Tenth-5)
+compound(Games-7, Paralympic-6)
+nsubjpass(held-9, Games-7)
+auxpass(held-9, were-8)
+root(ROOT-0, held-9)
+case(Georgia-13, in-10)
+compound(Georgia-13, Atlanta-11)
+nmod:in(held-9, Georgia-13)
+advmod(held-9, right-15)
+case(Olympics-19, after-16)
+det(Olympics-19, the-17)
+compound(Olympics-19, summer-18)
+nmod:after(right-15, Olympics-19)
+
+(ROOT
+  (S
+    (PP (IN Over)
+      (NP
+        (NP (CD 3,000) (RB physically))
+        (VP (VBN challenged)
+          (NP (NNS athletes))
+          (PP (IN from)
+            (ADVP (RB around))))))
+    (NP (DT the) (NN world))
+    (VP (VBD competed))
+    (. .)))
+
+case(3,000-2, Over-1)
+nmod:over(competed-10, 3,000-2)
+advmod(3,000-2, physically-3)
+acl(3,000-2, challenged-4)
+dobj(challenged-4, athletes-5)
+case(around-7, from-6)
+advcl:from(challenged-4, around-7)
+det(world-9, the-8)
+nsubj(competed-10, world-9)
+root(ROOT-0, competed-10)
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (NNP Nagano) (, ,) (NNP Japan)))
+    (, ,)
+    (NP (CD 1,000) (NNS athletes))
+    (VP (VBD competed)
+      (PP (IN in)
+        (NP
+          (NP (NN winter) (NNS sports))
+          (PP (IN at)
+            (NP (DT the) (NNP Paralympic) (NNPS Games)))))
+      (PP (IN in)
+        (NP (CD 1998))))
+    (. .)))
+
+case(Japan-4, In-1)
+compound(Japan-4, Nagano-2)
+nmod:in(competed-8, Japan-4)
+nummod(athletes-7, 1,000-6)
+nsubj(competed-8, athletes-7)
+root(ROOT-0, competed-8)
+case(sports-11, in-9)
+compound(sports-11, winter-10)
+nmod:in(competed-8, sports-11)
+case(Games-15, at-12)
+det(Games-15, the-13)
+compound(Games-15, Paralympic-14)
+nmod:at(sports-11, Games-15)
+case(1998-17, in-16)
+nmod:in(competed-8, 1998-17)
+
+(ROOT
+  (S
+    (NP (NN Everyone))
+    (VP (MD can)
+      (VP (VB learn)
+        (NP (NN something))
+        (PP (IN from)
+          (NP
+            (NP (RB physically) (JJ challenged) (NNS athletes))
+            (PP (IN like)
+              (NP (NNP Kacey) (, ,) (NNP Sharon) (, ,)
+                (CC and)
+                (NNP Diana)))))))
+    (. .)))
+
+nsubj(learn-3, Everyone-1)
+aux(learn-3, can-2)
+root(ROOT-0, learn-3)
+dobj(learn-3, something-4)
+case(athletes-8, from-5)
+advmod(athletes-8, physically-6)
+amod(athletes-8, challenged-7)
+nmod:from(learn-3, athletes-8)
+case(Kacey-10, like-9)
+nmod:like(athletes-8, Kacey-10)
+nmod:like(athletes-8, Sharon-12)
+conj:and(Kacey-10, Sharon-12)
+cc(Kacey-10, and-14)
+nmod:like(athletes-8, Diana-15)
+conj:and(Kacey-10, Diana-15)
+
+(ROOT
+  (S
+    (S
+      (NP (NNP Kacey))
+      (VP (VBZ says)))
+    (, ,)
+    (NP (NNP Dont))
+    (VP (VBD let)
+      (SBAR
+        (S
+          (NP (NN anything))
+          (VP (VBP get)
+            (NP (PRP you))
+            (PRT (RP down))))))
+    (. .)))
+
+nsubj(says-2, Kacey-1)
+ccomp(let-5, says-2)
+nsubj(let-5, Dont-4)
+root(ROOT-0, let-5)
+nsubj(get-7, anything-6)
+ccomp(let-5, get-7)
+dobj(get-7, you-8)
+compound:prt(get-7, down-9)
+
+(ROOT
+  (S
+    (ADVP (RB Just))
+    (VP
+      (VP (VB play))
+      (CC and)
+      (VP (VB have)
+        (NP (NN fun))))
+    (. .)))
+
+advmod(play-2, Just-1)
+root(ROOT-0, play-2)
+cc(play-2, and-3)
+conj:and(play-2, have-4)
+dobj(have-4, fun-5)
+
+(ROOT
+  (S
+    (NP (NNP Dont))
+    (VP (VBP let)
+      (S
+        (NP (NN anybody))
+        (VP (VB tell)
+          (NP (PRP you))
+          (SBAR
+            (S
+              (NP (PRP you))
+              (ADVP (RB cant))
+              (VP (VBP do)
+                (NP (NN something))))))))
+    (. .)))
+
+nsubj(let-2, Dont-1)
+root(ROOT-0, let-2)
+nsubj(tell-4, anybody-3)
+ccomp(let-2, tell-4)
+dobj(tell-4, you-5)
+nsubj(do-8, you-6)
+advmod(do-8, cant-7)
+ccomp(tell-4, do-8)
+dobj(do-8, something-9)
+
+(ROOT
+  (S
+    (SBAR (RB Just)
+      (S
+        (VP (VBP say))))
+    (, ,)
+    (NP (PRP I))
+    (VP (MD can))
+    (. !)))
+
+advmod(say-2, Just-1)
+advcl(can-5, say-2)
+nsubj(can-5, I-4)
+root(ROOT-0, can-5)
+

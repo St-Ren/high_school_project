@@ -1,0 +1,2205 @@
+(ROOT
+  (NP
+    (NP (NNP Unit) (CD 2))
+    (NP
+      (NP (DT The) (JJ Fourth) (NNP TuesdayXWe) (NN Talk))
+      (NP
+        (QP (RB About) (CD Death))))
+    (. .)))
+
+root(ROOT-0, Unit-1)
+nummod(Unit-1, 2-2)
+det(Talk-6, The-3)
+amod(Talk-6, Fourth-4)
+compound(Talk-6, TuesdayXWe-5)
+dep(Unit-1, Talk-6)
+advmod(Death-8, About-7)
+dep(Talk-6, Death-8)
+
+(ROOT
+  (S
+    (S
+      (NP (NNS People))
+      (VP (VBP know)
+        (NP
+          (NP (NN theyre))
+          (VP (VBG going)
+            (S
+              (VP (TO to)
+                (VP (VB die))))))))
+    (PRN (, ,)
+      (NP (NNP Morrie))
+      (VP (VBD said))
+      (, ,))
+    (CC but)
+    (S
+      (NP (NN nobody))
+      (VP (VBZ believes)
+        (NP (PRP it))))
+    (. .)))
+
+nsubj(know-2, People-1)
+root(ROOT-0, know-2)
+dobj(know-2, theyre-3)
+acl(theyre-3, going-4)
+mark(die-6, to-5)
+xcomp(going-4, die-6)
+nsubj(said-9, Morrie-8)
+dep(know-2, said-9)
+cc(know-2, but-11)
+nsubj(believes-13, nobody-12)
+conj:but(know-2, believes-13)
+dobj(believes-13, it-14)
+
+(ROOT
+  (S
+    (SBAR (IN If) (RB only)
+      (S
+        (NP (PRP we))
+        (VP (VBD did))))
+    (, ,)
+    (NP (PRP we))
+    (VP (MD would)
+      (VP (VB do)
+        (NP (NNS things))
+        (ADVP (RB differently))))
+    (. .)))
+
+mark(did-4, If-1)
+advmod(did-4, only-2)
+nsubj(did-4, we-3)
+advcl(do-8, did-4)
+nsubj(do-8, we-6)
+aux(do-8, would-7)
+root(ROOT-0, do-8)
+dobj(do-8, things-9)
+advmod(do-8, differently-10)
+
+(ROOT
+  (S
+    (S (IN So)
+      (NP (PRP we))
+      (VP (VBD kid)
+        (NP (PRP ourselves))
+        (PP (IN about)
+          (NP (NN death)))))
+    (, ,)
+    (NP (PRP I))
+    (VP (VBD said))
+    (. .)))
+
+dep(kid-3, So-1)
+nsubj(kid-3, we-2)
+ccomp(said-9, kid-3)
+dobj(kid-3, ourselves-4)
+case(death-6, about-5)
+nmod:about(kid-3, death-6)
+nsubj(said-9, I-8)
+root(ROOT-0, said-9)
+
+(ROOT
+  (S
+    (INTJ (UH Yes))
+    (, ,)
+    (ADVP (CC but))
+    (VP (VBZ theres)
+      (NP
+        (NP (DT a) (JJR better) (NN approach))
+        (: :)
+        (S
+          (VP (TO to)
+            (VP (VB know)
+              (NP
+                (NP (NN youre))
+                (VP (VBG going)
+                  (S
+                    (VP
+                      (VP (TO to)
+                        (VP (VB die)))
+                      (, ,)
+                      (CC and)
+                      (VP (TO to)
+                        (VP (VB be)
+                          (VP (VBN prepared)
+                            (PP (IN for)
+                              (NP (PRP it)))
+                            (PP (IN at)
+                              (NP (DT any) (NN time)))))))))))))))
+    (. .)))
+
+discourse(theres-4, Yes-1)
+advmod(theres-4, but-3)
+root(ROOT-0, theres-4)
+det(approach-7, a-5)
+amod(approach-7, better-6)
+dobj(theres-4, approach-7)
+mark(know-10, to-9)
+acl(approach-7, know-10)
+dobj(know-10, youre-11)
+acl(youre-11, going-12)
+mark(die-14, to-13)
+ccomp(going-12, die-14)
+cc(die-14, and-16)
+mark(prepared-19, to-17)
+auxpass(prepared-19, be-18)
+ccomp(going-12, prepared-19)
+conj:and(die-14, prepared-19)
+case(it-21, for-20)
+nmod:for(prepared-19, it-21)
+case(time-24, at-22)
+det(time-24, any-23)
+nmod:at(prepared-19, time-24)
+
+(ROOT
+  (S
+    (VP (VB Thats)
+      (ADVP (RBR better)))
+    (. .)))
+
+root(ROOT-0, Thats-1)
+advmod(Thats-1, better-2)
+
+(ROOT
+  (S
+    (NP (DT That) (NN way))
+    (, ,)
+    (NP (PRP you))
+    (VP (MD can)
+      (ADVP (RB actually))
+      (VP (VB be)
+        (ADJP (RBR more) (JJ involved))
+        (PP (IN in)
+          (NP (PRP$ your) (NN life)))
+        (SBAR (IN while)
+          (FRAG
+            (ADJP (JJ youre) (JJ living))))))
+    (. .)))
+
+det(way-2, That-1)
+nsubj(involved-9, way-2)
+nsubj(involved-9, you-4)
+aux(involved-9, can-5)
+advmod(involved-9, actually-6)
+cop(involved-9, be-7)
+advmod(involved-9, more-8)
+root(ROOT-0, involved-9)
+case(life-12, in-10)
+nmod:poss(life-12, your-11)
+nmod:in(involved-9, life-12)
+mark(living-15, while-13)
+amod(living-15, youre-14)
+advcl(involved-9, living-15)
+
+(ROOT
+  (SBARQ
+    (WHADVP (WRB How))
+    (SQ (MD can)
+      (NP (PRP you))
+      (ADVP (RB ever))
+      (VP (VB be)
+        (VP (VBN prepared)
+          (S
+            (VP (TO to)
+              (VP (VB die)
+                (SBAR
+                  (S
+                    (NP (PRP I))
+                    (VP (VBD asked))))))))))
+    (. .)))
+
+advmod(prepared-6, How-1)
+aux(prepared-6, can-2)
+nsubjpass(prepared-6, you-3)
+nsubj(die-8, you-3)
+advmod(prepared-6, ever-4)
+auxpass(prepared-6, be-5)
+root(ROOT-0, prepared-6)
+mark(die-8, to-7)
+xcomp(prepared-6, die-8)
+nsubj(asked-10, I-9)
+ccomp(die-8, asked-10)
+
+(ROOT
+  (S
+    (VP (VB Do)
+      (SBAR
+        (WHNP (WP what))
+        (S
+          (NP (DT the) (NNPS Buddhists))
+          (VP (VBP do)))))
+    (. .)))
+
+root(ROOT-0, Do-1)
+dobj(do-5, what-2)
+det(Buddhists-4, the-3)
+nsubj(do-5, Buddhists-4)
+ccomp(Do-1, do-5)
+
+(ROOT
+  (S
+    (NP (DT Every) (NN day))
+    (, ,)
+    (S
+      (VP (VB have)
+        (NP
+          (NP (DT a) (JJ little) (NN bird))
+          (PP (IN on)
+            (NP (PRP$ your) (NN shoulder)))
+          (SBAR
+            (WHNP (WDT that))
+            (S
+              (VP (VBZ asks)))))))
+    (, ,)
+    (VP (VBZ Is)
+      (NP
+        (NP (NN today))
+        (NP (DT the) (NN day))))
+    (. ?)))
+
+det(day-2, Every-1)
+nsubj(today-15, day-2)
+ccomp(today-15, have-4)
+det(bird-7, a-5)
+amod(bird-7, little-6)
+dobj(have-4, bird-7)
+nsubj(asks-12, bird-7)
+case(shoulder-10, on-8)
+nmod:poss(shoulder-10, your-9)
+nmod:on(bird-7, shoulder-10)
+ref(bird-7, that-11)
+acl:relcl(bird-7, asks-12)
+cop(today-15, Is-14)
+root(ROOT-0, today-15)
+det(day-17, the-16)
+dep(today-15, day-17)
+
+(ROOT
+  (SQ
+    (VP (VB Am)
+      (S
+        (NP (PRP I))
+        (ADJP (JJ ready))))
+    (. ?)))
+
+root(ROOT-0, Am-1)
+nsubj(ready-3, I-2)
+xcomp(Am-1, ready-3)
+
+(ROOT
+  (SQ (VBP Am)
+    (NP (PRP I))
+    (VP (VBG doing)
+      (NP
+        (NP (DT all))
+        (SBAR
+          (S
+            (NP (PRP I))
+            (VP (VBP need)
+              (S
+                (VP (TO to)
+                  (VP (VB do)))))))))
+    (. ?)))
+
+aux(doing-3, Am-1)
+nsubj(doing-3, I-2)
+root(ROOT-0, doing-3)
+dobj(doing-3, all-4)
+nsubj(need-6, I-5)
+nsubj(do-8, I-5)
+acl:relcl(all-4, need-6)
+mark(do-8, to-7)
+xcomp(need-6, do-8)
+
+(ROOT
+  (SQ (VBP Am)
+    (NP (PRP I))
+    (VP (VBG being)
+      (NP
+        (NP (DT the) (NN person))
+        (SBAR
+          (S
+            (NP (PRP I))
+            (VP (VBP want)
+              (S
+                (VP (TO to)
+                  (VP (VB be)))))))))
+    (. ?)))
+
+aux(person-5, Am-1)
+nsubj(person-5, I-2)
+cop(person-5, being-3)
+det(person-5, the-4)
+root(ROOT-0, person-5)
+nsubj(want-7, I-6)
+nsubj(be-9, I-6)
+acl:relcl(person-5, want-7)
+mark(be-9, to-8)
+xcomp(want-7, be-9)
+
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (VBD turned)
+      (NP (PRP$ his) (NN head))
+      (PP (TO to)
+        (NP (PRP$ his) (NN shoulder)))
+      (SBAR (RB as) (IN if)
+        (S
+          (NP (DT the) (NN bird))
+          (VP (VBD were)
+            (ADVP (RB there))
+            (ADVP (RB now))))))
+    (. .)))
+
+nsubj(turned-2, He-1)
+root(ROOT-0, turned-2)
+nmod:poss(head-4, his-3)
+dobj(turned-2, head-4)
+case(shoulder-7, to-5)
+nmod:poss(shoulder-7, his-6)
+nmod:to(turned-2, shoulder-7)
+mark(were-12, as-8)
+mwe(as-8, if-9)
+det(bird-11, the-10)
+nsubj(were-12, bird-11)
+advcl(turned-2, were-12)
+advmod(were-12, there-13)
+advmod(were-12, now-14)
+
+(ROOT
+  (S
+    (S
+      (VP (NNP Is)
+        (VP
+          (ADVP (NN today))
+          (NP (DT the) (NN day)))))
+    (NP (PRP I))
+    (VP (VBP die)
+      (SBAR
+        (S
+          (NP (PRP he))
+          (VP (VBD asked)))))
+    (. .)))
+
+dep(day-4, Is-1)
+advmod(day-4, today-2)
+det(day-4, the-3)
+dep(die-6, day-4)
+nsubj(die-6, I-5)
+root(ROOT-0, die-6)
+nsubj(asked-8, he-7)
+ccomp(die-6, asked-8)
+
+(ROOT
+  (S
+    (S
+      (NP (DT The) (NN truth))
+      (VP (VBZ is) (, ,)
+        (NP (NNP Mitch)))
+      (PRN (, ,)
+        (S
+          (NP (PRP he))
+          (VP (VBD said)))
+        (, ,))
+      (SBAR (IN once)
+        (S
+          (NP (PRP you))
+          (VP (VBP learn)
+            (SBAR
+              (WHADVP (WRB how))
+              (S
+                (VP (TO to)
+                  (VP (VB die)))))))))
+    (, ,)
+    (NP (PRP you))
+    (VP (VBP learn)
+      (SBAR
+        (WHADVP (WRB how))
+        (S
+          (VP (TO to)
+            (VP (VB live))))))
+    (. .)))
+
+det(truth-2, The-1)
+nsubj(Mitch-5, truth-2)
+cop(Mitch-5, is-3)
+ccomp(learn-18, Mitch-5)
+nsubj(said-8, he-7)
+parataxis(Mitch-5, said-8)
+mark(learn-12, once-10)
+nsubj(learn-12, you-11)
+dep(Mitch-5, learn-12)
+advmod(die-15, how-13)
+mark(die-15, to-14)
+ccomp(learn-12, die-15)
+nsubj(learn-18, you-17)
+root(ROOT-0, learn-18)
+advmod(live-21, how-19)
+mark(live-21, to-20)
+ccomp(learn-18, live-21)
+
+(ROOT
+  (S
+    (S
+      (VP (VB Im)
+        (VP (VBG going)
+          (S
+            (VP (TO to)
+              (VP (VB say)
+                (NP (PRP it))
+                (ADVP (RB again))))))))
+    (, ,)
+    (NP (PRP he))
+    (VP (VBD said))
+    (. .)))
+
+ccomp(said-9, Im-1)
+xcomp(Im-1, going-2)
+mark(say-4, to-3)
+xcomp(going-2, say-4)
+dobj(say-4, it-5)
+advmod(say-4, again-6)
+nsubj(said-9, he-8)
+root(ROOT-0, said-9)
+
+(ROOT
+  (S
+    (SBAR (IN Once)
+      (S
+        (NP (PRP you))
+        (VP (VBP learn)
+          (SBAR
+            (WHADVP (WRB how))
+            (S
+              (VP (TO to)
+                (VP (VB die))))))))
+    (, ,)
+    (NP (PRP you))
+    (VP (VBP learn)
+      (SBAR
+        (WHADVP (WRB how))
+        (S
+          (VP (TO to)
+            (VP (VB live))))))
+    (. .)))
+
+mark(learn-3, Once-1)
+nsubj(learn-3, you-2)
+advcl(learn-9, learn-3)
+advmod(die-6, how-4)
+mark(die-6, to-5)
+ccomp(learn-3, die-6)
+nsubj(learn-9, you-8)
+root(ROOT-0, learn-9)
+advmod(live-12, how-10)
+mark(live-12, to-11)
+ccomp(learn-9, live-12)
+
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (VBD was)
+      (VP (VBG making)
+        (ADJP (JJ sure)
+          (SBAR
+            (S
+              (NP (PRP I))
+              (VP (VBD absorbed)
+                (NP (DT this) (NN point))
+                (, ,)
+                (PP (IN without)
+                  (S
+                    (VP (VBG embarrassing)
+                      (NP (PRP me))
+                      (PP (IN by)
+                        (S
+                          (VP (VBG asking)
+                            (SBAR (IN if)
+                              (S
+                                (NP (PRP I))
+                                (VP (VBD had)
+                                  (ADVP (RB really))
+                                  (VP (VBN got)
+                                    (NP (PRP it))))))))))))))))))
+    (. .)))
+
+nsubj(making-3, He-1)
+aux(making-3, was-2)
+root(ROOT-0, making-3)
+xcomp(making-3, sure-4)
+nsubj(absorbed-6, I-5)
+ccomp(sure-4, absorbed-6)
+det(point-8, this-7)
+dobj(absorbed-6, point-8)
+mark(embarrassing-11, without-10)
+advcl(absorbed-6, embarrassing-11)
+dobj(embarrassing-11, me-12)
+mark(asking-14, by-13)
+advcl(embarrassing-11, asking-14)
+mark(got-19, if-15)
+nsubj(got-19, I-16)
+aux(got-19, had-17)
+advmod(got-19, really-18)
+advcl(asking-14, got-19)
+dobj(got-19, it-20)
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBD was)
+      (NP
+        (NP (NN part))
+        (PP (IN of)
+          (SBAR
+            (WHNP (WP what))
+            (S
+              (VP (VBD made)
+                (NP (PRP him))
+                (NP (DT a) (JJ good) (NN teacher))))))))
+    (. .)))
+
+nsubj(part-3, It-1)
+cop(part-3, was-2)
+root(ROOT-0, part-3)
+mark(made-6, of-4)
+nsubj(made-6, what-5)
+acl(part-3, made-6)
+iobj(made-6, him-7)
+det(teacher-10, a-8)
+amod(teacher-10, good-9)
+dobj(made-6, teacher-10)
+
+(ROOT
+  (SQ (VBD Did)
+    (NP (PRP you))
+    (VP (VB think)
+      (NP (RB much) (RB about) (NN death))
+      (SBAR (IN before)
+        (S
+          (NP (PRP you))
+          (VP (VBD got)
+            (ADJP (JJ sick)
+              (SBAR
+                (S
+                  (NP (PRP I))
+                  (VP (VBD asked)))))))))
+    (. .)))
+
+aux(think-3, Did-1)
+nsubj(think-3, you-2)
+root(ROOT-0, think-3)
+advmod(death-6, much-4)
+advmod(death-6, about-5)
+dobj(think-3, death-6)
+mark(got-9, before-7)
+nsubj(got-9, you-8)
+advcl(think-3, got-9)
+xcomp(got-9, sick-10)
+nsubj(asked-12, I-11)
+ccomp(sick-10, asked-12)
+
+(ROOT
+  (S
+    (INTJ (UH No))
+    (, ,)
+    (NP (NNP Morrie))
+    (VP (VBD smiled))
+    (. .)))
+
+discourse(smiled-4, No-1)
+nsubj(smiled-4, Morrie-3)
+root(ROOT-0, smiled-4)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBD was)
+      (PP (IN like)
+        (NP (NN everyone) (RB else))))
+    (. .)))
+
+nsubj(everyone-4, I-1)
+cop(everyone-4, was-2)
+case(everyone-4, like-3)
+root(ROOT-0, everyone-4)
+advmod(everyone-4, else-5)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (ADVP (RB once))
+    (VP (VBD told)
+      (NP
+        (NP (DT a) (NN friend))
+        (PP (IN of)
+          (NP (NN mine))))
+      (, ,)
+      (PP (IN in)
+        (NP
+          (NP (DT a) (NN moment))
+          (PP (IN of)
+            (NP
+              (NP (NN exuberance))
+              (, ,)
+              (NP
+                (NP (NNP Im))
+                (VP (VBG gon)
+                  (S
+                    (VP (TO na)
+                      (VP (VB be)
+                        (NP
+                          (NP (DT the) (JJ healthiest) (JJ old) (NN man) (NN youve))
+                          (VP
+                            (ADVP (RB ever))
+                            (VBN met)))))))))))))
+    (. !)))
+
+nsubj(told-3, I-1)
+advmod(told-3, once-2)
+root(ROOT-0, told-3)
+det(friend-5, a-4)
+dobj(told-3, friend-5)
+case(mine-7, of-6)
+nmod:of(friend-5, mine-7)
+case(moment-11, in-9)
+det(moment-11, a-10)
+nmod:in(told-3, moment-11)
+case(exuberance-13, of-12)
+nmod:of(moment-11, exuberance-13)
+appos(exuberance-13, Im-15)
+acl(Im-15, gon-16)
+mark(youve-23, na-17)
+cop(youve-23, be-18)
+det(youve-23, the-19)
+amod(youve-23, healthiest-20)
+amod(youve-23, old-21)
+compound(youve-23, man-22)
+xcomp(gon-16, youve-23)
+advmod(met-25, ever-24)
+acl(youve-23, met-25)
+
+(ROOT
+  (S
+    (SBARQ
+      (WHADJP (WRB How) (JJ old))
+      (SQ (VBD were)
+        (NP (PRP you))))
+    (NP (PRP I))
+    (VP (VBD asked))
+    (. .)))
+
+advmod(old-2, How-1)
+dep(were-3, old-2)
+dep(asked-6, were-3)
+nsubj(were-3, you-4)
+nsubj(asked-6, I-5)
+root(ROOT-0, asked-6)
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (PRP$ my) (NNS sixties)))
+    (, ,)
+    (NP (NNP Morrie))
+    (VP (VBD smiled)
+      (ADVP (RB again)))
+    (. .)))
+
+case(sixties-3, In-1)
+nmod:poss(sixties-3, my-2)
+nmod:in(smiled-6, sixties-3)
+nsubj(smiled-6, Morrie-5)
+root(ROOT-0, smiled-6)
+advmod(smiled-6, again-7)
+
+(ROOT
+  (S
+    (S (IN So)
+      (NP (PRP you))
+      (VP (VBD were)
+        (ADJP (JJ optimistic))))
+    (, ,)
+    (NP (PRP I))
+    (VP (VBD said))
+    (. .)))
+
+dep(optimistic-4, So-1)
+nsubj(optimistic-4, you-2)
+cop(optimistic-4, were-3)
+ccomp(said-7, optimistic-4)
+nsubj(said-7, I-6)
+root(ROOT-0, said-7)
+
+(ROOT
+  (FRAG
+    (WHADVP (WRB Why))
+    (RB not)
+    (VP (VB Morrie)
+      (VP (VBN replied)))
+    (. .)))
+
+dep(Morrie-3, Why-1)
+neg(Morrie-3, not-2)
+root(ROOT-0, Morrie-3)
+dep(Morrie-3, replied-4)
+
+(ROOT
+  (S
+    (PP (IN Like)
+      (S
+        (NP (PRP I))
+        (VP (VBD said))))
+    (, ,)
+    (NP (NNS people) (NN dont))
+    (ADVP (RB really))
+    (VP (VBP believe)
+      (NP
+        (NP (NN theyre))
+        (VP (VBG going)
+          (S
+            (VP (TO to)
+              (VP (VB die)))))))
+    (. .)))
+
+mark(said-3, Like-1)
+nsubj(said-3, I-2)
+advcl(believe-8, said-3)
+compound(dont-6, people-5)
+nsubj(believe-8, dont-6)
+advmod(believe-8, really-7)
+root(ROOT-0, believe-8)
+dobj(believe-8, theyre-9)
+acl(theyre-9, going-10)
+mark(die-12, to-11)
+xcomp(going-10, die-12)
+
+(ROOT
+  (S
+    (S (CC But)
+      (NP (NN everyone))
+      (VP (VBZ knows)
+        (NP
+          (NP (NN someone))
+          (SBAR
+            (WHNP (WP who))
+            (S
+              (VP (VBZ has)
+                (VP (VBN died))))))))
+    (, ,)
+    (NP (PRP I))
+    (VP (VBD said))
+    (. .)))
+
+cc(knows-3, But-1)
+nsubj(knows-3, everyone-2)
+ccomp(said-10, knows-3)
+dobj(knows-3, someone-4)
+nsubj(died-7, someone-4)
+ref(someone-4, who-5)
+aux(died-7, has-6)
+acl:relcl(someone-4, died-7)
+nsubj(said-10, I-9)
+root(ROOT-0, said-10)
+
+(ROOT
+  (SBARQ
+    (WHADVP (WRB Why))
+    (SQ (VBZ is)
+      (NP (PRP it))
+      (ADJP (RB so) (JJ hard)
+        (S
+          (VP (TO to)
+            (VP (VB think)
+              (PP (IN about)
+                (NP (VBG dying))))))))
+    (. ?)))
+
+advmod(hard-5, Why-1)
+cop(hard-5, is-2)
+nsubj(hard-5, it-3)
+nsubj(think-7, it-3)
+advmod(hard-5, so-4)
+root(ROOT-0, hard-5)
+mark(think-7, to-6)
+xcomp(hard-5, think-7)
+case(dying-9, about-8)
+nmod:about(think-7, dying-9)
+
+(ROOT
+  (S
+    (SBAR (IN Because) (, ,)
+      (S
+        (NP (NNP Morrie))
+        (VP (VBD continued))))
+    (, ,)
+    (NP
+      (NP (JJS most))
+      (PP (IN of)
+        (NP (PRP us))))
+    (ADVP (DT all))
+    (VP (VBP walk)
+      (PRT (RP around))
+      (SBAR (RB as) (IN if)
+        (S
+          (VP (VBD were)
+            (VP (VBG sleepwalking))))))
+    (. .)))
+
+mark(continued-4, Because-1)
+nsubj(continued-4, Morrie-3)
+advcl(walk-10, continued-4)
+nsubj(walk-10, most-6)
+case(us-8, of-7)
+nmod:of(most-6, us-8)
+advmod(walk-10, all-9)
+root(ROOT-0, walk-10)
+compound:prt(walk-10, around-11)
+mark(sleepwalking-15, as-12)
+mwe(as-12, if-13)
+aux(sleepwalking-15, were-14)
+advcl(walk-10, sleepwalking-15)
+
+(ROOT
+  (S
+    (NP (PRP We))
+    (ADVP (RB really))
+    (VP (VBP dont)
+      (NP (NN experience))
+      (ADVP
+        (NP (DT the) (NN world))
+        (RB fully))
+      (, ,)
+      (SBAR (IN because)
+        (S
+          (VP (VBD were)
+            (ADJP (RB half) (JJ asleep))
+            (, ,)
+            (S
+              (VP
+                (ADVP (RB automatically))
+                (VBG doing)
+                (NP
+                  (NP (DT the) (NNS things))
+                  (SBAR
+                    (S
+                      (NP (PRP we))
+                      (VP (VBP think)
+                        (SBAR
+                          (S
+                            (NP (PRP we))
+                            (VP (VBP have)
+                              (S
+                                (VP (TO to)
+                                  (VP (VB do)))))))))))))))))
+    (. .)))
+
+nsubj(dont-3, We-1)
+advmod(dont-3, really-2)
+root(ROOT-0, dont-3)
+dobj(dont-3, experience-4)
+det(world-6, the-5)
+nmod:npmod(fully-7, world-6)
+advmod(dont-3, fully-7)
+mark(asleep-12, because-9)
+cop(asleep-12, were-10)
+advmod(asleep-12, half-11)
+advcl(dont-3, asleep-12)
+advmod(doing-15, automatically-14)
+ccomp(asleep-12, doing-15)
+det(things-17, the-16)
+dobj(doing-15, things-17)
+nsubj(think-19, we-18)
+acl:relcl(things-17, think-19)
+nsubj(have-21, we-20)
+nsubj(do-23, we-20)
+ccomp(think-19, have-21)
+mark(do-23, to-22)
+xcomp(have-21, do-23)
+
+(ROOT
+  (S (CC And)
+    (S
+      (VP (VBG facing)
+        (NP (NN death))))
+    (VP (VBZ changes)
+      (NP (DT all))
+      (SBAR (IN that)
+        (S
+          (NP (PRP I))
+          (VP (VBD asked)))))
+    (. .)))
+
+cc(changes-4, And-1)
+csubj(changes-4, facing-2)
+dobj(facing-2, death-3)
+root(ROOT-0, changes-4)
+dobj(changes-4, all-5)
+mark(asked-8, that-6)
+nsubj(asked-8, I-7)
+ccomp(changes-4, asked-8)
+
+(ROOT
+  (S
+    (S
+      (S
+        (NP (PRP You))
+        (VP (VB strip)
+          (PRT (RP away))
+          (NP (PDT all) (DT that) (NN stuff))))
+      (CC and)
+      (S
+        (NP (PRP you))
+        (VP (VBP focus)
+          (PP (IN on)
+            (NP (DT the) (NNS essentials))))))
+    (, ,)
+    (NP (PRP he))
+    (VP (VBD said))
+    (. .)))
+
+nsubj(strip-2, You-1)
+ccomp(said-15, strip-2)
+compound:prt(strip-2, away-3)
+det:predet(stuff-6, all-4)
+det(stuff-6, that-5)
+dobj(strip-2, stuff-6)
+cc(strip-2, and-7)
+nsubj(focus-9, you-8)
+conj:and(strip-2, focus-9)
+ccomp(said-15, focus-9)
+case(essentials-12, on-10)
+det(essentials-12, the-11)
+nmod:on(focus-9, essentials-12)
+nsubj(said-15, he-14)
+root(ROOT-0, said-15)
+
+(ROOT
+  (S
+    (SBAR
+      (WHADVP (WRB When))
+      (S
+        (NP (PRP you))
+        (VP (VBP realize)
+          (SBAR
+            (S
+              (NP (PRP you))
+              (VP (VBP are)
+                (VP (VBG going)
+                  (S
+                    (VP (TO to)
+                      (VP (VB die)))))))))))
+    (, ,)
+    (NP (PRP you))
+    (VP (VBP see)
+      (NP (NN everything))
+      (ADVP (RB much) (RB differently)))
+    (. .)))
+
+advmod(realize-3, When-1)
+nsubj(realize-3, you-2)
+advcl(see-11, realize-3)
+nsubj(going-6, you-4)
+nsubj(die-8, you-4)
+aux(going-6, are-5)
+ccomp(realize-3, going-6)
+mark(die-8, to-7)
+xcomp(going-6, die-8)
+nsubj(see-11, you-10)
+root(ROOT-0, see-11)
+dobj(see-11, everything-12)
+advmod(differently-14, much-13)
+advmod(see-11, differently-14)
+
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (VBD sighed))
+    (. .)))
+
+nsubj(sighed-2, He-1)
+root(ROOT-0, sighed-2)
+
+(ROOT
+  (S
+    (S
+      (VP (VBN Learn)
+        (SBAR
+          (WHADVP (WRB how))
+          (S
+            (VP (TO to)
+              (VP (VB die)))))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (PRP you))
+      (VP (VBP learn)
+        (SBAR
+          (WHADVP (WRB how))
+          (S
+            (VP (TO to)
+              (VP (VB live)))))))
+    (. .)))
+
+root(ROOT-0, Learn-1)
+advmod(die-4, how-2)
+mark(die-4, to-3)
+ccomp(Learn-1, die-4)
+cc(Learn-1, and-6)
+nsubj(learn-8, you-7)
+conj:and(Learn-1, learn-8)
+advmod(live-11, how-9)
+mark(live-11, to-10)
+ccomp(learn-8, live-11)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBD noticed)
+      (SBAR (IN that)
+        (S
+          (NP (PRP he))
+          (VP (VBD quivered)
+            (ADVP (RB now))
+            (SBAR
+              (WHADVP (WRB when))
+              (S
+                (NP (PRP he))
+                (VP (VBD moved)
+                  (NP (PRP$ his) (NNS hands)))))))))
+    (. .)))
+
+nsubj(noticed-2, I-1)
+root(ROOT-0, noticed-2)
+mark(quivered-5, that-3)
+nsubj(quivered-5, he-4)
+ccomp(noticed-2, quivered-5)
+advmod(quivered-5, now-6)
+advmod(moved-9, when-7)
+nsubj(moved-9, he-8)
+advcl(quivered-5, moved-9)
+nmod:poss(hands-11, his-10)
+dobj(moved-9, hands-11)
+
+(ROOT
+  (S
+    (S
+      (NP (PRP$ His) (NNS glasses))
+      (VP (VBD hung)
+        (PP (IN around)
+          (NP (PRP$ his) (NN neck)))))
+    (, ,)
+    (CC and)
+    (S
+      (SBAR
+        (WHADVP (WRB when))
+        (S
+          (NP (PRP he))
+          (VP (VBD lifted)
+            (NP (PRP them))
+            (PP (TO to)
+              (NP (PRP$ his) (NNS eyes))))))
+      (, ,)
+      (NP (PRP they))
+      (VP (VBD slid)
+        (PP (IN around)
+          (NP (PRP$ his) (NNS temples)))
+        (SBAR (RB as) (IN if)
+          (S
+            (NP (PRP he))
+            (VP (VBD were)
+              (VP (VBG trying)
+                (S
+                  (VP (TO to)
+                    (VP (VB put)
+                      (NP (PRP them))
+                      (PP (IN on)
+                        (NP
+                          (NP (NN someone) (RB else))
+                          (PP (IN in)
+                            (NP (DT the) (NN dark))))))))))))))
+    (. .)))
+
+nmod:poss(glasses-2, His-1)
+nsubj(hung-3, glasses-2)
+root(ROOT-0, hung-3)
+case(neck-6, around-4)
+nmod:poss(neck-6, his-5)
+nmod:around(hung-3, neck-6)
+cc(hung-3, and-8)
+advmod(lifted-11, when-9)
+nsubj(lifted-11, he-10)
+advcl(slid-18, lifted-11)
+dobj(lifted-11, them-12)
+case(eyes-15, to-13)
+nmod:poss(eyes-15, his-14)
+nmod:to(lifted-11, eyes-15)
+nsubj(slid-18, they-17)
+conj:and(hung-3, slid-18)
+case(temples-21, around-19)
+nmod:poss(temples-21, his-20)
+nmod:around(slid-18, temples-21)
+mark(trying-26, as-22)
+mwe(as-22, if-23)
+nsubj(trying-26, he-24)
+nsubj(put-28, he-24)
+aux(trying-26, were-25)
+advcl(slid-18, trying-26)
+mark(put-28, to-27)
+xcomp(trying-26, put-28)
+dobj(put-28, them-29)
+case(someone-31, on-30)
+nmod:on(put-28, someone-31)
+advmod(someone-31, else-32)
+case(dark-35, in-33)
+det(dark-35, the-34)
+nmod:in(someone-31, dark-35)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBD reached)
+      (PRT (RP over))
+      (S
+        (VP (TO to)
+          (VP (VB help)
+            (VP (VB guide)
+              (NP (PRP them))
+              (PP (IN onto)
+                (NP (PRP$ his) (NNS ears))))))))
+    (. .)))
+
+nsubj(reached-2, I-1)
+nsubj(help-5, I-1)
+root(ROOT-0, reached-2)
+compound:prt(reached-2, over-3)
+mark(help-5, to-4)
+xcomp(reached-2, help-5)
+xcomp(help-5, guide-6)
+dobj(guide-6, them-7)
+case(ears-10, onto-8)
+nmod:poss(ears-10, his-9)
+nmod:onto(guide-6, ears-10)
+
+(ROOT
+  (S
+    (S
+      (VP (VB Thank)
+        (NP (PRP you))))
+    (, ,)
+    (NP (NNP Morrie))
+    (VP (VBN whispered))
+    (. .)))
+
+ccomp(whispered-5, Thank-1)
+dobj(Thank-1, you-2)
+nsubj(whispered-5, Morrie-4)
+root(ROOT-0, whispered-5)
+
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (VBD smiled)
+      (SBAR
+        (WHADVP (WRB when))
+        (S
+          (NP (PRP$ my) (NN hand))
+          (VP (VBD brushed)
+            (PRT (RP up))
+            (PP (IN against)
+              (NP (PRP$ his) (NN head)))))))
+    (. .)))
+
+nsubj(smiled-2, He-1)
+root(ROOT-0, smiled-2)
+advmod(brushed-6, when-3)
+nmod:poss(hand-5, my-4)
+nsubj(brushed-6, hand-5)
+advcl(smiled-2, brushed-6)
+compound:prt(brushed-6, up-7)
+case(head-10, against-8)
+nmod:poss(head-10, his-9)
+nmod:against(brushed-6, head-10)
+
+(ROOT
+  (S
+    (NP (DT The) (JJS slightest) (JJ human) (NN contact))
+    (VP (VBD was)
+      (NP (JJ immediate) (NN joy)))
+    (. .)))
+
+det(contact-4, The-1)
+amod(contact-4, slightest-2)
+amod(contact-4, human-3)
+nsubj(joy-7, contact-4)
+cop(joy-7, was-5)
+amod(joy-7, immediate-6)
+root(ROOT-0, joy-7)
+
+(ROOT
+  (S
+    (S
+      (ADJP (JJ Mitch)))
+    (, ,)
+    (NP (PRP he))
+    (VP (VBD said))
+    (. .)))
+
+ccomp(said-4, Mitch-1)
+nsubj(said-4, he-3)
+root(ROOT-0, said-4)
+
+(ROOT
+  (SQ (MD Can)
+    (NP (PRP I))
+    (VP (VB tell)
+      (NP (PRP you))
+      (NP (NN something)))
+    (. ?)))
+
+aux(tell-3, Can-1)
+nsubj(tell-3, I-2)
+root(ROOT-0, tell-3)
+iobj(tell-3, you-4)
+dobj(tell-3, something-5)
+
+(ROOT
+  (S
+    (PP (IN Of)
+      (NP (NN course)))
+    (, ,)
+    (NP (PRP I))
+    (VP (VBD replied))
+    (. .)))
+
+case(course-2, Of-1)
+nmod:of(replied-5, course-2)
+nsubj(replied-5, I-4)
+root(ROOT-0, replied-5)
+
+(ROOT
+  (S
+    (S
+      (NP (PRP You))
+      (VP (MD might) (RB not)
+        (VP (VB like)
+          (NP (PRP it)))))
+    (, ,)
+    (NP (PRP he))
+    (VP (VBD cautioned))
+    (. .)))
+
+nsubj(like-4, You-1)
+aux(like-4, might-2)
+neg(like-4, not-3)
+ccomp(cautioned-8, like-4)
+dobj(like-4, it-5)
+nsubj(cautioned-8, he-7)
+root(ROOT-0, cautioned-8)
+
+(ROOT
+  (FRAG
+    (SBAR
+      (WHADVP (WRB Why) (RB not))
+      (S
+        (NP (PRP I))
+        (VP (VBD asked))))
+    (. .)))
+
+advmod(not-2, Why-1)
+advmod(asked-4, not-2)
+nsubj(asked-4, I-3)
+root(ROOT-0, asked-4)
+
+(ROOT
+  (S
+    (INTJ (UH Well))
+    (, ,)
+    (NP (DT the) (NN truth))
+    (VP (VBZ is) (, ,)
+      (SBAR
+        (S
+          (NP (PRP he))
+          (VP (VBD began) (, ,)
+            (SBAR (IN if)
+              (S
+                (S
+                  (ADVP (RB only))
+                  (NP (PRP you))
+                  (VP
+                    (VP
+                      (ADVP (RB really))
+                      (VBD listened)
+                      (PP (TO to)
+                        (NP
+                          (NP (DT that) (NN bird))
+                          (PP (IN on)
+                            (NP (PRP$ your) (NN shoulder))))))
+                    (CC and)
+                    (VP (VBD accepted)
+                      (SBAR (IN that)
+                        (S
+                          (NP (PRP you))
+                          (VP (MD could)
+                            (VP (VB die)
+                              (PP (IN at)
+                                (NP (DT any) (NN time))))))))))
+                (, ,) (RB then)
+                (S
+                  (NP (PRP you))
+                  (VP (MD might) (RB not)
+                    (VP (VB be)
+                      (ADJP (RB as) (JJ ambitious))
+                      (SBAR (IN as)
+                        (S
+                          (NP (PRP you))
+                          (VP (VBP are)))))))))))))
+    (. .)))
+
+discourse(is-5, Well-1)
+det(truth-4, the-3)
+nsubj(is-5, truth-4)
+root(ROOT-0, is-5)
+nsubj(began-8, he-7)
+ccomp(is-5, began-8)
+mark(listened-14, if-10)
+advmod(listened-14, only-11)
+nsubj(listened-14, you-12)
+nsubj(accepted-22, you-12)
+advmod(listened-14, really-13)
+advcl(began-8, listened-14)
+case(bird-17, to-15)
+det(bird-17, that-16)
+nmod:to(listened-14, bird-17)
+case(shoulder-20, on-18)
+nmod:poss(shoulder-20, your-19)
+nmod:on(bird-17, shoulder-20)
+cc(listened-14, and-21)
+advcl(began-8, accepted-22)
+conj:and(listened-14, accepted-22)
+mark(die-26, that-23)
+nsubj(die-26, you-24)
+aux(die-26, could-25)
+ccomp(accepted-22, die-26)
+case(time-29, at-27)
+det(time-29, any-28)
+nmod:at(die-26, time-29)
+advmod(ambitious-37, then-31)
+nsubj(ambitious-37, you-32)
+aux(ambitious-37, might-33)
+neg(ambitious-37, not-34)
+cop(ambitious-37, be-35)
+advmod(ambitious-37, as-36)
+parataxis(listened-14, ambitious-37)
+mark(are-40, as-38)
+nsubj(are-40, you-39)
+advcl(ambitious-37, are-40)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBD forced)
+      (NP (DT a) (JJ small) (NN grin)))
+    (. .)))
+
+nsubj(forced-2, I-1)
+root(ROOT-0, forced-2)
+det(grin-5, a-3)
+amod(grin-5, small-4)
+dobj(forced-2, grin-5)
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NNS things))
+      (SBAR
+        (S
+          (NP (PRP you))
+          (VP (VBP spend)
+            (SBAR (IN so)
+              (S
+                (NP (JJ much) (NN time))
+                (VP (VBP onXall)
+                  (NP
+                    (NP (DT this) (NN work))
+                    (SBAR
+                      (S
+                        (NP (PRP you))
+                        (VP (VBP doXmight) (RB not)
+                          (VP (VB seem)
+                            (ADJP (RB as) (JJ important))))))))))))))
+    (, ,)
+    (NP (PRP he))
+    (VP (VBD continued))
+    (. .)))
+
+det(things-2, The-1)
+nsubj(continued-19, things-2)
+nsubj(spend-4, you-3)
+acl:relcl(things-2, spend-4)
+mark(onXall-8, so-5)
+amod(time-7, much-6)
+nsubj(onXall-8, time-7)
+advcl(spend-4, onXall-8)
+det(work-10, this-9)
+dobj(onXall-8, work-10)
+nsubj(doXmight-12, you-11)
+acl:relcl(work-10, doXmight-12)
+neg(doXmight-12, not-13)
+dep(doXmight-12, seem-14)
+advmod(important-16, as-15)
+xcomp(seem-14, important-16)
+nsubj(continued-19, he-18)
+root(ROOT-0, continued-19)
+
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (MD might)
+      (VP (VB have)
+        (S
+          (VP (TO to)
+            (VP (VB make)
+              (NP (NN room))
+              (PP (IN for)
+                (NP (DT some) (JJR more) (JJ spiritual) (NNS things))))))))
+    (. .)))
+
+nsubj(have-3, You-1)
+nsubj(make-5, You-1)
+aux(have-3, might-2)
+root(ROOT-0, have-3)
+mark(make-5, to-4)
+xcomp(have-3, make-5)
+dobj(make-5, room-6)
+case(things-11, for-7)
+det(things-11, some-8)
+amod(things-11, more-9)
+amod(things-11, spiritual-10)
+nmod:for(make-5, things-11)
+
+(ROOT
+  (S
+    (NP (JJ Spiritual) (NNS things))
+    (NP (PRP I))
+    (VP (VBD asked))
+    (. .)))
+
+amod(things-2, Spiritual-1)
+nsubj(asked-4, things-2)
+nsubj(asked-4, I-3)
+root(ROOT-0, asked-4)
+
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (VBP hate)
+      (SBAR (IN that)
+        (S
+          (NP (NN word) (, ,) (JJ dont) (NN you) (NN Morrie))
+          (VP (VBD said)))))
+    (. .)))
+
+nsubj(hate-2, You-1)
+root(ROOT-0, hate-2)
+mark(said-9, that-3)
+compound(Morrie-8, word-4)
+amod(Morrie-8, dont-6)
+compound(Morrie-8, you-7)
+nsubj(said-9, Morrie-8)
+ccomp(hate-2, said-9)
+
+(ROOT
+  (S
+    (VP (VB Spiritual))
+    (. .)))
+
+root(ROOT-0, Spiritual-1)
+
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (VBP think)
+      (NP (PRP$ its) (JJ touchy-feely) (NN stuff)))
+    (. .)))
+
+nsubj(think-2, You-1)
+root(ROOT-0, think-2)
+nmod:poss(stuff-5, its-3)
+amod(stuff-5, touchy-feely-4)
+dobj(think-2, stuff-5)
+
+(ROOT
+  (S
+    (INTJ (UH Well))
+    (, ,)
+    (NP (PRP I))
+    (VP (VBD said))
+    (. .)))
+
+discourse(said-4, Well-1)
+nsubj(said-4, I-3)
+root(ROOT-0, said-4)
+
+(ROOT
+  (S
+    (S
+      (NP (PRP He))
+      (VP (VBD tried)
+        (PP (TO to)
+          (NP
+            (NP (NN wink))
+            (, ,)
+            (NP (DT a) (JJ bad) (NN try))))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (PRP I))
+      (VP (VBP burst)
+        (PP (IN into)
+          (NP (NN laughter)))))
+    (. .)))
+
+nsubj(tried-2, He-1)
+root(ROOT-0, tried-2)
+case(wink-4, to-3)
+nmod:to(tried-2, wink-4)
+det(try-8, a-6)
+amod(try-8, bad-7)
+appos(wink-4, try-8)
+cc(tried-2, and-10)
+nsubj(burst-12, I-11)
+conj:and(tried-2, burst-12)
+case(laughter-14, into-13)
+nmod:into(burst-12, laughter-14)
+
+(ROOT
+  (S
+    (NP (NNP Mitch))
+    (PRN (, ,)
+      (S
+        (NP (PRP he))
+        (VP (VBD said) (, ,)
+          (S
+            (VP (VBG laughing)
+              (PRT (RP along))))))
+      (, ,))
+    (ADVP (RB even))
+    (NP (PRP I))
+    (VP (VBP dont)
+      (VP (VB know)
+        (SBAR
+          (WHNP (WP what))
+          (S
+            (NP (JJ spiritual) (NN development))
+            (ADVP (RB really))
+            (VP (VBZ means))))))
+    (. .)))
+
+nsubj(dont-11, Mitch-1)
+nsubj(said-4, he-3)
+parataxis(dont-11, said-4)
+xcomp(said-4, laughing-6)
+compound:prt(laughing-6, along-7)
+advmod(dont-11, even-9)
+nsubj(dont-11, I-10)
+root(ROOT-0, dont-11)
+xcomp(dont-11, know-12)
+dobj(means-17, what-13)
+amod(development-15, spiritual-14)
+nsubj(means-17, development-15)
+advmod(means-17, really-16)
+ccomp(know-12, means-17)
+
+(ROOT
+  (S (CC But)
+    (NP (PRP I))
+    (VP (VBP do)
+      (SBAR
+        (S
+          (S
+            (VP (VB know)))
+          (VP (VBD were)
+            (VP (VBN deficient)
+              (PP (IN in)
+                (NP (DT some) (NN way))))))))
+    (. .)))
+
+cc(do-3, But-1)
+nsubj(do-3, I-2)
+root(ROOT-0, do-3)
+csubjpass(deficient-6, know-4)
+auxpass(deficient-6, were-5)
+ccomp(do-3, deficient-6)
+case(way-9, in-7)
+det(way-9, some-8)
+nmod:in(deficient-6, way-9)
+
+(ROOT
+  (S
+    (S
+      (NP (PRP We))
+      (VP (VBP are)
+        (ADJP (RB too) (VBN involved)
+          (PP (IN in)
+            (NP (JJ materialistic) (NNS things))))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (PRP they))
+      (VP (VBP dont)
+        (VP (VB satisfy)
+          (NP (PRP us)))))
+    (. .)))
+
+nsubjpass(involved-4, We-1)
+auxpass(involved-4, are-2)
+advmod(involved-4, too-3)
+root(ROOT-0, involved-4)
+case(things-7, in-5)
+amod(things-7, materialistic-6)
+nmod:in(involved-4, things-7)
+cc(involved-4, and-9)
+nsubj(dont-11, they-10)
+conj:and(involved-4, dont-11)
+xcomp(dont-11, satisfy-12)
+dobj(satisfy-12, us-13)
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (VBG loving) (NNS relationships))
+      (SBAR
+        (S
+          (NP (PRP we))
+          (VP (VBP have) (, ,)
+            (PP
+              (NP (DT the) (NN universe))
+              (IN around)
+              (NP (PRP us)))
+            (, ,)
+            (S
+              (NP (PRP we))
+              (VP (VB take)
+                (NP (DT these) (NNS things))
+                (PP (IN for))))))))
+    (VP (VBD granted))
+    (. .)))
+
+det(relationships-3, The-1)
+amod(relationships-3, loving-2)
+nsubj(granted-17, relationships-3)
+nsubj(have-5, we-4)
+acl:relcl(relationships-3, have-5)
+det(universe-8, the-7)
+nmod:around(have-5, universe-8)
+case(universe-8, around-9)
+dep(universe-8, us-10)
+nsubj(take-13, we-12)
+ccomp(have-5, take-13)
+det(things-15, these-14)
+dobj(take-13, things-15)
+nmod(take-13, for-16)
+root(ROOT-0, granted-17)
+
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (VBD nodded)
+      (PP (IN toward)
+        (NP
+          (NP (DT the) (NN window))
+          (PP (IN with)
+            (NP (DT the) (NN sunshine) (NN streaming)))))
+      (PP (IN in)))
+    (. .)))
+
+nsubj(nodded-2, He-1)
+root(ROOT-0, nodded-2)
+case(window-5, toward-3)
+det(window-5, the-4)
+nmod:in(nodded-2, window-5)
+case(streaming-9, with-6)
+det(streaming-9, the-7)
+compound(streaming-9, sunshine-8)
+nmod:with(window-5, streaming-9)
+case(window-5, in-10)
+
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (VBP see)
+      (NP (DT that)))
+    (. ?)))
+
+nsubj(see-2, You-1)
+root(ROOT-0, see-2)
+dobj(see-2, that-3)
+
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (MD can)
+      (VP (VB go)
+        (PRT (RP out))
+        (ADVP
+          (NP
+            (NP (RB there))
+            (PRN (, ,)
+              (ADVP (RB outside))
+              (, ,)))
+          (RB anytime))))
+    (. .)))
+
+nsubj(go-3, You-1)
+aux(go-3, can-2)
+root(ROOT-0, go-3)
+compound:prt(go-3, out-4)
+nmod:npmod(anytime-9, there-5)
+dep(there-5, outside-7)
+advmod(go-3, anytime-9)
+
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (MD can)
+      (VP
+        (VP (VB run)
+          (PRT (RP up)
+            (CC and)
+            (RP down))
+          (NP (DT the) (NN block)))
+        (CC and)
+        (VP (VB go)
+          (ADJP (JJ crazy)))))
+    (. .)))
+
+nsubj(run-3, You-1)
+nsubj(go-10, You-1)
+aux(run-3, can-2)
+root(ROOT-0, run-3)
+compound:prt(run-3, up-4)
+cc(up-4, and-5)
+dep(up-4, down-6)
+det(block-8, the-7)
+dobj(run-3, block-8)
+cc(run-3, and-9)
+conj:and(run-3, go-10)
+xcomp(go-10, crazy-11)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (ADVP (RB cant))
+    (VP (VBP do)
+      (NP (DT that)))
+    (. .)))
+
+nsubj(do-3, I-1)
+advmod(do-3, cant-2)
+root(ROOT-0, do-3)
+dobj(do-3, that-4)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (ADVP (RB cant))
+    (VP (VBP go)
+      (PRT (RP out)))
+    (. .)))
+
+nsubj(go-3, I-1)
+advmod(go-3, cant-2)
+root(ROOT-0, go-3)
+compound:prt(go-3, out-4)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (ADVP (RB cant))
+    (VP (VBP run))
+    (. .)))
+
+nsubj(run-3, I-1)
+advmod(run-3, cant-2)
+root(ROOT-0, run-3)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (MD cant)
+      (VP (VB be)
+        (ADVP (RB out) (RB there)
+          (PP (IN without)
+            (NP
+              (NP (NN fear))
+              (PP (IN of)
+                (S
+                  (VP (VBG getting)
+                    (ADJP (JJ sick))))))))))
+    (. .)))
+
+nsubj(be-3, I-1)
+aux(be-3, cant-2)
+root(ROOT-0, be-3)
+advmod(there-5, out-4)
+advmod(be-3, there-5)
+case(fear-7, without-6)
+nmod:without(there-5, fear-7)
+mark(getting-9, of-8)
+acl(fear-7, getting-9)
+xcomp(getting-9, sick-10)
+
+(ROOT
+  (S (CC But)
+    (NP (PRP you))
+    (VP (VBP know)
+      (NP (WP what)))
+    (. ?)))
+
+cc(know-3, But-1)
+nsubj(know-3, you-2)
+root(ROOT-0, know-3)
+dobj(know-3, what-4)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP appreciate)
+      (ADVP
+        (NP (DT that) (NN window))
+        (RBR more)
+        (SBAR (IN than)
+          (S
+            (NP (PRP you))
+            (VP (VBP do))))))
+    (. .)))
+
+nsubj(appreciate-2, I-1)
+root(ROOT-0, appreciate-2)
+det(window-4, that-3)
+nmod:npmod(more-5, window-4)
+advmod(appreciate-2, more-5)
+mark(do-8, than-6)
+nsubj(do-8, you-7)
+dep(more-5, do-8)
+
+(ROOT
+  (S
+    (VP (VB Appreciate)
+      (NP (PRP it))
+      (SBAR
+        (S
+          (NP (PRP I))
+          (VP (VBD asked)))))
+    (. .)))
+
+root(ROOT-0, Appreciate-1)
+dobj(Appreciate-1, it-2)
+nsubj(asked-4, I-3)
+dep(Appreciate-1, asked-4)
+
+(ROOT
+  (S
+    (INTJ (UH Yes))
+    (, ,)
+    (NP (NNP Morrie))
+    (VP (VBD said))
+    (. .)))
+
+discourse(said-4, Yes-1)
+nsubj(said-4, Morrie-3)
+root(ROOT-0, said-4)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP look)
+      (PRT (RP out))
+      (NP
+        (NP (DT that) (NN window))
+        (NP (DT every) (NN day))))
+    (. .)))
+
+nsubj(look-2, I-1)
+root(ROOT-0, look-2)
+compound:prt(look-2, out-3)
+det(window-5, that-4)
+dobj(look-2, window-5)
+det(day-7, every-6)
+dep(window-5, day-7)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP notice)
+      (UCP
+        (NP
+          (NP (DT the) (NN change))
+          (PP (IN in)
+            (NP (DT the) (NNS trees))))
+        (CC and)
+        (SBAR
+          (WHADJP (WRB how) (JJ strong))
+          (S
+            (NP (DT the) (NN wind))
+            (VP (VBZ is)
+              (VP (VBG blowing)))))))
+    (. .)))
+
+nsubj(notice-2, I-1)
+root(ROOT-0, notice-2)
+det(change-4, the-3)
+dobj(notice-2, change-4)
+case(trees-7, in-5)
+det(trees-7, the-6)
+nmod:in(change-4, trees-7)
+cc(change-4, and-8)
+advmod(strong-10, how-9)
+dep(blowing-14, strong-10)
+det(wind-12, the-11)
+nsubj(blowing-14, wind-12)
+aux(blowing-14, is-13)
+dobj(notice-2, blowing-14)
+conj:and(change-4, blowing-14)
+
+(ROOT
+  (S
+    (NP (PRP$ Its))
+    (VP (VBP like)
+      (SBAR
+        (S
+          (NP (PRP I))
+          (VP (MD can)
+            (VP (VB see)
+              (NP
+                (NP (NN time))
+                (VP (VBG passing)
+                  (PP (IN through)
+                    (NP (DT that) (NN windowpane))))))))))
+    (. .)))
+
+nsubj(like-2, Its-1)
+root(ROOT-0, like-2)
+nsubj(see-5, I-3)
+aux(see-5, can-4)
+ccomp(like-2, see-5)
+dobj(see-5, time-6)
+acl(time-6, passing-7)
+case(windowpane-10, through-8)
+det(windowpane-10, that-9)
+nmod:through(passing-7, windowpane-10)
+
+(ROOT
+  (S
+    (SBAR (IN Because)
+      (S
+        (NP (PRP I))
+        (VP (VBP know)
+          (SBAR
+            (S
+              (NP (PRP$ my) (NN time))
+              (VP (VBZ is)
+                (ADJP (RB almost) (VBN done))))))))
+    (, ,)
+    (NP (PRP I))
+    (VP (VBP am)
+      (VP (VBN drawn)
+        (PP (TO to)
+          (NP
+            (NP (NN nature))
+            (PP (IN like)
+              (NP (NNP Im)))))
+        (S
+          (VP (VBG seeing)
+            (NP (PRP it))
+            (PP (IN for)
+              (NP (DT the) (JJ first) (NN time)))))))
+    (. .)))
+
+mark(know-3, Because-1)
+nsubj(know-3, I-2)
+advcl(drawn-12, know-3)
+nmod:poss(time-5, my-4)
+nsubjpass(done-8, time-5)
+auxpass(done-8, is-6)
+advmod(done-8, almost-7)
+ccomp(know-3, done-8)
+nsubjpass(drawn-12, I-10)
+auxpass(drawn-12, am-11)
+root(ROOT-0, drawn-12)
+case(nature-14, to-13)
+nmod:to(drawn-12, nature-14)
+case(Im-16, like-15)
+nmod:like(nature-14, Im-16)
+xcomp(drawn-12, seeing-17)
+dobj(seeing-17, it-18)
+case(time-22, for-19)
+det(time-22, the-20)
+amod(time-22, first-21)
+nmod:for(seeing-17, time-22)
+
+(ROOT
+  (S
+    (S
+      (NP (PRP He))
+      (VP (VBD stopped)))
+    (, ,)
+    (CC and)
+    (S
+      (PP (IN for)
+        (NP (DT a) (NN moment)))
+      (NP (PRP we) (DT both))
+      (VP (VBD looked)
+        (PRT (RP out))
+        (NP (DT the) (NN window))))
+    (. .)))
+
+nsubj(stopped-2, He-1)
+root(ROOT-0, stopped-2)
+cc(stopped-2, and-4)
+case(moment-7, for-5)
+det(moment-7, a-6)
+nmod:for(looked-10, moment-7)
+nsubj(looked-10, we-8)
+det(we-8, both-9)
+conj:and(stopped-2, looked-10)
+compound:prt(looked-10, out-11)
+det(window-13, the-12)
+dobj(looked-10, window-13)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBD tried)
+      (S
+        (VP (TO to)
+          (VP (VB see)
+            (SBAR
+              (WHNP (WP what))
+              (S
+                (NP (PRP he))
+                (VP (VBD saw))))))))
+    (. .)))
+
+nsubj(tried-2, I-1)
+nsubj(see-4, I-1)
+root(ROOT-0, tried-2)
+mark(see-4, to-3)
+xcomp(tried-2, see-4)
+dobj(saw-7, what-5)
+nsubj(saw-7, he-6)
+ccomp(see-4, saw-7)
+
+(ROOT
+  (S
+    (S
+      (NP (PRP I))
+      (VP (VBD tried)
+        (S
+          (VP (TO to)
+            (VP (VB see)
+              (NP (NN time)
+                (CC and)
+                (NNS seasons)))))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (PRP$ my) (NN life))
+      (VP (VBD passed)
+        (PP (IN in)
+          (NP (JJ slow) (NN motion)))))
+    (. .)))
+
+nsubj(tried-2, I-1)
+nsubj(see-4, I-1)
+root(ROOT-0, tried-2)
+mark(see-4, to-3)
+xcomp(tried-2, see-4)
+dobj(see-4, time-5)
+cc(time-5, and-6)
+dobj(see-4, seasons-7)
+conj:and(time-5, seasons-7)
+cc(tried-2, and-9)
+nmod:poss(life-11, my-10)
+nsubj(passed-12, life-11)
+conj:and(tried-2, passed-12)
+case(motion-15, in-13)
+amod(motion-15, slow-14)
+nmod:in(passed-12, motion-15)
+
+(ROOT
+  (S
+    (NP (NNP Morrie))
+    (VP
+      (VP (VBD dropped)
+        (NP (PRP$ his) (NN head))
+        (ADVP (RB slightly)))
+      (CC and)
+      (VP (VBD curled)
+        (NP (PRP it))
+        (PP (IN toward)
+          (NP (PRP$ his) (NN shoulder)))))
+    (. .)))
+
+nsubj(dropped-2, Morrie-1)
+nsubj(curled-7, Morrie-1)
+root(ROOT-0, dropped-2)
+nmod:poss(head-4, his-3)
+dobj(dropped-2, head-4)
+advmod(dropped-2, slightly-5)
+cc(dropped-2, and-6)
+conj:and(dropped-2, curled-7)
+dobj(curled-7, it-8)
+case(shoulder-11, toward-9)
+nmod:poss(shoulder-11, his-10)
+nmod:toward(curled-7, shoulder-11)
+
+(ROOT
+  (S
+    (S
+      (VP (NNP Is)
+        (S
+          (NP (PRP it))
+          (NP (NN today) (, ,) (JJ little) (NN bird)))))
+    (NP (PRP he))
+    (VP (VBD asked))
+    (. .)))
+
+dep(asked-8, Is-1)
+nsubj(bird-6, it-2)
+compound(bird-6, today-3)
+amod(bird-6, little-5)
+xcomp(Is-1, bird-6)
+nsubj(asked-8, he-7)
+root(ROOT-0, asked-8)
+
+(ROOT
+  (SQ (VBZ Is)
+    (NP (PRP it))
+    (NP (NN today))
+    (. ?)))
+
+cop(today-3, Is-1)
+nsubj(today-3, it-2)
+root(ROOT-0, today-3)
+
+(ROOT
+  (S
+    (VP (VBN XAdapted)
+      (PP (IN from)
+        (NP (NNS tuesdays)))
+      (PP (IN with)
+        (NP (NNP Morrie)))
+      (PP (IN by)
+        (NP (NNP Mitch) (NNP Albom))))
+    (. .)))
+
+root(ROOT-0, XAdapted-1)
+case(tuesdays-3, from-2)
+nmod:from(XAdapted-1, tuesdays-3)
+case(Morrie-5, with-4)
+nmod:with(XAdapted-1, Morrie-5)
+case(Albom-8, by-6)
+compound(Albom-8, Mitch-7)
+nmod:by(XAdapted-1, Albom-8)
+

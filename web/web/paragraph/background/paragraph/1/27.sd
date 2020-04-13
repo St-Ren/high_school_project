@@ -1,0 +1,1293 @@
+(ROOT
+  (S
+    (NP (NNP Table))
+    (VP (VBZ Talk))
+    (. .)))
+
+nsubj(Talk-2, Table-1)
+root(ROOT-0, Talk-2)
+
+(ROOT
+  (S
+    (NP (NNP Meg)
+      (CC and)
+      (NNP Ted))
+    (VP (VBP are)
+      (ADVP (IN out)
+        (PP (IN for)
+          (NP (NN lunch))))
+      (PP (IN at)
+        (NP (DT a) (JJ new) (NN restaurant))))
+    (. .)))
+
+nsubj(restaurant-11, Meg-1)
+cc(Meg-1, and-2)
+conj:and(Meg-1, Ted-3)
+nsubj(restaurant-11, Ted-3)
+cop(restaurant-11, are-4)
+advmod(restaurant-11, out-5)
+case(lunch-7, for-6)
+nmod:for(out-5, lunch-7)
+case(restaurant-11, at-8)
+det(restaurant-11, a-9)
+amod(restaurant-11, new-10)
+root(ROOT-0, restaurant-11)
+
+(ROOT
+  (FRAG
+    (NP (NNP Meg))
+    (: :)
+    (S
+      (NP (NNP Ive))
+      (VP (VBD heard)
+        (NP
+          (NP (DT a) (NN lot))
+          (PP (IN of)
+            (NP (JJ good) (NNS things))))
+        (PP (IN about)
+          (NP
+            (NP (DT this) (NN restaurant))
+            (, ,) (RB especially)
+            (NP (DT the) (NN food))))))
+    (. .)))
+
+root(ROOT-0, Meg-1)
+nsubj(heard-4, Ive-3)
+parataxis(Meg-1, heard-4)
+det(lot-6, a-5)
+dobj(heard-4, lot-6)
+case(things-9, of-7)
+amod(things-9, good-8)
+nmod:of(lot-6, things-9)
+case(restaurant-12, about-10)
+det(restaurant-12, this-11)
+nmod:about(heard-4, restaurant-12)
+advmod(restaurant-12, especially-14)
+det(food-16, the-15)
+dep(restaurant-12, food-16)
+
+(ROOT
+  (S
+    (NP (NNP Ted))
+    (: :)
+    (NP (CC And)
+      (NP
+        (NP (DT the) (NN service))
+        (, ,)
+        (ADVP (RB too))))
+    (. .)))
+
+dep(service-5, Ted-1)
+cc(service-5, And-3)
+det(service-5, the-4)
+root(ROOT-0, service-5)
+advmod(service-5, too-7)
+
+(ROOT
+  (FRAG
+    (NP (NNP Meg))
+    (: :)
+    (S
+      (NP (NNP Lets))
+      (VP (VBP find)
+        (PRT (RP out))
+        (SBAR (IN if)
+          (S
+            (NP (DT the) (NN food))
+            (ADVP (RB here))
+            (VP (VBZ is)
+              (ADJP (RB as) (JJ good)
+                (PP (IN as)
+                  (NP
+                    (NP (DT that))
+                    (PP (IN at)
+                      (NP (NNP Super) (NNP Restaurant)))))))))))
+    (. .)))
+
+root(ROOT-0, Meg-1)
+nsubj(find-4, Lets-3)
+parataxis(Meg-1, find-4)
+compound:prt(find-4, out-5)
+mark(good-12, if-6)
+det(food-8, the-7)
+nsubj(good-12, food-8)
+advmod(good-12, here-9)
+cop(good-12, is-10)
+advmod(good-12, as-11)
+advcl(find-4, good-12)
+case(that-14, as-13)
+nmod:as(good-12, that-14)
+case(Restaurant-17, at-15)
+compound(Restaurant-17, Super-16)
+nmod:at(that-14, Restaurant-17)
+
+(ROOT
+  (FRAG
+    (NP (NNP Ted))
+    (: :)
+    (S
+      (NP (NNP Super) (NNP Restaurant))
+      (VP (VBZ is)
+        (NP (PRP$ our) (NN favorite))))
+    (. .)))
+
+root(ROOT-0, Ted-1)
+compound(Restaurant-4, Super-3)
+nsubj(favorite-7, Restaurant-4)
+cop(favorite-7, is-5)
+nmod:poss(favorite-7, our-6)
+parataxis(Ted-1, favorite-7)
+
+(ROOT
+  (FRAG
+    (NP (NNP Meg))
+    (: :)
+    (S (CC And)
+      (ADVP (RB also))
+      (NP (DT the) (JJS best))
+      (VP (VBZ restaurant)
+        (PP (IN in)
+          (NP (NN town)))))
+    (. !)))
+
+root(ROOT-0, Meg-1)
+cc(restaurant-7, And-3)
+advmod(restaurant-7, also-4)
+det(best-6, the-5)
+nsubj(restaurant-7, best-6)
+parataxis(Meg-1, restaurant-7)
+case(town-9, in-8)
+nmod:in(restaurant-7, town-9)
+
+(ROOT
+  (NP
+    (NP (NNP Waiter))
+    (: :)
+    (NP (NNP Hello))
+    (. !)))
+
+root(ROOT-0, Waiter-1)
+dep(Waiter-1, Hello-3)
+
+(ROOT
+  (S
+    (VP (VB Welcome)
+      (PP (TO to)
+        (NP (NNP Joy) (NNP Restaurant))))
+    (. .)))
+
+root(ROOT-0, Welcome-1)
+case(Restaurant-4, to-2)
+compound(Restaurant-4, Joy-3)
+nmod:to(Welcome-1, Restaurant-4)
+
+(ROOT
+  (SQ (VBP Have)
+    (NP (PRP you))
+    (VP (VBN made)
+      (NP (DT a) (NN reservation)))
+    (. ?)))
+
+aux(made-3, Have-1)
+nsubj(made-3, you-2)
+root(ROOT-0, made-3)
+det(reservation-5, a-4)
+dobj(made-3, reservation-5)
+
+(ROOT
+  (S
+    (NP (NNP May))
+    (NP (PRP I))
+    (VP (VBP have)
+      (NP
+        (NP (DT a) (NN table))
+        (PP (IN for)
+          (NP (CD two)))
+        (PP (IN in)
+          (NP (DT the) (JJ non-smoking) (NN area)))))
+    (. ?)))
+
+nmod:tmod(have-3, May-1)
+nsubj(have-3, I-2)
+root(ROOT-0, have-3)
+det(table-5, a-4)
+dobj(have-3, table-5)
+case(two-7, for-6)
+nmod:for(table-5, two-7)
+case(area-11, in-8)
+det(area-11, the-9)
+amod(area-11, non-smoking-10)
+nmod:in(table-5, area-11)
+
+(ROOT
+  (NP
+    (NP (NNP Waiter))
+    (: :)
+    (S
+      (ADVP (RB Yes))
+      (, ,)
+      (NP (NN weve))
+      (VP (VBD got)
+        (SBAR
+          (S
+            (NP (PRP one))
+            (VP (VBD left))))))
+    (. .)))
+
+root(ROOT-0, Waiter-1)
+advmod(got-6, Yes-3)
+nsubj(got-6, weve-5)
+parataxis(Waiter-1, got-6)
+nsubj(left-8, one-7)
+ccomp(got-6, left-8)
+
+(ROOT
+  (S
+    (INTJ (UH Please))
+    (VP (VB follow)
+      (NP (PRP me)))
+    (. .)))
+
+discourse(follow-2, Please-1)
+root(ROOT-0, follow-2)
+dobj(follow-2, me-3)
+
+(ROOT
+  (S
+    (SBAR (IN After)
+      (S
+        (NP (NNP Meg)
+          (CC and)
+          (NNP Ted))
+        (VP (VBP take)
+          (NP (PRP$ their) (NNS seats)))))
+    (, ,)
+    (NP (DT another) (NN waiter))
+    (VP (VBZ approaches)
+      (NP (PRP$ their) (NN table)))
+    (. .)))
+
+mark(take-5, After-1)
+nsubj(take-5, Meg-2)
+cc(Meg-2, and-3)
+conj:and(Meg-2, Ted-4)
+nsubj(take-5, Ted-4)
+advcl(approaches-11, take-5)
+nmod:poss(seats-7, their-6)
+dobj(take-5, seats-7)
+det(waiter-10, another-9)
+nsubj(approaches-11, waiter-10)
+root(ROOT-0, approaches-11)
+nmod:poss(table-13, their-12)
+dobj(approaches-11, table-13)
+
+(ROOT
+  (NP
+    (NP (NNP Waiter))
+    (: :)
+    (NP
+      (NP (NNP May))
+      (SBAR
+        (S
+          (NP (PRP I))
+          (VP (VBP take)
+            (NP (PRP$ your) (NN order))
+            (ADVP (RB now))))))
+    (. ?)))
+
+root(ROOT-0, Waiter-1)
+dep(Waiter-1, May-3)
+nsubj(take-5, I-4)
+acl:relcl(May-3, take-5)
+nmod:poss(order-7, your-6)
+dobj(take-5, order-7)
+advmod(take-5, now-8)
+
+(ROOT
+  (NP
+    (NP (NNP Ted))
+    (: :)
+    (NP (PRP$ Its)
+      (NP
+        (NP (PRP$ our) (JJ first) (NN time))
+        (ADVP (RB here))))
+    (. .)))
+
+root(ROOT-0, Ted-1)
+nmod:poss(time-6, Its-3)
+nmod:poss(time-6, our-4)
+amod(time-6, first-5)
+dep(Ted-1, time-6)
+advmod(time-6, here-7)
+
+(ROOT
+  (SQ (MD Can)
+    (NP (PRP you))
+    (VP (VB recommend)
+      (NP (DT some) (NNS dishes))
+      (PP (TO to)
+        (NP (PRP us))))
+    (. ?)))
+
+aux(recommend-3, Can-1)
+nsubj(recommend-3, you-2)
+root(ROOT-0, recommend-3)
+det(dishes-5, some-4)
+dobj(recommend-3, dishes-5)
+case(us-7, to-6)
+nmod:to(recommend-3, us-7)
+
+(ROOT
+  (FRAG
+    (NP (NNP Waiter))
+    (: :)
+    (S
+      (NP
+        (NP (PRP$ Our) (NN steak))
+        (CC and)
+        (NP (JJ fried) (NN salmon)))
+      (VP (VBP are)
+        (ADJP (RB quite) (JJ popular))))
+    (. .)))
+
+root(ROOT-0, Waiter-1)
+nmod:poss(steak-4, Our-3)
+nsubj(popular-10, steak-4)
+cc(steak-4, and-5)
+amod(salmon-7, fried-6)
+conj:and(steak-4, salmon-7)
+nsubj(popular-10, salmon-7)
+cop(popular-10, are-8)
+advmod(popular-10, quite-9)
+parataxis(Waiter-1, popular-10)
+
+(ROOT
+  (NP
+    (NP (NNP Meg))
+    (: :)
+    (NP
+      (NP (NN Id))
+      (PP
+        (PP (IN like)
+          (NP (DT the) (JJ fried) (NN salmon)))
+        (PRN (, ,)
+          (INTJ (VB please)))))
+    (. .)))
+
+root(ROOT-0, Meg-1)
+dep(Meg-1, Id-3)
+case(salmon-7, like-4)
+det(salmon-7, the-5)
+amod(salmon-7, fried-6)
+nmod:like(Id-3, salmon-7)
+discourse(salmon-7, please-9)
+
+(ROOT
+  (FRAG
+    (NP (NNP Waiter))
+    (: :)
+    (FRAG (CC And)
+      (PP (IN for)
+        (NP
+          (NP (PRP you))
+          (, ,)
+          (NP (NN sir)))))
+    (. ?)))
+
+root(ROOT-0, Waiter-1)
+dep(Waiter-1, And-3)
+case(you-5, for-4)
+nmod:for(And-3, you-5)
+appos(you-5, sir-7)
+
+(ROOT
+  (FRAG
+    (NP (NNP Ted))
+    (: :)
+    (S
+      (NP (NNP Ill))
+      (VP (VBP have)
+        (NP (DT the) (NN steak))))
+    (. .)))
+
+root(ROOT-0, Ted-1)
+nsubj(have-4, Ill-3)
+parataxis(Ted-1, have-4)
+det(steak-6, the-5)
+dobj(have-4, steak-6)
+
+(ROOT
+  (VP (VB Waiter) (: :)
+    (SBARQ
+      (WHADVP (WRB How))
+      (SQ (MD would)
+        (NP (PRP you))
+        (VP (VB like)
+          (NP (PRP$ your) (NN steak))))
+      (. ?))))
+
+root(ROOT-0, Waiter-1)
+advmod(like-6, How-3)
+aux(like-6, would-4)
+nsubj(like-6, you-5)
+ccomp(Waiter-1, like-6)
+nmod:poss(steak-8, your-7)
+dobj(like-6, steak-8)
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP Ted))
+      (: :)
+      (NP (NNP Medium))
+      (, ,))
+    (VP (VBP please))
+    (. .)))
+
+nsubj(please-5, Ted-1)
+dep(Ted-1, Medium-3)
+root(ROOT-0, please-5)
+
+(ROOT
+  (S (CC And)
+    (NP (PRP I))
+    (ADVP (RB also))
+    (VP (VBP want)
+      (NP (DT a) (JJ baked) (NN potato)))
+    (. .)))
+
+cc(want-4, And-1)
+nsubj(want-4, I-2)
+advmod(want-4, also-3)
+root(ROOT-0, want-4)
+det(potato-7, a-5)
+amod(potato-7, baked-6)
+dobj(want-4, potato-7)
+
+(ROOT
+  (S
+    (VP (VB Waiter) (: :)
+      (ADVP (RB Certainly)))
+    (. .)))
+
+root(ROOT-0, Waiter-1)
+advmod(Waiter-1, Certainly-3)
+
+(ROOT
+  (SQ (MD Would)
+    (NP (PRP you))
+    (VP (VB like)
+      (NP (NN something))
+      (S
+        (VP (TO to)
+          (VP (VB drink)))))
+    (. ?)))
+
+aux(like-3, Would-1)
+nsubj(like-3, you-2)
+root(ROOT-0, like-3)
+dobj(like-3, something-4)
+mark(drink-6, to-5)
+advcl(like-3, drink-6)
+
+(ROOT
+  (NP
+    (NP (NNP Ted))
+    (: :)
+    (NP
+      (NP (RB Just) (NN water))
+      (, ,)
+      (NP (NNS thanks)))
+    (. .)))
+
+root(ROOT-0, Ted-1)
+advmod(water-4, Just-3)
+dep(Ted-1, water-4)
+appos(water-4, thanks-6)
+
+(ROOT
+  (X
+    (NP (NNP Waiter))
+    (: :)
+    (FRAG
+      (VP (VB Thank)
+        (NP (PRP you))))
+    (. .)))
+
+root(ROOT-0, Waiter-1)
+dep(Waiter-1, Thank-3)
+dobj(Thank-3, you-4)
+
+(ROOT
+  (S
+    (NP (NNP Ill))
+    (VP (VBP be)
+      (ADVP (RB back) (RB soon))
+      (PP (IN with)
+        (NP (PRP$ your) (NN food))))
+    (. .)))
+
+nsubj(food-7, Ill-1)
+cop(food-7, be-2)
+advmod(soon-4, back-3)
+advmod(food-7, soon-4)
+case(food-7, with-5)
+nmod:poss(food-7, your-6)
+root(ROOT-0, food-7)
+
+(ROOT
+  (S
+    (ADVP
+      (NP (DT A) (JJ few) (NNS minutes))
+      (RB later))
+    (, ,)
+    (NP (DT the) (NN food))
+    (VP (VBZ arrives))
+    (. .)))
+
+det(minutes-3, A-1)
+amod(minutes-3, few-2)
+nmod:npmod(later-4, minutes-3)
+advmod(arrives-8, later-4)
+det(food-7, the-6)
+nsubj(arrives-8, food-7)
+root(ROOT-0, arrives-8)
+
+(ROOT
+  (NP
+    (NP (NNP Waiter))
+    (: :)
+    (NP
+      (NP (NNP Heres))
+      (NP
+        (NP
+          (NP (DT the) (JJ fried) (NN salmon))
+          (PP (IN for)
+            (NP (DT the) (NN lady) (NN K))))
+        (CC and)
+        (NP
+          (NP (DT the) (NN steak))
+          (PP (IN for)
+            (NP (DT the) (NN gentleman))))))
+    (. .)))
+
+root(ROOT-0, Waiter-1)
+dep(Waiter-1, Heres-3)
+det(salmon-6, the-4)
+amod(salmon-6, fried-5)
+dep(Heres-3, salmon-6)
+case(K-10, for-7)
+det(K-10, the-8)
+compound(K-10, lady-9)
+nmod:for(salmon-6, K-10)
+cc(salmon-6, and-11)
+det(steak-13, the-12)
+dep(Heres-3, steak-13)
+conj:and(salmon-6, steak-13)
+case(gentleman-16, for-14)
+det(gentleman-16, the-15)
+nmod:for(steak-13, gentleman-16)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP hope)
+      (SBAR
+        (S
+          (NP (NN youll))
+          (VP (VBP enjoy)
+            (NP (DT the) (NN food))))))
+    (. !)))
+
+nsubj(hope-2, I-1)
+root(ROOT-0, hope-2)
+nsubj(enjoy-4, youll-3)
+ccomp(hope-2, enjoy-4)
+det(food-6, the-5)
+dobj(enjoy-4, food-6)
+
+(ROOT
+  (FRAG
+    (NP (NNP Meg))
+    (: :)
+    (S
+      (NP (PRP$ My) (JJ fried) (NN salmon))
+      (VP (VBZ smells)
+        (ADJP (JJ good))))
+    (. !)))
+
+root(ROOT-0, Meg-1)
+nmod:poss(salmon-5, My-3)
+amod(salmon-5, fried-4)
+nsubj(smells-6, salmon-5)
+parataxis(Meg-1, smells-6)
+xcomp(smells-6, good-7)
+
+(ROOT
+  (NP
+    (NP
+      (NP
+        (PRN (-LRB- -LRB-)
+          (S
+            (NP
+              (NP
+                (NP (NNS cuts))
+                (NP (DT a) (NN piece)))
+              (PP (IN of)
+                (NP (PRP it)
+                  (CC and)
+                  (NNS eats))))
+            (NP (PRP it)))
+          (-RRB- -RRB-))
+        (NNP Mmm) (NNP K))
+      (SBAR
+        (S
+          (NP (PRP It))
+          (VP (VBZ tastes)
+            (ADJP (JJ great))))))
+    (. !)))
+
+dep(it-9, cuts-2)
+det(piece-4, a-3)
+dep(cuts-2, piece-4)
+case(it-6, of-5)
+nmod:of(cuts-2, it-6)
+cc(it-6, and-7)
+nmod:of(cuts-2, eats-8)
+conj:and(it-6, eats-8)
+dep(K-12, it-9)
+compound(K-12, Mmm-11)
+root(ROOT-0, K-12)
+nsubj(tastes-14, It-13)
+acl:relcl(K-12, tastes-14)
+xcomp(tastes-14, great-15)
+
+(ROOT
+  (FRAG
+    (NP (NNP Ted))
+    (: :)
+    (S
+      (NP (PRP I))
+      (ADVP (RB cant))
+      (VP (VBP wait)
+        (S
+          (VP (TO to)
+            (VP
+              (VP (VB try)
+                (NP (PRP$ my) (NN steak) (NN K)))
+              (PRN (-LRB- -LRB-)
+                (S
+                  (VP
+                    (VP (VBZ cuts)
+                      (NP
+                        (NP (DT a) (NN piece))
+                        (PP (IN of)
+                          (NP (PRP it)))))
+                    (CC and)
+                    (VP (VBZ eats)
+                      (NP (PRP it)))))
+                (-RRB- -RRB-))
+              (NP (NNP Great)))))))
+    (. !)))
+
+root(ROOT-0, Ted-1)
+nsubj(wait-5, I-3)
+nsubj(try-7, I-3)
+advmod(wait-5, cant-4)
+parataxis(Ted-1, wait-5)
+mark(try-7, to-6)
+xcomp(wait-5, try-7)
+nmod:poss(K-10, my-8)
+compound(K-10, steak-9)
+dobj(try-7, K-10)
+parataxis(try-7, cuts-12)
+det(piece-14, a-13)
+dobj(cuts-12, piece-14)
+case(it-16, of-15)
+nmod:of(piece-14, it-16)
+cc(cuts-12, and-17)
+parataxis(try-7, eats-18)
+conj:and(cuts-12, eats-18)
+dobj(eats-18, it-19)
+dobj(try-7, Great-21)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP like)
+      (NP (PRP it)))
+    (. !)))
+
+nsubj(like-2, I-1)
+root(ROOT-0, like-2)
+dobj(like-2, it-3)
+
+(ROOT
+  (S
+    (PP (IN After)
+      (S
+        (VP (VBG finishing)
+          (NP (DT the) (NN meal)))))
+    (, ,)
+    (NP (NNP Ted))
+    (VP (VBZ gestures)
+      (PP (TO to)
+        (NP (DT the) (NN waiter))))
+    (. .)))
+
+mark(finishing-2, After-1)
+advcl(gestures-7, finishing-2)
+det(meal-4, the-3)
+dobj(finishing-2, meal-4)
+nsubj(gestures-7, Ted-6)
+root(ROOT-0, gestures-7)
+case(waiter-10, to-8)
+det(waiter-10, the-9)
+nmod:to(gestures-7, waiter-10)
+
+(ROOT
+  (NP
+    (NP (NNP Waiter))
+    (: :)
+    (SQ (MD Would)
+      (NP (PRP you))
+      (VP (VB like)
+        (S
+          (VP (TO to)
+            (VP (VB have)
+              (NP (NN coffee)
+                (CC or)
+                (NN tea))))))
+      (. ?))))
+
+root(ROOT-0, Waiter-1)
+aux(like-5, Would-3)
+nsubj(like-5, you-4)
+nsubj(have-7, you-4)
+parataxis(Waiter-1, like-5)
+mark(have-7, to-6)
+xcomp(like-5, have-7)
+dobj(have-7, coffee-8)
+cc(coffee-8, or-9)
+dobj(have-7, tea-10)
+conj:or(coffee-8, tea-10)
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP Ted))
+      (: :)
+      (NP (CD Two) (NNS coffees))
+      (, ,))
+    (VP (VBP please))
+    (. .)))
+
+nsubj(please-6, Ted-1)
+nummod(coffees-4, Two-3)
+dep(Ted-1, coffees-4)
+root(ROOT-0, please-6)
+
+(ROOT
+  (SBARQ (CC And)
+    (WHNP (WP what))
+    (SQ (VBP do)
+      (NP (PRP you))
+      (VP (VB have)
+        (PP (IN for)
+          (NP (NN dessert)))))
+    (. ?)))
+
+cc(have-5, And-1)
+dobj(have-5, what-2)
+aux(have-5, do-3)
+nsubj(have-5, you-4)
+root(ROOT-0, have-5)
+case(dessert-7, for-6)
+nmod:for(have-5, dessert-7)
+
+(ROOT
+  (FRAG
+    (NP (NNP Waiter))
+    (: :)
+    (S
+      (NP (PRP We))
+      (VP (VBP have)
+        (NP
+          (NP (NN cake))
+          (, ,)
+          (NP (NN pudding))
+          (, ,)
+          (CC and)
+          (NP (NN ice) (NN cream)))))
+    (. .)))
+
+root(ROOT-0, Waiter-1)
+nsubj(have-4, We-3)
+parataxis(Waiter-1, have-4)
+dobj(have-4, cake-5)
+dobj(have-4, pudding-7)
+conj:and(cake-5, pudding-7)
+cc(cake-5, and-9)
+compound(cream-11, ice-10)
+dobj(have-4, cream-11)
+conj:and(cake-5, cream-11)
+
+(ROOT
+  (NP
+    (NP (NNP Meg))
+    (: :)
+    (NP
+      (NP (NN Id))
+      (PP
+        (PP (IN like)
+          (NP (DT the) (NN pudding)))
+        (PRN (, ,)
+          (INTJ (VB please)))))
+    (. .)))
+
+root(ROOT-0, Meg-1)
+dep(Meg-1, Id-3)
+case(pudding-6, like-4)
+det(pudding-6, the-5)
+nmod:like(Id-3, pudding-6)
+discourse(pudding-6, please-8)
+
+(ROOT
+  (NP
+    (NP (NNP Ted))
+    (: :)
+    (NP
+      (NP (NN Ice) (NN cream))
+      (PP
+        (PP (IN for)
+          (NP (PRP me)))
+        (PRN (, ,)
+          (INTJ (VB please)))))
+    (. .)))
+
+root(ROOT-0, Ted-1)
+compound(cream-4, Ice-3)
+dep(Ted-1, cream-4)
+case(me-6, for-5)
+nmod:for(cream-4, me-6)
+discourse(me-6, please-8)
+
+(ROOT
+  (X
+    (NP (NNP Waiter))
+    (: :)
+    (FRAG
+      (VP (VB Thank)
+        (NP (PRP you))))
+    (. .)))
+
+root(ROOT-0, Waiter-1)
+dep(Waiter-1, Thank-3)
+dobj(Thank-3, you-4)
+
+(ROOT
+  (S
+    (PP (IN After)
+      (S
+        (VP (VBG finishing)
+          (NP (PRP$ their) (NN coffee)
+            (CC and)
+            (NN dessert)))))
+    (, ,)
+    (NP (NNP Meg)
+      (CC and)
+      (NNP Ted))
+    (VP (VBP are)
+      (ADJP (JJ ready)
+        (S
+          (VP (TO to)
+            (VP (VB leave))))))
+    (. .)))
+
+mark(finishing-2, After-1)
+advcl(ready-12, finishing-2)
+nmod:poss(coffee-4, their-3)
+dobj(finishing-2, coffee-4)
+cc(coffee-4, and-5)
+dobj(finishing-2, dessert-6)
+conj:and(coffee-4, dessert-6)
+nsubj(ready-12, Meg-8)
+nsubj(leave-14, Meg-8)
+cc(Meg-8, and-9)
+conj:and(Meg-8, Ted-10)
+nsubj(ready-12, Ted-10)
+nsubj(leave-14, Ted-10)
+cop(ready-12, are-11)
+root(ROOT-0, ready-12)
+mark(leave-14, to-13)
+xcomp(ready-12, leave-14)
+
+(ROOT
+  (FRAG
+    (NP (NNP Meg))
+    (: :)
+    (S
+      (NP (DT The) (NN food))
+      (ADVP (RB here))
+      (VP (VBZ is)
+        (ADJP (JJ great))))
+    (. !)))
+
+root(ROOT-0, Meg-1)
+det(food-4, The-3)
+nsubj(great-7, food-4)
+advmod(great-7, here-5)
+cop(great-7, is-6)
+parataxis(Meg-1, great-7)
+
+(ROOT
+  (S
+    (NP (NNP Ted))
+    (: :)
+    (ADVP (RB So))
+    (VP (VBP are)
+      (NP (DT the) (NNS desserts)))
+    (. .)))
+
+nsubj(desserts-6, Ted-1)
+advmod(desserts-6, So-3)
+cop(desserts-6, are-4)
+det(desserts-6, the-5)
+root(ROOT-0, desserts-6)
+
+(ROOT
+  (S (CC And)
+    (NP (DT the) (NN coffee))
+    (VP (VBZ is)
+      (ADJP (JJ good)))
+    (. .)))
+
+cc(good-5, And-1)
+det(coffee-3, the-2)
+nsubj(good-5, coffee-3)
+cop(good-5, is-4)
+root(ROOT-0, good-5)
+
+(ROOT
+  (S
+    (NP (NNP Meg))
+    (: :)
+    (NP (CC And)
+      (NP
+        (NP (DT the) (NN service))
+        (, ,)
+        (ADVP (RB too))))
+    (. .)))
+
+dep(service-5, Meg-1)
+cc(service-5, And-3)
+det(service-5, the-4)
+root(ROOT-0, service-5)
+advmod(service-5, too-7)
+
+(ROOT
+  (NP
+    (NP (NNP Ted))
+    (: :)
+    (NP
+      (NP (NNP Im))
+      (VP (VBG going)
+        (S
+          (VP (TO to)
+            (VP (VB recommend)
+              (NP (DT this) (NN restaurant))
+              (PP (IN on)
+                (NP (PRP$ my) (NN website))))))))
+    (. .)))
+
+root(ROOT-0, Ted-1)
+dep(Ted-1, Im-3)
+acl(Im-3, going-4)
+mark(recommend-6, to-5)
+xcomp(going-4, recommend-6)
+det(restaurant-8, this-7)
+dobj(recommend-6, restaurant-8)
+case(website-11, on-9)
+nmod:poss(website-11, my-10)
+nmod:on(recommend-6, website-11)
+
+(ROOT
+  (S
+    (S
+      (VP (VB Meg)))
+    (: :)
+    (S
+      (SBAR (IN If)
+        (S
+          (NP (PRP you))
+          (VP (VBP do))))
+      (, ,)
+      (NP (PRP we))
+      (ADVP (RB probably))
+      (VP (VBP wont)
+        (VP (VB get)
+          (NP (DT a) (NN table))
+          (NP (JJ next) (NN time)))))
+    (. .)))
+
+root(ROOT-0, Meg-1)
+mark(do-5, If-3)
+nsubj(do-5, you-4)
+advcl(wont-9, do-5)
+nsubj(wont-9, we-7)
+advmod(wont-9, probably-8)
+parataxis(Meg-1, wont-9)
+xcomp(wont-9, get-10)
+det(table-12, a-11)
+iobj(get-10, table-12)
+amod(time-14, next-13)
+dobj(get-10, time-14)
+
+(ROOT
+  (NP
+    (NP (NNP Ted) (NNS gestures))
+    (PP (TO to)
+      (NP (DT the) (NN waiter)))
+    (. .)))
+
+compound(gestures-2, Ted-1)
+root(ROOT-0, gestures-2)
+case(waiter-5, to-3)
+det(waiter-5, the-4)
+nmod:to(gestures-2, waiter-5)
+
+(ROOT
+  (S
+    (NP (DT The) (NN waiter))
+    (VP (VBZ comes))
+    (. .)))
+
+det(waiter-2, The-1)
+nsubj(comes-3, waiter-2)
+root(ROOT-0, comes-3)
+
+(ROOT
+  (NP
+    (NP (NNP Ted))
+    (: :)
+    (NP
+      (NP (NNP May))
+      (SBAR
+        (S
+          (NP (PRP I))
+          (VP
+            (VP (VBP have)
+              (NP (DT the) (NN bill)))
+            (PRN (, ,)
+              (INTJ (VB please)))))))
+    (. ?)))
+
+root(ROOT-0, Ted-1)
+dep(Ted-1, May-3)
+nsubj(have-5, I-4)
+acl:relcl(May-3, have-5)
+det(bill-7, the-6)
+dobj(have-5, bill-7)
+discourse(have-5, please-9)
+
+(ROOT
+  (FRAG
+    (NP (NNP Meg))
+    (: :)
+    (S
+      (NP (NNP Lets))
+      (VP (VBP go)
+        (NP (JJ Dutch) (DT this) (NN time))))
+    (. .)))
+
+root(ROOT-0, Meg-1)
+nsubj(go-4, Lets-3)
+parataxis(Meg-1, go-4)
+amod(time-7, Dutch-5)
+det(time-7, this-6)
+dobj(go-4, time-7)
+
+(ROOT
+  (S
+    (NP (PRP We))
+    (VP (VBD made)
+      (NP (DT a) (NN deal)))
+    (. .)))
+
+nsubj(made-2, We-1)
+root(ROOT-0, made-2)
+det(deal-4, a-3)
+dobj(made-2, deal-4)
+
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (VBP are)
+      (NP (PRP$ my) (NN guest))
+      (NP (DT this) (NN time)))
+    (. .)))
+
+nsubj(guest-4, You-1)
+cop(guest-4, are-2)
+nmod:poss(guest-4, my-3)
+root(ROOT-0, guest-4)
+det(time-6, this-5)
+dep(guest-4, time-6)
+
+(ROOT
+  (S
+    (NP (JJ Next) (NN time))
+    (ADVP (RB well))
+    (VP (VBP go)
+      (NP (NNP Dutch)))
+    (. .)))
+
+amod(time-2, Next-1)
+nsubj(go-4, time-2)
+advmod(go-4, well-3)
+root(ROOT-0, go-4)
+dobj(go-4, Dutch-5)
+
+(ROOT
+  (NP
+    (NP (NNP Meg))
+    (: :)
+    (ADVP (CC But))
+    (, ,)
+    (NP
+      (NP (NNP Ted) (NNP K) (NNP Waiter))
+      (PRN (-LRB- -LRB-)
+        (NP (NNP smiling))
+        (-RRB- -RRB-)))
+    (: :)
+    (NP
+      (NP (NNP Actually) (NNP K))
+      (SBAR
+        (S
+          (NP (PRP you))
+          (VP (VBP dont)
+            (VP (VB need)
+              (NP (DT the) (NN bill)))))))
+    (. .)))
+
+root(ROOT-0, Meg-1)
+advmod(Meg-1, But-3)
+compound(Waiter-7, Ted-5)
+compound(Waiter-7, K-6)
+appos(Meg-1, Waiter-7)
+appos(Waiter-7, smiling-9)
+compound(K-13, Actually-12)
+dep(Meg-1, K-13)
+nsubj(dont-15, you-14)
+acl:relcl(K-13, dont-15)
+xcomp(dont-15, need-16)
+det(bill-18, the-17)
+dobj(need-16, bill-18)
+
+(ROOT
+  (NP
+    (NP (NNP Ted)
+      (CC &)
+      (NNP Meg))
+    (: :)
+    (NP (NNP Why))
+    (. ?)))
+
+root(ROOT-0, Ted-1)
+cc(Ted-1, &-2)
+conj:&(Ted-1, Meg-3)
+dep(Ted-1, Why-5)
+
+(ROOT
+  (NP
+    (NP (NNP Waiter))
+    (: :)
+    (S
+      (S
+        (INTJ (UH Well))
+        (, ,)
+        (NP (DT the) (NN lady))
+        (VP (VBZ is)
+          (NP (PRP$ our) (JJ restaurants) (NN thousandth) (NN customer))))
+      (, ,) (IN so)
+      (S
+        (NP (PRP$ your) (NNS meals))
+        (VP (VBP are)
+          (PP (IN on)
+            (NP (DT the) (NN house))))))
+    (. !)))
+
+root(ROOT-0, Waiter-1)
+discourse(customer-11, Well-3)
+det(lady-6, the-5)
+nsubj(customer-11, lady-6)
+cop(customer-11, is-7)
+nmod:poss(customer-11, our-8)
+amod(customer-11, restaurants-9)
+compound(customer-11, thousandth-10)
+parataxis(Waiter-1, customer-11)
+dep(customer-11, so-13)
+nmod:poss(meals-15, your-14)
+nsubj(house-19, meals-15)
+cop(house-19, are-16)
+case(house-19, on-17)
+det(house-19, the-18)
+parataxis(customer-11, house-19)
+
+(ROOT
+  (FRAG
+    (NP (NNP Meg))
+    (: :)
+    (FRAG
+      (X (WP What))
+      (NP (DT a) (NN surprise)))
+    (. !)))
+
+root(ROOT-0, Meg-1)
+dep(surprise-5, What-3)
+det(surprise-5, a-4)
+dep(Meg-1, surprise-5)
+
+(ROOT
+  (FRAG
+    (NP (NNP Ted))
+    (: :)
+    (S
+      (PP (IN With)
+        (NP
+          (NP (DT this) (NN kind))
+          (PP (IN of)
+            (NP (NN luck)))))
+      (, ,)
+      (NP (PRP we))
+      (VP (MD should)
+        (VP (VB buy)
+          (NP (DT some) (NN lottery) (NNS tickets))
+          (PP (IN on)
+            (NP (PRP$ our) (NN way) (NN home))))))
+    (. .)))
+
+root(ROOT-0, Ted-1)
+case(kind-5, With-3)
+det(kind-5, this-4)
+nmod:with(buy-11, kind-5)
+case(luck-7, of-6)
+nmod:of(kind-5, luck-7)
+nsubj(buy-11, we-9)
+aux(buy-11, should-10)
+parataxis(Ted-1, buy-11)
+det(tickets-14, some-12)
+compound(tickets-14, lottery-13)
+dobj(buy-11, tickets-14)
+case(home-18, on-15)
+nmod:poss(home-18, our-16)
+compound(home-18, way-17)
+nmod:on(buy-11, home-18)
+
+(ROOT
+  (NP (NNP Xby) (NNP Harriet) (NNP Anderson)))
+
+compound(Anderson-3, Xby-1)
+compound(Anderson-3, Harriet-2)
+root(ROOT-0, Anderson-3)
+

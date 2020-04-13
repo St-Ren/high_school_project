@@ -1,0 +1,922 @@
+(ROOT
+  (S
+    (NP (PRP She))
+    (VP (VBD had)
+      (NP (DT no) (NN job)))
+    (. .)))
+
+nsubj(had-2, She-1)
+root(ROOT-0, had-2)
+neg(job-4, no-3)
+dobj(had-2, job-4)
+
+(ROOT
+  (S
+    (NP (PRP She))
+    (VP (VBD was)
+      (NP (DT a) (JJ single) (NN mother))
+      (, ,)
+      (S
+        (VP (VBG living)
+          (PP (IN in)
+            (NP
+              (NP (DT a) (JJ small) (NN apartment))
+              (PP (IN with)
+                (NP (PRP$ her) (NN baby) (NN daughter))))))))
+    (. .)))
+
+nsubj(mother-5, She-1)
+cop(mother-5, was-2)
+det(mother-5, a-3)
+amod(mother-5, single-4)
+root(ROOT-0, mother-5)
+advcl(mother-5, living-7)
+case(apartment-11, in-8)
+det(apartment-11, a-9)
+amod(apartment-11, small-10)
+nmod:in(living-7, apartment-11)
+case(daughter-15, with-12)
+nmod:poss(daughter-15, her-13)
+compound(daughter-15, baby-14)
+nmod:with(apartment-11, daughter-15)
+
+(ROOT
+  (S
+    (NP (NNP Life))
+    (VP (VBD was)
+      (ADJP (JJ hard)))
+    (. .)))
+
+nsubj(hard-3, Life-1)
+cop(hard-3, was-2)
+root(ROOT-0, hard-3)
+
+(ROOT
+  (S
+    (ADVP (RB Now))
+    (, ,)
+    (NP (PRP she))
+    (VP (VBZ is)
+      (NP (DT a) (JJ great) (NN success)))
+    (. .)))
+
+advmod(success-7, Now-1)
+nsubj(success-7, she-3)
+cop(success-7, is-4)
+det(success-7, a-5)
+amod(success-7, great-6)
+root(ROOT-0, success-7)
+
+(ROOT
+  (S
+    (NP (NNS Children)
+      (CC and)
+      (NNS adults))
+    (VP (VBP buy)
+      (NP (PRP$ her) (NNS books))
+      (PP (DT all) (IN over)
+        (NP (DT the) (NN world)))
+      (: -)
+      (PP (IN in)
+        (NP (CD thirty) (NNS languages))))
+    (. .)))
+
+nsubj(buy-4, Children-1)
+cc(Children-1, and-2)
+conj:and(Children-1, adults-3)
+nsubj(buy-4, adults-3)
+root(ROOT-0, buy-4)
+nmod:poss(books-6, her-5)
+dobj(buy-4, books-6)
+dep(world-10, all-7)
+case(world-10, over-8)
+det(world-10, the-9)
+nmod:over(buy-4, world-10)
+case(languages-14, in-12)
+nummod(languages-14, thirty-13)
+nmod:in(buy-4, languages-14)
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ seems)
+      (S
+        (NP (PRP$ her) (NNS books))
+        (VP
+          (VP (VB win)
+            (NP (NNS awards)))
+          (CC and)
+          (VP (VB break)
+            (NP (NNS records))
+            (NP (RB almost) (DT every) (NN day))))))
+    (. .)))
+
+nsubj(seems-2, It-1)
+root(ROOT-0, seems-2)
+nmod:poss(books-4, her-3)
+nsubj(win-5, books-4)
+nsubj(break-8, books-4)
+ccomp(seems-2, win-5)
+dobj(win-5, awards-6)
+cc(win-5, and-7)
+ccomp(seems-2, break-8)
+conj:and(win-5, break-8)
+dobj(break-8, records-9)
+advmod(day-12, almost-10)
+det(day-12, every-11)
+nmod:tmod(break-8, day-12)
+
+(ROOT
+  (SBARQ
+    (WHNP (WP Who))
+    (SQ (VBZ is)
+      (NP (PRP she)))
+    (. ?)))
+
+root(ROOT-0, Who-1)
+cop(Who-1, is-2)
+nsubj(Who-1, she-3)
+
+(ROOT
+  (S
+    (NP (NNP J.) (NNP K.) (NNP Rowling-the))
+    (VP (NN woman)
+      (SBAR
+        (WHNP (WP who))
+        (S
+          (VP (VBD wrote)
+            (NP (DT the) (NNP Harry) (NNP Potter) (NNPS Stories))))))
+    (. .)))
+
+compound(Rowling-the-3, J.-1)
+compound(Rowling-the-3, K.-2)
+nsubj(woman-4, Rowling-the-3)
+root(ROOT-0, woman-4)
+nsubj(wrote-6, who-5)
+ccomp(woman-4, wrote-6)
+det(Stories-10, the-7)
+compound(Stories-10, Harry-8)
+compound(Stories-10, Potter-9)
+dobj(wrote-6, Stories-10)
+
+(ROOT
+  (SBARQ
+    (WHNP (WP What))
+    (SQ (VBZ is)
+      (NP
+        (NP (DT the) (NN secret))
+        (PP (IN of)
+          (NP (PRP$ her) (NN success)))))
+    (. ?)))
+
+root(ROOT-0, What-1)
+cop(What-1, is-2)
+det(secret-4, the-3)
+nsubj(What-1, secret-4)
+case(success-7, of-5)
+nmod:poss(success-7, her-6)
+nmod:of(secret-4, success-7)
+
+(ROOT
+  (NP
+    (NP (NNP STEP) (CD 1))
+    (: :)
+    (NP
+      (NP (NNP Do) (NN something))
+      (SBAR (IN that)
+        (S
+          (NP (PRP you))
+          (VP (VBP enjoy)))))
+    (. .)))
+
+root(ROOT-0, STEP-1)
+nummod(STEP-1, 1-2)
+compound(something-5, Do-4)
+dep(STEP-1, something-5)
+mark(enjoy-8, that-6)
+nsubj(enjoy-8, you-7)
+dep(something-5, enjoy-8)
+
+(ROOT
+  (S
+    (NP (NNP Rowling))
+    (VP (VBZ says)
+      (SBAR
+        (S
+          (NP (PRP she))
+          (VP (VBD wrote)
+            (NP
+              (NP
+                (NP (NNP Harry) (NNP Potter))
+                (CC and)
+                (NP (DT the) (NNP Philosophers) (NNP Stone)))
+              (PRN (: -)
+                (NP
+                  (NP (DT the) (JJ first) (NN book))
+                  (PP (IN in)
+                    (NP (DT the) (NN series))))
+                (: -))
+              (SBAR (IN because)
+                (S
+                  (NP (PRP she))
+                  (VP (VBD wanted)
+                    (NP (DT a) (NN challenge))))))))))
+    (. .)))
+
+nsubj(says-2, Rowling-1)
+root(ROOT-0, says-2)
+nsubj(wrote-4, she-3)
+ccomp(says-2, wrote-4)
+compound(Potter-6, Harry-5)
+dobj(wrote-4, Potter-6)
+cc(Potter-6, and-7)
+det(Stone-10, the-8)
+compound(Stone-10, Philosophers-9)
+dobj(wrote-4, Stone-10)
+conj:and(Potter-6, Stone-10)
+det(book-14, the-12)
+amod(book-14, first-13)
+dep(Potter-6, book-14)
+case(series-17, in-15)
+det(series-17, the-16)
+nmod:in(book-14, series-17)
+mark(wanted-21, because-19)
+nsubj(wanted-21, she-20)
+dep(Potter-6, wanted-21)
+det(challenge-23, a-22)
+dobj(wanted-21, challenge-23)
+
+(ROOT
+  (S
+    (NP (PRP She))
+    (VP (VBD wanted)
+      (S
+        (VP (TO to)
+          (VP (VB achieve)
+            (NP (NN something) (JJ special))))))
+    (. .)))
+
+nsubj(wanted-2, She-1)
+nsubj(achieve-4, She-1)
+root(ROOT-0, wanted-2)
+mark(achieve-4, to-3)
+xcomp(wanted-2, achieve-4)
+dobj(achieve-4, something-5)
+amod(something-5, special-6)
+
+(ROOT
+  (S
+    (NP (PRP She))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG writing))))
+    (. .)))
+
+nsubj(likes-2, She-1)
+root(ROOT-0, likes-2)
+xcomp(likes-2, writing-3)
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (NN fact)))
+    (, ,)
+    (NP (PRP she))
+    (VP (VBD wrote)
+      (NP (PRP$ her) (JJ first) (NN book))
+      (PRN (-LRB- -LRB-)
+        (VP (VBN called)
+          (NP (NNP Rabbit)))
+        (-RRB- -RRB-))
+      (SBAR
+        (WHADVP (WRB when))
+        (S
+          (NP (PRP she))
+          (VP (VBD was)
+            (ADJP
+              (NP (CD six) (NNS years))
+              (JJ old))))))
+    (. .)))
+
+case(fact-2, In-1)
+nmod:in(wrote-5, fact-2)
+nsubj(wrote-5, she-4)
+root(ROOT-0, wrote-5)
+nmod:poss(book-8, her-6)
+amod(book-8, first-7)
+dobj(wrote-5, book-8)
+dep(wrote-5, called-10)
+dobj(called-10, Rabbit-11)
+advmod(old-18, when-13)
+nsubj(old-18, she-14)
+cop(old-18, was-15)
+nummod(years-17, six-16)
+nmod:npmod(old-18, years-17)
+advcl(wrote-5, old-18)
+
+(ROOT
+  (S
+    (S
+      (ADVP (RB Perhaps))
+      (NP (DT this))
+      (VP (VBZ is)
+        (NP
+          (NP (DT the) (JJ first) (NN reason))
+          (PP (IN for)
+            (NP (PRP$ her) (NN success))))))
+    (: -)
+    (S
+      (NP (PRP she))
+      (VP (VBD chose)
+        (S
+          (VP (TO to)
+            (VP (VB do)
+              (NP (NN something))
+              (SBAR (IN that)
+                (S
+                  (NP (PRP she))
+                  (VP (VBD enjoyed)))))))))
+    (. .)))
+
+advmod(reason-6, Perhaps-1)
+nsubj(reason-6, this-2)
+cop(reason-6, is-3)
+det(reason-6, the-4)
+amod(reason-6, first-5)
+root(ROOT-0, reason-6)
+case(success-9, for-7)
+nmod:poss(success-9, her-8)
+nmod:for(reason-6, success-9)
+nsubj(chose-12, she-11)
+nsubj(do-14, she-11)
+parataxis(reason-6, chose-12)
+mark(do-14, to-13)
+xcomp(chose-12, do-14)
+dobj(do-14, something-15)
+mark(enjoyed-18, that-16)
+nsubj(enjoyed-18, she-17)
+ccomp(do-14, enjoyed-18)
+
+(ROOT
+  (SBARQ (CC But)
+    (WHADVP (WRB how))
+    (SQ (VBD did)
+      (NP (PRP she))
+      (VP (VB become)
+        (NP (PDT such) (DT a) (JJ great) (NN success))))
+    (. ?)))
+
+cc(become-5, But-1)
+advmod(become-5, how-2)
+aux(become-5, did-3)
+nsubj(become-5, she-4)
+root(ROOT-0, become-5)
+det:predet(success-9, such-6)
+det(success-9, a-7)
+amod(success-9, great-8)
+xcomp(become-5, success-9)
+
+(ROOT
+  (S
+    (ADVP (RB Well))
+    (, ,)
+    (PP (IN in)
+      (NP (CD 1992)))
+    (, ,)
+    (NP (NNP Rowling))
+    (VP
+      (VP (VBD left)
+        (NP (PRP$ her) (NN job))
+        (PP (IN in)
+          (NP (NNP England))))
+      (CC and)
+      (VP (VBD went)
+        (PP (TO to)
+          (NP (NNP Portugal)))))
+    (. .)))
+
+advmod(left-7, Well-1)
+case(1992-4, in-3)
+nmod:in(left-7, 1992-4)
+nsubj(left-7, Rowling-6)
+nsubj(went-13, Rowling-6)
+root(ROOT-0, left-7)
+nmod:poss(job-9, her-8)
+dobj(left-7, job-9)
+case(England-11, in-10)
+nmod:in(left-7, England-11)
+cc(left-7, and-12)
+conj:and(left-7, went-13)
+case(Portugal-15, to-14)
+nmod:to(went-13, Portugal-15)
+
+(ROOT
+  (S
+    (NP (PRP She))
+    (VP (VBD moved)
+      (PP (TO to)
+        (NP (NNP Portugal)))
+      (S
+        (VP (TO to)
+          (VP (VB have)
+            (NP (JJR more) (NN time)
+              (S
+                (VP (TO to)
+                  (VP
+                    (VP (VB do)
+                      (SBAR
+                        (WHNP (WP what))
+                        (S
+                          (NP (PRP she))
+                          (VP (VBD loved)
+                            (ADVP (RBS most))))))
+                    (: -)
+                    (VP (VB write))))))))))
+    (. .)))
+
+nsubj(moved-2, She-1)
+nsubj(have-6, She-1)
+root(ROOT-0, moved-2)
+case(Portugal-4, to-3)
+nmod:to(moved-2, Portugal-4)
+mark(have-6, to-5)
+xcomp(moved-2, have-6)
+amod(time-8, more-7)
+dobj(have-6, time-8)
+mark(do-10, to-9)
+acl(time-8, do-10)
+dobj(loved-13, what-11)
+nsubj(loved-13, she-12)
+ccomp(do-10, loved-13)
+advmod(loved-13, most-14)
+dep(do-10, write-16)
+
+(ROOT
+  (S
+    (NP (PRP She))
+    (VP (VBD worked)
+      (PP (IN as)
+        (NP (DT an) (JJ English) (NN teacher))))
+    (. .)))
+
+nsubj(worked-2, She-1)
+root(ROOT-0, worked-2)
+case(teacher-6, as-3)
+det(teacher-6, an-4)
+amod(teacher-6, English-5)
+nmod:as(worked-2, teacher-6)
+
+(ROOT
+  (S
+    (NP (PRP She))
+    (VP (VBD used)
+      (NP (PRP$ her) (JJ free) (NN time))
+      (PP (IN in)
+        (NP (DT the) (NNS mornings)))
+      (S
+        (VP (TO to)
+          (VP (VB write)
+            (NP
+              (NP (NNP Harry) (NNP Potter))
+              (CC and)
+              (NP (DT the) (NNP Philosophers) (NNP Stone)))))))
+    (. .)))
+
+nsubj(used-2, She-1)
+root(ROOT-0, used-2)
+nmod:poss(time-5, her-3)
+amod(time-5, free-4)
+dobj(used-2, time-5)
+case(mornings-8, in-6)
+det(mornings-8, the-7)
+nmod:in(used-2, mornings-8)
+mark(write-10, to-9)
+advcl(used-2, write-10)
+compound(Potter-12, Harry-11)
+dobj(write-10, Potter-12)
+cc(Potter-12, and-13)
+det(Stone-16, the-14)
+compound(Stone-16, Philosophers-15)
+dobj(write-10, Stone-16)
+conj:and(Potter-12, Stone-16)
+
+(ROOT
+  (NP
+    (NP (NNP STEP) (CD 2))
+    (: :)
+    (S
+      (VP (VB Follow)
+        (NP (PRP$ your) (NN dream))))
+    (. .)))
+
+root(ROOT-0, STEP-1)
+nummod(STEP-1, 2-2)
+parataxis(STEP-1, Follow-4)
+nmod:poss(dream-6, your-5)
+dobj(Follow-4, dream-6)
+
+(ROOT
+  (S
+    (NP (PRP She))
+    (VP (VBD got)
+      (ADJP
+        (ADJP (VBN married))
+        (, ,)
+        (CC but)
+        (ADJP
+          (ADVP (RB later))
+          (VBN divorced))))
+    (. .)))
+
+nsubj(got-2, She-1)
+root(ROOT-0, got-2)
+xcomp(got-2, married-3)
+cc(married-3, but-5)
+advmod(divorced-7, later-6)
+xcomp(got-2, divorced-7)
+conj:but(married-3, divorced-7)
+
+(ROOT
+  (S
+    (NP (PRP She))
+    (VP (VBD returned)
+      (NP (NN home))
+      (PP (TO to)
+        (NP (DT the) (NNP U.K.)))
+      (PP (IN with)
+        (NP (PRP$ her) (NN baby) (NN daughter) (NNP Jessica))))
+    (. .)))
+
+nsubj(returned-2, She-1)
+root(ROOT-0, returned-2)
+dobj(returned-2, home-3)
+case(U.K.-6, to-4)
+det(U.K.-6, the-5)
+nmod:to(returned-2, U.K.-6)
+case(Jessica-11, with-7)
+nmod:poss(Jessica-11, her-8)
+compound(Jessica-11, baby-9)
+compound(Jessica-11, daughter-10)
+nmod:with(returned-2, Jessica-11)
+
+(ROOT
+  (S
+    (NP (PRP She))
+    (VP (VBD lived)
+      (PP (IN in)
+        (NP (NNP Edinburgh)))
+      (PP (IN in)
+        (NP (NNP Scotland))))
+    (. .)))
+
+nsubj(lived-2, She-1)
+root(ROOT-0, lived-2)
+case(Edinburgh-4, in-3)
+nmod:in(lived-2, Edinburgh-4)
+case(Scotland-6, in-5)
+nmod:in(lived-2, Scotland-6)
+
+(ROOT
+  (S
+    (NP (PRP She))
+    (VP (VBD lived)
+      (PP (IN in)
+        (NP (DT a)
+          (ADJP (RB very) (JJ small))
+          (, ,) (JJ cold) (NN apartment))))
+    (. .)))
+
+nsubj(lived-2, She-1)
+root(ROOT-0, lived-2)
+case(apartment-9, in-3)
+det(apartment-9, a-4)
+advmod(small-6, very-5)
+amod(apartment-9, small-6)
+amod(apartment-9, cold-8)
+nmod:in(lived-2, apartment-9)
+
+(ROOT
+  (S
+    (S
+      (NP
+        (NP (NNP Life))
+        (PP (IN as)
+          (NP (DT a) (JJ single) (NN mother))))
+      (VP (VBD was)
+        (ADJP (JJ hard))))
+    (, ,)
+    (CC but)
+    (S
+      (NP (PRP she))
+      (VP (VBD was)
+        (VP (VBN determined)
+          (S
+            (VP (TO to)
+              (VP (VB finish)
+                (S
+                  (VP (VBG writing)
+                    (NP
+                      (NP (NNP Harry) (NNP Potter))
+                      (CC and)
+                      (NP (DT the) (NNP Philosophers) (NNP Stone)))))))))))
+    (. .)))
+
+nsubj(hard-7, Life-1)
+case(mother-5, as-2)
+det(mother-5, a-3)
+amod(mother-5, single-4)
+nmod:as(Life-1, mother-5)
+cop(hard-7, was-6)
+root(ROOT-0, hard-7)
+cc(hard-7, but-9)
+nsubjpass(determined-12, she-10)
+nsubj(finish-14, she-10)
+auxpass(determined-12, was-11)
+conj:but(hard-7, determined-12)
+mark(finish-14, to-13)
+xcomp(determined-12, finish-14)
+xcomp(finish-14, writing-15)
+compound(Potter-17, Harry-16)
+dobj(writing-15, Potter-17)
+cc(Potter-17, and-18)
+det(Stone-21, the-19)
+compound(Stone-21, Philosophers-20)
+dobj(writing-15, Stone-21)
+conj:and(Potter-17, Stone-21)
+
+(ROOT
+  (S
+    (NP (PRP She))
+    (VP
+      (VP (VBD wrote)
+        (ADVP (RB mostly))
+        (PP (IN in)
+          (NP (NNS cafes))))
+      (CC and)
+      (VP
+        (SBAR (IN while)
+          (S
+            (NP (PRP$ her) (NN daughter))
+            (VP (VBD was)
+              (ADJP (RB asleep)))))))
+    (. .)))
+
+nsubj(wrote-2, She-1)
+root(ROOT-0, wrote-2)
+advmod(wrote-2, mostly-3)
+case(cafes-5, in-4)
+nmod:in(wrote-2, cafes-5)
+cc(wrote-2, and-6)
+mark(asleep-11, while-7)
+nmod:poss(daughter-9, her-8)
+nsubj(asleep-11, daughter-9)
+cop(asleep-11, was-10)
+conj:and(wrote-2, asleep-11)
+
+(ROOT
+  (S
+    (NP (PRP She))
+    (VP (VBD had)
+      (NP
+        (NP (DT no) (NN money))
+        (PP (IN for)
+          (NP
+            (NP (DT a) (NN computer)
+              (CC or)
+              (NN typewriter-she))
+            (VP (VBN used)
+              (NP (DT a) (NN pen)
+                (CC and)
+                (NN paper)))))))
+    (. .)))
+
+nsubj(had-2, She-1)
+root(ROOT-0, had-2)
+neg(money-4, no-3)
+dobj(had-2, money-4)
+case(computer-7, for-5)
+det(computer-7, a-6)
+nmod:for(money-4, computer-7)
+cc(computer-7, or-8)
+nmod:for(money-4, typewriter-she-9)
+conj:or(computer-7, typewriter-she-9)
+acl(computer-7, used-10)
+det(pen-12, a-11)
+dobj(used-10, pen-12)
+cc(pen-12, and-13)
+dobj(used-10, paper-14)
+conj:and(pen-12, paper-14)
+
+(ROOT
+  (S
+    (S
+      (SBAR
+        (WHADVP (WRB When))
+        (S
+          (NP (NNS things))
+          (VP (VBD became)
+            (ADJP (JJ difficult)))))
+      (, ,)
+      (NP (PRP she))
+      (VP (VBP didnt)
+        (VP (VB forget)
+          (NP (PRP$ her) (NN goal)))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (PRP she))
+      (VP (VBP didnt)
+        (VP (VB stop)
+          (S
+            (VP (VBG working))))))
+    (. .)))
+
+advmod(became-3, When-1)
+nsubj(became-3, things-2)
+advcl(didnt-7, became-3)
+xcomp(became-3, difficult-4)
+nsubj(didnt-7, she-6)
+root(ROOT-0, didnt-7)
+xcomp(didnt-7, forget-8)
+nmod:poss(goal-10, her-9)
+dobj(forget-8, goal-10)
+cc(didnt-7, and-12)
+nsubj(didnt-14, she-13)
+conj:and(didnt-7, didnt-14)
+xcomp(didnt-14, stop-15)
+xcomp(stop-15, working-16)
+
+(ROOT
+  (S
+    (NP (NNP STEP) (CD 3))
+    (: :)
+    (ADVP (RB Never))
+    (VP (VBP give)
+      (PRT (RP up)))
+    (. .)))
+
+nsubj(give-5, STEP-1)
+nummod(STEP-1, 3-2)
+neg(give-5, Never-4)
+root(ROOT-0, give-5)
+compound:prt(give-5, up-6)
+
+(ROOT
+  (S
+    (S
+      (NP
+        (NP (DT The) (NN road))
+        (PP (TO to)
+          (NP (NN success))))
+      (VP (VBD was)
+        (ADJP (JJ hard)
+          (PP (IN for)
+            (NP (NNP Rowling))))))
+    (, ,)
+    (CC but)
+    (S
+      (ADVP (RB eventually))
+      (NP (PRP she))
+      (VP (VBD succeeded)))
+    (. .)))
+
+det(road-2, The-1)
+nsubj(hard-6, road-2)
+case(success-4, to-3)
+nmod:to(road-2, success-4)
+cop(hard-6, was-5)
+root(ROOT-0, hard-6)
+case(Rowling-8, for-7)
+nmod:for(hard-6, Rowling-8)
+cc(hard-6, but-10)
+advmod(succeeded-13, eventually-11)
+nsubj(succeeded-13, she-12)
+conj:but(hard-6, succeeded-13)
+
+(ROOT
+  (S
+    (NP
+      (NP (PRP$ Her) (NN advice))
+      (PP (TO to)
+        (NP (NNS people)))
+      (SBAR
+        (WHNP (WP who))
+        (S
+          (VP (VBP want)
+            (SBAR
+              (S
+                (NP (NN success))
+                (VP (VBZ is)
+                  (ADJP (JJ simple))))))))
+      (: :))
+    (VP (VBP Try)
+      (NP (PRP$ your) (JJS best)))
+    (. .)))
+
+nmod:poss(advice-2, Her-1)
+nsubj(want-6, advice-2)
+nsubj(Try-11, advice-2)
+case(people-4, to-3)
+nmod:to(advice-2, people-4)
+ref(advice-2, who-5)
+acl:relcl(advice-2, want-6)
+nsubj(simple-9, success-7)
+cop(simple-9, is-8)
+ccomp(want-6, simple-9)
+root(ROOT-0, Try-11)
+nmod:poss(best-13, your-12)
+dobj(Try-11, best-13)
+
+(ROOT
+  (S
+    (SBAR (IN If)
+      (S
+        (NP (PRP you))
+        (ADVP (RB really))
+        (VP (VBP want)
+          (S
+            (VP (TO to)
+              (VP (VB succeed)))))))
+    (, ,)
+    (ADVP (RB then))
+    (NP (PRP you))
+    (VP (MD will))
+    (. .)))
+
+mark(want-4, If-1)
+nsubj(want-4, you-2)
+nsubj(succeed-6, you-2)
+advmod(want-4, really-3)
+advcl(will-10, want-4)
+mark(succeed-6, to-5)
+xcomp(want-4, succeed-6)
+advmod(you-9, then-8)
+nsubj(will-10, you-9)
+root(ROOT-0, will-10)
+
+(ROOT
+  (S
+    (VP (VB Be)
+      (VP (VBN prepared)
+        (S
+          (VP (TO to)
+            (VP
+              (VP (VB make)
+                (NP (NNS mistakes)))
+              (: -)
+              (VP (VB learn)
+                (PP (IN from)
+                  (NP (PRP them)))))))))
+    (. .)))
+
+auxpass(prepared-2, Be-1)
+root(ROOT-0, prepared-2)
+mark(make-4, to-3)
+xcomp(prepared-2, make-4)
+dobj(make-4, mistakes-5)
+dep(make-4, learn-7)
+case(them-9, from-8)
+nmod:from(learn-7, them-9)
+
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (VBP have)
+      (S
+        (VP (TO to)
+          (VP
+            (VP (VB be)
+              (ADJP (JJ strong)))
+            (, ,)
+            (CC and)
+            (ADVP (RB never))
+            (VP (VB give)
+              (PRT (RP up)))))))
+    (. .)))
+
+nsubj(have-2, You-1)
+nsubj(strong-5, You-1)
+nsubj(give-9, You-1)
+root(ROOT-0, have-2)
+mark(strong-5, to-3)
+cop(strong-5, be-4)
+xcomp(have-2, strong-5)
+cc(strong-5, and-7)
+neg(give-9, never-8)
+xcomp(have-2, give-9)
+conj:and(strong-5, give-9)
+compound:prt(give-9, up-10)
+
+(ROOT
+  (SQ (MD Sounds)
+    (NP (NN simple))
+    (, ,)
+    (VP (VB doesnt)
+      (NP (PRP it)))
+    (. ?)))
+
+aux(doesnt-4, Sounds-1)
+nsubj(doesnt-4, simple-2)
+root(ROOT-0, doesnt-4)
+dobj(doesnt-4, it-5)
+

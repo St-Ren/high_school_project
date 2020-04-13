@@ -1,0 +1,823 @@
+(ROOT
+  (S
+    (NP (NNP Science))
+    (VP (VBZ plays)
+      (NP
+        (NP (DT a) (JJ big) (NN role))
+        (PP (IN in)
+          (NP (NN everything)))
+        (SBAR
+          (S
+            (NP (PRP we))
+            (VP (VBP do)
+              (PP (IN in)
+                (NP (DT the) (NN kitchen))))))))
+    (. .)))
+
+nsubj(plays-2, Science-1)
+root(ROOT-0, plays-2)
+det(role-5, a-3)
+amod(role-5, big-4)
+dobj(plays-2, role-5)
+case(everything-7, in-6)
+nmod:in(role-5, everything-7)
+nsubj(do-9, we-8)
+acl:relcl(role-5, do-9)
+case(kitchen-12, in-10)
+det(kitchen-12, the-11)
+nmod:in(do-9, kitchen-12)
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ is)
+      (NP
+        (NP (DT the) (NN magic))
+        (SBAR
+          (WHNP (WDT that))
+          (S
+            (VP (VBZ turns)
+              (NP
+                (NP (DT a) (NN pile))
+                (PP (IN of)
+                  (NP
+                    (NP (NNS ingredients))
+                    (PP (IN like)
+                      (NP (NN flour) (, ,) (NN sugar)
+                        (CC and)
+                        (NNS eggs))))))
+              (PP (IN into)
+                (NP (NN something) (JJ new)))
+              (, ,)
+              (PP (IN like)
+                (NP (DT a) (NN chocolate) (NN cake))))))))
+    (. .)))
+
+nsubj(magic-4, It-1)
+cop(magic-4, is-2)
+det(magic-4, the-3)
+root(ROOT-0, magic-4)
+nsubj(turns-6, magic-4)
+ref(magic-4, that-5)
+acl:relcl(magic-4, turns-6)
+det(pile-8, a-7)
+dobj(turns-6, pile-8)
+case(ingredients-10, of-9)
+nmod:of(pile-8, ingredients-10)
+case(flour-12, like-11)
+nmod:like(ingredients-10, flour-12)
+nmod:like(ingredients-10, sugar-14)
+conj:and(flour-12, sugar-14)
+cc(flour-12, and-15)
+nmod:like(ingredients-10, eggs-16)
+conj:and(flour-12, eggs-16)
+case(something-18, into-17)
+nmod:into(turns-6, something-18)
+amod(something-18, new-19)
+case(cake-24, like-21)
+det(cake-24, a-22)
+compound(cake-24, chocolate-23)
+nmod:like(turns-6, cake-24)
+
+(ROOT
+  (SQ (VBP Have)
+    (NP (PRP you))
+    (VP
+      (VP
+        (ADVP (RB ever))
+        (VBN boiled)
+        (NP (NNS eggs)))
+      (, ,)
+      (CC and)
+      (VP (VBD found)
+        (SBAR
+          (S
+            (NP (PRP them))
+            (VP (VBD split)
+              (ADJP (JJ open))
+              (PP (IN in)
+                (NP (DT the) (NN water))))))))
+    (. ?)))
+
+aux(boiled-4, Have-1)
+nsubj(boiled-4, you-2)
+nsubj(found-8, you-2)
+advmod(boiled-4, ever-3)
+root(ROOT-0, boiled-4)
+dobj(boiled-4, eggs-5)
+cc(boiled-4, and-7)
+conj:and(boiled-4, found-8)
+nsubj(split-10, them-9)
+ccomp(found-8, split-10)
+xcomp(split-10, open-11)
+case(water-14, in-12)
+det(water-14, the-13)
+nmod:in(split-10, water-14)
+
+(ROOT
+  (S
+    (S
+      (NP (JJ Next) (NN time))
+      (VP (VBP try)
+        (S
+          (VP (VBG remembering)
+            (NP (DT this) (NN physics) (NN lesson))))))
+    (: :)
+    (S
+      (NP (VBN heated) (NN air))
+      (VP (VBZ expands)))
+    (. !)))
+
+amod(time-2, Next-1)
+nsubj(try-3, time-2)
+root(ROOT-0, try-3)
+xcomp(try-3, remembering-4)
+det(lesson-7, this-5)
+compound(lesson-7, physics-6)
+dobj(remembering-4, lesson-7)
+amod(air-10, heated-9)
+nsubj(expands-11, air-10)
+parataxis(try-3, expands-11)
+
+(ROOT
+  (SBARQ (CC But)
+    (WHADVP (WRB how))
+    (SQ (MD will)
+      (NP (DT this) (NN lesson))
+      (VP (VB help)
+        (SBAR
+          (S
+            (NP (PRP you))
+            (VP (VBP boil)
+              (NP (DT an) (NN egg)))))))
+    (. ?)))
+
+cc(help-6, But-1)
+advmod(help-6, how-2)
+aux(help-6, will-3)
+det(lesson-5, this-4)
+nsubj(help-6, lesson-5)
+root(ROOT-0, help-6)
+nsubj(boil-8, you-7)
+ccomp(help-6, boil-8)
+det(egg-10, an-9)
+dobj(boil-8, egg-10)
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (JJ fat) (NN end))
+      (PP (IN of)
+        (NP (DT an) (NN egg))))
+    (VP (VBZ has)
+      (NP (DT a) (JJ small) (NN air) (NN bubble)))
+    (. .)))
+
+det(end-3, The-1)
+amod(end-3, fat-2)
+nsubj(has-7, end-3)
+case(egg-6, of-4)
+det(egg-6, an-5)
+nmod:of(end-3, egg-6)
+root(ROOT-0, has-7)
+det(bubble-11, a-8)
+amod(bubble-11, small-9)
+compound(bubble-11, air-10)
+dobj(has-7, bubble-11)
+
+(ROOT
+  (S
+    (SBAR
+      (WHADVP (WRB When))
+      (S
+        (NP (DT this) (NN air))
+        (VP (VBZ is)
+          (VP (VBN heated)
+            (PP (IN by)
+              (NP (DT the) (JJ boiling) (NN water)))))))
+    (, ,)
+    (NP (PRP it))
+    (VP (VBZ expands)
+      (CC and)
+      (VBZ causes)
+      (NP (DT the) (NN egg) (NN shell))
+      (S
+        (VP (TO to)
+          (VP (VB crack)))))
+    (. .)))
+
+advmod(heated-5, When-1)
+det(air-3, this-2)
+nsubjpass(heated-5, air-3)
+auxpass(heated-5, is-4)
+advcl(expands-12, heated-5)
+case(water-9, by-6)
+det(water-9, the-7)
+amod(water-9, boiling-8)
+nmod:by(heated-5, water-9)
+nsubj(expands-12, it-11)
+nsubj(causes-14, it-11)
+root(ROOT-0, expands-12)
+cc(expands-12, and-13)
+conj:and(expands-12, causes-14)
+det(shell-17, the-15)
+compound(shell-17, egg-16)
+dobj(expands-12, shell-17)
+mark(crack-19, to-18)
+advcl(expands-12, crack-19)
+
+(ROOT
+  (S
+    (VP (VB Use)
+      (NP (DT a) (NN pin)
+        (S
+          (VP (TO to)
+            (VP (VB make)
+              (NP (DT a) (JJ small) (NN hole))
+              (PP (IN into)
+                (NP
+                  (NP (DT the) (NN bottom))
+                  (PP (IN of)
+                    (NP (DT the) (NN egg)))))
+              (SBAR (IN before)
+                (S
+                  (NP (PRP you))
+                  (VP (VBP boil)
+                    (NP (PRP it))))))))))
+    (. .)))
+
+root(ROOT-0, Use-1)
+det(pin-3, a-2)
+dobj(Use-1, pin-3)
+mark(make-5, to-4)
+acl(pin-3, make-5)
+det(hole-8, a-6)
+amod(hole-8, small-7)
+dobj(make-5, hole-8)
+case(bottom-11, into-9)
+det(bottom-11, the-10)
+nmod:into(make-5, bottom-11)
+case(egg-14, of-12)
+det(egg-14, the-13)
+nmod:of(bottom-11, egg-14)
+mark(boil-17, before-15)
+nsubj(boil-17, you-16)
+advcl(make-5, boil-17)
+dobj(boil-17, it-18)
+
+(ROOT
+  (S
+    (NP (DT This))
+    (VP (MD will)
+      (VP (VB give)
+        (NP (DT the) (JJ expanding) (NN air))
+        (NP (DT a) (NN way)
+          (S
+            (VP (TO to)
+              (VP (VB escape)))))
+        (, ,)
+        (PP (IN without)
+          (S
+            (VP (VBG cracking)
+              (NP (DT the) (NN shell)))))))
+    (. .)))
+
+nsubj(give-3, This-1)
+aux(give-3, will-2)
+root(ROOT-0, give-3)
+det(air-6, the-4)
+amod(air-6, expanding-5)
+iobj(give-3, air-6)
+det(way-8, a-7)
+dobj(give-3, way-8)
+mark(escape-10, to-9)
+acl(way-8, escape-10)
+mark(cracking-13, without-12)
+advcl(give-3, cracking-13)
+det(shell-15, the-14)
+dobj(cracking-13, shell-15)
+
+(ROOT
+  (SQ (VBP Do)
+    (NP (PRP you))
+    (VP (VB know)
+      (NP (DT the) (NN chemistry))
+      (PP (IN behind)
+        (NP (DT a) (JJ good) (NN steak))))
+    (. ?)))
+
+aux(know-3, Do-1)
+nsubj(know-3, you-2)
+root(ROOT-0, know-3)
+det(chemistry-5, the-4)
+dobj(know-3, chemistry-5)
+case(steak-9, behind-6)
+det(steak-9, a-7)
+amod(steak-9, good-8)
+nmod:behind(know-3, steak-9)
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN heat))
+      (PP (IN from)
+        (NP (DT the) (NN pan))))
+    (VP (VBZ causes)
+      (NP
+        (NP (DT a) (NN reaction))
+        (PP (IN in)
+          (NP (DT the) (NN meat)))))
+    (. .)))
+
+det(heat-2, The-1)
+nsubj(causes-6, heat-2)
+case(pan-5, from-3)
+det(pan-5, the-4)
+nmod:from(heat-2, pan-5)
+root(ROOT-0, causes-6)
+det(reaction-8, a-7)
+dobj(causes-6, reaction-8)
+case(meat-11, in-9)
+det(meat-11, the-10)
+nmod:in(reaction-8, meat-11)
+
+(ROOT
+  (S
+    (NP (DT This))
+    (VP (VBZ happens)
+      (SBAR
+        (WHADVP (WRB when))
+        (S
+          (NP
+            (NP (NN protein)
+              (CC and)
+              (NNS sugars))
+            (PP (IN in)
+              (NP (DT the) (NN meat))))
+          (VP (VBP join)
+            (ADVP (RB together))
+            (S
+              (VP (TO to)
+                (VP (VB form)
+                  (NP (DT a) (JJ new) (NN molecule)))))))))
+    (. .)))
+
+nsubj(happens-2, This-1)
+root(ROOT-0, happens-2)
+advmod(join-10, when-3)
+nsubj(join-10, protein-4)
+nsubj(form-13, protein-4)
+cc(protein-4, and-5)
+conj:and(protein-4, sugars-6)
+nsubj(join-10, sugars-6)
+nsubj(form-13, sugars-6)
+case(meat-9, in-7)
+det(meat-9, the-8)
+nmod:in(protein-4, meat-9)
+advcl(happens-2, join-10)
+advmod(join-10, together-11)
+mark(form-13, to-12)
+xcomp(join-10, form-13)
+det(molecule-16, a-14)
+amod(molecule-16, new-15)
+dobj(form-13, molecule-16)
+
+(ROOT
+  (S
+    (VP (VB Its)
+      (NP
+        (NP (DT this) (JJ new) (NN molecule))
+        (SBAR
+          (WHNP (WDT that))
+          (S
+            (ADVP (RB slowly))
+            (VP
+              (VP (VBZ changes)
+                (NP
+                  (NP (DT the) (NN color))
+                  (PP (IN of)
+                    (NP
+                      (NP (DT the) (NN meat))
+                      (PP (IN from)
+                        (NP (NN red))))))
+                (PP (TO to)
+                  (NP (NN pink))))
+              (CC and)
+              (VP (VBZ gives)
+                (NP (DT the) (NN steak))
+                (NP (PRP$ its) (NN flavor))))))))
+    (. .)))
+
+root(ROOT-0, Its-1)
+det(molecule-4, this-2)
+amod(molecule-4, new-3)
+dobj(Its-1, molecule-4)
+nsubj(changes-7, molecule-4)
+nsubj(gives-18, molecule-4)
+ref(molecule-4, that-5)
+advmod(changes-7, slowly-6)
+acl:relcl(molecule-4, changes-7)
+det(color-9, the-8)
+dobj(changes-7, color-9)
+case(meat-12, of-10)
+det(meat-12, the-11)
+nmod:of(color-9, meat-12)
+case(red-14, from-13)
+nmod:from(meat-12, red-14)
+case(pink-16, to-15)
+nmod:to(changes-7, pink-16)
+cc(changes-7, and-17)
+acl:relcl(molecule-4, gives-18)
+conj:and(changes-7, gives-18)
+det(steak-20, the-19)
+iobj(gives-18, steak-20)
+nmod:poss(flavor-22, its-21)
+dobj(gives-18, flavor-22)
+
+(ROOT
+  (S
+    (S
+      (S
+        (VP (VB Remember)
+          (NP (DT the) (NN pan))))
+      (VP (MD must)
+        (VP (VB be)
+          (ADJP (JJ hot) (RB enough)
+            (PP (IN for)
+              (NP (DT this) (NN reaction)
+                (S
+                  (VP (TO to)
+                    (VP (VB occur))))))))))
+    (: ;)
+    (S
+      (ADVP (RB otherwise))
+      (, ,)
+      (NP (NN youll))
+      (VP (VBP have)
+        (NP (DT a)
+          (ADJP (JJ gray)
+            (CC and)
+            (JJ flavorless))
+          (NN steak))))
+    (. .)))
+
+csubj(hot-6, Remember-1)
+det(pan-3, the-2)
+dobj(Remember-1, pan-3)
+aux(hot-6, must-4)
+cop(hot-6, be-5)
+root(ROOT-0, hot-6)
+advmod(hot-6, enough-7)
+case(reaction-10, for-8)
+det(reaction-10, this-9)
+nmod:for(hot-6, reaction-10)
+mark(occur-12, to-11)
+acl(reaction-10, occur-12)
+advmod(have-17, otherwise-14)
+nsubj(have-17, youll-16)
+parataxis(hot-6, have-17)
+det(steak-22, a-18)
+amod(steak-22, gray-19)
+cc(gray-19, and-20)
+conj:and(gray-19, flavorless-21)
+amod(steak-22, flavorless-21)
+dobj(have-17, steak-22)
+
+(ROOT
+  (SQ (VBP Have)
+    (NP (PRP you))
+    (VP
+      (ADVP (RB ever))
+      (VBN sliced)
+      (NP (DT an) (NN onion)))
+    (. ?)))
+
+aux(sliced-4, Have-1)
+nsubj(sliced-4, you-2)
+advmod(sliced-4, ever-3)
+root(ROOT-0, sliced-4)
+det(onion-6, an-5)
+dobj(sliced-4, onion-6)
+
+(ROOT
+  (SQ (VBD Did)
+    (NP (PRP it))
+    (VP (VB make)
+      (S
+        (NP (PRP you))
+        (VP (VB cry))))
+    (. ?)))
+
+aux(make-3, Did-1)
+nsubj(make-3, it-2)
+root(ROOT-0, make-3)
+nsubj(cry-5, you-4)
+ccomp(make-3, cry-5)
+
+(ROOT
+  (S
+    (SBAR
+      (WHADVP (WRB When))
+      (S
+        (NP (PRP you))
+        (VP (VB cut)
+          (PRT (RP up))
+          (NP (DT an) (NN onion)))))
+    (NP (PRP you))
+    (VP (VBP are)
+      (VP (VBG allowing)
+        (NP (DT a) (NN reaction)
+          (S
+            (VP (TO to)
+              (VP (VB occur)))))))
+    (. .)))
+
+advmod(cut-3, When-1)
+nsubj(cut-3, you-2)
+advcl(allowing-9, cut-3)
+compound:prt(cut-3, up-4)
+det(onion-6, an-5)
+dobj(cut-3, onion-6)
+nsubj(allowing-9, you-7)
+aux(allowing-9, are-8)
+root(ROOT-0, allowing-9)
+det(reaction-11, a-10)
+dobj(allowing-9, reaction-11)
+mark(occur-13, to-12)
+acl(reaction-11, occur-13)
+
+(ROOT
+  (S
+    (NP (NNS Onions))
+    (VP (VBP contain)
+      (NP (NN sulphur) (NNS compounds)))
+    (. .)))
+
+nsubj(contain-2, Onions-1)
+root(ROOT-0, contain-2)
+compound(compounds-4, sulphur-3)
+dobj(contain-2, compounds-4)
+
+(ROOT
+  (S
+    (SBAR
+      (WHADVP (WRB When))
+      (S
+        (NP (PRP you))
+        (VP (VBD cut)
+          (NP (DT the) (NN onion)))))
+    (, ,)
+    (NP (DT these) (NNS compounds))
+    (VP
+      (VP (VBP are)
+        (VP (VBN released)
+          (PP (IN into)
+            (NP (DT the) (NN air)))))
+      (CC and)
+      (VP (VBP irritate)
+        (NP (PRP$ your) (NNS eyes))))
+    (. .)))
+
+advmod(cut-3, When-1)
+nsubj(cut-3, you-2)
+advcl(released-10, cut-3)
+det(onion-5, the-4)
+dobj(cut-3, onion-5)
+det(compounds-8, these-7)
+nsubjpass(released-10, compounds-8)
+nsubj(irritate-15, compounds-8)
+auxpass(released-10, are-9)
+root(ROOT-0, released-10)
+case(air-13, into-11)
+det(air-13, the-12)
+nmod:into(released-10, air-13)
+cc(released-10, and-14)
+conj:and(released-10, irritate-15)
+nmod:poss(eyes-17, your-16)
+dobj(irritate-15, eyes-17)
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (JJ next) (NN time))
+      (SBAR
+        (S
+          (NP (PRP you))
+          (VP (VBP need)
+            (S
+              (VP (TO to)
+                (VP (VB chop)
+                  (NP (DT an) (NN onion)))))))))
+    (, ,)
+    (VP (VB remember)
+      (NP (DT this) (JJ short) (NN science) (NN lesson))
+      (: :)
+      (S
+        (NP (NNS reactions))
+        (VP (VB happen)
+          (NP (JJR slower))
+          (PP (IN at)
+            (NP (JJR lower) (NNS temperatures))))))
+    (. .)))
+
+det(time-3, The-1)
+amod(time-3, next-2)
+nsubj(remember-11, time-3)
+nsubj(need-5, you-4)
+nsubj(chop-7, you-4)
+acl:relcl(time-3, need-5)
+mark(chop-7, to-6)
+xcomp(need-5, chop-7)
+det(onion-9, an-8)
+dobj(chop-7, onion-9)
+root(ROOT-0, remember-11)
+det(lesson-15, this-12)
+amod(lesson-15, short-13)
+compound(lesson-15, science-14)
+dobj(remember-11, lesson-15)
+nsubj(happen-18, reactions-17)
+parataxis(remember-11, happen-18)
+dobj(happen-18, slower-19)
+case(temperatures-22, at-20)
+amod(temperatures-22, lower-21)
+nmod:at(happen-18, temperatures-22)
+
+(ROOT
+  (S
+    (S
+      (VP (VB Put)
+        (NP (DT the) (NN onion))
+        (PP (IN in)
+          (NP (DT the) (NN refrigerator) (JJ first)))))
+    (: ;)
+    (S
+      (NP (PRP it))
+      (VP (MD will) (RB then)
+        (VP (VB release)
+          (NP (JJR fewer) (NN irritating) (NNS compounds))
+          (SBAR
+            (WHADVP (WRB when))
+            (S
+              (NP (PRP you))
+              (VP (VBD cut)
+                (NP (PRP it))))))))
+    (. .)))
+
+root(ROOT-0, Put-1)
+det(onion-3, the-2)
+dobj(Put-1, onion-3)
+case(refrigerator-6, in-4)
+det(refrigerator-6, the-5)
+nmod:in(Put-1, refrigerator-6)
+amod(refrigerator-6, first-7)
+nsubj(release-12, it-9)
+aux(release-12, will-10)
+advmod(release-12, then-11)
+parataxis(Put-1, release-12)
+amod(compounds-15, fewer-13)
+compound(compounds-15, irritating-14)
+dobj(release-12, compounds-15)
+advmod(cut-18, when-16)
+nsubj(cut-18, you-17)
+advcl(release-12, cut-18)
+dobj(cut-18, it-19)
+
+(ROOT
+  (S (IN So)
+    (NP (PRP you))
+    (VP (VBP see) (, ,)
+      (SBAR
+        (S
+          (NP
+            (NP (DT all))
+            (PP (IN of)
+              (NP
+                (NP (DT that) (NN science))
+                (SBAR
+                  (S
+                    (NP (PRP you))
+                    (VP (VBP learn)
+                      (PP (IN in)
+                        (NP (NN school)))))))))
+          (VP (MD can)
+            (VP (VB be)
+              (VP (VBN put)
+                (PP (TO to)
+                  (NP (JJ good) (NN use)))))))))
+    (. !)))
+
+dep(see-3, So-1)
+nsubj(see-3, you-2)
+root(ROOT-0, see-3)
+nsubjpass(put-15, all-5)
+case(science-8, of-6)
+det(science-8, that-7)
+nmod:of(all-5, science-8)
+nsubj(learn-10, you-9)
+acl:relcl(science-8, learn-10)
+case(school-12, in-11)
+nmod:in(learn-10, school-12)
+aux(put-15, can-13)
+auxpass(put-15, be-14)
+ccomp(see-3, put-15)
+case(use-18, to-16)
+amod(use-18, good-17)
+nmod:to(put-15, use-18)
+
+(ROOT
+  (S
+    (ADVP (RB Often))
+    (, ,)
+    (NP (PRP you))
+    (VP (VBP need)
+      (ADVP (RB only))
+      (S
+        (VP (TO to)
+          (VP (VB look)
+            (ADVP (RB closely))
+            (PP (IN at)
+              (NP (NN something)))
+            (S
+              (VP (TO to)
+                (VP (VB see)
+                  (NP
+                    (NP (DT the) (NN science))
+                    (SBAR
+                      (WHNP (WDT that))
+                      (S
+                        (VP (VBZ makes)
+                          (SBAR
+                            (S
+                              (NP (PRP it))
+                              (VP (VBP work)))))))))))))))
+    (. .)))
+
+advmod(need-4, Often-1)
+nsubj(need-4, you-3)
+nsubj(look-7, you-3)
+nsubj(see-12, you-3)
+root(ROOT-0, need-4)
+advmod(need-4, only-5)
+mark(look-7, to-6)
+xcomp(need-4, look-7)
+advmod(look-7, closely-8)
+case(something-10, at-9)
+nmod:at(look-7, something-10)
+mark(see-12, to-11)
+xcomp(look-7, see-12)
+det(science-14, the-13)
+dobj(see-12, science-14)
+nsubj(makes-16, science-14)
+ref(science-14, that-15)
+acl:relcl(science-14, makes-16)
+nsubj(work-18, it-17)
+ccomp(makes-16, work-18)
+
+(ROOT
+  (S
+    (PP (IN As)
+      (PP (IN in)
+        (NP
+          (NP (DT the) (NN case))
+          (PP (IN of)
+            (NP (DT the) (NN onion))))))
+    (, ,)
+    (NP (PRP you))
+    (ADVP (RB just))
+    (VP (MD might)
+      (VP (VB be)
+        (ADJP (JJ able)
+          (S
+            (VP (TO to)
+              (VP (VB keep)
+                (NP (PRP yourself))
+                (PP (IN from)
+                  (S
+                    (VP (VBG shedding)
+                      (NP
+                        (ADJP (RB too) (JJ many))
+                        (NNS tears)))))))))))
+    (. !)))
+
+case(case-4, As-1)
+case(case-4, in-2)
+det(case-4, the-3)
+nmod:in(able-13, case-4)
+case(onion-7, of-5)
+det(onion-7, the-6)
+nmod:of(case-4, onion-7)
+nsubj(able-13, you-9)
+nsubj(keep-15, you-9)
+advmod(able-13, just-10)
+aux(able-13, might-11)
+cop(able-13, be-12)
+root(ROOT-0, able-13)
+mark(keep-15, to-14)
+xcomp(able-13, keep-15)
+dobj(keep-15, yourself-16)
+mark(shedding-18, from-17)
+advcl(keep-15, shedding-18)
+advmod(many-20, too-19)
+amod(tears-21, many-20)
+dobj(shedding-18, tears-21)
+

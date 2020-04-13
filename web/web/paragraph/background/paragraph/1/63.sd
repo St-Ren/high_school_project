@@ -1,0 +1,988 @@
+(ROOT
+  (S
+    (NP (PRP We))
+    (VP (VBP have)
+      (ADVP (RB always))
+      (VP (VBN found)
+        (NP
+          (NP (PRP$ our)
+            (ADJP (`` ``) (NN secret) ('' ''))
+            (JJ night-time) (NNS journeys))
+          (ADJP (JJ fascinating)))))
+    (. .)))
+
+nsubj(found-4, We-1)
+aux(found-4, have-2)
+advmod(found-4, always-3)
+root(ROOT-0, found-4)
+nmod:poss(journeys-10, our-5)
+amod(journeys-10, secret-7)
+amod(journeys-10, night-time-9)
+dobj(found-4, journeys-10)
+amod(journeys-10, fascinating-11)
+
+(ROOT
+  (SBARQ
+    (WHADVP (RB However))
+    (, ,)
+    (SQ (VBP do)
+      (NP (PRP you))
+      (VP (VB know)
+        (SBAR (IN that)
+          (S
+            (PP (IN by)
+              (NP (DT the) (NN time)))
+            (NP (PRP you))
+            (VP
+              (VP (VBP are)
+                (ADJP (JJ sixty)
+                  (SBAR
+                    (S
+                      (NP (PRP you))
+                      (VP (MD will)
+                        (VP (VB have)
+                          (VP (VBD slept)
+                            (NP (CD 175,200) (NNS hours)))))))))
+              (, ,)
+              (VP (VBD dreamed)
+                (NP (CD 87,000) (NNS hours)))
+              (CC and)
+              (VP (VBD had)
+                (NP (CD 197,100) (NNS dreams))))))))
+    (. ?)))
+
+advmod(know-5, However-1)
+aux(know-5, do-3)
+nsubj(know-5, you-4)
+root(ROOT-0, know-5)
+mark(sixty-12, that-6)
+case(time-9, by-7)
+det(time-9, the-8)
+nmod:by(sixty-12, time-9)
+nsubj(sixty-12, you-10)
+nsubj(dreamed-20, you-10)
+nsubj(had-24, you-10)
+cop(sixty-12, are-11)
+ccomp(know-5, sixty-12)
+nsubj(slept-16, you-13)
+aux(slept-16, will-14)
+aux(slept-16, have-15)
+ccomp(sixty-12, slept-16)
+nummod(hours-18, 175,200-17)
+dobj(slept-16, hours-18)
+ccomp(know-5, dreamed-20)
+conj:and(sixty-12, dreamed-20)
+nummod(hours-22, 87,000-21)
+dobj(dreamed-20, hours-22)
+cc(sixty-12, and-23)
+ccomp(know-5, had-24)
+conj:and(sixty-12, had-24)
+nummod(dreams-26, 197,100-25)
+dobj(had-24, dreams-26)
+
+(ROOT
+  (FRAG
+    (ADVP (RB Probably))
+    (RB not) (. .)))
+
+dep(not-2, Probably-1)
+root(ROOT-0, not-2)
+
+(ROOT
+  (S
+    (ADVP (RB Also))
+    (, ,)
+    (NP
+      (NP (JJ many))
+      (PP (IN of)
+        (NP (PRP us))))
+    (VP
+      (VP
+        (ADVP (RB probably))
+        (VBP do) (RB n't)
+        (VP (VB remember)
+          (SBAR
+            (WHNP (WP what))
+            (S
+              (NP (PRP we))
+              (VP (VBD dreamed)
+                (PP (IN during)
+                  (NP (PRP$ our) (NN childhood) (VBG sleeping) (NNS hours))))))))
+      (, ,)
+      (CC and)
+      (VP (VBP do) (RB n't)
+        (VP (VB know)
+          (SBAR
+            (WHNP (WP what))
+            (S
+              (NP (PRP they))
+              (VP (VBD meant)))))))
+    (. .)))
+
+advmod(remember-9, Also-1)
+nsubj(remember-9, many-3)
+nsubj(know-22, many-3)
+case(us-5, of-4)
+nmod:of(many-3, us-5)
+advmod(remember-9, probably-6)
+aux(remember-9, do-7)
+neg(remember-9, n't-8)
+root(ROOT-0, remember-9)
+dobj(dreamed-12, what-10)
+nsubj(dreamed-12, we-11)
+ccomp(remember-9, dreamed-12)
+case(hours-17, during-13)
+nmod:poss(hours-17, our-14)
+compound(hours-17, childhood-15)
+amod(hours-17, sleeping-16)
+nmod:during(dreamed-12, hours-17)
+cc(remember-9, and-19)
+aux(know-22, do-20)
+neg(know-22, n't-21)
+conj:and(remember-9, know-22)
+dobj(meant-25, what-23)
+nsubj(meant-25, they-24)
+ccomp(know-22, meant-25)
+
+(ROOT
+  (S
+    (S
+      (NP (DT Some))
+      (VP (VBP say)))
+    (: :)
+    (S
+      (NP (PRP$ Our) (NNS dreams))
+      (VP (VBP tell)
+        (NP (PRP us))
+        (PP (IN about)
+          (NP
+            (NP (PRP$ our) (JJ present) (NN state))
+            (PP (IN of)
+              (NP (NN consciousness)))))))
+    (: ;)
+    (S
+      (NP (DT this))
+      (VP (VBZ is)
+        (SBAR
+          (WHADVP (WRB why))
+          (S
+            (NP (PRP we))
+            (VP (VBP dream))))))
+    (. .)))
+
+nsubj(say-2, Some-1)
+root(ROOT-0, say-2)
+nmod:poss(dreams-5, Our-4)
+nsubj(tell-6, dreams-5)
+parataxis(say-2, tell-6)
+dobj(tell-6, us-7)
+case(state-11, about-8)
+nmod:poss(state-11, our-9)
+amod(state-11, present-10)
+nmod:about(tell-6, state-11)
+case(consciousness-13, of-12)
+nmod:of(state-11, consciousness-13)
+nsubj(is-16, this-15)
+parataxis(say-2, is-16)
+advmod(dream-19, why-17)
+nsubj(dream-19, we-18)
+advcl(is-16, dream-19)
+
+(ROOT
+  (S
+    (NP (PRP We))
+    (VP (VBP dream)
+      (PP (IN during)
+        (NP
+          (NP (DT the) (NNP REM)
+            (PRN (-LRB- -LRB-)
+              (NP (JJ rapid) (NN eye) (NN movement))
+              (-RRB- -RRB-))
+            (NN stage))
+          (PP (IN of)
+            (NP (NN sleep))))))
+    (. .)))
+
+nsubj(dream-2, We-1)
+root(ROOT-0, dream-2)
+case(stage-11, during-3)
+det(stage-11, the-4)
+compound(stage-11, REM-5)
+amod(movement-9, rapid-7)
+compound(movement-9, eye-8)
+appos(stage-11, movement-9)
+nmod:during(dream-2, stage-11)
+case(sleep-13, of-12)
+nmod:of(stage-11, sleep-13)
+
+(ROOT
+  (S
+    (NP (PRP We))
+    (VP (VBP have)
+      (NP
+        (NP
+          (QP (RB about) (CD five))
+          (NNS periods))
+        (PP (IN of)
+          (NP (NNP REM) (NN sleep))))
+      (PP (IN during)
+        (NP (DT the) (NN night))))
+    (. .)))
+
+nsubj(have-2, We-1)
+root(ROOT-0, have-2)
+advmod(five-4, about-3)
+nummod(periods-5, five-4)
+dobj(have-2, periods-5)
+case(sleep-8, of-6)
+compound(sleep-8, REM-7)
+nmod:of(periods-5, sleep-8)
+case(night-11, during-9)
+det(night-11, the-10)
+nmod:during(have-2, night-11)
+
+(ROOT
+  (S
+    (NP (DT The) (JJ first) (NNP REM) (NN cycle))
+    (VP (VBZ lasts)
+      (NP
+        (QP (RB about) (CD ten))
+        (NNS minutes)))
+    (. .)))
+
+det(cycle-4, The-1)
+amod(cycle-4, first-2)
+compound(cycle-4, REM-3)
+nsubj(lasts-5, cycle-4)
+root(ROOT-0, lasts-5)
+advmod(ten-7, about-6)
+nummod(minutes-8, ten-7)
+dobj(lasts-5, minutes-8)
+
+(ROOT
+  (S
+    (SBAR (IN As)
+      (S
+        (NP (DT the) (NN night))
+        (VP (VBZ goes)
+          (PRT (RP on)))))
+    (, ,)
+    (NP (NNP REM) (NNS cycles))
+    (VP (VBP get)
+      (ADVP (RBR longer)))
+    (. .)))
+
+mark(goes-4, As-1)
+det(night-3, the-2)
+nsubj(goes-4, night-3)
+advcl(get-9, goes-4)
+compound:prt(goes-4, on-5)
+compound(cycles-8, REM-7)
+nsubj(get-9, cycles-8)
+root(ROOT-0, get-9)
+advmod(get-9, longer-10)
+
+(ROOT
+  (S
+    (PP (IN By)
+      (NP (JJ early) (NN morning)))
+    (, ,)
+    (NP (NNP REM) (NNS cycles))
+    (VP (MD can)
+      (VP (VB last)
+        (PP (IN for)
+          (NP
+            (QP (IN up) (TO to) (CD ninety))
+            (NNS minutes)))))
+    (. .)))
+
+case(morning-3, By-1)
+amod(morning-3, early-2)
+nmod:by(last-8, morning-3)
+compound(cycles-6, REM-5)
+nsubj(last-8, cycles-6)
+aux(last-8, can-7)
+root(ROOT-0, last-8)
+case(minutes-13, for-9)
+dep(ninety-12, up-10)
+mwe(up-10, to-11)
+nummod(minutes-13, ninety-12)
+nmod:for(last-8, minutes-13)
+
+(ROOT
+  (S
+    (PP
+      (ADVP (RB Usually))
+      (IN in)
+      (NP (DT this) (JJ last) (NNP REM) (NN cycle)))
+    (, ,)
+    (NP (PRP we))
+    (VP (VBP remember)
+      (NP (PRP$ our) (NNS dreams)))
+    (. .)))
+
+advmod(cycle-6, Usually-1)
+case(cycle-6, in-2)
+det(cycle-6, this-3)
+amod(cycle-6, last-4)
+compound(cycle-6, REM-5)
+nmod:in(remember-9, cycle-6)
+nsubj(remember-9, we-8)
+root(ROOT-0, remember-9)
+nmod:poss(dreams-11, our-10)
+dobj(remember-9, dreams-11)
+
+(ROOT
+  (S
+    (NP (NNS Dreams))
+    (VP (VBP change)
+      (PP (IN as)
+        (NP (NNS people) (NN age))))
+    (. .)))
+
+nsubj(change-2, Dreams-1)
+root(ROOT-0, change-2)
+case(age-5, as-3)
+compound(age-5, people-4)
+nmod:as(change-2, age-5)
+
+(ROOT
+  (S
+    (NP (NNS Infants))
+    (VP (VBP dream)
+      (NP
+        (NP
+          (QP (RB about) (PDT half)))
+        (PP (IN of)
+          (NP (DT the) (NN time)))
+        (SBAR
+          (S
+            (NP (PRP they))
+            (VP (VBP are)
+              (ADJP (RB asleep)))))))
+    (. .)))
+
+nsubj(dream-2, Infants-1)
+root(ROOT-0, dream-2)
+advmod(half-4, about-3)
+dobj(dream-2, half-4)
+case(time-7, of-5)
+det(time-7, the-6)
+nmod:of(half-4, time-7)
+nsubj(asleep-10, they-8)
+cop(asleep-10, are-9)
+acl:relcl(half-4, asleep-10)
+
+(ROOT
+  (S (CC But)
+    (, ,)
+    (PP (IN of)
+      (NP (NN course)))
+    (, ,)
+    (NP (PRP we))
+    (VP (VBP do) (RB not)
+      (VP (VB know)
+        (SBAR
+          (WHNP (WP what))
+          (S
+            (NP (PRP they))
+            (VP (VBP dream)
+              (PRT (RP about)))))))
+    (. .)))
+
+cc(know-9, But-1)
+case(course-4, of-3)
+nmod:of(know-9, course-4)
+nsubj(know-9, we-6)
+aux(know-9, do-7)
+neg(know-9, not-8)
+root(ROOT-0, know-9)
+dobj(dream-12, what-10)
+nsubj(dream-12, they-11)
+ccomp(know-9, dream-12)
+compound:prt(dream-12, about-13)
+
+(ROOT
+  (S
+    (PP (IN At)
+      (NP
+        (NP (NN age) (CD eight))
+        (CC or)
+        (NP (CD nine))))
+    (, ,)
+    (NP (NNS children))
+    (VP (VBP start)
+      (S
+        (VP (TO to)
+          (VP (VB tell)
+            (NP (PRP$ their) (NNS dreams))
+            (PP (IN as)
+              (NP (NNS stories)))))))
+    (. .)))
+
+case(age-2, At-1)
+nmod:at(start-8, age-2)
+nummod(age-2, eight-3)
+cc(age-2, or-4)
+conj:or(age-2, nine-5)
+nmod:at(start-8, nine-5)
+nsubj(start-8, children-7)
+nsubj(tell-10, children-7)
+root(ROOT-0, start-8)
+mark(tell-10, to-9)
+xcomp(start-8, tell-10)
+nmod:poss(dreams-12, their-11)
+dobj(tell-10, dreams-12)
+case(stories-14, as-13)
+nmod:as(tell-10, stories-14)
+
+(ROOT
+  (S
+    (NP (NNS People))
+    (VP (VBN aged)
+      (S
+        (ADJP (JJ twenty-one)
+          (PP (TO to)
+            (NP (JJ thirty-four) (NN report)))))
+      (SBAR (IN that)
+        (S
+          (NP
+            (NP (JJ many))
+            (PP (IN of)
+              (NP (PRP$ their) (NNS dreams))))
+          (VP (VBP are)
+            (VP (IN about)
+              (S
+                (VP (VBG feeling)
+                  (ADJP (JJ guilty)
+                    (PP (IN for)
+                      (NP (NNS things))))
+                  (SBAR (IN that)
+                    (S
+                      (NP (PRP they))
+                      (VP (VBD did)))))))))))
+    (. .)))
+
+nsubj(aged-2, People-1)
+root(ROOT-0, aged-2)
+xcomp(aged-2, twenty-one-3)
+case(report-6, to-4)
+amod(report-6, thirty-four-5)
+nmod:to(twenty-one-3, report-6)
+mark(about-13, that-7)
+nsubj(about-13, many-8)
+case(dreams-11, of-9)
+nmod:poss(dreams-11, their-10)
+nmod:of(many-8, dreams-11)
+aux(about-13, are-12)
+ccomp(aged-2, about-13)
+xcomp(about-13, feeling-14)
+xcomp(feeling-14, guilty-15)
+case(things-17, for-16)
+nmod:for(guilty-15, things-17)
+mark(did-20, that-18)
+nsubj(did-20, they-19)
+ccomp(feeling-14, did-20)
+
+(ROOT
+  (S
+    (NP (JJR Older) (NNS people))
+    (ADVP (RB usually))
+    (VP (VBP dream)
+      (PP (IN about)
+        (NP
+          (NP (NN work))
+          (CC or)
+          (NP (PRP$ their) (NNS families)))))
+    (. .)))
+
+amod(people-2, Older-1)
+nsubj(dream-4, people-2)
+advmod(dream-4, usually-3)
+root(ROOT-0, dream-4)
+case(work-6, about-5)
+nmod:about(dream-4, work-6)
+cc(work-6, or-7)
+nmod:poss(families-9, their-8)
+nmod:about(dream-4, families-9)
+conj:or(work-6, families-9)
+
+(ROOT
+  (S
+    (NP (JJ Many) (NNS dreams))
+    (VP (VBP show)
+      (NP (JJ common) (NNS ideas)
+        (CC and)
+        (NNS concerns)))
+    (. .)))
+
+amod(dreams-2, Many-1)
+nsubj(show-3, dreams-2)
+root(ROOT-0, show-3)
+amod(ideas-5, common-4)
+dobj(show-3, ideas-5)
+cc(ideas-5, and-6)
+dobj(show-3, concerns-7)
+conj:and(ideas-5, concerns-7)
+
+(ROOT
+  (S
+    (NP (NNS People))
+    (ADVP (RB often))
+    (VP (VBP dream)
+      (PP (IN about)
+        (S
+          (VP
+            (VP (VBG falling))
+            (, ,)
+            (VP (VBG flying))
+            (, ,)
+            (CC or)
+            (VP (VBG floating)
+              (PP (IN in)
+                (NP (DT the) (NN sky))))))))
+    (. .)))
+
+nsubj(dream-3, People-1)
+advmod(dream-3, often-2)
+root(ROOT-0, dream-3)
+mark(falling-5, about-4)
+advcl(dream-3, falling-5)
+advcl(dream-3, flying-7)
+conj:or(falling-5, flying-7)
+cc(falling-5, or-9)
+advcl(dream-3, floating-10)
+conj:or(falling-5, floating-10)
+case(sky-13, in-11)
+det(sky-13, the-12)
+nmod:in(floating-10, sky-13)
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (JJ many) (NNS dreams)))
+    (, ,)
+    (NP (NNS people))
+    (VP (VBP forget)
+      (S
+        (NP (NN something))
+        (ADJP (JJ important)))
+      (, ,)
+      (PP (JJ such) (IN as)
+        (S
+          (VP
+            (VP (VBG going)
+              (S
+                (VP (TO to)
+                  (VP (VB work)
+                    (PP (IN on)
+                      (NP (NN time)))))))
+            (CC or)
+            (VP (VBG putting)
+              (PP (IN on)
+                (NP (NNS clothes))))))))
+    (. .)))
+
+case(dreams-3, In-1)
+amod(dreams-3, many-2)
+nmod:in(forget-6, dreams-3)
+nsubj(forget-6, people-5)
+root(ROOT-0, forget-6)
+nsubj(important-8, something-7)
+xcomp(forget-6, important-8)
+mark(going-12, such-10)
+mwe(such-10, as-11)
+advcl(forget-6, going-12)
+mark(work-14, to-13)
+xcomp(going-12, work-14)
+case(time-16, on-15)
+nmod:on(work-14, time-16)
+cc(going-12, or-17)
+advcl(forget-6, putting-18)
+conj:or(going-12, putting-18)
+case(clothes-20, on-19)
+nmod:on(putting-18, clothes-20)
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (NN addition)))
+    (, ,)
+    (S
+      (NP (NNS people))
+      (VP (VBP miss)
+        (NP
+          (NP (PRP$ their) (NN bus))
+          (, ,)
+          (NP (NN plane))
+          (, ,)
+          (CC or)
+          (NP (NN train)))))
+    (, ,)
+    (CC or)
+    (S
+      (NP (PRP they))
+      (VP (VBP are)
+        (ADJP (JJ late)
+          (PP (IN for)
+            (NP
+              (NP (DT an) (NN appointment))
+              (PP (IN in)
+                (NP (PRP$ their) (NNS dreams))))))))
+    (. .)))
+
+case(addition-2, In-1)
+nmod:in(miss-5, addition-2)
+nsubj(miss-5, people-4)
+root(ROOT-0, miss-5)
+nmod:poss(bus-7, their-6)
+dobj(miss-5, bus-7)
+dobj(miss-5, plane-9)
+conj:or(bus-7, plane-9)
+cc(bus-7, or-11)
+dobj(miss-5, train-12)
+conj:or(bus-7, train-12)
+cc(miss-5, or-14)
+nsubj(late-17, they-15)
+cop(late-17, are-16)
+conj:or(miss-5, late-17)
+case(appointment-20, for-18)
+det(appointment-20, an-19)
+nmod:for(late-17, appointment-20)
+case(dreams-23, in-21)
+nmod:poss(dreams-23, their-22)
+nmod:in(appointment-20, dreams-23)
+
+(ROOT
+  (S
+    (ADVP (RB Furthermore))
+    (, ,)
+    (NP
+      (NP (JJS most) (NNS people) (POS 's))
+      (NNS dreams))
+    (VP (VBP have)
+      (NP
+        (NP (CD two) (JJ other) (NNS people))
+        (PP (IN in)
+          (NP (PRP them)))))
+    (. .)))
+
+advmod(have-7, Furthermore-1)
+amod(people-4, most-3)
+nmod:poss(dreams-6, people-4)
+case(people-4, 's-5)
+nsubj(have-7, dreams-6)
+root(ROOT-0, have-7)
+nummod(people-10, two-8)
+amod(people-10, other-9)
+dobj(have-7, people-10)
+case(them-12, in-11)
+nmod:in(people-10, them-12)
+
+(ROOT
+  (S
+    (NP (NNP Bad) (NNS dreams))
+    (VP (VBP are)
+      (ADJP (RBR more) (JJ common)
+        (PP (IN than)
+          (NP (JJ good) (NNS ones)))))
+    (. .)))
+
+compound(dreams-2, Bad-1)
+nsubj(common-5, dreams-2)
+cop(common-5, are-3)
+advmod(common-5, more-4)
+root(ROOT-0, common-5)
+case(ones-8, than-6)
+amod(ones-8, good-7)
+nmod:than(common-5, ones-8)
+
+(ROOT
+  (S
+    (SBAR
+      (WHADVP (WRB When))
+      (S
+        (NP (NNS people))
+        (VP (VBP are)
+          (PP (IN in)
+            (NP (NN trouble))))))
+    (, ,)
+    (NP (PRP they))
+    (ADVP (RB often))
+    (VP (VBP have)
+      (NP (JJ negative) (NNS dreams)))
+    (. .)))
+
+advmod(trouble-5, When-1)
+nsubj(trouble-5, people-2)
+cop(trouble-5, are-3)
+case(trouble-5, in-4)
+advcl:in(have-9, trouble-5)
+nsubj(have-9, they-7)
+advmod(have-9, often-8)
+root(ROOT-0, have-9)
+amod(dreams-11, negative-10)
+dobj(have-9, dreams-11)
+
+(ROOT
+  (S
+    (NP
+      (NP (NNS People))
+      (SBAR
+        (WHNP (WP who))
+        (S
+          (VP (VBD had)
+            (VP (VBN experienced)
+              (NP (NNS accidents))
+              (SBAR
+                (WHADVP (WRB when))
+                (S
+                  (NP (PRP they))
+                  (VP (VBD were)
+                    (ADJP (JJ young))))))))))
+    (VP (VBP dream)
+      (PP (IN about)
+        (NP (NN death)))
+      (ADVP
+        (ADVP (RBR more) (RB often))
+        (PP (IN than)
+          (NP
+            (NP (DT those) (NNS people))
+            (SBAR
+              (WHNP (WP who))
+              (S
+                (VP (VBD had) (RB not))))))))
+    (. .)))
+
+nsubj(experienced-4, People-1)
+nsubj(dream-10, People-1)
+ref(People-1, who-2)
+aux(experienced-4, had-3)
+acl:relcl(People-1, experienced-4)
+dobj(experienced-4, accidents-5)
+advmod(young-9, when-6)
+nsubj(young-9, they-7)
+cop(young-9, were-8)
+advcl(experienced-4, young-9)
+root(ROOT-0, dream-10)
+case(death-12, about-11)
+nmod:about(dream-10, death-12)
+advmod(often-14, more-13)
+advmod(dream-10, often-14)
+case(people-17, than-15)
+det(people-17, those-16)
+nmod:than(often-14, people-17)
+nsubj(had-19, people-17)
+ref(people-17, who-18)
+acl:relcl(people-17, had-19)
+neg(had-19, not-20)
+
+(ROOT
+  (S
+    (ADVP (RB Moreover))
+    (, ,)
+    (NP
+      (NP (JJR more) (NNS women))
+      (PP (IN than)
+        (NP (NNS men))))
+    (VP (VBP talk)
+      (PP (IN about)
+        (NP (PRP$ their) (NNS dreams))))
+    (. .)))
+
+advmod(talk-7, Moreover-1)
+amod(women-4, more-3)
+nsubj(talk-7, women-4)
+case(men-6, than-5)
+nmod:than(women-4, men-6)
+root(ROOT-0, talk-7)
+case(dreams-10, about-8)
+nmod:poss(dreams-10, their-9)
+nmod:about(talk-7, dreams-10)
+
+(ROOT
+  (SQ (VBP Do)
+    (NP (PRP you))
+    (VP (VB want)
+      (S
+        (VP (TO to)
+          (VP (VB remember)
+            (NP (PRP$ your) (NNS dreams))))))
+    (. ?)))
+
+aux(want-3, Do-1)
+nsubj(want-3, you-2)
+nsubj(remember-5, you-2)
+root(ROOT-0, want-3)
+mark(remember-5, to-4)
+xcomp(want-3, remember-5)
+nmod:poss(dreams-7, your-6)
+dobj(remember-5, dreams-7)
+
+(ROOT
+  (S
+    (SBAR (IN If)
+      (S
+        (NP (PRP you))
+        (VP (VBP do))))
+    (, ,)
+    (NP (PRP you))
+    (VP (MD can)
+      (VP (VB train)
+        (S
+          (NP (PRP yourself))
+          (VP (TO to)
+            (VP (VB remember)
+              (NP (PRP$ your) (NNS dreams)))))))
+    (. .)))
+
+mark(do-3, If-1)
+nsubj(do-3, you-2)
+advcl(train-7, do-3)
+nsubj(train-7, you-5)
+aux(train-7, can-6)
+root(ROOT-0, train-7)
+dobj(train-7, yourself-8)
+nsubj(remember-10, yourself-8)
+mark(remember-10, to-9)
+xcomp(train-7, remember-10)
+nmod:poss(dreams-12, your-11)
+dobj(remember-10, dreams-12)
+
+(ROOT
+  (S
+    (NP (CD One) (NN way))
+    (VP (VBZ is)
+      (S
+        (VP (TO to)
+          (VP
+            (VP (VB tell)
+              (NP (PRP yourself)))
+            (CC or)
+            (VP (VB record)
+              (NP (PRP$ your) (NN dream))
+              (SBAR
+                (WHADVP (WRB when))
+                (S
+                  (NP (PRP you))
+                  (VP (VBP wake)
+                    (PRT (RP up))))))))))
+    (. .)))
+
+nummod(way-2, One-1)
+nsubj(is-3, way-2)
+nsubj(tell-5, way-2)
+nsubj(record-8, way-2)
+root(ROOT-0, is-3)
+mark(tell-5, to-4)
+xcomp(is-3, tell-5)
+dobj(tell-5, yourself-6)
+cc(tell-5, or-7)
+xcomp(is-3, record-8)
+conj:or(tell-5, record-8)
+nmod:poss(dream-10, your-9)
+dobj(record-8, dream-10)
+advmod(wake-13, when-11)
+nsubj(wake-13, you-12)
+advcl(record-8, wake-13)
+compound:prt(wake-13, up-14)
+
+(ROOT
+  (S
+    (VP (VB Keep)
+      (NP
+        (NP (DT a) (NN pen)
+          (CC and)
+          (NN paper))
+        (CC or)
+        (NP
+          (NP (DT a) (NN tape/MP) (NN recorder))
+          (PP (IN near)
+            (NP (PRP$ your) (NN bed)
+              (S
+                (VP (TO to)
+                  (VP (VB do)
+                    (ADVP (RB so))))))))))
+    (. .)))
+
+root(ROOT-0, Keep-1)
+det(pen-3, a-2)
+dobj(Keep-1, pen-3)
+cc(pen-3, and-4)
+dobj(Keep-1, paper-5)
+conj:and(pen-3, paper-5)
+cc(pen-3, or-6)
+det(recorder-9, a-7)
+compound(recorder-9, tape/MP-8)
+dobj(Keep-1, recorder-9)
+conj:or(pen-3, recorder-9)
+case(bed-12, near-10)
+nmod:poss(bed-12, your-11)
+nmod:near(recorder-9, bed-12)
+mark(do-14, to-13)
+acl(bed-12, do-14)
+advmod(do-14, so-15)
+
+(ROOT
+  (S
+    (NP (PRP We))
+    (ADVP (RB never))
+    (VP (VBP stop)
+      (S
+        (VP (VBG dreaming))))
+    (. .)))
+
+nsubj(stop-3, We-1)
+neg(stop-3, never-2)
+root(ROOT-0, stop-3)
+xcomp(stop-3, dreaming-4)
+
+(ROOT
+  (S (CC But)
+    (NP (PRP we))
+    (VP (MD can) (RB not)
+      (ADVP (RB really))
+      (VP (VB say)
+        (SBAR
+          (SBAR
+            (WHNP (WP what))
+            (S
+              (NP (NNS dreams))
+              (VP (VBP mean))))
+          (CC or)
+          (SBAR
+            (WHADVP (WRB how))
+            (S
+              (NP (PRP they))
+              (VP (VBP happen)))))))
+    (. .)))
+
+cc(say-6, But-1)
+nsubj(say-6, we-2)
+aux(say-6, can-3)
+neg(say-6, not-4)
+advmod(say-6, really-5)
+root(ROOT-0, say-6)
+dobj(mean-9, what-7)
+nsubj(mean-9, dreams-8)
+dep(say-6, mean-9)
+cc(mean-9, or-10)
+advmod(happen-13, how-11)
+nsubj(happen-13, they-12)
+dep(say-6, happen-13)
+conj:or(mean-9, happen-13)
+
+(ROOT
+  (S
+    (NP (NNS Dreams))
+    (VP (VBP are)
+      (ADVP (RB still))
+      (NP (DT a) (NN mystery)))
+    (. .)))
+
+nsubj(mystery-5, Dreams-1)
+cop(mystery-5, are-2)
+advmod(mystery-5, still-3)
+det(mystery-5, a-4)
+root(ROOT-0, mystery-5)
+

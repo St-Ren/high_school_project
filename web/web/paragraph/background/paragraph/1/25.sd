@@ -1,0 +1,1011 @@
+(ROOT
+  (S
+    (NP (DT A) (NN Name))
+    (VP (VBZ Is) (RB Not)
+      (NP (RB Just) (DT a) (NN Name)))
+    (. .)))
+
+det(Name-2, A-1)
+nsubj(Name-7, Name-2)
+cop(Name-7, Is-3)
+neg(Name-7, Not-4)
+advmod(Name-7, Just-5)
+det(Name-7, a-6)
+root(ROOT-0, Name-7)
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP Jiayi))
+      (, ,)
+      (NP
+        (NP (DT a) (JJ high) (NN school) (NN student))
+        (PP (IN in)
+          (NP (NNP Taiwan))))
+      (, ,))
+    (VP (VBZ has)
+      (NP
+        (NP (DT a) (JJ new) (NN e-pal))
+        (, ,)
+        (NP
+          (NP (NNP Elizabeth))
+          (, ,)
+          (NP (DT an) (JJ American) (JJ high) (NN school) (NN girl)))))
+    (. .)))
+
+nsubj(has-10, Jiayi-1)
+det(student-6, a-3)
+amod(student-6, high-4)
+compound(student-6, school-5)
+appos(Jiayi-1, student-6)
+case(Taiwan-8, in-7)
+nmod:in(student-6, Taiwan-8)
+root(ROOT-0, has-10)
+det(e-pal-13, a-11)
+amod(e-pal-13, new-12)
+dobj(has-10, e-pal-13)
+appos(e-pal-13, Elizabeth-15)
+det(girl-21, an-17)
+amod(girl-21, American-18)
+amod(girl-21, high-19)
+compound(girl-21, school-20)
+appos(Elizabeth-15, girl-21)
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP
+        (NP (PRP$ her) (JJ last) (NN e-mail))
+        (PP (TO to)
+          (NP (NNP Jiayi)))))
+    (, ,)
+    (NP (NNP Elizabeth))
+    (VP (VBD asked)
+      (PP (IN about)
+        (NP
+          (NP (DT the) (NN meaning))
+          (PP (IN of)
+            (NP (NNP Jiayis) (NN name)))))
+      (PP (IN in)
+        (NP (NNP Chinese))))
+    (. .)))
+
+case(e-mail-4, In-1)
+nmod:poss(e-mail-4, her-2)
+amod(e-mail-4, last-3)
+nmod:in(asked-9, e-mail-4)
+case(Jiayi-6, to-5)
+nmod:to(e-mail-4, Jiayi-6)
+nsubj(asked-9, Elizabeth-8)
+root(ROOT-0, asked-9)
+case(meaning-12, about-10)
+det(meaning-12, the-11)
+nmod:about(asked-9, meaning-12)
+case(name-15, of-13)
+compound(name-15, Jiayis-14)
+nmod:of(meaning-12, name-15)
+case(Chinese-17, in-16)
+nmod:in(asked-9, Chinese-17)
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (DT the) (JJ following) (NNS e-mails)))
+    (, ,)
+    (NP (PRP they))
+    (VP (VBP share)
+      (NP
+        (NP (NNS stories))
+        (PP (IN about)
+          (NP (PRP$ their) (NNS names)))))
+    (. .)))
+
+case(e-mails-4, In-1)
+det(e-mails-4, the-2)
+amod(e-mails-4, following-3)
+nmod:in(share-7, e-mails-4)
+nsubj(share-7, they-6)
+root(ROOT-0, share-7)
+dobj(share-7, stories-8)
+case(names-11, about-9)
+nmod:poss(names-11, their-10)
+nmod:about(stories-8, names-11)
+
+(ROOT
+  (NP
+    (NP (NNP Dear) (NNP Elizabeth))
+    (, ,)
+    (NP
+      (NP (NNS Thanks))
+      (PP (IN for)
+        (NP (DT the) (NN reply))))
+    (. .)))
+
+compound(Elizabeth-2, Dear-1)
+root(ROOT-0, Elizabeth-2)
+appos(Elizabeth-2, Thanks-4)
+case(reply-7, for-5)
+det(reply-7, the-6)
+nmod:for(Thanks-4, reply-7)
+
+(ROOT
+  (S
+    (NP (NN Id))
+    (VP (VB be)
+      (VP (VBN pleased)
+        (S
+          (VP (TO to)
+            (VP (VB tell)
+              (NP (PRP you))
+              (PP (IN about)
+                (NP (PRP$ my) (JJ Chinese) (NN name))))))))
+    (. .)))
+
+nsubjpass(pleased-3, Id-1)
+nsubj(tell-5, Id-1)
+auxpass(pleased-3, be-2)
+root(ROOT-0, pleased-3)
+mark(tell-5, to-4)
+xcomp(pleased-3, tell-5)
+dobj(tell-5, you-6)
+case(name-10, about-7)
+nmod:poss(name-10, my-8)
+amod(name-10, Chinese-9)
+nmod:about(tell-5, name-10)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (JJ full) (NN name))
+    (VP (VBZ is)
+      (NP (NNP Tao) (NNP Jiayi)))
+    (. .)))
+
+nmod:poss(name-3, My-1)
+amod(name-3, full-2)
+nsubj(Jiayi-6, name-3)
+cop(Jiayi-6, is-4)
+compound(Jiayi-6, Tao-5)
+root(ROOT-0, Jiayi-6)
+
+(ROOT
+  (S
+    (S
+      (NP (NNP Tao))
+      (VP (VBZ is)
+        (NP (PRP$ my) (NN family) (NN name))))
+    (CC and)
+    (S
+      (NP (NNP Jiayi))
+      (VP (VBZ is)
+        (NP (PRP$ my) (VBN given) (NN name))))
+    (. .)))
+
+nsubj(name-5, Tao-1)
+cop(name-5, is-2)
+nmod:poss(name-5, my-3)
+compound(name-5, family-4)
+root(ROOT-0, name-5)
+cc(name-5, and-6)
+nsubj(name-11, Jiayi-7)
+cop(name-11, is-8)
+nmod:poss(name-11, my-9)
+amod(name-11, given-10)
+conj:and(name-5, name-11)
+
+(ROOT
+  (S
+    (NP (NNP Tao))
+    (VP (VBZ means)
+      (NP
+        (NP (DT a) (NN potter))
+        (, ,)
+        (NP
+          (NP (DT a) (NN person))
+          (SBAR
+            (WHNP (WP who))
+            (S
+              (VP (VBZ makes)
+                (NP (NN clay) (NNS pots))
+                (PP (IN by)
+                  (NP (NN hand)))))))))
+    (. .)))
+
+nsubj(means-2, Tao-1)
+root(ROOT-0, means-2)
+det(potter-4, a-3)
+dobj(means-2, potter-4)
+det(person-7, a-6)
+appos(potter-4, person-7)
+nsubj(makes-9, person-7)
+ref(person-7, who-8)
+acl:relcl(person-7, makes-9)
+compound(pots-11, clay-10)
+dobj(makes-9, pots-11)
+case(hand-13, by-12)
+nmod:by(makes-9, hand-13)
+
+(ROOT
+  (S
+    (NP (PRP$ Our) (NNS ancestors))
+    (VP (MD might)
+      (VP (VB have)
+        (VP (VBN been)
+          (NP
+            (NP (JJ potters) (NNS thousands))
+            (PP (IN of)
+              (NP
+                (NP (NNS years))
+                (ADVP (IN ago))))))))
+    (. .)))
+
+nmod:poss(ancestors-2, Our-1)
+nsubj(thousands-7, ancestors-2)
+aux(thousands-7, might-3)
+aux(thousands-7, have-4)
+cop(thousands-7, been-5)
+amod(thousands-7, potters-6)
+root(ROOT-0, thousands-7)
+case(years-9, of-8)
+nmod:of(thousands-7, years-9)
+advmod(years-9, ago-10)
+
+(ROOT
+  (S
+    (NP
+      (NP (PRP$ My) (VBN given) (NN name))
+      (, ,)
+      (NP (NNP Jiayi))
+      (, ,))
+    (VP (VBZ is)
+      (PP (IN from)
+        (NP (DT a) (NN fortune) (NN teller))))
+    (. .)))
+
+nmod:poss(name-3, My-1)
+amod(name-3, given-2)
+nsubj(teller-11, name-3)
+appos(name-3, Jiayi-5)
+cop(teller-11, is-7)
+case(teller-11, from-8)
+det(teller-11, a-9)
+compound(teller-11, fortune-10)
+root(ROOT-0, teller-11)
+
+(ROOT
+  (S
+    (NP
+      (NP (JJS Most) (NNS parents))
+      (PP (IN in)
+        (NP (NNP Taiwan))))
+    (VP (VBP go)
+      (PP (TO to)
+        (NP
+          (NP (NN fortune) (NNS tellers))
+          (PP (IN for)
+            (NP (DT a) (JJ babys) (NN name))))))
+    (. .)))
+
+amod(parents-2, Most-1)
+nsubj(go-5, parents-2)
+case(Taiwan-4, in-3)
+nmod:in(parents-2, Taiwan-4)
+root(ROOT-0, go-5)
+case(tellers-8, to-6)
+compound(tellers-8, fortune-7)
+nmod:to(go-5, tellers-8)
+case(name-12, for-9)
+det(name-12, a-10)
+amod(name-12, babys-11)
+nmod:for(tellers-8, name-12)
+
+(ROOT
+  (S
+    (S
+      (NP (PRP We) (NNPS Chinese))
+      (VP (VBP believe)
+        (SBAR (IN that)
+          (S
+            (NP (DT a) (NNS persons) (NN name))
+            (VP (MD should)
+              (VP (VB match)
+                (NP
+                  (NP
+                    (ADJP (PRP$ his)
+                      (CC or)
+                      (PRP$ her))
+                    (NN time))
+                  (PP (IN of)
+                    (NP (NN birth))))))))))
+    (, ,)
+    (CC or)
+    (S
+      (NP (NN he/she))
+      (VP (MD may)
+        (VP (VB have)
+          (NP (DT an) (JJ unlucky) (NN life)))))
+    (. .)))
+
+dep(Chinese-2, We-1)
+nsubj(believe-3, Chinese-2)
+root(ROOT-0, believe-3)
+mark(match-9, that-4)
+det(name-7, a-5)
+compound(name-7, persons-6)
+nsubj(match-9, name-7)
+aux(match-9, should-8)
+ccomp(believe-3, match-9)
+amod(time-13, his-10)
+cc(his-10, or-11)
+conj:or(his-10, her-12)
+amod(time-13, her-12)
+dobj(match-9, time-13)
+case(birth-15, of-14)
+nmod:of(time-13, birth-15)
+cc(believe-3, or-17)
+nsubj(have-20, he/she-18)
+aux(have-20, may-19)
+conj:or(believe-3, have-20)
+det(life-23, an-21)
+amod(life-23, unlucky-22)
+dobj(have-20, life-23)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN name))
+    (VP (VBZ is)
+      (VP (VBN made)
+        (PRT (RP up))
+        (PP (IN of)
+          (NP
+            (NP (CD two) (NNS characters))
+            (, ,)
+            (NP (NNP Jia))
+            (CC and)
+            (NP (NNP Yi))))))
+    (. .)))
+
+nmod:poss(name-2, My-1)
+nsubjpass(made-4, name-2)
+auxpass(made-4, is-3)
+root(ROOT-0, made-4)
+compound:prt(made-4, up-5)
+case(characters-8, of-6)
+nummod(characters-8, two-7)
+nmod:of(made-4, characters-8)
+nmod:of(made-4, Jia-10)
+conj:and(characters-8, Jia-10)
+cc(characters-8, and-11)
+nmod:of(made-4, Yi-12)
+conj:and(characters-8, Yi-12)
+
+(ROOT
+  (S
+    (NP (NNP Jia))
+    (VP (VBZ means)
+      (ADJP
+        (ADJP (JJ beautiful))
+        (CC and)
+        (ADJP (JJ Yi) (JJ happy))))
+    (. .)))
+
+nsubj(means-2, Jia-1)
+root(ROOT-0, means-2)
+xcomp(means-2, beautiful-3)
+cc(beautiful-3, and-4)
+amod(happy-6, Yi-5)
+xcomp(means-2, happy-6)
+conj:and(beautiful-3, happy-6)
+
+(ROOT
+  (S
+    (PP (VBG According)
+      (PP (TO to)
+        (NP (DT the) (NN fortune) (NN teller))))
+    (, ,)
+    (NP (DT this) (NN name))
+    (VP (VBZ is)
+      (ADJP (JJ perfect)
+        (PP (IN for)
+          (NP
+            (NP (PRP$ my) (NN time))
+            (PP (IN of)
+              (NP (NN birth)))))))
+    (. .)))
+
+case(teller-5, According-1)
+mwe(According-1, to-2)
+det(teller-5, the-3)
+compound(teller-5, fortune-4)
+nmod:according_to(perfect-10, teller-5)
+det(name-8, this-7)
+nsubj(perfect-10, name-8)
+cop(perfect-10, is-9)
+root(ROOT-0, perfect-10)
+case(time-13, for-11)
+nmod:poss(time-13, my-12)
+nmod:for(perfect-10, time-13)
+case(birth-15, of-14)
+nmod:of(time-13, birth-15)
+
+(ROOT
+  (S (CC But)
+    (PP (IN in)
+      (NP (NN fact)))
+    (, ,)
+    (NP (NNP Jiayi))
+    (VP (VBZ is)
+      (NP (DT a)
+        (ADJP (RB very) (JJ common))
+        (NN name)))
+    (. .)))
+
+cc(name-10, But-1)
+case(fact-3, in-2)
+nmod:in(name-10, fact-3)
+nsubj(name-10, Jiayi-5)
+cop(name-10, is-6)
+det(name-10, a-7)
+advmod(common-9, very-8)
+amod(name-10, common-9)
+root(ROOT-0, name-10)
+
+(ROOT
+  (S
+    (NP (EX There))
+    (VP (VBP are)
+      (NP
+        (NP (CD twenty) (JJ other) (NNS students))
+        (VP (VBN named)
+          (NP
+            (NP (NNP Jiayi))
+            (PP (IN in)
+              (NP (PRP$ my) (NN school)))))))
+    (. .)))
+
+expl(are-2, There-1)
+root(ROOT-0, are-2)
+nummod(students-5, twenty-3)
+amod(students-5, other-4)
+nsubj(are-2, students-5)
+acl(students-5, named-6)
+dobj(named-6, Jiayi-7)
+case(school-10, in-8)
+nmod:poss(school-10, my-9)
+nmod:in(Jiayi-7, school-10)
+
+(ROOT
+  (FRAG
+    (WHADVP (WRB How))
+    (PP (IN about)
+      (NP (PRP$ your) (NN name))
+      (. ?))))
+
+root(ROOT-0, How-1)
+case(name-4, about-2)
+nmod:poss(name-4, your-3)
+nmod:about(How-1, name-4)
+
+(ROOT
+  (SBARQ
+    (WHNP (WP What))
+    (SQ (VBZ does)
+      (NP (PRP it))
+      (VP (VB mean)))
+    (. ?)))
+
+dobj(mean-4, What-1)
+aux(mean-4, does-2)
+nsubj(mean-4, it-3)
+root(ROOT-0, mean-4)
+
+(ROOT
+  (S
+    (NP (NNP Dear) (NNP Jiayi))
+    (, ,)
+    (NP (PRP It))
+    (VP (VBD was)
+      (ADJP (RB so) (JJ great)
+        (S
+          (VP (TO to)
+            (VP (VB get)
+              (NP (PRP$ your) (NN reply)))))))
+    (. .)))
+
+compound(Jiayi-2, Dear-1)
+nsubj(great-7, Jiayi-2)
+nsubj(get-9, Jiayi-2)
+nsubj(great-7, It-4)
+nsubj(get-9, It-4)
+cop(great-7, was-5)
+advmod(great-7, so-6)
+root(ROOT-0, great-7)
+mark(get-9, to-8)
+xcomp(great-7, get-9)
+nmod:poss(reply-11, your-10)
+dobj(get-9, reply-11)
+
+(ROOT
+  (S
+    (VP (VB Thank)
+      (NP (PRP you))
+      (PP (IN for)
+        (S
+          (VP (VBG telling)
+            (NP (PRP me))
+            (PP (JJ such)
+              (NP
+                (NP (DT an) (JJ interesting) (NN story))
+                (PP (IN about)
+                  (NP (PRP$ your) (NN name)))))))))
+    (. .)))
+
+root(ROOT-0, Thank-1)
+dobj(Thank-1, you-2)
+mark(telling-4, for-3)
+advcl(Thank-1, telling-4)
+dobj(telling-4, me-5)
+case(story-9, such-6)
+det(story-9, an-7)
+amod(story-9, interesting-8)
+nmod:such(telling-4, story-9)
+case(name-12, about-10)
+nmod:poss(name-12, your-11)
+nmod:about(story-9, name-12)
+
+(ROOT
+  (S
+    (S
+      (NP (NNP Naming))
+      (VP (VBZ is)
+        (ADVP (RB also))
+        (NP
+          (NP (DT a) (JJ big) (NN event))
+          (ADVP (RB here)))))
+    (CC but)
+    (S
+      (NP (PRP we))
+      (VP (VBP dont)
+        (VP (VB go)
+          (PP (TO to)
+            (NP (NN fortune) (NNS tellers))))))
+    (: ;)
+    (S
+      (NP (NNS parents))
+      (VP (VBP do)
+        (NP
+          (NP (DT the) (NN job))
+          (PP (IN of)
+            (S
+              (VP (VBG naming)
+                (ADVP (RB instead))))))))
+    (. .)))
+
+nsubj(event-6, Naming-1)
+cop(event-6, is-2)
+advmod(event-6, also-3)
+det(event-6, a-4)
+amod(event-6, big-5)
+root(ROOT-0, event-6)
+advmod(event-6, here-7)
+cc(event-6, but-8)
+nsubj(dont-10, we-9)
+conj:but(event-6, dont-10)
+xcomp(dont-10, go-11)
+case(tellers-14, to-12)
+compound(tellers-14, fortune-13)
+nmod:to(go-11, tellers-14)
+nsubj(do-17, parents-16)
+dep(event-6, do-17)
+det(job-19, the-18)
+dobj(do-17, job-19)
+mark(naming-21, of-20)
+acl(job-19, naming-21)
+advmod(naming-21, instead-22)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN mom)
+      (CC and)
+      (NN dad))
+    (VP (VBD had)
+      (NP
+        (NP (DT an) (JJ equal) (NN share))
+        (PP (IN in)
+          (S
+            (VP (VBG naming)
+              (S
+                (NP (PRP me))
+                (NP (NNP Elizabeth) (NNPS Casas) (NNP Smith))))))))
+    (. .)))
+
+nmod:poss(mom-2, My-1)
+nsubj(had-5, mom-2)
+cc(mom-2, and-3)
+conj:and(mom-2, dad-4)
+nsubj(had-5, dad-4)
+root(ROOT-0, had-5)
+det(share-8, an-6)
+amod(share-8, equal-7)
+dobj(had-5, share-8)
+mark(naming-10, in-9)
+acl(share-8, naming-10)
+nsubj(Smith-14, me-11)
+compound(Smith-14, Elizabeth-12)
+compound(Smith-14, Casas-13)
+xcomp(naming-10, Smith-14)
+
+(ROOT
+  (S
+    (NP
+      (NP (PRP$ My) (JJ first) (NN name))
+      (, ,)
+      (NP (NNP Elizabeth))
+      (, ,))
+    (VP (VBD came)
+      (PP (IN from)
+        (NP (PRP$ my) (JJ great) (NN grandmother)))
+      (PP (IN on)
+        (NP (PRP$ my) (NNS fathers) (NN side)))
+      (, ,)
+      (PP (IN in)
+        (NP
+          (NP (NN memory))
+          (PP (IN of)
+            (NP (PRP her))))))
+    (. .)))
+
+nmod:poss(name-3, My-1)
+amod(name-3, first-2)
+nsubj(came-7, name-3)
+appos(name-3, Elizabeth-5)
+root(ROOT-0, came-7)
+case(grandmother-11, from-8)
+nmod:poss(grandmother-11, my-9)
+amod(grandmother-11, great-10)
+nmod:from(came-7, grandmother-11)
+case(side-15, on-12)
+nmod:poss(side-15, my-13)
+compound(side-15, fathers-14)
+nmod:on(came-7, side-15)
+case(memory-18, in-17)
+nmod:in(came-7, memory-18)
+case(her-20, of-19)
+nmod:of(memory-18, her-20)
+
+(ROOT
+  (S
+    (NP
+      (NP (PRP$ Its)
+        (ADJP (DT a) (JJ biblical))
+        (NN name))
+      (SBAR
+        (WHNP (WDT which))
+        (S
+          (VP (VBZ means)
+            (NP (NNS Gods))))))
+    (VP (VBP promise))
+    (. .)))
+
+nmod:poss(name-4, Its-1)
+det(biblical-3, a-2)
+amod(name-4, biblical-3)
+nsubj(means-6, name-4)
+nsubj(promise-8, name-4)
+ref(name-4, which-5)
+acl:relcl(name-4, means-6)
+dobj(means-6, Gods-7)
+root(ROOT-0, promise-8)
+
+(ROOT
+  (S
+    (NP (JJ Many) (JJ English) (NNS names))
+    (VP (VBP have)
+      (NP
+        (NP (NNS meanings))
+        (SBAR
+          (WHNP (WDT that))
+          (S
+            (VP (VBN come)
+              (PP (IN from)
+                (NP (DT the) (NNP Bible)))
+              (, ,)
+              (PP (IN like)
+                (NP (NNP David)
+                  (CC and)
+                  (NNP Sarah))))))))
+    (. .)))
+
+amod(names-3, Many-1)
+amod(names-3, English-2)
+nsubj(have-4, names-3)
+root(ROOT-0, have-4)
+dobj(have-4, meanings-5)
+nsubj(come-7, meanings-5)
+ref(meanings-5, that-6)
+acl:relcl(meanings-5, come-7)
+case(Bible-10, from-8)
+det(Bible-10, the-9)
+nmod:from(come-7, Bible-10)
+case(David-13, like-12)
+nmod:like(come-7, David-13)
+cc(David-13, and-14)
+nmod:like(come-7, Sarah-15)
+conj:and(David-13, Sarah-15)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN family))
+    (ADVP (RB usually))
+    (VP (VBP call)
+      (S
+        (NP (PRP me))
+        (NP
+          (NP (NNP Liz))
+          (, ,)
+          (SBAR
+            (WHNP (WDT which))
+            (S
+              (VP (VBZ is)
+                (ADJP (JJ short)
+                  (PP (IN for)
+                    (NP (NNP Elizabeth))))))))))
+    (. .)))
+
+nmod:poss(family-2, My-1)
+nsubj(call-4, family-2)
+advmod(call-4, usually-3)
+root(ROOT-0, call-4)
+nsubj(Liz-6, me-5)
+xcomp(call-4, Liz-6)
+nsubj(short-10, Liz-6)
+ref(Liz-6, which-8)
+cop(short-10, is-9)
+acl:relcl(Liz-6, short-10)
+case(Elizabeth-12, for-11)
+nmod:for(short-10, Elizabeth-12)
+
+(ROOT
+  (S
+    (NP
+      (NP (PRP$ My) (JJ middle) (NN name))
+      (, ,)
+      (NP (NNP Casas))
+      (, ,))
+    (VP (VBZ is)
+      (NP (PRP$ my) (JJ mothers) (JJ maiden) (NN name)))
+    (. .)))
+
+nmod:poss(name-3, My-1)
+amod(name-3, middle-2)
+nsubj(name-11, name-3)
+appos(name-3, Casas-5)
+cop(name-11, is-7)
+nmod:poss(name-11, my-8)
+amod(name-11, mothers-9)
+amod(name-11, maiden-10)
+root(ROOT-0, name-11)
+
+(ROOT
+  (S
+    (S
+      (NP (PRP$ My) (NNS mothers) (NN family))
+      (VP (VBD came)
+        (PP (IN from)
+          (NP (NNP Spain)))))
+    (CC and)
+    (S
+      (NP (NNP Casas))
+      (VP (VBZ means)
+        (NP
+          (NP (NN house))
+          (PP (IN in)
+            (NP (NNP Spanish))))))
+    (. .)))
+
+nmod:poss(family-3, My-1)
+compound(family-3, mothers-2)
+nsubj(came-4, family-3)
+root(ROOT-0, came-4)
+case(Spain-6, from-5)
+nmod:from(came-4, Spain-6)
+cc(came-4, and-7)
+nsubj(means-9, Casas-8)
+conj:and(came-4, means-9)
+dobj(means-9, house-10)
+case(Spanish-12, in-11)
+nmod:in(house-10, Spanish-12)
+
+(ROOT
+  (S
+    (NP
+      (NP (PRP$ My) (NN family) (NN name))
+      (, ,)
+      (NP (NNP Smith))
+      (, ,))
+    (VP (VBZ is)
+      (NP
+        (NP (CD one))
+        (PP (IN of)
+          (NP (DT the)
+            (ADJP (RBS most) (JJ common))
+            (JJ English) (NN family) (NNS names)))))
+    (. .)))
+
+nmod:poss(name-3, My-1)
+compound(name-3, family-2)
+nsubj(one-8, name-3)
+appos(name-3, Smith-5)
+cop(one-8, is-7)
+root(ROOT-0, one-8)
+case(names-15, of-9)
+det(names-15, the-10)
+advmod(common-12, most-11)
+amod(names-15, common-12)
+amod(names-15, English-13)
+compound(names-15, family-14)
+nmod:of(one-8, names-15)
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ refers)
+      (PP (TO to)
+        (NP (DT a) (NN blacksmith))))
+    (. .)))
+
+nsubj(refers-2, It-1)
+root(ROOT-0, refers-2)
+case(blacksmith-5, to-3)
+det(blacksmith-5, a-4)
+nmod:to(refers-2, blacksmith-5)
+
+(ROOT
+  (S (CC So)
+    (NP
+      (NP (CD one))
+      (PP (IN of)
+        (NP (PRP$ my) (NNS ancestors))))
+    (ADVP (RB probably))
+    (VP (VBD worked)
+      (PP (IN as)
+        (NP (DT a) (NN blacksmith)))
+      (NP (DT a) (JJ long) (NN time) (RB ago)))
+    (. .)))
+
+cc(worked-7, So-1)
+nsubj(worked-7, one-2)
+case(ancestors-5, of-3)
+nmod:poss(ancestors-5, my-4)
+nmod:of(one-2, ancestors-5)
+advmod(worked-7, probably-6)
+root(ROOT-0, worked-7)
+case(blacksmith-10, as-8)
+det(blacksmith-10, a-9)
+nmod:as(worked-7, blacksmith-10)
+det(time-13, a-11)
+amod(time-13, long-12)
+dobj(worked-7, time-13)
+advmod(time-13, ago-14)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NNS parents))
+    (ADVP (RB always))
+    (VP (VB joke)
+      (SBAR (IN that)
+        (S
+          (NP (PRP$ my) (NN name))
+          (VP (VBZ means)
+            (SBAR
+              (S
+                (NP (NNP God))
+                (VP (VBZ promises)
+                  (NP (PRP me))
+                  (NP
+                    (NP (DT a) (NN house))
+                    (VP (VBN made)
+                      (PP (IN by)
+                        (NP (DT a) (NN blacksmith))))))))))))
+    (. .)))
+
+nmod:poss(parents-2, My-1)
+nsubj(joke-4, parents-2)
+advmod(joke-4, always-3)
+root(ROOT-0, joke-4)
+mark(means-8, that-5)
+nmod:poss(name-7, my-6)
+nsubj(means-8, name-7)
+ccomp(joke-4, means-8)
+nsubj(promises-10, God-9)
+ccomp(means-8, promises-10)
+iobj(promises-10, me-11)
+det(house-13, a-12)
+dobj(promises-10, house-13)
+acl(house-13, made-14)
+case(blacksmith-17, by-15)
+det(blacksmith-17, a-16)
+nmod:by(made-14, blacksmith-17)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP dont)
+      (SBAR
+        (S
+          (VP (VBP think)
+            (SBAR
+              (S
+                (NP (PRP I))
+                (VP (VBP want)
+                  (S
+                    (VP (TO to)
+                      (VP (VB live)
+                        (PP (IN in)
+                          (NP
+                            (NP (DT a) (NN house))
+                            (VP (VBN made)
+                              (PP (IN of)
+                                (NP (NN iron)))
+                              (, ,)
+                              (ADVP (RB though)))))))))))))))
+    (. .)))
+
+nsubj(dont-2, I-1)
+root(ROOT-0, dont-2)
+ccomp(dont-2, think-3)
+nsubj(want-5, I-4)
+nsubj(live-7, I-4)
+ccomp(think-3, want-5)
+mark(live-7, to-6)
+xcomp(want-5, live-7)
+case(house-10, in-8)
+det(house-10, a-9)
+nmod:in(live-7, house-10)
+acl(house-10, made-11)
+case(iron-13, of-12)
+nmod:of(made-11, iron-13)
+advmod(made-11, though-15)
+
+(ROOT
+  (S
+    (ADVP (RB BTW))
+    (, ,)
+    (NP (NN Id))
+    (VP (VBP like)
+      (S
+        (VP (TO to)
+          (VP (VB have)
+            (NP (DT a) (JJ Chinese) (NN name))))))
+    (. .)))
+
+advmod(like-4, BTW-1)
+nsubj(like-4, Id-3)
+nsubj(have-6, Id-3)
+root(ROOT-0, like-4)
+mark(have-6, to-5)
+xcomp(like-4, have-6)
+det(name-9, a-7)
+amod(name-9, Chinese-8)
+dobj(have-6, name-9)
+
+(ROOT
+  (SQ (VBP Do)
+    (NP (PRP you))
+    (VP (VB have)
+      (NP (DT any) (NNS ideas)))
+    (. ?)))
+
+aux(have-3, Do-1)
+nsubj(have-3, you-2)
+root(ROOT-0, have-3)
+det(ideas-5, any-4)
+dobj(have-3, ideas-5)
+
+(ROOT
+  (PP (IN by)
+    (NP (NNP Rebecca) (NNP Evans))))
+
+case(Evans-3, by-1)
+compound(Evans-3, Rebecca-2)
+root(ROOT-0, Evans-3)
+

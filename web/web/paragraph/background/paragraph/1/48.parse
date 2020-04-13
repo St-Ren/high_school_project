@@ -1,0 +1,1392 @@
+(ROOT
+  (NP
+    (NP (NN Bird-Watching))
+    (PP (IN in)
+      (NP (NNP Taiwan)))
+    (. .)))
+
+root(ROOT-0, Bird-Watching-1)
+case(Taiwan-3, in-2)
+nmod:in(Bird-Watching-1, Taiwan-3)
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ is)
+      (NP
+        (NP (DT a) (JJ cloudy) (NN day))
+        (PP (IN in)
+          (NP (NNP October)))))
+    (. .)))
+
+nsubj(day-5, It-1)
+cop(day-5, is-2)
+det(day-5, a-3)
+amod(day-5, cloudy-4)
+root(ROOT-0, day-5)
+case(October-7, in-6)
+nmod:in(day-5, October-7)
+
+(ROOT
+  (S
+    (PP (IN Over)
+      (NP
+        (NP (DT the) (JJ Tseng-wen) (NN estuary))
+        (PP (IN in)
+          (NP (NNP Taiwan)))))
+    (, ,)
+    (NP
+      (NP (DT a) (NN group))
+      (PP (IN of)
+        (NP
+          (NP (JJ large) (JJ white) (NNS birds))
+          (PP (IN with)
+            (NP (JJ black) (NNS faces))))))
+    (VP (VBZ appears))
+    (. .)))
+
+case(estuary-4, Over-1)
+det(estuary-4, the-2)
+amod(estuary-4, Tseng-wen-3)
+nmod:over(appears-17, estuary-4)
+case(Taiwan-6, in-5)
+nmod:in(estuary-4, Taiwan-6)
+det(group-9, a-8)
+nsubj(appears-17, group-9)
+case(birds-13, of-10)
+amod(birds-13, large-11)
+amod(birds-13, white-12)
+nmod:of(group-9, birds-13)
+case(faces-16, with-14)
+amod(faces-16, black-15)
+nmod:with(birds-13, faces-16)
+root(ROOT-0, appears-17)
+
+(ROOT
+  (S
+    (NP (DT These) (JJ beautiful) (JJ black-faced) (NNS spoonbills))
+    (VP (VBP are)
+      (NP
+        (NP (DT some))
+        (PP (IN of)
+          (NP (DT the) (CD worlds) (JJS rarest) (NNS birds)))))
+    (. .)))
+
+det(spoonbills-4, These-1)
+amod(spoonbills-4, beautiful-2)
+amod(spoonbills-4, black-faced-3)
+nsubj(some-6, spoonbills-4)
+cop(some-6, are-5)
+root(ROOT-0, some-6)
+case(birds-11, of-7)
+det(birds-11, the-8)
+nummod(birds-11, worlds-9)
+amod(birds-11, rarest-10)
+nmod:of(some-6, birds-11)
+
+(ROOT
+  (S
+    (NP (EX There))
+    (VP (VBP are)
+      (ADVP (RB only))
+      (NP
+        (NP
+          (QP (RB about) (CD six) (CD hundred)))
+        (PP (IN of)
+          (NP
+            (NP (PRP them))
+            (PP (IN in)
+              (NP (DT the) (NN world)))))))
+    (. .)))
+
+expl(are-2, There-1)
+root(ROOT-0, are-2)
+advmod(are-2, only-3)
+advmod(hundred-6, about-4)
+compound(hundred-6, six-5)
+nsubj(are-2, hundred-6)
+case(them-8, of-7)
+nmod:of(hundred-6, them-8)
+case(world-11, in-9)
+det(world-11, the-10)
+nmod:in(them-8, world-11)
+
+(ROOT
+  (S
+    (NP (DT The) (NNS birds))
+    (VP (VBP have)
+      (VP (VBN flown)
+        (NP (PDT all) (DT the) (NN way))
+        (PP (IN from)
+          (NP (PRP$ their) (NN summer) (NN home)))
+        (PP (IN in)
+          (NP (NNP Korea)))))
+    (. .)))
+
+det(birds-2, The-1)
+nsubj(flown-4, birds-2)
+aux(flown-4, have-3)
+root(ROOT-0, flown-4)
+det:predet(way-7, all-5)
+det(way-7, the-6)
+dobj(flown-4, way-7)
+case(home-11, from-8)
+nmod:poss(home-11, their-9)
+compound(home-11, summer-10)
+nmod:from(flown-4, home-11)
+case(Korea-13, in-12)
+nmod:in(flown-4, Korea-13)
+
+(ROOT
+  (S
+    (ADVP (RB Now))
+    (, ,)
+    (NP (PRP they))
+    (VP (VB circle)
+      (CC and)
+      (VB land))
+    (. .)))
+
+advmod(circle-4, Now-1)
+nsubj(circle-4, they-3)
+nsubj(land-6, they-3)
+root(ROOT-0, circle-4)
+cc(circle-4, and-5)
+conj:and(circle-4, land-6)
+
+(ROOT
+  (S
+    (ADVP (RB Almost) (RB immediately))
+    (, ,)
+    (NP
+      (NP (DT a) (NN crowd))
+      (PP (IN of)
+        (NP (NNS people))))
+    (VP (VBP begin)
+      (S
+        (VP (TO to)
+          (VP (VB shoot)
+            (NP (PRP them))))))
+    (. .)))
+
+advmod(immediately-2, Almost-1)
+advmod(begin-8, immediately-2)
+det(crowd-5, a-4)
+nsubj(begin-8, crowd-5)
+nsubj(shoot-10, crowd-5)
+case(people-7, of-6)
+nmod:of(crowd-5, people-7)
+root(ROOT-0, begin-8)
+mark(shoot-10, to-9)
+xcomp(begin-8, shoot-10)
+dobj(shoot-10, them-11)
+
+(ROOT
+  (SQ (VBZ Is)
+    (NP (DT this))
+    (NP
+      (NP (DT the) (NN end))
+      (PP (IN for)
+        (NP (DT the) (NNS spoonbills))))
+    (. ?)))
+
+cop(end-4, Is-1)
+nsubj(end-4, this-2)
+det(end-4, the-3)
+root(ROOT-0, end-4)
+case(spoonbills-7, for-5)
+det(spoonbills-7, the-6)
+nmod:for(end-4, spoonbills-7)
+
+(ROOT
+  (S
+    (INTJ (UH No))
+    (, ,)
+    (NP
+      (NP (DT the) (NNS people))
+      (SBAR
+        (WHNP (WP who))
+        (S
+          (VP (VBP have)
+            (VP (VBN been)
+              (VP (VBG waiting)))))))
+    (VP (VBP are)
+      (ADJP (JJ happy)
+        (S
+          (VP (TO to)
+            (VP (VB see)
+              (NP (DT the) (NNS spoonbills)))))))
+    (. .)))
+
+discourse(happy-10, No-1)
+det(people-4, the-3)
+nsubj(waiting-8, people-4)
+nsubj(happy-10, people-4)
+nsubj(see-12, people-4)
+ref(people-4, who-5)
+aux(waiting-8, have-6)
+aux(waiting-8, been-7)
+acl:relcl(people-4, waiting-8)
+cop(happy-10, are-9)
+root(ROOT-0, happy-10)
+mark(see-12, to-11)
+xcomp(happy-10, see-12)
+det(spoonbills-14, the-13)
+dobj(see-12, spoonbills-14)
+
+(ROOT
+  (S
+    (NP (PRP They))
+    (VP (VBP are)
+      (ADVP (RB only))
+      (VP (VBG shooting)
+        (NP (NNS photographs))))
+    (. .)))
+
+nsubj(shooting-4, They-1)
+aux(shooting-4, are-2)
+advmod(shooting-4, only-3)
+root(ROOT-0, shooting-4)
+dobj(shooting-4, photographs-5)
+
+(ROOT
+  (S
+    (NP (DT These) (NNS people))
+    (VP
+      (VP (VBP are)
+        (NP
+          (NP (DT some))
+          (PP (IN of)
+            (NP (NNP Taiwans) (JJ enthusiastic) (NNS bird-watchers)))))
+      (, ,)
+      (CC or)
+      (VP (, ,)
+        (SBAR (IN as)
+          (S
+            (NP (PRP they))
+            (VP (VBP are)
+              (ADVP (RB usually))
+              (VP (VBN called) (, ,)
+                (NP (NNS birders))))))))
+    (. .)))
+
+det(people-2, These-1)
+nsubj(some-4, people-2)
+cop(some-4, are-3)
+root(ROOT-0, some-4)
+case(bird-watchers-8, of-5)
+compound(bird-watchers-8, Taiwans-6)
+amod(bird-watchers-8, enthusiastic-7)
+nmod:of(some-4, bird-watchers-8)
+cc(some-4, or-10)
+mark(called-16, as-12)
+nsubjpass(called-16, they-13)
+auxpass(called-16, are-14)
+advmod(called-16, usually-15)
+conj:or(some-4, called-16)
+dobj(called-16, birders-18)
+
+(ROOT
+  (S
+    (NP (NNS Birders))
+    (VP (VBP look)
+      (PP (IN at)
+        (NP
+          (NP (NNS birds))
+          (PP (IN from)
+            (NP (DT a) (NN distance))))
+        (, ,)
+        (ADVP (RB usually)))
+      (PP (IN through)
+        (NP (NNS binoculars))))
+    (. .)))
+
+nsubj(look-2, Birders-1)
+root(ROOT-0, look-2)
+case(birds-4, at-3)
+nmod:at(look-2, birds-4)
+case(distance-7, from-5)
+det(distance-7, a-6)
+nmod:from(birds-4, distance-7)
+advmod(birds-4, usually-9)
+case(binoculars-11, through-10)
+nmod:through(look-2, binoculars-11)
+
+(ROOT
+  (S
+    (NP (DT This) (NN hobby))
+    (VP (VBD began)
+      (PP (IN in)
+        (NP (NNP Europe)))
+      (PP (IN in)
+        (NP
+          (NP (DT the) (NN 1800s)
+            (CC and)
+            (NN spread))
+          (PP (IN around)
+            (NP (DT the) (NN world))))))
+    (. .)))
+
+det(hobby-2, This-1)
+nsubj(began-3, hobby-2)
+root(ROOT-0, began-3)
+case(Europe-5, in-4)
+nmod:in(began-3, Europe-5)
+case(1800s-8, in-6)
+det(1800s-8, the-7)
+nmod:in(began-3, 1800s-8)
+cc(1800s-8, and-9)
+nmod:in(began-3, spread-10)
+conj:and(1800s-8, spread-10)
+case(world-13, around-11)
+det(world-13, the-12)
+nmod:around(1800s-8, world-13)
+
+(ROOT
+  (S
+    (SBAR (IN Although)
+      (S
+        (NP (PRP it))
+        (VP (VBD did) (RB not)
+          (VP (VB come)
+            (PP (TO to)
+              (NP (NNP Taiwan)))
+            (PP (IN until)
+              (NP (DT the) (NNS 1960s)))))))
+    (, ,)
+    (NP (PRP it))
+    (VP (VBZ has)
+      (VP (VBN become)
+        (S
+          (ADJP (RB very) (JJ popular)))
+        (ADVP (RB here))
+        (, ,)
+        (PP
+          (ADVP (RB especially))
+          (IN among)
+          (NP (JJ young) (NNS people)))))
+    (. .)))
+
+mark(come-5, Although-1)
+nsubj(come-5, it-2)
+aux(come-5, did-3)
+neg(come-5, not-4)
+advcl(become-14, come-5)
+case(Taiwan-7, to-6)
+nmod:to(come-5, Taiwan-7)
+case(1960s-10, until-8)
+det(1960s-10, the-9)
+nmod:until(come-5, 1960s-10)
+nsubj(become-14, it-12)
+aux(become-14, has-13)
+root(ROOT-0, become-14)
+advmod(popular-16, very-15)
+xcomp(become-14, popular-16)
+advmod(become-14, here-17)
+advmod(people-22, especially-19)
+case(people-22, among-20)
+amod(people-22, young-21)
+nmod:among(become-14, people-22)
+
+(ROOT
+  (S
+    (NP
+      (NP (NNS Groups))
+      (PP (IN of)
+        (NP (JJ young) (NNS birders))))
+    (VP (VBP compete)
+      (S
+        (VP (TO to)
+          (VP (VB spot)
+            (NP (DT the) (JJS most) (NNS species))))))
+    (. .)))
+
+nsubj(compete-5, Groups-1)
+nsubj(spot-7, Groups-1)
+case(birders-4, of-2)
+amod(birders-4, young-3)
+nmod:of(Groups-1, birders-4)
+root(ROOT-0, compete-5)
+mark(spot-7, to-6)
+xcomp(compete-5, spot-7)
+det(species-10, the-8)
+amod(species-10, most-9)
+dobj(spot-7, species-10)
+
+(ROOT
+  (SBARQ
+    (WHADVP (WRB Why))
+    (SQ
+      (VP (VBP do)
+        (SBAR (IN so)
+          (S
+            (NP (JJ many) (NNS people))
+            (VP (VBP enjoy)
+              (S
+                (VP (VBG birding))))))))
+    (. ?)))
+
+advmod(do-2, Why-1)
+root(ROOT-0, do-2)
+mark(enjoy-6, so-3)
+amod(people-5, many-4)
+nsubj(enjoy-6, people-5)
+advcl(do-2, enjoy-6)
+xcomp(enjoy-6, birding-7)
+
+(ROOT
+  (S
+    (S
+      (NP (PRP It))
+      (VP (VBZ gets)
+        (NP (PRP them))
+        (PRT (RP out))
+        (PP
+          (PP (IN of)
+            (NP (DT the) (NNS cities)))
+          (CC and)
+          (PP (IN into)
+            (NP (NN nature))))))
+    (, ,)
+    (NP (PRP they))
+    (VP (VBP explain))
+    (. .)))
+
+nsubj(gets-2, It-1)
+nsubj(gets-2', It-1)
+conj:and(gets-2, gets-2')
+ccomp(explain-13, gets-2)
+ccomp(explain-13, gets-2')
+dobj(gets-2, them-3)
+compound:prt(gets-2, out-4)
+case(cities-7, of-5)
+det(cities-7, the-6)
+nmod:of(gets-2, cities-7)
+cc(gets-2, and-8)
+case(nature-10, into-9)
+nmod:into(gets-2', nature-10)
+nsubj(explain-13, they-12)
+root(ROOT-0, explain-13)
+
+(ROOT
+  (SINV
+    (S
+      (NP (PRP I))
+      (ADVP (RB never))
+      (VP (VBD knew)
+        (SBAR
+          (WHADVP (WRB how))
+          (S
+            (NP (JJ beautiful) (NNP Taiwan))
+            (VP (VBD was)
+              (SBAR (IN until)
+                (S
+                  (NP (PRP I))
+                  (VP (VBD started)
+                    (S
+                      (VP (VBG birding)))))))))))
+    (, ,)
+    (VP (VBZ says))
+    (NP (CD one) (JJ young) (NN bird-watcher))
+    (. .)))
+
+nsubj(knew-3, I-1)
+neg(knew-3, never-2)
+ccomp(says-13, knew-3)
+advmod(was-7, how-4)
+amod(Taiwan-6, beautiful-5)
+nsubj(was-7, Taiwan-6)
+ccomp(knew-3, was-7)
+mark(started-10, until-8)
+nsubj(started-10, I-9)
+advcl(was-7, started-10)
+xcomp(started-10, birding-11)
+root(ROOT-0, says-13)
+nummod(bird-watcher-16, one-14)
+amod(bird-watcher-16, young-15)
+nsubj(says-13, bird-watcher-16)
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP
+        (NP (NN addition))
+        (PP (TO to)
+          (NP (JJ local) (NNS birders)))))
+    (, ,)
+    (NP (EX there))
+    (VP (VBP are)
+      (ADVP (RB also))
+      (NP
+        (NP (JJ many) (JJ bird-watching) (NNS tourists))
+        (PP (IN from)
+          (NP
+            (NP (NNP North) (NNP America))
+            (, ,)
+            (NP (NNP Europe))
+            (, ,)
+            (CC and)
+            (NP (NNP Japan))))))
+    (. .)))
+
+case(birders-5, In-1)
+mwe(In-1, addition-2)
+mwe(In-1, to-3)
+amod(birders-5, local-4)
+nmod:in_addition_to(are-8, birders-5)
+expl(are-8, there-7)
+root(ROOT-0, are-8)
+advmod(are-8, also-9)
+amod(tourists-12, many-10)
+amod(tourists-12, bird-watching-11)
+nsubj(are-8, tourists-12)
+case(America-15, from-13)
+compound(America-15, North-14)
+nmod:from(tourists-12, America-15)
+nmod:from(tourists-12, Europe-17)
+conj:and(America-15, Europe-17)
+cc(America-15, and-19)
+nmod:from(tourists-12, Japan-20)
+conj:and(America-15, Japan-20)
+
+(ROOT
+  (S
+    (NP (NNP Taiwan))
+    (VP (VBZ is)
+      (NP
+        (NP (DT a) (NN paradise))
+        (PP (IN for)
+          (NP (NNS birders)))))
+    (. .)))
+
+nsubj(paradise-4, Taiwan-1)
+cop(paradise-4, is-2)
+det(paradise-4, a-3)
+root(ROOT-0, paradise-4)
+case(birders-6, for-5)
+nmod:for(paradise-4, birders-6)
+
+(ROOT
+  (S
+    (NP (DT This) (JJ small) (NN island))
+    (VP (VBZ has)
+      (NP (JJ many) (JJ different) (NN climate) (NNS zones))
+      (, ,)
+      (PP (IN from)
+        (S
+          (VP (VBG tropical)
+            (PP (IN on)
+              (NP (DT the) (NN coast)))
+            (PP (TO to)
+              (NP
+                (NP (JJ cold))
+                (PP (IN in)
+                  (NP (DT the) (NNS mountains)))))))))
+    (. .)))
+
+det(island-3, This-1)
+amod(island-3, small-2)
+nsubj(has-4, island-3)
+root(ROOT-0, has-4)
+amod(zones-8, many-5)
+amod(zones-8, different-6)
+compound(zones-8, climate-7)
+dobj(has-4, zones-8)
+mark(tropical-11, from-10)
+advcl(has-4, tropical-11)
+case(coast-14, on-12)
+det(coast-14, the-13)
+nmod:on(tropical-11, coast-14)
+case(cold-16, to-15)
+nmod:to(tropical-11, cold-16)
+case(mountains-19, in-17)
+det(mountains-19, the-18)
+nmod:in(cold-16, mountains-19)
+
+(ROOT
+  (S
+    (NP
+      (NP (DT Each))
+      (PP (IN of)
+        (NP (DT these) (NNS areas))))
+    (VP (VBZ attracts)
+      (NP (JJ different) (JJ speciesXabout) (NN 440) (NNS species))
+      (ADVP (RB altogether)))
+    (. .)))
+
+nsubj(attracts-5, Each-1)
+case(areas-4, of-2)
+det(areas-4, these-3)
+nmod:of(Each-1, areas-4)
+root(ROOT-0, attracts-5)
+amod(species-9, different-6)
+amod(species-9, speciesXabout-7)
+compound(species-9, 440-8)
+dobj(attracts-5, species-9)
+advmod(attracts-5, altogether-10)
+
+(ROOT
+  (S
+    (PP (IN For)
+      (NP (NN comparison)))
+    (, ,)
+    (PP (IN in)
+      (NP
+        (NP (DT the) (NNP United) (NNPS States))
+        (, ,)
+        (SBAR
+          (WHNP (WDT which))
+          (S
+            (VP (VBZ is)
+              (ADJP
+                (ADJP
+                  (NP
+                    (QP (IN over) (CD 250))
+                    (NNS times))
+                  (JJR larger))
+                (PP (IN than)
+                  (NP (NNP Taiwan)))))))))
+    (, ,)
+    (NP (EX there))
+    (VP (VBP are)
+      (NP
+        (QP (RB only) (CD 800))
+        (NN bird) (NNS species)))
+    (. .)))
+
+case(comparison-2, For-1)
+nmod:for(are-19, comparison-2)
+case(States-7, in-4)
+det(States-7, the-5)
+compound(States-7, United-6)
+nsubj(larger-14, States-7)
+nmod:in(are-19, States-7)
+ref(States-7, which-9)
+cop(larger-14, is-10)
+advmod(250-12, over-11)
+nummod(times-13, 250-12)
+nmod:npmod(larger-14, times-13)
+acl:relcl(States-7, larger-14)
+case(Taiwan-16, than-15)
+nmod:than(larger-14, Taiwan-16)
+expl(are-19, there-18)
+root(ROOT-0, are-19)
+advmod(800-21, only-20)
+nummod(species-23, 800-21)
+compound(species-23, bird-22)
+nsubj(are-19, species-23)
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (NN fact)))
+    (, ,)
+    (NP (NNP Taiwan))
+    (VP (VBZ has)
+      (NP
+        (NP (JJR more) (NN bird) (NNS species))
+        (PP (IN per)
+          (NP
+            (NP (JJ square) (NNS kilometer))
+            (PP (IN than)
+              (NP
+                (NP (RB almost) (DT any) (JJ other) (NN place))
+                (PP (IN in)
+                  (NP (DT the) (NN world)))))))))
+    (. .)))
+
+case(fact-2, In-1)
+nmod:in(has-5, fact-2)
+nsubj(has-5, Taiwan-4)
+root(ROOT-0, has-5)
+amod(species-8, more-6)
+compound(species-8, bird-7)
+dobj(has-5, species-8)
+case(kilometer-11, per-9)
+amod(kilometer-11, square-10)
+nmod:per(species-8, kilometer-11)
+case(place-16, than-12)
+advmod(place-16, almost-13)
+det(place-16, any-14)
+amod(place-16, other-15)
+nmod:than(kilometer-11, place-16)
+case(world-19, in-17)
+det(world-19, the-18)
+nmod:in(place-16, world-19)
+
+(ROOT
+  (S (RB Only)
+    (NP (NNP Madagascar))
+    (VP (VBZ has)
+      (NP
+        (NP (DT a) (JJR greater) (NN number))
+        (PP (IN of)
+          (NP
+            (NP (NNS species))
+            (PP (IN per)
+              (NP
+                (NP (JJ square) (NNS kilometer))
+                (PP (IN than)
+                  (NP (NNP Taiwan)))))))))
+    (. .)))
+
+advmod(has-3, Only-1)
+nsubj(has-3, Madagascar-2)
+root(ROOT-0, has-3)
+det(number-6, a-4)
+amod(number-6, greater-5)
+dobj(has-3, number-6)
+case(species-8, of-7)
+nmod:of(number-6, species-8)
+case(kilometer-11, per-9)
+amod(kilometer-11, square-10)
+nmod:per(species-8, kilometer-11)
+case(Taiwan-13, than-12)
+nmod:than(kilometer-11, Taiwan-13)
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NNP Wild) (NNP Bird) (NNP Society))
+      (PP (IN of)
+        (NP (NNP Taiwan))))
+    (VP (VBZ says)
+      (SBAR (IN that)
+        (S
+          (NP
+            (NP (CD 40) (NN percent))
+            (PP (IN of)
+              (NP (NNP Taiwans) (NNS birds))))
+          (VP (VBP are)
+            (NP (NNS residents))))))
+    (. .)))
+
+det(Society-4, The-1)
+compound(Society-4, Wild-2)
+compound(Society-4, Bird-3)
+nsubj(says-7, Society-4)
+case(Taiwan-6, of-5)
+nmod:of(Society-4, Taiwan-6)
+root(ROOT-0, says-7)
+mark(residents-15, that-8)
+nummod(percent-10, 40-9)
+nsubj(residents-15, percent-10)
+case(birds-13, of-11)
+compound(birds-13, Taiwans-12)
+nmod:of(percent-10, birds-13)
+cop(residents-15, are-14)
+ccomp(says-7, residents-15)
+
+(ROOT
+  (S
+    (NP (JJ Resident) (NNS birds))
+    (VP (VBP live)
+      (PP (IN in)
+        (NP (NNP Taiwan)))
+      (NP (PDT all) (DT the) (NN time)))
+    (. .)))
+
+amod(birds-2, Resident-1)
+nsubj(live-3, birds-2)
+root(ROOT-0, live-3)
+case(Taiwan-5, in-4)
+nmod:in(live-3, Taiwan-5)
+det:predet(time-8, all-6)
+det(time-8, the-7)
+dobj(live-3, time-8)
+
+(ROOT
+  (S
+    (NP
+      (NP (JJS Most))
+      (PP (IN of)
+        (NP (PRP them))))
+    (VP (VBP live)
+      (PP (IN in)
+        (NP
+          (NP (DT the) (NNS mountains))
+          (PP (IN in)
+            (NP
+              (NP (DT the) (NN middle))
+              (PP (IN of)
+                (NP (DT the) (NN island))))))))
+    (. .)))
+
+nsubj(live-4, Most-1)
+case(them-3, of-2)
+nmod:of(Most-1, them-3)
+root(ROOT-0, live-4)
+case(mountains-7, in-5)
+det(mountains-7, the-6)
+nmod:in(live-4, mountains-7)
+case(middle-10, in-8)
+det(middle-10, the-9)
+nmod:in(mountains-7, middle-10)
+case(island-13, of-11)
+det(island-13, the-12)
+nmod:of(middle-10, island-13)
+
+(ROOT
+  (S
+    (PP (IN Of)
+      (NP (DT these)))
+    (, ,)
+    (NP (CD 15) (NNS species))
+    (VP (VBP are)
+      (VP (VBN found)
+        (PP (IN in)
+          (NP
+            (NP (DT no) (JJ other) (NN country))
+            (PP (CC but)
+              (NP (NNP Taiwan)))))))
+    (. .)))
+
+case(these-2, Of-1)
+nmod:of(found-7, these-2)
+nummod(species-5, 15-4)
+nsubjpass(found-7, species-5)
+auxpass(found-7, are-6)
+root(ROOT-0, found-7)
+case(country-11, in-8)
+neg(country-11, no-9)
+amod(country-11, other-10)
+nmod:in(found-7, country-11)
+case(Taiwan-13, but-12)
+nmod:but(country-11, Taiwan-13)
+
+(ROOT
+  (S
+    (NP (DT Another) (CD 40) (NN percent))
+    (VP (VBP are)
+      (ADJP (JJ migrants)))
+    (. .)))
+
+det(percent-3, Another-1)
+nummod(percent-3, 40-2)
+nsubj(migrants-5, percent-3)
+cop(migrants-5, are-4)
+root(ROOT-0, migrants-5)
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (JJ other) (NNS words)))
+    (, ,)
+    (NP (PRP they))
+    (VP (VBP dont)
+      (VP (VB live)
+        (PP (IN in)
+          (NP (NNP Taiwan)))
+        (NP (PDT all) (DT the) (NN time))))
+    (. .)))
+
+case(words-3, In-1)
+amod(words-3, other-2)
+nmod:in(dont-6, words-3)
+nsubj(dont-6, they-5)
+root(ROOT-0, dont-6)
+xcomp(dont-6, live-7)
+case(Taiwan-9, in-8)
+nmod:in(live-7, Taiwan-9)
+det:predet(time-12, all-10)
+det(time-12, the-11)
+dobj(live-7, time-12)
+
+(ROOT
+  (S
+    (NP (JJ Many) (NNS birds))
+    (VP (VBP fly)
+      (ADVP (RB south)
+        (PP (IN from)
+          (NP (NNP Siberia) (, ,) (NNP Korea) (, ,)
+            (CC and)
+            (NNP Japan))))
+      (PP (IN in)
+        (NP (DT the) (NN fall))))
+    (. .)))
+
+amod(birds-2, Many-1)
+nsubj(fly-3, birds-2)
+root(ROOT-0, fly-3)
+advmod(fly-3, south-4)
+case(Siberia-6, from-5)
+nmod:from(south-4, Siberia-6)
+nmod:from(south-4, Korea-8)
+conj:and(Siberia-6, Korea-8)
+cc(Siberia-6, and-10)
+nmod:from(south-4, Japan-11)
+conj:and(Siberia-6, Japan-11)
+case(fall-14, in-12)
+det(fall-14, the-13)
+nmod:in(fly-3, fall-14)
+
+(ROOT
+  (S
+    (NP (DT Some))
+    (VP (VBP continue)
+      (ADVP (RB south)
+        (PP (TO to)
+          (NP
+            (NP (NNP Indonesia))
+            (, ,)
+            (NP (DT the) (NNPS Philippines))
+            (, ,)
+            (NP (NNP Australia))
+            (, ,)
+            (CC and)
+            (NP (NNP New) (NNP Zealand))))))
+    (. .)))
+
+nsubj(continue-2, Some-1)
+root(ROOT-0, continue-2)
+advmod(continue-2, south-3)
+case(Indonesia-5, to-4)
+nmod:to(south-3, Indonesia-5)
+det(Philippines-8, the-7)
+nmod:to(south-3, Philippines-8)
+conj:and(Indonesia-5, Philippines-8)
+nmod:to(south-3, Australia-10)
+conj:and(Indonesia-5, Australia-10)
+cc(Indonesia-5, and-12)
+compound(Zealand-14, New-13)
+nmod:to(south-3, Zealand-14)
+conj:and(Indonesia-5, Zealand-14)
+
+(ROOT
+  (S
+    (NP (NNS Others))
+    (VP (VBP stay)
+      (PP (IN in)
+        (NP
+          (NP (NNP Taiwan))
+          (PP (IN for)
+            (NP (DT the) (NN winter))))))
+    (. .)))
+
+nsubj(stay-2, Others-1)
+root(ROOT-0, stay-2)
+case(Taiwan-4, in-3)
+nmod:in(stay-2, Taiwan-4)
+case(winter-7, for-5)
+det(winter-7, the-6)
+nmod:for(Taiwan-4, winter-7)
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (DT the) (NN spring)))
+    (, ,)
+    (NP (NNP Taiwan))
+    (VP (VBZ is)
+      (VP (VBN visited)
+        (PP (IN by)
+          (NP
+            (NP (NNS birds))
+            (PP (IN from)
+              (NP (DT the) (NN south)))))))
+    (. .)))
+
+case(spring-3, In-1)
+det(spring-3, the-2)
+nmod:in(visited-7, spring-3)
+nsubjpass(visited-7, Taiwan-5)
+auxpass(visited-7, is-6)
+root(ROOT-0, visited-7)
+case(birds-9, by-8)
+nmod:by(visited-7, birds-9)
+case(south-12, from-10)
+det(south-12, the-11)
+nmod:from(birds-9, south-12)
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (JJ remaining) (CD 20) (NN percent))
+      (PP (IN of)
+        (NP (NNP Taiwans) (NNS birds))))
+    (VP (VBP are)
+      (PRN (, ,)
+        (ADVP (RB well))
+        (, ,))
+      (VP (VBD lost)))
+    (. .)))
+
+det(percent-4, The-1)
+amod(percent-4, remaining-2)
+nummod(percent-4, 20-3)
+nsubjpass(lost-12, percent-4)
+case(birds-7, of-5)
+compound(birds-7, Taiwans-6)
+nmod:of(percent-4, birds-7)
+auxpass(lost-12, are-8)
+dep(lost-12, well-10)
+root(ROOT-0, lost-12)
+
+(ROOT
+  (S
+    (NP (PRP They))
+    (ADVP (RB usually))
+    (VP (VBP stop)
+      (PP (IN on)
+        (NP
+          (NP (DT the) (NN island))
+          (PP (RB because) (IN of)
+            (NP (JJ bad) (NN weather))))))
+    (. .)))
+
+nsubj(stop-3, They-1)
+advmod(stop-3, usually-2)
+root(ROOT-0, stop-3)
+case(island-6, on-4)
+det(island-6, the-5)
+nmod:on(stop-3, island-6)
+case(weather-10, because-7)
+mwe(because-7, of-8)
+amod(weather-10, bad-9)
+nmod:because_of(island-6, weather-10)
+
+(ROOT
+  (S
+    (NP (DT These) (NNS birds))
+    (VP (VBP are)
+      (VP (VBN called)
+        (NP (NNS vagrants))))
+    (. .)))
+
+det(birds-2, These-1)
+nsubjpass(called-4, birds-2)
+auxpass(called-4, are-3)
+root(ROOT-0, called-4)
+dobj(called-4, vagrants-5)
+
+(ROOT
+  (S
+    (S
+      (NP (JJ Taiwans) (NNS birders))
+      (VP (VBP love)
+        (S
+          (VP (TO to)
+            (VP (VB watch)
+              (NP (NNS birds)))))))
+    (, ,)
+    (CC but)
+    (S
+      (NP (PRP they))
+      (ADVP (RB also))
+      (VP (VBP try)
+        (S
+          (VP (TO to)
+            (VP (VB protect)
+              (NP (PRP them)))))))
+    (. .)))
+
+amod(birders-2, Taiwans-1)
+nsubj(love-3, birders-2)
+nsubj(watch-5, birders-2)
+root(ROOT-0, love-3)
+mark(watch-5, to-4)
+xcomp(love-3, watch-5)
+dobj(watch-5, birds-6)
+cc(love-3, but-8)
+nsubj(try-11, they-9)
+nsubj(protect-13, they-9)
+advmod(try-11, also-10)
+conj:but(love-3, try-11)
+mark(protect-13, to-12)
+xcomp(try-11, protect-13)
+dobj(protect-13, them-14)
+
+(ROOT
+  (S
+    (NP (PRP They))
+    (VP (VBP have)
+      (VP (VBN had)
+        (NP (DT some) (NN success))))
+    (. .)))
+
+nsubj(had-3, They-1)
+aux(had-3, have-2)
+root(ROOT-0, had-3)
+det(success-5, some-4)
+dobj(had-3, success-5)
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (CD 1981)))
+    (, ,)
+    (NP (DT the) (JJ Taiwanese) (NN government))
+    (VP (VBD created)
+      (NP (JJ special) (NNS areas))
+      (PP (IN for)
+        (NP (NNS birds))))
+    (. .)))
+
+case(1981-2, In-1)
+nmod:in(created-7, 1981-2)
+det(government-6, the-4)
+amod(government-6, Taiwanese-5)
+nsubj(created-7, government-6)
+root(ROOT-0, created-7)
+amod(areas-9, special-8)
+dobj(created-7, areas-9)
+case(birds-11, for-10)
+nmod:for(created-7, birds-11)
+
+(ROOT
+  (S
+    (NP (NNS Birders))
+    (ADVP (RB also))
+    (VP (VBP try)
+      (S
+        (VP (TO to)
+          (VP (VB stop)
+            (NP (JJ industrial) (NN development))
+            (PP (IN in)
+              (NP
+                (NP (NNS places))
+                (SBAR
+                  (WHADVP (WRB where))
+                  (S
+                    (NP (JJ rare) (NNS birds))
+                    (VP (VBP live))))))))))
+    (. .)))
+
+nsubj(try-3, Birders-1)
+nsubj(stop-5, Birders-1)
+advmod(try-3, also-2)
+root(ROOT-0, try-3)
+mark(stop-5, to-4)
+xcomp(try-3, stop-5)
+amod(development-7, industrial-6)
+dobj(stop-5, development-7)
+case(places-9, in-8)
+nmod:in(stop-5, places-9)
+advmod(live-13, where-10)
+amod(birds-12, rare-11)
+nsubj(live-13, birds-12)
+acl:relcl(places-9, live-13)
+
+(ROOT
+  (S
+    (NP (PRP They))
+    (VP (VBP are)
+      (VP (VBG fighting)
+        (PP (IN against)
+          (NP (DT a) (NN plan)))
+        (S
+          (VP (TO to)
+            (VP (VB build)
+              (NP
+                (NP (DT an) (NN oil) (NN refinery)
+                  (CC and)
+                  (NN steel) (NN mill))
+                (PP (IN near)
+                  (NP (DT the) (JJ spoonbills) (JJ nesting) (NN ground)))))))))
+    (. .)))
+
+nsubj(fighting-3, They-1)
+nsubj(build-8, They-1)
+aux(fighting-3, are-2)
+root(ROOT-0, fighting-3)
+case(plan-6, against-4)
+det(plan-6, a-5)
+nmod:against(fighting-3, plan-6)
+mark(build-8, to-7)
+xcomp(fighting-3, build-8)
+det(refinery-11, an-9)
+compound(refinery-11, oil-10)
+dobj(build-8, refinery-11)
+cc(refinery-11, and-12)
+compound(mill-14, steel-13)
+dobj(build-8, mill-14)
+conj:and(refinery-11, mill-14)
+case(ground-19, near-15)
+det(ground-19, the-16)
+amod(ground-19, spoonbills-17)
+amod(ground-19, nesting-18)
+nmod:near(refinery-11, ground-19)
+
+(ROOT
+  (S
+    (S
+      (NP (DT The) (NN plan))
+      (VP (VBZ has)
+        (VP (VBN been)
+          (VP (VBN delayed)
+            (PP (IN for)
+              (NP (RB now)))))))
+    (, ,)
+    (CC and)
+    (S
+      (NP
+        (NP (DT the) (NN population))
+        (PP (IN of)
+          (NP (NNS spoonbills))))
+      (VP (VBZ has)
+        (ADVP (RB almost))
+        (VP (VBN doubled))))
+    (. .)))
+
+det(plan-2, The-1)
+nsubjpass(delayed-5, plan-2)
+aux(delayed-5, has-3)
+auxpass(delayed-5, been-4)
+root(ROOT-0, delayed-5)
+case(now-7, for-6)
+nmod:for(delayed-5, now-7)
+cc(delayed-5, and-9)
+det(population-11, the-10)
+nsubj(doubled-16, population-11)
+case(spoonbills-13, of-12)
+nmod:of(population-11, spoonbills-13)
+aux(doubled-16, has-14)
+advmod(doubled-16, almost-15)
+conj:and(delayed-5, doubled-16)
+
+(ROOT
+  (S
+    (NP (NN Today))
+    (NP
+      (NP (DT the) (NNS birds))
+      (, ,)
+      (NP
+        (NP (NN tomorrow))
+        (NP (DT the) (NNS humans)))
+      (, ,))
+    (VP (VBZ birders)
+      (ADVP (RB often) (VB say)))
+    (. .)))
+
+nmod:tmod(birders-9, Today-1)
+det(birds-3, the-2)
+nsubj(birders-9, birds-3)
+appos(birds-3, tomorrow-5)
+det(humans-7, the-6)
+dep(tomorrow-5, humans-7)
+root(ROOT-0, birders-9)
+advmod(birders-9, often-10)
+dep(often-10, say-11)
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (JJ other) (NNS words)))
+    (, ,)
+    (NP
+      (NP (DT the) (JJ same) (JJ ecological) (NNS problems))
+      (SBAR
+        (WHNP (WDT that))
+        (S
+          (VP (VBP kill)
+            (NP (NNS birds))
+            (ADVP (RB now))))))
+    (VP (MD may)
+      (ADVP (RB someday))
+      (VP (VB endanger)
+        (NP
+          (NP (DT the) (NN health))
+          (PP (IN of)
+            (NP (NNS people))))))
+    (. .)))
+
+case(words-3, In-1)
+amod(words-3, other-2)
+nmod:in(endanger-15, words-3)
+det(problems-8, the-5)
+amod(problems-8, same-6)
+amod(problems-8, ecological-7)
+nsubj(kill-10, problems-8)
+nsubj(endanger-15, problems-8)
+ref(problems-8, that-9)
+acl:relcl(problems-8, kill-10)
+dobj(kill-10, birds-11)
+advmod(kill-10, now-12)
+aux(endanger-15, may-13)
+advmod(endanger-15, someday-14)
+root(ROOT-0, endanger-15)
+det(health-17, the-16)
+dobj(endanger-15, health-17)
+case(people-19, of-18)
+nmod:of(health-17, people-19)
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (NNP Taiwan)))
+    (, ,)
+    (NP (NNS birders))
+    (VP (VBP are)
+      (VP (VBG working)
+        (S
+          (VP (TO to)
+            (VP (VB save)
+              (NP
+                (NP (NNS birds))
+                (PP (IN for)
+                  (NP (JJ future) (NNS generations))))
+              (S
+                (VP (TO to)
+                  (VP (VB enjoy)))))))))
+    (. .)))
+
+case(Taiwan-2, In-1)
+nmod:in(working-6, Taiwan-2)
+nsubj(working-6, birders-4)
+nsubj(save-8, birders-4)
+aux(working-6, are-5)
+root(ROOT-0, working-6)
+mark(save-8, to-7)
+xcomp(working-6, save-8)
+dobj(save-8, birds-9)
+case(generations-12, for-10)
+amod(generations-12, future-11)
+nmod:for(birds-9, generations-12)
+mark(enjoy-14, to-13)
+advcl(save-8, enjoy-14)
+
+(ROOT
+  (S (CC And)
+    (NP
+      (NP (NNS thanks))
+      (PP (TO to)
+        (NP (DT the) (NNS birders))))
+    (, ,)
+    (NP (DT the) (JJ black-faced) (NNS spoonbills))
+    (ADVP (RB still))
+    (VP (VBP have)
+      (NP (DT a) (NN home)
+        (S
+          (VP (TO to)
+            (VP (VB come)
+              (PP (TO to))
+              (PP (IN from)
+                (NP
+                  (NP (PRP$ their) (JJ long) (NN trip))
+                  (PP (IN across)
+                    (NP (DT the) (NN sea))))))))))
+    (. .)))
+
+cc(have-11, And-1)
+nsubj(have-11, thanks-2)
+case(birders-5, to-3)
+det(birders-5, the-4)
+nmod:to(thanks-2, birders-5)
+det(spoonbills-9, the-7)
+amod(spoonbills-9, black-faced-8)
+nsubj(have-11, spoonbills-9)
+advmod(have-11, still-10)
+root(ROOT-0, have-11)
+det(home-13, a-12)
+dobj(have-11, home-13)
+mark(come-15, to-14)
+acl(home-13, come-15)
+nmod(come-15, to-16)
+case(trip-20, from-17)
+nmod:poss(trip-20, their-18)
+amod(trip-20, long-19)
+nmod:from(come-15, trip-20)
+case(sea-23, across-21)
+det(sea-23, the-22)
+nmod:across(trip-20, sea-23)
+

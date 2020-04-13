@@ -1,0 +1,955 @@
+(ROOT
+  (SBARQ
+    (WHNP (WP What))
+    (SQ (VBD did)
+      (NP (PRP$ your) (NNS parents))
+      (VP (VB do)
+        (S
+          (VP (TO to)
+            (VP (VB celebrate)
+              (SBAR
+                (WHADVP (WRB when))
+                (S
+                  (NP (PRP you))
+                  (VP (VBD were)
+                    (VP (VBN born))))))))))
+    (. ?)))
+
+dep(do-5, What-1)
+aux(do-5, did-2)
+nmod:poss(parents-4, your-3)
+nsubj(do-5, parents-4)
+nsubj(celebrate-7, parents-4)
+root(ROOT-0, do-5)
+mark(celebrate-7, to-6)
+xcomp(do-5, celebrate-7)
+advmod(born-11, when-8)
+nsubjpass(born-11, you-9)
+auxpass(born-11, were-10)
+advcl(celebrate-7, born-11)
+
+(ROOT
+  (S
+    (S
+      (PP (IN Of)
+        (NP (NN course)))
+      (NP (PRP you))
+      (VP (MD cant)
+        (VP (VB remember))))
+    (, ,)
+    (CC but)
+    (S
+      (ADVP (RB maybe))
+      (NP (PRP they))
+      (VP (VBP have)
+        (NP (NNS photos))
+        (PP (IN from)
+          (NP
+            (NP (DT a) (NN ceremony))
+            (PP (IN of)
+              (NP (DT some) (NN kind)))))))
+    (. .)))
+
+case(course-2, Of-1)
+nmod:of(remember-5, course-2)
+nsubj(remember-5, you-3)
+aux(remember-5, cant-4)
+root(ROOT-0, remember-5)
+cc(remember-5, but-7)
+advmod(have-10, maybe-8)
+nsubj(have-10, they-9)
+conj:but(remember-5, have-10)
+dobj(have-10, photos-11)
+case(ceremony-14, from-12)
+det(ceremony-14, a-13)
+nmod:from(have-10, ceremony-14)
+case(kind-17, of-15)
+det(kind-17, some-16)
+nmod:of(ceremony-14, kind-17)
+
+(ROOT
+  (S
+    (NP (NNS People))
+    (ADVP (RB usually))
+    (VP (VBP have)
+      (NP (NNS ceremonies)
+        (S
+          (VP (TO to)
+            (VP (VB mark)
+              (NP (JJ important) (NNS events))
+              (PP (IN in)
+                (NP (NN life))))))))
+    (. .)))
+
+nsubj(have-3, People-1)
+advmod(have-3, usually-2)
+root(ROOT-0, have-3)
+dobj(have-3, ceremonies-4)
+mark(mark-6, to-5)
+acl(ceremonies-4, mark-6)
+amod(events-8, important-7)
+dobj(mark-6, events-8)
+case(life-10, in-9)
+nmod:in(mark-6, life-10)
+
+(ROOT
+  (S
+    (PP (IN For)
+      (NP (NN example)))
+    (, ,)
+    (NP (EX there))
+    (VP (VBP are)
+      (NP (NN wedding) (NNS ceremonies)))
+    (. .)))
+
+case(example-2, For-1)
+nmod:for(are-5, example-2)
+expl(are-5, there-4)
+root(ROOT-0, are-5)
+compound(ceremonies-7, wedding-6)
+nsubj(are-5, ceremonies-7)
+
+(ROOT
+  (S
+    (S
+      (VP (VBG Getting)
+        (ADJP (JJ married))))
+    (VP (VBZ is)
+      (UCP
+        (NP (DT an) (JJ important) (NN event))
+        (, ,)
+        (CC and)
+        (VP (VBG having)
+          (NP
+            (NP (DT a) (NN baby))
+            (VP (VBZ is)))))
+      (, ,)
+      (ADVP (RB too)))
+    (. .)))
+
+csubj(event-6, Getting-1)
+xcomp(Getting-1, married-2)
+cop(event-6, is-3)
+det(event-6, an-4)
+amod(event-6, important-5)
+root(ROOT-0, event-6)
+cc(event-6, and-8)
+acl(event-6, having-9)
+det(baby-11, a-10)
+dobj(having-9, baby-11)
+dep(baby-11, is-12)
+advmod(event-6, too-14)
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (JJS most) (NNS cultures)))
+    (, ,)
+    (NP (EX there))
+    (VP (VBP are)
+      (S
+        (NP
+          (NP (NNS ceremonies))
+          (CC and)
+          (NP (JJ other) (JJ traditional) (NNS ways)))
+        (VP (TO to)
+          (VP (VB celebrate)
+            (NP (DT a) (JJ new) (NN child))
+            (PP (IN in)
+              (NP (DT the) (NN family)))))))
+    (. .)))
+
+case(cultures-3, In-1)
+amod(cultures-3, most-2)
+nmod:in(are-6, cultures-3)
+expl(are-6, there-5)
+root(ROOT-0, are-6)
+dobj(are-6, ceremonies-7)
+nsubj(celebrate-13, ceremonies-7)
+cc(ceremonies-7, and-8)
+amod(ways-11, other-9)
+amod(ways-11, traditional-10)
+dobj(are-6, ways-11)
+conj:and(ceremonies-7, ways-11)
+nsubj(celebrate-13, ways-11)
+mark(celebrate-13, to-12)
+xcomp(are-6, celebrate-13)
+det(child-16, a-14)
+amod(child-16, new-15)
+dobj(celebrate-13, child-16)
+case(family-19, in-17)
+det(family-19, the-18)
+nmod:in(celebrate-13, family-19)
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (DT the) (NNP United) (NNPS States)))
+    (, ,)
+    (NP
+      (NP (DT the) (JJ proud) (NNS parents))
+      (PP (IN of)
+        (NP (DT a) (JJ new) (NN baby))))
+    (ADVP (RB often))
+    (VP (VBP decorate)
+      (NP (PRP$ their) (JJ front) (NN door)))
+    (. .)))
+
+case(States-4, In-1)
+det(States-4, the-2)
+compound(States-4, United-3)
+nmod:in(decorate-14, States-4)
+det(parents-8, the-6)
+amod(parents-8, proud-7)
+nsubj(decorate-14, parents-8)
+case(baby-12, of-9)
+det(baby-12, a-10)
+amod(baby-12, new-11)
+nmod:of(parents-8, baby-12)
+advmod(decorate-14, often-13)
+root(ROOT-0, decorate-14)
+nmod:poss(door-17, their-15)
+amod(door-17, front-16)
+dobj(decorate-14, door-17)
+
+(ROOT
+  (S
+    (S
+      (VP (VBG Its)
+        (NP (DT an) (JJ exciting) (NN time))
+        (PP (IN for)
+          (NP (PRP them)))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (PRP they))
+      (VP (VBP want)
+        (S
+          (VP (TO to)
+            (VP (VB share)
+              (NP (DT the) (JJ good) (NN news))
+              (PP (IN with)
+                (NP (PRP$ their) (NNS neighbors))))))))
+    (. .)))
+
+root(ROOT-0, Its-1)
+det(time-4, an-2)
+amod(time-4, exciting-3)
+dobj(Its-1, time-4)
+case(them-6, for-5)
+nmod:for(Its-1, them-6)
+cc(Its-1, and-8)
+nsubj(want-10, they-9)
+nsubj(share-12, they-9)
+conj:and(Its-1, want-10)
+mark(share-12, to-11)
+xcomp(want-10, share-12)
+det(news-15, the-13)
+amod(news-15, good-14)
+dobj(share-12, news-15)
+case(neighbors-18, with-16)
+nmod:poss(neighbors-18, their-17)
+nmod:with(share-12, neighbors-18)
+
+(ROOT
+  (S
+    (PP (IN For)
+      (NP (NN example)))
+    (, ,)
+    (NP (PRP they))
+    (VP (MD may)
+      (VP (VB put)
+        (NP (NNS balloons))
+        (PP (IN on)
+          (NP (PRP$ their) (NN door)))))
+    (. .)))
+
+case(example-2, For-1)
+nmod:for(put-6, example-2)
+nsubj(put-6, they-4)
+aux(put-6, may-5)
+root(ROOT-0, put-6)
+dobj(put-6, balloons-7)
+case(door-10, on-8)
+nmod:poss(door-10, their-9)
+nmod:on(put-6, door-10)
+
+(ROOT
+  (S
+    (NP (NNP Pink) (NNS balloons))
+    (VP (VBP mean)
+      (SBAR
+        (S
+          (NP (DT the) (NN baby))
+          (VP (VBZ is)
+            (NP (DT a) (NN girl))))))
+    (. .)))
+
+compound(balloons-2, Pink-1)
+nsubj(mean-3, balloons-2)
+root(ROOT-0, mean-3)
+det(baby-5, the-4)
+nsubj(girl-8, baby-5)
+cop(girl-8, is-6)
+det(girl-8, a-7)
+ccomp(mean-3, girl-8)
+
+(ROOT
+  (S
+    (NP (JJ Blue) (NNS ones))
+    (VP (VBP are)
+      (PP (IN for)
+        (NP (NNS boys))))
+    (. .)))
+
+amod(ones-2, Blue-1)
+nsubj(boys-5, ones-2)
+cop(boys-5, are-3)
+case(boys-5, for-4)
+root(ROOT-0, boys-5)
+
+(ROOT
+  (S
+    (NP (NNP New) (NNS fathers))
+    (VP (VBD used)
+      (S
+        (VP (TO to)
+          (VP (VB hand)
+            (PRT (RP out))
+            (NP (NNS cigars))
+            (PP (TO to)
+              (NP (PDT all) (PRP$ their) (NNS friends)))))))
+    (. .)))
+
+compound(fathers-2, New-1)
+nsubj(used-3, fathers-2)
+nsubj(hand-5, fathers-2)
+root(ROOT-0, used-3)
+mark(hand-5, to-4)
+xcomp(used-3, hand-5)
+compound:prt(hand-5, out-6)
+dobj(hand-5, cigars-7)
+case(friends-11, to-8)
+det:predet(friends-11, all-9)
+nmod:poss(friends-11, their-10)
+nmod:to(hand-5, friends-11)
+
+(ROOT
+  (S
+    (S
+      (NP (NN Today))
+      (, ,)
+      (NP (DT that) (NN tradition))
+      (VP (VBZ continues)))
+    (, ,)
+    (CC but)
+    (S
+      (NP (NNS things))
+      (VP (VBP are)
+        (ADJP
+          (NP (DT a) (RB little))
+          (JJ different))))
+    (. .)))
+
+nmod:tmod(continues-5, Today-1)
+det(tradition-4, that-3)
+nsubj(continues-5, tradition-4)
+root(ROOT-0, continues-5)
+cc(continues-5, but-7)
+nsubj(different-12, things-8)
+cop(different-12, are-9)
+det(little-11, a-10)
+nmod:npmod(different-12, little-11)
+conj:but(continues-5, different-12)
+
+(ROOT
+  (S
+    (S
+      (NP
+        (NP
+          (QP (RB Only) (RB about) (CD 25))
+          (NN %))
+        (PP (IN of)
+          (NP (JJ American) (NNS adults))))
+      (VP (VBP smoke)))
+    (, ,) (IN so)
+    (S
+      (NP (DT the) (NNS cigars))
+      (VP (VBP are)
+        (ADVP (RB sometimes))
+        (VP (VBN made)
+          (PP (IN of)
+            (NP (NN chocolate))))))
+    (. .)))
+
+advmod(25-3, Only-1)
+advmod(25-3, about-2)
+nummod(%-4, 25-3)
+nsubj(smoke-8, %-4)
+case(adults-7, of-5)
+amod(adults-7, American-6)
+nmod:of(%-4, adults-7)
+root(ROOT-0, smoke-8)
+dep(smoke-8, so-10)
+det(cigars-12, the-11)
+nsubjpass(made-15, cigars-12)
+auxpass(made-15, are-13)
+advmod(made-15, sometimes-14)
+parataxis(smoke-8, made-15)
+case(chocolate-17, of-16)
+nmod:of(made-15, chocolate-17)
+
+(ROOT
+  (S
+    (NP
+      (NP (NNS People))
+      (PP (IN around)
+        (NP (DT the) (NN world))))
+    (ADVP (RB often))
+    (VP (VBP celebrate)
+      (NP (DT a) (JJ new) (NN baby))
+      (PP (IN with)
+        (NP
+          (NP (DT some) (NN type))
+          (PP (IN of)
+            (NP
+              (NP (NN ceremony))
+              (, ,) (RB perhaps)
+              (NP (DT a) (JJ religious) (NN ceremony)))))))
+    (. .)))
+
+nsubj(celebrate-6, People-1)
+case(world-4, around-2)
+det(world-4, the-3)
+nmod:around(People-1, world-4)
+advmod(celebrate-6, often-5)
+root(ROOT-0, celebrate-6)
+det(baby-9, a-7)
+amod(baby-9, new-8)
+dobj(celebrate-6, baby-9)
+case(type-12, with-10)
+det(type-12, some-11)
+nmod:with(celebrate-6, type-12)
+case(ceremony-14, of-13)
+nmod:of(type-12, ceremony-14)
+advmod(ceremony-14, perhaps-16)
+det(ceremony-19, a-17)
+amod(ceremony-19, religious-18)
+dep(ceremony-14, ceremony-19)
+
+(ROOT
+  (S
+    (NP (DT This))
+    (VP (MD may)
+      (VP (VB take)
+        (NP (NN place))
+        (SBAR
+          (WHADVP (WRB when))
+          (S
+            (NP (DT a) (NN baby))
+            (VP (VBZ is)
+              (NP
+                (NP (DT a) (JJ few) (NNS days)
+                  (CC or)
+                  (NNS weeks))
+                (ADJP (JJ old))))))))
+    (. .)))
+
+nsubj(take-3, This-1)
+aux(take-3, may-2)
+root(ROOT-0, take-3)
+dobj(take-3, place-4)
+advmod(days-11, when-5)
+det(baby-7, a-6)
+nsubj(days-11, baby-7)
+cop(days-11, is-8)
+det(days-11, a-9)
+amod(days-11, few-10)
+advcl(take-3, days-11)
+cc(days-11, or-12)
+advcl(take-3, weeks-13)
+conj:or(days-11, weeks-13)
+amod(days-11, old-14)
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (NNP Korea)))
+    (, ,)
+    (VP (VBZ theres)
+      (NP
+        (NP (DT a) (JJ traditional) (NN ceremony))
+        (PP (IN on)
+          (NP (DT the) (NNS babys))))
+      (NP (JJ 100th) (NN day)))
+    (. .)))
+
+case(Korea-2, In-1)
+nmod:in(theres-4, Korea-2)
+root(ROOT-0, theres-4)
+det(ceremony-7, a-5)
+amod(ceremony-7, traditional-6)
+dobj(theres-4, ceremony-7)
+case(babys-10, on-8)
+det(babys-10, the-9)
+nmod:on(ceremony-7, babys-10)
+amod(day-12, 100th-11)
+nmod:tmod(theres-4, day-12)
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (NNP Mexico)))
+    (, ,)
+    (NP (JJ many) (JJ new) (NNS parents))
+    (VP
+      (VP (VB dress)
+        (NP (PRP$ their) (NNS babies))
+        (PP (IN in)
+          (NP (JJ special) (NNS clothes))))
+      (CC and)
+      (VP (VB take)
+        (NP (PRP them))
+        (PP (TO to)
+          (NP (NN church)))))
+    (. .)))
+
+case(Mexico-2, In-1)
+nmod:in(dress-7, Mexico-2)
+amod(parents-6, many-4)
+amod(parents-6, new-5)
+nsubj(dress-7, parents-6)
+nsubj(take-14, parents-6)
+root(ROOT-0, dress-7)
+nmod:poss(babies-9, their-8)
+dobj(dress-7, babies-9)
+case(clothes-12, in-10)
+amod(clothes-12, special-11)
+nmod:in(dress-7, clothes-12)
+cc(dress-7, and-13)
+conj:and(dress-7, take-14)
+dobj(take-14, them-15)
+case(church-17, to-16)
+nmod:to(take-14, church-17)
+
+(ROOT
+  (FRAG
+    (PP (IN In)
+      (NP
+        (NP (DT some) (JJ African) (NNS cultures))
+        (, ,)
+        (NP (DT the) (NN family) (NNS plants))))
+    (NP (DT a) (NN tree) (. .))))
+
+case(cultures-4, In-1)
+det(cultures-4, some-2)
+amod(cultures-4, African-3)
+nmod:in(tree-10, cultures-4)
+det(plants-8, the-6)
+compound(plants-8, family-7)
+appos(cultures-4, plants-8)
+det(tree-10, a-9)
+root(ROOT-0, tree-10)
+
+(ROOT
+  (S
+    (S
+      (NP
+        (NP (NNP New) (NNS babies))
+        (PP (IN in)
+          (NP (DT every) (NN culture))))
+      (VP (VBP have)
+        (NP
+          (NP (CD one) (NN thing))
+          (PP (IN in)
+            (NP (JJ common))))))
+    (: :)
+    (S
+      (NP (PRP they))
+      (ADVP (DT all))
+      (VP (VBP need)
+        (NP (NNS names))))
+    (. .)))
+
+compound(babies-2, New-1)
+nsubj(have-6, babies-2)
+case(culture-5, in-3)
+det(culture-5, every-4)
+nmod:in(babies-2, culture-5)
+root(ROOT-0, have-6)
+nummod(thing-8, one-7)
+dobj(have-6, thing-8)
+case(common-10, in-9)
+nmod:in(thing-8, common-10)
+nsubj(need-14, they-12)
+advmod(need-14, all-13)
+parataxis(have-6, need-14)
+dobj(need-14, names-15)
+
+(ROOT
+  (S
+    (ADVP (RB Sometimes))
+    (NP (DT the) (NNS parents))
+    (VP (VBP choose)
+      (NP (PRP$ their) (NNS babys) (NN name))
+      (SBAR (IN before)
+        (S
+          (NP (DT the) (NN child))
+          (VP (VBZ is)
+            (VP (VBN born))))))
+    (. .)))
+
+advmod(choose-4, Sometimes-1)
+det(parents-3, the-2)
+nsubj(choose-4, parents-3)
+root(ROOT-0, choose-4)
+nmod:poss(name-7, their-5)
+compound(name-7, babys-6)
+dobj(choose-4, name-7)
+mark(born-12, before-8)
+det(child-10, the-9)
+nsubjpass(born-12, child-10)
+auxpass(born-12, is-11)
+advcl(choose-4, born-12)
+
+(ROOT
+  (S
+    (ADVP (RB However))
+    (, ,)
+    (NP (DT a) (NNS babys) (NN name))
+    (VP (VBZ is) (RB not)
+      (ADVP (RB always))
+      (NP (DT the) (NNS parents) (NN decision)))
+    (. .)))
+
+advmod(decision-11, However-1)
+det(name-5, a-3)
+compound(name-5, babys-4)
+nsubj(decision-11, name-5)
+cop(decision-11, is-6)
+neg(decision-11, not-7)
+advmod(decision-11, always-8)
+det(decision-11, the-9)
+compound(decision-11, parents-10)
+root(ROOT-0, decision-11)
+
+(ROOT
+  (S
+    (S
+      (ADVP (RB Sometimes))
+      (NP (DT the) (NN name))
+      (VP (VBZ depends)
+        (PP (IN on)
+          (NP (NN family) (NNS traditions)))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (DT some) (NNS babies))
+      (VP (VBP get)
+        (NP (PRP$ their) (NNS names))
+        (PP (IN at)
+          (NP (JJ religious) (NNS ceremonies)))))
+    (. .)))
+
+advmod(depends-4, Sometimes-1)
+det(name-3, the-2)
+nsubj(depends-4, name-3)
+root(ROOT-0, depends-4)
+case(traditions-7, on-5)
+compound(traditions-7, family-6)
+nmod:on(depends-4, traditions-7)
+cc(depends-4, and-9)
+det(babies-11, some-10)
+nsubj(get-12, babies-11)
+conj:and(depends-4, get-12)
+nmod:poss(names-14, their-13)
+dobj(get-12, names-14)
+case(ceremonies-17, at-15)
+amod(ceremonies-17, religious-16)
+nmod:at(get-12, ceremonies-17)
+
+(ROOT
+  (S
+    (NP
+      (NP (NNS Parents))
+      (PP (IN in)
+        (NP (DT the) (NNP United) (NNPS States))))
+    (ADVP (RB sometimes))
+    (VP (VBD put)
+      (NP (DT the) (NN news))
+      (PP (IN about)
+        (NP (PRP$ their) (NN baby)))
+      (PP (IN in)
+        (NP (DT the) (NN newspaper))))
+    (. .)))
+
+nsubj(put-7, Parents-1)
+case(States-5, in-2)
+det(States-5, the-3)
+compound(States-5, United-4)
+nmod:in(Parents-1, States-5)
+advmod(put-7, sometimes-6)
+root(ROOT-0, put-7)
+det(news-9, the-8)
+dobj(put-7, news-9)
+case(baby-12, about-10)
+nmod:poss(baby-12, their-11)
+nmod:about(put-7, baby-12)
+case(newspaper-15, in-13)
+det(newspaper-15, the-14)
+nmod:in(put-7, newspaper-15)
+
+(ROOT
+  (FRAG
+    (PP (IN For)
+      (NP (NN example)))
+    (: :)
+    (NP
+      (NP (NNP Smith))
+      (, ,)
+      (NP (NNP Michael) (NNP James))
+      (, ,)
+      (NP (NNP Jr.)))
+    (. .)))
+
+case(example-2, For-1)
+nmod:for(Smith-4, example-2)
+root(ROOT-0, Smith-4)
+compound(James-7, Michael-6)
+appos(Smith-4, James-7)
+appos(Smith-4, Jr.-9)
+
+(ROOT
+  (S
+    (VP
+      (VP (VBN Born)
+        (NP (NNP July) (CD 4)))
+      (, ,)
+      (NP
+        (NP
+          (NP (NN son))
+          (PP (IN of)
+            (NP (NNP Michael) (NNP J.))))
+        (CC and)
+        (NP
+          (NP (NNP Sarah) (NNP Dean) (NNP Smith))
+          (PP (IN of)
+            (NP (NNP Deerfield))))))
+    (. .)))
+
+root(ROOT-0, Born-1)
+nmod:tmod(Born-1, July-2)
+nummod(July-2, 4-3)
+dobj(Born-1, son-5)
+case(J.-8, of-6)
+compound(J.-8, Michael-7)
+nmod:of(son-5, J.-8)
+cc(son-5, and-9)
+compound(Smith-12, Sarah-10)
+compound(Smith-12, Dean-11)
+dobj(Born-1, Smith-12)
+conj:and(son-5, Smith-12)
+case(Deerfield-14, of-13)
+nmod:of(Smith-12, Deerfield-14)
+
+(ROOT
+  (S
+    (NP (DT This) (NN baby))
+    (VP (VBZ has)
+      (NP
+        (NP (DT the) (JJ same) (NN name))
+        (PP (IN as)
+          (NP (PRP$ his) (NN father)))))
+    (. .)))
+
+det(baby-2, This-1)
+nsubj(has-3, baby-2)
+root(ROOT-0, has-3)
+det(name-6, the-4)
+amod(name-6, same-5)
+dobj(has-3, name-6)
+case(father-9, as-7)
+nmod:poss(father-9, his-8)
+nmod:as(name-6, father-9)
+
+(ROOT
+  (S
+    (NP (NNP Michael))
+    (VP (VBZ is)
+      (NP (DT a)
+        (ADJP (RB very) (JJ common))
+        (JJ American) (NN name)))
+    (. .)))
+
+nsubj(name-7, Michael-1)
+cop(name-7, is-2)
+det(name-7, a-3)
+advmod(common-5, very-4)
+amod(name-7, common-5)
+amod(name-7, American-6)
+root(ROOT-0, name-7)
+
+(ROOT
+  (S
+    (NP (DT Some) (JJ American) (NNS parents))
+    (VP (VBP want)
+      (NP
+        (NP (JJ unusual) (NNS names))
+        (PP (IN for)
+          (NP (PRP$ their) (NNS children)))))
+    (. .)))
+
+det(parents-3, Some-1)
+amod(parents-3, American-2)
+nsubj(want-4, parents-3)
+root(ROOT-0, want-4)
+amod(names-6, unusual-5)
+dobj(want-4, names-6)
+case(children-9, for-7)
+nmod:poss(children-9, their-8)
+nmod:for(names-6, children-9)
+
+(ROOT
+  (S
+    (NP (NNP Apple) (NNP Kaufmann))
+    (VP (VBZ has)
+      (NP (DT a)
+        (ADJP (RB very) (JJ uncommon))
+        (JJ first) (NN name)))
+    (. .)))
+
+compound(Kaufmann-2, Apple-1)
+nsubj(has-3, Kaufmann-2)
+root(ROOT-0, has-3)
+det(name-8, a-4)
+advmod(uncommon-6, very-5)
+amod(name-8, uncommon-6)
+amod(name-8, first-7)
+dobj(has-3, name-8)
+
+(ROOT
+  (S
+    (S
+      (NP (PRP She))
+      (VP (VBZ says)))
+    (, ,)
+    (NP (PRP$ My) (NNS parents))
+    (VP (VBP let)
+      (S
+        (NP (PRP$ my) (NN eight-year-old) (NN brother) (NN name))
+        (NP (PRP me))))
+    (. !)))
+
+nsubj(says-2, She-1)
+ccomp(let-6, says-2)
+nmod:poss(parents-5, My-4)
+nsubj(let-6, parents-5)
+root(ROOT-0, let-6)
+nmod:poss(name-10, my-7)
+compound(name-10, eight-year-old-8)
+compound(name-10, brother-9)
+nsubj(me-11, name-10)
+xcomp(let-6, me-11)
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NNS parents))
+      (PP (IN of)
+        (NP (JJ new) (NNS babies))))
+    (ADVP (RB often))
+    (VP (VB receive)
+      (NP (NNS presents)))
+    (. .)))
+
+det(parents-2, The-1)
+nsubj(receive-7, parents-2)
+case(babies-5, of-3)
+amod(babies-5, new-4)
+nmod:of(parents-2, babies-5)
+advmod(receive-7, often-6)
+root(ROOT-0, receive-7)
+dobj(receive-7, presents-8)
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (DT the) (NNP United) (NNPS States)))
+    (, ,)
+    (NP (NNS friends))
+    (VP (VBP send)
+      (S
+        (NP (PRP them))
+        (NP
+          (NP (NNS cards))
+          (, ,)
+          (NP (NNS flowers))
+          (, ,)
+          (CC and)
+          (NP (NN baby) (NNS clothes)))))
+    (. .)))
+
+case(States-4, In-1)
+det(States-4, the-2)
+compound(States-4, United-3)
+nmod:in(send-7, States-4)
+nsubj(send-7, friends-6)
+root(ROOT-0, send-7)
+nsubj(cards-9, them-8)
+xcomp(send-7, cards-9)
+xcomp(send-7, flowers-11)
+conj:and(cards-9, flowers-11)
+cc(cards-9, and-13)
+compound(clothes-15, baby-14)
+xcomp(send-7, clothes-15)
+conj:and(cards-9, clothes-15)
+
+(ROOT
+  (S
+    (ADVP (RB Presents))
+    (, ,)
+    (NP
+      (NP (NNS celebrations))
+      (: -)
+      (NP (DT these) (NNS things)))
+    (VP (VBP are)
+      (ADJP (JJ great)))
+    (. .)))
+
+advmod(great-8, Presents-1)
+nsubj(great-8, celebrations-3)
+det(things-6, these-5)
+dep(celebrations-3, things-6)
+cop(great-8, are-7)
+root(ROOT-0, great-8)
+
+(ROOT
+  (SBARQ (CC But)
+    (WHNP (WP what))
+    (SQ
+      (VP (VBP do)
+        (SBAR
+          (S
+            (NP (RBS most) (JJ new) (NNS parents))
+            (ADVP (RB really))
+            (VP (VBP need))))))
+    (. ?)))
+
+cc(do-3, But-1)
+nsubj(do-3, what-2)
+root(ROOT-0, do-3)
+advmod(parents-6, most-4)
+amod(parents-6, new-5)
+nsubj(need-8, parents-6)
+advmod(need-8, really-7)
+ccomp(do-3, need-8)
+
+(ROOT
+  (S
+    (NP (JJR More))
+    (VP (VBP sleep))
+    (. !)))
+
+nsubj(sleep-2, More-1)
+root(ROOT-0, sleep-2)
+

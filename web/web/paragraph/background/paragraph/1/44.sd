@@ -1,0 +1,881 @@
+(ROOT
+  (NP
+    (NP (NNP Earth) (NNP Ride))
+    (: :)
+    (NP
+      (NP (NNP Water))
+      (PP (IN on)
+        (NP (NNP Earth))))
+    (. .)))
+
+compound(Ride-2, Earth-1)
+root(ROOT-0, Ride-2)
+dep(Ride-2, Water-4)
+case(Earth-6, on-5)
+nmod:on(Water-4, Earth-6)
+
+(ROOT
+  (S
+    (VP (VB Welcome)
+      (PP (TO to)
+        (NP (DT the) (NN earth) (NN ride))))
+    (. !)))
+
+root(ROOT-0, Welcome-1)
+case(ride-5, to-2)
+det(ride-5, the-3)
+compound(ride-5, earth-4)
+nmod:to(Welcome-1, ride-5)
+
+(ROOT
+  (S
+    (VP (VB Get)
+      (ADJP (JJ ready)
+        (PP (IN for)
+          (NP (DT a) (NN roller-coaster) (NN ride))))
+      (PP (IN around)
+        (NP
+          (NP (DT the) (JJ only) (NN planet))
+          (PP (IN in)
+            (NP
+              (NP (DT the) (JJ solar) (NN system))
+              (SBAR
+                (WHNP (WDT that))
+                (S
+                  (VP (VBZ has)
+                    (NP (NN life))))))))))
+    (. .)))
+
+root(ROOT-0, Get-1)
+xcomp(Get-1, ready-2)
+case(ride-6, for-3)
+det(ride-6, a-4)
+compound(ride-6, roller-coaster-5)
+nmod:for(ready-2, ride-6)
+case(planet-10, around-7)
+det(planet-10, the-8)
+amod(planet-10, only-9)
+nmod:around(Get-1, planet-10)
+case(system-14, in-11)
+det(system-14, the-12)
+amod(system-14, solar-13)
+nmod:in(planet-10, system-14)
+nsubj(has-16, system-14)
+ref(system-14, that-15)
+acl:relcl(system-14, has-16)
+dobj(has-16, life-17)
+
+(ROOT
+  (S
+    (PP (IN On)
+      (NP (NN earth)))
+    (, ,)
+    (NP
+      (NP (DT every) (NN form))
+      (PP (IN of)
+        (NP (NN life))))
+    (VP (VBZ depends)
+      (PP (IN on)
+        (NP (CD one) (NN thing) (NN VV) (NN water))))
+    (. .)))
+
+case(earth-2, On-1)
+nmod:on(depends-8, earth-2)
+det(form-5, every-4)
+nsubj(depends-8, form-5)
+case(life-7, of-6)
+nmod:of(form-5, life-7)
+root(ROOT-0, depends-8)
+case(water-13, on-9)
+nummod(water-13, one-10)
+compound(water-13, thing-11)
+compound(water-13, VV-12)
+nmod:on(depends-8, water-13)
+
+(ROOT
+  (S
+    (NP (NNP Water))
+    (VP (VBZ covers)
+      (NP
+        (NP (CD 70) (NN percent))
+        (PP (IN of)
+          (NP (DT the) (JJ earths) (NN surface)))))
+    (. .)))
+
+nsubj(covers-2, Water-1)
+root(ROOT-0, covers-2)
+nummod(percent-4, 70-3)
+dobj(covers-2, percent-4)
+case(surface-8, of-5)
+det(surface-8, the-6)
+amod(surface-8, earths-7)
+nmod:of(percent-4, surface-8)
+
+(ROOT
+  (S (CC But)
+    (ADVP (RB once)
+      (PP (IN upon)
+        (NP (DT a) (NN time))))
+    (, ,)
+    (NP (EX there))
+    (VP (VBD was)
+      (NP (NN none)))
+    (. .)))
+
+cc(was-8, But-1)
+advmod(was-8, once-2)
+case(time-5, upon-3)
+det(time-5, a-4)
+nmod:upon(once-2, time-5)
+expl(was-8, there-7)
+root(ROOT-0, was-8)
+nsubj(was-8, none-9)
+
+(ROOT
+  (SBARQ
+    (WHADVP (WRB How))
+    (SQ (VBD did)
+      (NP (NN water) (JJ first))
+      (VP (VB appear)
+        (PP (IN on)
+          (NP (NN earth)))))
+    (. ?)))
+
+advmod(appear-5, How-1)
+aux(appear-5, did-2)
+nsubj(appear-5, water-3)
+amod(water-3, first-4)
+root(ROOT-0, appear-5)
+case(earth-7, on-6)
+nmod:on(appear-5, earth-7)
+
+(ROOT
+  (S
+    (S
+      (VP (TO To)
+        (VP (VB answer)
+          (NP (DT this)))))
+    (, ,)
+    (NP (DT the) (NN earth) (NN ride))
+    (VP (MD will)
+      (VP (VB take)
+        (NP (PRP us))
+        (ADVP (RB back)
+          (PP (TO to)
+            (NP
+              (NP (DT a) (NN period))
+              (SBAR
+                (WHADVP (WRB when))
+                (S
+                  (NP (DT the) (NN world))
+                  (VP (VBD was)
+                    (ADJP (RB very) (JJ young))))))))))
+    (. .)))
+
+mark(answer-2, To-1)
+advcl(take-9, answer-2)
+dobj(answer-2, this-3)
+det(ride-7, the-5)
+compound(ride-7, earth-6)
+nsubj(take-9, ride-7)
+aux(take-9, will-8)
+root(ROOT-0, take-9)
+dobj(take-9, us-10)
+advmod(take-9, back-11)
+case(period-14, to-12)
+det(period-14, a-13)
+nmod:to(back-11, period-14)
+advmod(young-20, when-15)
+det(world-17, the-16)
+nsubj(young-20, world-17)
+cop(young-20, was-18)
+advmod(young-20, very-19)
+acl:relcl(period-14, young-20)
+
+(ROOT
+  (S
+    (NP (NN Frozen) (NN water))
+    (VP (VBD came)
+      (PP (TO to)
+        (NP (DT the) (NN earth)))
+      (PP (IN in)
+        (NP (NNS comets))))
+    (. .)))
+
+compound(water-2, Frozen-1)
+nsubj(came-3, water-2)
+root(ROOT-0, came-3)
+case(earth-6, to-4)
+det(earth-6, the-5)
+nmod:to(came-3, earth-6)
+case(comets-8, in-7)
+nmod:in(came-3, comets-8)
+
+(ROOT
+  (FRAG
+    (NP (PRP$ Its) (NN amazing))
+    (S
+      (VP (TO to)
+        (VP (VB realize)
+          (SBAR (IN that)
+            (S
+              (NP
+                (NP (DT every) (NN creature))
+                (PP (IN on)
+                  (NP (DT the) (NN planet))))
+              (VP (VBZ is)
+                (ADVP (RB partly))
+                (PP (IN from)
+                  (NP (JJ outer) (NN space)))))))))
+    (. !)))
+
+nmod:poss(amazing-2, Its-1)
+root(ROOT-0, amazing-2)
+mark(realize-4, to-3)
+dep(amazing-2, realize-4)
+mark(space-15, that-5)
+det(creature-7, every-6)
+nsubj(space-15, creature-7)
+case(planet-10, on-8)
+det(planet-10, the-9)
+nmod:on(creature-7, planet-10)
+cop(space-15, is-11)
+advmod(space-15, partly-12)
+case(space-15, from-13)
+amod(space-15, outer-14)
+ccomp(realize-4, space-15)
+
+(ROOT
+  (S
+    (ADVP (RB Also))
+    (, ,)
+    (NP
+      (NP (DT some) (NN water))
+      (SBAR
+        (WHNP (WDT that))
+        (S
+          (VP (VBD was)
+            (PP (IN inside)
+              (NP (DT the) (NN planet)))))))
+    (VP
+      (VP (VBD became)
+        (ADJP (RB very) (JJ hot)))
+      (CC and)
+      (VP (VBD was)
+        (VP (VBN pushed)
+          (PP (TO to)
+            (NP (DT the) (NN surface))))))
+    (. .)))
+
+advmod(became-10, Also-1)
+det(water-4, some-3)
+nsubj(planet-9, water-4)
+nsubj(became-10, water-4)
+nsubjpass(pushed-15, water-4)
+ref(water-4, that-5)
+cop(planet-9, was-6)
+case(planet-9, inside-7)
+det(planet-9, the-8)
+acl:relcl(water-4, planet-9)
+root(ROOT-0, became-10)
+advmod(hot-12, very-11)
+xcomp(became-10, hot-12)
+cc(became-10, and-13)
+auxpass(pushed-15, was-14)
+conj:and(became-10, pushed-15)
+case(surface-18, to-16)
+det(surface-18, the-17)
+nmod:to(pushed-15, surface-18)
+
+(ROOT
+  (S
+    (PP (IN After)
+      (NP
+        (NP (DT the) (NN earth))
+        (VP (VBN cooled)
+          (PRT (RP down)))))
+    (, ,)
+    (NP
+      (NP (NN water) (NN vapor))
+      (PP (IN in)
+        (NP (DT the) (NN atmosphere))))
+    (VP
+      (VP (VBD held)
+        (NP (DT the) (JJ suns) (NN heat)))
+      (CC and)
+      (VP (VBD kept)
+        (S
+          (NP (DT the) (NN planet))
+          (ADJP (JJ warm)))))
+    (. .)))
+
+case(earth-3, After-1)
+det(earth-3, the-2)
+nmod:after(held-12, earth-3)
+acl(earth-3, cooled-4)
+compound:prt(cooled-4, down-5)
+compound(vapor-8, water-7)
+nsubj(held-12, vapor-8)
+nsubj(kept-17, vapor-8)
+case(atmosphere-11, in-9)
+det(atmosphere-11, the-10)
+nmod:in(vapor-8, atmosphere-11)
+root(ROOT-0, held-12)
+det(heat-15, the-13)
+amod(heat-15, suns-14)
+dobj(held-12, heat-15)
+cc(held-12, and-16)
+conj:and(held-12, kept-17)
+det(planet-19, the-18)
+nsubj(warm-20, planet-19)
+xcomp(kept-17, warm-20)
+
+(ROOT
+  (S
+    (PP (IN Because)
+      (PP (IN of)
+        (NP (DT this) (NN greenhouse) (NN effect))))
+    (, ,)
+    (NP (NN life))
+    (VP (VBD began))
+    (. .)))
+
+case(effect-5, Because-1)
+case(effect-5, of-2)
+det(effect-5, this-3)
+compound(effect-5, greenhouse-4)
+nmod:of(began-8, effect-5)
+nsubj(began-8, life-7)
+root(ROOT-0, began-8)
+
+(ROOT
+  (S
+    (PP (IN Over)
+      (NP (NN time)))
+    (, ,)
+    (NP
+      (NP (RB much))
+      (PP (IN of)
+        (NP (DT the) (NN water))))
+    (VP (VBD rained)
+      (ADVP (RB back) (RB down)))
+    (. .)))
+
+case(time-2, Over-1)
+nmod:over(rained-8, time-2)
+nsubj(rained-8, much-4)
+case(water-7, of-5)
+det(water-7, the-6)
+nmod:of(much-4, water-7)
+root(ROOT-0, rained-8)
+advmod(down-10, back-9)
+advmod(rained-8, down-10)
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP
+      (VP (VBD created)
+        (NP (NNS oceans)))
+      (CC and)
+      (VP (VBD started)
+        (NP (DT the) (NN water) (NN cycle))
+        (SBAR
+          (S
+            (NP (PRP we))
+            (VP (VBP have)
+              (NP (NN today)))))))
+    (. .)))
+
+nsubj(created-2, It-1)
+nsubj(started-5, It-1)
+root(ROOT-0, created-2)
+dobj(created-2, oceans-3)
+cc(created-2, and-4)
+conj:and(created-2, started-5)
+det(cycle-8, the-6)
+compound(cycle-8, water-7)
+dobj(started-5, cycle-8)
+nsubj(have-10, we-9)
+dep(started-5, have-10)
+nmod:tmod(have-10, today-11)
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN water))
+      (PP (IN on)
+        (NP (DT the) (NN planet))))
+    (VP (VBZ is)
+      (VP (VBN used)
+        (CC and)
+        (VBN recycled)
+        (PP (IN by)
+          (NP (DT all) (VBG living) (NNS things)))))
+    (. .)))
+
+det(water-2, The-1)
+nsubjpass(used-7, water-2)
+nsubjpass(recycled-9, water-2)
+case(planet-5, on-3)
+det(planet-5, the-4)
+nmod:on(water-2, planet-5)
+auxpass(used-7, is-6)
+root(ROOT-0, used-7)
+cc(used-7, and-8)
+conj:and(used-7, recycled-9)
+case(things-13, by-10)
+det(things-13, all-11)
+amod(things-13, living-12)
+nmod:by(used-7, things-13)
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN rain))
+      (SBAR
+        (WHNP (WDT that))
+        (S
+          (VP (VBZ falls)
+            (NP (NN today))))))
+    (VP (VBZ is)
+      (NP
+        (NP (DT the) (JJ same) (NN rain))
+        (SBAR
+          (WHNP (WDT that))
+          (S
+            (VP (VBD fell)
+              (SBAR
+                (WHADVP (WRB when))
+                (S
+                  (NP (NNS dinosaurs))
+                  (VP (VBD walked)
+                    (NP (DT the) (NN earth))))))))))
+    (. .)))
+
+det(rain-2, The-1)
+nsubj(falls-4, rain-2)
+nsubj(rain-9, rain-2)
+ref(rain-2, that-3)
+acl:relcl(rain-2, falls-4)
+nmod:tmod(falls-4, today-5)
+cop(rain-9, is-6)
+det(rain-9, the-7)
+amod(rain-9, same-8)
+root(ROOT-0, rain-9)
+nsubj(fell-11, rain-9)
+ref(rain-9, that-10)
+acl:relcl(rain-9, fell-11)
+advmod(walked-14, when-12)
+nsubj(walked-14, dinosaurs-13)
+advcl(fell-11, walked-14)
+det(earth-16, the-15)
+dobj(walked-14, earth-16)
+
+(ROOT
+  (S
+    (PP (IN On)
+      (NP (DT the) (NN earth) (NN ride)))
+    (NP (PRP we))
+    (VP (MD can)
+      (VP
+        (VP (VB follow)
+          (NP (NN water) (NNS droplets)))
+        (CC and)
+        (VP (VB enter)
+          (NP (DT a) (NN tree)))))
+    (. .)))
+
+case(ride-4, On-1)
+det(ride-4, the-2)
+compound(ride-4, earth-3)
+nmod:on(follow-7, ride-4)
+nsubj(follow-7, we-5)
+nsubj(enter-11, we-5)
+aux(follow-7, can-6)
+root(ROOT-0, follow-7)
+compound(droplets-9, water-8)
+dobj(follow-7, droplets-9)
+cc(follow-7, and-10)
+conj:and(follow-7, enter-11)
+det(tree-13, a-12)
+dobj(enter-11, tree-13)
+
+(ROOT
+  (S
+    (NP (NNS Plants))
+    (VP (VBP are)
+      (NP
+        (NP (DT the) (NN foundation))
+        (PP (IN of)
+          (NP (DT the) (NN food) (NN chain)))))
+    (. .)))
+
+nsubj(foundation-4, Plants-1)
+cop(foundation-4, are-2)
+det(foundation-4, the-3)
+root(ROOT-0, foundation-4)
+case(chain-8, of-5)
+det(chain-8, the-6)
+compound(chain-8, food-7)
+nmod:of(foundation-4, chain-8)
+
+(ROOT
+  (S
+    (PP (IN Without)
+      (NP (NN water)))
+    (NP (PRP they))
+    (ADVP (RB cant))
+    (VP (VB grow))
+    (. .)))
+
+case(water-2, Without-1)
+nmod:without(grow-5, water-2)
+nsubj(grow-5, they-3)
+advmod(grow-5, cant-4)
+root(ROOT-0, grow-5)
+
+(ROOT
+  (S
+    (NP
+      (NP (PRP$ Its)
+        (ADJP (RB just) (DT a))
+        (JJ short) (NN ride))
+      (PP (IN for)
+        (NP (DT a) (NN water))))
+    (VP (VBP droplet)
+      (S
+        (VP (TO to)
+          (VP (VB travel)
+            (PP (IN from)
+              (NP (DT a) (NN leaf)))
+            (PP (TO to)
+              (NP
+                (NP (JJ other) (NNS forms))
+                (PP (IN of)
+                  (NP (NN life)))
+                (, ,)
+                (PP (JJ such) (IN as)
+                  (NP (DT a) (NN monkey)))))))))
+    (. .)))
+
+nmod:poss(ride-5, Its-1)
+advmod(a-3, just-2)
+amod(ride-5, a-3)
+amod(ride-5, short-4)
+nsubj(droplet-9, ride-5)
+nsubj(travel-11, ride-5)
+case(water-8, for-6)
+det(water-8, a-7)
+nmod:for(ride-5, water-8)
+root(ROOT-0, droplet-9)
+mark(travel-11, to-10)
+xcomp(droplet-9, travel-11)
+case(leaf-14, from-12)
+det(leaf-14, a-13)
+nmod:from(travel-11, leaf-14)
+case(forms-17, to-15)
+amod(forms-17, other-16)
+nmod:to(travel-11, forms-17)
+case(life-19, of-18)
+nmod:of(forms-17, life-19)
+case(monkey-24, such-21)
+mwe(such-21, as-22)
+det(monkey-24, a-23)
+nmod:such_as(forms-17, monkey-24)
+
+(ROOT
+  (S
+    (NP (NNP Water))
+    (VP (VBZ is)
+      (ADVP (RB also))
+      (ADJP (JJ important)
+        (PP (IN for)
+          (NP (NNS animals)))))
+    (. .)))
+
+nsubj(important-4, Water-1)
+cop(important-4, is-2)
+advmod(important-4, also-3)
+root(ROOT-0, important-4)
+case(animals-6, for-5)
+nmod:for(important-4, animals-6)
+
+(ROOT
+  (S
+    (NP (DT A) (NN camel))
+    (VP (MD can)
+      (VP (VB drink)
+        (NP (CD 120) (NNS liters))
+        (PP (IN at)
+          (NP (CD one) (NN time)))))
+    (. .)))
+
+det(camel-2, A-1)
+nsubj(drink-4, camel-2)
+aux(drink-4, can-3)
+root(ROOT-0, drink-4)
+nummod(liters-6, 120-5)
+dobj(drink-4, liters-6)
+case(time-9, at-7)
+nummod(time-9, one-8)
+nmod:at(drink-4, time-9)
+
+(ROOT
+  (S
+    (NP (NNS Humans))
+    (VP (MD should)
+      (VP (VB drink)
+        (NP
+          (NP
+            (QP (IN at) (JJS least) (CD two))
+            (NNS liters))
+          (PP (IN of)
+            (NP
+              (NP (NN water))
+              (NP (DT every) (NN day)))))))
+    (. .)))
+
+nsubj(drink-3, Humans-1)
+aux(drink-3, should-2)
+root(ROOT-0, drink-3)
+case(least-5, at-4)
+nmod:npmod(two-6, least-5)
+nummod(liters-7, two-6)
+dobj(drink-3, liters-7)
+case(water-9, of-8)
+nmod:of(liters-7, water-9)
+det(day-11, every-10)
+dep(water-9, day-11)
+
+(ROOT
+  (S
+    (SBAR (IN Since)
+      (S
+        (NP (PRP it))
+        (VP (VBD started)
+          (PRT (RP out))
+          (PP (IN as)
+            (NP (NN ice)))
+          (PP (IN from)
+            (NP (JJ outer) (NN space))))))
+    (, ,)
+    (NP (DT this) (NN water))
+    (VP (VBZ has)
+      (VP (VBN traveled)
+        (NP (DT a) (JJ long) (NN way))
+        (S
+          (VP (TO to)
+            (VP (VB get)
+              (PP (TO to)
+                (NP (PRP$ our) (NNS bodies))))))))
+    (. !)))
+
+mark(started-3, Since-1)
+nsubj(started-3, it-2)
+advcl(traveled-14, started-3)
+compound:prt(started-3, out-4)
+case(ice-6, as-5)
+nmod:as(started-3, ice-6)
+case(space-9, from-7)
+amod(space-9, outer-8)
+nmod:from(started-3, space-9)
+det(water-12, this-11)
+nsubj(traveled-14, water-12)
+aux(traveled-14, has-13)
+root(ROOT-0, traveled-14)
+det(way-17, a-15)
+amod(way-17, long-16)
+dobj(traveled-14, way-17)
+mark(get-19, to-18)
+advcl(traveled-14, get-19)
+case(bodies-22, to-20)
+nmod:poss(bodies-22, our-21)
+nmod:to(get-19, bodies-22)
+
+(ROOT
+  (S
+    (NP (NN Today))
+    (, ,)
+    (NP (DT the) (NN water) (NN cycle))
+    (VP (VBZ is)
+      (VP (VBG changing)
+        (NP
+          (NP (DT a) (NN lot))
+          (PP (RB because) (IN of)
+            (NP (NNS humans))))))
+    (. .)))
+
+nmod:tmod(changing-7, Today-1)
+det(cycle-5, the-3)
+compound(cycle-5, water-4)
+nsubj(changing-7, cycle-5)
+aux(changing-7, is-6)
+root(ROOT-0, changing-7)
+det(lot-9, a-8)
+dobj(changing-7, lot-9)
+case(humans-12, because-10)
+mwe(because-10, of-11)
+nmod:because_of(lot-9, humans-12)
+
+(ROOT
+  (S
+    (NP (NNP Ice))
+    (VP (VBZ is)
+      (VP (VBG melting)
+        (PP (IN at)
+          (NP (DT the) (NNS poles)))))
+    (. .)))
+
+nsubj(melting-3, Ice-1)
+aux(melting-3, is-2)
+root(ROOT-0, melting-3)
+case(poles-6, at-4)
+det(poles-6, the-5)
+nmod:at(melting-3, poles-6)
+
+(ROOT
+  (S
+    (NP (NNS Deserts))
+    (VP (VBP are)
+      (VP (VBG growing)
+        (NP (JJR larger))))
+    (. .)))
+
+nsubj(growing-3, Deserts-1)
+aux(growing-3, are-2)
+root(ROOT-0, growing-3)
+dobj(growing-3, larger-4)
+
+(ROOT
+  (SQ (VBP Are)
+    (NP (PRP we))
+    (VP (VBG using)
+      (ADVP (RB too) (RB much))
+      (PP (IN of)
+        (NP (JJ earths) (JJ limited) (NN water) (NN supply))))
+    (. ?)))
+
+aux(using-3, Are-1)
+nsubj(using-3, we-2)
+root(ROOT-0, using-3)
+advmod(much-5, too-4)
+advmod(using-3, much-5)
+case(supply-10, of-6)
+amod(supply-10, earths-7)
+amod(supply-10, limited-8)
+compound(supply-10, water-9)
+nmod:of(using-3, supply-10)
+
+(ROOT
+  (S
+    (NP (DT No) (NN one))
+    (VP (VBZ is)
+      (ADJP (JJ sure))
+      (SBAR
+        (WHNP (WDT which))
+        (S
+          (NP
+            (NP (NN direction))
+            (NP (DT the) (NN ride)))
+          (VP (MD will)
+            (VP (VB go)
+              (ADVP (JJ next)))))))
+    (. .)))
+
+neg(one-2, No-1)
+nsubj(sure-4, one-2)
+cop(sure-4, is-3)
+root(ROOT-0, sure-4)
+dobj(go-10, which-5)
+nsubj(go-10, direction-6)
+det(ride-8, the-7)
+dep(direction-6, ride-8)
+aux(go-10, will-9)
+ccomp(sure-4, go-10)
+advmod(go-10, next-11)
+
+(ROOT
+  (S
+    (NP (NNP Water))
+    (VP (VBZ remains)
+      (NP (PRP$ our) (JJS most) (JJ precious) (NN resource)))
+    (. .)))
+
+nsubj(remains-2, Water-1)
+root(ROOT-0, remains-2)
+nmod:poss(resource-6, our-3)
+amod(resource-6, most-4)
+amod(resource-6, precious-5)
+xcomp(remains-2, resource-6)
+
+(ROOT
+  (S
+    (NP (PRP We))
+    (VP (MD should)
+      (VP (VB do)
+        (SBAR
+          (WHNP (WP what))
+          (S
+            (NP (PRP we))
+            (VP (MD can)
+              (S
+                (VP (TO to)
+                  (VP (VB protect)
+                    (NP (DT the) (NN water) (NN cycle))))))))))
+    (. .)))
+
+nsubj(do-3, We-1)
+aux(do-3, should-2)
+root(ROOT-0, do-3)
+dobj(can-6, what-4)
+nsubj(protect-8, what-4)
+nsubj(can-6, we-5)
+ccomp(do-3, can-6)
+mark(protect-8, to-7)
+xcomp(can-6, protect-8)
+det(cycle-11, the-9)
+compound(cycle-11, water-10)
+dobj(protect-8, cycle-11)
+
+(ROOT
+  (S
+    (PP (IN Without)
+      (NP (NN water)))
+    (, ,)
+    (NP (EX there))
+    (VP (MD would)
+      (VP (VB be)
+        (NP
+          (NP (DT no) (JJ magical) (NN roller-coaster) (NN ride))
+          (PP (IN of)
+            (NP (NN life))))))
+    (. !)))
+
+case(water-2, Without-1)
+nmod:without(ride-10, water-2)
+expl(ride-10, there-4)
+aux(ride-10, would-5)
+cop(ride-10, be-6)
+neg(ride-10, no-7)
+amod(ride-10, magical-8)
+compound(ride-10, roller-coaster-9)
+root(ROOT-0, ride-10)
+case(life-12, of-11)
+nmod:of(ride-10, life-12)
+
+(ROOT
+  (S
+    (LST (: --))
+    (PP (IN From)
+      (NP (NNP English) (CD 4U)))
+    (, ,)
+    (NP (NNP October))
+    (VP (VBZ 2006))))
+
+case(English-3, From-2)
+nmod:from(2006-7, English-3)
+nummod(English-3, 4U-4)
+nsubj(2006-7, October-6)
+root(ROOT-0, 2006-7)
+

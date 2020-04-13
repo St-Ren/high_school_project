@@ -1,0 +1,1961 @@
+(ROOT
+  (S
+    (S
+      (VP (VBG Coming)
+        (NP (NN home))
+        (PP (IN from)
+          (NP (NN school)))))
+    (, ,)
+    (NP (NNP Jack))
+    (VP (VBD sensed)
+      (SBAR
+        (S
+          (NP (NN something))
+          (VP (VBD was)
+            (ADJP (JJ odd))))))
+    (. .)))
+
+advcl(sensed-7, Coming-1)
+dobj(Coming-1, home-2)
+case(school-4, from-3)
+nmod:from(Coming-1, school-4)
+nsubj(sensed-7, Jack-6)
+root(ROOT-0, sensed-7)
+nsubj(odd-10, something-8)
+cop(odd-10, was-9)
+ccomp(sensed-7, odd-10)
+
+(ROOT
+  (S
+    (NP (PRP$ His) (NN mother))
+    (VP (VBD was)
+      (VP (VBG sitting)
+        (ADVP (RB contentedly))
+        (PP (IN in)
+          (NP
+            (NP (DT the) (VBG living) (NN room))
+            (VP (VBG reading)
+              (SBAR
+                (S
+                  (NP (DT a) (NN She))
+                  (VP (VBD was)
+                    (ADVP (RB always))
+                    (PP (IN in)
+                      (NP (DT the) (NN kitchen)))
+                    (SBAR
+                      (WHADVP (WRB when))
+                      (S
+                        (NP (PRP he))
+                        (VP (VBD got)
+                          (NP (NN home)))))))))))))
+    (. .)))
+
+nmod:poss(mother-2, His-1)
+nsubj(sitting-4, mother-2)
+aux(sitting-4, was-3)
+root(ROOT-0, sitting-4)
+advmod(sitting-4, contentedly-5)
+case(room-9, in-6)
+det(room-9, the-7)
+amod(room-9, living-8)
+nmod:in(sitting-4, room-9)
+acl(room-9, reading-10)
+det(She-12, a-11)
+nsubj(kitchen-17, She-12)
+cop(kitchen-17, was-13)
+advmod(kitchen-17, always-14)
+case(kitchen-17, in-15)
+det(kitchen-17, the-16)
+ccomp(reading-10, kitchen-17)
+advmod(got-20, when-18)
+nsubj(got-20, he-19)
+advcl(kitchen-17, got-20)
+dobj(got-20, home-21)
+
+(ROOT
+  (S
+    (NP (NNP Hi))
+    (, ,)
+    (ADVP (RB Mom))
+    (, ,)
+    (NP (PRP he))
+    (VP (VBD said))
+    (. .)))
+
+nsubj(said-6, Hi-1)
+advmod(said-6, Mom-3)
+nsubj(said-6, he-5)
+root(ROOT-0, said-6)
+
+(ROOT
+  (SBARQ
+    (WHNP (WP What))
+    (SQ (MD can)
+      (NP (PRP I))
+      (VP (VB have)
+        (PP (IN for)
+          (NP (DT a) (NN snack)))))
+    (. ?)))
+
+dobj(have-4, What-1)
+aux(have-4, can-2)
+nsubj(have-4, I-3)
+root(ROOT-0, have-4)
+case(snack-7, for-5)
+det(snack-7, a-6)
+nmod:for(have-4, snack-7)
+
+(ROOT
+  (S
+    (S
+      (NP (PRP I))
+      (VP (VBP dont)
+        (VP (VB know))))
+    (, ,)
+    (NP (PRP$ his) (NN mother))
+    (VP (VBD answered))
+    (. .)))
+
+nsubj(dont-2, I-1)
+ccomp(answered-7, dont-2)
+xcomp(dont-2, know-3)
+nmod:poss(mother-6, his-5)
+nsubj(answered-7, mother-6)
+root(ROOT-0, answered-7)
+
+(ROOT
+  (S
+    (NP (NNP Jack))
+    (VP (VBD was)
+      (VP (VBN surprised)
+        (PP (IN by)
+          (NP (PRP$ her) (NN reply)))))
+    (. .)))
+
+nsubjpass(surprised-3, Jack-1)
+auxpass(surprised-3, was-2)
+root(ROOT-0, surprised-3)
+case(reply-6, by-4)
+nmod:poss(reply-6, her-5)
+nmod:by(surprised-3, reply-6)
+
+(ROOT
+  (S
+    (NP (PRP She))
+    (ADVP (RB always))
+    (VP (VBD had)
+      (NP (DT a) (NN snack))
+      (SBAR (IN that)
+        (S
+          (NP (PRP he))
+          (VP (VBD liked)
+            (S
+              (VP (VBG waiting)
+                (PP (IN for)
+                  (NP (PRP him)))))))))
+    (. .)))
+
+nsubj(had-3, She-1)
+advmod(had-3, always-2)
+root(ROOT-0, had-3)
+det(snack-5, a-4)
+dobj(had-3, snack-5)
+mark(liked-8, that-6)
+nsubj(liked-8, he-7)
+ccomp(had-3, liked-8)
+xcomp(liked-8, waiting-9)
+case(him-11, for-10)
+nmod:for(waiting-9, him-11)
+
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP
+      (VP (VBD grabbed)
+        (NP (DT some) (JJ spoiled) (NN potato) (NNS chips)))
+      (, ,)
+      (CC but)
+      (ADVP (RB soon))
+      (VP (VBN regretted)
+        (NP (PRP it))))
+    (. .)))
+
+nsubj(grabbed-2, He-1)
+nsubj(regretted-10, He-1)
+root(ROOT-0, grabbed-2)
+det(chips-6, some-3)
+amod(chips-6, spoiled-4)
+compound(chips-6, potato-5)
+dobj(grabbed-2, chips-6)
+cc(grabbed-2, but-8)
+advmod(regretted-10, soon-9)
+conj:but(grabbed-2, regretted-10)
+dobj(regretted-10, it-11)
+
+(ROOT
+  (S
+    (NP
+      (NP
+        (NP (NNP Are))
+        (ADJP
+          (NP (PRP you))
+          (JJ sick)))
+      (CC or)
+      (NP (NN something))
+      (, ,))
+    (VP (VBD Mom)
+      (SBAR
+        (S
+          (NP (PRP he))
+          (VP (VBD called)
+            (PP (IN from)
+              (NP (DT the) (NN kitchen)))))))
+    (. .)))
+
+nsubj(Mom-7, Are-1)
+nmod:npmod(sick-3, you-2)
+amod(Are-1, sick-3)
+cc(Are-1, or-4)
+conj:or(Are-1, something-5)
+nsubj(Mom-7, something-5)
+root(ROOT-0, Mom-7)
+nsubj(called-9, he-8)
+ccomp(Mom-7, called-9)
+case(kitchen-12, from-10)
+det(kitchen-12, the-11)
+nmod:from(called-9, kitchen-12)
+
+(ROOT
+  (FRAG
+    (NP (NNP No))
+    (, ,)
+    (SBAR
+      (WHADVP (WRB why))
+      (S
+        (NP (PRP she))
+        (VP (VBD asked))))
+    (. .)))
+
+root(ROOT-0, No-1)
+advmod(asked-5, why-3)
+nsubj(asked-5, she-4)
+dep(No-1, asked-5)
+
+(ROOT
+  (S
+    (S
+      (INTJ (UH Oh))
+      (, ,)
+      (NP (PRP you))
+      (ADVP (RB just))
+      (VP (VBP seem)
+        (NP
+          (NP (NN kind))
+          (PP (IN of)
+            (ADJP (JJ different))))))
+    (, ,)
+    (NP (NNP Jack))
+    (VP (VBD answered))
+    (. .)))
+
+discourse(seem-5, Oh-1)
+nsubj(seem-5, you-3)
+advmod(seem-5, just-4)
+ccomp(answered-11, seem-5)
+xcomp(seem-5, kind-6)
+case(different-8, of-7)
+acl:of(kind-6, different-8)
+nsubj(answered-11, Jack-10)
+root(ROOT-0, answered-11)
+
+(ROOT
+  (S
+    (ADVP (RB Soon))
+    (, ,)
+    (NP
+      (NP (PRP$ his) (NN sister))
+      (, ,)
+      (NP (NNP Martha))
+      (, ,))
+    (VP (VBD arrived))
+    (. .)))
+
+advmod(arrived-8, Soon-1)
+nmod:poss(sister-4, his-3)
+nsubj(arrived-8, sister-4)
+appos(sister-4, Martha-6)
+root(ROOT-0, arrived-8)
+
+(ROOT
+  (S
+    (NP (PRP She))
+    (VP (VBD was)
+      (ADJP (JJ surprised)
+        (S
+          (VP (TO to)
+            (VP (VB see)
+              (NP (PRP$ her) (NN mother))
+              (PP (IN in)
+                (NP (DT the) (VBG living) (NN room)))
+              (, ,)
+              (ADVP (RB too)))))))
+    (. .)))
+
+nsubj(surprised-3, She-1)
+nsubj(see-5, She-1)
+cop(surprised-3, was-2)
+root(ROOT-0, surprised-3)
+mark(see-5, to-4)
+xcomp(surprised-3, see-5)
+nmod:poss(mother-7, her-6)
+dobj(see-5, mother-7)
+case(room-11, in-8)
+det(room-11, the-9)
+amod(room-11, living-10)
+nmod:in(see-5, room-11)
+advmod(see-5, too-13)
+
+(ROOT
+  (S
+    (S
+      (VP (VBG Are)
+        (S
+          (NP (PRP you))
+          (ADJP (RB ill)))))
+    (, ,)
+    (ADVP (RB Mom))
+    (NP (PRP she))
+    (VP (VBD asked)
+      (PP (IN on)
+        (NP (PRP$ her) (NN way)))
+      (PP (TO to)
+        (NP (DT the) (NN bedroom))))
+    (. .)))
+
+advcl(asked-7, Are-1)
+nsubj(ill-3, you-2)
+xcomp(Are-1, ill-3)
+advmod(she-6, Mom-5)
+nsubj(asked-7, she-6)
+root(ROOT-0, asked-7)
+case(way-10, on-8)
+nmod:poss(way-10, her-9)
+nmod:on(asked-7, way-10)
+case(bedroom-13, to-11)
+det(bedroom-13, the-12)
+nmod:to(asked-7, bedroom-13)
+
+(ROOT
+  (S
+    (INTJ (UH No))
+    (, ,)
+    (NP (PRP$ her) (NN mother))
+    (VP (VBD answered))
+    (. .)))
+
+discourse(answered-5, No-1)
+nmod:poss(mother-4, her-3)
+nsubj(answered-5, mother-4)
+root(ROOT-0, answered-5)
+
+(ROOT
+  (NP
+    (NP (NNP Im))
+    (VP
+      (ADVP (RB just))
+      (VBG reading)
+      (NP (DT a)
+        (ADJP (RB very) (JJ good))
+        (NN story) (NN aboutX) (NN Mother)))
+    (. !)))
+
+root(ROOT-0, Im-1)
+advmod(reading-3, just-2)
+acl(Im-1, reading-3)
+det(Mother-9, a-4)
+advmod(good-6, very-5)
+amod(Mother-9, good-6)
+compound(Mother-9, story-7)
+compound(Mother-9, aboutX-8)
+dobj(reading-3, Mother-9)
+
+(ROOT
+  (S
+    (NP (NNP Martha))
+    (VP (VBD yelled)
+      (PP (IN from)
+        (NP (DT the) (NN bedroom))))
+    (. .)))
+
+nsubj(yelled-2, Martha-1)
+root(ROOT-0, yelled-2)
+case(bedroom-5, from-3)
+det(bedroom-5, the-4)
+nmod:from(yelled-2, bedroom-5)
+
+(ROOT
+  (SQ
+    (VP (VB Wheres)
+      (NP (PRP$ my) (NN dress))
+      (PP (IN for)
+        (NP (RB tonight))))
+    (. ?)))
+
+root(ROOT-0, Wheres-1)
+nmod:poss(dress-3, my-2)
+dobj(Wheres-1, dress-3)
+case(tonight-5, for-4)
+nmod:for(Wheres-1, tonight-5)
+
+(ROOT
+  (S
+    (ADVP (RB Martha))
+    (, ,)
+    (NP (PRP you))
+    (VP (VBN interrupted)
+      (NP (PRP me)))
+    (. .)))
+
+advmod(interrupted-4, Martha-1)
+nsubj(interrupted-4, you-3)
+root(ROOT-0, interrupted-4)
+dobj(interrupted-4, me-5)
+
+(ROOT
+  (S
+    (NP (PRP$ Your) (NN dress))
+    (VP (VBZ is)
+      (PP (IN in)
+        (NP (DT the) (VBG ironing) (NN basket))))
+    (. .)))
+
+nmod:poss(dress-2, Your-1)
+nsubj(basket-7, dress-2)
+cop(basket-7, is-3)
+case(basket-7, in-4)
+det(basket-7, the-5)
+amod(basket-7, ironing-6)
+root(ROOT-0, basket-7)
+
+(ROOT
+  (S
+    (NP (NNP Martha))
+    (ADVP (RB frantically))
+    (VP (VBD went)
+      (PP (IN through)
+        (NP
+          (NP (DT the) (NN basket))
+          (PP (IN of)
+            (NP
+              (NP (NNS clothes))
+              (SBAR
+                (WHNP (WDT that))
+                (S
+                  (VP (VBD needed)
+                    (S
+                      (VP (TO to)
+                        (VP (VB be)
+                          (VP (VBN pressed)))))))))))))
+    (. .)))
+
+nsubj(went-3, Martha-1)
+advmod(went-3, frantically-2)
+root(ROOT-0, went-3)
+case(basket-6, through-4)
+det(basket-6, the-5)
+nmod:through(went-3, basket-6)
+case(clothes-8, of-7)
+nmod:of(basket-6, clothes-8)
+nsubj(needed-10, clothes-8)
+nsubjpass(pressed-13, clothes-8)
+ref(clothes-8, that-9)
+acl:relcl(clothes-8, needed-10)
+mark(pressed-13, to-11)
+auxpass(pressed-13, be-12)
+xcomp(needed-10, pressed-13)
+
+(ROOT
+  (S
+    (NP (PRP She))
+    (VP (VBD looked)
+      (PRT (RP over))
+      (PP (IN at)
+        (NP
+          (NP (NNP Jack))
+          (, ,)
+          (SBAR
+            (WHNP (WP who))
+            (S
+              (VP (VBD was)
+                (ADVP (RB still))
+                (VP (VBG searching)
+                  (PP (IN for)
+                    (NP (NN something)))
+                  (S
+                    (VP (TO to)
+                      (VP (VB eat)))))))))))
+    (. .)))
+
+nsubj(looked-2, She-1)
+root(ROOT-0, looked-2)
+compound:prt(looked-2, over-3)
+case(Jack-5, at-4)
+nmod:at(looked-2, Jack-5)
+nsubj(searching-10, Jack-5)
+nsubj(eat-14, Jack-5)
+ref(Jack-5, who-7)
+aux(searching-10, was-8)
+advmod(searching-10, still-9)
+acl:relcl(Jack-5, searching-10)
+case(something-12, for-11)
+nmod:for(searching-10, something-12)
+mark(eat-14, to-13)
+xcomp(searching-10, eat-14)
+
+(ROOT
+  (S
+    (VP (VB Whats)
+      (NP (DT the) (NN matter))
+      (PP (IN with)
+        (S
+          (VP (VBG Mom)
+            (S
+              (NP (PRP she))
+              (VP (VBN whispered)))))))
+    (. .)))
+
+root(ROOT-0, Whats-1)
+det(matter-3, the-2)
+dobj(Whats-1, matter-3)
+mark(Mom-5, with-4)
+advcl(Whats-1, Mom-5)
+nsubj(whispered-7, she-6)
+dep(Mom-5, whispered-7)
+
+(ROOT
+  (S
+    (S
+      (NP (PRP I))
+      (VP (VBP dont)
+        (VP (VB know))))
+    (, ,)
+    (NP (NNP Jack))
+    (VP (VBD replied))
+    (. .)))
+
+nsubj(dont-2, I-1)
+ccomp(replied-6, dont-2)
+xcomp(dont-2, know-3)
+nsubj(replied-6, Jack-5)
+root(ROOT-0, replied-6)
+
+(ROOT
+  (S
+    (NP (NNP Martha))
+    (VP
+      (VP (VBD set)
+        (PRT (RP up))
+        (NP (DT the) (JJ ironing) (NN board)))
+      (, ,)
+      (VP (VBD plugged)
+        (PP (IN in)
+          (NP (DT the) (NN iron))))
+      (, ,)
+      (CC and)
+      (VP (VBD began)
+        (S
+          (VP (TO to)
+            (VP (VB iron))))))
+    (. .)))
+
+nsubj(set-2, Martha-1)
+nsubj(plugged-8, Martha-1)
+nsubj(began-14, Martha-1)
+nsubj(iron-16, Martha-1)
+root(ROOT-0, set-2)
+compound:prt(set-2, up-3)
+det(board-6, the-4)
+amod(board-6, ironing-5)
+dobj(set-2, board-6)
+conj:and(set-2, plugged-8)
+case(iron-11, in-9)
+det(iron-11, the-10)
+nmod:in(plugged-8, iron-11)
+cc(set-2, and-13)
+conj:and(set-2, began-14)
+mark(iron-16, to-15)
+xcomp(began-14, iron-16)
+
+(ROOT
+  (S
+    (NP (PRP She))
+    (VP (VBD was)
+      (ADJP (RB really) (JJ outraged))
+      (SBAR (IN because)
+        (S
+          (ADVP (RB normally))
+          (NP (PRP$ her) (NN mother))
+          (VP (MD would)
+            (VP (VB have)
+              (VP (VBN done)
+                (NP (PRP it))
+                (PP (IN for)
+                  (NP (PRP her)))))))))
+    (. .)))
+
+nsubj(outraged-4, She-1)
+cop(outraged-4, was-2)
+advmod(outraged-4, really-3)
+root(ROOT-0, outraged-4)
+mark(done-11, because-5)
+advmod(done-11, normally-6)
+nmod:poss(mother-8, her-7)
+nsubj(done-11, mother-8)
+aux(done-11, would-9)
+aux(done-11, have-10)
+advcl(outraged-4, done-11)
+dobj(done-11, it-12)
+case(her-14, for-13)
+nmod:for(done-11, her-14)
+
+(ROOT
+  (S (RB Then)
+    (NP (NNP Dad))
+    (VP (VBD came)
+      (NP (NN home)))
+    (. .)))
+
+advmod(came-3, Then-1)
+nsubj(came-3, Dad-2)
+root(ROOT-0, came-3)
+dobj(came-3, home-4)
+
+(ROOT
+  (S
+    (NP (PRP They))
+    (VP (MD could)
+      (VP (VB hear)
+        (S
+          (NP (PRP him))
+          (VP (VBG talking)
+            (PP (TO to)
+              (NP
+                (NP (PRP$ their) (NN mother))
+                (PP (IN in)
+                  (NP (DT the) (VBG living) (NN room)))))))))
+    (. .)))
+
+nsubj(hear-3, They-1)
+aux(hear-3, could-2)
+root(ROOT-0, hear-3)
+nsubj(talking-5, him-4)
+dep(hear-3, talking-5)
+case(mother-8, to-6)
+nmod:poss(mother-8, their-7)
+nmod:to(talking-5, mother-8)
+case(room-12, in-9)
+det(room-12, the-10)
+amod(room-12, living-11)
+nmod:in(mother-8, room-12)
+
+(ROOT
+  (S
+    (ADVP (RB Soon))
+    (NP (NNP Dad))
+    (VP (VBD came)
+      (PRT (RP out))
+      (PP (IN into)
+        (NP (DT the) (NN kitchen)))
+      (, ,)
+      (ADVP (RB too)))
+    (. .)))
+
+advmod(came-3, Soon-1)
+nsubj(came-3, Dad-2)
+root(ROOT-0, came-3)
+compound:prt(came-3, out-4)
+case(kitchen-7, into-5)
+det(kitchen-7, the-6)
+nmod:into(came-3, kitchen-7)
+advmod(came-3, too-9)
+
+(ROOT
+  (S
+    (INTJ (UH Well))
+    (, ,)
+    (NP (PRP it))
+    (VP (VBZ seems)
+      (SBAR (IN as)
+        (S
+          (SBAR (IN if)
+            (S
+              (NP (PRP$ your) (NN mother))
+              (VP (VBZ is)
+                (VP (VBG taking)
+                  (NP (DT the) (NN night))
+                  (PRT (RP off))))))
+          (, ,)
+          (NP (PRP he))
+          (VP (VBD said)))))
+    (. .)))
+
+discourse(seems-4, Well-1)
+nsubj(seems-4, it-3)
+root(ROOT-0, seems-4)
+mark(said-16, as-5)
+mark(taking-10, if-6)
+nmod:poss(mother-8, your-7)
+nsubj(taking-10, mother-8)
+aux(taking-10, is-9)
+advcl(said-16, taking-10)
+det(night-12, the-11)
+nmod:tmod(taking-10, night-12)
+compound:prt(taking-10, off-13)
+nsubj(said-16, he-15)
+advcl(seems-4, said-16)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP suppose)
+      (SBAR
+        (S
+          (NP (PRP we))
+          (VP (MD can) (RB all)
+            (VP
+              (VP (VB pitch)
+                (PRT (RP in)))
+              (CC and)
+              (VP (VB make)
+                (NP (NN dinner))
+                (NP (NN tonight))))))))
+    (. .)))
+
+nsubj(suppose-2, I-1)
+root(ROOT-0, suppose-2)
+nsubj(pitch-6, we-3)
+nsubj(make-9, we-3)
+aux(pitch-6, can-4)
+advmod(pitch-6, all-5)
+ccomp(suppose-2, pitch-6)
+compound:prt(pitch-6, in-7)
+cc(pitch-6, and-8)
+ccomp(suppose-2, make-9)
+conj:and(pitch-6, make-9)
+iobj(make-9, dinner-10)
+dobj(make-9, tonight-11)
+
+(ROOT
+  (S
+    (NP (NNP Jack)
+      (CC and)
+      (NNP Martha))
+    (VP
+      (VP (VBD complained))
+      (CC and)
+      (VP (VBD whined)))
+    (. .)))
+
+nsubj(complained-4, Jack-1)
+nsubj(whined-6, Jack-1)
+cc(Jack-1, and-2)
+conj:and(Jack-1, Martha-3)
+nsubj(complained-4, Martha-3)
+root(ROOT-0, complained-4)
+cc(complained-4, and-5)
+conj:and(complained-4, whined-6)
+
+(ROOT
+  (S (CC But)
+    (NP (NNP Dad))
+    (VP (VBD said)
+      (PRN (, ,)
+        (INTJ (UH Well))
+        (, ,))
+      (SBAR (IN if)
+        (S
+          (NP (NN anybody))
+          (VP (VBZ wants)
+            (NP
+              (NP (NN dinner))
+              (, ,)
+              (VP (VBN theyd)
+                (ADVP (RBR better))
+                (S
+                  (VP (VB get)
+                    (ADJP (JJ busy))))))))))
+    (. .)))
+
+cc(said-3, But-1)
+nsubj(said-3, Dad-2)
+root(ROOT-0, said-3)
+discourse(said-3, Well-5)
+mark(wants-9, if-7)
+nsubj(wants-9, anybody-8)
+advcl(said-3, wants-9)
+dobj(wants-9, dinner-10)
+acl(dinner-10, theyd-12)
+advmod(theyd-12, better-13)
+ccomp(theyd-12, get-14)
+xcomp(get-14, busy-15)
+
+(ROOT
+  (S
+    (NP (NNP Dad) (, ,))
+    (VP (VBP do)
+      (SBAR
+        (S
+          (NP (PRP you))
+          (VP (VBP think)
+            (S
+              (NP (JJ theres) (NN something))
+              (ADJP (JJ wrong))
+              (SBAR (IN with)
+                (S
+                  (NP (NNP Mom) (NNP Jack))
+                  (VP (VBD asked)
+                    (SBAR (IN as)
+                      (S
+                        (NP (PRP they))
+                        (VP (VBD tried)
+                          (S
+                            (VP (TO to)
+                              (VP (VB cook)
+                                (NP (NN something))
+                                (PP (IN for)
+                                  (NP (NN dinner)))))))))))))))))
+    (. .)))
+
+nsubj(do-3, Dad-1)
+root(ROOT-0, do-3)
+nsubj(think-5, you-4)
+ccomp(do-3, think-5)
+amod(something-7, theres-6)
+nsubj(asked-12, something-7)
+dep(asked-12, wrong-8)
+mark(asked-12, with-9)
+compound(Jack-11, Mom-10)
+nsubj(asked-12, Jack-11)
+xcomp(think-5, asked-12)
+mark(tried-15, as-13)
+nsubj(tried-15, they-14)
+nsubj(cook-17, they-14)
+advcl(asked-12, tried-15)
+mark(cook-17, to-16)
+xcomp(tried-15, cook-17)
+dobj(cook-17, something-18)
+case(dinner-20, for-19)
+nmod:for(cook-17, dinner-20)
+
+(ROOT
+  (S
+    (S
+      (NP (PRP I))
+      (VP (VBP guess)
+        (NP
+          (NP (NNS shes))
+          (ADJP (RB just) (VBN tired))
+          (, ,)
+          (NP (NNP Jack)))))
+    (, ,)
+    (NP (PRP he))
+    (VP (VBD answered))
+    (. .)))
+
+nsubj(guess-2, I-1)
+ccomp(answered-10, guess-2)
+dobj(guess-2, shes-3)
+advmod(tired-5, just-4)
+amod(shes-3, tired-5)
+appos(shes-3, Jack-7)
+nsubj(answered-10, he-9)
+root(ROOT-0, answered-10)
+
+(ROOT
+  (S
+    (NP (NNP Well))
+    (ADVP (RB just))
+    (VP (VBP try)
+      (S
+        (VP (TO to)
+          (VP (VB help)
+            (PRT (RP out))
+            (PP (IN for)
+              (NP (DT a) (JJ few) (NNS days)))))))
+    (. .)))
+
+nsubj(try-3, Well-1)
+nsubj(help-5, Well-1)
+advmod(try-3, just-2)
+root(ROOT-0, try-3)
+mark(help-5, to-4)
+xcomp(try-3, help-5)
+compound:prt(help-5, out-6)
+case(days-10, for-7)
+det(days-10, a-8)
+amod(days-10, few-9)
+nmod:for(help-5, days-10)
+
+(ROOT
+  (S (RB Then)
+    (NP (PRP they))
+    (VP (VBD looked)
+      (PRT (RP over))
+      (PP (IN at)
+        (NP (DT the) (NN stove))))
+    (. .)))
+
+advmod(looked-3, Then-1)
+nsubj(looked-3, they-2)
+root(ROOT-0, looked-3)
+compound:prt(looked-3, over-4)
+case(stove-7, at-5)
+det(stove-7, the-6)
+nmod:at(looked-3, stove-7)
+
+(ROOT
+  (S
+    (NP (DT The) (NN soup))
+    (VP (VBD was)
+      (VP (VBG overflowing)
+        (NP (DT the) (NN pot))))
+    (. .)))
+
+det(soup-2, The-1)
+nsubj(overflowing-4, soup-2)
+aux(overflowing-4, was-3)
+root(ROOT-0, overflowing-4)
+det(pot-6, the-5)
+dobj(overflowing-4, pot-6)
+
+(ROOT
+  (S
+    (SBAR
+      (WHADVP (WRB When))
+      (S
+        (NP (PRP they))
+        (VP (VBD finished)
+          (NP (NN cooking)))))
+    (, ,)
+    (NP (DT the) (NN kitchen))
+    (VP (VBD was)
+      (NP (DT a) (NN mess)))
+    (. .)))
+
+advmod(finished-3, When-1)
+nsubj(finished-3, they-2)
+advcl(mess-10, finished-3)
+dobj(finished-3, cooking-4)
+det(kitchen-7, the-6)
+nsubj(mess-10, kitchen-7)
+cop(mess-10, was-8)
+det(mess-10, a-9)
+root(ROOT-0, mess-10)
+
+(ROOT
+  (S
+    (PP (IN After)
+      (NP (NN dinner)))
+    (NP (NN Mom))
+    (VP
+      (VP (VBD cleared)
+        (NP (DT the) (NN table)))
+      (CC and)
+      (ADVP (RB then))
+      (VP (VBD went)
+        (PRT (RP in))
+        (S
+          (VP (TO to)
+            (VP (VB watch)
+              (NP (NN television)))))))
+    (. .)))
+
+case(dinner-2, After-1)
+nmod:after(cleared-4, dinner-2)
+nsubj(cleared-4, Mom-3)
+nsubj(went-9, Mom-3)
+nsubj(watch-12, Mom-3)
+root(ROOT-0, cleared-4)
+det(table-6, the-5)
+dobj(cleared-4, table-6)
+cc(cleared-4, and-7)
+advmod(went-9, then-8)
+conj:and(cleared-4, went-9)
+compound:prt(went-9, in-10)
+mark(watch-12, to-11)
+xcomp(went-9, watch-12)
+dobj(watch-12, television-13)
+
+(ROOT
+  (S
+    (NP (DT The) (JJ next) (NN morning) (NNP Jack))
+    (VP (VBD reached)
+      (PP (IN into)
+        (NP (PRP$ his) (JJ socks) (NN drawer))))
+    (. .)))
+
+det(Jack-4, The-1)
+amod(Jack-4, next-2)
+compound(Jack-4, morning-3)
+nsubj(reached-5, Jack-4)
+root(ROOT-0, reached-5)
+case(drawer-9, into-6)
+nmod:poss(drawer-9, his-7)
+amod(drawer-9, socks-8)
+nmod:into(reached-5, drawer-9)
+
+(ROOT
+  (S
+    (NP (EX There))
+    (VP (VBP werent)
+      (NP (DT any)))
+    (. .)))
+
+expl(werent-2, There-1)
+root(ROOT-0, werent-2)
+dobj(werent-2, any-3)
+
+(ROOT
+  (S
+    (SBAR (IN Because)
+      (S
+        (NP (PRP$ his) (NN mother))
+        (VP (VBD had)
+          (ADVP (RB already))
+          (VP (VBN gone)
+            (S
+              (VP (TO to)
+                (VP (VB work))))))))
+    (, ,)
+    (NP (PRP he))
+    (VP (VBD had)
+      (S
+        (VP (TO to)
+          (VP (VB get)
+            (NP (DT a) (NN pair))
+            (PRT (RP out))
+            (PP (IN of)
+              (NP (DT the) (JJ dirty) (NNS clothes) (NN basket)))))))
+    (. .)))
+
+mark(gone-6, Because-1)
+nmod:poss(mother-3, his-2)
+nsubj(gone-6, mother-3)
+nsubj(work-8, mother-3)
+aux(gone-6, had-4)
+advmod(gone-6, already-5)
+advcl(had-11, gone-6)
+mark(work-8, to-7)
+xcomp(gone-6, work-8)
+nsubj(had-11, he-10)
+nsubj(get-13, he-10)
+root(ROOT-0, had-11)
+mark(get-13, to-12)
+xcomp(had-11, get-13)
+det(pair-15, a-14)
+dobj(get-13, pair-15)
+compound:prt(get-13, out-16)
+case(basket-21, of-17)
+det(basket-21, the-18)
+amod(basket-21, dirty-19)
+compound(basket-21, clothes-20)
+nmod:of(get-13, basket-21)
+
+(ROOT
+  (S
+    (PP
+      (ADVP (RB Later))
+      (IN at)
+      (NP (NN school)))
+    (, ,)
+    (NP (NNP Jack))
+    (VP (VBD told)
+      (NP (PRP$ his) (NN friend) (NNP Steve))
+      (PP (IN about)
+        (NP
+          (NP (DT the) (JJ bizarre) (NN way))
+          (SBAR
+            (S
+              (NP (PRP$ his) (NN mother))
+              (VP (VBD was)
+                (VP (VBG acting))))))))
+    (. .)))
+
+advmod(school-3, Later-1)
+case(school-3, at-2)
+nmod:at(told-6, school-3)
+nsubj(told-6, Jack-5)
+root(ROOT-0, told-6)
+nmod:poss(Steve-9, his-7)
+compound(Steve-9, friend-8)
+dobj(told-6, Steve-9)
+case(way-13, about-10)
+det(way-13, the-11)
+amod(way-13, bizarre-12)
+nmod:about(told-6, way-13)
+nmod:poss(mother-15, his-14)
+nsubj(acting-17, mother-15)
+aux(acting-17, was-16)
+acl:relcl(way-13, acting-17)
+
+(ROOT
+  (S
+    (S
+      (INTJ (UH Well))
+      (, ,)
+      (VP (VB thats)
+        (ADJP (JJ peculiar))))
+    (, ,)
+    (NP (NNP Steve))
+    (VP (VBD said))
+    (. .)))
+
+discourse(thats-3, Well-1)
+ccomp(said-7, thats-3)
+xcomp(thats-3, peculiar-4)
+nsubj(said-7, Steve-6)
+root(ROOT-0, said-7)
+
+(ROOT
+  (S
+    (NP (JJ Arent) (NNS mothers))
+    (VP (VBD supposed)
+      (S
+        (VP (TO to)
+          (VP (VB do)
+            (NP (NN household) (NNS chores))))))
+    (. ?)))
+
+amod(mothers-2, Arent-1)
+nsubj(supposed-3, mothers-2)
+nsubj(do-5, mothers-2)
+root(ROOT-0, supposed-3)
+mark(do-5, to-4)
+xcomp(supposed-3, do-5)
+compound(chores-7, household-6)
+dobj(do-5, chores-7)
+
+(ROOT
+  (S
+    (S
+      (SBAR
+        (WHADVP (WRB When))
+        (S
+          (NP (NNP Jack)
+            (CC and)
+            (NNP Martha))
+          (VP (VBD got)
+            (NP (NN home))
+            (NP (DT that) (NN afternoon)))))
+      (, ,)
+      (NP (PRP they))
+      (VP (VBD found)
+        (SBAR (IN that)
+          (S
+            (NP (NNS things))
+            (VP (VBD were)
+              (NP (RB just) (DT the) (JJ same)))))))
+    (: ;)
+    (S
+      (NP (PRP they))
+      (VP (VBD decided)
+        (S
+          (VP (TO to)
+            (VP (VB speak)
+              (PP (IN with)
+                (NP
+                  (NP (PRP$ their) (NN aunt))
+                  (, ,)
+                  (NP (NNP Grace)))))))))
+    (. .)))
+
+advmod(got-5, When-1)
+nsubj(got-5, Jack-2)
+cc(Jack-2, and-3)
+conj:and(Jack-2, Martha-4)
+nsubj(got-5, Martha-4)
+advcl(found-11, got-5)
+iobj(got-5, home-6)
+det(afternoon-8, that-7)
+dobj(got-5, afternoon-8)
+nsubj(found-11, they-10)
+root(ROOT-0, found-11)
+mark(same-17, that-12)
+nsubj(same-17, things-13)
+cop(same-17, were-14)
+advmod(same-17, just-15)
+det(same-17, the-16)
+ccomp(found-11, same-17)
+nsubj(decided-20, they-19)
+nsubj(speak-22, they-19)
+parataxis(found-11, decided-20)
+mark(speak-22, to-21)
+xcomp(decided-20, speak-22)
+case(aunt-25, with-23)
+nmod:poss(aunt-25, their-24)
+nmod:with(speak-22, aunt-25)
+appos(aunt-25, Grace-27)
+
+(ROOT
+  (S
+    (S
+      (SBAR (IN After)
+        (S
+          (NP (PRP they))
+          (VP (VBD told)
+            (NP (PRP her))
+            (SBAR
+              (WHNP (WP what))
+              (S
+                (VP (VBD happened)))))))
+      (, ,)
+      (NP (NNP Aunt) (NNP Grace))
+      (VP (VBD said)))
+    (, ,)
+    (CC But)
+    (S
+      (S
+        (NP (PRP she))
+        (VP (VBZ has)
+          (VP (VBN worked)
+            (NP (DT all) (NN day)))))
+      (, ,) (IN so)
+      (S
+        (NP (PRP you))
+        (ADVP (RB cant))
+        (VP (VBP say)
+          (NP (NNS shes))
+          (S (RB not)
+            (VP (VBG doing)
+              (NP (NN anything)))))))
+    (. .)))
+
+mark(told-3, After-1)
+nsubj(told-3, they-2)
+advcl(said-10, told-3)
+dobj(told-3, her-4)
+nsubj(happened-6, what-5)
+ccomp(told-3, happened-6)
+compound(Grace-9, Aunt-8)
+nsubj(said-10, Grace-9)
+root(ROOT-0, said-10)
+cc(said-10, But-12)
+nsubj(worked-15, she-13)
+aux(worked-15, has-14)
+conj:but(said-10, worked-15)
+det(day-17, all-16)
+nmod:tmod(worked-15, day-17)
+dep(worked-15, so-19)
+nsubj(say-22, you-20)
+advmod(say-22, cant-21)
+parataxis(worked-15, say-22)
+dobj(say-22, shes-23)
+neg(doing-25, not-24)
+xcomp(say-22, doing-25)
+dobj(doing-25, anything-26)
+
+(ROOT
+  (S
+    (ADVP (RB Surely))
+    (VP (VB youre)
+      (ADJP (JJ old) (RB enough)
+        (S
+          (VP (TO to)
+            (VP (VB do)
+              (NP (NN something))
+              (S
+                (VP (TO to)
+                  (VP (VB help)
+                    (PRT (RP out))
+                    (PP (IN around)
+                      (NP (DT the) (NN house)))))))))))
+    (. .)))
+
+advmod(youre-2, Surely-1)
+root(ROOT-0, youre-2)
+xcomp(youre-2, old-3)
+advmod(old-3, enough-4)
+mark(do-6, to-5)
+xcomp(old-3, do-6)
+dobj(do-6, something-7)
+mark(help-9, to-8)
+advcl(do-6, help-9)
+compound:prt(help-9, out-10)
+case(house-13, around-11)
+det(house-13, the-12)
+nmod:around(help-9, house-13)
+
+(ROOT
+  (SBARQ
+    (WHADVP (WRB Why))
+    (SQ (MD should)
+      (NP (PRP she))
+      (VP (VB carry)
+        (NP (DT the) (JJ whole) (NN burden))))
+    (. ?)))
+
+advmod(carry-4, Why-1)
+aux(carry-4, should-2)
+nsubj(carry-4, she-3)
+root(ROOT-0, carry-4)
+det(burden-7, the-5)
+amod(burden-7, whole-6)
+dobj(carry-4, burden-7)
+
+(ROOT
+  (S
+    (S (CC But)
+      (NP (PRP she))
+      (VP (VBZ does)
+        (NP (NNS things))
+        (ADVP (RBR better))))
+    (, ,)
+    (NP (NNP Jack))
+    (VP (VBD answered))
+    (. .)))
+
+cc(does-3, But-1)
+nsubj(does-3, she-2)
+ccomp(answered-8, does-3)
+dobj(does-3, things-4)
+advmod(does-3, better-5)
+nsubj(answered-8, Jack-7)
+root(ROOT-0, answered-8)
+
+(ROOT
+  (S
+    (NP (NNP Aunt) (NNP Grace))
+    (VP (VBD was)
+      (VP (VBG smiling)
+        (PP (IN by)
+          (NP (RB then)))))
+    (. .)))
+
+compound(Grace-2, Aunt-1)
+nsubj(smiling-4, Grace-2)
+aux(smiling-4, was-3)
+root(ROOT-0, smiling-4)
+case(then-6, by-5)
+nmod:by(smiling-4, then-6)
+
+(ROOT
+  (S
+    (NP (NNP Martha))
+    (VP (VBD thought)
+      (SBAR (IN that)
+        (S
+          (NP (PRP she))
+          (VP (VBD knew)
+            (ADVP (RBR more))
+            (SBAR (IN than)
+              (S
+                (NP (PRP she))
+                (VP (VBD was)
+                  (VP (VBG letting)
+                    (PRT (RP on))))))))))
+    (. .)))
+
+nsubj(thought-2, Martha-1)
+root(ROOT-0, thought-2)
+mark(knew-5, that-3)
+nsubj(knew-5, she-4)
+ccomp(thought-2, knew-5)
+advmod(knew-5, more-6)
+mark(letting-10, than-7)
+nsubj(letting-10, she-8)
+aux(letting-10, was-9)
+advcl(knew-5, letting-10)
+compound:prt(letting-10, on-11)
+
+(ROOT
+  (S
+    (NP (CD Three) (NNS days) (RB later))
+    (, ,)
+    (NP (NNS things))
+    (VP (VBD were)
+      (ADVP (RB still))
+      (NP (DT the) (JJ same)))
+    (. .)))
+
+nummod(days-2, Three-1)
+nmod:tmod(same-9, days-2)
+advmod(days-2, later-3)
+nsubj(same-9, things-5)
+cop(same-9, were-6)
+advmod(same-9, still-7)
+det(same-9, the-8)
+root(ROOT-0, same-9)
+
+(ROOT
+  (S
+    (NP (NNP Jack)
+      (CC and)
+      (NNP Martha))
+    (VP (VBD decided)
+      (S
+        (VP (TO to)
+          (VP (VB talk)
+            (PP (TO to)
+              (NP (NNP Dad)))))))
+    (. .)))
+
+nsubj(decided-4, Jack-1)
+nsubj(talk-6, Jack-1)
+cc(Jack-1, and-2)
+conj:and(Jack-1, Martha-3)
+nsubj(decided-4, Martha-3)
+nsubj(talk-6, Martha-3)
+root(ROOT-0, decided-4)
+mark(talk-6, to-5)
+xcomp(decided-4, talk-6)
+case(Dad-8, to-7)
+nmod:to(talk-6, Dad-8)
+
+(ROOT
+  (S
+    (ADVP (RB Later))
+    (, ,)
+    (NP (PRP they))
+    (VP (VBD went)
+      (PRT (RP in))
+      (S
+        (VP (TO to)
+          (VP (VB see)
+            (NP (PRP$ their) (NN mother))))))
+    (. .)))
+
+advmod(went-4, Later-1)
+nsubj(went-4, they-3)
+nsubj(see-7, they-3)
+root(ROOT-0, went-4)
+compound:prt(went-4, in-5)
+mark(see-7, to-6)
+xcomp(went-4, see-7)
+nmod:poss(mother-9, their-8)
+dobj(see-7, mother-9)
+
+(ROOT
+  (S
+    (NP (NNP Honey))
+    (, ,)
+    (S
+      (VP (VBD were)
+        (ADJP (RB so) (VBN worried)
+          (PP (IN about)
+            (NP (PRP you)))
+          (SBAR (IN that)
+            (S
+              (NP (PRP we))
+              (VP (VBD decided)
+                (S
+                  (VP (TO to)
+                    (VP (VB come)
+                      (CC and)
+                      (VB see)
+                      (SBAR
+                        (WHNP (WP what))
+                        (S
+                          (VP (VBZ is)
+                            (ADJP (JJ wrong))))))))))))))
+    (, ,)
+    (NP (NNP Dad))
+    (VP (VBD said))
+    (. .)))
+
+nsubj(said-20, Honey-1)
+auxpass(worried-5, were-3)
+advmod(worried-5, so-4)
+ccomp(said-20, worried-5)
+case(you-7, about-6)
+nmod:about(worried-5, you-7)
+mark(decided-10, that-8)
+nsubj(decided-10, we-9)
+nsubj(come-12, we-9)
+nsubj(see-14, we-9)
+ccomp(worried-5, decided-10)
+mark(come-12, to-11)
+xcomp(decided-10, come-12)
+cc(come-12, and-13)
+xcomp(decided-10, see-14)
+conj:and(come-12, see-14)
+nsubj(wrong-17, what-15)
+cop(wrong-17, is-16)
+ccomp(come-12, wrong-17)
+nsubj(said-20, Dad-19)
+root(ROOT-0, said-20)
+
+(ROOT
+  (S
+    (S
+      (VP (VBZ Is)
+        (SBAR (IN that) (IN because)
+          (S
+            (VP (VBZ theres)
+              (NP
+                (NP (DT no) (NN food))
+                (PP (IN in)
+                  (NP (DT the) (NN kitchen)))))))))
+    (CC and)
+    (S
+      (NP (PDT all) (DT the) (NNS clothes))
+      (VP (VBP are)
+        (ADJP (JJ dirty)
+          (SBAR
+            (S
+              (NP (PRP she))
+              (VP (VBD asked)))))))
+    (. .)))
+
+root(ROOT-0, Is-1)
+mark(theres-4, that-2)
+mark(theres-4, because-3)
+advcl(Is-1, theres-4)
+neg(food-6, no-5)
+dobj(theres-4, food-6)
+case(kitchen-9, in-7)
+det(kitchen-9, the-8)
+nmod:in(food-6, kitchen-9)
+cc(Is-1, and-10)
+det:predet(clothes-13, all-11)
+det(clothes-13, the-12)
+nsubj(dirty-15, clothes-13)
+cop(dirty-15, are-14)
+conj:and(Is-1, dirty-15)
+nsubj(asked-17, she-16)
+ccomp(dirty-15, asked-17)
+
+(ROOT
+  (S
+    (S
+      (NP (NNP Youve))
+      (ADVP (RB never))
+      (VP (VBP acWell)))
+    (, ,)
+    (S
+      (NP (PRP$ its))
+      (ADJP (RB very) (JJ simple)))
+    (, ,)
+    (S
+      (NP (NNP Mother) (NNP I))
+      (VP (VBP work)))
+    (, ,)
+    (S
+      (NP (PRP$ your) (NN father))
+      (VP (VBZ works)))
+    (, ,)
+    (CC and)
+    (S
+      (NP (PRP you))
+      (ADVP (DT both))
+      (VP (VBP go)
+        (PP (TO to)
+          (NP (NN school)))))
+    (. .)))
+
+nsubj(acWell-3, Youve-1)
+neg(acWell-3, never-2)
+root(ROOT-0, acWell-3)
+dep(simple-7, its-5)
+advmod(simple-7, very-6)
+ccomp(acWell-3, simple-7)
+compound(I-10, Mother-9)
+nsubj(work-11, I-10)
+ccomp(acWell-3, work-11)
+nmod:poss(father-14, your-13)
+nsubj(works-15, father-14)
+ccomp(acWell-3, works-15)
+cc(acWell-3, and-17)
+nsubj(go-20, you-18)
+advmod(go-20, both-19)
+conj:and(acWell-3, go-20)
+case(school-22, to-21)
+nmod:to(go-20, school-22)
+
+(ROOT
+  (S
+    (NP (PRP We))
+    (ADVP (DT all))
+    (VP (VBP have)
+      (NP (PRP$ our) (NNS jobs)))
+    (. .)))
+
+nsubj(have-3, We-1)
+advmod(have-3, all-2)
+root(ROOT-0, have-3)
+nmod:poss(jobs-5, our-4)
+dobj(have-3, jobs-5)
+
+(ROOT
+  (S (CC But)
+    (SBAR
+      (WHADVP (WRB when))
+      (S
+        (NP (PRP we))
+        (VP (VBP get)
+          (NP (NN home)))))
+    (, ,)
+    (NP (NN something))
+    (VP (VBZ happens))
+    (. .)))
+
+cc(happens-8, But-1)
+advmod(get-4, when-2)
+nsubj(get-4, we-3)
+advcl(happens-8, get-4)
+dobj(get-4, home-5)
+nsubj(happens-8, something-7)
+root(ROOT-0, happens-8)
+
+(ROOT
+  (S
+    (NP (WP What))
+    (VP (VBZ happens)
+      (SBAR
+        (S
+          (NP (NNP Jack))
+          (VP (VBD asked)))))
+    (. .)))
+
+nsubj(happens-2, What-1)
+root(ROOT-0, happens-2)
+nsubj(asked-4, Jack-3)
+ccomp(happens-2, asked-4)
+
+(ROOT
+  (S
+    (ADVP (RB Suddenly))
+    (NP (PRP I))
+    (VP (VBP am)
+      (NP
+        (NP (DT the) (JJ only) (NN one))
+        (VP (VBG doing)
+          (NP (DT any) (NN work)))))
+    (. .)))
+
+advmod(one-6, Suddenly-1)
+nsubj(one-6, I-2)
+cop(one-6, am-3)
+det(one-6, the-4)
+amod(one-6, only-5)
+root(ROOT-0, one-6)
+acl(one-6, doing-7)
+det(work-9, any-8)
+dobj(doing-7, work-9)
+
+(ROOT
+  (S
+    (NP (NNP Jack))
+    (, ,)
+    (NP (PRP you))
+    (VP (VBP get)
+      (NP (DT a) (NN snack))
+      (SBAR (IN that)
+        (S
+          (NP (PRP I))
+          (VP (VBP prepare)))))
+    (. .)))
+
+nsubj(get-4, Jack-1)
+nsubj(get-4, you-3)
+root(ROOT-0, get-4)
+det(snack-6, a-5)
+dobj(get-4, snack-6)
+mark(prepare-9, that-7)
+nsubj(prepare-9, I-8)
+ccomp(get-4, prepare-9)
+
+(ROOT
+  (S (RB Then)
+    (NP (PRP you))
+    (VP (VBP go)
+      (PRT (RP out))
+      (S
+        (VP (TO to)
+          (VP (VB shoot)
+            (NP (NNS baskets))))))
+    (. .)))
+
+advmod(go-3, Then-1)
+nsubj(go-3, you-2)
+nsubj(shoot-6, you-2)
+root(ROOT-0, go-3)
+compound:prt(go-3, out-4)
+mark(shoot-6, to-5)
+xcomp(go-3, shoot-6)
+dobj(shoot-6, baskets-7)
+
+(ROOT
+  (S
+    (ADVP (RB Martha))
+    (, ,)
+    (NP (PRP you))
+    (VP (VBP spend)
+      (NP
+        (NP (JJS most))
+        (PP (IN of)
+          (NP
+            (NP (PRP$ your) (NN time))
+            (PP (IN on)
+              (NP (DT the) (NN phone)))))))
+    (. .)))
+
+advmod(spend-4, Martha-1)
+nsubj(spend-4, you-3)
+root(ROOT-0, spend-4)
+dobj(spend-4, most-5)
+case(time-8, of-6)
+nmod:poss(time-8, your-7)
+nmod:of(most-5, time-8)
+case(phone-11, on-9)
+det(phone-11, the-10)
+nmod:on(time-8, phone-11)
+
+(ROOT
+  (S
+    (NP (PRP$ Your) (NN father))
+    (VP (VBZ cuts)
+      (NP
+        (NP
+          (NP (DT the) (NN lawn))
+          (PP (IN on)
+            (NP (NNP Saturday))))
+        (, ,)
+        (CC and)
+        (NP
+          (NP (NNS thats))
+          (PP (IN about)
+            (NP (PRP it))))))
+    (. .)))
+
+nmod:poss(father-2, Your-1)
+nsubj(cuts-3, father-2)
+root(ROOT-0, cuts-3)
+det(lawn-5, the-4)
+dobj(cuts-3, lawn-5)
+case(Saturday-7, on-6)
+nmod:on(lawn-5, Saturday-7)
+cc(lawn-5, and-9)
+dobj(cuts-3, thats-10)
+conj:and(lawn-5, thats-10)
+case(it-12, about-11)
+nmod:about(thats-10, it-12)
+
+(ROOT
+  (S (CC But)
+    (PRN (, ,)
+      (S
+        (NP (NN Mom))
+        (, ,)
+        (NP (PRP we))
+        (VP (VBD thought)
+          (SBAR
+            (S
+              (NP (PRP you))
+              (VP (VBD liked)
+                (S
+                  (VP (TO to)
+                    (VP (VB take)
+                      (NP
+                        (NP (NN care))
+                        (PP (IN of)
+                          (NP (PRP us))))))))))))
+      (, ,))
+    (NP (NNP Martha))
+    (VP (VBD whined))
+    (. .)))
+
+cc(whined-16, But-1)
+nsubj(thought-6, Mom-3)
+nsubj(thought-6, we-5)
+parataxis(whined-16, thought-6)
+nsubj(liked-8, you-7)
+nsubj(take-10, you-7)
+ccomp(thought-6, liked-8)
+mark(take-10, to-9)
+xcomp(liked-8, take-10)
+dobj(take-10, care-11)
+case(us-13, of-12)
+nmod:of(care-11, us-13)
+nsubj(whined-16, Martha-15)
+root(ROOT-0, whined-16)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBD did)
+      (SBAR
+        (WHADVP (WRB when))
+        (S
+          (NP (PRP you))
+          (VP (VBD were)
+            (ADJP (JJ little))))))
+    (. .)))
+
+nsubj(did-2, I-1)
+root(ROOT-0, did-2)
+advmod(little-6, when-3)
+nsubj(little-6, you-4)
+cop(little-6, were-5)
+advcl(did-2, little-6)
+
+(ROOT
+  (S (CC But)
+    (SBAR (RB now)
+      (S
+        (ADVP (RB youre))
+        (VP (VBN grown)
+          (PRT (RP up)))))
+    (, ,)
+    (NP (NNP Mother))
+    (VP (VBD said))
+    (. .)))
+
+cc(said-8, But-1)
+advmod(grown-4, now-2)
+advmod(grown-4, youre-3)
+advcl(said-8, grown-4)
+compound:prt(grown-4, up-5)
+nsubj(said-8, Mother-7)
+root(ROOT-0, said-8)
+
+(ROOT
+  (S
+    (NP
+      (NP (PRP$ Its) (NN time))
+      (NP (DT that) (NNS things)))
+    (VP (VBD changed))
+    (. .)))
+
+nmod:poss(time-2, Its-1)
+nsubj(changed-5, time-2)
+det(things-4, that-3)
+dep(time-2, things-4)
+root(ROOT-0, changed-5)
+
+(ROOT
+  (S
+    (S (CC But)
+      (ADVP (RB thats))
+      (NP (DT the) (NN way) (NN everybody))
+      (VP (VBZ lives)))
+    (, ,)
+    (NP (NNP Jack))
+    (VP (VBD said))
+    (. .)))
+
+cc(lives-6, But-1)
+advmod(lives-6, thats-2)
+det(everybody-5, the-3)
+compound(everybody-5, way-4)
+nsubj(lives-6, everybody-5)
+ccomp(said-9, lives-6)
+nsubj(said-9, Jack-8)
+root(ROOT-0, said-9)
+
+(ROOT
+  (S
+    (S
+      (NP (PRP You))
+      (ADVP (RB never))
+      (VP (VBD asked)
+        (SBAR
+          (WHNP (WP what))
+          (S
+            (NP (PRP I))
+            (ADVP (RB really))
+            (VP (VBP like)
+              (S
+                (VP (TO to)
+                  (VP (VB do)))))))))
+    (, ,)
+    (NP (NNP Mother))
+    (VP (VBD said))
+    (. .)))
+
+nsubj(asked-3, You-1)
+neg(asked-3, never-2)
+ccomp(said-12, asked-3)
+dobj(like-7, what-4)
+nsubj(do-9, what-4)
+nsubj(like-7, I-5)
+advmod(like-7, really-6)
+ccomp(asked-3, like-7)
+mark(do-9, to-8)
+xcomp(like-7, do-9)
+nsubj(said-12, Mother-11)
+root(ROOT-0, said-12)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (NP
+        (NP (NN part))
+        (PP (IN of)
+          (NP (DT the) (NN family))))
+      (, ,)
+      (ADVP (RB too)))
+    (. .)))
+
+nsubj(part-3, I-1)
+cop(part-3, am-2)
+root(ROOT-0, part-3)
+case(family-6, of-4)
+det(family-6, the-5)
+nmod:of(part-3, family-6)
+advmod(part-3, too-8)
+
+(ROOT
+  (S
+    (NP (NNP Dad) (, ,) (NNP Jack) (, ,)
+      (CC and)
+      (NNP Martha))
+    (ADVP (DT all))
+    (VP (VBD looked)
+      (PP (IN at)
+        (NP (CD one) (DT another))))
+    (. .)))
+
+nsubj(looked-8, Dad-1)
+conj:and(Dad-1, Jack-3)
+nsubj(looked-8, Jack-3)
+cc(Dad-1, and-5)
+conj:and(Dad-1, Martha-6)
+nsubj(looked-8, Martha-6)
+advmod(looked-8, all-7)
+root(ROOT-0, looked-8)
+case(one-10, at-9)
+nmod:at(looked-8, one-10)
+dep(one-10, another-11)
+
+(ROOT
+  (S
+    (NP (NNS Things))
+    (VP (VBD had)
+      (VP (VBN been)
+        (ADJP (JJ good)
+          (NP (DT the) (NN way)))
+        (SBAR
+          (S
+            (NP (PRP they))
+            (VP (VBD were))))))
+    (. .)))
+
+nsubj(good-4, Things-1)
+aux(good-4, had-2)
+cop(good-4, been-3)
+root(ROOT-0, good-4)
+det(way-6, the-5)
+dep(good-4, way-6)
+nsubj(were-8, they-7)
+ccomp(good-4, were-8)
+
+(ROOT
+  (FRAG (CC But)
+    (ADVP (RB now))
+    (NP (NNP ...))))
+
+cc(...-3, But-1)
+dep(...-3, now-2)
+root(ROOT-0, ...-3)
+

@@ -1,0 +1,1488 @@
+(ROOT
+  (SQ
+    (VP (VB Whos)
+      (PRT (RB Out))
+      (NP (EX There)))
+    (. ?)))
+
+root(ROOT-0, Whos-1)
+compound:prt(Whos-1, Out-2)
+dobj(Whos-1, There-3)
+
+(ROOT
+  (SQ (VBP Do)
+    (NP (PRP you))
+    (VP (VB believe)
+      (SBAR
+        (S
+          (NP (EX there))
+          (VP (VBZ is)
+            (NP
+              (NP (NN life))
+              (PP (IN in)
+                (NP (JJ outer) (NN space))))))))
+    (. ?)))
+
+aux(believe-3, Do-1)
+nsubj(believe-3, you-2)
+root(ROOT-0, believe-3)
+expl(is-5, there-4)
+ccomp(believe-3, is-5)
+nsubj(is-5, life-6)
+case(space-9, in-7)
+amod(space-9, outer-8)
+nmod:in(life-6, space-9)
+
+(ROOT
+  (S
+    (NP (DT A) (JJ recent) (NN poll))
+    (VP (VBD asked)
+      (NP
+        (NP (CD 900) (JJ American) (NNS adults))
+        (NP (DT this) (NN question))))
+    (. .)))
+
+det(poll-3, A-1)
+amod(poll-3, recent-2)
+nsubj(asked-4, poll-3)
+root(ROOT-0, asked-4)
+nummod(adults-7, 900-5)
+amod(adults-7, American-6)
+dobj(asked-4, adults-7)
+det(question-9, this-8)
+dep(adults-7, question-9)
+
+(ROOT
+  (S
+    (NP (CD Sixty) (NN percent))
+    (VP (VBD answered)
+      (INTJ (UH yes)))
+    (. .)))
+
+nummod(percent-2, Sixty-1)
+nsubj(answered-3, percent-2)
+root(ROOT-0, answered-3)
+discourse(answered-3, yes-4)
+
+(ROOT
+  (S
+    (PP (IN Over)
+      (NP
+        (NP (CD 40) (NN percent))
+        (PP (IN of)
+          (NP (NN college)))))
+    (NP (NNS graduates))
+    (VP (VBD believed)
+      (SBAR (IN that)
+        (S
+          (NP (VBG flying) (NNS saucers))
+          (VP (VBD had)
+            (VP (VBN visited)
+              (NP (DT the) (NN Earth)))))))
+    (. .)))
+
+case(percent-3, Over-1)
+nummod(percent-3, 40-2)
+nmod:over(believed-7, percent-3)
+case(college-5, of-4)
+nmod:of(percent-3, college-5)
+nsubj(believed-7, graduates-6)
+root(ROOT-0, believed-7)
+mark(visited-12, that-8)
+amod(saucers-10, flying-9)
+nsubj(visited-12, saucers-10)
+aux(visited-12, had-11)
+ccomp(believed-7, visited-12)
+det(Earth-14, the-13)
+dobj(visited-12, Earth-14)
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP Close))
+      (PP (TO to)
+        (NP (CD 50) (NN percent))))
+    (VP (VBD thought)
+      (SBAR
+        (S
+          (NP (NNS aliens))
+          (VP (VBD were)
+            (ADJP (RBR more) (JJ intelligent))
+            (PP (IN than)
+              (NP
+                (NP (NNS people))
+                (PP (IN on)
+                  (NP (NNP Earth)))))))))
+    (. .)))
+
+case(percent-4, Close-1)
+mwe(Close-1, to-2)
+nummod(percent-4, 50-3)
+nmod:close_to(thought-5, percent-4)
+root(ROOT-0, thought-5)
+nsubj(intelligent-9, aliens-6)
+cop(intelligent-9, were-7)
+advmod(intelligent-9, more-8)
+ccomp(thought-5, intelligent-9)
+case(people-11, than-10)
+nmod:than(intelligent-9, people-11)
+case(Earth-13, on-12)
+nmod:on(people-11, Earth-13)
+
+(ROOT
+  (S
+    (NP (JJ Eighty-five) (NN percent))
+    (ADVP (RB also))
+    (VP (VBD said)
+      (SBAR
+        (S
+          (NP (PRP they))
+          (VP (VBD thought)
+            (SBAR
+              (S
+                (NP (NNS aliens))
+                (VP (VBD were)
+                  (ADJP (JJ friendly)
+                    (PP (RB rather) (IN than)
+                      (ADJP (JJ hostile)))))))))))
+    (. .)))
+
+amod(percent-2, Eighty-five-1)
+nsubj(said-4, percent-2)
+advmod(said-4, also-3)
+root(ROOT-0, said-4)
+nsubj(thought-6, they-5)
+ccomp(said-4, thought-6)
+nsubj(friendly-9, aliens-7)
+cop(friendly-9, were-8)
+ccomp(thought-6, friendly-9)
+case(hostile-12, rather-10)
+mwe(rather-10, than-11)
+advcl:rather_than(friendly-9, hostile-12)
+
+(ROOT
+  (S
+    (NP (JJ Many) (NNS people))
+    (VP (VBP are)
+      (ADJP (VBN convinced)
+        (SBAR (IN that)
+          (S
+            (NP (NNS aliens))
+            (VP (VBP visit)
+              (NP (PRP us))
+              (ADVP (RB regularly)))))))
+    (. .)))
+
+amod(people-2, Many-1)
+nsubjpass(convinced-4, people-2)
+auxpass(convinced-4, are-3)
+root(ROOT-0, convinced-4)
+mark(visit-7, that-5)
+nsubj(visit-7, aliens-6)
+ccomp(convinced-4, visit-7)
+dobj(visit-7, us-8)
+advmod(visit-7, regularly-9)
+
+(ROOT
+  (S
+    (NP (PRP They))
+    (VP (VBP say)
+      (SBAR (IN that)
+        (S
+          (NP (DT the) (JJ American) (NN government))
+          (VP
+            (VP (VBZ knows)
+              (NP (DT this)))
+            (CC but)
+            (VP (VBZ is)
+              (VP (VBG covering)
+                (NP (PRP it))
+                (PRT (RP up))))))))
+    (. .)))
+
+nsubj(say-2, They-1)
+root(ROOT-0, say-2)
+mark(knows-7, that-3)
+det(government-6, the-4)
+amod(government-6, American-5)
+nsubj(knows-7, government-6)
+nsubj(covering-11, government-6)
+ccomp(say-2, knows-7)
+dobj(knows-7, this-8)
+cc(knows-7, but-9)
+aux(covering-11, is-10)
+ccomp(say-2, covering-11)
+conj:but(knows-7, covering-11)
+dobj(covering-11, it-12)
+compound:prt(covering-11, up-13)
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (DT the) (JJ last) (JJ few) (NNS years)))
+    (, ,)
+    (NP
+      (NP (NNS thousands))
+      (PP (IN of)
+        (NP (NNPS Americans))))
+    (VP (VBP say)
+      (SBAR
+        (S
+          (NP (PRP they))
+          (VP (VBP have)
+            (VP (VBN been)
+              (VP (VBN abducted)
+                (PP (IN by)
+                  (NP (NNS aliens)))))))))
+    (. .)))
+
+case(years-5, In-1)
+det(years-5, the-2)
+amod(years-5, last-3)
+amod(years-5, few-4)
+nmod:in(say-10, years-5)
+nsubj(say-10, thousands-7)
+case(Americans-9, of-8)
+nmod:of(thousands-7, Americans-9)
+root(ROOT-0, say-10)
+nsubjpass(abducted-14, they-11)
+aux(abducted-14, have-12)
+auxpass(abducted-14, been-13)
+ccomp(say-10, abducted-14)
+case(aliens-16, by-15)
+nmod:by(abducted-14, aliens-16)
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (NN fact)))
+    (, ,)
+    (NP (EX there))
+    (VP (VBZ is)
+      (ADVP (RB so) (RB much))
+      (NP
+        (NP (JJ common) (NN knowledge))
+        (PP (IN about)
+          (NP (NNS aliens))))
+      (SBAR (IN that)
+        (S
+          (NP (NNS people))
+          (VP (MD can)
+            (ADVP (RB even))
+            (VP (VB describe)
+              (SBAR
+                (WHNP (WP what))
+                (S
+                  (NP (PRP they))
+                  (VP (VBP look)
+                    (NP
+                      (NP (JJ like))
+                      (: :)
+                      (ADJP (JJ tall)
+                        (CC and)
+                        (JJ slender))
+                      (, ,))
+                    (PP (IN with)
+                      (NP
+                        (NP (JJ huge) (NNS heads))
+                        (CC and)
+                        (NP (JJ almond-shaped) (NNS eyes))))))))))))
+    (. .)))
+
+case(fact-2, In-1)
+nmod:in(is-5, fact-2)
+expl(is-5, there-4)
+root(ROOT-0, is-5)
+advmod(much-7, so-6)
+advmod(is-5, much-7)
+amod(knowledge-9, common-8)
+nsubj(is-5, knowledge-9)
+case(aliens-11, about-10)
+nmod:about(knowledge-9, aliens-11)
+mark(describe-16, that-12)
+nsubj(describe-16, people-13)
+aux(describe-16, can-14)
+advmod(describe-16, even-15)
+ccomp(is-5, describe-16)
+dobj(look-19, what-17)
+nsubj(look-19, they-18)
+ccomp(describe-16, look-19)
+dobj(look-19, like-20)
+amod(like-20, tall-22)
+cc(tall-22, and-23)
+amod(like-20, slender-24)
+conj:and(tall-22, slender-24)
+case(heads-28, with-26)
+amod(heads-28, huge-27)
+nmod:with(look-19, heads-28)
+cc(heads-28, and-29)
+amod(eyes-31, almond-shaped-30)
+nmod:with(look-19, eyes-31)
+conj:and(heads-28, eyes-31)
+
+(ROOT
+  (S
+    (NP (EX There))
+    (VP (VBP are)
+      (NP
+        (NP (NNS models))
+        (PP (IN of)
+          (NP
+            (NP
+              (NP (NNS aliens))
+              (PP (IN in)
+                (NP (DT the) (NNP UFO)
+                  (PRN (-LRB- -LRB-)
+                    (NP (JJ unidentified) (NN flying) (NN object))
+                    (-RRB- -RRB-))
+                  (NNP Museum))))
+            (CC and)
+            (NP
+              (NP (NNP Research) (NNP Center))
+              (PP (IN in)
+                (NP (NNP Roswell) (, ,) (NNP New) (NNP Mexico))))))))
+    (. .)))
+
+expl(are-2, There-1)
+root(ROOT-0, are-2)
+nsubj(are-2, models-3)
+case(aliens-5, of-4)
+nmod:of(models-3, aliens-5)
+case(Museum-14, in-6)
+det(Museum-14, the-7)
+compound(Museum-14, UFO-8)
+amod(object-12, unidentified-10)
+compound(object-12, flying-11)
+appos(Museum-14, object-12)
+nmod:in(aliens-5, Museum-14)
+cc(aliens-5, and-15)
+compound(Center-17, Research-16)
+nmod:of(models-3, Center-17)
+conj:and(aliens-5, Center-17)
+case(Mexico-22, in-18)
+compound(Mexico-22, Roswell-19)
+appos(Mexico-22, New-21)
+nmod:in(Center-17, Mexico-22)
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP Roswell))
+      (, ,)
+      (NP (NNP New) (NNP Mexico))
+      (, ,))
+    (VP (VBZ is)
+      (SBAR
+        (WHADVP (WRB where))
+        (S
+          (NP (PRP it))
+          (ADVP (DT all))
+          (VP (VBD started) (, ,)
+            (PP (IN over)
+              (ADVP
+                (NP (JJ fifty) (NNS years))
+                (RB ago)))))))
+    (. .)))
+
+nsubj(is-6, Roswell-1)
+compound(Mexico-4, New-3)
+appos(Roswell-1, Mexico-4)
+root(ROOT-0, is-6)
+advmod(started-10, where-7)
+nsubj(started-10, it-8)
+advmod(started-10, all-9)
+advcl(is-6, started-10)
+case(ago-15, over-12)
+amod(years-14, fifty-13)
+nmod:npmod(ago-15, years-14)
+advcl:over(started-10, ago-15)
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (CD 1947)))
+    (, ,)
+    (NP
+      (NP (DT a) (NN farmer))
+      (PP (IN in)
+        (NP (DT the) (NN area))))
+    (VP (VBD found)
+      (NP (DT some) (JJ strange) (, ,) (JJ shiny) (NN material))
+      (PP (IN on)
+        (NP (DT the) (NN ground))))
+    (. .)))
+
+case(1947-2, In-1)
+nmod:in(found-9, 1947-2)
+det(farmer-5, a-4)
+nsubj(found-9, farmer-5)
+case(area-8, in-6)
+det(area-8, the-7)
+nmod:in(farmer-5, area-8)
+root(ROOT-0, found-9)
+det(material-14, some-10)
+amod(material-14, strange-11)
+amod(material-14, shiny-13)
+dobj(found-9, material-14)
+case(ground-17, on-15)
+det(ground-17, the-16)
+nmod:on(found-9, ground-17)
+
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (VBD gave)
+      (NP (PRP it))
+      (PP (TO to)
+        (NP
+          (NP (DT the) (NN sheriff))
+          (, ,)
+          (SBAR
+            (WHNP (WP who))
+            (S
+              (VP (VBD turned)
+                (NP (PRP it))
+                (PRT (RP over))
+                (PP (TO to)
+                  (NP (DT the) (NN army)))))))))
+    (. .)))
+
+nsubj(gave-2, He-1)
+root(ROOT-0, gave-2)
+dobj(gave-2, it-3)
+case(sheriff-6, to-4)
+det(sheriff-6, the-5)
+nmod:to(gave-2, sheriff-6)
+nsubj(turned-9, sheriff-6)
+ref(sheriff-6, who-8)
+acl:relcl(sheriff-6, turned-9)
+dobj(turned-9, it-10)
+compound:prt(turned-9, over-11)
+case(army-14, to-12)
+det(army-14, the-13)
+nmod:to(turned-9, army-14)
+
+(ROOT
+  (S
+    (NP (DT The) (NN army))
+    (VP (VBD sent)
+      (PRT (RP out))
+      (NP
+        (NP (DT a) (NN press) (NN release))
+        (PP (IN about)
+          (NP (DT a) (VBG flying) (NN disk)))))
+    (. .)))
+
+det(army-2, The-1)
+nsubj(sent-3, army-2)
+root(ROOT-0, sent-3)
+compound:prt(sent-3, out-4)
+det(release-7, a-5)
+compound(release-7, press-6)
+dobj(sent-3, release-7)
+case(disk-11, about-8)
+det(disk-11, a-9)
+amod(disk-11, flying-10)
+nmod:about(release-7, disk-11)
+
+(ROOT
+  (S
+    (NP (DT The) (JJ local) (NN newspaper))
+    (VP
+      (VP (VBD made)
+        (NP (DT a) (JJ slight) (NN change)))
+      (CC and)
+      (VP (VBD wrote)
+        (NP (DT a) (NN story))
+        (PP (IN about)
+          (NP
+            (NP (DT a) (VBG flying) (NN saucer))
+            (PP (IN in)
+              (NP (DT the) (NNP Roswell) (NN region)))))))
+    (. .)))
+
+det(newspaper-3, The-1)
+amod(newspaper-3, local-2)
+nsubj(made-4, newspaper-3)
+nsubj(wrote-9, newspaper-3)
+root(ROOT-0, made-4)
+det(change-7, a-5)
+amod(change-7, slight-6)
+dobj(made-4, change-7)
+cc(made-4, and-8)
+conj:and(made-4, wrote-9)
+det(story-11, a-10)
+dobj(wrote-9, story-11)
+case(saucer-15, about-12)
+det(saucer-15, a-13)
+amod(saucer-15, flying-14)
+nmod:about(wrote-9, saucer-15)
+case(region-19, in-16)
+det(region-19, the-17)
+compound(region-19, Roswell-18)
+nmod:in(saucer-15, region-19)
+
+(ROOT
+  (S
+    (NP (DT The) (JJ next) (NN day))
+    (, ,)
+    (NP (DT the) (NN army))
+    (VP
+      (VP (VBD changed)
+        (NP (DT the) (NN story)))
+      (CC and)
+      (VP (VBD said)
+        (SBAR (IN that)
+          (S
+            (NP (DT the) (NN material))
+            (VP (VBD was)
+              (PP (IN from)
+                (NP (DT a) (NN weather) (NN balloon))))))))
+    (. .)))
+
+det(day-3, The-1)
+amod(day-3, next-2)
+nmod:tmod(changed-7, day-3)
+det(army-6, the-5)
+nsubj(changed-7, army-6)
+nsubj(said-11, army-6)
+root(ROOT-0, changed-7)
+det(story-9, the-8)
+dobj(changed-7, story-9)
+cc(changed-7, and-10)
+conj:and(changed-7, said-11)
+mark(balloon-19, that-12)
+det(material-14, the-13)
+nsubj(balloon-19, material-14)
+cop(balloon-19, was-15)
+case(balloon-19, from-16)
+det(balloon-19, a-17)
+compound(balloon-19, weather-18)
+ccomp(said-11, balloon-19)
+
+(ROOT
+  (S
+    (NP (NN Everyone))
+    (VP (VBD forgot)
+      (PP (IN about)
+        (NP (DT the) (NN incident)))
+      (PP (IN for)
+        (NP (JJ many) (NNS years))))
+    (. .)))
+
+nsubj(forgot-2, Everyone-1)
+root(ROOT-0, forgot-2)
+case(incident-5, about-3)
+det(incident-5, the-4)
+nmod:about(forgot-2, incident-5)
+case(years-8, for-6)
+amod(years-8, many-7)
+nmod:for(forgot-2, years-8)
+
+(ROOT
+  (S
+    (SBAR (RB Not) (IN until)
+      (S
+        (NP (DT the) (NNS 1980s))
+        (VP (VBD was)
+          (NP (DT the) (NNP Roswell) (NN incident)))))
+    (VP (VBD mentioned)
+      (ADVP (RB again))
+      (SBAR
+        (WHADVP (WRB when))
+        (S
+          (NP (JJ several) (NNS stories))
+          (VP (VBD were)
+            (VP (VBN published))))))
+    (. .)))
+
+dep(incident-8, Not-1)
+mark(incident-8, until-2)
+det(1980s-4, the-3)
+nsubj(incident-8, 1980s-4)
+cop(incident-8, was-5)
+det(incident-8, the-6)
+compound(incident-8, Roswell-7)
+csubj(mentioned-9, incident-8)
+root(ROOT-0, mentioned-9)
+advmod(mentioned-9, again-10)
+advmod(published-15, when-11)
+amod(stories-13, several-12)
+nsubjpass(published-15, stories-13)
+auxpass(published-15, were-14)
+advcl(mentioned-9, published-15)
+
+(ROOT
+  (S
+    (NP (DT Some) (NNS people))
+    (VP (VBD said)
+      (SBAR
+        (SBAR (IN that)
+          (S
+            (NP (DT a) (NN spaceship))
+            (VP (VBD had)
+              (VP (VBN crashed)
+                (PP (IN on)
+                  (NP (DT some) (NN farmland)))))))
+        (CC and)
+        (SBAR (IN that)
+          (S
+            (NP
+              (QP (CD three) (TO to) (CD five))
+              (JJ alien) (NNS bodies))
+            (VP (VBD had)
+              (VP (VBN been)
+                (VP (VBN found))))))))
+    (. .)))
+
+det(people-2, Some-1)
+nsubj(said-3, people-2)
+root(ROOT-0, said-3)
+mark(crashed-8, that-4)
+det(spaceship-6, a-5)
+nsubj(crashed-8, spaceship-6)
+aux(crashed-8, had-7)
+ccomp(said-3, crashed-8)
+case(farmland-11, on-9)
+det(farmland-11, some-10)
+nmod:on(crashed-8, farmland-11)
+cc(crashed-8, and-12)
+mark(found-21, that-13)
+compound(five-16, three-14)
+dep(five-16, to-15)
+nummod(bodies-18, five-16)
+amod(bodies-18, alien-17)
+nsubjpass(found-21, bodies-18)
+aux(found-21, had-19)
+auxpass(found-21, been-20)
+ccomp(said-3, found-21)
+conj:and(crashed-8, found-21)
+
+(ROOT
+  (S
+    (NP (DT The) (NNS bodies))
+    (VP (VBD were)
+      (VP (VBG being)
+        (VP (VBN kept)
+          (PP (IN by)
+            (NP
+              (NP (DT the) (NN government))
+              (PP (IN in)
+                (NP (DT a) (JJ secret) (NN place))))))))
+    (. .)))
+
+det(bodies-2, The-1)
+nsubjpass(kept-5, bodies-2)
+aux(kept-5, were-3)
+auxpass(kept-5, being-4)
+root(ROOT-0, kept-5)
+case(government-8, by-6)
+det(government-8, the-7)
+nmod:by(kept-5, government-8)
+case(place-12, in-9)
+det(place-12, a-10)
+amod(place-12, secret-11)
+nmod:in(government-8, place-12)
+
+(ROOT
+  (S
+    (S
+      (NP (DT The) (NN government))
+      (VP (VBD denied)
+        (NP (DT the) (NN story))))
+    (, ,)
+    (CC but)
+    (S
+      (NP (JJ many) (NNS people))
+      (ADVP (RB still))
+      (VP (VBD believed)
+        (SBAR
+          (S
+            (NP (PRP it))
+            (VP (VBD was)
+              (ADJP (JJ true)))))))
+    (. .)))
+
+det(government-2, The-1)
+nsubj(denied-3, government-2)
+root(ROOT-0, denied-3)
+det(story-5, the-4)
+dobj(denied-3, story-5)
+cc(denied-3, but-7)
+amod(people-9, many-8)
+nsubj(believed-11, people-9)
+advmod(believed-11, still-10)
+conj:but(denied-3, believed-11)
+nsubj(true-14, it-12)
+cop(true-14, was-13)
+ccomp(believed-11, true-14)
+
+(ROOT
+  (S
+    (NP
+      (NP (JJ Seventy-one) (NN percent))
+      (PP (IN of)
+        (NP
+          (NP (DT the) (NNS people))
+          (VP (VBN polled)))))
+    (VP (VBD said)
+      (SBAR
+        (S
+          (NP (PRP they))
+          (VP (VBD believed)
+            (SBAR
+              (S
+                (NP (DT the) (NN government))
+                (VP (VBD knew)
+                  (ADVP (RBR more))
+                  (SBAR (IN than)
+                    (S
+                      (NP (PRP they))
+                      (VP (VBD were)
+                        (VP (VBG telling)
+                          (NP (NNS people)))))))))))))
+    (. .)))
+
+amod(percent-2, Seventy-one-1)
+nsubj(said-7, percent-2)
+case(people-5, of-3)
+det(people-5, the-4)
+nmod:of(percent-2, people-5)
+acl(people-5, polled-6)
+root(ROOT-0, said-7)
+nsubj(believed-9, they-8)
+ccomp(said-7, believed-9)
+det(government-11, the-10)
+nsubj(knew-12, government-11)
+ccomp(believed-9, knew-12)
+advmod(knew-12, more-13)
+mark(telling-17, than-14)
+nsubj(telling-17, they-15)
+aux(telling-17, were-16)
+advcl(knew-12, telling-17)
+dobj(telling-17, people-18)
+
+(ROOT
+  (S
+    (NP (NNS People))
+    (VP (MD would)
+      (VP (VB panic)
+        (SBAR (IN if)
+          (S
+            (NP (PRP they))
+            (VP (VBD knew)
+              (SBAR
+                (WHNP (WP what))
+                (S
+                  (ADVP (RB really))
+                  (VP (VBD happened) (, ,) (VBD said)
+                    (NP (DT an) (NN observer))))))))))
+    (. .)))
+
+nsubj(panic-3, People-1)
+aux(panic-3, would-2)
+root(ROOT-0, panic-3)
+mark(knew-6, if-4)
+nsubj(knew-6, they-5)
+advcl(panic-3, knew-6)
+nsubj(happened-9, what-7)
+advmod(happened-9, really-8)
+ccomp(knew-6, happened-9)
+dep(happened-9, said-11)
+det(observer-13, an-12)
+dobj(happened-9, observer-13)
+
+(ROOT
+  (S
+    (ADVP (RB Now))
+    (NP (NNP Roswell))
+    (VP (VBZ has)
+      (VP (VBN become)
+        (NP (DT a) (NN meeting) (NN place))
+        (PP (IN for)
+          (NP
+            (NP (NNS people))
+            (SBAR
+              (WHNP (WP who))
+              (S
+                (VP (VBP believe)
+                  (PP (IN in)
+                    (NP (NNS aliens))))))))))
+    (. .)))
+
+advmod(become-4, Now-1)
+nsubj(become-4, Roswell-2)
+aux(become-4, has-3)
+root(ROOT-0, become-4)
+det(place-7, a-5)
+compound(place-7, meeting-6)
+xcomp(become-4, place-7)
+case(people-9, for-8)
+nmod:for(become-4, people-9)
+nsubj(believe-11, people-9)
+ref(people-9, who-10)
+acl:relcl(people-9, believe-11)
+case(aliens-13, in-12)
+nmod:in(believe-11, aliens-13)
+
+(ROOT
+  (S
+    (PP (IN On)
+      (NP
+        (NP (DT the) (JJ fiftieth) (NN anniversary))
+        (PP (IN of)
+          (NP
+            (NP (DT the) (NNS rumors))
+            (PP (IN of)
+              (NP (DT a) (NN spaceship) (NN landing)))))))
+    (, ,)
+    (NP
+      (QP (JJR more) (IN than) (CD 100,000))
+      (NNS people))
+    (VP (VBD gathered)
+      (PP (IN in)
+        (NP (DT the) (NN desert) (NN town)))
+      (, ,)
+      (SBAR
+        (WHADVP (WRB where))
+        (S
+          (NP (DT the) (NN temperature))
+          (VP (MD can)
+            (VP (VB reach)
+              (NP (CD 110) (NNS degrees)))))))
+    (. .)))
+
+case(anniversary-4, On-1)
+det(anniversary-4, the-2)
+amod(anniversary-4, fiftieth-3)
+nmod:on(gathered-17, anniversary-4)
+case(rumors-7, of-5)
+det(rumors-7, the-6)
+nmod:of(anniversary-4, rumors-7)
+case(landing-11, of-8)
+det(landing-11, a-9)
+compound(landing-11, spaceship-10)
+nmod:of(rumors-7, landing-11)
+advmod(100,000-15, more-13)
+mwe(more-13, than-14)
+nummod(people-16, 100,000-15)
+nsubj(gathered-17, people-16)
+root(ROOT-0, gathered-17)
+case(town-21, in-18)
+det(town-21, the-19)
+compound(town-21, desert-20)
+nmod:in(gathered-17, town-21)
+advmod(reach-27, where-23)
+det(temperature-25, the-24)
+nsubj(reach-27, temperature-25)
+aux(reach-27, can-26)
+advcl(gathered-17, reach-27)
+nummod(degrees-29, 110-28)
+dobj(reach-27, degrees-29)
+
+(ROOT
+  (S
+    (NP (PRP They))
+    (VP (VBD went)
+      (PRT (RP out))
+      (PP (IN in)
+        (NP (DT the) (JJ hot) (NN sun)))
+      (S
+        (VP (TO to)
+          (VP (VB look)
+            (PP (IN for)
+              (NP
+                (NP (DT the) (JJ burn) (NN mark))
+                (SBAR
+                  (S
+                    (NP (DT the) (NN spaceship))
+                    (VP (VBD left)
+                      (SBAR
+                        (WHADVP (WRB when))
+                        (S
+                          (NP (PRP it))
+                          (VP (VBD crashed)
+                            (PP (IN against)
+                              (NP (DT a) (NN rock)))))))))))))))
+    (. .)))
+
+nsubj(went-2, They-1)
+nsubj(look-9, They-1)
+root(ROOT-0, went-2)
+compound:prt(went-2, out-3)
+case(sun-7, in-4)
+det(sun-7, the-5)
+amod(sun-7, hot-6)
+nmod:in(went-2, sun-7)
+mark(look-9, to-8)
+xcomp(went-2, look-9)
+case(mark-13, for-10)
+det(mark-13, the-11)
+amod(mark-13, burn-12)
+nmod:for(look-9, mark-13)
+det(spaceship-15, the-14)
+nsubj(left-16, spaceship-15)
+acl:relcl(mark-13, left-16)
+advmod(crashed-19, when-17)
+nsubj(crashed-19, it-18)
+advcl(left-16, crashed-19)
+case(rock-22, against-20)
+det(rock-22, a-21)
+nmod:against(crashed-19, rock-22)
+
+(ROOT
+  (S
+    (NP (PRP They))
+    (VP (VBD paid)
+      (NP ($ $) (CD 15))
+      (NP
+        (NP (DT each))
+        (PP (IN for)
+          (NP (DT a) (NN viewing)))))
+    (. .)))
+
+nsubj(paid-2, They-1)
+root(ROOT-0, paid-2)
+dep(15-4, $-3)
+dep(paid-2, 15-4)
+dobj(paid-2, each-5)
+case(viewing-8, for-6)
+det(viewing-8, a-7)
+nmod:for(each-5, viewing-8)
+
+(ROOT
+  (S
+    (NP (DT No) (NN one))
+    (VP (VBD complained)
+      (SBAR
+        (WHADVP (WRB when))
+        (S
+          (NP (PRP they))
+          (VP (VBP didnt)
+            (VP (VB see)
+              (NP (DT a) (NN spaceship)))))))
+    (. .)))
+
+neg(one-2, No-1)
+nsubj(complained-3, one-2)
+root(ROOT-0, complained-3)
+advmod(didnt-6, when-4)
+nsubj(didnt-6, they-5)
+advcl(complained-3, didnt-6)
+xcomp(didnt-6, see-7)
+det(spaceship-9, a-8)
+dobj(see-7, spaceship-9)
+
+(ROOT
+  (S
+    (NP (PRP They))
+    (VP (VBD were)
+      (ADVP (RB just))
+      (ADJP (JJ happy)
+        (S
+          (VP (TO to)
+            (VP (VB be)
+              (ADVP (RB there)))))))
+    (. .)))
+
+nsubj(happy-4, They-1)
+nsubj(be-6, They-1)
+cop(happy-4, were-2)
+advmod(happy-4, just-3)
+root(ROOT-0, happy-4)
+mark(be-6, to-5)
+xcomp(happy-4, be-6)
+advmod(be-6, there-7)
+
+(ROOT
+  (FRAG
+    (SBARQ
+      (WHADVP (WRB Why))
+      (SQ
+        (NP (PDT all) (DT the) (NN interest))
+        (PP (IN in)
+          (NP (NNS aliens))))
+      (. ?))))
+
+advmod(interest-4, Why-1)
+det:predet(interest-4, all-2)
+det(interest-4, the-3)
+root(ROOT-0, interest-4)
+case(aliens-6, in-5)
+nmod:in(interest-4, aliens-6)
+
+(ROOT
+  (S
+    (NP (NNS People))
+    (VP
+      (VP (VBP are)
+        (VP (VBN worried)
+          (PP (IN about)
+            (NP
+              (NP (NNS problems))
+              (PP (IN on)
+                (NP (NNP Earth)))))))
+      (CC and)
+      (VP (VBP are)
+        (ADJP (JJ suspicious)
+          (PP (IN of)
+            (NP (JJ new) (NNS technologies))))))
+    (. .)))
+
+nsubjpass(worried-3, People-1)
+nsubj(suspicious-10, People-1)
+auxpass(worried-3, are-2)
+root(ROOT-0, worried-3)
+case(problems-5, about-4)
+nmod:about(worried-3, problems-5)
+case(Earth-7, on-6)
+nmod:on(problems-5, Earth-7)
+cc(worried-3, and-8)
+cop(suspicious-10, are-9)
+conj:and(worried-3, suspicious-10)
+case(technologies-13, of-11)
+amod(technologies-13, new-12)
+nmod:of(suspicious-10, technologies-13)
+
+(ROOT
+  (S
+    (ADVP (RB Perhaps))
+    (NP (DT this))
+    (VP (VBZ leads)
+      (S
+        (NP (PRP them))
+        (VP (TO to)
+          (VP (VB believe)
+            (SBAR
+              (S
+                (NP (EX there))
+                (VP (VBP are)
+                  (NP
+                    (NP (NNS beings))
+                    (SBAR
+                      (WHNP (WP who))
+                      (S
+                        (VP (VBP are)
+                          (ADJP
+                            (ADJP (RBR more) (JJ intelligent))
+                            (SBAR (IN than)
+                              (S
+                                (NP (PRP we))
+                                (VP (VBP are))))))))))))))))
+    (. .)))
+
+advmod(leads-3, Perhaps-1)
+nsubj(leads-3, this-2)
+root(ROOT-0, leads-3)
+dobj(leads-3, them-4)
+nsubj(believe-6, them-4)
+mark(believe-6, to-5)
+xcomp(leads-3, believe-6)
+expl(are-8, there-7)
+ccomp(believe-6, are-8)
+nsubj(are-8, beings-9)
+nsubj(intelligent-13, beings-9)
+ref(beings-9, who-10)
+cop(intelligent-13, are-11)
+advmod(intelligent-13, more-12)
+acl:relcl(beings-9, intelligent-13)
+mark(are-16, than-14)
+nsubj(are-16, we-15)
+ccomp(intelligent-13, are-16)
+
+(ROOT
+  (S
+    (NP (PRP They))
+    (VP (VBP hope)
+      (SBAR
+        (S
+          (NP (DT these) (NNS beings))
+          (VP (MD will)
+            (VP
+              (VP (VB save)
+                (NP (PRP us)))
+              (CC and)
+              (VP (VB teach)
+                (NP (PRP us))
+                (NP (JJR better) (NNS ways)
+                  (S
+                    (VP (TO to)
+                      (VP (VB live)))))))))))
+    (. .)))
+
+nsubj(hope-2, They-1)
+root(ROOT-0, hope-2)
+det(beings-4, these-3)
+nsubj(save-6, beings-4)
+nsubj(teach-9, beings-4)
+aux(save-6, will-5)
+ccomp(hope-2, save-6)
+dobj(save-6, us-7)
+cc(save-6, and-8)
+ccomp(hope-2, teach-9)
+conj:and(save-6, teach-9)
+iobj(teach-9, us-10)
+amod(ways-12, better-11)
+dobj(teach-9, ways-12)
+mark(live-14, to-13)
+acl(ways-12, live-14)
+
+(ROOT
+  (S
+    (PP (IN Of)
+      (NP (NN course)))
+    (, ,)
+    (NP
+      (NP (DT a) (NN lot))
+      (PP (IN of)
+        (NP (NNS people))))
+    (VP (VBP are)
+      (VP (VBG making)
+        (NP (NN money))
+        (PP (IN on)
+          (NP (DT these) (NNS beliefs)))))
+    (. .)))
+
+case(course-2, Of-1)
+nmod:of(making-9, course-2)
+det(lot-5, a-4)
+nsubj(making-9, lot-5)
+case(people-7, of-6)
+nmod:of(lot-5, people-7)
+aux(making-9, are-8)
+root(ROOT-0, making-9)
+dobj(making-9, money-10)
+case(beliefs-13, on-11)
+det(beliefs-13, these-12)
+nmod:on(making-9, beliefs-13)
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP Motel) (NNS owners))
+      (PP (IN in)
+        (NP (NNP Roswell))))
+    (VP (VBP say)
+      (SBAR
+        (S
+          (NP
+            (NP (DT a) (NN quarter))
+            (PP (IN of)
+              (NP (PRP$ their) (NNS visitors))))
+          (VP (VBP come)
+            (S
+              (VP (TO to)
+                (VP (VB see)
+                  (NP (DT the) (JJ alien) (NN landing) (NN site)))))))))
+    (. .)))
+
+compound(owners-2, Motel-1)
+nsubj(say-5, owners-2)
+case(Roswell-4, in-3)
+nmod:in(owners-2, Roswell-4)
+root(ROOT-0, say-5)
+det(quarter-7, a-6)
+nsubj(come-11, quarter-7)
+nsubj(see-13, quarter-7)
+case(visitors-10, of-8)
+nmod:poss(visitors-10, their-9)
+nmod:of(quarter-7, visitors-10)
+ccomp(say-5, come-11)
+mark(see-13, to-12)
+xcomp(come-11, see-13)
+det(site-17, the-14)
+amod(site-17, alien-15)
+compound(site-17, landing-16)
+dobj(see-13, site-17)
+
+(ROOT
+  (S
+    (NP
+      (NP (NNS Stores))
+      (PP (IN in)
+        (NP (NNP Roswell))))
+    (VP (VBP sell)
+      (NP (NN everything))
+      (PP (IN from)
+        (S
+          (VP (VBG stuffed)
+            (NP (JJ alien) (NNS dolls))
+            (PP (TO to)
+              (NP (JJ alien) (NN refrigerator) (NNS magnets)))))))
+    (. .)))
+
+nsubj(sell-4, Stores-1)
+case(Roswell-3, in-2)
+nmod:in(Stores-1, Roswell-3)
+root(ROOT-0, sell-4)
+dobj(sell-4, everything-5)
+mark(stuffed-7, from-6)
+advcl(sell-4, stuffed-7)
+amod(dolls-9, alien-8)
+dobj(stuffed-7, dolls-9)
+case(magnets-13, to-10)
+amod(magnets-13, alien-11)
+compound(magnets-13, refrigerator-12)
+nmod:to(stuffed-7, magnets-13)
+
+(ROOT
+  (S
+    (NP (DT The) (NNS media))
+    (VP (VBP play)
+      (ADVP (RB up)
+        (NP (DT the) (NN belief)))
+      (ADVP (RB as) (RB well)))
+    (. .)))
+
+det(media-2, The-1)
+nsubj(play-3, media-2)
+root(ROOT-0, play-3)
+advmod(play-3, up-4)
+det(belief-6, the-5)
+nmod:npmod(up-4, belief-6)
+advmod(play-3, as-7)
+mwe(as-7, well-8)
+
+(ROOT
+  (S
+    (NP (JJ Alien-based) (NNS movies)
+      (CC and)
+      (NN television) (NNS shows))
+    (VP (VBP feature)
+      (NP
+        (NP (NN government) (NNS cover-ups))
+        (CC and)
+        (NP (JJ alien) (NNS invasions))))
+    (. .)))
+
+amod(movies-2, Alien-based-1)
+nsubj(feature-6, movies-2)
+cc(movies-2, and-3)
+compound(shows-5, television-4)
+conj:and(movies-2, shows-5)
+nsubj(feature-6, shows-5)
+root(ROOT-0, feature-6)
+compound(cover-ups-8, government-7)
+dobj(feature-6, cover-ups-8)
+cc(cover-ups-8, and-9)
+amod(invasions-11, alien-10)
+dobj(feature-6, invasions-11)
+conj:and(cover-ups-8, invasions-11)
+
+(ROOT
+  (S (CC And)
+    (NP
+      (NP (DT the) (JJ fourth)
+        (ADJP (RBS most) (JJ popular))
+        (NN talk) (NN show))
+      (PP (IN in)
+        (NP (NNP America))))
+    (VP (VBZ is)
+      (PP (IN about)
+        (NP (NNS UFOs)
+          (CC and)
+          (NNS aliens))))
+    (. .)))
+
+cc(UFOs-12, And-1)
+det(show-7, the-2)
+amod(show-7, fourth-3)
+advmod(popular-5, most-4)
+amod(show-7, popular-5)
+compound(show-7, talk-6)
+nsubj(UFOs-12, show-7)
+case(America-9, in-8)
+nmod:in(show-7, America-9)
+cop(UFOs-12, is-10)
+case(UFOs-12, about-11)
+root(ROOT-0, UFOs-12)
+cc(UFOs-12, and-13)
+conj:and(UFOs-12, aliens-14)
+
+(ROOT
+  (S
+    (NP (NNS Skeptics))
+    (VP (VBP say)
+      (SBAR
+        (S
+          (NP (DT this))
+          (VP (VBZ is)
+            (NP (PDT all) (DT a) (NN myth))))))
+    (. .)))
+
+nsubj(say-2, Skeptics-1)
+root(ROOT-0, say-2)
+nsubj(myth-7, this-3)
+cop(myth-7, is-4)
+det:predet(myth-7, all-5)
+det(myth-7, a-6)
+ccomp(say-2, myth-7)
+
+(ROOT
+  (S
+    (S
+      (NP (NNS People))
+      (VP (VBP want)
+        (S
+          (VP (TO to)
+            (VP (VB believe)
+              (SBAR
+                (S
+                  (NP (PRP we))
+                  (VP (VBP are) (RB not)
+                    (ADJP (RB alone))
+                    (PP (IN in)
+                      (NP (DT the) (NN universe)))))))))))
+    (, ,)
+    (CC but)
+    (S
+      (NP (DT no) (NNS facts))
+      (VP (VBP prove)
+        (SBAR
+          (S
+            (NP (EX there))
+            (VP (VBZ is)
+              (NP (NN life))
+              (ADVP (RB anywhere) (RB else)))))))
+    (. .)))
+
+nsubj(want-2, People-1)
+nsubj(believe-4, People-1)
+root(ROOT-0, want-2)
+mark(believe-4, to-3)
+xcomp(want-2, believe-4)
+nsubj(alone-8, we-5)
+cop(alone-8, are-6)
+neg(alone-8, not-7)
+ccomp(believe-4, alone-8)
+case(universe-11, in-9)
+det(universe-11, the-10)
+nmod:in(alone-8, universe-11)
+cc(want-2, but-13)
+neg(facts-15, no-14)
+nsubj(prove-16, facts-15)
+conj:but(want-2, prove-16)
+expl(is-18, there-17)
+ccomp(prove-16, is-18)
+nsubj(is-18, life-19)
+advmod(else-21, anywhere-20)
+advmod(is-18, else-21)
+
+(ROOT
+  (S
+    (NP (NNS Others))
+    (VP (VBP disagree))
+    (. .)))
+
+nsubj(disagree-2, Others-1)
+root(ROOT-0, disagree-2)
+
+(ROOT
+  (S
+    (NP (PRP We))
+    (PRN
+      (S
+        (NP (RB just) (NN dont))
+        (VP (VBP know)
+          (SBAR (IN if)
+            (S
+              (NP (NNS aliens))
+              (VP (VBP exist))))))
+      (, ,))
+    (VP (VBZ says)
+      (NP (DT a) (NN researcher)))
+    (. .)))
+
+nsubj(says-9, We-1)
+advmod(dont-3, just-2)
+nsubj(know-4, dont-3)
+parataxis(says-9, know-4)
+mark(exist-7, if-5)
+nsubj(exist-7, aliens-6)
+advcl(know-4, exist-7)
+root(ROOT-0, says-9)
+det(researcher-11, a-10)
+dobj(says-9, researcher-11)
+
+(ROOT
+  (S (CC But)
+    (NP (NN technology))
+    (VP (VBZ changes)
+      (ADVP (RB so) (RB quickly)))
+    (. .)))
+
+cc(changes-3, But-1)
+nsubj(changes-3, technology-2)
+root(ROOT-0, changes-3)
+advmod(quickly-5, so-4)
+advmod(changes-3, quickly-5)
+
+(ROOT
+  (S
+    (S
+      (ADVP
+        (NP (NNS Years))
+        (RB ago))
+      (NP (NNS people))
+      (VP (MD would)
+        (ADVP (RB never))
+        (VP (VB believe)
+          (NP
+            (NP (DT some))
+            (PP (IN of)
+              (NP (DT the) (NNS things)))))))
+    (NP (PRP we))
+    (VP (MD can)
+      (VP (VB do)
+        (NP (NN today))))
+    (. .)))
+
+nmod:npmod(ago-2, Years-1)
+advmod(believe-6, ago-2)
+nsubj(believe-6, people-3)
+aux(believe-6, would-4)
+neg(believe-6, never-5)
+dep(do-13, believe-6)
+dobj(believe-6, some-7)
+case(things-10, of-8)
+det(things-10, the-9)
+nmod:of(some-7, things-10)
+nsubj(do-13, we-11)
+aux(do-13, can-12)
+root(ROOT-0, do-13)
+nmod:tmod(do-13, today-14)
+
+(ROOT
+  (SBARQ
+    (WHNP (WP Who))
+    (SQ
+      (VP (VBZ knows)
+        (NP (NNS whats))
+        (PRT (RP out))
+        (ADVP (RB there))))
+    (. ?)))
+
+nsubj(knows-2, Who-1)
+root(ROOT-0, knows-2)
+dobj(knows-2, whats-3)
+compound:prt(knows-2, out-4)
+advmod(knows-2, there-5)
+
+(ROOT
+  (S
+    (NP (PRP We))
+    (VP (VBP have)
+      (S
+        (VP (TO to)
+          (VP (VB keep)
+            (S
+              (VP (VBG looking)))))))
+    (. .)))
+
+nsubj(have-2, We-1)
+nsubj(keep-4, We-1)
+root(ROOT-0, have-2)
+mark(keep-4, to-3)
+xcomp(have-2, keep-4)
+xcomp(keep-4, looking-5)
+

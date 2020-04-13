@@ -1,0 +1,1639 @@
+(ROOT
+  (S
+    (PP (IN At)
+      (NP
+        (NP (DT the) (NN top))
+        (PP (IN of)
+          (NP
+            (NP (DT a) (JJ three-story) (NN brick) (NN building))
+            (PP (IN in)
+              (NP (NNP Greenwich) (NNP Village)))))))
+    (, ,)
+    (SBAR
+      (WHADVP (WRB where))
+      (S
+        (NP (JJ many) (NNS artists))
+        (VP (VBD lived))))
+    (, ,)
+    (NP (NNP Sue)
+      (CC and)
+      (NNP Joanna))
+    (VP (VBD had)
+      (NP (PRP$ their) (NN studio)))
+    (. .)))
+
+case(top-3, At-1)
+det(top-3, the-2)
+nmod:at(had-21, top-3)
+case(building-8, of-4)
+det(building-8, a-5)
+amod(building-8, three-story-6)
+compound(building-8, brick-7)
+nmod:of(top-3, building-8)
+case(Village-11, in-9)
+compound(Village-11, Greenwich-10)
+nmod:in(building-8, Village-11)
+advmod(lived-16, where-13)
+amod(artists-15, many-14)
+nsubj(lived-16, artists-15)
+advcl(had-21, lived-16)
+nsubj(had-21, Sue-18)
+cc(Sue-18, and-19)
+conj:and(Sue-18, Joanna-20)
+nsubj(had-21, Joanna-20)
+root(ROOT-0, had-21)
+nmod:poss(studio-23, their-22)
+dobj(had-21, studio-23)
+
+(ROOT
+  (S
+    (NP (PRP They))
+    (VP
+      (VP (VBD had)
+        (VP (VBN met)
+          (PP (IN at)
+            (NP (DT a) (NN restaurant)))))
+      (CC and)
+      (VP (VBD found)
+        (NP (PRP$ their) (NNS tastes))
+        (PP (IN in)
+          (NP
+            (NP (NN art) (, ,) (NN food) (, ,)
+              (CC and)
+              (NN fashion))
+            (ADJP (RB so) (JJ similar))))
+        (SBAR (IN that)
+          (S
+            (NP (PRP they))
+            (VP (VBD decided)
+              (S
+                (VP (TO to)
+                  (VP (VB become)
+                    (NP (NNS roommates))))))))))
+    (. .)))
+
+nsubj(met-3, They-1)
+nsubj(found-8, They-1)
+aux(met-3, had-2)
+root(ROOT-0, met-3)
+case(restaurant-6, at-4)
+det(restaurant-6, a-5)
+nmod:at(met-3, restaurant-6)
+cc(met-3, and-7)
+conj:and(met-3, found-8)
+nmod:poss(tastes-10, their-9)
+dobj(found-8, tastes-10)
+case(art-12, in-11)
+nmod:in(found-8, art-12)
+nmod:in(found-8, food-14)
+conj:and(art-12, food-14)
+cc(art-12, and-16)
+nmod:in(found-8, fashion-17)
+conj:and(art-12, fashion-17)
+advmod(similar-19, so-18)
+amod(art-12, similar-19)
+mark(decided-22, that-20)
+nsubj(decided-22, they-21)
+nsubj(become-24, they-21)
+ccomp(found-8, decided-22)
+mark(become-24, to-23)
+xcomp(decided-22, become-24)
+xcomp(become-24, roommates-25)
+
+(ROOT
+  (S
+    (NP (DT That))
+    (VP (VBD was)
+      (PP (IN in)
+        (NP (NNP May))))
+    (. .)))
+
+nsubj(May-4, That-1)
+cop(May-4, was-2)
+case(May-4, in-3)
+root(ROOT-0, May-4)
+
+(ROOT
+  (S
+    (S
+      (PP (IN In)
+        (NP (NNP November)))
+      (NP (DT the) (JJ cold) (, ,) (JJ wet) (NN weather))
+      (VP (VBD brought)
+        (NP (NN sickness))
+        (PP (TO to)
+          (NP (DT the) (NN neighborhood)))
+        (SBAR
+          (WHADVP (WRB where))
+          (S
+            (NP (DT the) (CD two) (NNS women))
+            (VP (VBD lived))))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (NNP Joanna))
+      (VP (VBD became)
+        (ADJP (RB very) (JJ ill))
+        (PP (IN with)
+          (NP (NN pneumonia)))))
+    (. .)))
+
+case(November-2, In-1)
+nmod:in(brought-8, November-2)
+det(weather-7, the-3)
+amod(weather-7, cold-4)
+amod(weather-7, wet-6)
+nsubj(brought-8, weather-7)
+root(ROOT-0, brought-8)
+dobj(brought-8, sickness-9)
+case(neighborhood-12, to-10)
+det(neighborhood-12, the-11)
+nmod:to(brought-8, neighborhood-12)
+advmod(lived-17, where-13)
+det(women-16, the-14)
+nummod(women-16, two-15)
+nsubj(lived-17, women-16)
+advcl(brought-8, lived-17)
+cc(brought-8, and-19)
+nsubj(became-21, Joanna-20)
+conj:and(brought-8, became-21)
+advmod(ill-23, very-22)
+xcomp(became-21, ill-23)
+case(pneumonia-25, with-24)
+nmod:with(became-21, pneumonia-25)
+
+(ROOT
+  (S
+    (NP (PRP She))
+    (VP (VBD lay)
+      (PP (IN on)
+        (NP (PRP$ her) (NN bed)))
+      (, ,)
+      (S
+        (VP (VBG looking)
+          (PP (IN through)
+            (NP
+              (NP (DT the) (NN window))
+              (PP (IN at)
+                (NP
+                  (NP (DT the) (NN side))
+                  (PP (IN of)
+                    (NP (DT the) (JJ next) (NN brick) (NN house))))))))))
+    (. .)))
+
+nsubj(lay-2, She-1)
+root(ROOT-0, lay-2)
+case(bed-5, on-3)
+nmod:poss(bed-5, her-4)
+nmod:on(lay-2, bed-5)
+xcomp(lay-2, looking-7)
+case(window-10, through-8)
+det(window-10, the-9)
+nmod:through(looking-7, window-10)
+case(side-13, at-11)
+det(side-13, the-12)
+nmod:at(window-10, side-13)
+case(house-18, of-14)
+det(house-18, the-15)
+amod(house-18, next-16)
+compound(house-18, brick-17)
+nmod:of(side-13, house-18)
+
+(ROOT
+  (S
+    (NP (CD One) (NN morning))
+    (NP (DT the) (NN doctor))
+    (VP (VBD spoke)
+      (PP (TO to)
+        (NP (NNP Sue))))
+    (. .)))
+
+nummod(morning-2, One-1)
+nmod:tmod(spoke-5, morning-2)
+det(doctor-4, the-3)
+nsubj(spoke-5, doctor-4)
+root(ROOT-0, spoke-5)
+case(Sue-7, to-6)
+nmod:to(spoke-5, Sue-7)
+
+(ROOT
+  (S
+    (S
+      (NP (PRP She))
+      (VP (VBZ has)
+        (NP
+          (NP (CD one) (NN chance))
+          (PP (IN in)
+            (NP (CD ten))))))
+    (, ,)
+    (NP (PRP he))
+    (VP (VBD said))
+    (. .)))
+
+nsubj(has-2, She-1)
+ccomp(said-9, has-2)
+nummod(chance-4, one-3)
+dobj(has-2, chance-4)
+case(ten-6, in-5)
+nmod:in(chance-4, ten-6)
+nsubj(said-9, he-8)
+root(ROOT-0, said-9)
+
+(ROOT
+  (S (CC And)
+    (NP (DT that) (NN chance))
+    (VP (MD will)
+      (VP (VB come)
+        (SBAR (RB only) (IN if)
+          (S
+            (NP (PRP she))
+            (VP (VBZ wants)
+              (S
+                (VP (TO to)
+                  (VP (VB live)))))))))
+    (. .)))
+
+cc(come-5, And-1)
+det(chance-3, that-2)
+nsubj(come-5, chance-3)
+aux(come-5, will-4)
+root(ROOT-0, come-5)
+advmod(wants-9, only-6)
+mark(wants-9, if-7)
+nsubj(wants-9, she-8)
+nsubj(live-11, she-8)
+advcl(come-5, wants-9)
+mark(live-11, to-10)
+xcomp(wants-9, live-11)
+
+(ROOT
+  (S
+    (NP (PRP$ Your) (NN friend))
+    (VP (VBZ has)
+      (VP (VBN made)
+        (PRT (RP up))
+        (NP
+          (NP (PRP$ her) (NN mind))
+          (SBAR
+            (WHNP (WDT that))
+            (S
+              (VP (VBZ shes)
+                (S (RB not)
+                  (VP (VBG going)
+                    (S
+                      (VP (TO to)
+                        (VP (VB get)
+                          (ADVP (RB well)))))))))))))
+    (. .)))
+
+nmod:poss(friend-2, Your-1)
+nsubj(made-4, friend-2)
+aux(made-4, has-3)
+root(ROOT-0, made-4)
+compound:prt(made-4, up-5)
+nmod:poss(mind-7, her-6)
+dobj(made-4, mind-7)
+nsubj(shes-9, mind-7)
+ref(mind-7, that-8)
+acl:relcl(mind-7, shes-9)
+neg(going-11, not-10)
+xcomp(shes-9, going-11)
+mark(get-13, to-12)
+xcomp(going-11, get-13)
+advmod(get-13, well-14)
+
+(ROOT
+  (S
+    (SBAR
+      (WHADVP (WRB When))
+      (S
+        (NP (DT a) (NN patient))
+        (VP (VBZ begins)
+          (S
+            (VP (TO to)
+              (VP (VB think)
+                (NP (DT that) (NN way))))))))
+    (, ,)
+    (NP (EX there))
+    (VP (VBZ is)
+      (ADJP (JJ little))
+      (SBAR (IN that)
+        (S
+          (NP (NN medicine))
+          (VP (MD can)
+            (VP (VB do))))))
+    (. .)))
+
+advmod(begins-4, When-1)
+det(patient-3, a-2)
+nsubj(begins-4, patient-3)
+nsubj(think-6, patient-3)
+advcl(is-11, begins-4)
+mark(think-6, to-5)
+xcomp(begins-4, think-6)
+det(way-8, that-7)
+dobj(think-6, way-8)
+expl(is-11, there-10)
+root(ROOT-0, is-11)
+xcomp(is-11, little-12)
+mark(do-16, that-13)
+nsubj(do-16, medicine-14)
+aux(do-16, can-15)
+ccomp(is-11, do-16)
+
+(ROOT
+  (S
+    (SBAR (IN After)
+      (S
+        (NP (DT the) (NN doctor))
+        (VP (VBD had)
+          (VP (VBN gone)))))
+    (, ,)
+    (NP (NNP Sue))
+    (VP
+      (VP (VBD cried))
+      (CC and)
+      (VP (VBD cried)))
+    (. .)))
+
+mark(gone-5, After-1)
+det(doctor-3, the-2)
+nsubj(gone-5, doctor-3)
+aux(gone-5, had-4)
+advcl(cried-8, gone-5)
+nsubj(cried-8, Sue-7)
+nsubj(cried-10, Sue-7)
+root(ROOT-0, cried-8)
+cc(cried-8, and-9)
+conj:and(cried-8, cried-10)
+
+(ROOT
+  (S
+    (ADVP (RB Finally))
+    (NP (PRP she))
+    (VP
+      (VP (VBD walked)
+        (PP (IN into)
+          (NP (NNP Joannas) (NN room))))
+      (CC and)
+      (VP (VBD found)
+        (S
+          (NP (PRP her))
+          (VP (VBG lying)
+            (PP (IN on)
+              (NP
+                (NP (DT the) (NN bed))
+                (PP (IN with)
+                  (NP
+                    (NP (PRP$ her) (NNS eyes))
+                    (ADJP (RB wide) (JJ open))))))))))
+    (. .)))
+
+advmod(walked-3, Finally-1)
+nsubj(walked-3, she-2)
+nsubj(found-8, she-2)
+root(ROOT-0, walked-3)
+case(room-6, into-4)
+compound(room-6, Joannas-5)
+nmod:into(walked-3, room-6)
+cc(walked-3, and-7)
+conj:and(walked-3, found-8)
+nsubj(lying-10, her-9)
+dep(found-8, lying-10)
+case(bed-13, on-11)
+det(bed-13, the-12)
+nmod:on(lying-10, bed-13)
+case(eyes-16, with-14)
+nmod:poss(eyes-16, her-15)
+nmod:with(bed-13, eyes-16)
+advmod(open-18, wide-17)
+amod(eyes-16, open-18)
+
+(ROOT
+  (S
+    (NP (PRP She))
+    (VP (VBD was)
+      (VP
+        (VP (VBG looking)
+          (PRT (RP out))
+          (NP (DT the) (NN window)))
+        (CC and)
+        (VP (VBG counting)
+          (ADVP (RB backward)))))
+    (. .)))
+
+nsubj(looking-3, She-1)
+nsubj(counting-8, She-1)
+aux(looking-3, was-2)
+root(ROOT-0, looking-3)
+compound:prt(looking-3, out-4)
+det(window-6, the-5)
+dobj(looking-3, window-6)
+cc(looking-3, and-7)
+conj:and(looking-3, counting-8)
+advmod(counting-8, backward-9)
+
+(ROOT
+  (S
+    (ADVP (RB Twelve))
+    (, ,)
+    (NP (PRP she))
+    (VP
+      (VP (VBD said))
+      (, ,)
+      (NP
+        (NP (NNS eleven))
+        (, ,)
+        (NP
+          (NP (CD ten))
+          (, ,)
+          (NP (CD nine))
+          (, ,))
+        (: ...)))
+    (. .)))
+
+advmod(said-4, Twelve-1)
+nsubj(said-4, she-3)
+root(ROOT-0, said-4)
+dobj(said-4, eleven-6)
+appos(eleven-6, ten-8)
+amod(ten-8, nine-10)
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NNS leaves))
+      (PP (IN on)
+        (NP (DT the) (NN ivy) (NN vine))))
+    (VP (VBP are)
+      (VP (VBG falling)
+        (ADVP (RBR faster))
+        (ADVP (RB now))))
+    (. .)))
+
+det(leaves-2, The-1)
+nsubj(falling-8, leaves-2)
+case(vine-6, on-3)
+det(vine-6, the-4)
+compound(vine-6, ivy-5)
+nmod:on(leaves-2, vine-6)
+aux(falling-8, are-7)
+root(ROOT-0, falling-8)
+advmod(falling-8, faster-9)
+advmod(falling-8, now-10)
+
+(ROOT
+  (S
+    (NP (EX There))
+    (VP (VBP are)
+      (ADJP
+        (NP
+          (QP (RB only) (CD five)))
+        (VBN left)))
+    (. .)))
+
+expl(are-2, There-1)
+root(ROOT-0, are-2)
+advmod(five-4, only-3)
+dep(left-5, five-4)
+xcomp(are-2, left-5)
+
+(ROOT
+  (S
+    (SBAR
+      (WHADVP (WRB When))
+      (S
+        (NP (DT the) (JJ last) (NN one))
+        (VP (VBZ falls))))
+    (, ,)
+    (NP (PRP I))
+    (VP (MD must)
+      (VP (VB go) (, ,)
+        (ADVP (RB too))))
+    (. .)))
+
+advmod(falls-5, When-1)
+det(one-4, the-2)
+amod(one-4, last-3)
+nsubj(falls-5, one-4)
+advcl(go-9, falls-5)
+nsubj(go-9, I-7)
+aux(go-9, must-8)
+root(ROOT-0, go-9)
+advmod(go-9, too-11)
+
+(ROOT
+  (S
+    (VP (VB Im)
+      (ADJP (JJ tired)
+        (PP (IN of)
+          (S
+            (VP (VBG waiting))))))
+    (. .)))
+
+root(ROOT-0, Im-1)
+xcomp(Im-1, tired-2)
+mark(waiting-4, of-3)
+advcl(tired-2, waiting-4)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP want)
+      (S
+        (VP (TO to)
+          (VP (VB let)
+            (VP
+              (VP (VB go)
+                (PP (IN of)
+                  (NP (NN everything))))
+              (, ,)
+              (CC and)
+              (VP (VB go)
+                (S
+                  (VP (VBG sailing)
+                    (ADVP (RB down))
+                    (, ,)
+                    (ADVP (RB down))
+                    (, ,)
+                    (ADVP (RB just))
+                    (PP (IN like)
+                      (NP
+                        (NP (CD one))
+                        (PP (IN of)
+                          (NP (DT those) (JJ poor) (NNS leaves)))))))))))))
+    (. .)))
+
+nsubj(want-2, I-1)
+nsubj(let-4, I-1)
+root(ROOT-0, want-2)
+mark(let-4, to-3)
+xcomp(want-2, let-4)
+dep(let-4, go-5)
+case(everything-7, of-6)
+nmod:of(go-5, everything-7)
+cc(go-5, and-9)
+dep(let-4, go-10)
+conj:and(go-5, go-10)
+xcomp(go-10, sailing-11)
+advmod(sailing-11, down-12)
+advmod(sailing-11, down-14)
+advmod(sailing-11, just-16)
+case(one-18, like-17)
+nmod:like(sailing-11, one-18)
+case(leaves-22, of-19)
+det(leaves-22, those-20)
+amod(leaves-22, poor-21)
+nmod:of(one-18, leaves-22)
+
+(ROOT
+  (S
+    (INTJ (UH Oh))
+    (, ,)
+    (NP (PRP I))
+    (VP (VBP have)
+      (ADVP (RB never))
+      (VP (VBN heard)
+        (PP (IN of)
+          (NP
+            (NP (JJ such) (NN nonsense))
+            (, ,)
+            (NP (NNP complained) (NNP Sue))))))
+    (. .)))
+
+discourse(heard-6, Oh-1)
+nsubj(heard-6, I-3)
+aux(heard-6, have-4)
+neg(heard-6, never-5)
+root(ROOT-0, heard-6)
+case(nonsense-9, of-7)
+amod(nonsense-9, such-8)
+nmod:of(heard-6, nonsense-9)
+compound(Sue-12, complained-11)
+appos(nonsense-9, Sue-12)
+
+(ROOT
+  (S
+    (VP (VB Try)
+      (S
+        (VP (TO to)
+          (VP (VB sleep)))))
+    (. .)))
+
+root(ROOT-0, Try-1)
+mark(sleep-3, to-2)
+xcomp(Try-1, sleep-3)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (MD must)
+      (VP (VB go)
+        (NP (NN talk))
+        (PP (TO to)
+          (NP (NNP Mr.) (NNP Behrman)))))
+    (. .)))
+
+nsubj(go-3, I-1)
+aux(go-3, must-2)
+root(ROOT-0, go-3)
+dobj(go-3, talk-4)
+case(Behrman-7, to-5)
+compound(Behrman-7, Mr.-6)
+nmod:to(go-3, Behrman-7)
+
+(ROOT
+  (S
+    (NP (NNP Old) (NNP Mr.) (NNP Behrman))
+    (VP (VBD was)
+      (NP
+        (NP (DT a) (NN painter))
+        (SBAR
+          (WHNP (WP who))
+          (S
+            (VP (VBD lived)
+              (PP (IN beneath)
+                (NP (PRP them))))))))
+    (. .)))
+
+compound(Behrman-3, Old-1)
+compound(Behrman-3, Mr.-2)
+nsubj(painter-6, Behrman-3)
+cop(painter-6, was-4)
+det(painter-6, a-5)
+root(ROOT-0, painter-6)
+nsubj(lived-8, painter-6)
+ref(painter-6, who-7)
+acl:relcl(painter-6, lived-8)
+case(them-10, beneath-9)
+nmod:beneath(lived-8, them-10)
+
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP
+      (VP (VBD was)
+        (ADJP (RB past) (JJ sixty)))
+      (CC and)
+      (VP (VBD was)
+        (NP
+          (NP (DT a) (NN failure))
+          (PP (IN in)
+            (NP (NN art))))))
+    (. .)))
+
+nsubj(sixty-4, He-1)
+cop(sixty-4, was-2)
+advmod(sixty-4, past-3)
+root(ROOT-0, sixty-4)
+cc(sixty-4, and-5)
+cop(failure-8, was-6)
+det(failure-8, a-7)
+conj:and(sixty-4, failure-8)
+case(art-10, in-9)
+nmod:in(failure-8, art-10)
+
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (VBD had)
+      (ADVP (RB always))
+      (VP (VBN said)
+        (SBAR
+          (S
+            (NP (PRP he))
+            (VP
+              (VP (VBD was)
+                (VP (VBG going)
+                  (S
+                    (VP (TO to)
+                      (VP (VB paint)
+                        (NP (DT a) (NN masterpiece)))))))
+              (, ,)
+              (CC but)
+              (VP (VBD had)
+                (VP
+                  (ADVP (RB never))
+                  (VBN begun)
+                  (NP (CD one)))))))))
+    (. .)))
+
+nsubj(said-4, He-1)
+aux(said-4, had-2)
+advmod(said-4, always-3)
+root(ROOT-0, said-4)
+nsubj(going-7, he-5)
+nsubj(paint-9, he-5)
+nsubj(begun-16, he-5)
+aux(going-7, was-6)
+ccomp(said-4, going-7)
+mark(paint-9, to-8)
+xcomp(going-7, paint-9)
+det(masterpiece-11, a-10)
+dobj(paint-9, masterpiece-11)
+cc(going-7, but-13)
+aux(begun-16, had-14)
+neg(begun-16, never-15)
+ccomp(said-4, begun-16)
+conj:but(going-7, begun-16)
+dobj(begun-16, one-17)
+
+(ROOT
+  (S
+    (PP (IN For)
+      (NP (NNS years)))
+    (NP (PRP he))
+    (VP
+      (VP (VBD had)
+        (VP (VBN painted)
+          (ADVP (RB almost) (NN nothing))))
+      (, ,)
+      (CC but)
+      (VP (VBD spent)
+        (NP
+          (NP (RB much))
+          (PP (IN of)
+            (NP (PRP$ his) (NN time) (NN drinking))))))
+    (. .)))
+
+case(years-2, For-1)
+nmod:for(painted-5, years-2)
+nsubj(painted-5, he-3)
+nsubj(spent-10, he-3)
+aux(painted-5, had-4)
+root(ROOT-0, painted-5)
+advmod(painted-5, almost-6)
+dep(almost-6, nothing-7)
+cc(painted-5, but-9)
+conj:but(painted-5, spent-10)
+dobj(spent-10, much-11)
+case(drinking-15, of-12)
+nmod:poss(drinking-15, his-13)
+compound(drinking-15, time-14)
+nmod:of(much-11, drinking-15)
+
+(ROOT
+  (S
+    (S
+      (NP (PRP He))
+      (VP (VBD was)
+        (NP (DT a) (JJ fierce) (JJ old) (NN man))))
+    (, ,)
+    (CC yet)
+    (S
+      (NP (PRP he))
+      (VP (VBD was)
+        (ADJP (RB very) (JJ fond))
+        (PP (IN of)
+          (NP (NNP Sue)
+            (CC and)
+            (NNP Joanna)))))
+    (. .)))
+
+nsubj(man-6, He-1)
+cop(man-6, was-2)
+det(man-6, a-3)
+amod(man-6, fierce-4)
+amod(man-6, old-5)
+root(ROOT-0, man-6)
+cc(man-6, yet-8)
+nsubj(fond-12, he-9)
+cop(fond-12, was-10)
+advmod(fond-12, very-11)
+conj:yet(man-6, fond-12)
+case(Sue-14, of-13)
+nmod:of(fond-12, Sue-14)
+cc(Sue-14, and-15)
+nmod:of(fond-12, Joanna-16)
+conj:and(Sue-14, Joanna-16)
+
+(ROOT
+  (S
+    (NP (NNP Sue))
+    (VP (VBD told)
+      (NP
+        (NP (NNP Behrman))
+        (SBAR
+          (WHNP (WP what))
+          (S
+            (NP (NNP Joanna))
+            (VP (VBD had)
+              (VP (VBN said)
+                (PP (IN about)
+                  (NP (DT the) (NNS leaves)))))))))
+    (. .)))
+
+nsubj(told-2, Sue-1)
+root(ROOT-0, told-2)
+dobj(told-2, Behrman-3)
+dobj(said-7, Behrman-3)
+ref(Behrman-3, what-4)
+nsubj(said-7, Joanna-5)
+aux(said-7, had-6)
+acl:relcl(Behrman-3, said-7)
+case(leaves-10, about-8)
+det(leaves-10, the-9)
+nmod:about(said-7, leaves-10)
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP Ah))
+      (, ,)
+      (NP (DT that) (JJ poor) (JJ little) (NNP Miss) (NNP Joanna))
+      (, ,))
+    (VP (VBD said)
+      (NP (NNP Behrman)))
+    (. .)))
+
+nsubj(said-9, Ah-1)
+det(Joanna-7, that-3)
+amod(Joanna-7, poor-4)
+amod(Joanna-7, little-5)
+compound(Joanna-7, Miss-6)
+appos(Ah-1, Joanna-7)
+root(ROOT-0, said-9)
+dobj(said-9, Behrman-10)
+
+(ROOT
+  (S
+    (NP (DT Some) (NN day))
+    (NP (PRP I))
+    (VP (MD will)
+      (VP (VB paint)
+        (NP (DT a) (NN masterpiece))))
+    (. .)))
+
+det(day-2, Some-1)
+nmod:tmod(paint-5, day-2)
+nsubj(paint-5, I-3)
+aux(paint-5, will-4)
+root(ROOT-0, paint-5)
+det(masterpiece-7, a-6)
+dobj(paint-5, masterpiece-7)
+
+(ROOT
+  (S
+    (NP (DT The) (JJ next) (NN morning) (NN Sue))
+    (VP (VBD found)
+      (NP (NNP Joanna))
+      (ADVP (RB again))
+      (PP (VBG staring)
+        (PP (IN out)
+          (NP (DT the) (NN window)))))
+    (. .)))
+
+det(Sue-4, The-1)
+amod(Sue-4, next-2)
+compound(Sue-4, morning-3)
+nsubj(found-5, Sue-4)
+root(ROOT-0, found-5)
+dobj(found-5, Joanna-6)
+advmod(found-5, again-7)
+case(window-11, staring-8)
+case(window-11, out-9)
+det(window-11, the-10)
+advcl:out(found-5, window-11)
+
+(ROOT
+  (S (CC But)
+    (, ,)
+    (NP (WDT what))
+    (VP (VBD had)
+      (VP (VBN happened)))
+    (. ?)))
+
+cc(happened-5, But-1)
+nsubj(happened-5, what-3)
+aux(happened-5, had-4)
+root(ROOT-0, happened-5)
+
+(ROOT
+  (S
+    (SBAR (IN Though)
+      (S
+        (S
+          (NP (PRP it))
+          (VP (VBD had)
+            (VP (VBD rained)
+              (ADVP (RB heavily))
+              (NP (DT the) (NN night))
+              (PP (IN before)))))
+        (, ,)
+        (CC and)
+        (S
+          (NP (DT the) (NN wind))
+          (VP (VBD had)
+            (VP (VBN blown)
+              (S
+                (ADJP (JJ hard))))))))
+    (, ,)
+    (NP (EX there))
+    (ADVP (RB yet))
+    (VP (VBD stood)
+      (PRT (RP out))
+      (PP (IN against)
+        (NP (DT the) (NN brick) (NN wall) (NN one) (NN ivy) (NN leaf))))
+    (. .)))
+
+mark(rained-4, Though-1)
+nsubj(rained-4, it-2)
+aux(rained-4, had-3)
+advcl(stood-19, rained-4)
+advmod(rained-4, heavily-5)
+det(night-7, the-6)
+nmod:tmod(rained-4, night-7)
+nmod(rained-4, before-8)
+cc(rained-4, and-10)
+det(wind-12, the-11)
+nsubj(blown-14, wind-12)
+aux(blown-14, had-13)
+conj:and(rained-4, blown-14)
+advcl(stood-19, blown-14)
+xcomp(blown-14, hard-15)
+expl(stood-19, there-17)
+advmod(stood-19, yet-18)
+root(ROOT-0, stood-19)
+compound:prt(stood-19, out-20)
+case(leaf-27, against-21)
+det(leaf-27, the-22)
+compound(leaf-27, brick-23)
+compound(leaf-27, wall-24)
+compound(leaf-27, one-25)
+compound(leaf-27, ivy-26)
+nmod:against(stood-19, leaf-27)
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBD was)
+      (NP
+        (NP (DT the) (JJ last))
+        (PP (IN on)
+          (NP (DT the) (NN vine)))))
+    (. .)))
+
+nsubj(last-4, It-1)
+cop(last-4, was-2)
+det(last-4, the-3)
+root(ROOT-0, last-4)
+case(vine-7, on-5)
+det(vine-7, the-6)
+nmod:on(last-4, vine-7)
+
+(ROOT
+  (SINV
+    (S
+      (NP (PRP I))
+      (VP (VBD thought)
+        (SBAR
+          (S
+            (NP (PRP it))
+            (VP (MD would)
+              (ADVP (RB surely))
+              (VP (VB fall)
+                (PP (IN during)
+                  (NP (DT the) (NN night)))))))))
+    (, ,)
+    (VP (VBD said))
+    (NP (NNP Joanna))
+    (. .)))
+
+nsubj(thought-2, I-1)
+ccomp(said-11, thought-2)
+nsubj(fall-6, it-3)
+aux(fall-6, would-4)
+advmod(fall-6, surely-5)
+ccomp(thought-2, fall-6)
+case(night-9, during-7)
+det(night-9, the-8)
+nmod:during(fall-6, night-9)
+root(ROOT-0, said-11)
+nsubj(said-11, Joanna-12)
+
+(ROOT
+  (S
+    (S
+      (NP (PRP It))
+      (VP (MD will)
+        (VP (VB fall)
+          (NP (NN today)))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (PRP I))
+      (VP (MD shall)
+        (VP (VB die)
+          (PP (IN at)
+            (NP (DT the) (JJ same) (NN time))))))
+    (. .)))
+
+nsubj(fall-3, It-1)
+aux(fall-3, will-2)
+root(ROOT-0, fall-3)
+nmod:tmod(fall-3, today-4)
+cc(fall-3, and-6)
+nsubj(die-9, I-7)
+aux(die-9, shall-8)
+conj:and(fall-3, die-9)
+case(time-13, at-10)
+det(time-13, the-11)
+amod(time-13, same-12)
+nmod:at(die-9, time-13)
+
+(ROOT
+  (S (RB Yet) (, ,)
+    (SBAR (IN as)
+      (S
+        (S
+          (NP (DT the) (NN day))
+          (VP (VBD passed)))
+        (, ,)
+        (CC and)
+        (S
+          (NP (PRP it))
+          (VP (VBD began)
+            (S
+              (VP (TO to)
+                (VP (VB grow)
+                  (ADJP (JJ dark)))))))))
+    (, ,)
+    (NP (DT the) (JJ lone) (NN ivy) (NN leaf))
+    (VP (VBD clung)
+      (PP (TO to)
+        (NP (PRP$ its) (NN stem)))
+      (PP (IN against)
+        (NP (DT the) (NN wall))))
+    (. .)))
+
+advmod(clung-19, Yet-1)
+mark(passed-6, as-3)
+det(day-5, the-4)
+nsubj(passed-6, day-5)
+advcl(clung-19, passed-6)
+cc(passed-6, and-8)
+nsubj(began-10, it-9)
+nsubj(grow-12, it-9)
+conj:and(passed-6, began-10)
+advcl(clung-19, began-10)
+mark(grow-12, to-11)
+xcomp(began-10, grow-12)
+xcomp(grow-12, dark-13)
+det(leaf-18, the-15)
+amod(leaf-18, lone-16)
+compound(leaf-18, ivy-17)
+nsubj(clung-19, leaf-18)
+root(ROOT-0, clung-19)
+case(stem-22, to-20)
+nmod:poss(stem-22, its-21)
+nmod:to(clung-19, stem-22)
+case(wall-25, against-23)
+det(wall-25, the-24)
+nmod:against(clung-19, wall-25)
+
+(ROOT
+  (S
+    (S
+      (NP (DT The) (JJ next) (NN day))
+      (ADVP (RB as) (RB well)))
+    (, ,)
+    (NP (DT the) (NN ivy) (NN leaf))
+    (VP (VBD was)
+      (ADVP (RB still))
+      (ADVP (RB there)))
+    (. .)))
+
+det(day-3, The-1)
+amod(day-3, next-2)
+ccomp(was-10, day-3)
+advmod(day-3, as-4)
+mwe(as-4, well-5)
+det(leaf-9, the-7)
+compound(leaf-9, ivy-8)
+nsubj(was-10, leaf-9)
+root(ROOT-0, was-10)
+advmod(was-10, still-11)
+advmod(was-10, there-12)
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP Ive))
+      (VP (VBN been)
+        (NP (DT a) (JJ bad) (NN girl)))
+      (, ,)
+      (NP (NNP Sue))
+      (, ,))
+    (VP (VBD said)
+      (NP (NNP Joanna)))
+    (. .)))
+
+nsubj(said-9, Ive-1)
+cop(girl-5, been-2)
+det(girl-5, a-3)
+amod(girl-5, bad-4)
+acl(Ive-1, girl-5)
+appos(Ive-1, Sue-7)
+root(ROOT-0, said-9)
+dobj(said-9, Joanna-10)
+
+(ROOT
+  (S
+    (NP (NN Something))
+    (VP (VBZ has)
+      (VP (VBN made)
+        (SBAR (IN that)
+          (S
+            (NP (JJ last) (NN leaf))
+            (VP (VBP stay)
+              (S
+                (NP (EX there))
+                (VP (TO to)
+                  (VP (VB show)
+                    (SBAR
+                      (WHADVP (WRB how)
+                        (ADJP (JJ wrong)))
+                      (S
+                        (NP (PRP I))
+                        (VP (VBD was))))))))))))
+    (. .)))
+
+nsubj(made-3, Something-1)
+aux(made-3, has-2)
+root(ROOT-0, made-3)
+mark(stay-7, that-4)
+amod(leaf-6, last-5)
+nsubj(stay-7, leaf-6)
+ccomp(made-3, stay-7)
+dobj(stay-7, there-8)
+nsubj(show-10, there-8)
+mark(show-10, to-9)
+xcomp(stay-7, show-10)
+advmod(was-14, how-11)
+dep(how-11, wrong-12)
+nsubj(was-14, I-13)
+ccomp(show-10, was-14)
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ is)
+      (NP (DT a) (NN sin)
+        (S
+          (VP (TO to)
+            (VP (VB want)
+              (S
+                (VP (TO to)
+                  (VP (VB die)))))))))
+    (. .)))
+
+nsubj(sin-4, It-1)
+cop(sin-4, is-2)
+det(sin-4, a-3)
+root(ROOT-0, sin-4)
+mark(want-6, to-5)
+acl(sin-4, want-6)
+mark(die-8, to-7)
+xcomp(want-6, die-8)
+
+(ROOT
+  (S
+    (NP (DT The) (NN doctor))
+    (VP
+      (VP (VBD came)
+        (PP (IN in)
+          (NP (DT the) (NN afternoon))))
+      (CC and)
+      (VP
+        (ADVP (RB again))
+        (VBD spoke)
+        (PP (TO to)
+          (NP (NNP Sue)))))
+    (. .)))
+
+det(doctor-2, The-1)
+nsubj(came-3, doctor-2)
+nsubj(spoke-9, doctor-2)
+root(ROOT-0, came-3)
+case(afternoon-6, in-4)
+det(afternoon-6, the-5)
+nmod:in(came-3, afternoon-6)
+cc(came-3, and-7)
+advmod(spoke-9, again-8)
+conj:and(came-3, spoke-9)
+case(Sue-11, to-10)
+nmod:to(spoke-9, Sue-11)
+
+(ROOT
+  (S
+    (S
+      (VP (VB Take)
+        (NP
+          (NP (NN care))
+          (PP (IN of)
+            (NP (PRP her))))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (PRP she))
+      (VP (MD will)
+        (VP (VB recover))))
+    (. .)))
+
+root(ROOT-0, Take-1)
+dobj(Take-1, care-2)
+case(her-4, of-3)
+nmod:of(care-2, her-4)
+cc(Take-1, and-6)
+nsubj(recover-9, she-7)
+aux(recover-9, will-8)
+conj:and(Take-1, recover-9)
+
+(ROOT
+  (S
+    (ADVP (RB Now))
+    (NP (PRP I))
+    (VP (MD must)
+      (VP (VB go)
+        (CC and)
+        (VB see)
+        (NP (DT the) (JJ old) (NN artist) (NNS downstairs))))
+    (. .)))
+
+advmod(go-4, Now-1)
+nsubj(go-4, I-2)
+nsubj(see-6, I-2)
+aux(go-4, must-3)
+root(ROOT-0, go-4)
+cc(go-4, and-5)
+conj:and(go-4, see-6)
+det(downstairs-10, the-7)
+amod(downstairs-10, old-8)
+compound(downstairs-10, artist-9)
+dobj(go-4, downstairs-10)
+
+(ROOT
+  (S
+    (S
+      (NP (PRP He))
+      (VP (VBZ has)
+        (NP (NN pneumonia))
+        (, ,)
+        (ADVP (RB too))))
+    (, ,)
+    (CC but)
+    (S
+      (NP (PRP he))
+      (VP (VBZ is)
+        (NP (DT an)
+          (ADJP (JJ old) (, ,) (JJ weak))
+          (NN man))))
+    (. .)))
+
+nsubj(has-2, He-1)
+root(ROOT-0, has-2)
+dobj(has-2, pneumonia-3)
+advmod(has-2, too-5)
+cc(has-2, but-7)
+nsubj(man-14, he-8)
+cop(man-14, is-9)
+det(man-14, an-10)
+amod(weak-13, old-11)
+amod(man-14, weak-13)
+conj:but(has-2, man-14)
+
+(ROOT
+  (S
+    (NP (EX There))
+    (VP (VBZ is)
+      (NP
+        (NP (DT no) (NN hope))
+        (PP (IN for)
+          (NP (PRP him)))))
+    (. .)))
+
+expl(is-2, There-1)
+root(ROOT-0, is-2)
+neg(hope-4, no-3)
+nsubj(is-2, hope-4)
+case(him-6, for-5)
+nmod:for(hope-4, him-6)
+
+(ROOT
+  (S
+    (PP (IN By)
+      (NP (DT the) (JJ next) (NN day)))
+    (, ,)
+    (NP (NNP Joanna))
+    (VP (VBD was)
+      (ADVP (RB out))
+      (PP (IN of)
+        (NP (NN danger))))
+    (. .)))
+
+case(day-4, By-1)
+det(day-4, the-2)
+amod(day-4, next-3)
+nmod:by(danger-10, day-4)
+nsubj(danger-10, Joanna-6)
+cop(danger-10, was-7)
+case(danger-10, out-8)
+mwe(out-8, of-9)
+root(ROOT-0, danger-10)
+
+(ROOT
+  (S
+    (NP (NNP Sue))
+    (VP
+      (VP (VBD came)
+        (PP (TO to)
+          (NP (PRP$ her) (NN bed))))
+      (CC and)
+      (VP (VBD put)
+        (NP (CD one) (NN arm))
+        (PP (IN around)
+          (NP (PRP her)))))
+    (. .)))
+
+nsubj(came-2, Sue-1)
+nsubj(put-7, Sue-1)
+root(ROOT-0, came-2)
+case(bed-5, to-3)
+nmod:poss(bed-5, her-4)
+nmod:to(came-2, bed-5)
+cc(came-2, and-6)
+conj:and(came-2, put-7)
+nummod(arm-9, one-8)
+dobj(put-7, arm-9)
+case(her-11, around-10)
+nmod:around(put-7, her-11)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP have)
+      (NP (NN something)
+        (S
+          (VP (TO to)
+            (VP (VB tell)
+              (S
+                (NP (PRP you))
+                (, ,)
+                (NP (NNP Joanna))
+                (, ,)
+                (NP (PRP she))
+                (VP (VBD said))))))))
+    (. .)))
+
+nsubj(have-2, I-1)
+root(ROOT-0, have-2)
+dobj(have-2, something-3)
+mark(tell-5, to-4)
+acl(something-3, tell-5)
+nsubj(said-11, you-6)
+nsubj(said-11, Joanna-8)
+nsubj(said-11, she-10)
+ccomp(tell-5, said-11)
+
+(ROOT
+  (S
+    (NP (NNP Mr.) (NNP Behrman))
+    (VP (VBD died)
+      (PP (IN of)
+        (NP (NN pneumonia)))
+      (NP (NN today)))
+    (. .)))
+
+compound(Behrman-2, Mr.-1)
+nsubj(died-3, Behrman-2)
+root(ROOT-0, died-3)
+case(pneumonia-5, of-4)
+nmod:of(died-3, pneumonia-5)
+nmod:tmod(died-3, today-6)
+
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (VBD became)
+      (ADJP (JJ sick))
+      (NP (CD two) (NNS days) (RB ago)))
+    (. .)))
+
+nsubj(became-2, He-1)
+root(ROOT-0, became-2)
+xcomp(became-2, sick-3)
+nummod(days-5, two-4)
+nmod:tmod(became-2, days-5)
+advmod(days-5, ago-6)
+
+(ROOT
+  (S
+    (SBAR
+      (WHADVP (WRB When))
+      (S
+        (NP (NN someone))
+        (VP (VBD found)
+          (NP (PRP him))
+          (PP (IN in)
+            (NP (PRP$ his) (NN room))))))
+    (, ,)
+    (NP
+      (NP (PRP$ his) (NNS shoes))
+      (CC and)
+      (NP (NN clothing)))
+    (VP (VBD were)
+      (ADJP
+        (ADJP (JJ wet)
+          (PP (IN through)))
+        (CC and)
+        (ADJP (RB icy) (JJ cold))))
+    (. .)))
+
+advmod(found-3, When-1)
+nsubj(found-3, someone-2)
+advcl(wet-14, found-3)
+dobj(found-3, him-4)
+case(room-7, in-5)
+nmod:poss(room-7, his-6)
+nmod:in(found-3, room-7)
+nmod:poss(shoes-10, his-9)
+nsubj(wet-14, shoes-10)
+nsubj(cold-18, shoes-10)
+cc(shoes-10, and-11)
+conj:and(shoes-10, clothing-12)
+nsubj(wet-14, clothing-12)
+cop(wet-14, were-13)
+root(ROOT-0, wet-14)
+nmod(wet-14, through-15)
+cc(wet-14, and-16)
+advmod(cold-18, icy-17)
+conj:and(wet-14, cold-18)
+
+(ROOT
+  (S
+    (NP (PRP They))
+    (VP (VBP couldnt)
+      (VP (VB imagine)
+        (SBAR
+          (WHADVP (WRB where))
+          (S
+            (NP (PRP he))
+            (VP (VBD had)
+              (VP (VBN been)
+                (PP (IN on)
+                  (NP (PDT such) (DT a)))
+                (NP (JJ dreadful) (NN night))))))))
+    (. .)))
+
+nsubj(couldnt-2, They-1)
+root(ROOT-0, couldnt-2)
+xcomp(couldnt-2, imagine-3)
+advmod(night-12, where-4)
+nsubj(night-12, he-5)
+aux(night-12, had-6)
+cop(night-12, been-7)
+case(a-10, on-8)
+det:predet(a-10, such-9)
+nmod:on(night-12, a-10)
+amod(night-12, dreadful-11)
+advcl(imagine-3, night-12)
+
+(ROOT
+  (S (CC And)
+    (ADVP (RB then))
+    (NP (PRP they))
+    (VP (VBD found)
+      (NP
+        (NP (DT a) (NN lantern))
+        (, ,)
+        (NP (DT a) (NN ladder))
+        (, ,)
+        (CC and)
+        (NP
+          (NP (DT some) (NNS brushes))
+          (CC and)
+          (NP (DT a) (NN palette))))
+      (PP (IN with)
+        (NP
+          (NP
+            (ADJP (JJ green)
+              (CC and)
+              (JJ yellow))
+            (NNS colors))
+          (ADJP (JJ mixed)
+            (PP (IN on)
+              (NP (PRP it)))))))
+    (. .)))
+
+cc(found-4, And-1)
+advmod(found-4, then-2)
+nsubj(found-4, they-3)
+root(ROOT-0, found-4)
+det(lantern-6, a-5)
+dobj(found-4, lantern-6)
+det(ladder-9, a-8)
+dobj(found-4, ladder-9)
+conj:and(lantern-6, ladder-9)
+cc(lantern-6, and-11)
+det(brushes-13, some-12)
+dobj(found-4, brushes-13)
+conj:and(lantern-6, brushes-13)
+cc(brushes-13, and-14)
+det(palette-16, a-15)
+conj:and(lantern-6, palette-16)
+conj:and(brushes-13, palette-16)
+case(colors-21, with-17)
+amod(colors-21, green-18)
+cc(green-18, and-19)
+conj:and(green-18, yellow-20)
+amod(colors-21, yellow-20)
+nmod:with(found-4, colors-21)
+amod(colors-21, mixed-22)
+case(it-24, on-23)
+nmod:on(mixed-22, it-24)
+
+(ROOT
+  (S
+    (NP (NNP Darling))
+    (, ,)
+    (VP (VB look)
+      (PRT (RP out))
+      (NP
+        (NP (DT the) (NN window))
+        (PP (IN at)
+          (NP
+            (NP (DT the) (NN leaf))
+            (PP (IN on)
+              (NP (DT the) (NN wall)))))))
+    (. .)))
+
+nsubj(look-3, Darling-1)
+root(ROOT-0, look-3)
+compound:prt(look-3, out-4)
+det(window-6, the-5)
+dobj(look-3, window-6)
+case(leaf-9, at-7)
+det(leaf-9, the-8)
+nmod:at(window-6, leaf-9)
+case(wall-12, on-10)
+det(wall-12, the-11)
+nmod:on(leaf-9, wall-12)
+
+(ROOT
+  (SQ
+    (VP (VB Didnt)
+      (SBAR
+        (S
+          (NP (PRP you))
+          (VP (VBP wonder)
+            (SBAR
+              (WHADVP (WRB why))
+              (S
+                (NP (PRP it))
+                (ADVP (RB never))
+                (VP (VBD moved)
+                  (SBAR
+                    (WHADVP (WRB when))
+                    (S
+                      (NP (DT the) (NN wind))
+                      (VP (VBD blew)))))))))))
+    (. ?)))
+
+root(ROOT-0, Didnt-1)
+nsubj(wonder-3, you-2)
+ccomp(Didnt-1, wonder-3)
+advmod(moved-7, why-4)
+nsubj(moved-7, it-5)
+neg(moved-7, never-6)
+ccomp(wonder-3, moved-7)
+advmod(blew-11, when-8)
+det(wind-10, the-9)
+nsubj(blew-11, wind-10)
+advcl(moved-7, blew-11)
+
+(ROOT
+  (S
+    (NP (PRP$ Its) (NNP Behrmans) (NN masterpiece-he))
+    (VP (VBD painted)
+      (NP (PRP it))
+      (NP (RB there) (DT the) (NN night))
+      (SBAR (IN that)
+        (S
+          (NP (DT the) (JJ last) (NN leaf))
+          (VP (VBD fell)))))
+    (. .)))
+
+nmod:poss(masterpiece-he-3, Its-1)
+compound(masterpiece-he-3, Behrmans-2)
+nsubj(painted-4, masterpiece-he-3)
+root(ROOT-0, painted-4)
+dobj(painted-4, it-5)
+advmod(night-8, there-6)
+det(night-8, the-7)
+nmod:tmod(painted-4, night-8)
+mark(fell-13, that-9)
+det(leaf-12, the-10)
+amod(leaf-12, last-11)
+nsubj(fell-13, leaf-12)
+ccomp(painted-4, fell-13)
+

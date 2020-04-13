@@ -1,0 +1,537 @@
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBZ Reading)
+      (PP (IN for)
+        (NP (DT the) (NNP Main) (NNP Idea))))
+    (. .)))
+
+nsubj(Reading-2, I-1)
+root(ROOT-0, Reading-2)
+case(Idea-6, for-3)
+det(Idea-6, the-4)
+compound(Idea-6, Main-5)
+nmod:for(Reading-2, Idea-6)
+
+(ROOT
+  (SBARQ
+    (WHNP (WP What))
+    (SQ (VBZ is)
+      (NP
+        (NP (DT the) (JJ main) (NN idea))
+        (PP (IN of)
+          (NP (`` ``)
+            (NP (DT The)
+              (NX (NNP Ocean)))
+            (: :)
+            (NP (PRP$ Our) (NNP Fragile) (NNP Paradise))
+            ('' '')))))
+    (. ?)))
+
+root(ROOT-0, What-1)
+cop(What-1, is-2)
+det(idea-5, the-3)
+amod(idea-5, main-4)
+nsubj(What-1, idea-5)
+case(Ocean-9, of-6)
+det(Ocean-9, The-8)
+nmod:of(idea-5, Ocean-9)
+nmod:poss(Paradise-13, Our-11)
+compound(Paradise-13, Fragile-12)
+dep(Ocean-9, Paradise-13)
+
+(ROOT
+  (S
+    (S
+      (NP
+        (NP (-LRB- -LRB-) (NNP A) (-RRB- -RRB-))
+        (ADVP
+          (NP (DT The) (NN ocean))
+          (IN around)))
+      (NP (NNP Taiwan))
+      (VP (VBZ is)
+        (ADJP
+          (ADJP (JJ beautiful))
+          (, ,)
+          (ADJP (JJ rich)
+            (PP (IN in)
+              (NP (NN life))))
+          (, ,)
+          (CC but)
+          (ADJP (JJ fragile)))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (PRP we))
+      (VP (MD must)
+        (VP (VB try)
+          (ADJP (JJ hard)
+            (S
+              (VP (TO to)
+                (VP (VB keep)
+                  (NP (PRP it))
+                  (PP (IN as)
+                    (NP
+                      (NP (DT a) (NN paradise))
+                      (PP (IN of)
+                        (NP (JJ infinite) (NN beauty))))))))))))
+    (. .)))
+
+nsubj(beautiful-9, A-2)
+nsubj(rich-11, A-2)
+nsubj(fragile-16, A-2)
+det(ocean-5, The-4)
+advmod(A-2, ocean-5)
+case(ocean-5, around-6)
+nsubj(beautiful-9, Taiwan-7)
+cop(beautiful-9, is-8)
+root(ROOT-0, beautiful-9)
+conj:and(beautiful-9, rich-11)
+case(life-13, in-12)
+nmod:in(rich-11, life-13)
+cc(beautiful-9, but-15)
+conj:but(beautiful-9, fragile-16)
+cc(beautiful-9, and-18)
+nsubj(try-21, we-19)
+aux(try-21, must-20)
+conj:but(beautiful-9, try-21)
+xcomp(try-21, hard-22)
+mark(keep-24, to-23)
+xcomp(hard-22, keep-24)
+dobj(keep-24, it-25)
+case(paradise-28, as-26)
+det(paradise-28, a-27)
+nmod:as(keep-24, paradise-28)
+case(beauty-31, of-29)
+amod(beauty-31, infinite-30)
+nmod:of(paradise-28, beauty-31)
+
+(ROOT
+  (S
+    (NP
+      (NP
+        (NP (-LRB- -LRB-) (NNP B) (-RRB- -RRB-))
+        (NP (DT The) (JJ main) (NN function)))
+      (PP (IN of)
+        (NP
+          (NP (DT the) (NN ocean))
+          (PP (IN around)
+            (NP (NNP Taiwan))))))
+    (VP (VBZ is)
+      (SBAR (IN for)
+        (S
+          (NP (PRP us))
+          (VP (TO to)
+            (VP (VB enjoy)
+              (NP
+                (NP (PRP$ its) (JJ breathtaking) (NN scenery))
+                (CC and)
+                (NP (PRP$ its) (JJ outdoor) (NNS activities))))))))
+    (. .)))
+
+nsubj(is-12, B-2)
+det(function-6, The-4)
+amod(function-6, main-5)
+dep(B-2, function-6)
+case(ocean-9, of-7)
+det(ocean-9, the-8)
+nmod:of(B-2, ocean-9)
+case(Taiwan-11, around-10)
+nmod:around(ocean-9, Taiwan-11)
+root(ROOT-0, is-12)
+mark(enjoy-16, for-13)
+nsubj(enjoy-16, us-14)
+mark(enjoy-16, to-15)
+advcl(is-12, enjoy-16)
+nmod:poss(scenery-19, its-17)
+amod(scenery-19, breathtaking-18)
+dobj(enjoy-16, scenery-19)
+cc(scenery-19, and-20)
+nmod:poss(activities-23, its-21)
+amod(activities-23, outdoor-22)
+dobj(enjoy-16, activities-23)
+conj:and(scenery-19, activities-23)
+
+(ROOT
+  (S
+    (NP (-LRB- -LRB-) (NNP C) (-RRB- -RRB-))
+    (NP (PRP We))
+    (VP (MD should)
+      (ADVP (RB only))
+      (VP (VB enforce)
+        (S
+          (NP (NNS laws))
+          (VP (TO to)
+            (VP (VB protect)
+              (NP (DT the) (JJ beautiful) (NN ocean))
+              (PP (IN around)
+                (NP (NNP Taiwan))))))))
+    (. .)))
+
+nsubj(enforce-7, C-2)
+nsubj(enforce-7, We-4)
+aux(enforce-7, should-5)
+advmod(enforce-7, only-6)
+root(ROOT-0, enforce-7)
+dobj(enforce-7, laws-8)
+nsubj(protect-10, laws-8)
+mark(protect-10, to-9)
+xcomp(enforce-7, protect-10)
+det(ocean-13, the-11)
+amod(ocean-13, beautiful-12)
+dobj(protect-10, ocean-13)
+case(Taiwan-15, around-14)
+nmod:around(protect-10, Taiwan-15)
+
+(ROOT
+  (NP
+    (NP (NNP II) (NNP Reading))
+    (PP (IN for)
+      (NP (NNS Details)))
+    (. .)))
+
+compound(Reading-2, II-1)
+root(ROOT-0, Reading-2)
+case(Details-4, for-3)
+nmod:for(Reading-2, Details-4)
+
+(ROOT
+  (S
+    (VP (VB Decide)
+      (SBAR (IN whether)
+        (S
+          (NP (DT the) (NNS statements))
+          (VP (VBP are)
+            (ADJP
+              (ADJP
+                (ADJP (JJ true))
+                (PRN (-LRB- -LRB-)
+                  (NP (NNP T))
+                  (-RRB- -RRB-)))
+              (CC or)
+              (ADJP
+                (ADJP (JJ false))
+                (PRN (-LRB- -LRB-)
+                  (NP (NNP F))
+                  (-RRB- -RRB-))))
+            (PP (VBG according)
+              (PP (TO to)
+                (NP (DT the) (NN reading) (NN selection))))))))
+    (. .)))
+
+root(ROOT-0, Decide-1)
+mark(true-6, whether-2)
+det(statements-4, the-3)
+nsubj(true-6, statements-4)
+nsubj(false-11, statements-4)
+cop(true-6, are-5)
+ccomp(Decide-1, true-6)
+dep(true-6, T-8)
+cc(true-6, or-10)
+ccomp(Decide-1, false-11)
+conj:or(true-6, false-11)
+dep(false-11, F-13)
+case(selection-19, according-15)
+mwe(according-15, to-16)
+det(selection-19, the-17)
+compound(selection-19, reading-18)
+nmod:according_to(true-6, selection-19)
+
+(ROOT
+  (S
+    (SBAR
+      (WHADVP (WRB When))
+      (S
+        (NP (PRP we))
+        (VP (VBP are)
+          (VP (VBG driving)
+            (PP (IN along)
+              (NP
+                (NP (NNP Taiwan) (POS 's))
+                (JJ coastal) (NNS highways)))))))
+    (, ,)
+    (NP (PRP we))
+    (VP (MD can)
+      (VP (VB see)
+        (NP
+          (NP (JJ beautiful) (NN scenery))
+          (SBAR
+            (WHNP (WDT that))
+            (S
+              (VP (VBZ includes)
+                (NP
+                  (NP (DT the) (NNS rocks))
+                  (, ,)
+                  (NP (NNS bays))
+                  (, ,)
+                  (CC and)
+                  (NP (NNS capes)))))))))
+    (. .)))
+
+advmod(driving-4, When-1)
+nsubj(driving-4, we-2)
+aux(driving-4, are-3)
+advcl(see-13, driving-4)
+case(highways-9, along-5)
+nmod:poss(highways-9, Taiwan-6)
+case(Taiwan-6, 's-7)
+amod(highways-9, coastal-8)
+nmod:along(driving-4, highways-9)
+nsubj(see-13, we-11)
+aux(see-13, can-12)
+root(ROOT-0, see-13)
+amod(scenery-15, beautiful-14)
+dobj(see-13, scenery-15)
+nsubj(includes-17, scenery-15)
+ref(scenery-15, that-16)
+acl:relcl(scenery-15, includes-17)
+det(rocks-19, the-18)
+dobj(includes-17, rocks-19)
+dobj(includes-17, bays-21)
+conj:and(rocks-19, bays-21)
+cc(rocks-19, and-23)
+dobj(includes-17, capes-24)
+conj:and(rocks-19, capes-24)
+
+(ROOT
+  (S
+    (NP
+      (NP (JJ Illegal) (NN fishing))
+      (CONJP (RB as) (RB well) (IN as))
+      (NP
+        (NP (JJ industrial) (NN waste))
+        (CC and)
+        (NP (NNS chemicals))))
+    (VP (VBZ is)
+      (ADVP (RB now))
+      (VP (VBG ruining)
+        (NP (DT the) (JJ beautiful) (NN ocean))
+        (PP (IN around)
+          (NP (NNP Taiwan)))))
+    (. .)))
+
+amod(fishing-2, Illegal-1)
+nsubj(ruining-12, fishing-2)
+cc(fishing-2, as-3)
+mwe(as-3, well-4)
+mwe(as-3, as-5)
+amod(waste-7, industrial-6)
+conj:and(fishing-2, waste-7)
+nsubj(ruining-12, waste-7)
+cc(waste-7, and-8)
+conj:and(fishing-2, chemicals-9)
+conj:and(waste-7, chemicals-9)
+aux(ruining-12, is-10)
+advmod(ruining-12, now-11)
+root(ROOT-0, ruining-12)
+det(ocean-15, the-13)
+amod(ocean-15, beautiful-14)
+dobj(ruining-12, ocean-15)
+case(Taiwan-17, around-16)
+nmod:around(ruining-12, Taiwan-17)
+
+(ROOT
+  (S
+    (NP (DT The) (NNP Penghu) (NNPS Islands))
+    (VP (VBD were)
+      (VP (VBN chosen)
+        (S
+          (VP (TO to)
+            (VP (VB be)
+              (NP
+                (NP (DT the) (NN site))
+                (PP (IN of)
+                  (NP
+                    (NP (DT the) (JJ first) (NNP Marine) (NNP National) (NNP Park))
+                    (PP (IN in)
+                      (NP (NNP Taiwan)))))))))))
+    (. .)))
+
+det(Islands-3, The-1)
+compound(Islands-3, Penghu-2)
+nsubjpass(chosen-5, Islands-3)
+nsubj(site-9, Islands-3)
+auxpass(chosen-5, were-4)
+root(ROOT-0, chosen-5)
+mark(site-9, to-6)
+cop(site-9, be-7)
+det(site-9, the-8)
+xcomp(chosen-5, site-9)
+case(Park-15, of-10)
+det(Park-15, the-11)
+amod(Park-15, first-12)
+compound(Park-15, Marine-13)
+compound(Park-15, National-14)
+nmod:of(site-9, Park-15)
+case(Taiwan-17, in-16)
+nmod:in(Park-15, Taiwan-17)
+
+(ROOT
+  (S
+    (PP (IN After)
+      (NP
+        (NP (DT the) (NN government))
+        (VP (VBN established)
+          (NP (DT the) (NNP Marine) (NNP National) (NNP Park) (NN Headquarters)))))
+    (, ,)
+    (NP (PRP we))
+    (VP (VBD had)
+      (S
+        (NP
+          (NP (JJR fewer) (JJ powerful) (NN patrol) (NNS ships))
+          (CC and)
+          (NP (JJR less) (NN manpower)))
+        (VP (TO to)
+          (VP (VB guard)
+            (NP (DT these) (NNS islands))))))
+    (. .)))
+
+case(government-3, After-1)
+det(government-3, the-2)
+nmod:after(had-12, government-3)
+acl(government-3, established-4)
+det(Headquarters-9, the-5)
+compound(Headquarters-9, Marine-6)
+compound(Headquarters-9, National-7)
+compound(Headquarters-9, Park-8)
+dobj(established-4, Headquarters-9)
+nsubj(had-12, we-11)
+root(ROOT-0, had-12)
+amod(ships-16, fewer-13)
+amod(ships-16, powerful-14)
+compound(ships-16, patrol-15)
+dobj(had-12, ships-16)
+cc(ships-16, and-17)
+amod(manpower-19, less-18)
+dobj(had-12, manpower-19)
+conj:and(ships-16, manpower-19)
+mark(guard-21, to-20)
+ccomp(had-12, guard-21)
+det(islands-23, these-22)
+dobj(guard-21, islands-23)
+
+(ROOT
+  (S
+    (SBAR (IN If)
+      (S
+        (NP (EX there))
+        (VP (VBP are)
+          (NP
+            (NP (NNS dolphins))
+            (VP (VBN stranded)
+              (PP (IN on)
+                (NP (DT the) (NN shore))))))))
+    (, ,)
+    (NP (NNS fishermen))
+    (VP (MD will)
+      (VP (VB kill)
+        (NP (PRP them))))
+    (. .)))
+
+mark(are-3, If-1)
+expl(are-3, there-2)
+advcl(kill-12, are-3)
+nsubj(are-3, dolphins-4)
+acl(dolphins-4, stranded-5)
+case(shore-8, on-6)
+det(shore-8, the-7)
+nmod:on(stranded-5, shore-8)
+nsubj(kill-12, fishermen-10)
+aux(kill-12, will-11)
+root(ROOT-0, kill-12)
+dobj(kill-12, them-13)
+
+(ROOT
+  (S
+    (VP (VBG Thinking)
+      (ADVP (RB Further))
+      (PP (IN about)
+        (NP (DT the) (NNP Topic))))
+    (. .)))
+
+root(ROOT-0, Thinking-1)
+advmod(Thinking-1, Further-2)
+case(Topic-5, about-3)
+det(Topic-5, the-4)
+nmod:about(Thinking-1, Topic-5)
+
+(ROOT
+  (SBARQ
+    (WHADVP (WRB How))
+    (SQ (MD can)
+      (NP (PRP we))
+      (VP (VB stop)
+        (NP (NN overfishing))))
+    (. ?)))
+
+advmod(stop-4, How-1)
+aux(stop-4, can-2)
+nsubj(stop-4, we-3)
+root(ROOT-0, stop-4)
+dobj(stop-4, overfishing-5)
+
+(ROOT
+  (SBARQ
+    (WHNP (WP What))
+    (SQ (VBP are)
+      (NP
+        (NP (DT the) (NNS actions))
+        (SBAR
+          (WHNP (WDT that))
+          (S
+            (VP (MD can)
+              (VP (VB be)
+                (VP (VBN taken)
+                  (ADVP (RB immediately)))))))))
+    (. ?)))
+
+root(ROOT-0, What-1)
+cop(What-1, are-2)
+det(actions-4, the-3)
+nsubj(What-1, actions-4)
+nsubjpass(taken-8, actions-4)
+ref(actions-4, that-5)
+aux(taken-8, can-6)
+auxpass(taken-8, be-7)
+acl:relcl(actions-4, taken-8)
+advmod(taken-8, immediately-9)
+
+(ROOT
+  (SBARQ
+    (WHADVP (WRB How))
+    (SQ (MD can)
+      (NP
+        (NP (CD one) (NN person) (POS 's))
+        (NNS actions))
+      (VP (VB change)
+        (NP (DT the) (NN world))))
+    (. ?)))
+
+advmod(change-7, How-1)
+aux(change-7, can-2)
+nummod(person-4, one-3)
+nmod:poss(actions-6, person-4)
+case(person-4, 's-5)
+nsubj(change-7, actions-6)
+root(ROOT-0, change-7)
+det(world-9, the-8)
+dobj(change-7, world-9)
+
+(ROOT
+  (S
+    (VP (VB Give)
+      (NP (DT an) (NN example)
+        (S
+          (VP (TO to)
+            (VP (VB support)
+              (NP (PRP$ your) (NN opinion)))))))
+    (. .)))
+
+root(ROOT-0, Give-1)
+det(example-3, an-2)
+dobj(Give-1, example-3)
+mark(support-5, to-4)
+acl(example-3, support-5)
+nmod:poss(opinion-7, your-6)
+dobj(support-5, opinion-7)
+

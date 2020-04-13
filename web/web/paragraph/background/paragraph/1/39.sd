@@ -1,0 +1,919 @@
+(ROOT
+  (NP
+    (NP (DT A) (NNP Prescription))
+    (PP (IN for)
+      (NP (NNP Mozart)))
+    (. .)))
+
+det(Prescription-2, A-1)
+root(ROOT-0, Prescription-2)
+case(Mozart-4, for-3)
+nmod:for(Prescription-2, Mozart-4)
+
+(ROOT
+  (S
+    (VP (VB Imagine)
+      (S
+        (VP (VBG going)
+          (PP (TO to)
+            (NP (PRP$ your) (NN doctor)))
+          (PP (IN with)
+            (NP (DT a) (NN headache))))))
+    (. .)))
+
+root(ROOT-0, Imagine-1)
+xcomp(Imagine-1, going-2)
+case(doctor-5, to-3)
+nmod:poss(doctor-5, your-4)
+nmod:to(going-2, doctor-5)
+case(headache-8, with-6)
+det(headache-8, a-7)
+nmod:with(going-2, headache-8)
+
+(ROOT
+  (S
+    (NP (PRP$ Your) (NN doctor))
+    (VP (VBZ gives)
+      (NP (PRP you))
+      (NP (DT a) (NN prescription)))
+    (. .)))
+
+nmod:poss(doctor-2, Your-1)
+nsubj(gives-3, doctor-2)
+root(ROOT-0, gives-3)
+iobj(gives-3, you-4)
+det(prescription-6, a-5)
+dobj(gives-3, prescription-6)
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ is)
+      (PP (RB not)
+        (PP (IN for)
+          (NP (NN aspirin)))
+        (, ,)
+        (CC but)
+        (PP (IN for)
+          (NP (NNP Mozart)))))
+    (. .)))
+
+nsubj(aspirin-5, It-1)
+cop(aspirin-5, is-2)
+neg(aspirin-5, not-3)
+case(aspirin-5, for-4)
+root(ROOT-0, aspirin-5)
+cc(aspirin-5, but-7)
+case(Mozart-9, for-8)
+conj:but(aspirin-5, Mozart-9)
+
+(ROOT
+  (S
+    (NP
+      (NP (JJ Many) (NNS kinds))
+      (PP (IN of)
+        (NP (NN music))))
+    (VP (MD can)
+      (VP (VB produce)
+        (NP (JJ strong) (NNS feelings))))
+    (. .)))
+
+amod(kinds-2, Many-1)
+nsubj(produce-6, kinds-2)
+case(music-4, of-3)
+nmod:of(kinds-2, music-4)
+aux(produce-6, can-5)
+root(ROOT-0, produce-6)
+amod(feelings-8, strong-7)
+dobj(produce-6, feelings-8)
+
+(ROOT
+  (S
+    (PP (IN For)
+      (NP (DT some) (NNS people)))
+    (, ,)
+    (NP (JJ romantic) (NN music))
+    (VP (VBZ brings)
+      (NP
+        (NP (NNS feelings))
+        (PP (IN of)
+          (NP (NN love)))))
+    (. .)))
+
+case(people-3, For-1)
+det(people-3, some-2)
+nmod:for(brings-7, people-3)
+amod(music-6, romantic-5)
+nsubj(brings-7, music-6)
+root(ROOT-0, brings-7)
+dobj(brings-7, feelings-8)
+case(love-10, of-9)
+nmod:of(feelings-8, love-10)
+
+(ROOT
+  (S
+    (NP (JJ Spiritual) (NN music))
+    (VP (MD can)
+      (VP (VB help)
+        (S
+          (NP (DT some) (NNS people))
+          (VP (VB feel)
+            (NP (NN peace))))))
+    (. .)))
+
+amod(music-2, Spiritual-1)
+nsubj(help-4, music-2)
+aux(help-4, can-3)
+root(ROOT-0, help-4)
+det(people-6, some-5)
+nsubj(feel-7, people-6)
+ccomp(help-4, feel-7)
+dobj(feel-7, peace-8)
+
+(ROOT
+  (S (CC But)
+    (NP
+      (NP (CD one) (NN musician))
+      (PP (IN in)
+        (NP (NN particular))))
+    (VP (VBZ seems)
+      (S
+        (VP (TO to)
+          (VP (VB have)
+            (NP (DT an) (NN ability)
+              (S
+                (VP (TO to)
+                  (VP (VB heal)
+                    (NP
+                      (NP (DT the) (JJ human) (NN body))
+                      (: :)
+                      (NP (NNP Wolfgang) (NNPS Amadeus) (NNP Mozart)))))))))))
+    (. .)))
+
+cc(seems-6, But-1)
+nummod(musician-3, one-2)
+nsubj(seems-6, musician-3)
+nsubj(have-8, musician-3)
+case(particular-5, in-4)
+nmod:in(musician-3, particular-5)
+root(ROOT-0, seems-6)
+mark(have-8, to-7)
+xcomp(seems-6, have-8)
+det(ability-10, an-9)
+dobj(have-8, ability-10)
+mark(heal-12, to-11)
+acl(ability-10, heal-12)
+det(body-15, the-13)
+amod(body-15, human-14)
+dobj(heal-12, body-15)
+compound(Mozart-19, Wolfgang-17)
+compound(Mozart-19, Amadeus-18)
+dep(body-15, Mozart-19)
+
+(ROOT
+  (S
+    (NP (NNS Scientists))
+    (VP (VBP have)
+      (VP (VBN found)
+        (NP (NNP Mozarts) (NN music))
+        (S
+          (VP (TO to)
+            (VP (VB be)
+              (ADJP (JJ able)
+                (S
+                  (VP (TO to)
+                    (VP (VB calm)
+                      (NP (PRP$ its) (NNS listeners)))))))))))
+    (. .)))
+
+nsubj(found-3, Scientists-1)
+aux(found-3, have-2)
+root(ROOT-0, found-3)
+compound(music-5, Mozarts-4)
+dobj(found-3, music-5)
+mark(able-8, to-6)
+cop(able-8, be-7)
+advcl(found-3, able-8)
+mark(calm-10, to-9)
+xcomp(able-8, calm-10)
+nmod:poss(listeners-12, its-11)
+dobj(calm-10, listeners-12)
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (MD can)
+      (ADVP (RB also))
+      (VP (VB help)
+        (S
+          (NP (PRP them))
+          (VP (VB express)
+            (NP (PRP themselves))
+            (ADVP (RB clearly))))))
+    (. .)))
+
+nsubj(help-4, It-1)
+aux(help-4, can-2)
+advmod(help-4, also-3)
+root(ROOT-0, help-4)
+nsubj(express-6, them-5)
+ccomp(help-4, express-6)
+dobj(express-6, themselves-7)
+advmod(express-6, clearly-8)
+
+(ROOT
+  (S
+    (NP
+      (NP (JJ Many) (NNS cases))
+      (SBAR
+        (WHPP (IN in)
+          (WHNP (WDT which)))
+        (S
+          (NP (NNP Mozart))
+          (VP (VBZ is)
+            (VP (VBN used)
+              (PP (IN as)
+                (NP (DT a) (NN healing) (NN aid))))))))
+    (VP (VBP have)
+      (VP (VBN been)
+        (VP (VBN reported))))
+    (. .)))
+
+amod(cases-2, Many-1)
+nmod:in(used-7, cases-2)
+nsubjpass(reported-14, cases-2)
+case(which-4, in-3)
+ref(cases-2, which-4)
+nsubjpass(used-7, Mozart-5)
+auxpass(used-7, is-6)
+acl:relcl(cases-2, used-7)
+case(aid-11, as-8)
+det(aid-11, a-9)
+compound(aid-11, healing-10)
+nmod:as(used-7, aid-11)
+aux(reported-14, have-12)
+auxpass(reported-14, been-13)
+root(ROOT-0, reported-14)
+
+(ROOT
+  (S
+    (PP (IN For)
+      (NP (NN example)))
+    (, ,)
+    (NP (DT a) (JJ premature) (NN baby))
+    (VP (VBD named)
+      (SBAR
+        (S
+          (NP
+            (NP (NNP Krissy))
+            (, ,)
+            (SBAR
+              (WHNP (WP who))
+              (S
+                (VP (VBD weighed)
+                  (ADVP (RB just)
+                    (NP
+                      (QP (CD one)
+                        (CC and)
+                        (DT a) (NN half))
+                      (NNS pounds))))))
+            (, ,))
+          (VP (VBD was)
+            (PP (IN on)
+              (NP (JJ total) (NN life) (NN support)))))))
+    (. .)))
+
+case(example-2, For-1)
+nmod:for(named-7, example-2)
+det(baby-6, a-4)
+amod(baby-6, premature-5)
+nsubj(named-7, baby-6)
+root(ROOT-0, named-7)
+nsubj(weighed-11, Krissy-8)
+nsubj(support-23, Krissy-8)
+ref(Krissy-8, who-10)
+acl:relcl(Krissy-8, weighed-11)
+advmod(weighed-11, just-12)
+nummod(pounds-17, one-13)
+cc(one-13, and-14)
+det(half-16, a-15)
+conj:and(one-13, half-16)
+nummod(pounds-17, half-16)
+nmod:npmod(just-12, pounds-17)
+cop(support-23, was-19)
+case(support-23, on-20)
+amod(support-23, total-21)
+compound(support-23, life-22)
+ccomp(named-7, support-23)
+
+(ROOT
+  (S
+    (NP (NNS Doctors))
+    (VP (VBD thought)
+      (SBAR
+        (S
+          (NP (PRP she))
+          (VP (VBD had)
+            (NP (JJ little) (NN chance)
+              (S
+                (VP (TO to)
+                  (VP (VB live)))))))))
+    (. .)))
+
+nsubj(thought-2, Doctors-1)
+root(ROOT-0, thought-2)
+nsubj(had-4, she-3)
+ccomp(thought-2, had-4)
+amod(chance-6, little-5)
+dobj(had-4, chance-6)
+mark(live-8, to-7)
+acl(chance-6, live-8)
+
+(ROOT
+  (S (CC But)
+    (NP (PRP$ her) (NN mother))
+    (VP
+      (VP (VBD kept)
+        (S
+          (VP (VBG playing)
+            (NP
+              (NP (NNP Mozart))
+              (PP (IN for)
+                (NP (NNP Krissy)))))))
+      (CC and)
+      (VP (VBD thought)
+        (SBAR
+          (S
+            (NP (PRP it))
+            (VP (MD might)
+              (VP (VB save)
+                (NP (PRP$ her) (NNS daughters) (NN life))))))))
+    (. .)))
+
+cc(kept-4, But-1)
+nmod:poss(mother-3, her-2)
+nsubj(kept-4, mother-3)
+nsubj(thought-10, mother-3)
+root(ROOT-0, kept-4)
+xcomp(kept-4, playing-5)
+dobj(playing-5, Mozart-6)
+case(Krissy-8, for-7)
+nmod:for(Mozart-6, Krissy-8)
+cc(kept-4, and-9)
+conj:and(kept-4, thought-10)
+nsubj(save-13, it-11)
+aux(save-13, might-12)
+ccomp(thought-10, save-13)
+nmod:poss(life-16, her-14)
+compound(life-16, daughters-15)
+dobj(save-13, life-16)
+
+(ROOT
+  (S
+    (PP (TO To)
+      (NP (PRP$ their) (NN surprise)))
+    (, ,)
+    (S
+      (NP (NNP Krissy))
+      (VP (VBD lived)))
+    (, ,)
+    (CC and)
+    (S
+      (PP (IN at)
+        (NP
+          (NP (DT the) (NN age))
+          (PP (IN of)
+            (NP (CD four)))))
+      (NP (PRP she))
+      (VP (VBD showed)
+        (NP (DT an) (NN interest))
+        (PP (IN in)
+          (NP (NN music)))))
+    (. .)))
+
+case(surprise-3, To-1)
+nmod:poss(surprise-3, their-2)
+nmod:to(lived-6, surprise-3)
+nsubj(lived-6, Krissy-5)
+root(ROOT-0, lived-6)
+cc(lived-6, and-8)
+case(age-11, at-9)
+det(age-11, the-10)
+nmod:at(showed-15, age-11)
+case(four-13, of-12)
+nmod:of(age-11, four-13)
+nsubj(showed-15, she-14)
+conj:and(lived-6, showed-15)
+det(interest-17, an-16)
+dobj(showed-15, interest-17)
+case(music-19, in-18)
+nmod:in(showed-15, music-19)
+
+(ROOT
+  (S
+    (NP (NNP Krissy))
+    (VP (VBD was)
+      (ADJP (JJ able)
+        (S
+          (VP (TO to)
+            (VP (VB play)
+              (NP (JJ musical) (NNS pieces))
+              (PP (IN from)
+                (NP
+                  (NP (NN memory))
+                  (SBAR
+                    (WHNP (WDT that))
+                    (S
+                      (VP (VBD were)
+                        (ADVP (RB far)
+                          (PP (IN beyond)
+                            (NP
+                              (NP (DT the) (NN ability))
+                              (PP (IN of)
+                                (NP (DT an) (JJ average) (NN four-year-old))))))))))))))))
+    (. .)))
+
+nsubj(able-3, Krissy-1)
+nsubj(play-5, Krissy-1)
+cop(able-3, was-2)
+root(ROOT-0, able-3)
+mark(play-5, to-4)
+xcomp(able-3, play-5)
+amod(pieces-7, musical-6)
+dobj(play-5, pieces-7)
+case(memory-9, from-8)
+nmod:from(play-5, memory-9)
+nsubj(were-11, memory-9)
+ref(memory-9, that-10)
+acl:relcl(memory-9, were-11)
+advmod(were-11, far-12)
+case(ability-15, beyond-13)
+det(ability-15, the-14)
+nmod:beyond(far-12, ability-15)
+case(four-year-old-19, of-16)
+det(four-year-old-19, an-17)
+amod(four-year-old-19, average-18)
+nmod:of(ability-15, four-year-old-19)
+
+(ROOT
+  (S
+    (NP (JJ Other) (NNS stories))
+    (ADVP (RB also))
+    (VP (VBP show)
+      (NP
+        (NP (DT the) (NN effect))
+        (PP (IN of)
+          (NP (NNP Mozarts) (NN music)))))
+    (. .)))
+
+amod(stories-2, Other-1)
+nsubj(show-4, stories-2)
+advmod(show-4, also-3)
+root(ROOT-0, show-4)
+det(effect-6, the-5)
+dobj(show-4, effect-6)
+case(music-9, of-7)
+compound(music-9, Mozarts-8)
+nmod:of(effect-6, music-9)
+
+(ROOT
+  (S
+    (NP
+      (NP (NNS Officials))
+      (PP (IN in)
+        (NP (NNP Washington) (NNP State))))
+    (VP (VBP report)
+      (SBAR (IN that)
+        (S
+          (NP
+            (NP (NNS newcomers))
+            (PP (IN from)
+              (NP (NNP Asia))))
+          (VP (VBP learn)
+            (S
+              (NP (NNP English))
+              (ADJP (JJR more))
+              (SBAR
+                (WHADVP (RB quickly) (WRB when))
+                (S
+                  (NP (PRP they))
+                  (VP (VBP listen)
+                    (PP (TO to)
+                      (NP (NNP Mozart)))))))))))
+    (. .)))
+
+nsubj(report-5, Officials-1)
+case(State-4, in-2)
+compound(State-4, Washington-3)
+nmod:in(Officials-1, State-4)
+root(ROOT-0, report-5)
+mark(learn-10, that-6)
+nsubj(learn-10, newcomers-7)
+case(Asia-9, from-8)
+nmod:from(newcomers-7, Asia-9)
+ccomp(report-5, learn-10)
+nsubj(listen-16, English-11)
+dep(listen-16, more-12)
+advmod(when-14, quickly-13)
+advmod(listen-16, when-14)
+nsubj(listen-16, they-15)
+xcomp(learn-10, listen-16)
+case(Mozart-18, to-17)
+nmod:to(listen-16, Mozart-18)
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (NNP Canada)))
+    (, ,)
+    (NP (PRP it))
+    (VP (VBZ seems)
+      (SBAR (IN that)
+        (S
+          (NP
+            (NP (NNP Mozart) (NN string) (NNS quartets))
+            (VP (VBG performing)
+              (PP (IN in)
+                (NP (NN city) (NNS squares)))))
+          (VP (MD can)
+            (VP (VB calm)
+              (NP (JJ pedestrian) (NN traffic)))))))
+    (. .)))
+
+case(Canada-2, In-1)
+nmod:in(seems-5, Canada-2)
+nsubj(seems-5, it-4)
+root(ROOT-0, seems-5)
+mark(calm-15, that-6)
+compound(quartets-9, Mozart-7)
+compound(quartets-9, string-8)
+nsubj(calm-15, quartets-9)
+acl(quartets-9, performing-10)
+case(squares-13, in-11)
+compound(squares-13, city-12)
+nmod:in(performing-10, squares-13)
+aux(calm-15, can-14)
+ccomp(seems-5, calm-15)
+amod(traffic-17, pedestrian-16)
+dobj(calm-15, traffic-17)
+
+(ROOT
+  (S
+    (NP (RB Even) (NNS animals))
+    (VP (VBP respond)
+      (PP (TO to)
+        (NP (NNP Mozart))))
+    (. .)))
+
+advmod(animals-2, Even-1)
+nsubj(respond-3, animals-2)
+root(ROOT-0, respond-3)
+case(Mozart-5, to-4)
+nmod:to(respond-3, Mozart-5)
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (NNP France)))
+    (, ,)
+    (NP (NNS cows))
+    (VP (VBP give)
+      (NP (JJR more) (NN milk))
+      (SBAR
+        (WHADVP (WRB when))
+        (S
+          (NP (PRP they))
+          (VP (VBP listen)
+            (PP (TO to)
+              (NP (NNP Mozart)))))))
+    (. .)))
+
+case(France-2, In-1)
+nmod:in(give-5, France-2)
+nsubj(give-5, cows-4)
+root(ROOT-0, give-5)
+amod(milk-7, more-6)
+dobj(give-5, milk-7)
+advmod(listen-10, when-8)
+nsubj(listen-10, they-9)
+advcl(give-5, listen-10)
+case(Mozart-12, to-11)
+nmod:to(listen-10, Mozart-12)
+
+(ROOT
+  (NP
+    (NP (NNP Why) (NNP Mozart))
+    (PRN (, ,) (RB not)
+      (NP
+        (NP (NNP Bach))
+        (CC or)
+        (NP (DT the) (NNS Beatles))))
+    (. ?)))
+
+compound(Mozart-2, Why-1)
+root(ROOT-0, Mozart-2)
+dep(Bach-5, not-4)
+dep(Mozart-2, Bach-5)
+cc(Bach-5, or-6)
+det(Beatles-8, the-7)
+dep(Mozart-2, Beatles-8)
+conj:or(Bach-5, Beatles-8)
+
+(ROOT
+  (S
+    (NP
+      (NP (DT Any) (NN kind))
+      (PP (IN of)
+        (NP (NN music))))
+    (VP (MD can)
+      (VP (VB have)
+        (NP
+          (NP (DT an) (NN effect))
+          (PP (IN on)
+            (NP (DT some) (NNS people))))))
+    (. .)))
+
+det(kind-2, Any-1)
+nsubj(have-6, kind-2)
+case(music-4, of-3)
+nmod:of(kind-2, music-4)
+aux(have-6, can-5)
+root(ROOT-0, have-6)
+det(effect-8, an-7)
+dobj(have-6, effect-8)
+case(people-11, on-9)
+det(people-11, some-10)
+nmod:on(effect-8, people-11)
+
+(ROOT
+  (S (CC But)
+    (NP (NNP Mozart))
+    (VP (VBZ has)
+      (NP (JJR more) (NN balance))
+      (ADVP (IN than) (RBS most)))
+    (. .)))
+
+cc(has-3, But-1)
+nsubj(has-3, Mozart-2)
+root(ROOT-0, has-3)
+amod(balance-5, more-4)
+dobj(has-3, balance-5)
+case(most-7, than-6)
+advmod(has-3, most-7)
+
+(ROOT
+  (S
+    (S
+      (NP (PRP It))
+      (VP (VBZ is) (RB not)
+        (ADJP
+          (ADJP (RB too) (JJ fast))
+          (CC or)
+          (ADJP (RB too) (JJ slow)))))
+    (: ;)
+    (S
+      (NP (PRP it))
+      (VP (VBZ is)
+        (ADJP (RB just) (JJ right))))
+    (. .)))
+
+nsubj(fast-5, It-1)
+nsubj(slow-8, It-1)
+cop(fast-5, is-2)
+neg(fast-5, not-3)
+advmod(fast-5, too-4)
+root(ROOT-0, fast-5)
+cc(fast-5, or-6)
+advmod(slow-8, too-7)
+conj:or(fast-5, slow-8)
+nsubj(right-13, it-10)
+cop(right-13, is-11)
+advmod(right-13, just-12)
+parataxis(fast-5, right-13)
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP Don) (NNP Campbell))
+      (, ,)
+      (NP
+        (NP (NN writer))
+        (PP (IN of)
+          (NP (DT The) (NNP Mozart) (NN Effect))))
+      (, ,))
+    (VP (VBZ says) (, ,)
+      (S
+        (NP (PRP$ Its))
+        (PP (IN like)
+          (NP (NN food)))))
+    (. .)))
+
+compound(Campbell-2, Don-1)
+nsubj(says-10, Campbell-2)
+appos(Campbell-2, writer-4)
+case(Effect-8, of-5)
+det(Effect-8, The-6)
+compound(Effect-8, Mozart-7)
+nmod:of(writer-4, Effect-8)
+root(ROOT-0, says-10)
+xcomp(says-10, Its-12)
+case(food-14, like-13)
+dep(Its-12, food-14)
+
+(ROOT
+  (S
+    (NP (DT A) (JJ hot) (NN spicy) (NN meal))
+    (VP (MD will)
+      (VP (VB affect)
+        (NP (PRP you))
+        (ADVP (RB differently))
+        (PP (IN than)
+          (NP (DT a) (JJ sweet) (NN dessert)))))
+    (. .)))
+
+det(meal-4, A-1)
+amod(meal-4, hot-2)
+compound(meal-4, spicy-3)
+nsubj(affect-6, meal-4)
+aux(affect-6, will-5)
+root(ROOT-0, affect-6)
+dobj(affect-6, you-7)
+advmod(affect-6, differently-8)
+case(dessert-12, than-9)
+det(dessert-12, a-10)
+amod(dessert-12, sweet-11)
+nmod:than(affect-6, dessert-12)
+
+(ROOT
+  (S
+    (SBAR (IN While)
+      (S
+        (NP (PRP you))
+        (VP (MD might)
+          (VP (VB love)
+            (NP (DT these) (NNS foods))))))
+    (, ,)
+    (NP (PRP they))
+    (VP (VBD arent)
+      (ADJP (JJ good))
+      (SBAR (IN for)
+        (S
+          (NP (PRP you))
+          (VP (TO to)
+            (VP (VB eat)
+              (NP (DT every) (NN day)))))))
+    (. .)))
+
+mark(love-4, While-1)
+nsubj(love-4, you-2)
+aux(love-4, might-3)
+advcl(arent-9, love-4)
+det(foods-6, these-5)
+dobj(love-4, foods-6)
+nsubj(arent-9, they-8)
+root(ROOT-0, arent-9)
+xcomp(arent-9, good-10)
+mark(eat-14, for-11)
+nsubj(eat-14, you-12)
+mark(eat-14, to-13)
+advcl(arent-9, eat-14)
+det(day-16, every-15)
+nmod:tmod(eat-14, day-16)
+
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (VBP need)
+      (NP
+        (NP (JJ simple) (, ,) (JJ nutritious) (NN food))
+        (PP (IN on)
+          (NP (DT a) (JJ steady) (NN basis)))))
+    (. .)))
+
+nsubj(need-2, You-1)
+root(ROOT-0, need-2)
+amod(food-6, simple-3)
+amod(food-6, nutritious-5)
+dobj(need-2, food-6)
+case(basis-10, on-7)
+det(basis-10, a-8)
+amod(basis-10, steady-9)
+nmod:on(food-6, basis-10)
+
+(ROOT
+  (S
+    (NP (NNS Thats))
+    (ADVP
+      (NP (DT the) (NN way))
+      (RB Mozart))
+    (VP (VBZ is))
+    (. .)))
+
+nsubj(is-5, Thats-1)
+det(way-3, the-2)
+nmod:npmod(Mozart-4, way-3)
+advmod(is-5, Mozart-4)
+root(ROOT-0, is-5)
+
+(ROOT
+  (S
+    (NP (PRP$ Its))
+    (VP (VBP like)
+      (NP
+        (NP (DT a) (JJ well-balanced) (NN meal))
+        (SBAR
+          (WHNP (WDT that))
+          (S
+            (VP (VBZ brings)
+              (NP (NN order)
+                (CC and)
+                (NN harmony))
+              (PP (TO to)
+                (NP (PRP$ your) (NN body))))))))
+    (. .)))
+
+nsubj(like-2, Its-1)
+root(ROOT-0, like-2)
+det(meal-5, a-3)
+amod(meal-5, well-balanced-4)
+dobj(like-2, meal-5)
+nsubj(brings-7, meal-5)
+ref(meal-5, that-6)
+acl:relcl(meal-5, brings-7)
+dobj(brings-7, order-8)
+cc(order-8, and-9)
+dobj(brings-7, harmony-10)
+conj:and(order-8, harmony-10)
+case(body-13, to-11)
+nmod:poss(body-13, your-12)
+nmod:to(brings-7, body-13)
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP Vby) (NNP Berish) (, ,) (NNP Linda)
+        (CC and)
+        (NNP Sandra) (NNP Thibaudeau))
+      (, ,)
+      (PP (IN from)
+        (NP
+          (NP (NNP Amazing) (NNP Stories))
+          (PP (TO to)
+            (NP (NNP Tell)
+              (CC and)
+              (NNP Retell)))))
+      (, ,))
+    (VP (VBZ Level)
+      (NP (CD 3)))
+    (. .)))
+
+compound(Thibaudeau-7, Vby-1)
+compound(Thibaudeau-7, Berish-2)
+conj:and(Berish-2, Linda-4)
+compound(Thibaudeau-7, Linda-4)
+cc(Berish-2, and-5)
+conj:and(Berish-2, Sandra-6)
+compound(Thibaudeau-7, Sandra-6)
+nsubj(Level-17, Thibaudeau-7)
+case(Stories-11, from-9)
+compound(Stories-11, Amazing-10)
+nmod:from(Thibaudeau-7, Stories-11)
+case(Tell-13, to-12)
+nmod:to(Stories-11, Tell-13)
+cc(Tell-13, and-14)
+nmod:to(Stories-11, Retell-15)
+conj:and(Tell-13, Retell-15)
+root(ROOT-0, Level-17)
+dobj(Level-17, 3-18)
+
+(ROOT
+  (FRAG
+    (NP (NN Copyright))
+    (. ?)))
+
+root(ROOT-0, Copyright-1)
+
+(ROOT
+  (NP
+    (NP (CD 1999))
+    (PP (IN by)
+      (NP (NNP Houghton) (NNP Mifflin) (NNP Company)))
+    (. .)))
+
+root(ROOT-0, 1999-1)
+case(Company-5, by-2)
+compound(Company-5, Houghton-3)
+compound(Company-5, Mifflin-4)
+nmod:by(1999-1, Company-5)
+
+(ROOT
+  (S
+    (VP (VBN Used)
+      (PP (IN with)
+        (NP (NN permission))))
+    (. .)))
+
+root(ROOT-0, Used-1)
+case(permission-3, with-2)
+nmod:with(Used-1, permission-3)
+

@@ -1,0 +1,966 @@
+(ROOT
+  (NP
+    (NP (DT The) (NN Influence))
+    (PP (IN of)
+      (NP (DT the) (NNP Stars)))
+    (. .)))
+
+det(Influence-2, The-1)
+root(ROOT-0, Influence-2)
+case(Stars-5, of-3)
+det(Stars-5, the-4)
+nmod:of(Influence-2, Stars-5)
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBD was)
+      (NP (DT a) (JJ brand-new) (NN school) (NN year)))
+    (. .)))
+
+nsubj(year-6, It-1)
+cop(year-6, was-2)
+det(year-6, a-3)
+amod(year-6, brand-new-4)
+compound(year-6, school-5)
+root(ROOT-0, year-6)
+
+(ROOT
+  (S
+    (S
+      (VP (VBG Sitting)
+        (PP (IN in)
+          (NP (DT the) (NN homeroom)))))
+    (, ,)
+    (NP (NNP Christine))
+    (VP (VBD was)
+      (VP (VBG looking)
+        (PRT (RP around))
+        (S
+          (VP (TO to)
+            (VP (VB find)
+              (NP
+                (NP (NN someone))
+                (SBAR
+                  (S
+                    (NP (PRP she))
+                    (VP (MD could)
+                      (VP (VB make)
+                        (NP (NNS friends))
+                        (PP (IN with))))))))))))
+    (. .)))
+
+advcl(looking-8, Sitting-1)
+case(homeroom-4, in-2)
+det(homeroom-4, the-3)
+nmod:in(Sitting-1, homeroom-4)
+nsubj(looking-8, Christine-6)
+nsubj(find-11, Christine-6)
+aux(looking-8, was-7)
+root(ROOT-0, looking-8)
+compound:prt(looking-8, around-9)
+mark(find-11, to-10)
+xcomp(looking-8, find-11)
+dobj(find-11, someone-12)
+nsubj(make-15, she-13)
+aux(make-15, could-14)
+acl:relcl(someone-12, make-15)
+dobj(make-15, friends-16)
+nmod(make-15, with-17)
+
+(ROOT
+  (S
+    (ADVP (RB Soon))
+    (NP (PRP she))
+    (VP (VBD noticed)
+      (NP
+        (NP (NNP Josephine))
+        (, ,)
+        (SBAR
+          (WHNP (WP who))
+          (S
+            (VP (VBD was)
+              (ADJP (JJ confident))
+              (SBAR
+                (WHADVP (WRB when))
+                (S
+                  (NP (PRP she))
+                  (VP (VBD answered)
+                    (NP (PRP$ their) (NNS teachers) (NNS questions))))))))))
+    (. .)))
+
+advmod(noticed-3, Soon-1)
+nsubj(noticed-3, she-2)
+root(ROOT-0, noticed-3)
+dobj(noticed-3, Josephine-4)
+nsubj(confident-8, Josephine-4)
+ref(Josephine-4, who-6)
+cop(confident-8, was-7)
+acl:relcl(Josephine-4, confident-8)
+advmod(answered-11, when-9)
+nsubj(answered-11, she-10)
+advcl(confident-8, answered-11)
+nmod:poss(questions-14, their-12)
+compound(questions-14, teachers-13)
+dobj(answered-11, questions-14)
+
+(ROOT
+  (S
+    (NP (NNP Josephine))
+    (ADVP (RB also))
+    (VP (VBD acted)
+      (PP (IN like)
+        (NP (DT a) (NN leader)))
+      (, ,)
+      (S
+        (VP (VBG helping)
+          (S
+            (NP (DT the) (NN teacher))
+            (VP (VB collect)
+              (NP (JJ different) (NNS forms)))))))
+    (. .)))
+
+nsubj(acted-3, Josephine-1)
+advmod(acted-3, also-2)
+root(ROOT-0, acted-3)
+case(leader-6, like-4)
+det(leader-6, a-5)
+nmod:like(acted-3, leader-6)
+xcomp(acted-3, helping-8)
+det(teacher-10, the-9)
+nsubj(collect-11, teacher-10)
+ccomp(helping-8, collect-11)
+amod(forms-13, different-12)
+dobj(collect-11, forms-13)
+
+(ROOT
+  (S
+    (ADVP (RB Later))
+    (, ,)
+    (PP (IN during)
+      (NP (DT the) (NNS students) (NNS introductions)))
+    (, ,)
+    (NP (NNP Linda))
+    (VP (VBD impressed)
+      (NP
+        (NP (NNP Christine))
+        (PP (IN with)
+          (NP (PRP$ her) (NN ability)
+            (S
+              (VP (TO to)
+                (VP (VB make)
+                  (NP (JJ fair) (NNS comments)))))))))
+    (. .)))
+
+advmod(impressed-9, Later-1)
+case(introductions-6, during-3)
+det(introductions-6, the-4)
+compound(introductions-6, students-5)
+nmod:during(impressed-9, introductions-6)
+nsubj(impressed-9, Linda-8)
+root(ROOT-0, impressed-9)
+dobj(impressed-9, Christine-10)
+case(ability-13, with-11)
+nmod:poss(ability-13, her-12)
+nmod:with(Christine-10, ability-13)
+mark(make-15, to-14)
+acl(ability-13, make-15)
+amod(comments-17, fair-16)
+dobj(make-15, comments-17)
+
+(ROOT
+  (S
+    (PP (IN On)
+      (NP (DT the) (JJ other) (NN hand)))
+    (, ,)
+    (SBAR
+      (WHADVP (WRB when))
+      (S
+        (NP (PRP it))
+        (VP (VBD was)
+          (VP (NN time)
+            (S
+              (VP (TO to)
+                (VP (VB vote)
+                  (PP (IN on)
+                    (NP (NN class) (NNS chores))))))))))
+    (, ,)
+    (NP (NNP Christine))
+    (VP (VBD was)
+      (ADJP (JJ surprised)
+        (S
+          (VP (TO to)
+            (VP (VB see)
+              (SBAR
+                (WHADVP (WRB how))
+                (S
+                  (NP
+                    (ADJP (JJ shy)
+                      (CC and)
+                      (JJ indecisive))
+                    (NNP Steven))
+                  (VP (VBD was)))))))))
+    (. .)))
+
+case(hand-4, On-1)
+det(hand-4, the-2)
+amod(hand-4, other-3)
+nmod:on(surprised-18, hand-4)
+advmod(time-9, when-6)
+nsubj(time-9, it-7)
+nsubj(vote-11, it-7)
+aux(time-9, was-8)
+advcl(surprised-18, time-9)
+mark(vote-11, to-10)
+xcomp(time-9, vote-11)
+case(chores-14, on-12)
+compound(chores-14, class-13)
+nmod:on(vote-11, chores-14)
+nsubj(surprised-18, Christine-16)
+nsubj(see-20, Christine-16)
+cop(surprised-18, was-17)
+root(ROOT-0, surprised-18)
+mark(see-20, to-19)
+xcomp(surprised-18, see-20)
+advmod(was-26, how-21)
+amod(Steven-25, shy-22)
+cc(shy-22, and-23)
+conj:and(shy-22, indecisive-24)
+amod(Steven-25, indecisive-24)
+nsubj(was-26, Steven-25)
+ccomp(see-20, was-26)
+
+(ROOT
+  (S
+    (NP (NNP Christine))
+    (VP (VBD wondered)
+      (SBAR (IN whether)
+        (S
+          (NP (PRP she))
+          (VP (MD could)
+            (VP (VB get)
+              (ADVP (RB along) (RB well))
+              (PP (IN with)
+                (NP (PRP him))))))))
+    (. .)))
+
+nsubj(wondered-2, Christine-1)
+root(ROOT-0, wondered-2)
+mark(get-6, whether-3)
+nsubj(get-6, she-4)
+aux(get-6, could-5)
+ccomp(wondered-2, get-6)
+advmod(well-8, along-7)
+advmod(get-6, well-8)
+case(him-10, with-9)
+nmod:with(get-6, him-10)
+
+(ROOT
+  (S
+    (ADVP
+      (NP (DT A) (JJ few) (NNS days))
+      (RB later))
+    (, ,)
+    (NP (NNP Christine))
+    (VP (VBD told)
+      (NP
+        (NP (PRP$ her) (JJR older) (JJ sister) (NNS Jane))
+        (SBAR
+          (WHNP (WP what))
+          (S
+            (NP (PRP she))
+            (VP (VBD had)
+              (VP (VBN noticed)
+                (PP (IN on)
+                  (NP
+                    (NP (DT the) (JJ first) (NN day))
+                    (PP (IN of)
+                      (NP (NN school)))))))))))
+    (. .)))
+
+det(days-3, A-1)
+amod(days-3, few-2)
+nmod:npmod(later-4, days-3)
+advmod(told-7, later-4)
+nsubj(told-7, Christine-6)
+root(ROOT-0, told-7)
+nmod:poss(Jane-11, her-8)
+amod(Jane-11, older-9)
+amod(Jane-11, sister-10)
+dobj(told-7, Jane-11)
+dobj(noticed-15, Jane-11)
+ref(Jane-11, what-12)
+nsubj(noticed-15, she-13)
+aux(noticed-15, had-14)
+acl:relcl(Jane-11, noticed-15)
+case(day-19, on-16)
+det(day-19, the-17)
+amod(day-19, first-18)
+nmod:on(noticed-15, day-19)
+case(school-21, of-20)
+nmod:of(day-19, school-21)
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP Jane))
+      (, ,)
+      (SBAR
+        (WHNP (WP who))
+        (S
+          (VP (VBD had)
+            (VP (VBN been)
+              (ADJP (JJ interested))
+              (PP (IN in)
+                (NP (NN astrology)))
+              (PP (IN since)
+                (S
+                  (VP (VBG entering)
+                    (NP (NN college)))))))))
+      (, ,))
+    (VP (VBD asked)
+      (S
+        (NP (NNP Christine))
+        (VP (TO to)
+          (VP (VB find)
+            (PRT (RP out))
+            (SBAR
+              (WHADVP (WRB when))
+              (S
+                (NP (PRP$ her) (NNS classmates))
+                (VP (VBD were)
+                  (VP (VBN born)))))))))
+    (. .)))
+
+nsubj(interested-6, Jane-1)
+nsubj(asked-13, Jane-1)
+ref(Jane-1, who-3)
+aux(interested-6, had-4)
+cop(interested-6, been-5)
+acl:relcl(Jane-1, interested-6)
+case(astrology-8, in-7)
+nmod:in(interested-6, astrology-8)
+mark(entering-10, since-9)
+advcl(interested-6, entering-10)
+dobj(entering-10, college-11)
+root(ROOT-0, asked-13)
+dobj(asked-13, Christine-14)
+nsubj(find-16, Christine-14)
+mark(find-16, to-15)
+xcomp(asked-13, find-16)
+compound:prt(find-16, out-17)
+advmod(born-22, when-18)
+nmod:poss(classmates-20, her-19)
+nsubjpass(born-22, classmates-20)
+auxpass(born-22, were-21)
+advcl(find-16, born-22)
+
+(ROOT
+  (S
+    (ADVP (RB Then))
+    (, ,)
+    (NP (PRP she))
+    (VP (VBD checked)
+      (PP (IN in)
+        (NP (PRP$ her) (NNS books)))
+      (S
+        (VP (TO to)
+          (VP (VB find)
+            (NP
+              (NP (PRP$ their) (JJ astrological) (NNS signs))
+              (CC and)
+              (NP (DT the) (JJ corresponding) (NN personality) (NNS traits)))))))
+    (. .)))
+
+advmod(checked-4, Then-1)
+nsubj(checked-4, she-3)
+nsubj(find-9, she-3)
+root(ROOT-0, checked-4)
+case(books-7, in-5)
+nmod:poss(books-7, her-6)
+nmod:in(checked-4, books-7)
+mark(find-9, to-8)
+xcomp(checked-4, find-9)
+nmod:poss(signs-12, their-10)
+amod(signs-12, astrological-11)
+dobj(find-9, signs-12)
+cc(signs-12, and-13)
+det(traits-17, the-14)
+amod(traits-17, corresponding-15)
+compound(traits-17, personality-16)
+dobj(find-9, traits-17)
+conj:and(signs-12, traits-17)
+
+(ROOT
+  (S
+    (NP (NNP Josephine))
+    (VP (VBZ is)
+      (NP (DT a) (NNP Leo)))
+    (. .)))
+
+nsubj(Leo-4, Josephine-1)
+cop(Leo-4, is-2)
+det(Leo-4, a-3)
+root(ROOT-0, Leo-4)
+
+(ROOT
+  (S
+    (NP (DT A) (NNP Leo))
+    (VP
+      (VP (VBZ is)
+        (ADJP (RB as) (JJ confident))
+        (PP (IN as)
+          (NP (DT a) (NN lion))))
+      (CC and)
+      (VP (VBZ likes)
+        (S
+          (VP (TO to)
+            (VP (VB be)
+              (NP
+                (NP (DT the) (NN center))
+                (PP (IN of)
+                  (NP (NN attention)))))))))
+    (. .)))
+
+det(Leo-2, A-1)
+nsubj(confident-5, Leo-2)
+nsubj(likes-10, Leo-2)
+nsubj(center-14, Leo-2)
+cop(confident-5, is-3)
+advmod(confident-5, as-4)
+root(ROOT-0, confident-5)
+case(lion-8, as-6)
+det(lion-8, a-7)
+nmod:as(confident-5, lion-8)
+cc(confident-5, and-9)
+conj:and(confident-5, likes-10)
+mark(center-14, to-11)
+cop(center-14, be-12)
+det(center-14, the-13)
+xcomp(likes-10, center-14)
+case(attention-16, of-15)
+nmod:of(center-14, attention-16)
+
+(ROOT
+  (S
+    (NP
+      (NP (NNS People))
+      (VP (VBN born)
+        (PP (IN under)
+          (NP (DT this) (NN sign)))))
+    (VP (VBP are)
+      (NP (JJ excellent) (NNS leaders))
+      (SBAR (IN because)
+        (S
+          (NP (PRP they))
+          (VP (VBP are)
+            (ADJP (JJ systematic))))))
+    (. .)))
+
+nsubj(leaders-8, People-1)
+acl(People-1, born-2)
+case(sign-5, under-3)
+det(sign-5, this-4)
+nmod:under(born-2, sign-5)
+cop(leaders-8, are-6)
+amod(leaders-8, excellent-7)
+root(ROOT-0, leaders-8)
+mark(systematic-12, because-9)
+nsubj(systematic-12, they-10)
+cop(systematic-12, are-11)
+advcl(leaders-8, systematic-12)
+
+(ROOT
+  (S
+    (S
+      (NP (PRP They))
+      (VP (VBP think)
+        (ADJP (RB highly)
+          (PP (IN of)
+            (NP (PRP themselves))))))
+    (, ,)
+    (CC but)
+    (S
+      (NP (PRP they))
+      (VP (VBP are)
+        (ADVP (RB still))
+        (ADJP (JJ willing)
+          (S
+            (VP (TO to)
+              (VP (VB help)
+                (NP
+                  (NP (DT those))
+                  (PP (IN in)
+                    (NP (NN need))))))))))
+    (. .)))
+
+nsubj(think-2, They-1)
+root(ROOT-0, think-2)
+xcomp(think-2, highly-3)
+case(themselves-5, of-4)
+nmod:of(highly-3, themselves-5)
+cc(think-2, but-7)
+nsubj(willing-11, they-8)
+nsubj(help-13, they-8)
+cop(willing-11, are-9)
+advmod(willing-11, still-10)
+conj:but(think-2, willing-11)
+mark(help-13, to-12)
+xcomp(willing-11, help-13)
+dobj(help-13, those-14)
+case(need-16, in-15)
+nmod:in(those-14, need-16)
+
+(ROOT
+  (S
+    (PP (RB Just) (IN like)
+      (NP (NNP Christine)))
+    (, ,)
+    (NP (NNP Josephine))
+    (VP (VBZ is)
+      (ADJP (JJ outgoing)))
+    (. .)))
+
+advmod(Christine-3, Just-1)
+case(Christine-3, like-2)
+nmod:like(outgoing-7, Christine-3)
+nsubj(outgoing-7, Josephine-5)
+cop(outgoing-7, is-6)
+root(ROOT-0, outgoing-7)
+
+(ROOT
+  (S
+    (ADVP (RB Thus))
+    (, ,)
+    (NP (NNP Christine))
+    (VP (VBZ believes)
+      (SBAR
+        (S
+          (NP (NNP Josephine))
+          (VP (MD will)
+            (VP (VB be)
+              (ADJP (JJ easy)
+                (S
+                  (VP (TO to)
+                    (VP (VB make)
+                      (NP (NNS friends))
+                      (PP (IN with)))))))))))
+    (. .)))
+
+advmod(believes-4, Thus-1)
+nsubj(believes-4, Christine-3)
+root(ROOT-0, believes-4)
+nsubj(easy-8, Josephine-5)
+nsubj(make-10, Josephine-5)
+aux(easy-8, will-6)
+cop(easy-8, be-7)
+ccomp(believes-4, easy-8)
+mark(make-10, to-9)
+xcomp(easy-8, make-10)
+dobj(make-10, friends-11)
+nmod(make-10, with-12)
+
+(ROOT
+  (S
+    (NP (NNP Linda))
+    (VP (VBZ is)
+      (NP (DT a) (NNP Libra)))
+    (. .)))
+
+nsubj(Libra-4, Linda-1)
+cop(Libra-4, is-2)
+det(Libra-4, a-3)
+root(ROOT-0, Libra-4)
+
+(ROOT
+  (S
+    (S
+      (NP (NNS Libras))
+      (VP (VB emphasize)
+        (NP (NN logic))))
+    (CC and)
+    (S
+      (NP (PRP they))
+      (ADVP (RB strictly))
+      (VP (VB follow)
+        (NP (NNS rules))))
+    (. .)))
+
+nsubj(emphasize-2, Libras-1)
+root(ROOT-0, emphasize-2)
+dobj(emphasize-2, logic-3)
+cc(emphasize-2, and-4)
+nsubj(follow-7, they-5)
+advmod(follow-7, strictly-6)
+conj:and(emphasize-2, follow-7)
+dobj(follow-7, rules-8)
+
+(ROOT
+  (S
+    (ADVP (RB Thus))
+    (, ,)
+    (NP (DT a) (NNP Libra))
+    (VP (VBZ is)
+      (NP
+        (NP (DT a) (JJ perfect) (NN match))
+        (PP (IN for)
+          (NP
+            (NP (DT an) (NNPS Aquarius))
+            (PP (IN like)
+              (NP (NNP Christine))))))
+      (, ,)
+      (SBAR (IN because)
+        (S
+          (NP (DT an) (NNPS Aquarius))
+          (VP (VBZ tends)
+            (S
+              (VP (TO to)
+                (VP (VB stick)
+                  (PP (TO to)
+                    (NP (DT the) (NNS rules)))
+                  (ADVP (RB as) (RB well)))))))))
+    (. .)))
+
+advmod(match-8, Thus-1)
+det(Libra-4, a-3)
+nsubj(match-8, Libra-4)
+cop(match-8, is-5)
+det(match-8, a-6)
+amod(match-8, perfect-7)
+root(ROOT-0, match-8)
+case(Aquarius-11, for-9)
+det(Aquarius-11, an-10)
+nmod:for(match-8, Aquarius-11)
+case(Christine-13, like-12)
+nmod:like(Aquarius-11, Christine-13)
+mark(tends-18, because-15)
+det(Aquarius-17, an-16)
+nsubj(tends-18, Aquarius-17)
+nsubj(stick-20, Aquarius-17)
+advcl(match-8, tends-18)
+mark(stick-20, to-19)
+xcomp(tends-18, stick-20)
+case(rules-23, to-21)
+det(rules-23, the-22)
+nmod:to(stick-20, rules-23)
+advmod(stick-20, as-24)
+mwe(as-24, well-25)
+
+(ROOT
+  (S
+    (PP (IN Like)
+      (NP (DT a) (NNP Libra)))
+    (, ,)
+    (NP (DT an) (NNPS Aquarius))
+    (VP
+      (VP (VBZ enjoys)
+        (S
+          (VP (VBG having)
+            (NP (DT a) (JJ busy) (JJ social) (NN life)))))
+      (CC and)
+      (VP (VBZ appreciates)
+        (NP (JJ beautiful) (NNS things))))
+    (. .)))
+
+case(Libra-3, Like-1)
+det(Libra-3, a-2)
+nmod:like(enjoys-7, Libra-3)
+det(Aquarius-6, an-5)
+nsubj(enjoys-7, Aquarius-6)
+nsubj(appreciates-14, Aquarius-6)
+root(ROOT-0, enjoys-7)
+xcomp(enjoys-7, having-8)
+det(life-12, a-9)
+amod(life-12, busy-10)
+amod(life-12, social-11)
+dobj(having-8, life-12)
+cc(enjoys-7, and-13)
+conj:and(enjoys-7, appreciates-14)
+amod(things-16, beautiful-15)
+dobj(appreciates-14, things-16)
+
+(ROOT
+  (S
+    (S
+      (NP (NNP Steven))
+      (VP (VBZ is)
+        (NP (DT a) (NN Cancer))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (NNP Cancers))
+      (VP (VBP are)
+        (ADJP (JJ emotional))))
+    (. .)))
+
+nsubj(Cancer-4, Steven-1)
+cop(Cancer-4, is-2)
+det(Cancer-4, a-3)
+root(ROOT-0, Cancer-4)
+cc(Cancer-4, and-6)
+nsubj(emotional-9, Cancers-7)
+cop(emotional-9, are-8)
+conj:and(Cancer-4, emotional-9)
+
+(ROOT
+  (S
+    (NP (NNS People))
+    (VP
+      (VP (VBN born)
+        (PP (IN under)
+          (NP (DT this) (NN sign) (NN lack) (NN confidence))))
+      (CC and)
+      (VP
+        (ADVP (RB often))
+        (VBP feel)
+        (NP (NN insecure))))
+    (. .)))
+
+nsubj(born-2, People-1)
+nsubj(feel-10, People-1)
+root(ROOT-0, born-2)
+case(confidence-7, under-3)
+det(confidence-7, this-4)
+compound(confidence-7, sign-5)
+compound(confidence-7, lack-6)
+nmod:under(born-2, confidence-7)
+cc(born-2, and-8)
+advmod(feel-10, often-9)
+conj:and(born-2, feel-10)
+dobj(feel-10, insecure-11)
+
+(ROOT
+  (S
+    (NP (PRP They))
+    (ADVP (RB always))
+    (VP (VBP need)
+      (NP
+        (NP (NNS companions))
+        (, ,)
+        (SBAR (IN while)
+          (S
+            (NP
+              (NP (DT those))
+              (VP (VBN born)
+                (PP (IN under)
+                  (NP
+                    (NP (DT the) (NN sign))
+                    (PP (IN of)
+                      (NP (NNP Aquarius)))))))
+            (VP (VBP enjoy)
+              (NP (NN freedom)))))))
+    (. .)))
+
+nsubj(need-3, They-1)
+advmod(need-3, always-2)
+root(ROOT-0, need-3)
+dobj(need-3, companions-4)
+mark(enjoy-14, while-6)
+nsubj(enjoy-14, those-7)
+acl(those-7, born-8)
+case(sign-11, under-9)
+det(sign-11, the-10)
+nmod:under(born-8, sign-11)
+case(Aquarius-13, of-12)
+nmod:of(sign-11, Aquarius-13)
+dep(companions-4, enjoy-14)
+dobj(enjoy-14, freedom-15)
+
+(ROOT
+  (S
+    (ADVP (RB However))
+    (, ,)
+    (NP (EX there))
+    (VP (VBP are)
+      (NP
+        (NP (JJ good) (NNS things))
+        (PP (IN about)
+          (NP (NNP Cancers))))
+      (, ,)
+      (ADVP (RB too)))
+    (. .)))
+
+advmod(are-4, However-1)
+expl(are-4, there-3)
+root(ROOT-0, are-4)
+amod(things-6, good-5)
+nsubj(are-4, things-6)
+case(Cancers-8, about-7)
+nmod:about(things-6, Cancers-8)
+advmod(are-4, too-10)
+
+(ROOT
+  (S
+    (NP (PRP They))
+    (VP
+      (VP (VBP love)
+        (NP (PRP$ their) (NNS families)))
+      (CC and)
+      (VP (VBP are)
+        (NP
+          (NP (DT the) (JJS best) (NN money) (NNS managers))
+          (PP (IN among)
+            (NP (DT the) (CD twelve) (NNS signs))))))
+    (. .)))
+
+nsubj(love-2, They-1)
+root(ROOT-0, love-2)
+nmod:poss(families-4, their-3)
+dobj(love-2, families-4)
+cc(love-2, and-5)
+cop(managers-10, are-6)
+det(managers-10, the-7)
+amod(managers-10, best-8)
+compound(managers-10, money-9)
+conj:and(love-2, managers-10)
+case(signs-14, among-11)
+det(signs-14, the-12)
+nummod(signs-14, twelve-13)
+nmod:among(managers-10, signs-14)
+
+(ROOT
+  (S
+    (PP (IN After)
+      (S
+        (VP (VBG reading)
+          (NP (PRP$ her) (JJ sisters) (NN astrology) (NNS books)))))
+    (, ,)
+    (NP (NNP Christine))
+    (VP (VBD felt)
+      (SBAR
+        (S
+          (NP (PRP she))
+          (VP (VBD had)
+            (VP (VBN gained)
+              (NP (NN knowledge))
+              (PP (IN about)
+                (NP (PDT both)
+                  (NP (PRP herself))
+                  (CC and)
+                  (NP (PRP$ her) (NNS classmates)))))))))
+    (. .)))
+
+mark(reading-2, After-1)
+advcl(felt-9, reading-2)
+nmod:poss(books-6, her-3)
+amod(books-6, sisters-4)
+compound(books-6, astrology-5)
+dobj(reading-2, books-6)
+nsubj(felt-9, Christine-8)
+root(ROOT-0, felt-9)
+nsubj(gained-12, she-10)
+aux(gained-12, had-11)
+ccomp(felt-9, gained-12)
+dobj(gained-12, knowledge-13)
+case(herself-16, about-14)
+cc:preconj(herself-16, both-15)
+nmod:about(gained-12, herself-16)
+cc(herself-16, and-17)
+nmod:poss(classmates-19, her-18)
+nmod:about(gained-12, classmates-19)
+conj:and(herself-16, classmates-19)
+
+(ROOT
+  (S
+    (S
+      (NP (PRP She))
+      (VP (MD could)
+        (ADVP (RB now))
+        (VP (VB understand)
+          (NP (JJR more))
+          (PP (IN about)
+            (NP
+              (NP (PRP$ her) (NNS classmates))
+              (CC and)
+              (NP (PRP$ their) (JJ individual) (NNS differences)))))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (PRP she))
+      (VP (VBD felt)
+        (ADJP (RBR more) (JJ confident))
+        (SBAR (IN that)
+          (S
+            (NP (PRP she))
+            (VP (MD would)
+              (VP (VB be)
+                (ADJP (JJ able)
+                  (S
+                    (VP (TO to)
+                      (VP (VB get)
+                        (PRT (RP along))
+                        (PP (IN with)
+                          (NP (PRP them)))))))))))))
+    (. .)))
+
+nsubj(understand-4, She-1)
+aux(understand-4, could-2)
+advmod(understand-4, now-3)
+root(ROOT-0, understand-4)
+dobj(understand-4, more-5)
+case(classmates-8, about-6)
+nmod:poss(classmates-8, her-7)
+nmod:about(understand-4, classmates-8)
+cc(classmates-8, and-9)
+nmod:poss(differences-12, their-10)
+amod(differences-12, individual-11)
+nmod:about(understand-4, differences-12)
+conj:and(classmates-8, differences-12)
+cc(understand-4, and-14)
+nsubj(felt-16, she-15)
+conj:and(understand-4, felt-16)
+advmod(confident-18, more-17)
+xcomp(felt-16, confident-18)
+mark(able-23, that-19)
+nsubj(able-23, she-20)
+nsubj(get-25, she-20)
+aux(able-23, would-21)
+cop(able-23, be-22)
+ccomp(felt-16, able-23)
+mark(get-25, to-24)
+xcomp(able-23, get-25)
+compound:prt(get-25, along-26)
+case(them-28, with-27)
+nmod:with(get-25, them-28)
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBD seemed)
+      (SBAR (IN that)
+        (S
+          (NP (DT this) (JJ new) (NN school) (NN year))
+          (VP (VBD was)
+            (VP (VBG opening)
+              (S
+                (NP (PRP$ its) (NNS arms))
+                (ADJP (JJ wide)
+                  (S
+                    (VP (TO to)
+                      (VP (VB welcome)
+                        (NP (PRP her))))))))))))
+    (. !)))
+
+nsubj(seemed-2, It-1)
+root(ROOT-0, seemed-2)
+mark(opening-9, that-3)
+det(year-7, this-4)
+amod(year-7, new-5)
+compound(year-7, school-6)
+nsubj(opening-9, year-7)
+aux(opening-9, was-8)
+ccomp(seemed-2, opening-9)
+nmod:poss(arms-11, its-10)
+nsubj(wide-12, arms-11)
+nsubj(welcome-14, arms-11)
+xcomp(opening-9, wide-12)
+mark(welcome-14, to-13)
+xcomp(wide-12, welcome-14)
+dobj(welcome-14, her-15)
+
+(ROOT
+  (NP (NNP Pamela) (NNP Brown)))
+
+compound(Brown-2, Pamela-1)
+root(ROOT-0, Brown-2)
+

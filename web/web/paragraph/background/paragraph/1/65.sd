@@ -1,0 +1,996 @@
+(ROOT
+  (S
+    (NP (DT A) (NN folktale))
+    (VP (VBZ is)
+      (NP (DT a) (NN story))
+      (SBAR (IN that)
+        (S
+          (NP (CD one) (NN generation))
+          (VP (VBZ passes)
+            (ADVP (RB down)
+              (PP (TO to)
+                (NP (DT the) (JJ next))))
+            (PP (IN by)
+              (NP
+                (NP (NN word))
+                (PP (IN of)
+                  (NP (NN mouth)))))))))
+    (. .)))
+
+det(folktale-2, A-1)
+nsubj(story-5, folktale-2)
+cop(story-5, is-3)
+det(story-5, a-4)
+root(ROOT-0, story-5)
+mark(passes-9, that-6)
+nummod(generation-8, one-7)
+nsubj(passes-9, generation-8)
+ccomp(story-5, passes-9)
+advmod(passes-9, down-10)
+case(next-13, to-11)
+det(next-13, the-12)
+nmod:to(down-10, next-13)
+case(word-15, by-14)
+nmod:by(passes-9, word-15)
+case(mouth-17, of-16)
+nmod:of(word-15, mouth-17)
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ is)
+      (VP (VBN told)
+        (S
+          (VP (TO to)
+            (VP (VB amuse) (, ,) (VB amaze) (, ,)
+              (CC or)
+              (VB teach)
+              (NP (DT the) (NNS listeners)))))))
+    (. .)))
+
+nsubjpass(told-3, It-1)
+nsubj(amuse-5, It-1)
+nsubj(amaze-7, It-1)
+nsubj(teach-10, It-1)
+auxpass(told-3, is-2)
+root(ROOT-0, told-3)
+mark(amuse-5, to-4)
+xcomp(told-3, amuse-5)
+xcomp(told-3, amaze-7)
+conj:or(amuse-5, amaze-7)
+cc(amuse-5, or-9)
+xcomp(told-3, teach-10)
+conj:or(amuse-5, teach-10)
+det(listeners-12, the-11)
+dobj(amuse-5, listeners-12)
+
+(ROOT
+  (S
+    (NP (DT The) (NN story))
+    (VP (VBZ happens)
+      (PP (IN in)
+        (NP
+          (NP (DT a) (NN place)
+            (CC and)
+            (NN time))
+          (ADVP (RB far)
+            (NP (CD distant))
+            (PP (IN from)
+              (NP
+                (NP (DT that))
+                (PP (IN of)
+                  (NP (PRP$ our) (NNS lives))))))))
+      (: :) (`` ``)
+      (S
+        (NP
+          (NP
+            (ADVP (RB Once)
+              (PP (RB upon)))
+            (DT a) (NN time))
+          (, ,)
+          (PP (IN in)
+            (NP (DT a) (JJ faraway) (NN kingdom)))
+          (: ...) ('' ''))
+        (NP
+          (NP (RB Much))
+          (PP (TO to)
+            (NP
+              (NP
+                (NP (CD one) (POS 's))
+                (NN enjoyment))
+              (, ,)
+              (NP (DT these) (JJ tales) (NN feature) (NNS kings))
+              (CC and)
+              (NP
+                (NP (NNS princesses) (, ,) (NNS giants)
+                  (CC and)
+                  (NNS dragons))
+                (, ,)
+                (NP (NNS fairies))
+                (CC and)
+                (NP (VBG talking) (NNS animals))))))))
+    (. .)))
+
+det(story-2, The-1)
+nsubj(happens-3, story-2)
+root(ROOT-0, happens-3)
+case(place-6, in-4)
+det(place-6, a-5)
+nmod:in(happens-3, place-6)
+cc(place-6, and-7)
+nmod:in(happens-3, time-8)
+conj:and(place-6, time-8)
+advmod(place-6, far-9)
+nmod:npmod(far-9, distant-10)
+case(that-12, from-11)
+nmod:from(far-9, that-12)
+case(lives-15, of-13)
+nmod:poss(lives-15, our-14)
+nmod:of(that-12, lives-15)
+advmod(time-21, Once-18)
+advcl(Once-18, upon-19)
+det(time-21, a-20)
+nsubj(Much-29, time-21)
+case(kingdom-26, in-23)
+det(kingdom-26, a-24)
+amod(kingdom-26, faraway-25)
+nmod:in(time-21, kingdom-26)
+xcomp(happens-3, Much-29)
+case(enjoyment-33, to-30)
+nmod:poss(enjoyment-33, one-31)
+case(one-31, 's-32)
+nmod:to(Much-29, enjoyment-33)
+det(kings-38, these-35)
+amod(kings-38, tales-36)
+compound(kings-38, feature-37)
+nmod:to(Much-29, kings-38)
+conj:and(enjoyment-33, kings-38)
+cc(enjoyment-33, and-39)
+nmod:to(Much-29, princesses-40)
+conj:and(enjoyment-33, princesses-40)
+conj:and(enjoyment-33, giants-42)
+conj:and(princesses-40, giants-42)
+cc(princesses-40, and-43)
+conj:and(enjoyment-33, dragons-44)
+conj:and(princesses-40, dragons-44)
+conj:and(enjoyment-33, fairies-46)
+conj:and(princesses-40, fairies-46)
+cc(princesses-40, and-47)
+amod(animals-49, talking-48)
+conj:and(enjoyment-33, animals-49)
+conj:and(princesses-40, animals-49)
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NNS animals))
+      (PP (IN in)
+        (NP (DT a) (NN folktale))))
+    (VP
+      (CONJP (RB not) (JJ only))
+      (VP (VBP talk))
+      (CC but)
+      (VP (VBP act)
+        (PP (IN like)
+          (NP (NNS people)))))
+    (. .)))
+
+det(animals-2, The-1)
+nsubj(talk-8, animals-2)
+nsubj(act-10, animals-2)
+case(folktale-5, in-3)
+det(folktale-5, a-4)
+nmod:in(animals-2, folktale-5)
+neg(only-7, not-6)
+cc:preconj(talk-8, only-7)
+root(ROOT-0, talk-8)
+cc(talk-8, but-9)
+conj:but(talk-8, act-10)
+case(people-12, like-11)
+nmod:like(act-10, people-12)
+
+(ROOT
+  (S
+    (NP (DT The) (NN following))
+    (VP (VBZ is)
+      (NP
+        (NP (DT an) (NN animal) (NN tale))
+        (PP (IN from)
+          (NP (NNP Africa)))))
+    (. .)))
+
+det(following-2, The-1)
+nsubj(tale-6, following-2)
+cop(tale-6, is-3)
+det(tale-6, an-4)
+compound(tale-6, animal-5)
+root(ROOT-0, tale-6)
+case(Africa-8, from-7)
+nmod:from(tale-6, Africa-8)
+
+(ROOT
+  (S
+    (PP
+      (ADVP
+        (NP (DT Some) (NN time))
+        (RB ago))
+      (IN in)
+      (NP (DT the) (JJ African) (NN rain) (NN forest)))
+    (, ,)
+    (NP (DT a) (NN baby) (NN snake))
+    (VP (VBD set)
+      (PRT (RP out))
+      (S
+        (VP (TO to)
+          (VP (VB play)))))
+    (. .)))
+
+det(time-2, Some-1)
+nmod:npmod(ago-3, time-2)
+advmod(forest-8, ago-3)
+case(forest-8, in-4)
+det(forest-8, the-5)
+amod(forest-8, African-6)
+compound(forest-8, rain-7)
+nmod:in(set-13, forest-8)
+det(snake-12, a-10)
+compound(snake-12, baby-11)
+nsubj(set-13, snake-12)
+nsubj(play-16, snake-12)
+root(ROOT-0, set-13)
+compound:prt(set-13, out-14)
+mark(play-16, to-15)
+xcomp(set-13, play-16)
+
+(ROOT
+  (S
+    (SBAR (IN As)
+      (S
+        (NP (PRP he))
+        (VP (VBD slid)
+          (PRT (RP away)))))
+    (, ,)
+    (NP (PRP$ his) (NN mother))
+    (VP (VBD sang)
+      (NP
+        (NP
+          (NP (NNS words))
+          (PP (IN of)
+            (NP (NN caution))))
+        (: :)
+        (S (`` ``)
+          (VP
+            (VP (VB Watch)
+              (PRT (RP out)))
+            (, ,)
+            (NP
+              (NP (JJ young) (NN son))
+              (, ,)
+              (PP (IN for)
+                (NP
+                  (NP (NNS things))
+                  (PP (IN with)
+                    (NP (NNS claws)))))
+              (, ,)))))
+      (PP (IN for)
+        (NP
+          (NP (NNS things))
+          (PP (IN with)
+            (NP (DT a) (NN beak)))))
+      (, ,)
+      (PP (IN for)
+        (NP
+          (NP (NNS things))
+          (PP (IN with)
+            (NP (JJ strong) (NNS jaws))))))
+    (. .) ('' '')))
+
+mark(slid-3, As-1)
+nsubj(slid-3, he-2)
+advcl(sang-8, slid-3)
+compound:prt(slid-3, away-4)
+nmod:poss(mother-7, his-6)
+nsubj(sang-8, mother-7)
+root(ROOT-0, sang-8)
+dobj(sang-8, words-9)
+case(caution-11, of-10)
+nmod:of(words-9, caution-11)
+dep(words-9, Watch-14)
+compound:prt(Watch-14, out-15)
+amod(son-18, young-17)
+dobj(Watch-14, son-18)
+case(things-21, for-20)
+nmod:for(son-18, things-21)
+case(claws-23, with-22)
+nmod:with(things-21, claws-23)
+case(things-26, for-25)
+nmod:for(sang-8, things-26)
+case(beak-29, with-27)
+det(beak-29, a-28)
+nmod:with(things-26, beak-29)
+case(things-32, for-31)
+nmod:for(sang-8, things-32)
+case(jaws-35, with-33)
+amod(jaws-35, strong-34)
+nmod:with(things-32, jaws-35)
+
+(ROOT
+  (S (`` ``)
+    (NP
+      (NP (NNP Claws))
+      (, ,)
+      (NP (NN beak))
+      (, ,))
+    (VP (VBZ jaws))
+    (. .)))
+
+nsubj(jaws-6, Claws-2)
+appos(Claws-2, beak-4)
+root(ROOT-0, jaws-6)
+
+(ROOT
+  (S
+    (S
+      (NP
+        (NP (NNS Claws))
+        (, ,)
+        (NP (NN beak))
+        (, ,))
+      (VP (VBZ jaws)))
+    (, ,) ('' '')
+    (NP (NNP Snake) (NNP Baby))
+    (VP (VBD replied))
+    (. .)))
+
+nsubj(jaws-5, Claws-1)
+appos(Claws-1, beak-3)
+ccomp(replied-10, jaws-5)
+compound(Baby-9, Snake-8)
+nsubj(replied-10, Baby-9)
+root(ROOT-0, replied-10)
+
+(ROOT
+  (S
+    (PP (IN At)
+      (NP (DT the) (JJ same) (NN time)))
+    (, ,)
+    (NP (DT a) (NN baby) (NN frog))
+    (VP (VBD set)
+      (PRT (RP out))
+      (S
+        (VP (TO to)
+          (VP (VB play)))))
+    (. .)))
+
+case(time-4, At-1)
+det(time-4, the-2)
+amod(time-4, same-3)
+nmod:at(set-9, time-4)
+det(frog-8, a-6)
+compound(frog-8, baby-7)
+nsubj(set-9, frog-8)
+nsubj(play-12, frog-8)
+root(ROOT-0, set-9)
+compound:prt(set-9, out-10)
+mark(play-12, to-11)
+xcomp(set-9, play-12)
+
+(ROOT
+  (S
+    (S
+      (SBAR (IN As)
+        (S
+          (NP (PRP he))
+          (VP (VBD hopped)
+            (PRT (RP away)))))
+      (, ,)
+      (NP (PRP$ his) (NN mother))
+      (VP (VBD sang)
+        (NP
+          (NP (NNS words))
+          (PP (IN of)
+            (NP
+              (NP (NN caution))
+              (: :) (`` ``)
+              (S
+                (S
+                  (VP (VB Watch)
+                    (PRT (RP out))
+                    (PP (IN for)
+                      (NP (DT the) (NNS hiss)))))
+                (: ;)
+                (S
+                  (VP (VB watch)
+                    (PRT (RP out))
+                    (PP (IN for)
+                      (NP (DT the) (NN coil)))))
+                (: ;)
+                (S
+                  (VP (VB watch)
+                    (PRT (RP out))
+                    (PP (IN for)
+                      (NP (DT the) (NN squeeze)))))))))))
+    (: ;)
+    (S
+      (NP (PRP they))
+      (VP (MD will)
+        (VP (VB cause)
+          (NP (NN turmoil)))))
+    (. .) ('' '')))
+
+mark(hopped-3, As-1)
+nsubj(hopped-3, he-2)
+advcl(sang-8, hopped-3)
+compound:prt(hopped-3, away-4)
+nmod:poss(mother-7, his-6)
+nsubj(sang-8, mother-7)
+root(ROOT-0, sang-8)
+dobj(sang-8, words-9)
+case(caution-11, of-10)
+nmod:of(words-9, caution-11)
+dep(caution-11, Watch-14)
+compound:prt(Watch-14, out-15)
+case(hiss-18, for-16)
+det(hiss-18, the-17)
+nmod:for(Watch-14, hiss-18)
+parataxis(Watch-14, watch-20)
+compound:prt(watch-20, out-21)
+case(coil-24, for-22)
+det(coil-24, the-23)
+nmod:for(watch-20, coil-24)
+parataxis(Watch-14, watch-26)
+compound:prt(watch-26, out-27)
+case(squeeze-30, for-28)
+det(squeeze-30, the-29)
+nmod:for(watch-26, squeeze-30)
+nsubj(cause-34, they-32)
+aux(cause-34, will-33)
+parataxis(sang-8, cause-34)
+dobj(cause-34, turmoil-35)
+
+(ROOT
+  (S (`` ``)
+    (NP
+      (NP (NNP Hiss))
+      (, ,)
+      (NP (NN coil))
+      (, ,))
+    (VP (VBP squeeze))
+    (. .)))
+
+nsubj(squeeze-6, Hiss-2)
+appos(Hiss-2, coil-4)
+root(ROOT-0, squeeze-6)
+
+(ROOT
+  (S
+    (S
+      (NP
+        (NP (NNP Hiss))
+        (, ,)
+        (NP (NN coil))
+        (, ,))
+      (VP (VBP squeeze)))
+    (, ,) ('' '')
+    (NP (NNP Frog) (NNP Baby))
+    (VP (VBD replied))
+    (. .)))
+
+nsubj(squeeze-5, Hiss-1)
+appos(Hiss-1, coil-3)
+ccomp(replied-10, squeeze-5)
+compound(Baby-9, Frog-8)
+nsubj(replied-10, Baby-9)
+root(ROOT-0, replied-10)
+
+(ROOT
+  (S
+    (NP (NNP Snake) (NNP Baby)
+      (CC and)
+      (NNP Frog) (NNP Baby))
+    (VP
+      (VP (VBD met)
+        (PP (IN in)
+          (NP (DT the) (NN rain) (NN forest))))
+      (CC and)
+      (VP (VBD played)
+        (NP (DT the) (NN day))
+        (ADVP (RB away))))
+    (. .)))
+
+compound(Baby-2, Snake-1)
+nsubj(met-6, Baby-2)
+nsubj(played-12, Baby-2)
+cc(Baby-2, and-3)
+compound(Baby-5, Frog-4)
+conj:and(Baby-2, Baby-5)
+nsubj(met-6, Baby-5)
+root(ROOT-0, met-6)
+case(forest-10, in-7)
+det(forest-10, the-8)
+compound(forest-10, rain-9)
+nmod:in(met-6, forest-10)
+cc(met-6, and-11)
+conj:and(met-6, played-12)
+det(day-14, the-13)
+nmod:tmod(played-12, day-14)
+advmod(played-12, away-15)
+
+(ROOT
+  (FRAG
+    (SBAR
+      (WHNP (WP What) (JJ good) (NNS games))
+      (S
+        (NP (PRP they))
+        (VP (VBD played))))
+    (. !)))
+
+det(games-3, What-1)
+amod(games-3, good-2)
+dobj(played-5, games-3)
+nsubj(played-5, they-4)
+root(ROOT-0, played-5)
+
+(ROOT
+  (S
+    (ADVP (RB First))
+    (NP (PRP they))
+    (VP (VBD played)
+      (NP (NNP Leap) (NNP Frog)))
+    (. .)))
+
+advmod(played-3, First-1)
+nsubj(played-3, they-2)
+root(ROOT-0, played-3)
+compound(Frog-5, Leap-4)
+dobj(played-3, Frog-5)
+
+(ROOT
+  (S (RB Then)
+    (NP (PRP they))
+    (VP (VBD played)
+      (NP (NNP Hide)
+        (CC and)
+        (NNP Hug)))
+    (. .)))
+
+advmod(played-3, Then-1)
+nsubj(played-3, they-2)
+root(ROOT-0, played-3)
+dobj(played-3, Hide-4)
+cc(Hide-4, and-5)
+dobj(played-3, Hug-6)
+conj:and(Hide-4, Hug-6)
+
+(ROOT
+  (S
+    (NP (DT That) (NN night))
+    (S
+      (NP (NNP Frog) (NNP Baby))
+      (VP (VBD told)
+        (NP
+          (NP (NNP Frog) (NNP Mama))
+          (PP (IN about)
+            (NP (PRP$ his) (NN fun))))))
+    (CC and)
+    (S
+      (NP (DT the) (NNS games))
+      (NP (PRP he))
+      (VP (VBD played)))
+    (. .)))
+
+det(night-2, That-1)
+dep(told-5, night-2)
+compound(Baby-4, Frog-3)
+nsubj(told-5, Baby-4)
+root(ROOT-0, told-5)
+compound(Mama-7, Frog-6)
+dobj(told-5, Mama-7)
+case(fun-10, about-8)
+nmod:poss(fun-10, his-9)
+nmod:about(Mama-7, fun-10)
+cc(told-5, and-11)
+det(games-13, the-12)
+nsubj(played-15, games-13)
+nsubj(played-15, he-14)
+conj:and(told-5, played-15)
+
+(ROOT
+  (FRAG
+    (INTJ
+      (INTJ (`` ``) (UH No))
+      (, ,)
+      (INTJ (UH no)))
+    (, ,)
+    (NP (NNP Frog) (NNP Baby))
+    (. !)))
+
+discourse(Baby-7, No-2)
+discourse(No-2, no-4)
+compound(Baby-7, Frog-6)
+root(ROOT-0, Baby-7)
+
+(ROOT
+  (S
+    (NP (NNP Hide)
+      (CC and)
+      (NNP Hug))
+    (VP (VBZ is) (RB not)
+      (NP
+        (NP (DT a) (NN game))
+        (PP (IN for)
+          (NP (PRP you)))))
+    (. .)))
+
+nsubj(game-7, Hide-1)
+cc(Hide-1, and-2)
+conj:and(Hide-1, Hug-3)
+nsubj(game-7, Hug-3)
+cop(game-7, is-4)
+neg(game-7, not-5)
+det(game-7, a-6)
+root(ROOT-0, game-7)
+case(you-9, for-8)
+nmod:for(game-7, you-9)
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ 's)
+      (NP
+        (NP (DT the) (NN game))
+        (PP (IN of)
+          (NP
+            (NP (DT the) (NNS hiss))
+            (, ,)
+            (NP (NN coil))
+            (, ,)
+            (CC and)
+            (NP (NN squeeze))))))
+    (. .)))
+
+nsubj(game-4, It-1)
+cop(game-4, 's-2)
+det(game-4, the-3)
+root(ROOT-0, game-4)
+case(hiss-7, of-5)
+det(hiss-7, the-6)
+nmod:of(game-4, hiss-7)
+nmod:of(game-4, coil-9)
+conj:and(hiss-7, coil-9)
+cc(hiss-7, and-11)
+nmod:of(game-4, squeeze-12)
+conj:and(hiss-7, squeeze-12)
+
+(ROOT
+  (S
+    (ADVP (RB Promise))
+    (NP (PRP you))
+    (VP (MD 'll)
+      (ADVP (RB never))
+      (VP (VB play)
+        (PP (IN with)
+          (NP (PRP him)))
+        (ADVP (RB again))))
+    (. .) ('' '')))
+
+advmod(play-5, Promise-1)
+nsubj(play-5, you-2)
+aux(play-5, 'll-3)
+neg(play-5, never-4)
+root(ROOT-0, play-5)
+case(him-7, with-6)
+nmod:with(play-5, him-7)
+advmod(play-5, again-8)
+
+(ROOT
+  (S
+    (S
+      (NP
+        (ADVP (RB Also))
+        (DT that) (NN night))
+      (NP (NNP Snake) (NNP Baby))
+      (VP (VBD told)
+        (NP
+          (NP (NNP Snake) (NNP Mama))
+          (PP (IN about)
+            (NP (PRP$ his) (NN fun))))))
+    (CC and)
+    (S
+      (NP (DT the) (NNS games))
+      (NP (PRP he))
+      (VP (VBD played)))
+    (. .)))
+
+advmod(night-3, Also-1)
+det(night-3, that-2)
+nmod:tmod(told-6, night-3)
+compound(Baby-5, Snake-4)
+nsubj(told-6, Baby-5)
+root(ROOT-0, told-6)
+compound(Mama-8, Snake-7)
+dobj(told-6, Mama-8)
+case(fun-11, about-9)
+nmod:poss(fun-11, his-10)
+nmod:about(Mama-8, fun-11)
+cc(told-6, and-12)
+det(games-14, the-13)
+nsubj(played-16, games-14)
+nsubj(played-16, he-15)
+conj:and(told-6, played-16)
+
+(ROOT
+  (FRAG
+    (INTJ
+      (INTJ (`` ``) (UH No))
+      (, ,)
+      (INTJ (UH no)))
+    (, ,)
+    (NP (NNP Snake) (NNP Baby))
+    (. !)))
+
+discourse(Baby-7, No-2)
+discourse(No-2, no-4)
+compound(Baby-7, Snake-6)
+root(ROOT-0, Baby-7)
+
+(ROOT
+  (S
+    (NP (NNP Hide)
+      (CC and)
+      (NNP Hug))
+    (VP (VBZ is) (RB not)
+      (NP
+        (NP (DT a) (NN game))
+        (PP (IN for)
+          (NP (PRP you)))))
+    (. .)))
+
+nsubj(game-7, Hide-1)
+cc(Hide-1, and-2)
+conj:and(Hide-1, Hug-3)
+nsubj(game-7, Hug-3)
+cop(game-7, is-4)
+neg(game-7, not-5)
+det(game-7, a-6)
+root(ROOT-0, game-7)
+case(you-9, for-8)
+nmod:for(game-7, you-9)
+
+(ROOT
+  (S
+    (NP (NNP Hide)
+      (CC and)
+      (NNP Hug))
+    (VP (VBZ is)
+      (SBAR
+        (WHNP (WP what))
+        (S
+          (NP (PRP you))
+          (VP (MD must)
+            (VP (VB do))))))
+    (. .)))
+
+nsubj(is-4, Hide-1)
+cc(Hide-1, and-2)
+conj:and(Hide-1, Hug-3)
+nsubj(is-4, Hug-3)
+root(ROOT-0, is-4)
+dobj(do-8, what-5)
+nsubj(do-8, you-6)
+aux(do-8, must-7)
+ccomp(is-4, do-8)
+
+(ROOT
+  (S
+    (NP (DT This))
+    (VP (VBZ is)
+      (NP
+        (NP (DT the) (NN way))
+        (SBAR
+          (S
+            (NP (PRP you))
+            (VP (VBP get)
+              (NP (PRP$ your) (NNS meals)))))))
+    (. !)))
+
+nsubj(way-4, This-1)
+cop(way-4, is-2)
+det(way-4, the-3)
+root(ROOT-0, way-4)
+nsubj(get-6, you-5)
+acl:relcl(way-4, get-6)
+nmod:poss(meals-8, your-7)
+dobj(get-6, meals-8)
+
+(ROOT
+  (S
+    (S
+      (VP (VBG Promise)
+        (NP (PRP me))))
+    (NP (PRP you))
+    (VP (MD 'll)
+      (VP (VB hiss) (, ,)
+        (INTJ (UH coil))
+        (, ,)
+        (CC and)
+        (VB squeeze)))
+    (. .)))
+
+dep(hiss-5, Promise-1)
+dobj(Promise-1, me-2)
+nsubj(hiss-5, you-3)
+nsubj(squeeze-10, you-3)
+aux(hiss-5, 'll-4)
+root(ROOT-0, hiss-5)
+discourse(hiss-5, coil-7)
+cc(hiss-5, and-9)
+conj:and(hiss-5, squeeze-10)
+
+(ROOT
+  (S
+    (S
+      (NP (PRP It))
+      (VP (MD 'll)
+        (VP (VB feel)
+          (ADJP (RB so) (JJ good)))))
+    (CC and)
+    (RB then)
+    (S
+      (NP (PRP$ your) (NN belly))
+      (VP (MD will)
+        (VP
+          (VP (VB become)
+            (ADVP (JJ full))
+            ('' '')
+            (NP (DT The) (JJ next) (NN day))
+            (PP (IN as)
+              (NP
+                (NP (NNP Frog) (NNP Baby))
+                (VP (VBN set)
+                  (PRT (RP out))))))
+          (PRN (, ,)
+            (S
+              (NP (PRP he))
+              (VP
+                (ADVP (RB fearfully))
+                (VBD repeated)
+                (NP
+                  (NP (PRP$ his) (NNS words))
+                  (PP (IN of)
+                    (NP (NN caution))))))
+            (, ,) (`` ``))
+          (NP (NNP Hiss) (, ,) (NN coil) (, ,)
+            (CC and)
+            (NN squeeze)))))
+    (. .) ('' '')))
+
+nsubj(feel-3, It-1)
+aux(feel-3, 'll-2)
+root(ROOT-0, feel-3)
+advmod(good-5, so-4)
+xcomp(feel-3, good-5)
+cc(feel-3, and-6)
+advmod(become-11, then-7)
+nmod:poss(belly-9, your-8)
+nsubj(become-11, belly-9)
+aux(become-11, will-10)
+conj:and(feel-3, become-11)
+advmod(become-11, full-12)
+det(day-16, The-14)
+amod(day-16, next-15)
+nmod:tmod(become-11, day-16)
+case(Baby-19, as-17)
+compound(Baby-19, Frog-18)
+nmod:as(become-11, Baby-19)
+acl(Baby-19, set-20)
+compound:prt(set-20, out-21)
+nsubj(repeated-25, he-23)
+advmod(repeated-25, fearfully-24)
+parataxis(become-11, repeated-25)
+nmod:poss(words-27, his-26)
+dobj(repeated-25, words-27)
+case(caution-29, of-28)
+nmod:of(words-27, caution-29)
+dobj(become-11, Hiss-32)
+dobj(become-11, coil-34)
+conj:and(Hiss-32, coil-34)
+cc(Hiss-32, and-36)
+dobj(become-11, squeeze-37)
+conj:and(Hiss-32, squeeze-37)
+
+(ROOT
+  (S (CC But)
+    (SBAR (IN as)
+      (S
+        (NP (NNP Snake) (NNP Baby))
+        (VP (VBD set)
+          (PRT (RP out)))))
+    (, ,)
+    (NP (PRP he))
+    (ADVP (RB happily))
+    (VP (VBZ sang) (, ,) (`` ``)
+      (NP (NNP Hiss) (, ,) (NN coil) (, ,)
+        (CC and)
+        (NN squeeze)))
+    (. .)))
+
+cc(sang-10, But-1)
+mark(set-5, as-2)
+compound(Baby-4, Snake-3)
+nsubj(set-5, Baby-4)
+advcl(sang-10, set-5)
+compound:prt(set-5, out-6)
+nsubj(sang-10, he-8)
+advmod(sang-10, happily-9)
+root(ROOT-0, sang-10)
+dobj(sang-10, Hiss-13)
+dobj(sang-10, coil-15)
+conj:and(Hiss-13, coil-15)
+cc(Hiss-13, and-17)
+dobj(sang-10, squeeze-18)
+conj:and(Hiss-13, squeeze-18)
+
+(ROOT
+  (S
+    (VP (VB Make)
+      (NP
+        (NP (DT a) (NN meal))
+        (PP (IN for)
+          (NP (PRP me)))))
+    (. .) ('' '')))
+
+root(ROOT-0, Make-1)
+det(meal-3, a-2)
+dobj(Make-1, meal-3)
+case(me-5, for-4)
+nmod:for(meal-3, me-5)
+
+(ROOT
+  (S
+    (S
+      (ADVP (RB Now))
+      (NP (PRP we))
+      (VP (VBP know)
+        (SBAR
+          (WHADVP (WRB why))
+          (S
+            (NP (PRP we))
+            (VP
+              (VP
+                (ADVP (RB never))
+                (VBP see)
+                (NP (NNS frogs)))
+              (CC and)
+              (VP (VBZ snakes)
+                (NP (VBG playing) (NNS games))
+                (ADVP (RB together))))))))
+    (: ;)
+    (S
+      (NP (PRP it))
+      (VP (VBZ is)
+        (PP (IN against)
+          (NP (PRP$ their) (NNS natures)))))
+    (. .)))
+
+advmod(know-3, Now-1)
+nsubj(know-3, we-2)
+root(ROOT-0, know-3)
+advmod(see-7, why-4)
+nsubj(see-7, we-5)
+nsubj(snakes-10, we-5)
+neg(see-7, never-6)
+ccomp(know-3, see-7)
+dobj(see-7, frogs-8)
+cc(see-7, and-9)
+ccomp(know-3, snakes-10)
+conj:and(see-7, snakes-10)
+amod(games-12, playing-11)
+dobj(snakes-10, games-12)
+advmod(snakes-10, together-13)
+nsubj(natures-19, it-15)
+cop(natures-19, is-16)
+case(natures-19, against-17)
+nmod:poss(natures-19, their-18)
+parataxis(know-3, natures-19)
+

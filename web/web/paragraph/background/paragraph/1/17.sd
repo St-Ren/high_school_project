@@ -1,0 +1,980 @@
+(ROOT
+  (S
+    (NP (NNP Four-year-old) (NNP Jane) (NNP Goodall))
+    (VP (VBD was)
+      (VP (VBN puzzled)
+        (PP (IN by)
+          (NP
+            (NP (DT the) (NN question))
+            (PP (IN of)
+              (SBAR
+                (WHADVP (WRB how))
+                (S
+                  (NP (NNS hens))
+                  (VP (VBD laid)
+                    (NP (NNS eggs))))))))))
+    (. .)))
+
+compound(Goodall-3, Four-year-old-1)
+compound(Goodall-3, Jane-2)
+nsubjpass(puzzled-5, Goodall-3)
+auxpass(puzzled-5, was-4)
+root(ROOT-0, puzzled-5)
+case(question-8, by-6)
+det(question-8, the-7)
+nmod:by(puzzled-5, question-8)
+mark(laid-12, of-9)
+advmod(laid-12, how-10)
+nsubj(laid-12, hens-11)
+acl(question-8, laid-12)
+dobj(laid-12, eggs-13)
+
+(ROOT
+  (S (IN So)
+    (NP (PRP she))
+    (VP (VBD set)
+      (PRT (RP out))
+      (S
+        (VP (TO to)
+          (VP (VB find)
+            (NP (DT an) (NN answer))
+            (PP (TO to)
+              (NP (DT this) (NN mystery)))))))
+    (. .)))
+
+dep(set-3, So-1)
+nsubj(set-3, she-2)
+nsubj(find-6, she-2)
+root(ROOT-0, set-3)
+compound:prt(set-3, out-4)
+mark(find-6, to-5)
+xcomp(set-3, find-6)
+det(answer-8, an-7)
+dobj(find-6, answer-8)
+case(mystery-11, to-9)
+det(mystery-11, this-10)
+nmod:to(find-6, mystery-11)
+
+(ROOT
+  (S
+    (NP (PRP She))
+    (VP (VBP hid)
+      (PP (IN in)
+        (NP
+          (NP (DT a) (NN henhouse))
+          (, ,)
+          (VP (VBG waiting)
+            (S
+              (VP (TO to)
+                (VP (VB see)
+                  (SBAR
+                    (WHADVP (WRB how))
+                    (S
+                      (NP (DT a) (NN hen))
+                      (VP (VBD laid)
+                        (NP (DT an) (NN egg))))))))))))
+    (. .)))
+
+nsubj(hid-2, She-1)
+root(ROOT-0, hid-2)
+case(henhouse-5, in-3)
+det(henhouse-5, a-4)
+nmod:in(hid-2, henhouse-5)
+acl(henhouse-5, waiting-7)
+mark(see-9, to-8)
+xcomp(waiting-7, see-9)
+advmod(laid-13, how-10)
+det(hen-12, a-11)
+nsubj(laid-13, hen-12)
+ccomp(see-9, laid-13)
+det(egg-15, an-14)
+dobj(laid-13, egg-15)
+
+(ROOT
+  (S
+    (ADVP (RB Finally))
+    (, ,)
+    (ADVP
+      (NP (CD four) (NNS hours))
+      (RB later))
+    (, ,)
+    (NP (PRP she))
+    (VP (VBD had)
+      (NP (PRP$ her) (NN answer)))
+    (. .)))
+
+advmod(had-8, Finally-1)
+nummod(hours-4, four-3)
+nmod:npmod(later-5, hours-4)
+advmod(had-8, later-5)
+nsubj(had-8, she-7)
+root(ROOT-0, had-8)
+nmod:poss(answer-10, her-9)
+dobj(had-8, answer-10)
+
+(ROOT
+  (S
+    (S
+      (VP (VBN Excited)))
+    (, ,)
+    (NP (PRP she))
+    (VP (VBD ran)
+      (PRT (RP off))
+      (S
+        (VP (TO to)
+          (VP (VB tell)
+            (NP (PRP$ her) (NN mother))))))
+    (. .)))
+
+advcl(ran-4, Excited-1)
+nsubj(ran-4, she-3)
+nsubj(tell-7, she-3)
+root(ROOT-0, ran-4)
+compound:prt(ran-4, off-5)
+mark(tell-7, to-6)
+xcomp(ran-4, tell-7)
+nmod:poss(mother-9, her-8)
+dobj(tell-7, mother-9)
+
+(ROOT
+  (S
+    (PP (IN For)
+      (NP (NNP Goodall)))
+    (, ,)
+    (NP (DT this) (NN event))
+    (VP (VBD began)
+      (NP
+        (NP (DT a) (NN lifetime))
+        (PP (IN of)
+          (NP (NN discovery)))))
+    (. .)))
+
+case(Goodall-2, For-1)
+nmod:for(began-6, Goodall-2)
+det(event-5, this-4)
+nsubj(began-6, event-5)
+root(ROOT-0, began-6)
+det(lifetime-8, a-7)
+dobj(began-6, lifetime-8)
+case(discovery-10, of-9)
+nmod:of(lifetime-8, discovery-10)
+
+(ROOT
+  (S
+    (NP (NNP Goodall))
+    (VP (VBD was)
+      (VP (VBN born)
+        (PP (IN in)
+          (NP (NNP England)))
+        (PP (IN in)
+          (NP (CD 1)))))
+    (. .)))
+
+nsubjpass(born-3, Goodall-1)
+auxpass(born-3, was-2)
+root(ROOT-0, born-3)
+case(England-5, in-4)
+nmod:in(born-3, England-5)
+case(1-7, in-6)
+nmod:in(born-3, 1-7)
+
+(ROOT
+  (S
+    (NP (PRP She))
+    (VP
+      (VP (VBD grew)
+        (PRT (RP up))
+        (S
+          (VP (VBG reading)
+            (NP (JJ Tarzan) (NNS books)))))
+      (CC and)
+      (VP (VBD spent)
+        (PP (IN as)
+          (NP (JJ much) (NN time) (NNS outdoors)))
+        (SBAR (IN as)
+          (S
+            (NP (PRP she))
+            (VP (MD could))))))
+    (. .)))
+
+nsubj(grew-2, She-1)
+nsubj(spent-8, She-1)
+root(ROOT-0, grew-2)
+compound:prt(grew-2, up-3)
+xcomp(grew-2, reading-4)
+amod(books-6, Tarzan-5)
+dobj(reading-4, books-6)
+cc(grew-2, and-7)
+conj:and(grew-2, spent-8)
+case(outdoors-12, as-9)
+amod(outdoors-12, much-10)
+compound(outdoors-12, time-11)
+nmod:as(spent-8, outdoors-12)
+mark(could-15, as-13)
+nsubj(could-15, she-14)
+advcl(spent-8, could-15)
+
+(ROOT
+  (S
+    (SBAR
+      (WHADVP (WRB When))
+      (S
+        (NP (PRP she))
+        (VP (VBD was)
+          (NP (CD nine)))))
+    (, ,)
+    (NP (PRP she))
+    (VP (VBD dreamed)
+      (PP (IN of)
+        (S
+          (VP (VBG going)
+            (PP (TO to)
+              (NP (NNP Africa)))))))
+    (. .)))
+
+advmod(nine-4, When-1)
+nsubj(nine-4, she-2)
+cop(nine-4, was-3)
+advcl(dreamed-7, nine-4)
+nsubj(dreamed-7, she-6)
+root(ROOT-0, dreamed-7)
+mark(going-9, of-8)
+advcl(dreamed-7, going-9)
+case(Africa-11, to-10)
+nmod:to(going-9, Africa-11)
+
+(ROOT
+  (S
+    (NP (PRP She))
+    (ADVP (RB never))
+    (VP (VBD attended)
+      (NP (NN university)))
+    (. .)))
+
+nsubj(attended-3, She-1)
+neg(attended-3, never-2)
+root(ROOT-0, attended-3)
+dobj(attended-3, university-4)
+
+(ROOT
+  (S
+    (ADVP (RB Instead))
+    (, ,)
+    (NP (PRP she))
+    (VP (VBD worked)
+      (PP (IN as)
+        (NP
+          (NP (DT a) (NN waitress))
+          (PP (IN for)
+            (NP (JJ several) (NNS years)))))
+      (, ,)
+      (S
+        (VP (VBG saving)
+          (NP
+            (NP (NN money))
+            (PP (IN for)
+              (NP (PRP$ her) (NN trip))))
+          (PP (TO to)
+            (NP (NNP Africa))))))
+    (. .)))
+
+advmod(worked-4, Instead-1)
+nsubj(worked-4, she-3)
+root(ROOT-0, worked-4)
+case(waitress-7, as-5)
+det(waitress-7, a-6)
+nmod:as(worked-4, waitress-7)
+case(years-10, for-8)
+amod(years-10, several-9)
+nmod:for(waitress-7, years-10)
+xcomp(worked-4, saving-12)
+dobj(saving-12, money-13)
+case(trip-16, for-14)
+nmod:poss(trip-16, her-15)
+nmod:for(money-13, trip-16)
+case(Africa-18, to-17)
+nmod:to(saving-12, Africa-18)
+
+(ROOT
+  (S (RB Then)
+    (PP (IN at)
+      (NP (NN age) (NN twenty-three)))
+    (, ,)
+    (NP (PRP she))
+    (ADVP (RB finally))
+    (VP
+      (VP (VBD boarded)
+        (NP (DT a) (NN ship))
+        (PP (IN in)
+          (NP (NNP England))))
+      (CC and)
+      (VP (VBD made)
+        (NP (PRP$ her) (NN way))
+        (PP (TO to)
+          (NP
+            (NP (NNP Kenya))
+            (, ,)
+            (SBAR
+              (WHADVP (WRB where))
+              (S
+                (NP (NNP Goodall))
+                (VP (VBD met)
+                  (NP (DT the) (JJ famous) (NN anthropologist) (NNP Louis) (NNP Leakey)))))))))
+    (. .)))
+
+advmod(boarded-8, Then-1)
+case(twenty-three-4, at-2)
+compound(twenty-three-4, age-3)
+nmod:at(boarded-8, twenty-three-4)
+nsubj(boarded-8, she-6)
+nsubj(made-14, she-6)
+advmod(boarded-8, finally-7)
+root(ROOT-0, boarded-8)
+det(ship-10, a-9)
+dobj(boarded-8, ship-10)
+case(England-12, in-11)
+nmod:in(boarded-8, England-12)
+cc(boarded-8, and-13)
+conj:and(boarded-8, made-14)
+nmod:poss(way-16, her-15)
+dobj(made-14, way-16)
+case(Kenya-18, to-17)
+nmod:to(made-14, Kenya-18)
+advmod(met-22, where-20)
+nsubj(met-22, Goodall-21)
+acl:relcl(Kenya-18, met-22)
+det(Leakey-27, the-23)
+amod(Leakey-27, famous-24)
+compound(Leakey-27, anthropologist-25)
+compound(Leakey-27, Louis-26)
+dobj(met-22, Leakey-27)
+
+(ROOT
+  (S
+    (NP (PRP She))
+    (VP (VBD worked)
+      (PP (IN as)
+        (NP (PRP$ his) (NN secretary)))
+      (PP (IN for)
+        (NP (DT a) (NN while))))
+    (. .)))
+
+nsubj(worked-2, She-1)
+root(ROOT-0, worked-2)
+case(secretary-5, as-3)
+nmod:poss(secretary-5, his-4)
+nmod:as(worked-2, secretary-5)
+case(while-8, for-6)
+det(while-8, a-7)
+nmod:for(worked-2, while-8)
+
+(ROOT
+  (S (RB Then)
+    (NP (CD one) (NN day))
+    (, ,)
+    (NP (NNP Leakey))
+    (VP (VBD told)
+      (NP
+        (NP (NNP Goodall))
+        (SBAR
+          (S
+            (NP (PRP he))
+            (VP (VBD wanted)
+              (S
+                (VP (TO to)
+                  (VP (VB send)
+                    (NP (PRP her))
+                    (PP (TO to)
+                      (NP (DT the) (JJ African) (NN rain) (NN forest)))
+                    (PP (TO to)
+                      (NP (NN study) (NNS chimpanzees)))))))))))
+    (. .)))
+
+advmod(told-6, Then-1)
+nummod(day-3, one-2)
+nmod:tmod(told-6, day-3)
+nsubj(told-6, Leakey-5)
+root(ROOT-0, told-6)
+dobj(told-6, Goodall-7)
+nsubj(wanted-9, he-8)
+nsubj(send-11, he-8)
+acl:relcl(Goodall-7, wanted-9)
+mark(send-11, to-10)
+xcomp(wanted-9, send-11)
+dobj(send-11, her-12)
+case(forest-17, to-13)
+det(forest-17, the-14)
+amod(forest-17, African-15)
+compound(forest-17, rain-16)
+nmod:to(send-11, forest-17)
+case(chimpanzees-20, to-18)
+compound(chimpanzees-20, study-19)
+nmod:to(send-11, chimpanzees-20)
+
+(ROOT
+  (S
+    (NP (PRP She))
+    (VP (MD would)
+      (VP (VB have)
+        (S
+          (VP (TO to)
+            (VP (VB stay)
+              (ADVP (RB awhile)))))))
+    (. .)))
+
+nsubj(have-3, She-1)
+nsubj(stay-5, She-1)
+aux(have-3, would-2)
+root(ROOT-0, have-3)
+mark(stay-5, to-4)
+xcomp(have-3, stay-5)
+advmod(stay-5, awhile-6)
+
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (VBD told)
+      (NP (PRP her))
+      (SBAR (IN that)
+        (S
+          (NP (DT the) (NN research) (NN project))
+          (VP (MD might)
+            (VP (VB take)
+              (NP
+                (QP (RB as) (JJ long) (IN as) (CD ten))
+                (NNS years)))))))
+    (. .)))
+
+nsubj(told-2, He-1)
+root(ROOT-0, told-2)
+dobj(told-2, her-3)
+mark(take-9, that-4)
+det(project-7, the-5)
+compound(project-7, research-6)
+nsubj(take-9, project-7)
+aux(take-9, might-8)
+ccomp(told-2, take-9)
+advmod(ten-13, as-10)
+advmod(ten-13, long-11)
+advmod(ten-13, as-12)
+nummod(years-14, ten-13)
+nmod:tmod(take-9, years-14)
+
+(ROOT
+  (S
+    (S
+      (NP (NNP Goodall))
+      (VP (VBD was)
+        (VP (VBN excited)
+          (PP (IN by)
+            (NP (DT the) (NN opportunity))))))
+    (, ,)
+    (CC but)
+    (S
+      (NP (NNS officials))
+      (VP (VBD worried)
+        (PP (IN about)
+          (NP (PRP$ her) (NN safety)))
+        (PP (IN in)
+          (NP (DT the) (JJ African) (NN rain) (NN forest)))))
+    (. .)))
+
+nsubjpass(excited-3, Goodall-1)
+auxpass(excited-3, was-2)
+root(ROOT-0, excited-3)
+case(opportunity-6, by-4)
+det(opportunity-6, the-5)
+nmod:by(excited-3, opportunity-6)
+cc(excited-3, but-8)
+nsubj(worried-10, officials-9)
+conj:but(excited-3, worried-10)
+case(safety-13, about-11)
+nmod:poss(safety-13, her-12)
+nmod:about(worried-10, safety-13)
+case(forest-18, in-14)
+det(forest-18, the-15)
+amod(forest-18, African-16)
+compound(forest-18, rain-17)
+nmod:in(worried-10, forest-18)
+
+(ROOT
+  (S
+    (PP (IN At)
+      (NP (DT that) (NN time)))
+    (, ,)
+    (NP (NNS chimpanzees))
+    (VP (VBD were)
+      (VP (VBN thought)
+        (S
+          (VP (TO to)
+            (VP (VB be)
+              (NP (JJ violent) (NNS animals)))))))
+    (. .)))
+
+case(time-3, At-1)
+det(time-3, that-2)
+nmod:at(thought-7, time-3)
+nsubjpass(thought-7, chimpanzees-5)
+nsubj(animals-11, chimpanzees-5)
+auxpass(thought-7, were-6)
+root(ROOT-0, thought-7)
+mark(animals-11, to-8)
+cop(animals-11, be-9)
+amod(animals-11, violent-10)
+xcomp(thought-7, animals-11)
+
+(ROOT
+  (S
+    (NP (JJ Many) (NNS people))
+    (VP (VBD said)
+      (SBAR
+        (S
+          (NP (NNP Goodall))
+          (VP (MD would) (RB n't)
+            (VP (VB last)
+              (NP
+                (NP (CD three) (NNS weeks))
+                (PP (IN in)
+                  (NP (DT the) (NN rain) (NN forest)))))))))
+    (. .)))
+
+amod(people-2, Many-1)
+nsubj(said-3, people-2)
+root(ROOT-0, said-3)
+nsubj(last-7, Goodall-4)
+aux(last-7, would-5)
+neg(last-7, n't-6)
+ccomp(said-3, last-7)
+nummod(weeks-9, three-8)
+dobj(last-7, weeks-9)
+case(forest-13, in-10)
+det(forest-13, the-11)
+compound(forest-13, rain-12)
+nmod:in(weeks-9, forest-13)
+
+(ROOT
+  (S
+    (NP (PRP They))
+    (ADVP (RB seriously))
+    (VP (VBD underestimated)
+      (NP (PRP her)))
+    (. .)))
+
+nsubj(underestimated-3, They-1)
+advmod(underestimated-3, seriously-2)
+root(ROOT-0, underestimated-3)
+dobj(underestimated-3, her-4)
+
+(ROOT
+  (S
+    (NP
+      (NP
+        (NP (NNP Goodall) (POS 's))
+        (NN study))
+      (PP (IN of)
+        (NP (DT the) (NNS chimpanzees))))
+    (VP (VBZ has)
+      (VP (VBN lasted)
+        (PP (IN for)
+          (NP
+            (QP (JJR more) (IN than) (CD forty))
+            (NNS years)))))
+    (. .)))
+
+nmod:poss(study-3, Goodall-1)
+case(Goodall-1, 's-2)
+nsubj(lasted-8, study-3)
+case(chimpanzees-6, of-4)
+det(chimpanzees-6, the-5)
+nmod:of(study-3, chimpanzees-6)
+aux(lasted-8, has-7)
+root(ROOT-0, lasted-8)
+case(years-13, for-9)
+advmod(forty-12, more-10)
+mwe(more-10, than-11)
+nummod(years-13, forty-12)
+nmod:for(lasted-8, years-13)
+
+(ROOT
+  (S
+    (NP (DT Those) (JJ forty) (NNS years))
+    (VP (VBP have)
+      (VP (VBN been)
+        (ADJP (JJ full))
+        (PP (IN of)
+          (NP
+            (ADJP (JJ wonderful)
+              (CC and)
+              (JJ surprising))
+            (NNS discoveries)))))
+    (. .)))
+
+det(years-3, Those-1)
+amod(years-3, forty-2)
+nsubj(full-6, years-3)
+aux(full-6, have-4)
+cop(full-6, been-5)
+root(ROOT-0, full-6)
+case(discoveries-11, of-7)
+amod(discoveries-11, wonderful-8)
+cc(wonderful-8, and-9)
+conj:and(wonderful-8, surprising-10)
+amod(discoveries-11, surprising-10)
+nmod:of(full-6, discoveries-11)
+
+(ROOT
+  (S
+    (SBAR
+      (X (DT The) (JJR more))
+      (S
+        (NP (NNP Goodall))
+        (VP (VBD watched)
+          (NP (DT the) (NNS chimpanzees)))))
+    (, ,)
+    (X (DT the) (JJR more))
+    (NP (PRP she))
+    (VP (VBD noticed)
+      (SBAR
+        (WHADJP (WRB how) (JJ similar))
+        (S
+          (NP (PRP they))
+          (VP (VBP are)
+            (PP (TO to)
+              (NP (NNS humans)))))))
+    (. .)))
+
+det(more-2, The-1)
+dep(watched-4, more-2)
+nsubj(watched-4, Goodall-3)
+advcl(noticed-11, watched-4)
+det(chimpanzees-6, the-5)
+dobj(watched-4, chimpanzees-6)
+det(more-9, the-8)
+dep(noticed-11, more-9)
+nsubj(noticed-11, she-10)
+root(ROOT-0, noticed-11)
+advmod(similar-13, how-12)
+dep(humans-17, similar-13)
+nsubj(humans-17, they-14)
+cop(humans-17, are-15)
+case(humans-17, to-16)
+ccomp(noticed-11, humans-17)
+
+(ROOT
+  (S
+    (NP
+      (NP (NNS Chimpanzees))
+      (, ,)
+      (PP (IN for)
+        (NP (NN example)))
+      (, ,))
+    (VP (VBP show)
+      (NP (NN affection))
+      (PP (IN in)
+        (NP
+          (NP (RB much) (DT the) (JJ same) (NN way))
+          (SBAR
+            (S
+              (NP (NNS humans))
+              (VP (VBP do)))))))
+    (. .)))
+
+nsubj(show-6, Chimpanzees-1)
+case(example-4, for-3)
+nmod:for(Chimpanzees-1, example-4)
+root(ROOT-0, show-6)
+dobj(show-6, affection-7)
+case(way-12, in-8)
+advmod(way-12, much-9)
+det(way-12, the-10)
+amod(way-12, same-11)
+nmod:in(show-6, way-12)
+nsubj(do-14, humans-13)
+acl:relcl(way-12, do-14)
+
+(ROOT
+  (S
+    (NP (PRP They))
+    (VP (VBD kiss) (, ,)
+      (S
+        (S
+          (INTJ (UH hug))
+          (, ,)
+          (VP (VB hold)
+            (NP (NNS hands))))
+        (, ,)
+        (CC and)
+        (S
+          (ADVP (RB even))
+          (VP (VB tickle)
+            (NP (CD one) (DT another))))))
+    (. .)))
+
+nsubj(kiss-2, They-1)
+root(ROOT-0, kiss-2)
+discourse(hold-6, hug-4)
+xcomp(kiss-2, hold-6)
+dobj(hold-6, hands-7)
+cc(hold-6, and-9)
+advmod(tickle-11, even-10)
+xcomp(kiss-2, tickle-11)
+conj:and(hold-6, tickle-11)
+dobj(tickle-11, one-12)
+dep(one-12, another-13)
+
+(ROOT
+  (S
+    (NP (NNP Goodall))
+    (VP (VBD helped)
+      (SBAR
+        (S
+          (NP (PRP us))
+          (VP (VBP realize)
+            (SBAR (IN that)
+              (S
+                (NP (NNS animals))
+                (VP (MD can)
+                  (VP (VB experience)
+                    (NP (NNS emotions))))))))))
+    (. .)))
+
+nsubj(helped-2, Goodall-1)
+root(ROOT-0, helped-2)
+nsubj(realize-4, us-3)
+ccomp(helped-2, realize-4)
+mark(experience-8, that-5)
+nsubj(experience-8, animals-6)
+aux(experience-8, can-7)
+ccomp(realize-4, experience-8)
+dobj(experience-8, emotions-9)
+
+(ROOT
+  (S
+    (NP (PRP They))
+    (VP
+      (VP (VBP know)
+        (NP (DT both) (NN joy)))
+      (CC and)
+      (VP (VBZ sadness)))
+    (. .)))
+
+nsubj(know-2, They-1)
+nsubj(sadness-6, They-1)
+root(ROOT-0, know-2)
+det(joy-4, both-3)
+dobj(know-2, joy-4)
+cc(know-2, and-5)
+conj:and(know-2, sadness-6)
+
+(ROOT
+  (S
+    (ADVP (RB Amazingly))
+    (, ,)
+    (NP (NNP Goodall))
+    (VP (VBD discovered)
+      (SBAR (IN that)
+        (S
+          (NP (NNS chimpanzees))
+          (VP (VBP make)
+            (CC and)
+            (VBP use)
+            (NP (NNS tools))))))
+    (. .)))
+
+advmod(discovered-4, Amazingly-1)
+nsubj(discovered-4, Goodall-3)
+root(ROOT-0, discovered-4)
+mark(make-7, that-5)
+nsubj(make-7, chimpanzees-6)
+nsubj(use-9, chimpanzees-6)
+ccomp(discovered-4, make-7)
+cc(make-7, and-8)
+ccomp(discovered-4, use-9)
+conj:and(make-7, use-9)
+dobj(make-7, tools-10)
+
+(ROOT
+  (S
+    (PP (IN Before)
+      (NP (DT this) (NN discovery)))
+    (, ,)
+    (NP (NNS scientists))
+    (VP (VBD thought)
+      (SBAR (IN that)
+        (S
+          (NP (NNS humans))
+          (VP (VBD were)
+            (NP
+              (NP (DT the) (JJ only) (NN tool) (NNS makers))
+              (PP (IN on)
+                (NP (NN earth))))))))
+    (. .)))
+
+case(discovery-3, Before-1)
+det(discovery-3, this-2)
+nmod:before(thought-6, discovery-3)
+nsubj(thought-6, scientists-5)
+root(ROOT-0, thought-6)
+mark(makers-13, that-7)
+nsubj(makers-13, humans-8)
+cop(makers-13, were-9)
+det(makers-13, the-10)
+amod(makers-13, only-11)
+compound(makers-13, tool-12)
+ccomp(thought-6, makers-13)
+case(earth-15, on-14)
+nmod:on(makers-13, earth-15)
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP Goodall) (POS 's))
+      (NNS discoveries))
+    (VP (VBP have)
+      (VP (VBN forced)
+        (S
+          (NP (PRP us))
+          (VP (TO to)
+            (VP (VB look)
+              (PP (IN at)
+                (NP
+                  (NP (NNS chimps))
+                  (PP (IN in)
+                    (NP (DT a)
+                      (ADJP (RB completely) (JJ new))
+                      (NN way))))))))))
+    (. .)))
+
+nmod:poss(discoveries-3, Goodall-1)
+case(Goodall-1, 's-2)
+nsubj(forced-5, discoveries-3)
+aux(forced-5, have-4)
+root(ROOT-0, forced-5)
+dobj(forced-5, us-6)
+nsubj(look-8, us-6)
+mark(look-8, to-7)
+xcomp(forced-5, look-8)
+case(chimps-10, at-9)
+nmod:at(look-8, chimps-10)
+case(way-15, in-11)
+det(way-15, a-12)
+advmod(new-14, completely-13)
+amod(way-15, new-14)
+nmod:in(chimps-10, way-15)
+
+(ROOT
+  (S
+    (NP (PRP We))
+    (VP (VBP have)
+      (VP (VBN realized)
+        (SBAR
+          (WHADJP (RB just) (WRB how) (JJ much))
+          (S
+            (NP (PRP we))
+            (VP (VBP have)
+              (PP (IN in)
+                (NP (JJ common)))
+              (PP (IN with)
+                (NP (JJ other) (NN living) (NNS things))))))))
+    (. .)))
+
+nsubj(realized-3, We-1)
+aux(realized-3, have-2)
+root(ROOT-0, realized-3)
+advmod(much-6, just-4)
+advmod(much-6, how-5)
+dep(have-8, much-6)
+nsubj(have-8, we-7)
+ccomp(realized-3, have-8)
+case(common-10, in-9)
+nmod:in(have-8, common-10)
+case(things-14, with-11)
+amod(things-14, other-12)
+compound(things-14, living-13)
+nmod:with(have-8, things-14)
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP Goodall))
+      (, ,)
+      (SBAR
+        (WHNP (WP who))
+        (S
+          (VP (VBD watched)
+            (SBAR
+              (S
+                (NP (NNS hens))
+                (VP (VBD lay)
+                  (NP (NNS eggs))
+                  (PP (IN as)
+                    (NP (DT a) (JJ little) (NN girl)))))))))
+      (, ,))
+    (VP (VBZ has)
+      (PP (IN in)
+        (NP (NN fact)))
+      (VP (VBN taught)
+        (NP
+          (NP (DT the) (NN world))
+          (NP (DT another) (JJ important) (NN lesson)))))
+    (. .)))
+
+nsubj(watched-4, Goodall-1)
+nsubj(taught-16, Goodall-1)
+ref(Goodall-1, who-3)
+acl:relcl(Goodall-1, watched-4)
+nsubj(lay-6, hens-5)
+ccomp(watched-4, lay-6)
+dobj(lay-6, eggs-7)
+case(girl-11, as-8)
+det(girl-11, a-9)
+amod(girl-11, little-10)
+nmod:as(lay-6, girl-11)
+aux(taught-16, has-13)
+case(fact-15, in-14)
+nmod:in(taught-16, fact-15)
+root(ROOT-0, taught-16)
+det(world-18, the-17)
+dobj(taught-16, world-18)
+det(lesson-21, another-19)
+amod(lesson-21, important-20)
+dep(world-18, lesson-21)
+
+(ROOT
+  (S
+    (NP (PRP She))
+    (VP (VBZ has)
+      (VP (VBN shown)
+        (NP (PRP us))
+        (SBAR (IN that)
+          (S
+            (NP
+              (NP (DT a) (JJ little) (NN curiosity))
+              (CC and)
+              (NP (DT a) (JJ bold) (, ,) (JJ adventurous) (NN spirit)))
+            (VP (MD can)
+              (VP (VB lead)
+                (PP (TO to)
+                  (NP (JJ amazing) (NNS discoveries)))))))))
+    (. .)))
+
+nsubj(shown-3, She-1)
+aux(shown-3, has-2)
+root(ROOT-0, shown-3)
+dobj(shown-3, us-4)
+mark(lead-16, that-5)
+det(curiosity-8, a-6)
+amod(curiosity-8, little-7)
+nsubj(lead-16, curiosity-8)
+cc(curiosity-8, and-9)
+det(spirit-14, a-10)
+amod(spirit-14, bold-11)
+amod(spirit-14, adventurous-13)
+conj:and(curiosity-8, spirit-14)
+nsubj(lead-16, spirit-14)
+aux(lead-16, can-15)
+ccomp(shown-3, lead-16)
+case(discoveries-19, to-17)
+amod(discoveries-19, amazing-18)
+nmod:to(lead-16, discoveries-19)
+

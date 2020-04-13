@@ -1,0 +1,1139 @@
+(ROOT
+  (NP
+    (NP
+      (NP (NNS Mistakes))
+      (NP (DT That) (NNP Worked)))
+    (: :)
+    (NP
+      (NP (JJ Post-it) (NNS Notes))
+      (CC and)
+      (NP (NNP Slinky)))
+    (. .)))
+
+root(ROOT-0, Mistakes-1)
+det(Worked-3, That-2)
+dep(Mistakes-1, Worked-3)
+amod(Notes-6, Post-it-5)
+dep(Mistakes-1, Notes-6)
+cc(Notes-6, and-7)
+dep(Mistakes-1, Slinky-8)
+conj:and(Notes-6, Slinky-8)
+
+(ROOT
+  (S
+    (VP (VB Call)
+      (S
+        (NP (PRP them))
+        (NP (NNS accidents))))
+    (. .)))
+
+root(ROOT-0, Call-1)
+nsubj(accidents-3, them-2)
+xcomp(Call-1, accidents-3)
+
+(ROOT
+  (S
+    (VP (VB Call)
+      (S
+        (NP (PRP them))
+        (NP (NNS mistakes))))
+    (. .)))
+
+root(ROOT-0, Call-1)
+nsubj(mistakes-3, them-2)
+xcomp(Call-1, mistakes-3)
+
+(ROOT
+  (S
+    (SBAR (IN If)
+      (S
+        (NP (DT the) (NN truth))
+        (VP (VBD were)
+          (VP (VBN known)))))
+    (, ,)
+    (NP (PRP we))
+    (VP (MD might)
+      (VP (VB be)
+        (VP (VBN amazed)
+          (PP (IN by)
+            (NP
+              (NP (DT the) (NN number))
+              (PP (IN of)
+                (NP (JJ great) (NNS inventions)
+                  (CC and)
+                  (NNS discoveries)))
+              (SBAR
+                (WHNP (WDT that))
+                (S
+                  (VP (VBD were)
+                    (ADJP (JJ accidental) (, ,) (JJ unplanned)
+                      (CC and)
+                      (JJ unintentional))))))))))
+    (. .)))
+
+mark(known-5, If-1)
+det(truth-3, the-2)
+nsubjpass(known-5, truth-3)
+auxpass(known-5, were-4)
+advcl(amazed-10, known-5)
+nsubjpass(amazed-10, we-7)
+aux(amazed-10, might-8)
+auxpass(amazed-10, be-9)
+root(ROOT-0, amazed-10)
+case(number-13, by-11)
+det(number-13, the-12)
+nmod:by(amazed-10, number-13)
+nsubj(accidental-21, number-13)
+nsubj(unplanned-23, number-13)
+nsubj(unintentional-25, number-13)
+case(inventions-16, of-14)
+amod(inventions-16, great-15)
+nmod:of(number-13, inventions-16)
+cc(inventions-16, and-17)
+nmod:of(number-13, discoveries-18)
+conj:and(inventions-16, discoveries-18)
+ref(number-13, that-19)
+cop(accidental-21, were-20)
+acl:relcl(number-13, accidental-21)
+acl:relcl(number-13, unplanned-23)
+conj:and(accidental-21, unplanned-23)
+cc(accidental-21, and-24)
+acl:relcl(number-13, unintentional-25)
+conj:and(accidental-21, unintentional-25)
+
+(ROOT
+  (S
+    (NP (JJ Post-it) (NNS Notes))
+    (PP (IN By)
+      (NP (RB now) (NN everyone)))
+    (VP (VBZ knows)
+      (SBAR
+        (WHNP (WP what))
+        (S
+          (NP (JJ Post-it) (NNS Notes))
+          (VP (VBP are)))))
+    (. .)))
+
+amod(Notes-2, Post-it-1)
+nsubj(knows-6, Notes-2)
+case(everyone-5, By-3)
+advmod(everyone-5, now-4)
+nmod:by(knows-6, everyone-5)
+root(ROOT-0, knows-6)
+dobj(are-10, what-7)
+amod(Notes-9, Post-it-8)
+nsubj(are-10, Notes-9)
+ccomp(knows-6, are-10)
+
+(ROOT
+  (S
+    (NP (PRP They))
+    (VP (VBP are)
+      (NP (DT those) (JJ great) (JJ little) (JJ self-stick) (NNS notepapers)))
+    (. .)))
+
+nsubj(notepapers-7, They-1)
+cop(notepapers-7, are-2)
+det(notepapers-7, those-3)
+amod(notepapers-7, great-4)
+amod(notepapers-7, little-5)
+amod(notepapers-7, self-stick-6)
+root(ROOT-0, notepapers-7)
+
+(ROOT
+  (S
+    (NP (JJS Most) (NNS people))
+    (VP (VBP have)
+      (NP (JJ Post-it) (NNS Notes)))
+    (. .)))
+
+amod(people-2, Most-1)
+nsubj(have-3, people-2)
+root(ROOT-0, have-3)
+amod(Notes-5, Post-it-4)
+dobj(have-3, Notes-5)
+
+(ROOT
+  (S
+    (NP (JJS Most) (NNS people))
+    (VP (VBP use)
+      (NP (PRP them)))
+    (. .)))
+
+amod(people-2, Most-1)
+nsubj(use-3, people-2)
+root(ROOT-0, use-3)
+dobj(use-3, them-4)
+
+(ROOT
+  (S
+    (NP (JJS Most) (NNS people))
+    (VP (VBP love)
+      (NP (PRP them)))
+    (. .)))
+
+amod(people-2, Most-1)
+nsubj(love-3, people-2)
+root(ROOT-0, love-3)
+dobj(love-3, them-4)
+
+(ROOT
+  (S (CC But)
+    (NP (JJ Post-it) (NNS Notes))
+    (VP (VBD were) (RB not)
+      (NP (DT a) (JJ planned) (NN product)))
+    (. .)))
+
+cc(product-8, But-1)
+amod(Notes-3, Post-it-2)
+nsubj(product-8, Notes-3)
+cop(product-8, were-4)
+neg(product-8, not-5)
+det(product-8, a-6)
+amod(product-8, planned-7)
+root(ROOT-0, product-8)
+
+(ROOT
+  (S
+    (NP (DT No) (NN one))
+    (VP
+      (VP (VBD got)
+        (NP (DT the) (NN idea)))
+      (CC and)
+      (ADVP (RB then))
+      (VP (VBD stayed)
+        (PRT (RP up))
+        (NP (NNS nights))
+        (S
+          (VP (TO to)
+            (VP (VB invent)
+              (NP (PRP it)))))))
+    (. .)))
+
+neg(one-2, No-1)
+nsubj(got-3, one-2)
+nsubj(stayed-8, one-2)
+root(ROOT-0, got-3)
+det(idea-5, the-4)
+dobj(got-3, idea-5)
+cc(got-3, and-6)
+advmod(stayed-8, then-7)
+conj:and(got-3, stayed-8)
+compound:prt(stayed-8, up-9)
+nmod:tmod(stayed-8, nights-10)
+mark(invent-12, to-11)
+advcl(stayed-8, invent-12)
+dobj(invent-12, it-13)
+
+(ROOT
+  (S
+    (NP (DT A) (NN man))
+    (VP (VBD named)
+      (SBAR
+        (S
+          (NP (NNP Spencer) (NNP Silver))
+          (VP (VBD was)
+            (VP (VBG working)
+              (PP (IN in)
+                (NP (DT the) (NNP 3M) (NN research) (NNS laboratories)))
+              (PP (IN in)
+                (NP
+                  (NP (CD 1970))
+                  (VP (VBG trying)
+                    (S
+                      (VP (TO to)
+                        (VP (VB find)
+                          (NP (DT a) (JJ strong) (NN adhesive)))))))))))))
+    (. .)))
+
+det(man-2, A-1)
+nsubj(named-3, man-2)
+root(ROOT-0, named-3)
+compound(Silver-5, Spencer-4)
+nsubj(working-7, Silver-5)
+aux(working-7, was-6)
+ccomp(named-3, working-7)
+case(laboratories-12, in-8)
+det(laboratories-12, the-9)
+compound(laboratories-12, 3M-10)
+compound(laboratories-12, research-11)
+nmod:in(working-7, laboratories-12)
+case(1970-14, in-13)
+nmod:in(working-7, 1970-14)
+acl(1970-14, trying-15)
+mark(find-17, to-16)
+xcomp(trying-15, find-17)
+det(adhesive-20, a-18)
+amod(adhesive-20, strong-19)
+dobj(find-17, adhesive-20)
+
+(ROOT
+  (S
+    (S
+      (NP (NNP Silver))
+      (VP (VBD developed)
+        (NP (DT a) (JJ new) (NN adhesive))))
+    (, ,)
+    (CC but)
+    (S
+      (NP (PRP it))
+      (VP (VBD was)
+        (ADJP
+          (ADJP (RB even) (JJR weaker))
+          (SBAR (IN than)
+            (S
+              (NP (DT those) (NNP 3M))
+              (ADVP (RB already))
+              (VP (VBD manufactured)))))))
+    (. .)))
+
+nsubj(developed-2, Silver-1)
+root(ROOT-0, developed-2)
+det(adhesive-5, a-3)
+amod(adhesive-5, new-4)
+dobj(developed-2, adhesive-5)
+cc(developed-2, but-7)
+nsubj(weaker-11, it-8)
+cop(weaker-11, was-9)
+advmod(weaker-11, even-10)
+conj:but(developed-2, weaker-11)
+mark(manufactured-16, than-12)
+det(3M-14, those-13)
+nsubj(manufactured-16, 3M-14)
+advmod(manufactured-16, already-15)
+ccomp(weaker-11, manufactured-16)
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP
+      (VP (VBD stuck)
+        (PP (TO to)
+          (NP (NNS objects))))
+      (, ,)
+      (CC but)
+      (VP (MD could)
+        (ADVP (RB easily))
+        (VP (VB be)
+          (VP (VBN lifted)
+            (PRT (RP off))))))
+    (. .)))
+
+nsubj(stuck-2, It-1)
+nsubjpass(lifted-10, It-1)
+root(ROOT-0, stuck-2)
+case(objects-4, to-3)
+nmod:to(stuck-2, objects-4)
+cc(stuck-2, but-6)
+aux(lifted-10, could-7)
+advmod(lifted-10, easily-8)
+auxpass(lifted-10, be-9)
+conj:but(stuck-2, lifted-10)
+compound:prt(lifted-10, off-11)
+
+(ROOT
+  (S
+    (S
+      (NP (PRP It))
+      (VP (MD should)
+        (VP (VB have)
+          (VP (VBN been)
+            (ADJP (JJ super-strong))))))
+    (, ,)
+    (CC but)
+    (S
+      (NP (PRP it))
+      (VP (VBD turned)
+        (PRT (RP out))
+        (S
+          (VP (TO to)
+            (VP (VB be)
+              (ADJP (JJ super-weak))
+              (ADVP (RB instead)))))))
+    (. .)))
+
+nsubj(super-strong-5, It-1)
+aux(super-strong-5, should-2)
+aux(super-strong-5, have-3)
+cop(super-strong-5, been-4)
+root(ROOT-0, super-strong-5)
+cc(super-strong-5, but-7)
+nsubj(turned-9, it-8)
+nsubj(super-weak-13, it-8)
+conj:but(super-strong-5, turned-9)
+compound:prt(turned-9, out-10)
+mark(super-weak-13, to-11)
+cop(super-weak-13, be-12)
+xcomp(turned-9, super-weak-13)
+advmod(super-weak-13, instead-14)
+
+(ROOT
+  (S
+    (S
+      (NP (DT No) (NN one))
+      (VP (VBD knew)
+        (SBAR
+          (WHNP (WP what))
+          (S
+            (VP (TO to)
+              (VP (VB do)
+                (PP (IN with)
+                  (NP (DT the) (NN stuff)))))))))
+    (, ,)
+    (CC but)
+    (S
+      (NP (NNP Silver))
+      (VP (VBD did) (RB n't)
+        (VP (VB discard)
+          (NP (PRP it)))))
+    (. .)))
+
+neg(one-2, No-1)
+nsubj(knew-3, one-2)
+root(ROOT-0, knew-3)
+nsubj(do-6, what-4)
+mark(do-6, to-5)
+ccomp(knew-3, do-6)
+case(stuff-9, with-7)
+det(stuff-9, the-8)
+nmod:with(do-6, stuff-9)
+cc(knew-3, but-11)
+nsubj(discard-15, Silver-12)
+aux(discard-15, did-13)
+neg(discard-15, n't-14)
+conj:but(knew-3, discard-15)
+dobj(discard-15, it-16)
+
+(ROOT
+  (S
+    (S
+      (ADVP (RB Then))
+      (NP (CD one) (NNP Sunday) (CD four) (NNS years) (RB later)))
+    (, ,)
+    (NP (DT another) (NNP 3M) (NN scientist))
+    (VP (VBD named)
+      (SBAR
+        (S
+          (NP (NNP Arthur) (NNP Fry))
+          (VP (VBD was)
+            (VP (VBG singing)
+              (PP (IN in)
+                (NP
+                  (NP (PRP$ his) (NN church) (POS 's))
+                  (NN choir))))))))
+    (. .)))
+
+advmod(years-5, Then-1)
+nummod(years-5, one-2)
+compound(years-5, Sunday-3)
+nummod(years-5, four-4)
+ccomp(named-11, years-5)
+advmod(years-5, later-6)
+det(scientist-10, another-8)
+compound(scientist-10, 3M-9)
+nsubj(named-11, scientist-10)
+root(ROOT-0, named-11)
+compound(Fry-13, Arthur-12)
+nsubj(singing-15, Fry-13)
+aux(singing-15, was-14)
+ccomp(named-11, singing-15)
+case(choir-20, in-16)
+nmod:poss(church-18, his-17)
+nmod:poss(choir-20, church-18)
+case(church-18, 's-19)
+nmod:in(singing-15, choir-20)
+
+(ROOT
+  (S
+    (S
+      (NP (PRP He))
+      (VP (VBD used)
+        (NP (NNS markers))
+        (S
+          (VP (TO to)
+            (VP (VB keep)
+              (NP (PRP$ his) (NN place))
+              (PP (IN in)
+                (NP (DT the) (NN hymnal))))))))
+    (, ,)
+    (CC but)
+    (S
+      (NP (PRP they))
+      (VP (VBD kept)
+        (S
+          (VP (VBG falling)
+            (PRT (RP out))
+            (PP (IN of)
+              (NP (DT the) (NN book)))))))
+    (. .)))
+
+nsubj(used-2, He-1)
+root(ROOT-0, used-2)
+dobj(used-2, markers-3)
+mark(keep-5, to-4)
+advcl(used-2, keep-5)
+nmod:poss(place-7, his-6)
+dobj(keep-5, place-7)
+case(hymnal-10, in-8)
+det(hymnal-10, the-9)
+nmod:in(keep-5, hymnal-10)
+cc(used-2, but-12)
+nsubj(kept-14, they-13)
+conj:but(used-2, kept-14)
+xcomp(kept-14, falling-15)
+compound:prt(falling-15, out-16)
+case(book-19, of-17)
+det(book-19, the-18)
+nmod:of(falling-15, book-19)
+
+(ROOT
+  (S
+    (S
+      (VP (VBG Remembering)
+        (NP
+          (NP (NNP Silver) (POS 's))
+          (NN adhesive))))
+    (, ,)
+    (NP (NNP Fry))
+    (VP (VBD used)
+      (S
+        (NP (DT some))
+        (VP (TO to)
+          (VP (VB coat)
+            (NP (PRP$ his) (NNS markers))))))
+    (. .)))
+
+advcl(used-7, Remembering-1)
+nmod:poss(adhesive-4, Silver-2)
+case(Silver-2, 's-3)
+dobj(Remembering-1, adhesive-4)
+nsubj(used-7, Fry-6)
+root(ROOT-0, used-7)
+dobj(used-7, some-8)
+nsubj(coat-10, some-8)
+mark(coat-10, to-9)
+xcomp(used-7, coat-10)
+nmod:poss(markers-12, his-11)
+dobj(coat-10, markers-12)
+
+(ROOT
+  (S
+    (PP (IN With)
+      (NP (DT the) (JJ weak) (NN adhesive)))
+    (, ,)
+    (NP (DT the) (NNS markers))
+    (VP
+      (VP (VBD stayed)
+        (PP (IN in)
+          (NP (NN place))))
+      (, ,)
+      (CC yet)
+      (VP (VBD lifted)
+        (PRT (RP off))
+        (PP (IN without)
+          (S
+            (VP (VBG damaging)
+              (NP (DT the) (NNS pages)))))))
+    (. .)))
+
+case(adhesive-4, With-1)
+det(adhesive-4, the-2)
+amod(adhesive-4, weak-3)
+nmod:with(stayed-8, adhesive-4)
+det(markers-7, the-6)
+nsubj(stayed-8, markers-7)
+nsubj(lifted-13, markers-7)
+root(ROOT-0, stayed-8)
+case(place-10, in-9)
+nmod:in(stayed-8, place-10)
+cc(stayed-8, yet-12)
+conj:yet(stayed-8, lifted-13)
+compound:prt(lifted-13, off-14)
+mark(damaging-16, without-15)
+advcl(lifted-13, damaging-16)
+det(pages-18, the-17)
+dobj(damaging-16, pages-18)
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (CD 1980)))
+    (, ,)
+    (SBAR
+      (NP (CD ten) (NNS years))
+      (IN after)
+      (S
+        (NP (NNP Silver))
+        (VP (VBD developed)
+          (NP (DT the) (JJ super-weak) (NN adhesive)))))
+    (, ,)
+    (NP (NNP 3M))
+    (VP (VBD began)
+      (S
+        (VP (VBG distributing)
+          (NP (JJ Post-it) (NNS Notes))
+          (ADVP (RB nationwide)))))
+    (. .)))
+
+case(1980-2, In-1)
+nmod:in(began-14, 1980-2)
+nummod(years-5, ten-4)
+dep(developed-8, years-5)
+mark(developed-8, after-6)
+nsubj(developed-8, Silver-7)
+advcl(began-14, developed-8)
+det(adhesive-11, the-9)
+amod(adhesive-11, super-weak-10)
+dobj(developed-8, adhesive-11)
+nsubj(began-14, 3M-13)
+root(ROOT-0, began-14)
+xcomp(began-14, distributing-15)
+amod(Notes-17, Post-it-16)
+dobj(distributing-15, Notes-17)
+advmod(distributing-15, nationwide-18)
+
+(ROOT
+  (S
+    (NP (NN Today))
+    (NP (PRP they))
+    (VP (VBP are)
+      (NP
+        (NP (CD one))
+        (PP (IN of)
+          (NP
+            (NP (DT the)
+              (ADJP (RBS most) (JJ popular))
+              (NN office) (NNS products))
+            (ADJP (JJ available))))))
+    (. .)))
+
+nmod:tmod(one-4, Today-1)
+nsubj(one-4, they-2)
+cop(one-4, are-3)
+root(ROOT-0, one-4)
+case(products-10, of-5)
+det(products-10, the-6)
+advmod(popular-8, most-7)
+amod(products-10, popular-8)
+compound(products-10, office-9)
+nmod:of(one-4, products-10)
+amod(products-10, available-11)
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (CD 1943)))
+    (, ,)
+    (PP (IN during)
+      (NP (NNP World) (NNP War) (NNP II)))
+    (, ,)
+    (NP
+      (NP (DT an) (NN engineer))
+      (PP (IN in)
+        (NP (DT the) (NNP United) (NNPS States) (NNP Navy))))
+    (VP (VBD was)
+      (PP (IN on)
+        (NP
+          (NP (DT a) (JJ new) (NN ship) (POS 's))
+          (NN trial) (NN run))))
+    (. .)))
+
+case(1943-2, In-1)
+nmod:in(run-23, 1943-2)
+case(II-7, during-4)
+compound(II-7, World-5)
+compound(II-7, War-6)
+nmod:during(run-23, II-7)
+det(engineer-10, an-9)
+nsubj(run-23, engineer-10)
+case(Navy-15, in-11)
+det(Navy-15, the-12)
+compound(Navy-15, United-13)
+compound(Navy-15, States-14)
+nmod:in(engineer-10, Navy-15)
+cop(run-23, was-16)
+case(run-23, on-17)
+det(ship-20, a-18)
+amod(ship-20, new-19)
+nmod:poss(run-23, ship-20)
+case(ship-20, 's-21)
+compound(run-23, trial-22)
+root(ROOT-0, run-23)
+
+(ROOT
+  (S
+    (SBAR (IN As)
+      (S
+        (NP (PRP he))
+        (VP (VBD worked))))
+    (, ,)
+    (NP (DT a) (NN torsion) (NN spring))
+    (ADVP (RB suddenly))
+    (VP (VBD fell)
+      (PP (TO to)
+        (NP (DT the) (NN floor))))
+    (. .)))
+
+mark(worked-3, As-1)
+nsubj(worked-3, he-2)
+advcl(fell-9, worked-3)
+det(spring-7, a-5)
+compound(spring-7, torsion-6)
+nsubj(fell-9, spring-7)
+advmod(fell-9, suddenly-8)
+root(ROOT-0, fell-9)
+case(floor-12, to-10)
+det(floor-12, the-11)
+nmod:to(fell-9, floor-12)
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN spring))
+      (VP (JJ flip-flopped)
+        (PP (IN as)
+          (NP (DT the) (JJ ingenious) (NN man)))))
+    (VP (VBD watched))
+    (. .)))
+
+det(spring-2, The-1)
+nsubj(watched-8, spring-2)
+dep(spring-2, flip-flopped-3)
+case(man-7, as-4)
+det(man-7, the-5)
+amod(man-7, ingenious-6)
+nmod:as(flip-flopped-3, man-7)
+root(ROOT-0, watched-8)
+
+(ROOT
+  (S
+    (S
+      (NP
+        (NP (DT The) (JJ naval) (NN engineer) (POS 's))
+        (NN name))
+      (VP (VBD was)
+        (NP (NNP Richard) (NNP James))))
+    (, ,)
+    (CC and)
+    (S
+      (SBAR
+        (WHADVP (WRB when))
+        (S
+          (NP (PRP he))
+          (VP (VBD returned)
+            (NP (NN home)))))
+      (, ,)
+      (NP (PRP he))
+      (VP (VBD remembered)
+        (NP
+          (NP (DT the) (NN spring))
+          (CC and)
+          (NP
+            (NP (DT the) (JJ interesting) (NN way))
+            (SBAR
+              (S
+                (NP (PRP it))
+                (VP (VBZ flip-flopped))))))))
+    (. .)))
+
+det(engineer-3, The-1)
+amod(engineer-3, naval-2)
+nmod:poss(name-5, engineer-3)
+case(engineer-3, 's-4)
+nsubj(James-8, name-5)
+cop(James-8, was-6)
+compound(James-8, Richard-7)
+root(ROOT-0, James-8)
+cc(James-8, and-10)
+advmod(returned-13, when-11)
+nsubj(returned-13, he-12)
+advcl(remembered-17, returned-13)
+dobj(returned-13, home-14)
+nsubj(remembered-17, he-16)
+conj:and(James-8, remembered-17)
+det(spring-19, the-18)
+dobj(remembered-17, spring-19)
+cc(spring-19, and-20)
+det(way-23, the-21)
+amod(way-23, interesting-22)
+dobj(remembered-17, way-23)
+conj:and(spring-19, way-23)
+nsubj(flip-flopped-25, it-24)
+acl:relcl(way-23, flip-flopped-25)
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP James))
+      (CC and)
+      (NP (PRP$ his) (NN wife) (NNP Betty)))
+    (VP (VBN perfected)
+      (S
+        (NP (DT a) (JJ long) (NN steel) (NN ribbon))
+        (ADJP (RB tightly) (JJ coiled)
+          (PP (IN into)
+            (NP (DT a) (NN spiral))))))
+    (. .)))
+
+nsubj(perfected-6, James-1)
+cc(James-1, and-2)
+nmod:poss(Betty-5, his-3)
+compound(Betty-5, wife-4)
+conj:and(James-1, Betty-5)
+nsubj(perfected-6, Betty-5)
+root(ROOT-0, perfected-6)
+det(ribbon-10, a-7)
+amod(ribbon-10, long-8)
+compound(ribbon-10, steel-9)
+nsubj(coiled-12, ribbon-10)
+advmod(coiled-12, tightly-11)
+xcomp(perfected-6, coiled-12)
+case(spiral-15, into-13)
+det(spiral-15, a-14)
+nmod:into(coiled-12, spiral-15)
+
+(ROOT
+  (S
+    (NP (PRP They))
+    (VP (VBD began)
+      (NP (NN production))
+      (PP (IN in)
+        (NP (CD 1945))))
+    (. .)))
+
+nsubj(began-2, They-1)
+root(ROOT-0, began-2)
+dobj(began-2, production-3)
+case(1945-5, in-4)
+nmod:in(began-2, 1945-5)
+
+(ROOT
+  (S
+    (NP (DT The) (JJ no-battery-required) (NN toy))
+    (VP (VBZ has)
+      (VP (VBN fascinated)
+        (NP
+          (NP (CD three) (NNS generations))
+          (PP (IN of)
+            (NP (NNS children)
+              (CC and)
+              (NNS adults))))
+        (ADVP (RB alike))))
+    (. .)))
+
+det(toy-3, The-1)
+amod(toy-3, no-battery-required-2)
+nsubj(fascinated-5, toy-3)
+aux(fascinated-5, has-4)
+root(ROOT-0, fascinated-5)
+nummod(generations-7, three-6)
+dobj(fascinated-5, generations-7)
+case(children-9, of-8)
+nmod:of(generations-7, children-9)
+cc(children-9, and-10)
+nmod:of(generations-7, adults-11)
+conj:and(children-9, adults-11)
+advmod(fascinated-5, alike-12)
+
+(ROOT
+  (S
+    (PP (VBG According)
+      (PP (TO to)
+        (NP (CD one) (NN estimate))))
+    (, ,)
+    (S
+      (NP
+        (QP (JJR more) (IN than) (CD two) (CD million))
+        (NNPS Slinkys))
+      (VP (VBP have)
+        (VP (VBN been)
+          (VP (VBN sold)))))
+    (CC and)
+    (S
+      (NP
+        (NP (DT the) (JJ only) (NN change))
+        (PP (IN in)
+          (NP (DT the) (JJ original) (NN design))))
+      (VP (VBZ has)
+        (VP (VBN been)
+          (S
+            (VP (TO to)
+              (VP (VB crimp)
+                (NP (DT the) (NNS ends))
+                (PP (IN as)
+                  (NP (DT a) (NN safety) (NN measure)))))))))
+    (. .)))
+
+case(estimate-4, According-1)
+mwe(According-1, to-2)
+nummod(estimate-4, one-3)
+nmod:according_to(sold-13, estimate-4)
+advmod(million-9, more-6)
+mwe(more-6, than-7)
+compound(million-9, two-8)
+nummod(Slinkys-10, million-9)
+nsubjpass(sold-13, Slinkys-10)
+aux(sold-13, have-11)
+auxpass(sold-13, been-12)
+root(ROOT-0, sold-13)
+cc(sold-13, and-14)
+det(change-17, the-15)
+amod(change-17, only-16)
+nsubj(been-23, change-17)
+nsubj(crimp-25, change-17)
+case(design-21, in-18)
+det(design-21, the-19)
+amod(design-21, original-20)
+nmod:in(change-17, design-21)
+aux(been-23, has-22)
+conj:and(sold-13, been-23)
+mark(crimp-25, to-24)
+xcomp(been-23, crimp-25)
+det(ends-27, the-26)
+dobj(crimp-25, ends-27)
+case(measure-31, as-28)
+det(measure-31, a-29)
+compound(measure-31, safety-30)
+nmod:as(crimp-25, measure-31)
+
+(ROOT
+  (S
+    (NP (NNP Betty) (NNP James))
+    (VP (VBD died)
+      (PRT (RP in))
+      (NP (NNP November) (CD 2008))
+      (, ,)
+      (VP (VBN aged)
+        (NP (CD 90)))
+      (, ,)
+      (PP (IN after)
+        (S
+          (VP (VBG having)
+            (VP (VBN served)
+              (PP (IN as)
+                (NP
+                  (NP (NN president))
+                  (PP (IN of)
+                    (NP (NNP James) (NNPS Industries)))))
+              (PP (IN from)
+                (NP (CD 1960) (TO to) (CD 1998))))))))
+    (. .)))
+
+compound(James-2, Betty-1)
+nsubj(died-3, James-2)
+root(ROOT-0, died-3)
+compound:prt(died-3, in-4)
+nmod:tmod(died-3, November-5)
+nummod(November-5, 2008-6)
+dep(died-3, aged-8)
+dobj(aged-8, 90-9)
+mark(served-13, after-11)
+aux(served-13, having-12)
+advcl(died-3, served-13)
+case(president-15, as-14)
+nmod:as(served-13, president-15)
+case(Industries-18, of-16)
+compound(Industries-18, James-17)
+nmod:of(president-15, Industries-18)
+case(1998-22, from-19)
+nummod(1998-22, 1960-20)
+dep(1998-22, to-21)
+nmod:from(served-13, 1998-22)
+
+(ROOT
+  (S (CC But)
+    (NP (DT the) (NNP Slinky))
+    (VP (VBZ is)
+      (ADVP (RB still))
+      (VP
+        (VP (VBG hopping))
+        (, ,)
+        (VP
+          (VP (VBG skipping))
+          (, ,)
+          (VP (VBG jumping))
+          (, ,)
+          (CC and)
+          (VP (VBG bouncing)
+            (PP (IN across)
+              (NP (NNS floors)))))
+        (CC and)
+        (VP
+          (ADVP (RB down))
+          (VBG stairs)
+          (NP
+            (NP (DT all))
+            (PP (IN over)
+              (NP (NNP America)))))))
+    (. .)))
+
+cc(hopping-6, But-1)
+det(Slinky-3, the-2)
+nsubj(hopping-6, Slinky-3)
+nsubj(skipping-8, Slinky-3)
+nsubj(stairs-18, Slinky-3)
+aux(hopping-6, is-4)
+advmod(hopping-6, still-5)
+root(ROOT-0, hopping-6)
+conj:but(hopping-6, skipping-8)
+conj:but(hopping-6, jumping-10)
+conj:and(skipping-8, jumping-10)
+cc(skipping-8, and-12)
+conj:but(hopping-6, bouncing-13)
+conj:and(skipping-8, bouncing-13)
+case(floors-15, across-14)
+nmod:across(bouncing-13, floors-15)
+cc(hopping-6, and-16)
+advmod(stairs-18, down-17)
+conj:but(hopping-6, stairs-18)
+dobj(stairs-18, all-19)
+case(America-21, over-20)
+nmod:over(all-19, America-21)
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ is)
+      (ADJP (JJ easy)
+        (S
+          (VP (TO to)
+            (VP (VB fail)
+              (CC and)
+              (RB then) (VB abandon)
+              (NP (DT the) (JJ whole) (NN idea)))))))
+    (. .)))
+
+nsubj(easy-3, It-1)
+nsubj(fail-5, It-1)
+cop(easy-3, is-2)
+root(ROOT-0, easy-3)
+mark(fail-5, to-4)
+xcomp(easy-3, fail-5)
+cc(fail-5, and-6)
+advmod(fail-5, then-7)
+dep(fail-5, abandon-8)
+det(idea-11, the-9)
+amod(idea-11, whole-10)
+dobj(fail-5, idea-11)
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ 's)
+      (ADJP (RBR more) (JJ difficult)
+        (S
+          (VP (TO to)
+            (VP
+              (VP (VB fail))
+              (CC and)
+              (VP
+                (ADVP (RB then))
+                (VB recognize)
+                (NP
+                  (NP (DT another) (NN use))
+                  (PP (IN for)
+                    (NP (DT the) (NN failure))))))))))
+    (. .)))
+
+nsubj(difficult-4, It-1)
+nsubj(fail-6, It-1)
+nsubj(recognize-9, It-1)
+cop(difficult-4, 's-2)
+advmod(difficult-4, more-3)
+root(ROOT-0, difficult-4)
+mark(fail-6, to-5)
+xcomp(difficult-4, fail-6)
+cc(fail-6, and-7)
+advmod(recognize-9, then-8)
+xcomp(difficult-4, recognize-9)
+conj:and(fail-6, recognize-9)
+det(use-11, another-10)
+dobj(recognize-9, use-11)
+case(failure-14, for-12)
+det(failure-14, the-13)
+nmod:for(use-11, failure-14)
+
+(ROOT
+  (S
+    (SBAR (IN As)
+      (S
+        (VP (VBD stated)
+          (ADVP (RBS best))
+          (PP (IN by)
+            (NP
+              (NP (NNP Bertolt) (NNP Brecht))
+              (PP (IN in)
+                (NP (CD 1930))))))))
+    (, ,)
+    (NP (NN intelligence))
+    (VP (VBZ is) (RB not)
+      (S
+        (VP
+          (VP (TO to)
+            (VP (VB make)
+              (NP (DT no) (NNS mistakes))))
+          (, ,)
+          (CC but)
+          (VP (TO to)
+            (ADVP (RB quickly))
+            (VP (VB see)
+              (SBAR
+                (WHADVP (WRB how))
+                (S
+                  (VP (TO to)
+                    (VP (VB make)
+                      (S
+                        (NP (PRP them))
+                        (ADJP (JJ good))))))))))))
+    (. .)))
+
+mark(stated-2, As-1)
+advcl(is-11, stated-2)
+advmod(stated-2, best-3)
+case(Brecht-6, by-4)
+compound(Brecht-6, Bertolt-5)
+nmod:by(stated-2, Brecht-6)
+case(1930-8, in-7)
+nmod:in(Brecht-6, 1930-8)
+nsubj(is-11, intelligence-10)
+root(ROOT-0, is-11)
+neg(is-11, not-12)
+mark(make-14, to-13)
+ccomp(is-11, make-14)
+neg(mistakes-16, no-15)
+dobj(make-14, mistakes-16)
+cc(make-14, but-18)
+mark(see-21, to-19)
+advmod(see-21, quickly-20)
+ccomp(is-11, see-21)
+conj:but(make-14, see-21)
+advmod(make-24, how-22)
+mark(make-24, to-23)
+ccomp(see-21, make-24)
+nsubj(good-26, them-25)
+xcomp(make-24, good-26)
+
+(ROOT
+  (PRN (: --)
+    (PP (IN by)
+      (NP
+        (NP (NNP Charlotte) (NNP Foltz) (NNP Jones))
+        (, ,)
+        (PP (IN from)
+          (NP
+            (NP (NNP Mistakes))
+            (SBAR
+              (S
+                (NP (DT That))
+                (VP (VBD Worked))))))))))
+
+case(Jones-5, by-2)
+compound(Jones-5, Charlotte-3)
+compound(Jones-5, Foltz-4)
+root(ROOT-0, Jones-5)
+case(Mistakes-8, from-7)
+nmod:from(Jones-5, Mistakes-8)
+nsubj(Worked-10, Mistakes-8)
+ref(Mistakes-8, That-9)
+acl:relcl(Mistakes-8, Worked-10)
+

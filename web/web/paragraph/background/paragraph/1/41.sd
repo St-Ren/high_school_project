@@ -1,0 +1,953 @@
+(ROOT
+  (NP
+    (NP (VBG Interesting) (NNS Experiments))
+    (: :)
+    (S
+      (NP (RB Not) (DT All) (NNPS Bubbles))
+      (VP (VBP Are)
+        (VP (VBN Made)
+          (PP (IN with)
+            (NP (NNP Soap))))))
+    (. .)))
+
+amod(Experiments-2, Interesting-1)
+root(ROOT-0, Experiments-2)
+neg(Bubbles-6, Not-4)
+det(Bubbles-6, All-5)
+nsubjpass(Made-8, Bubbles-6)
+auxpass(Made-8, Are-7)
+dep(Experiments-2, Made-8)
+case(Soap-10, with-9)
+nmod:with(Made-8, Soap-10)
+
+(ROOT
+  (S
+    (NP (JJ Doing) (NN chemical) (NNS experiments))
+    (VP (VBZ is) (RB not)
+      (ADJP (RB as) (JJ boring))
+      (SBAR (IN as)
+        (S
+          (NP (JJ many) (NNS people))
+          (VP (VBP think)))))
+    (. .)))
+
+amod(experiments-3, Doing-1)
+compound(experiments-3, chemical-2)
+nsubj(boring-7, experiments-3)
+cop(boring-7, is-4)
+neg(boring-7, not-5)
+advmod(boring-7, as-6)
+root(ROOT-0, boring-7)
+mark(think-11, as-8)
+amod(people-10, many-9)
+nsubj(think-11, people-10)
+advcl(boring-7, think-11)
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (NN fact)))
+    (, ,)
+    (NP (PRP it))
+    (VP (MD can)
+      (VP (VB be)
+        (NP
+          (NP (DT a) (NN lot))
+          (PP (IN of)
+            (NP (NN fun))))
+        (, ,)
+        (SBAR (IN as)
+          (S
+            (NP (DT the) (JJ following) (CD two) (NNS experiments))
+            (VP (VBP show))))))
+    (. .)))
+
+case(fact-2, In-1)
+nmod:in(lot-8, fact-2)
+nsubj(lot-8, it-4)
+aux(lot-8, can-5)
+cop(lot-8, be-6)
+det(lot-8, a-7)
+root(ROOT-0, lot-8)
+case(fun-10, of-9)
+nmod:of(lot-8, fun-10)
+mark(show-17, as-12)
+det(experiments-16, the-13)
+amod(experiments-16, following-14)
+nummod(experiments-16, two-15)
+nsubj(show-17, experiments-16)
+advcl(lot-8, show-17)
+
+(ROOT
+  (S
+    (NP (NNP Balloon))
+    (VP (VBD Blow-Up)
+      (SBAR
+        (SBARQ
+          (WHNP (WP What))
+          (SQ (VBP Do)
+            (NP (PRP I))
+            (VP (VB Need)))
+          (. ?))))))
+
+nsubj(Blow-Up-2, Balloon-1)
+root(ROOT-0, Blow-Up-2)
+dobj(Need-6, What-3)
+aux(Need-6, Do-4)
+nsubj(Need-6, I-5)
+dep(Blow-Up-2, Need-6)
+
+(ROOT
+  (S
+    (NP
+      (NP (DT A) (NN bottle))
+      (PP (IN with)
+        (NP (DT a) (JJ narrow) (NN neck))))
+    (VP (VBZ Baking)
+      (NP
+        (NP (NN soda) (NN Funnel)
+          (CC or)
+          (NN straw))
+        (SBAR
+          (WHNP (WP What))
+          (S
+            (VP (VBP Do)
+              (SBAR
+                (S
+                  (NP (PRP I))
+                  (VP (VBP Do)))))))))
+    (. ?)))
+
+det(bottle-2, A-1)
+nsubj(Baking-7, bottle-2)
+case(neck-6, with-3)
+det(neck-6, a-4)
+amod(neck-6, narrow-5)
+nmod:with(bottle-2, neck-6)
+root(ROOT-0, Baking-7)
+compound(Funnel-9, soda-8)
+dobj(Baking-7, Funnel-9)
+nsubj(Do-13, Funnel-9)
+cc(Funnel-9, or-10)
+dobj(Baking-7, straw-11)
+conj:or(Funnel-9, straw-11)
+nsubj(Do-13, straw-11)
+ref(Funnel-9, What-12)
+acl:relcl(Funnel-9, Do-13)
+nsubj(Do-15, I-14)
+ccomp(Do-13, Do-15)
+
+(ROOT
+  (S
+    (LST (LS 1))
+    (VP (VB Pour)
+      (PP (IN about)
+        (NP
+          (NP (DT an) (NN inch))
+          (PP (IN of)
+            (NP
+              (NP (NN liquidXhalf) (NN vinegar))
+              (, ,)
+              (NP
+                (NP (DT half) (NN waterXinto))
+                (NP (DT the) (NN bottle))))))))
+    (. .)))
+
+dep(Pour-2, 1-1)
+root(ROOT-0, Pour-2)
+case(inch-5, about-3)
+det(inch-5, an-4)
+nmod:about(Pour-2, inch-5)
+case(vinegar-8, of-6)
+compound(vinegar-8, liquidXhalf-7)
+nmod:of(inch-5, vinegar-8)
+det(waterXinto-11, half-10)
+appos(vinegar-8, waterXinto-11)
+det(bottle-13, the-12)
+dep(waterXinto-11, bottle-13)
+
+(ROOT
+  (S
+    (LST (LS 2))
+    (VP (VB Use)
+      (NP (DT the) (NN funnel)
+        (S
+          (VP (TO to)
+            (VP (VB fill)
+              (NP
+                (NP (DT the) (NN balloon) (NN half))
+                (PP (JJ full) (IN of)
+                  (NP (JJ baking) (NN soda)))))))))
+    (. .)))
+
+dep(Use-2, 2-1)
+root(ROOT-0, Use-2)
+det(funnel-4, the-3)
+dobj(Use-2, funnel-4)
+mark(fill-6, to-5)
+acl(funnel-4, fill-6)
+det(half-9, the-7)
+compound(half-9, balloon-8)
+dobj(fill-6, half-9)
+case(soda-13, full-10)
+case(soda-13, of-11)
+amod(soda-13, baking-12)
+nmod:of(half-9, soda-13)
+
+(ROOT
+  (S (-LRB- -LRB-)
+    (SBAR (IN If)
+      (S
+        (NP (PRP you))
+        (VP (VBP dont)
+          (VP (VB have)
+            (NP (DT a) (NN funnel))))))
+    (, ,)
+    (NP (PRP you))
+    (VP (MD can)
+      (VP (VB use)
+        (NP (DT a) (NN straw)
+          (S
+            (VP (TO to)
+              (VP (VB load)
+                (NP (DT the) (NN balloon))))))))
+    (. .)))
+
+mark(dont-4, If-2)
+nsubj(dont-4, you-3)
+advcl(use-11, dont-4)
+xcomp(dont-4, have-5)
+det(funnel-7, a-6)
+dobj(have-5, funnel-7)
+nsubj(use-11, you-9)
+aux(use-11, can-10)
+root(ROOT-0, use-11)
+det(straw-13, a-12)
+dobj(use-11, straw-13)
+mark(load-15, to-14)
+acl(straw-13, load-15)
+det(balloon-17, the-16)
+dobj(load-15, balloon-17)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB Stick)
+        (NP (DT the) (NN straw))
+        (PP (IN into)
+          (NP (DT the) (JJ baking) (NN soda))))
+      (, ,)
+      (CC and)
+      (VP (VB put)
+        (NP (PRP$ your) (NN finger))
+        (PP (IN over)
+          (NP
+            (NP (DT the) (NN top))
+            (PP (IN of)
+              (NP (DT the) (NN straw)))))))
+    (. .)))
+
+root(ROOT-0, Stick-1)
+det(straw-3, the-2)
+dobj(Stick-1, straw-3)
+case(soda-7, into-4)
+det(soda-7, the-5)
+amod(soda-7, baking-6)
+nmod:into(Stick-1, soda-7)
+cc(Stick-1, and-9)
+conj:and(Stick-1, put-10)
+nmod:poss(finger-12, your-11)
+dobj(put-10, finger-12)
+case(top-15, over-13)
+det(top-15, the-14)
+nmod:over(put-10, top-15)
+case(straw-18, of-16)
+det(straw-18, the-17)
+nmod:of(top-15, straw-18)
+
+(ROOT
+  (S
+    (NP (NNP Lift) (NNP the))
+    (VP (VBD straw)
+      (PRT (RP out))
+      (, ,)
+      (S
+        (VP
+          (VP (VB put)
+            (NP (PRP it))
+            (PP (IN into)
+              (NP (DT the) (NN balloon))))
+          (, ,)
+          (CC and)
+          (VP (VB blow)
+            (CC or)
+            (VB tap)
+            (ADVP (RB gently))))))
+    (. .) (-RRB- -RRB-)))
+
+compound(the-2, Lift-1)
+nsubj(straw-3, the-2)
+root(ROOT-0, straw-3)
+compound:prt(straw-3, out-4)
+ccomp(straw-3, put-6)
+dobj(put-6, it-7)
+case(balloon-10, into-8)
+det(balloon-10, the-9)
+nmod:into(put-6, balloon-10)
+cc(put-6, and-12)
+ccomp(straw-3, blow-13)
+conj:and(put-6, blow-13)
+cc(blow-13, or-14)
+conj:and(put-6, tap-15)
+conj:or(blow-13, tap-15)
+advmod(blow-13, gently-16)
+
+(ROOT
+  (S
+    (LST (LS 3))
+    (VP (VB Stretch)
+      (NP
+        (NP (DT the) (JJ open) (NN end))
+        (PP (IN of)
+          (NP
+            (NP (DT the) (NN balloon))
+            (PP (IN over)
+              (NP
+                (NP (DT the) (NN neck))
+                (PP (IN of)
+                  (NP (DT the) (NN bottle)))))))))
+    (. .)))
+
+dep(Stretch-2, 3-1)
+root(ROOT-0, Stretch-2)
+det(end-5, the-3)
+amod(end-5, open-4)
+dobj(Stretch-2, end-5)
+case(balloon-8, of-6)
+det(balloon-8, the-7)
+nmod:of(end-5, balloon-8)
+case(neck-11, over-9)
+det(neck-11, the-10)
+nmod:over(balloon-8, neck-11)
+case(bottle-14, of-12)
+det(bottle-14, the-13)
+nmod:of(neck-11, bottle-14)
+
+(ROOT
+  (S
+    (VP (VB Make)
+      (S
+        (ADJP (JJ sure))
+        (NP
+          (NP (PRP$ its))
+          (PP (IN on)
+            (ADJP (JJ tight))))))
+    (. !)))
+
+root(ROOT-0, Make-1)
+xcomp(Make-1, sure-2)
+dep(sure-2, its-3)
+case(tight-5, on-4)
+acl:on(its-3, tight-5)
+
+(ROOT
+  (S
+    (VP (VB Let)
+      (NP
+        (NP (DT the) (JJ heavy) (NN end))
+        (PP (IN of)
+          (NP (DT the) (NN balloon) (NN dangle))))
+      (SBAR (IN so)
+        (S
+          (NP (DT no) (JJ baking) (NN soda))
+          (VP (VBZ goes)
+            (PP (IN in)
+              (NP (DT the) (NN bottle)))))))
+    (. .)))
+
+root(ROOT-0, Let-1)
+det(end-4, the-2)
+amod(end-4, heavy-3)
+dobj(Let-1, end-4)
+case(dangle-8, of-5)
+det(dangle-8, the-6)
+compound(dangle-8, balloon-7)
+nmod:of(end-4, dangle-8)
+mark(goes-13, so-9)
+neg(soda-12, no-10)
+amod(soda-12, baking-11)
+nsubj(goes-13, soda-12)
+advcl(Let-1, goes-13)
+case(bottle-16, in-14)
+det(bottle-16, the-15)
+nmod:in(goes-13, bottle-16)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB Hold)
+        (PP (IN onto)
+          (NP
+            (NP (DT the) (NN balloon))
+            (PP (IN at)
+              (NP (DT the) (NN bottle) (NN neck))))))
+      (, ,)
+      (CC and)
+      (VP (VB pick)
+        (PRT (RP up))
+        (NP
+          (NP (DT the) (JJ heavy) (NN part))
+          (PP (IN of)
+            (NP (DT the) (NN balloon))))
+        (SBAR (RB so) (IN that)
+          (S
+            (NP (PDT all) (DT the) (JJ baking) (NN soda))
+            (VP (VBZ falls)
+              (PP (IN into)
+                (NP
+                  (NP (DT the) (NN vinegar))
+                  (PP (IN at)
+                    (NP
+                      (NP (DT the) (NN bottom))
+                      (PP (IN of)
+                        (NP (DT the) (NN bottle))))))))))))
+    (. .)))
+
+root(ROOT-0, Hold-1)
+case(balloon-4, onto-2)
+det(balloon-4, the-3)
+nmod:onto(Hold-1, balloon-4)
+case(neck-8, at-5)
+det(neck-8, the-6)
+compound(neck-8, bottle-7)
+nmod:at(balloon-4, neck-8)
+cc(Hold-1, and-10)
+conj:and(Hold-1, pick-11)
+compound:prt(pick-11, up-12)
+det(part-15, the-13)
+amod(part-15, heavy-14)
+dobj(pick-11, part-15)
+case(balloon-18, of-16)
+det(balloon-18, the-17)
+nmod:of(part-15, balloon-18)
+mark(falls-25, so-19)
+mwe(so-19, that-20)
+det:predet(soda-24, all-21)
+det(soda-24, the-22)
+amod(soda-24, baking-23)
+nsubj(falls-25, soda-24)
+advcl(pick-11, falls-25)
+case(vinegar-28, into-26)
+det(vinegar-28, the-27)
+nmod:into(falls-25, vinegar-28)
+case(bottom-31, at-29)
+det(bottom-31, the-30)
+nmod:at(vinegar-28, bottom-31)
+case(bottle-34, of-32)
+det(bottle-34, the-33)
+nmod:of(bottom-31, bottle-34)
+
+(ROOT
+  (SQ
+    (VP (VB Hear)
+      (NP (DT the) (NN fizz)))
+    (. ?)))
+
+root(ROOT-0, Hear-1)
+det(fizz-3, the-2)
+dobj(Hear-1, fizz-3)
+
+(ROOT
+  (S
+    (NP (EX There))
+    (VP (VBP are)
+      (NP
+        (NP (NNS thousands))
+        (PP (IN of)
+          (NP (NNS bubbles)))))
+    (. !)))
+
+expl(are-2, There-1)
+root(ROOT-0, are-2)
+nsubj(are-2, thousands-3)
+case(bubbles-5, of-4)
+nmod:of(thousands-3, bubbles-5)
+
+(ROOT
+  (S (CC And)
+    (VP (VB look)
+      (PP (IN at)
+        (NP
+          (NP (NNS whats))
+          (VP (VBG happening)
+            (PP (TO to)
+              (NP (DT the) (NN balloon)))))))
+    (. .)))
+
+cc(look-2, And-1)
+root(ROOT-0, look-2)
+case(whats-4, at-3)
+nmod:at(look-2, whats-4)
+acl(whats-4, happening-5)
+case(balloon-8, to-6)
+det(balloon-8, the-7)
+nmod:to(happening-5, balloon-8)
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP Raisin) (NNP City) (NNP Music) (NNP Hall))
+      (SBAR
+        (WHNP (WP What))
+        (S
+          (VP (VBP Do)
+            (NP (PRP I))))))
+    (VP (VBD Need))
+    (. ?)))
+
+compound(Hall-4, Raisin-1)
+compound(Hall-4, City-2)
+compound(Hall-4, Music-3)
+nsubj(Do-6, Hall-4)
+nsubj(Need-8, Hall-4)
+ref(Hall-4, What-5)
+acl:relcl(Hall-4, Do-6)
+dobj(Do-6, I-7)
+root(ROOT-0, Need-8)
+
+(ROOT
+  (FRAG
+    (S
+      (PP (IN For)
+        (NP (JJR more) (NN bubble) (NN fun) (NN youll)))
+      (VP (VBP need)))
+    (: :)
+    (NP
+      (NP (DT A) (NN can))
+      (PP (IN of)
+        (NP
+          (NP (JJ clear) (NN soda))
+          (PRN (-LRB- -LRB-)
+            (NP (NNP e.g.))
+            (, ,)
+            (NP (JJ 7-Up))
+            (, ,)
+            (NP (NN ginger) (NN ale))
+            (-RRB- -RRB-))))
+      (SBAR
+        (WHNP (WP What))
+        (S
+          (VP (VBP Do)
+            (SBAR
+              (S
+                (NP (PRP I))
+                (VP (VBP Do))))))))
+    (. ?)))
+
+case(youll-5, For-1)
+amod(youll-5, more-2)
+compound(youll-5, bubble-3)
+compound(youll-5, fun-4)
+nmod:for(need-6, youll-5)
+dep(can-9, need-6)
+det(can-9, A-8)
+root(ROOT-0, can-9)
+nsubj(Do-22, can-9)
+case(soda-12, of-10)
+amod(soda-12, clear-11)
+nmod:of(can-9, soda-12)
+appos(soda-12, e.g.-14)
+dep(e.g.-14, 7-Up-16)
+compound(ale-19, ginger-18)
+dep(e.g.-14, ale-19)
+ref(can-9, What-21)
+acl:relcl(can-9, Do-22)
+nsubj(Do-24, I-23)
+ccomp(Do-22, Do-24)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB Get)
+        (NP
+          (NP (DT a) (NN can))
+          (PP (IN of)
+            (NP (JJ clear) (NN soda)))))
+      (CC and)
+      (VP (VB shake)
+        (S
+          (NP (PRP it))
+          (ADJP (RB as) (JJ hard))
+          (SBAR (IN as)
+            (S
+              (NP (PRP you))
+              (VP (MD can)))))))
+    (. .)))
+
+root(ROOT-0, Get-1)
+det(can-3, a-2)
+dobj(Get-1, can-3)
+case(soda-6, of-4)
+amod(soda-6, clear-5)
+nmod:of(can-3, soda-6)
+cc(Get-1, and-7)
+conj:and(Get-1, shake-8)
+nsubj(can-14, it-9)
+advmod(hard-11, as-10)
+dep(can-14, hard-11)
+mark(can-14, as-12)
+nsubj(can-14, you-13)
+xcomp(shake-8, can-14)
+
+(ROOT
+  (S
+    (VP (VB Knock)
+      (ADVP (RB sharply))
+      (PP (IN on)
+        (NP (DT the) (JJ top)
+          (QP (CD two)
+            (CC or)
+            (CD three) (NNS times)))))
+    (. .)))
+
+root(ROOT-0, Knock-1)
+advmod(Knock-1, sharply-2)
+case(two-6, on-3)
+det(two-6, the-4)
+amod(two-6, top-5)
+nmod:on(Knock-1, two-6)
+cc(two-6, or-7)
+nummod(times-9, three-8)
+nmod:on(Knock-1, times-9)
+conj:or(two-6, times-9)
+
+(ROOT
+  (S
+    (ADVP (RB Now))
+    (VP (VB open)
+      (NP (PRP it)))
+    (. .)))
+
+advmod(open-2, Now-1)
+root(ROOT-0, open-2)
+dobj(open-2, it-3)
+
+(ROOT
+  (FRAG (CC Or)
+    (VP (VB give)
+      (NP (PRP it))
+      (PP (TO to)
+        (NP (DT a) (NN grown-up)
+          (S
+            (VP (TO to)
+              (VP (VB open))))))
+      (, ,)
+      (SBAR (IN if)
+        (S
+          (NP (PRP you))
+          (VP (VBP dare)))))
+    (. .)))
+
+cc(give-2, Or-1)
+root(ROOT-0, give-2)
+dobj(give-2, it-3)
+case(grown-up-6, to-4)
+det(grown-up-6, a-5)
+nmod:to(give-2, grown-up-6)
+mark(open-8, to-7)
+acl(grown-up-6, open-8)
+mark(dare-12, if-10)
+nsubj(dare-12, you-11)
+advcl(give-2, dare-12)
+
+(ROOT
+  (S
+    (VP (VB Watch)
+      (PRT (RP out)))
+    (. !)))
+
+root(ROOT-0, Watch-1)
+compound:prt(Watch-1, out-2)
+
+(ROOT
+  (S (-LRB- -LRB-)
+    (NP (DT This))
+    (VP (MD may)
+      (VP (VB be)
+        (ADJP (JJ messy))
+        (, ,)
+        (SBAR (IN so)
+          (S
+            (VP (VBP do)
+              (NP (PRP it))
+              (PP (IN over)
+                (NP (DT the) (NN sink)
+                  (CC or)
+                  (NN outside))))))))
+    (. .) (-RRB- -RRB-)))
+
+nsubj(messy-5, This-2)
+aux(messy-5, may-3)
+cop(messy-5, be-4)
+root(ROOT-0, messy-5)
+mark(do-8, so-7)
+advcl(messy-5, do-8)
+dobj(do-8, it-9)
+case(sink-12, over-10)
+det(sink-12, the-11)
+nmod:over(do-8, sink-12)
+cc(sink-12, or-13)
+nmod:over(do-8, outside-14)
+conj:or(sink-12, outside-14)
+
+(ROOT
+  (SBARQ
+    (WHNP (WP What))
+    (SQ
+      (VP (VBZ happens)))
+    (. ?)))
+
+nsubj(happens-2, What-1)
+root(ROOT-0, happens-2)
+
+(ROOT
+  (SBARQ
+    (WHNP (WP What))
+    (SQ (VBD did)
+      (NP (PRP you))
+      (VP (VB expect)))
+    (. ?)))
+
+dobj(expect-4, What-1)
+aux(expect-4, did-2)
+nsubj(expect-4, you-3)
+root(ROOT-0, expect-4)
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP Fantastic) (NNP Feats))
+      (PP (IN of)
+        (NP (NNP Fizz))))
+    (ADVP (RB Now))
+    (SBAR (IN that)
+      (S
+        (NP
+          (NP (PRP$ your) (NN can))
+          (PP (IN of)
+            (NP (NN soda))))
+        (VP (VBZ is)
+          (ADJP (JJ open)))))
+    (, ,)
+    (VP (VBP pour)
+      (NP (PRP it))
+      (PP (IN into)
+        (NP (DT a) (NN glass))))
+    (. .)))
+
+compound(Feats-2, Fantastic-1)
+nsubj(pour-14, Feats-2)
+case(Fizz-4, of-3)
+nmod:of(Feats-2, Fizz-4)
+advmod(pour-14, Now-5)
+mark(open-12, that-6)
+nmod:poss(can-8, your-7)
+nsubj(open-12, can-8)
+case(soda-10, of-9)
+nmod:of(can-8, soda-10)
+cop(open-12, is-11)
+dep(pour-14, open-12)
+root(ROOT-0, pour-14)
+dobj(pour-14, it-15)
+case(glass-18, into-16)
+det(glass-18, a-17)
+nmod:into(pour-14, glass-18)
+
+(ROOT
+  (S
+    (VP (VB Drop)
+      (PP (IN in)
+        (NP (CD five)
+          (CC or)
+          (CD six) (JJ small) (NNS raisins))))
+    (. .)))
+
+root(ROOT-0, Drop-1)
+case(raisins-7, in-2)
+compound(raisins-7, five-3)
+cc(five-3, or-4)
+conj:or(five-3, six-5)
+compound(raisins-7, six-5)
+amod(raisins-7, small-6)
+nmod:in(Drop-1, raisins-7)
+
+(ROOT
+  (S
+    (NP (NNP Watch) (JJ tiny) (NNS bubbles))
+    (VP (VBP form)
+      (NP
+        (NP (DT all))
+        (PP (IN over)
+          (NP (PRP them)))))
+    (. .)))
+
+compound(bubbles-3, Watch-1)
+amod(bubbles-3, tiny-2)
+nsubj(form-4, bubbles-3)
+root(ROOT-0, form-4)
+dobj(form-4, all-5)
+case(them-7, over-6)
+nmod:over(all-5, them-7)
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (DT a) (NN minute)
+        (CC or)
+        (RB so)))
+    (, ,)
+    (NP (DT the) (NNS raisins))
+    (VP (MD will)
+      (VP
+        (VP (VB start)
+          (PP (TO to)
+            (NP (NN wiggle)))
+          (ADVP (RB around)))
+        (CC and)
+        (VP (VB dance))))
+    (. .)))
+
+case(minute-3, In-1)
+det(minute-3, a-2)
+nmod:in(start-10, minute-3)
+cc(minute-3, or-4)
+advmod(minute-3, so-5)
+det(raisins-8, the-7)
+nsubj(start-10, raisins-8)
+nsubj(dance-15, raisins-8)
+aux(start-10, will-9)
+root(ROOT-0, start-10)
+case(wiggle-12, to-11)
+nmod:to(start-10, wiggle-12)
+advmod(start-10, around-13)
+cc(start-10, and-14)
+conj:and(start-10, dance-15)
+
+(ROOT
+  (S (RB Then)
+    (NP (NN theyll))
+    (VP (VBP float)
+      (PRT (RP up))
+      (PP (TO to)
+        (NP
+          (NP (DT the) (NN top))
+          (PP (IN of)
+            (NP (DT the) (NN soda))))))
+    (. .)))
+
+advmod(float-3, Then-1)
+nsubj(float-3, theyll-2)
+root(ROOT-0, float-3)
+compound:prt(float-3, up-4)
+case(top-7, to-5)
+det(top-7, the-6)
+nmod:to(float-3, top-7)
+case(soda-10, of-8)
+det(soda-10, the-9)
+nmod:of(top-7, soda-10)
+
+(ROOT
+  (S
+    (PP (IN After)
+      (NP (DT a) (NN minute)))
+    (, ,)
+    (ADVP (RB theyll))
+    (VP (VB sink)
+      (ADVP (RB back) (RB down) (RB again)))
+    (. .)))
+
+case(minute-3, After-1)
+det(minute-3, a-2)
+nmod:after(sink-6, minute-3)
+advmod(sink-6, theyll-5)
+root(ROOT-0, sink-6)
+advmod(again-9, back-7)
+advmod(again-9, down-8)
+advmod(sink-6, again-9)
+
+(ROOT
+  (S
+    (SBAR (IN If)
+      (S
+        (NP (PRP you))
+        (VP (VB tap)
+          (PP (IN on)
+            (NP
+              (NP (DT the) (NN side))
+              (PP (IN of)
+                (NP (NN glass))))))))
+    (, ,)
+    (ADVP (RB theyll))
+    (VP (VB sink)
+      (ADVP (RB right) (RB away)))
+    (. .)))
+
+mark(tap-3, If-1)
+nsubj(tap-3, you-2)
+advcl(sink-11, tap-3)
+case(side-6, on-4)
+det(side-6, the-5)
+nmod:on(tap-3, side-6)
+case(glass-8, of-7)
+nmod:of(side-6, glass-8)
+advmod(sink-11, theyll-10)
+root(ROOT-0, sink-11)
+advmod(away-13, right-12)
+advmod(sink-11, away-13)
+
+(ROOT
+  (SBARQ
+    (WHADJP (WRB How) (JJ long))
+    (SQ (MD will)
+      (NP (PRP they))
+      (VP (VB keep)
+        (NP (NN dancing))))
+    (. ?)))
+
+advmod(long-2, How-1)
+dep(keep-5, long-2)
+aux(keep-5, will-3)
+nsubj(keep-5, they-4)
+root(ROOT-0, keep-5)
+dobj(keep-5, dancing-6)
+
+(ROOT
+  (S
+    (VP (VBN adapted)
+      (PP (IN from)
+        (NP
+          (NP (DT The) (NNP Science) (NNP Explorer))
+          (, ,)
+          (VP (VBN Used)
+            (PP (IN with)
+              (NP (NN permission)))))))
+    (. ?)))
+
+root(ROOT-0, adapted-1)
+case(Explorer-5, from-2)
+det(Explorer-5, The-3)
+compound(Explorer-5, Science-4)
+nmod:from(adapted-1, Explorer-5)
+acl(Explorer-5, Used-7)
+case(permission-9, with-8)
+nmod:with(Used-7, permission-9)
+
+(ROOT
+  (NP
+    (NP (NNP Exploratorium))
+    (, ,)
+    (NP (NN www.exploratorium.edu))))
+
+root(ROOT-0, Exploratorium-1)
+appos(Exploratorium-1, www.exploratorium.edu-3)
+

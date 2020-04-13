@@ -1,0 +1,604 @@
+(ROOT
+  (S
+    (NP (NNS ORBIS))
+    (VP (VBZ is)
+      (NP
+        (NP (DT an) (JJ international) (NN organization))
+        (VP (VBN devoted)
+          (PP (TO to)
+            (S
+              (VP (VBG preventing)
+                (CC and)
+                (VBG curing)
+                (NP (NN blindness) (NNS worldwide))))))))
+    (. .)))
+
+nsubj(organization-5, ORBIS-1)
+cop(organization-5, is-2)
+det(organization-5, an-3)
+amod(organization-5, international-4)
+root(ROOT-0, organization-5)
+acl(organization-5, devoted-6)
+mark(preventing-8, to-7)
+advcl(devoted-6, preventing-8)
+cc(preventing-8, and-9)
+advcl(devoted-6, curing-10)
+conj:and(preventing-8, curing-10)
+compound(worldwide-12, blindness-11)
+dobj(preventing-8, worldwide-12)
+
+(ROOT
+  (S
+    (NP (DT The) (NN word) (`` ``) (NN orbis) ('' ''))
+    (VP (VBZ means)
+      (NP (`` ``)
+        (NP (NN eye))
+        ('' '')
+        (PP (IN in)
+          (NP (NNP Latin)))))
+    (. .)))
+
+det(orbis-4, The-1)
+compound(orbis-4, word-2)
+nsubj(means-6, orbis-4)
+root(ROOT-0, means-6)
+dobj(means-6, eye-8)
+case(Latin-11, in-10)
+nmod:in(eye-8, Latin-11)
+
+(ROOT
+  (S
+    (NP (DT The) (NN organization))
+    (VP (VBZ has)
+      (NP
+        (ADJP
+          (NP (DT a) (RB very))
+          (JJ unusual))
+        (JJ airplane-the) (`` ``) (NNP Flying) (NNP Eye) (NNP Hospital)))
+    (. .) ('' '')))
+
+det(organization-2, The-1)
+nsubj(has-3, organization-2)
+root(ROOT-0, has-3)
+det(very-5, a-4)
+nmod:npmod(unusual-6, very-5)
+amod(Hospital-11, unusual-6)
+amod(Hospital-11, airplane-the-7)
+compound(Hospital-11, Flying-9)
+compound(Hospital-11, Eye-10)
+dobj(has-3, Hospital-11)
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN plane) (POS 's))
+      (NN mission))
+    (VP (VBZ is)
+      (S
+        (VP (TO to)
+          (VP (VB help)
+            (S
+              (NP (JJ blind) (NNS people))
+              (VP (VB see)
+                (ADVP (RB again))))))))
+    (. .)))
+
+det(plane-2, The-1)
+nmod:poss(mission-4, plane-2)
+case(plane-2, 's-3)
+nsubj(is-5, mission-4)
+nsubj(help-7, mission-4)
+root(ROOT-0, is-5)
+mark(help-7, to-6)
+xcomp(is-5, help-7)
+amod(people-9, blind-8)
+nsubj(see-10, people-9)
+ccomp(help-7, see-10)
+advmod(see-10, again-11)
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN loss))
+      (PP (IN of)
+        (NP (NN sight))))
+    (VP
+      (VP (VBZ is)
+        (NP
+          (NP (DT a) (JJ tragic) (NN blow))
+          (PP (TO to)
+            (NP (DT an) (NN individual)))))
+      (CC and)
+      (VP (VBZ has)
+        (NP
+          (NP (DT a) (JJ great) (NN impact))
+          (PP (IN on)
+            (NP
+              (ADJP (PRP$ his)
+                (CC or)
+                (PRP$ her))
+              (NN family))))))
+    (. .)))
+
+det(loss-2, The-1)
+nsubj(blow-8, loss-2)
+nsubj(has-13, loss-2)
+case(sight-4, of-3)
+nmod:of(loss-2, sight-4)
+cop(blow-8, is-5)
+det(blow-8, a-6)
+amod(blow-8, tragic-7)
+root(ROOT-0, blow-8)
+case(individual-11, to-9)
+det(individual-11, an-10)
+nmod:to(blow-8, individual-11)
+cc(blow-8, and-12)
+conj:and(blow-8, has-13)
+det(impact-16, a-14)
+amod(impact-16, great-15)
+dobj(has-13, impact-16)
+case(family-21, on-17)
+amod(family-21, his-18)
+cc(his-18, or-19)
+conj:or(his-18, her-20)
+amod(family-21, her-20)
+nmod:on(impact-16, family-21)
+
+(ROOT
+  (S
+    (NP (NNS People))
+    (ADVP (RB often))
+    (VP (VBP feel)
+      (ADJP (JJ hopeless))
+      (SBAR
+        (WHADVP (WRB when))
+        (S
+          (NP (PRP they))
+          (VP (VBP become)
+            (ADJP (JJ blind))))))
+    (. .)))
+
+nsubj(feel-3, People-1)
+advmod(feel-3, often-2)
+root(ROOT-0, feel-3)
+xcomp(feel-3, hopeless-4)
+advmod(become-7, when-5)
+nsubj(become-7, they-6)
+advcl(feel-3, become-7)
+xcomp(become-7, blind-8)
+
+(ROOT
+  (S
+    (NP (DT The) (JJ good) (NN news))
+    (VP (VBZ is)
+      (SBAR (IN that)
+        (S
+          (NP
+            (NP (CD 7) (NN percent))
+            (PP (IN of)
+              (NP (DT all) (NN blindness))))
+          (VP (MD can)
+            (VP (VB be)
+              (VP (VBN cured)))))))
+    (. .)))
+
+det(news-3, The-1)
+amod(news-3, good-2)
+nsubj(is-4, news-3)
+root(ROOT-0, is-4)
+mark(cured-13, that-5)
+nummod(percent-7, 7-6)
+nsubjpass(cured-13, percent-7)
+case(blindness-10, of-8)
+det(blindness-10, all-9)
+nmod:of(percent-7, blindness-10)
+aux(cured-13, can-11)
+auxpass(cured-13, be-12)
+ccomp(is-4, cured-13)
+
+(ROOT
+  (S
+    (NP (DT The) (NN problem))
+    (VP (VBZ is)
+      (SBAR (IN that)
+        (S
+          (NP (EX there))
+          (VP (VBP are) (RB not)
+            (NP
+              (NP (JJ enough) (JJ well-trained) (NNS doctors))
+              (PP (IN in)
+                (NP (JJ many) (JJ remote) (NNS areas))))))))
+    (. .)))
+
+det(problem-2, The-1)
+nsubj(is-3, problem-2)
+root(ROOT-0, is-3)
+mark(are-6, that-4)
+expl(are-6, there-5)
+ccomp(is-3, are-6)
+neg(are-6, not-7)
+amod(doctors-10, enough-8)
+amod(doctors-10, well-trained-9)
+nsubj(are-6, doctors-10)
+case(areas-14, in-11)
+amod(areas-14, many-12)
+amod(areas-14, remote-13)
+nmod:in(doctors-10, areas-14)
+
+(ROOT
+  (S
+    (NP (NNS ORBIS))
+    (VP (VBZ tries)
+      (S
+        (VP (TO to)
+          (VP (VB solve)
+            (NP (DT this) (NN problem))
+            (PP (IN by)
+              (S
+                (VP
+                  (VP (VBG reaching)
+                    (PRT (RP out))
+                    (PP (TO to)
+                      (NP (DT those) (NNS places))))
+                  (CC and)
+                  (VP (VBG providing)
+                    (NP
+                      (NP (NN training))
+                      (PP (IN for)
+                        (NP (DT the) (NNS doctors))))
+                    (ADVP (RB there))))))))))
+    (. .)))
+
+nsubj(tries-2, ORBIS-1)
+nsubj(solve-4, ORBIS-1)
+root(ROOT-0, tries-2)
+mark(solve-4, to-3)
+xcomp(tries-2, solve-4)
+det(problem-6, this-5)
+dobj(solve-4, problem-6)
+mark(reaching-8, by-7)
+advcl(solve-4, reaching-8)
+compound:prt(reaching-8, out-9)
+case(places-12, to-10)
+det(places-12, those-11)
+nmod:to(reaching-8, places-12)
+cc(reaching-8, and-13)
+advcl(solve-4, providing-14)
+conj:and(reaching-8, providing-14)
+dobj(providing-14, training-15)
+case(doctors-18, for-16)
+det(doctors-18, the-17)
+nmod:for(training-15, doctors-18)
+advmod(providing-14, there-19)
+
+(ROOT
+  (S
+    (NP (DT The) (NNP Flying) (NNP Eye) (NNP Hospital))
+    (VP (VBZ has)
+      (NP
+        (NP (DT the) (JJS most) (VBN advanced) (NN equipment))
+        (CC and)
+        (NP (VBG operating) (NNS rooms))))
+    (. .)))
+
+det(Hospital-4, The-1)
+compound(Hospital-4, Flying-2)
+compound(Hospital-4, Eye-3)
+nsubj(has-5, Hospital-4)
+root(ROOT-0, has-5)
+det(equipment-9, the-6)
+amod(equipment-9, most-7)
+amod(equipment-9, advanced-8)
+dobj(has-5, equipment-9)
+cc(equipment-9, and-10)
+amod(rooms-12, operating-11)
+dobj(has-5, rooms-12)
+conj:and(equipment-9, rooms-12)
+
+(ROOT
+  (S
+    (SBAR
+      (WHADVP (WRB When))
+      (S
+        (NP (PRP it))
+        (VP (VBZ stops)
+          (PP (IN at)
+            (NP (DT a) (NN place))))))
+    (, ,)
+    (NP
+      (NP (DT the) (NNS doctors))
+      (PP (IN on)
+        (NP (NN board))))
+    (VP (VBP give)
+      (NP (NNS operations))
+      (PP (TO to)
+        (NP (DT some) (NNS patients))))
+    (. .)))
+
+advmod(stops-3, When-1)
+nsubj(stops-3, it-2)
+advcl(give-12, stops-3)
+case(place-6, at-4)
+det(place-6, a-5)
+nmod:at(stops-3, place-6)
+det(doctors-9, the-8)
+nsubj(give-12, doctors-9)
+case(board-11, on-10)
+nmod:on(doctors-9, board-11)
+root(ROOT-0, give-12)
+dobj(give-12, operations-13)
+case(patients-16, to-14)
+det(patients-16, some-15)
+nmod:to(give-12, patients-16)
+
+(ROOT
+  (S
+    (NP (DT A) (JJ video) (NN camera))
+    (VP (VBZ sends)
+      (NP
+        (NP (JJ clear) (NNS pictures))
+        (PP (IN of)
+          (NP (DT the) (NN operation))))
+      (PP (TO to)
+        (NP (DT the) (NN ground))))
+    (. .)))
+
+det(camera-3, A-1)
+amod(camera-3, video-2)
+nsubj(sends-4, camera-3)
+root(ROOT-0, sends-4)
+amod(pictures-6, clear-5)
+dobj(sends-4, pictures-6)
+case(operation-9, of-7)
+det(operation-9, the-8)
+nmod:of(pictures-6, operation-9)
+case(ground-12, to-10)
+det(ground-12, the-11)
+nmod:to(sends-4, ground-12)
+
+(ROOT
+  (S
+    (NP (DT The) (JJ local) (NNS doctors))
+    (VP (MD can)
+      (VP (VB watch)
+        (CC and)
+        (VB learn)
+        (NP (JJ advanced) (VBG operating) (NNS skills))))
+    (. .)))
+
+det(doctors-3, The-1)
+amod(doctors-3, local-2)
+nsubj(watch-5, doctors-3)
+nsubj(learn-7, doctors-3)
+aux(watch-5, can-4)
+root(ROOT-0, watch-5)
+cc(watch-5, and-6)
+conj:and(watch-5, learn-7)
+amod(skills-10, advanced-8)
+amod(skills-10, operating-9)
+dobj(watch-5, skills-10)
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP
+        (NP (NNS places))
+        (SBAR
+          (WHADVP (WRB where))
+          (S
+            (NP (DT the) (NN aircraft))
+            (VP (MD can) (RB not)
+              (VP (VB land)))))))
+    (, ,)
+    (NP (NNS ORBIS))
+    (ADVP (RB also))
+    (VP (VBZ has)
+      (NP
+        (NP (NN training) (NNS programs))
+        (PP (IN in)
+          (NP (JJ local) (NNS hospitals)))))
+    (. .)))
+
+case(places-2, In-1)
+nmod:in(has-12, places-2)
+advmod(land-8, where-3)
+det(aircraft-5, the-4)
+nsubj(land-8, aircraft-5)
+aux(land-8, can-6)
+neg(land-8, not-7)
+acl:relcl(places-2, land-8)
+nsubj(has-12, ORBIS-10)
+advmod(has-12, also-11)
+root(ROOT-0, has-12)
+compound(programs-14, training-13)
+dobj(has-12, programs-14)
+case(hospitals-17, in-15)
+amod(hospitals-17, local-16)
+nmod:in(programs-14, hospitals-17)
+
+(ROOT
+  (S
+    (PP (TO To)
+      (NP (NN date)))
+    (, ,)
+    (S
+      (NP
+        (QP (JJR more) (IN than) (CD twenty) (CD million))
+        (JJ blind) (NNS people))
+      (VP (VBP have)
+        (VP (VBN benefited)
+          (PP (IN from)
+            (NP (NNP ORBIS))))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (DT the) (NN number))
+      (VP (VBZ is)
+        (ADVP (RB still))
+        (VP (VBG growing))))
+    (. .)))
+
+case(date-2, To-1)
+nmod:to(benefited-11, date-2)
+advmod(million-7, more-4)
+mwe(more-4, than-5)
+compound(million-7, twenty-6)
+nummod(people-9, million-7)
+amod(people-9, blind-8)
+nsubj(benefited-11, people-9)
+aux(benefited-11, have-10)
+root(ROOT-0, benefited-11)
+case(ORBIS-13, from-12)
+nmod:from(benefited-11, ORBIS-13)
+cc(benefited-11, and-15)
+det(number-17, the-16)
+nsubj(growing-20, number-17)
+aux(growing-20, is-18)
+advmod(growing-20, still-19)
+conj:and(benefited-11, growing-20)
+
+(ROOT
+  (S
+    (NP (NNS ORBIS))
+    (VP (VBZ has)
+      (NP
+        (NP (JJ permanent) (NNS programs))
+        (PP (IN in)
+          (NP (JJ several) (NNS countries)))))
+    (. .)))
+
+nsubj(has-2, ORBIS-1)
+root(ROOT-0, has-2)
+amod(programs-4, permanent-3)
+dobj(has-2, programs-4)
+case(countries-7, in-5)
+amod(countries-7, several-6)
+nmod:in(programs-4, countries-7)
+
+(ROOT
+  (S
+    (NP (NNP ORBIS) (NNP Taiwan))
+    (VP (VBZ is)
+      (NP
+        (NP (CD one))
+        (PP (IN of)
+          (NP (DT the) (JJ sixteen) (NNP ORBIS) (NNP International) (NNS offices)))))
+    (. .)))
+
+compound(Taiwan-2, ORBIS-1)
+nsubj(one-4, Taiwan-2)
+cop(one-4, is-3)
+root(ROOT-0, one-4)
+case(offices-10, of-5)
+det(offices-10, the-6)
+amod(offices-10, sixteen-7)
+compound(offices-10, ORBIS-8)
+compound(offices-10, International-9)
+nmod:of(one-4, offices-10)
+
+(ROOT
+  (S
+    (NP
+      (NP (DT A) (NN number))
+      (PP (IN of)
+        (NP
+          (NP (NN volunteer) (NN eye) (NNS doctors))
+          (PP (IN from)
+            (NP (NNP Taiwan))))))
+    (VP (VBP have)
+      (VP (VBN been)
+        (VP (VBG working)
+          (PP (IN on)
+            (NP
+              (NP (NN board))
+              (NP (DT the) (NNP Flying) (NNP Eye) (NNP Hospital)))))))
+    (. .)))
+
+det(number-2, A-1)
+nsubj(working-11, number-2)
+case(doctors-6, of-3)
+compound(doctors-6, volunteer-4)
+compound(doctors-6, eye-5)
+nmod:of(number-2, doctors-6)
+case(Taiwan-8, from-7)
+nmod:from(doctors-6, Taiwan-8)
+aux(working-11, have-9)
+aux(working-11, been-10)
+root(ROOT-0, working-11)
+case(board-13, on-12)
+nmod:on(working-11, board-13)
+det(Hospital-17, the-14)
+compound(Hospital-17, Flying-15)
+compound(Hospital-17, Eye-16)
+dep(board-13, Hospital-17)
+
+(ROOT
+  (S
+    (NP (PRP They))
+    (VP (VBP join)
+      (NP (NNS doctors))
+      (PP (IN from) (IN around)
+        (NP (DT the) (NN world)
+          (S
+            (VP (TO to)
+              (VP (VB help)
+                (NP (DT the) (JJ blind)))))))
+      (, ,)
+      (S
+        (VP (VBG giving)
+          (NP (PRP them))
+          (NP (DT the) (NN chance)
+            (S
+              (VP (TO to)
+                (VP (VB see)
+                  (NP
+                    (NP (DT the) (JJ blue) (NN sky))
+                    (, ,)
+                    (NP (DT the) (JJ green) (NN grass))
+                    (, ,)
+                    (NP (DT the) (JJ red) (NNS flowers))
+                    (, ,)
+                    (CC and)
+                    (NP
+                      (NP (DT the) (VBG smiling) (NNS faces))
+                      (PP (IN of)
+                        (NP (PRP$ their) (NNS relatives))))))))))))
+    (. .)))
+
+nsubj(join-2, They-1)
+root(ROOT-0, join-2)
+dobj(join-2, doctors-3)
+case(world-7, from-4)
+case(world-7, around-5)
+det(world-7, the-6)
+nmod:around(join-2, world-7)
+mark(help-9, to-8)
+acl(world-7, help-9)
+det(blind-11, the-10)
+dobj(help-9, blind-11)
+advcl(join-2, giving-13)
+iobj(giving-13, them-14)
+det(chance-16, the-15)
+dobj(giving-13, chance-16)
+mark(see-18, to-17)
+acl(chance-16, see-18)
+det(sky-21, the-19)
+amod(sky-21, blue-20)
+dobj(see-18, sky-21)
+det(grass-25, the-23)
+amod(grass-25, green-24)
+dobj(see-18, grass-25)
+conj:and(sky-21, grass-25)
+det(flowers-29, the-27)
+amod(flowers-29, red-28)
+dobj(see-18, flowers-29)
+conj:and(sky-21, flowers-29)
+cc(sky-21, and-31)
+det(faces-34, the-32)
+amod(faces-34, smiling-33)
+dobj(see-18, faces-34)
+conj:and(sky-21, faces-34)
+case(relatives-37, of-35)
+nmod:poss(relatives-37, their-36)
+nmod:of(faces-34, relatives-37)
+

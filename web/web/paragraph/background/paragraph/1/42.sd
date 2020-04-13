@@ -1,0 +1,1050 @@
+(ROOT
+  (S
+    (VP (VBG Understanding)
+      (NP (PRP$ Your) (NNS Dreams)))
+    (. .)))
+
+root(ROOT-0, Understanding-1)
+nmod:poss(Dreams-3, Your-2)
+dobj(Understanding-1, Dreams-3)
+
+(ROOT
+  (SQ (VBP Do)
+    (NP (PRP you))
+    (VP (VB know)
+      (S
+        (NP (PRP we))
+        (VP (VB spend)
+          (NP
+            (NP
+              (QP (RB about) (CD one) (NN third)))
+            (PP (IN of)
+              (NP (PRP$ our) (NNS lives) (NN sleeping)))))))
+    (. ?)))
+
+aux(know-3, Do-1)
+nsubj(know-3, you-2)
+root(ROOT-0, know-3)
+nsubj(spend-5, we-4)
+ccomp(know-3, spend-5)
+advmod(third-8, about-6)
+compound(third-8, one-7)
+dobj(spend-5, third-8)
+case(sleeping-12, of-9)
+nmod:poss(sleeping-12, our-10)
+compound(sleeping-12, lives-11)
+nmod:of(third-8, sleeping-12)
+
+(ROOT
+  (S
+    (PP (IN During)
+      (NP (DT that) (NN time)))
+    (, ,)
+    (NP (PRP we))
+    (VP (VBP are)
+      (ADVP (RB also))
+      (VP (VBG dreaming)))
+    (. .)))
+
+case(time-3, During-1)
+det(time-3, that-2)
+nmod:during(dreaming-8, time-3)
+nsubj(dreaming-8, we-5)
+aux(dreaming-8, are-6)
+advmod(dreaming-8, also-7)
+root(ROOT-0, dreaming-8)
+
+(ROOT
+  (S
+    (SBAR (IN While)
+      (S
+        (VP (VBG dreaming))))
+    (, ,)
+    (NP (PRP we))
+    (VP (MD can)
+      (VP (VB interact)
+        (PP (IN with)
+          (NP
+            (NP (JJ different) (NNS people))
+            (, ,)
+            (NP (NNS places))
+            (, ,)
+            (CC and)
+            (NP (NNS things))))))
+    (. .)))
+
+mark(dreaming-2, While-1)
+advcl(interact-6, dreaming-2)
+nsubj(interact-6, we-4)
+aux(interact-6, can-5)
+root(ROOT-0, interact-6)
+case(people-9, with-7)
+amod(people-9, different-8)
+nmod:with(interact-6, people-9)
+nmod:with(interact-6, places-11)
+conj:and(people-9, places-11)
+cc(people-9, and-13)
+nmod:with(interact-6, things-14)
+conj:and(people-9, things-14)
+
+(ROOT
+  (S
+    (NP (NNP Below))
+    (VP (VBP are)
+      (NP
+        (NP (DT the) (NNS meanings))
+        (PP (IN of)
+          (NP
+            (NP (DT some) (JJ common) (NNS dreams))
+            (SBAR (IN that)
+              (S
+                (NP (NNS people))
+                (VP (VBP have))))))))
+    (. .)))
+
+nsubj(meanings-4, Below-1)
+cop(meanings-4, are-2)
+det(meanings-4, the-3)
+root(ROOT-0, meanings-4)
+case(dreams-8, of-5)
+det(dreams-8, some-6)
+amod(dreams-8, common-7)
+nmod:of(meanings-4, dreams-8)
+mark(have-11, that-9)
+nsubj(have-11, people-10)
+dep(dreams-8, have-11)
+
+(ROOT
+  (NP (NNP Im) (NNP Naked) (. !)))
+
+compound(Naked-2, Im-1)
+root(ROOT-0, Naked-2)
+
+(ROOT
+  (S
+    (NP (NNPS Clothes))
+    (VP (VBP are)
+      (NP
+        (NP (DT a) (NN means))
+        (PP (IN of)
+          (S
+            (VP (VBG hiding)
+              (NP (PRP yourself)))))))
+    (. .)))
+
+nsubj(means-4, Clothes-1)
+cop(means-4, are-2)
+det(means-4, a-3)
+root(ROOT-0, means-4)
+mark(hiding-6, of-5)
+acl(means-4, hiding-6)
+dobj(hiding-6, yourself-7)
+
+(ROOT
+  (S
+    (PP (IN Without)
+      (NP (PRP them)))
+    (, ,)
+    (NP (NN everything))
+    (VP (VBZ is)
+      (ADVP (RB there))
+      (PP (IN for)
+        (NP (DT all)))
+      (S
+        (VP (TO to)
+          (VP (VB see)))))
+    (. .)))
+
+case(them-2, Without-1)
+nmod:without(all-8, them-2)
+nsubj(all-8, everything-4)
+nsubj(see-10, everything-4)
+cop(all-8, is-5)
+advmod(all-8, there-6)
+case(all-8, for-7)
+root(ROOT-0, all-8)
+mark(see-10, to-9)
+xcomp(all-8, see-10)
+
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (VBP are)
+      (VP (VBN left)
+        (PP (IN without)
+          (NP (DT any) (NNS defenses)))))
+    (. .)))
+
+nsubjpass(left-3, You-1)
+auxpass(left-3, are-2)
+root(ROOT-0, left-3)
+case(defenses-6, without-4)
+det(defenses-6, any-5)
+nmod:without(left-3, defenses-6)
+
+(ROOT
+  (S
+    (NP
+      (NP (DT A) (NN dream))
+      (SBAR
+        (WHPP (IN in)
+          (WHNP (WDT which)))
+        (S
+          (NP (PRP you))
+          (VP (VBP are)
+            (ADJP (JJ naked))))))
+    (VP (MD may)
+      (VP (VB be)
+        (VP (VBG telling)
+          (NP (PRP you))
+          (SBAR
+            (SBAR (IN that)
+              (S
+                (NP (PRP you))
+                (VP (VBP are)
+                  (VP (VBG trying)
+                    (S
+                      (VP (TO to)
+                        (VP (VB be)
+                          (NP
+                            (NP (NN something))
+                            (SBAR
+                              (S
+                                (NP (PRP you))
+                                (ADVP (RB really))
+                                (VP (VBP are) (RB not))))))))))))
+            (, ,)
+            (CC or)
+            (SBAR (IN that)
+              (S
+                (NP (PRP you))
+                (VP
+                  (VP (VBP are)
+                    (ADJP (JJ afraid)
+                      (PP (IN of)
+                        (S
+                          (VP (VBG being)
+                            (VP (VBN laughed)
+                              (PP (IN at))))))))
+                  (CC and)
+                  (VP (VBD made)
+                    (NP (NN fun))
+                    (PP (IN of))))))))))
+    (. .)))
+
+det(dream-2, A-1)
+nmod:in(naked-7, dream-2)
+nsubj(telling-10, dream-2)
+case(which-4, in-3)
+ref(dream-2, which-4)
+nsubj(naked-7, you-5)
+cop(naked-7, are-6)
+acl:relcl(dream-2, naked-7)
+aux(telling-10, may-8)
+aux(telling-10, be-9)
+root(ROOT-0, telling-10)
+dobj(telling-10, you-11)
+mark(trying-15, that-12)
+nsubj(trying-15, you-13)
+nsubj(something-18, you-13)
+aux(trying-15, are-14)
+ccomp(telling-10, trying-15)
+mark(something-18, to-16)
+cop(something-18, be-17)
+xcomp(trying-15, something-18)
+nsubj(are-21, you-19)
+advmod(are-21, really-20)
+acl:relcl(something-18, are-21)
+neg(are-21, not-22)
+cc(trying-15, or-24)
+mark(afraid-28, that-25)
+nsubj(afraid-28, you-26)
+nsubj(made-34, you-26)
+cop(afraid-28, are-27)
+ccomp(telling-10, afraid-28)
+conj:or(trying-15, afraid-28)
+mark(laughed-31, of-29)
+auxpass(laughed-31, being-30)
+advcl(afraid-28, laughed-31)
+nmod(laughed-31, at-32)
+cc(afraid-28, and-33)
+conj:or(trying-15, made-34)
+conj:and(afraid-28, made-34)
+dobj(made-34, fun-35)
+nmod(made-34, of-36)
+
+(ROOT
+  (NP (NNP Im) (NNP Being) (NNP Chased) (. !)))
+
+compound(Chased-3, Im-1)
+compound(Chased-3, Being-2)
+root(ROOT-0, Chased-3)
+
+(ROOT
+  (S
+    (NP (NNP Chase) (NNS dreams))
+    (ADVP (RB often))
+    (VP (VBP come)
+      (PP (IN from)
+        (NP
+          (NP (DT some) (NN anxiety))
+          (PP (IN in)
+            (NP (PRP$ your) (NN life))))))
+    (. .)))
+
+compound(dreams-2, Chase-1)
+nsubj(come-4, dreams-2)
+advmod(come-4, often-3)
+root(ROOT-0, come-4)
+case(anxiety-7, from-5)
+det(anxiety-7, some-6)
+nmod:from(come-4, anxiety-7)
+case(life-10, in-8)
+nmod:poss(life-10, your-9)
+nmod:in(anxiety-7, life-10)
+
+(ROOT
+  (S
+    (PP
+      (ADVP (RB Often))
+      (IN in)
+      (NP (DT these) (NNS dreams)))
+    (, ,)
+    (NP (PRP you))
+    (VP (VBP are)
+      (VP (VBG being)
+        (VP (VBN pursued)
+          (PP (IN by)
+            (NP
+              (NP (NN someone))
+              (SBAR
+                (WHNP (WP who))
+                (S
+                  (VP (VBZ wants)
+                    (S
+                      (VP (TO to)
+                        (VP (VB hurt)
+                          (CC or)
+                          (VB kill)
+                          (NP (PRP you)))))))))))))
+    (. .)))
+
+advmod(dreams-4, Often-1)
+case(dreams-4, in-2)
+det(dreams-4, these-3)
+nmod:in(pursued-9, dreams-4)
+nsubjpass(pursued-9, you-6)
+aux(pursued-9, are-7)
+auxpass(pursued-9, being-8)
+root(ROOT-0, pursued-9)
+case(someone-11, by-10)
+nmod:by(pursued-9, someone-11)
+nsubj(wants-13, someone-11)
+nsubj(hurt-15, someone-11)
+nsubj(kill-17, someone-11)
+ref(someone-11, who-12)
+acl:relcl(someone-11, wants-13)
+mark(hurt-15, to-14)
+xcomp(wants-13, hurt-15)
+cc(hurt-15, or-16)
+xcomp(wants-13, kill-17)
+conj:or(hurt-15, kill-17)
+dobj(hurt-15, you-18)
+
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (VBP are)
+      (VP
+        (VP (VBG running)
+          (PRT (RP away)))
+        (, ,)
+        (VP (VBG hiding))
+        (, ,)
+        (CC or)
+        (VP (VBG trying)
+          (S
+            (VP (TO to)
+              (VP (VB outwit)
+                (NP (PRP$ your) (NN pursuer))))))))
+    (. .)))
+
+nsubj(running-3, You-1)
+nsubj(hiding-6, You-1)
+nsubj(trying-9, You-1)
+nsubj(outwit-11, You-1)
+aux(running-3, are-2)
+root(ROOT-0, running-3)
+compound:prt(running-3, away-4)
+conj:or(running-3, hiding-6)
+cc(running-3, or-8)
+conj:or(running-3, trying-9)
+mark(outwit-11, to-10)
+xcomp(trying-9, outwit-11)
+nmod:poss(pursuer-13, your-12)
+dobj(outwit-11, pursuer-13)
+
+(ROOT
+  (S
+    (S
+      (VP (VB Ask)
+        (NP (PRP yourself))
+        (SBAR
+          (WHNP (WP who))
+          (S
+            (VP (VBZ is)
+              (NP
+                (NP (DT the) (NN one))
+                (VP (VBG chasing)
+                  (NP (PRP you)))))))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (PRP you))
+      (VP (MD might)
+        (VP (VB discover)
+          (NP
+            (NP (DT the) (NN source))
+            (PP (IN of)
+              (NP
+                (NP (PRP$ your) (NN fear)
+                  (CC or)
+                  (NN sense))
+                (PP (IN of)
+                  (NP (NN pressure)))))))))
+    (. .)))
+
+root(ROOT-0, Ask-1)
+dobj(Ask-1, yourself-2)
+nsubj(one-6, who-3)
+cop(one-6, is-4)
+det(one-6, the-5)
+dep(Ask-1, one-6)
+acl(one-6, chasing-7)
+dobj(chasing-7, you-8)
+cc(Ask-1, and-10)
+nsubj(discover-13, you-11)
+aux(discover-13, might-12)
+conj:and(Ask-1, discover-13)
+det(source-15, the-14)
+dobj(discover-13, source-15)
+case(fear-18, of-16)
+nmod:poss(fear-18, your-17)
+nmod:of(source-15, fear-18)
+cc(fear-18, or-19)
+nmod:of(source-15, sense-20)
+conj:or(fear-18, sense-20)
+case(pressure-22, of-21)
+nmod:of(fear-18, pressure-22)
+
+(ROOT
+  (NP (NNP Im) (NNP Flying) (. !)))
+
+compound(Flying-2, Im-1)
+root(ROOT-0, Flying-2)
+
+(ROOT
+  (S
+    (NP (JJ Many) (NNS dreamers))
+    (VP (VBP have)
+      (VP (VBN described)
+        (NP (DT the) (NN ability)
+          (S
+            (VP (TO to)
+              (VP (VB fly)
+                (PP (IN in)
+                  (NP (PRP$ their) (NNS dreams)))
+                (PP (IN as)
+                  (NP
+                    (NP (DT an) (NN experience))
+                    (PP (IN of)
+                      (NP (NN joy)
+                        (CC and)
+                        (NN freedom)))))))))))
+    (. .)))
+
+amod(dreamers-2, Many-1)
+nsubj(described-4, dreamers-2)
+aux(described-4, have-3)
+root(ROOT-0, described-4)
+det(ability-6, the-5)
+dobj(described-4, ability-6)
+mark(fly-8, to-7)
+acl(ability-6, fly-8)
+case(dreams-11, in-9)
+nmod:poss(dreams-11, their-10)
+nmod:in(fly-8, dreams-11)
+case(experience-14, as-12)
+det(experience-14, an-13)
+nmod:as(fly-8, experience-14)
+case(joy-16, of-15)
+nmod:of(experience-14, joy-16)
+cc(joy-16, and-17)
+nmod:of(experience-14, freedom-18)
+conj:and(joy-16, freedom-18)
+
+(ROOT
+  (S
+    (NP (DT The) (NN ability)
+      (S
+        (VP (TO to)
+          (VP (VB control)
+            (NP (PRP$ your) (NN flight))))))
+    (VP (VBZ shows)
+      (NP
+        (NP (PRP$ your) (NN sense))
+        (PP (IN of)
+          (NP (NN power)))))
+    (. .)))
+
+det(ability-2, The-1)
+nsubj(shows-7, ability-2)
+mark(control-4, to-3)
+acl(ability-2, control-4)
+nmod:poss(flight-6, your-5)
+dobj(control-4, flight-6)
+root(ROOT-0, shows-7)
+nmod:poss(sense-9, your-8)
+dobj(shows-7, sense-9)
+case(power-11, of-10)
+nmod:of(sense-9, power-11)
+
+(ROOT
+  (SINV
+    (VP (VBG Having)
+      (NP (NN trouble))
+      (S
+        (VP (VBG staying)
+          (PP (IN in)
+            (NP (NN flight))))))
+    (VP (VBZ shows))
+    (NP
+      (NP (DT a) (NN lack))
+      (PP (IN of)
+        (NP
+          (NP (NN power))
+          (PP (IN in)
+            (S
+              (VP (VBG controlling)
+                (NP (PRP$ your) (JJ own) (NN life) (NN situation))))))))
+    (. .)))
+
+root(ROOT-0, Having-1)
+dobj(Having-1, trouble-2)
+advcl(Having-1, staying-3)
+case(flight-5, in-4)
+nmod:in(staying-3, flight-5)
+dep(Having-1, shows-6)
+det(lack-8, a-7)
+nsubj(Having-1, lack-8)
+case(power-10, of-9)
+nmod:of(lack-8, power-10)
+mark(controlling-12, in-11)
+acl(power-10, controlling-12)
+nmod:poss(situation-16, your-13)
+amod(situation-16, own-14)
+compound(situation-16, life-15)
+dobj(controlling-12, situation-16)
+
+(ROOT
+  (S
+    (NP
+      (NP (NNS Things))
+      (PP (IN like)
+        (NP
+          (NP (NN power) (NNS lines))
+          (, ,)
+          (NP (NNS trees))
+          (, ,)
+          (CC and)
+          (NP (NNS mountains)))))
+    (VP (MD may)
+      (VP (VB block)
+        (NP (PRP$ your) (NN flight))))
+    (. .)))
+
+nsubj(block-11, Things-1)
+case(lines-4, like-2)
+compound(lines-4, power-3)
+nmod:like(Things-1, lines-4)
+nmod:like(Things-1, trees-6)
+conj:and(lines-4, trees-6)
+cc(lines-4, and-8)
+nmod:like(Things-1, mountains-9)
+conj:and(lines-4, mountains-9)
+aux(block-11, may-10)
+root(ROOT-0, block-11)
+nmod:poss(flight-13, your-12)
+dobj(block-11, flight-13)
+
+(ROOT
+  (S
+    (NP (PRP They))
+    (VP (VBP are)
+      (PP (IN like)
+        (NP
+          (NP (NNS barriers))
+          (SBAR
+            (WHNP (WDT that))
+            (S
+              (VP (VBP are)
+                (VP (VBG standing)
+                  (PP (IN in)
+                    (NP
+                      (NP (PRP$ your) (NN way))
+                      (PP (IN in)
+                        (NP (PRP$ your) (JJ waking) (NN life))))))))))))
+    (. .)))
+
+nsubj(barriers-4, They-1)
+cop(barriers-4, are-2)
+case(barriers-4, like-3)
+root(ROOT-0, barriers-4)
+nsubj(standing-7, barriers-4)
+ref(barriers-4, that-5)
+aux(standing-7, are-6)
+acl:relcl(barriers-4, standing-7)
+case(way-10, in-8)
+nmod:poss(way-10, your-9)
+nmod:in(standing-7, way-10)
+case(life-14, in-11)
+nmod:poss(life-14, your-12)
+amod(life-14, waking-13)
+nmod:in(way-10, life-14)
+
+(ROOT
+  (NP (NNP Im) (NNP Falling) (. !)))
+
+compound(Falling-2, Im-1)
+root(ROOT-0, Falling-2)
+
+(ROOT
+  (S
+    (NP (VBG Falling) (NNS dreams))
+    (VP (VBP are)
+      (NP
+        (NP (DT a) (JJ common) (NN theme))
+        (PP (IN in)
+          (NP
+            (NP (DT the) (NN world))
+            (PP (IN of)
+              (NP (NNS dreams)))))))
+    (. .)))
+
+amod(dreams-2, Falling-1)
+nsubj(theme-6, dreams-2)
+cop(theme-6, are-3)
+det(theme-6, a-4)
+amod(theme-6, common-5)
+root(ROOT-0, theme-6)
+case(world-9, in-7)
+det(world-9, the-8)
+nmod:in(theme-6, world-9)
+case(dreams-11, of-10)
+nmod:of(world-9, dreams-11)
+
+(ROOT
+  (S
+    (NP (DT These) (NNS dreams))
+    (ADVP (RB obviously))
+    (VP (VBP express)
+      (NP
+        (NP (PRP$ your) (JJ basic) (JJ human) (NN fear))
+        (PP (IN of)
+          (NP
+            (NP (NNS heights))
+            (, ,)
+            (NP
+              (NP (DT the) (NN anxiety))
+              (SBAR
+                (S
+                  (NP (PRP you))
+                  (VP (VBP feel)
+                    (SBAR
+                      (WHADVP (WRB when))
+                      (S
+                        (NP (PRP you))
+                        (VP (VBP stand)
+                          (PP (IN near)
+                            (NP
+                              (NP (DT the) (NN edge))
+                              (PP (IN of)
+                                (NP (DT a) (JJ high) (NN place))))))))))))))))
+    (. .)))
+
+det(dreams-2, These-1)
+nsubj(express-4, dreams-2)
+advmod(express-4, obviously-3)
+root(ROOT-0, express-4)
+nmod:poss(fear-8, your-5)
+amod(fear-8, basic-6)
+amod(fear-8, human-7)
+dobj(express-4, fear-8)
+case(heights-10, of-9)
+nmod:of(fear-8, heights-10)
+det(anxiety-13, the-12)
+appos(heights-10, anxiety-13)
+nsubj(feel-15, you-14)
+acl:relcl(anxiety-13, feel-15)
+advmod(stand-18, when-16)
+nsubj(stand-18, you-17)
+advcl(feel-15, stand-18)
+case(edge-21, near-19)
+det(edge-21, the-20)
+nmod:near(stand-18, edge-21)
+case(place-25, of-22)
+det(place-25, a-23)
+amod(place-25, high-24)
+nmod:of(edge-21, place-25)
+
+(ROOT
+  (S
+    (NP (PRP They))
+    (VP (MD may)
+      (VP (VB reflect)
+        (NP
+          (NP (DT the) (NN way))
+          (SBAR
+            (S
+              (NP (PRP you))
+              (VP (VBP feel)
+                (PP (IN in)
+                  (NP (DT a) (NN relationship)))))))))
+    (. .)))
+
+nsubj(reflect-3, They-1)
+aux(reflect-3, may-2)
+root(ROOT-0, reflect-3)
+det(way-5, the-4)
+dobj(reflect-3, way-5)
+nsubj(feel-7, you-6)
+acl:relcl(way-5, feel-7)
+case(relationship-10, in-8)
+det(relationship-10, a-9)
+nmod:in(feel-7, relationship-10)
+
+(ROOT
+  (S
+    (NP (VBG Falling) (NNS dreams))
+    (VP (MD can)
+      (ADVP (RB also))
+      (VP (VB express)
+        (NP
+          (NP
+            (NP (PRP$ your) (NN fear))
+            (PP (IN of)
+              (S
+                (VP (VBG failing)
+                  (PP
+                    (PP (IN in)
+                      (NP (PRP$ your) (NN job)))
+                    (CC or)
+                    (PP (IN in)
+                      (NP (NN school))))))))
+          (, ,)
+          (CC or)
+          (NP
+            (NP (PRP$ your) (NN fear))
+            (PP (IN of)
+              (S
+                (VP (VBG falling)
+                  (PP (IN in)
+                    (NP (NN status))))))))))
+    (. .)))
+
+amod(dreams-2, Falling-1)
+nsubj(express-5, dreams-2)
+aux(express-5, can-3)
+advmod(express-5, also-4)
+root(ROOT-0, express-5)
+nmod:poss(fear-7, your-6)
+dobj(express-5, fear-7)
+mark(failing-9, of-8)
+acl(fear-7, failing-9)
+acl(fear-7, failing-9')
+conj:or(failing-9, failing-9')
+case(job-12, in-10)
+nmod:poss(job-12, your-11)
+nmod:in(failing-9, job-12)
+cc(failing-9, or-13)
+case(school-15, in-14)
+nmod:in(failing-9', school-15)
+cc(fear-7, or-17)
+nmod:poss(fear-19, your-18)
+dobj(express-5, fear-19)
+conj:or(fear-7, fear-19)
+mark(falling-21, of-20)
+acl(fear-19, falling-21)
+case(status-23, in-22)
+nmod:in(falling-21, status-23)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBD Failed)
+      (NP (DT the) (NN Test)))
+    (. !)))
+
+nsubj(Failed-2, I-1)
+root(ROOT-0, Failed-2)
+det(Test-4, the-3)
+dobj(Failed-2, Test-4)
+
+(ROOT
+  (S
+    (NP (JJ Such) (NNS dreams))
+    (VP (VBP reflect)
+      (NP (PRP$ your) (NN anxiety)))
+    (. .)))
+
+amod(dreams-2, Such-1)
+nsubj(reflect-3, dreams-2)
+root(ROOT-0, reflect-3)
+nmod:poss(anxiety-5, your-4)
+dobj(reflect-3, anxiety-5)
+
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (MD may)
+      (VP (VB find)
+        (SBAR (IN that)
+          (S
+            (NP (PRP you))
+            (VP (MD can) (RB not)
+              (VP (VB answer)
+                (NP
+                  (NP (DT any))
+                  (PP (IN of)
+                    (NP (DT the) (NNS questions))))
+                (PP (IN on)
+                  (NP (DT a) (NN test)))))))))
+    (. .)))
+
+nsubj(find-3, You-1)
+aux(find-3, may-2)
+root(ROOT-0, find-3)
+mark(answer-8, that-4)
+nsubj(answer-8, you-5)
+aux(answer-8, can-6)
+neg(answer-8, not-7)
+ccomp(find-3, answer-8)
+dobj(answer-8, any-9)
+case(questions-12, of-10)
+det(questions-12, the-11)
+nmod:of(any-9, questions-12)
+case(test-15, on-13)
+det(test-15, a-14)
+nmod:on(answer-8, test-15)
+
+(ROOT
+  (SQ (VBZ Is)
+    (NP (NN time))
+    (VP (VBG running)
+      (PRT (RP out)))
+    (. ?)))
+
+aux(running-3, Is-1)
+nsubj(running-3, time-2)
+root(ROOT-0, running-3)
+compound:prt(running-3, out-4)
+
+(ROOT
+  (SQ (VBP Are)
+    (NP (PRP you))
+    (PP
+      (ADVP (RB late))
+      (IN for)
+      (NP (DT the) (NN exam)))
+    (. ?)))
+
+root(ROOT-0, Are-1)
+nsubj(Are-1, you-2)
+advmod(exam-6, late-3)
+case(exam-6, for-4)
+det(exam-6, the-5)
+nmod:for(Are-1, exam-6)
+
+(ROOT
+  (SQ (NNP Does)
+    (NP (PRP$ your) (NN pencil))
+    (VP (VB keep)
+      (NP (NN breaking)))
+    (. ?)))
+
+dep(keep-4, Does-1)
+nmod:poss(pencil-3, your-2)
+nsubj(keep-4, pencil-3)
+root(ROOT-0, keep-4)
+dobj(keep-4, breaking-5)
+
+(ROOT
+  (S
+    (NP (DT These) (NNS dreams))
+    (ADVP (RB usually))
+    (VP (VBP have)
+      (S
+        (VP (TO to)
+          (VP (VB do)
+            (PP (IN with)
+              (NP (PRP$ your) (NN self-esteem)
+                (CC and)
+                (NN confidence)))))))
+    (. .)))
+
+det(dreams-2, These-1)
+nsubj(have-4, dreams-2)
+nsubj(do-6, dreams-2)
+advmod(have-4, usually-3)
+root(ROOT-0, have-4)
+mark(do-6, to-5)
+xcomp(have-4, do-6)
+case(self-esteem-9, with-7)
+nmod:poss(self-esteem-9, your-8)
+nmod:with(do-6, self-esteem-9)
+cc(self-esteem-9, and-10)
+nmod:with(do-6, confidence-11)
+conj:and(self-esteem-9, confidence-11)
+
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (VBP are)
+      (ADJP (VBN worried)
+        (SBAR (IN that)
+          (S
+            (NP (PRP you))
+            (VP (VBP are) (RB not)
+              (VP (VBG meeting)
+                (NP
+                  (NP (JJ other) (NNS peoples) (NNS expectations))
+                  (PP (IN of)
+                    (NP (PRP you))))))))))
+    (. .)))
+
+nsubjpass(worried-3, You-1)
+auxpass(worried-3, are-2)
+root(ROOT-0, worried-3)
+mark(meeting-8, that-4)
+nsubj(meeting-8, you-5)
+aux(meeting-8, are-6)
+neg(meeting-8, not-7)
+ccomp(worried-3, meeting-8)
+amod(expectations-11, other-9)
+compound(expectations-11, peoples-10)
+dobj(meeting-8, expectations-11)
+case(you-13, of-12)
+nmod:of(expectations-11, you-13)
+
+(ROOT
+  (S
+    (NP (NNS Dreams))
+    (VP (MD can)
+      (VP (VB help)
+        (S
+          (NP (PRP us))
+          (VP (VB discover)
+            (NP
+              (NP (PRP$ our) (JJS deepest) (NNS secrets))
+              (CC or)
+              (NP (VBN hidden) (NNS feelings)))))))
+    (. .)))
+
+nsubj(help-3, Dreams-1)
+aux(help-3, can-2)
+root(ROOT-0, help-3)
+nsubj(discover-5, us-4)
+ccomp(help-3, discover-5)
+nmod:poss(secrets-8, our-6)
+amod(secrets-8, deepest-7)
+dobj(discover-5, secrets-8)
+cc(secrets-8, or-9)
+amod(feelings-11, hidden-10)
+dobj(discover-5, feelings-11)
+conj:or(secrets-8, feelings-11)
+
+(ROOT
+  (S (CC But)
+    (PP
+      (NP (CD five) (NNS minutes))
+      (IN after)
+      (NP
+        (NP (DT the) (NN end))
+        (PP (IN of)
+          (NP (DT a) (NN dream)))))
+    (, ,)
+    (NP
+      (NP (NN half))
+      (PP (IN of)
+        (NP (PRP$ its) (NN content))))
+    (VP (VBZ is)
+      (VP (VBN forgotten)))
+    (. .)))
+
+cc(forgotten-16, But-1)
+nummod(minutes-3, five-2)
+nmod:after(forgotten-16, minutes-3)
+case(minutes-3, after-4)
+det(end-6, the-5)
+dep(minutes-3, end-6)
+case(dream-9, of-7)
+det(dream-9, a-8)
+nmod:of(end-6, dream-9)
+nsubjpass(forgotten-16, half-11)
+case(content-14, of-12)
+nmod:poss(content-14, its-13)
+nmod:of(half-11, content-14)
+auxpass(forgotten-16, is-15)
+root(ROOT-0, forgotten-16)
+
+(ROOT
+  (S
+    (PP (IN After)
+      (NP (CD ten) (NNS minutes)))
+    (, ,)
+    (NP (CD 90) (NN percent))
+    (VP (VBZ is)
+      (VP (VBN lost)))
+    (. .)))
+
+case(minutes-3, After-1)
+nummod(minutes-3, ten-2)
+nmod:after(lost-8, minutes-3)
+nummod(percent-6, 90-5)
+nsubjpass(lost-8, percent-6)
+auxpass(lost-8, is-7)
+root(ROOT-0, lost-8)
+
+(ROOT
+  (S (IN So)
+    (SBAR (IN if)
+      (S
+        (NP (PRP you))
+        (VP (VBP want)
+          (S
+            (VP (TO to)
+              (VP (VB understand)
+                (NP (PRP$ your) (NNS dreams))))))))
+    (, ,)
+    (NP (NN youd))
+    (ADVP (RB better))
+    (VP (VBP have)
+      (NP (DT a) (JJ good) (NN memory)))
+    (. !)))
+
+dep(have-12, So-1)
+mark(want-4, if-2)
+nsubj(want-4, you-3)
+nsubj(understand-6, you-3)
+advcl(have-12, want-4)
+mark(understand-6, to-5)
+xcomp(want-4, understand-6)
+nmod:poss(dreams-8, your-7)
+dobj(understand-6, dreams-8)
+nsubj(have-12, youd-10)
+advmod(have-12, better-11)
+root(ROOT-0, have-12)
+det(memory-15, a-13)
+amod(memory-15, good-14)
+dobj(have-12, memory-15)
+

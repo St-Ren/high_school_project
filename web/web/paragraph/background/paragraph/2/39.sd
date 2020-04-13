@@ -1,0 +1,1210 @@
+(ROOT
+  (S
+    (NP (NNP Princess) (NNP Atalanta))
+    (VP (VBD was)
+      (NP
+        (NP (DT a) (JJ terrific) (NN athlete))
+        (PP (IN in)
+          (NP (JJ ancient) (NNP Greece)))))
+    (. .)))
+
+compound(Atalanta-2, Princess-1)
+nsubj(athlete-6, Atalanta-2)
+cop(athlete-6, was-3)
+det(athlete-6, a-4)
+amod(athlete-6, terrific-5)
+root(ROOT-0, athlete-6)
+case(Greece-9, in-7)
+amod(Greece-9, ancient-8)
+nmod:in(athlete-6, Greece-9)
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP Very) (NNP skillful))
+      (PP (IN in)
+        (NP
+          (NP (JJ masculine) (NNS activities))
+          (, ,)
+          (NP (DT the) (JJ fair) (JJ young) (NN lady)))))
+    (VP (VBD was)
+      (NP
+        (NP (DT an) (JJ excellent) (NN runner))
+        (, ,)
+        (NP (NN archer))
+        (, ,)
+        (CC and)
+        (NP (NNS huntress))))
+    (. .)))
+
+compound(skillful-2, Very-1)
+nsubj(runner-14, skillful-2)
+case(activities-5, in-3)
+amod(activities-5, masculine-4)
+nmod:in(skillful-2, activities-5)
+det(lady-10, the-7)
+amod(lady-10, fair-8)
+amod(lady-10, young-9)
+appos(activities-5, lady-10)
+cop(runner-14, was-11)
+det(runner-14, an-12)
+amod(runner-14, excellent-13)
+root(ROOT-0, runner-14)
+conj:and(runner-14, archer-16)
+cc(runner-14, and-18)
+conj:and(runner-14, huntress-19)
+
+(ROOT
+  (S
+    (S
+      (VP (VBN Proud)
+        (PP (IN of)
+          (NP (PRP$ their)
+            (ADJP (JJ vigorous)
+              (CC and)
+              (JJ graceful))
+            (NNS princess)))))
+    (, ,)
+    (NP
+      (NP (NN everyone))
+      (PP (IN in)
+        (NP (DT the) (NN country))))
+    (VP (VBD wondered)
+      (SBAR
+        (WHNP (WP what))
+        (S
+          (NP (JJ young) (NN man))
+          (VP (MD could)
+            (ADVP (RB ever))
+            (VP (VB be)
+              (NP
+                (NP (DT a) (NN match))
+                (PP (IN for)
+                  (NP (PRP her)))))))))
+    (. .)))
+
+advcl(wondered-13, Proud-1)
+case(princess-7, of-2)
+nmod:poss(princess-7, their-3)
+amod(princess-7, vigorous-4)
+cc(vigorous-4, and-5)
+conj:and(vigorous-4, graceful-6)
+amod(princess-7, graceful-6)
+nmod:of(Proud-1, princess-7)
+nsubj(wondered-13, everyone-9)
+case(country-12, in-10)
+det(country-12, the-11)
+nmod:in(everyone-9, country-12)
+root(ROOT-0, wondered-13)
+dobj(match-21, what-14)
+amod(man-16, young-15)
+nsubj(match-21, man-16)
+aux(match-21, could-17)
+advmod(match-21, ever-18)
+cop(match-21, be-19)
+det(match-21, a-20)
+ccomp(wondered-13, match-21)
+case(her-23, for-22)
+nmod:for(match-21, her-23)
+
+(ROOT
+  (S (CC But)
+    (NP (NNP Atalanta))
+    (VP (VBD did) (RB not)
+      (VP (VB want)
+        (S
+          (VP (TO to)
+            (VP (VB give)
+              (PRT (RP up))
+              (NP (PRP$ her) (NN freedom)))))))
+    (. .)))
+
+cc(want-5, But-1)
+nsubj(want-5, Atalanta-2)
+nsubj(give-7, Atalanta-2)
+aux(want-5, did-3)
+neg(want-5, not-4)
+root(ROOT-0, want-5)
+mark(give-7, to-6)
+xcomp(want-5, give-7)
+compound:prt(give-7, up-8)
+nmod:poss(freedom-10, her-9)
+dobj(give-7, freedom-10)
+
+(ROOT
+  (S
+    (NP (PRP She))
+    (VP (VBD consented)
+      (S
+        (VP (TO to)
+          (VP (VB marry)
+            (SBAR (RB only) (IN if)
+              (S
+                (NP (DT a) (NN man))
+                (VP (MD could)
+                  (VP (VB outrun)
+                    (NP (PRP her))
+                    (PP (IN in)
+                      (NP (DT a) (NN race)))))))))))
+    (. .)))
+
+nsubj(consented-2, She-1)
+nsubj(marry-4, She-1)
+root(ROOT-0, consented-2)
+mark(marry-4, to-3)
+xcomp(consented-2, marry-4)
+advmod(outrun-10, only-5)
+mark(outrun-10, if-6)
+det(man-8, a-7)
+nsubj(outrun-10, man-8)
+aux(outrun-10, could-9)
+advcl(marry-4, outrun-10)
+dobj(outrun-10, her-11)
+case(race-14, in-12)
+det(race-14, a-13)
+nmod:in(outrun-10, race-14)
+
+(ROOT
+  (S
+    (NP (JJ Many) (NNS men))
+    (VP (VBD made)
+      (SBAR
+        (S
+          (NP
+            (NP (DT the) (NN attempt))
+            (PP (CC but)
+              (NP (NN none))))
+          (VP (MD could)
+            (VP (VB keep)
+              (PRT (RP up))
+              (PP (IN with)
+                (NP (PRP her))))))))
+    (. .)))
+
+amod(men-2, Many-1)
+nsubj(made-3, men-2)
+root(ROOT-0, made-3)
+det(attempt-5, the-4)
+nsubj(keep-9, attempt-5)
+case(none-7, but-6)
+nmod:but(attempt-5, none-7)
+aux(keep-9, could-8)
+ccomp(made-3, keep-9)
+compound:prt(keep-9, up-10)
+case(her-12, with-11)
+nmod:with(keep-9, her-12)
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (ADVP (RB soon))
+    (VP (VBD became)
+      (ADJP (JJ clear))
+      (SBAR (IN that)
+        (S
+          (NP (DT no) (JJ other) (NN human) (VBG being))
+          (VP (MD could)
+            (VP (VB run)
+              (ADVP (RB as) (RB fast))
+              (PP (IN as)
+                (NP (NNP Atalanta))))))))
+    (. .)))
+
+nsubj(became-3, It-1)
+advmod(became-3, soon-2)
+root(ROOT-0, became-3)
+xcomp(became-3, clear-4)
+mark(run-11, that-5)
+neg(human-8, no-6)
+amod(human-8, other-7)
+nsubj(run-11, human-8)
+amod(human-8, being-9)
+aux(run-11, could-10)
+ccomp(became-3, run-11)
+advmod(fast-13, as-12)
+advmod(run-11, fast-13)
+case(Atalanta-15, as-14)
+nmod:as(run-11, Atalanta-15)
+
+(ROOT
+  (S
+    (NP
+      (NP (CD One) (JJ young) (NN man))
+      (, ,)
+      (NP (NNP Hippomenes))
+      (, ,))
+    (VP (VBD watched)
+      (PP (IN in)
+        (NP (NN awe)))
+      (SBAR (IN as)
+        (S
+          (NP (NNP Atalanta))
+          (VP (VBD won)
+            (NP
+              (NP (CD one))
+              (PP (IN of)
+                (NP (PRP$ her) (NNS races))))))))
+    (. .)))
+
+nummod(man-3, One-1)
+amod(man-3, young-2)
+nsubj(watched-7, man-3)
+appos(man-3, Hippomenes-5)
+root(ROOT-0, watched-7)
+case(awe-9, in-8)
+nmod:in(watched-7, awe-9)
+mark(won-12, as-10)
+nsubj(won-12, Atalanta-11)
+advcl(watched-7, won-12)
+dobj(won-12, one-13)
+case(races-16, of-14)
+nmod:poss(races-16, her-15)
+nmod:of(one-13, races-16)
+
+(ROOT
+  (S
+    (SBAR (IN As)
+      (S
+        (NP (PRP she))
+        (VP (VBD sped)
+          (PP (IN by)))))
+    (, ,)
+    (NP (DT the) (NN maiden))
+    (VP (VBD seemed)
+      (ADJP (RB as) (JJ swift)
+        (CC and)
+        (JJ graceful))
+      (PP (IN as)
+        (NP (DT a) (NN falcon))))
+    (. .)))
+
+mark(sped-3, As-1)
+nsubj(sped-3, she-2)
+advcl(seemed-8, sped-3)
+nmod(sped-3, by-4)
+det(maiden-7, the-6)
+nsubj(seemed-8, maiden-7)
+root(ROOT-0, seemed-8)
+advmod(swift-10, as-9)
+xcomp(seemed-8, swift-10)
+cc(swift-10, and-11)
+xcomp(seemed-8, graceful-12)
+conj:and(swift-10, graceful-12)
+case(falcon-15, as-13)
+det(falcon-15, a-14)
+nmod:as(seemed-8, falcon-15)
+
+(ROOT
+  (S
+    (S
+      (NP (PRP$ Her) (JJ dark) (NN hair))
+      (VP (VBD rippled)
+        (PP (IN over)
+          (NP (PRP$ her) (JJ white) (NNS shoulders)))))
+    (, ,)
+    (S
+      (NP
+        (NP (DT the) (VBN colored) (NNS ribbons))
+        (SBAR
+          (S
+            (NP (PRP she))
+            (VP (VBD wore)))))
+      (VP (VBD fluttered)))
+    (, ,)
+    (CC and)
+    (S
+      (NP (PRP$ her) (NN face))
+      (VP (VBD grew)
+        (ADJP (JJ rose-colored))
+        (PP (IN during)
+          (NP (DT the) (JJ fierce) (NN race)))))
+    (. .)))
+
+nmod:poss(hair-3, Her-1)
+amod(hair-3, dark-2)
+nsubj(rippled-4, hair-3)
+root(ROOT-0, rippled-4)
+case(shoulders-8, over-5)
+nmod:poss(shoulders-8, her-6)
+amod(shoulders-8, white-7)
+nmod:over(rippled-4, shoulders-8)
+det(ribbons-12, the-10)
+amod(ribbons-12, colored-11)
+nsubj(fluttered-15, ribbons-12)
+nsubj(wore-14, she-13)
+acl:relcl(ribbons-12, wore-14)
+ccomp(rippled-4, fluttered-15)
+cc(rippled-4, and-17)
+nmod:poss(face-19, her-18)
+nsubj(grew-20, face-19)
+conj:and(rippled-4, grew-20)
+xcomp(grew-20, rose-colored-21)
+case(race-25, during-22)
+det(race-25, the-23)
+amod(race-25, fierce-24)
+nmod:during(grew-20, race-25)
+
+(ROOT
+  (S
+    (NP (NNS Hippomenes))
+    (VP (VBD fell)
+      (ADVP (RB deeply)
+        (PP (IN in)
+          (NP (NN love))))
+      (PP (IN with)
+        (NP (NNP Atalanta))))
+    (. .)))
+
+nsubj(fell-2, Hippomenes-1)
+root(ROOT-0, fell-2)
+advmod(fell-2, deeply-3)
+case(love-5, in-4)
+nmod:in(deeply-3, love-5)
+case(Atalanta-7, with-6)
+nmod:with(fell-2, Atalanta-7)
+
+(ROOT
+  (S
+    (S
+      (ADJP (JJ Unable)
+        (S
+          (VP (TO to)
+            (VP (VB outrun)
+              (NP (DT the) (JJ beautiful) (NNS huntress)))))))
+    (, ,)
+    (ADVP (RB however))
+    (, ,)
+    (NP (PRP he))
+    (VP (VBD prayed)
+      (S
+        (VP (TO to)
+          (VP (VB Aphrodite)
+            (PP (IN for)
+              (NP (NN help)))))))
+    (. .)))
+
+ccomp(prayed-11, Unable-1)
+mark(outrun-3, to-2)
+xcomp(Unable-1, outrun-3)
+det(huntress-6, the-4)
+amod(huntress-6, beautiful-5)
+dobj(outrun-3, huntress-6)
+advmod(prayed-11, however-8)
+nsubj(prayed-11, he-10)
+nsubj(Aphrodite-13, he-10)
+root(ROOT-0, prayed-11)
+mark(Aphrodite-13, to-12)
+xcomp(prayed-11, Aphrodite-13)
+case(help-15, for-14)
+nmod:for(Aphrodite-13, help-15)
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP Aphrodite))
+      (, ,)
+      (NP
+        (NP (DT the) (NN goddess))
+        (PP (IN of)
+          (NP (NN love))))
+      (, ,))
+    (VP
+      (VP (VBD heard)
+        (NP (NNS Hippomenes)))
+      (CC and)
+      (VP (VBD decided)
+        (S
+          (VP (TO to)
+            (VP (VB help)
+              (NP (PRP him)))))))
+    (. .)))
+
+nsubj(heard-8, Aphrodite-1)
+nsubj(decided-11, Aphrodite-1)
+nsubj(help-13, Aphrodite-1)
+det(goddess-4, the-3)
+appos(Aphrodite-1, goddess-4)
+case(love-6, of-5)
+nmod:of(goddess-4, love-6)
+root(ROOT-0, heard-8)
+dobj(heard-8, Hippomenes-9)
+cc(heard-8, and-10)
+conj:and(heard-8, decided-11)
+mark(help-13, to-12)
+xcomp(decided-11, help-13)
+dobj(help-13, him-14)
+
+(ROOT
+  (S
+    (NP (PRP She))
+    (VP
+      (VP (VBD appeared)
+        (PP (TO to)
+          (NP (DT the) (NN man))))
+      (CC and)
+      (VP (VBD gave)
+        (NP (PRP him))
+        (NP
+          (NP (CD three) (NNS apples))
+          (PP (IN of)
+            (NP (JJ pure) (NN gold))))))
+    (. .)))
+
+nsubj(appeared-2, She-1)
+nsubj(gave-7, She-1)
+root(ROOT-0, appeared-2)
+case(man-5, to-3)
+det(man-5, the-4)
+nmod:to(appeared-2, man-5)
+cc(appeared-2, and-6)
+conj:and(appeared-2, gave-7)
+iobj(gave-7, him-8)
+nummod(apples-10, three-9)
+dobj(gave-7, apples-10)
+case(gold-13, of-11)
+amod(gold-13, pure-12)
+nmod:of(apples-10, gold-13)
+
+(ROOT
+  (S
+    (S
+      (NP (NNP Aphrodite))
+      (VP (VBD told)
+        (S
+          (NP (PRP him))
+          (VP (TO to)
+            (VP (VB use)
+              (NP
+                (NP (DT the) (JJ golden) (NNS apples))
+                (PP (IN in)
+                  (NP (DT the) (NN race)))))))))
+    (CC and)
+    (RB then)
+    (S
+      (NP (PRP she))
+      (VP (VBN vanished)))
+    (. .)))
+
+nsubj(told-2, Aphrodite-1)
+root(ROOT-0, told-2)
+dobj(told-2, him-3)
+nsubj(use-5, him-3)
+mark(use-5, to-4)
+xcomp(told-2, use-5)
+det(apples-8, the-6)
+amod(apples-8, golden-7)
+dobj(use-5, apples-8)
+case(race-11, in-9)
+det(race-11, the-10)
+nmod:in(apples-8, race-11)
+cc(told-2, and-12)
+advmod(vanished-15, then-13)
+nsubj(vanished-15, she-14)
+conj:and(told-2, vanished-15)
+
+(ROOT
+  (S (IN So)
+    (NP (NNP Hippomenes))
+    (VP (VBD challenged)
+      (NP (NNP Atalanta))
+      (PP (TO to)
+        (NP (DT a) (NN race))))
+    (. .)))
+
+dep(challenged-3, So-1)
+nsubj(challenged-3, Hippomenes-2)
+root(ROOT-0, challenged-3)
+dobj(challenged-3, Atalanta-4)
+case(race-7, to-5)
+det(race-7, a-6)
+nmod:to(challenged-3, race-7)
+
+(ROOT
+  (S
+    (SBAR
+      (WHADVP (WRB When))
+      (S
+        (NP (NNP Atalanta))
+        (VP (VBD saw)
+          (NP (NNS Hippomenes)))))
+    (, ,)
+    (NP (PRP she))
+    (VP (VBD was)
+      (VP (VBN struck)
+        (PP (IN by)
+          (NP
+            (NP
+              (NP (DT the) (NN beauty))
+              (PP (IN of)
+                (NP (PRP$ his) (JJ golden) (NN hair))))
+            (CC and)
+            (NP
+              (NP (DT the) (NNS smoothness))
+              (PP (IN of)
+                (NP (PRP$ his) (NN face))))))))
+    (. .)))
+
+advmod(saw-3, When-1)
+nsubj(saw-3, Atalanta-2)
+advcl(struck-8, saw-3)
+dobj(saw-3, Hippomenes-4)
+nsubjpass(struck-8, she-6)
+auxpass(struck-8, was-7)
+root(ROOT-0, struck-8)
+case(beauty-11, by-9)
+det(beauty-11, the-10)
+nmod:by(struck-8, beauty-11)
+case(hair-15, of-12)
+nmod:poss(hair-15, his-13)
+amod(hair-15, golden-14)
+nmod:of(beauty-11, hair-15)
+cc(beauty-11, and-16)
+det(smoothness-18, the-17)
+nmod:by(struck-8, smoothness-18)
+conj:and(beauty-11, smoothness-18)
+case(face-21, of-19)
+nmod:poss(face-21, his-20)
+nmod:of(smoothness-18, face-21)
+
+(ROOT
+  (S
+    (PP (IN For)
+      (NP (DT a) (NN moment)))
+    (, ,)
+    (NP (PRP she))
+    (VP (VBD was) (RB not)
+      (ADJP (JJ sure))
+      (SBAR (IN if)
+        (S
+          (NP (PRP she))
+          (VP (MD must)
+            (VP (VB outrun)
+              (NP (DT this) (JJ young) (JJ handsome) (NN man)))))))
+    (. .)))
+
+case(moment-3, For-1)
+det(moment-3, a-2)
+nmod:for(sure-8, moment-3)
+nsubj(sure-8, she-5)
+cop(sure-8, was-6)
+neg(sure-8, not-7)
+root(ROOT-0, sure-8)
+mark(outrun-12, if-9)
+nsubj(outrun-12, she-10)
+aux(outrun-12, must-11)
+advcl(sure-8, outrun-12)
+det(man-16, this-13)
+amod(man-16, young-14)
+amod(man-16, handsome-15)
+dobj(outrun-12, man-16)
+
+(ROOT
+  (S
+    (ADVP (RB Still))
+    (, ,)
+    (NP
+      (NP (PRP$ her) (NN desire))
+      (PP (IN for)
+        (NP (NN freedom))))
+    (VP (VBD tugged)
+      (PP (IN at)
+        (NP (PRP$ her) (NN heart))))
+    (. .)))
+
+advmod(tugged-7, Still-1)
+nmod:poss(desire-4, her-3)
+nsubj(tugged-7, desire-4)
+case(freedom-6, for-5)
+nmod:for(desire-4, freedom-6)
+root(ROOT-0, tugged-7)
+case(heart-10, at-8)
+nmod:poss(heart-10, her-9)
+nmod:at(tugged-7, heart-10)
+
+(ROOT
+  (S
+    (S
+      (NP (DT The) (NN race))
+      (VP (VBD began)))
+    (CC and)
+    (S
+      (NP (NNP Atalanta))
+      (ADVP (RB immediately))
+      (VP (VBD outpaced)
+        (NP (NNS Hippomenes))))
+    (. .)))
+
+det(race-2, The-1)
+nsubj(began-3, race-2)
+root(ROOT-0, began-3)
+cc(began-3, and-4)
+nsubj(outpaced-7, Atalanta-5)
+advmod(outpaced-7, immediately-6)
+conj:and(began-3, outpaced-7)
+dobj(outpaced-7, Hippomenes-8)
+
+(ROOT
+  (S
+    (NP (DT The) (JJ young) (NN man))
+    (VP (VBD had)
+      (S
+        (VP (TO to)
+          (VP (VB toss)
+            (NP
+              (NP (CD one))
+              (PP (IN of)
+                (NP (DT the) (JJ golden) (NNS apples))))
+            (ADVP (RB right) (RB away))))))
+    (. .)))
+
+det(man-3, The-1)
+amod(man-3, young-2)
+nsubj(had-4, man-3)
+nsubj(toss-6, man-3)
+root(ROOT-0, had-4)
+mark(toss-6, to-5)
+xcomp(had-4, toss-6)
+dobj(toss-6, one-7)
+case(apples-11, of-8)
+det(apples-11, the-9)
+amod(apples-11, golden-10)
+nmod:of(one-7, apples-11)
+advmod(away-13, right-12)
+advmod(toss-6, away-13)
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP
+      (VP (VBD landed)
+        (PP (IN near)
+          (NP
+            (NP (NNP Atalanta) (POS 's))
+            (NNS feet))))
+      (CC and)
+      (VP (VBD rolled)
+        (PP (TO to)
+          (NP
+            (NP (DT the) (NN side))
+            (PP (IN of)
+              (NP (DT the) (NN road)))))))
+    (. .)))
+
+nsubj(landed-2, It-1)
+nsubj(rolled-8, It-1)
+root(ROOT-0, landed-2)
+case(feet-6, near-3)
+nmod:poss(feet-6, Atalanta-4)
+case(Atalanta-4, 's-5)
+nmod:near(landed-2, feet-6)
+cc(landed-2, and-7)
+conj:and(landed-2, rolled-8)
+case(side-11, to-9)
+det(side-11, the-10)
+nmod:to(rolled-8, side-11)
+case(road-14, of-12)
+det(road-14, the-13)
+nmod:of(side-11, road-14)
+
+(ROOT
+  (S
+    (NP (DT The) (NN apple))
+    (VP (VBN diverted)
+      (NP
+        (NP (DT the) (NNS princess) (POS 's))
+        (NN attention)))
+    (. .)))
+
+det(apple-2, The-1)
+nsubj(diverted-3, apple-2)
+root(ROOT-0, diverted-3)
+det(princess-5, the-4)
+nmod:poss(attention-7, princess-5)
+case(princess-5, 's-6)
+dobj(diverted-3, attention-7)
+
+(ROOT
+  (S
+    (NP (PRP She))
+    (VP (VBD stopped)
+      (ADVP (RB briefly))
+      (S
+        (VP (TO to)
+          (VP (VB pick)
+            (NP (PRP it))
+            (PRT (RP up))))))
+    (. .)))
+
+nsubj(stopped-2, She-1)
+nsubj(pick-5, She-1)
+root(ROOT-0, stopped-2)
+advmod(stopped-2, briefly-3)
+mark(pick-5, to-4)
+xcomp(stopped-2, pick-5)
+dobj(pick-5, it-6)
+compound:prt(pick-5, up-7)
+
+(ROOT
+  (S
+    (NP (NNS Hippomenes))
+    (VP
+      (VP (VBD took)
+        (NP (DT the) (NN opportunity)))
+      (CC and)
+      (VP (VBD caught)
+        (PRT (RP up))
+        (PP (IN with)
+          (NP (PRP her)))))
+    (. .)))
+
+nsubj(took-2, Hippomenes-1)
+nsubj(caught-6, Hippomenes-1)
+root(ROOT-0, took-2)
+det(opportunity-4, the-3)
+dobj(took-2, opportunity-4)
+cc(took-2, and-5)
+conj:and(took-2, caught-6)
+compound:prt(caught-6, up-7)
+case(her-9, with-8)
+nmod:with(caught-6, her-9)
+
+(ROOT
+  (S (CC But)
+    (NP (NNP Atalanta))
+    (VP
+      (VP (VBD started)
+        (S
+          (VP (VBG running)
+            (ADVP (RB again)))))
+      (CC and)
+      (VP
+        (ADVP (RB soon))
+        (VBD pulled)
+        (ADVP (RB ahead))
+        (, ,)
+        (SBAR (IN so)
+          (S
+            (NP (NNP Hippomenes))
+            (VP (VBD had)
+              (S
+                (VP (TO to)
+                  (VP (VB throw)
+                    (NP (DT another) (NN apple))))))))))
+    (. .)))
+
+cc(started-3, But-1)
+nsubj(started-3, Atalanta-2)
+nsubj(pulled-8, Atalanta-2)
+root(ROOT-0, started-3)
+xcomp(started-3, running-4)
+advmod(running-4, again-5)
+cc(started-3, and-6)
+advmod(pulled-8, soon-7)
+conj:and(started-3, pulled-8)
+advmod(pulled-8, ahead-9)
+mark(had-13, so-11)
+nsubj(had-13, Hippomenes-12)
+nsubj(throw-15, Hippomenes-12)
+advcl(pulled-8, had-13)
+mark(throw-15, to-14)
+xcomp(had-13, throw-15)
+det(apple-17, another-16)
+dobj(throw-15, apple-17)
+
+(ROOT
+  (S
+    (ADVP (RB Once) (RBR more))
+    (, ,)
+    (S
+      (NP (NNP Atalanta))
+      (VP (VBD stopped)
+        (S
+          (VP (TO to)
+            (VP (VB get)
+              (NP (PRP it)))))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (NNP Hippomenes))
+      (VP (VBD got)
+        (ADVP (RB ahead))))
+    (. .)))
+
+advmod(more-2, Once-1)
+advmod(stopped-5, more-2)
+nsubj(stopped-5, Atalanta-4)
+nsubj(get-7, Atalanta-4)
+root(ROOT-0, stopped-5)
+mark(get-7, to-6)
+xcomp(stopped-5, get-7)
+dobj(get-7, it-8)
+cc(stopped-5, and-10)
+nsubj(got-12, Hippomenes-11)
+conj:and(stopped-5, got-12)
+advmod(got-12, ahead-13)
+
+(ROOT
+  (S
+    (SBAR
+      (WHADVP (WRB When))
+      (S
+        (NP (NNP Atalanta))
+        (VP (VBD was)
+          (ADVP (RB back))
+          (PP (IN in)
+            (NP (DT the) (NN race))))))
+    (, ,)
+    (NP (PRP she))
+    (VP
+      (VP (VBD picked)
+        (PRT (RP up))
+        (NP (PRP$ her) (NN pace)))
+      (CC and)
+      (VP (VBD recovered)
+        (NP (DT the) (NN lead))))
+    (. .)))
+
+advmod(race-7, When-1)
+nsubj(race-7, Atalanta-2)
+cop(race-7, was-3)
+advmod(race-7, back-4)
+case(race-7, in-5)
+det(race-7, the-6)
+advcl:in(picked-10, race-7)
+nsubj(picked-10, she-9)
+nsubj(recovered-15, she-9)
+root(ROOT-0, picked-10)
+compound:prt(picked-10, up-11)
+nmod:poss(pace-13, her-12)
+dobj(picked-10, pace-13)
+cc(picked-10, and-14)
+conj:and(picked-10, recovered-15)
+det(lead-17, the-16)
+dobj(recovered-15, lead-17)
+
+(ROOT
+  (S
+    (NP (NNS Hippomenes))
+    (VP (VBD hurled)
+      (NP (DT the) (JJ last) (NN apple))
+      (ADVP (RBR further) (RB away))
+      (PP (IN from)
+        (NP (DT the) (NN road))))
+    (. .)))
+
+nsubj(hurled-2, Hippomenes-1)
+root(ROOT-0, hurled-2)
+det(apple-5, the-3)
+amod(apple-5, last-4)
+dobj(hurled-2, apple-5)
+advmod(away-7, further-6)
+advmod(hurled-2, away-7)
+case(road-10, from-8)
+det(road-10, the-9)
+nmod:from(hurled-2, road-10)
+
+(ROOT
+  (S
+    (NP (NNP Atalanta))
+    (VP (VBD hesitated))
+    (. .)))
+
+nsubj(hesitated-2, Atalanta-1)
+root(ROOT-0, hesitated-2)
+
+(ROOT
+  (S
+    (S
+      (NP (DT The) (NN goal))
+      (VP (VBD was)
+        (ADVP (RB now))
+        (PP (IN in)
+          (NP (NN sight)))))
+    (, ,)
+    (CC but)
+    (S
+      (NP (DT the) (VBG shining) (JJ golden) (NN apple))
+      (VP (VBD was)
+        (ADJP (RB too) (JJ tempting)
+          (SBAR
+            (S
+              (NP (DT a) (NN prize))
+              (VP (TO to)
+                (VP (VB pass)
+                  (PRT (RP up)))))))))
+    (. .)))
+
+det(goal-2, The-1)
+nsubj(sight-6, goal-2)
+cop(sight-6, was-3)
+advmod(sight-6, now-4)
+case(sight-6, in-5)
+root(ROOT-0, sight-6)
+cc(sight-6, but-8)
+det(apple-12, the-9)
+amod(apple-12, shining-10)
+amod(apple-12, golden-11)
+nsubj(tempting-15, apple-12)
+cop(tempting-15, was-13)
+advmod(tempting-15, too-14)
+conj:but(sight-6, tempting-15)
+det(prize-17, a-16)
+nsubj(pass-19, prize-17)
+mark(pass-19, to-18)
+ccomp(tempting-15, pass-19)
+compound:prt(pass-19, up-20)
+
+(ROOT
+  (S
+    (NP (PRP She))
+    (VP (VBD decided)
+      (S
+        (VP (TO to)
+          (VP
+            (VP (VB run)
+              (PP (TO to)
+                (NP (DT the) (NN apple))))
+            (CC and)
+            (VP (VB grab)
+              (NP (PRP it)))))))
+    (. .)))
+
+nsubj(decided-2, She-1)
+nsubj(run-4, She-1)
+nsubj(grab-9, She-1)
+root(ROOT-0, decided-2)
+mark(run-4, to-3)
+xcomp(decided-2, run-4)
+case(apple-7, to-5)
+det(apple-7, the-6)
+nmod:to(run-4, apple-7)
+cc(run-4, and-8)
+xcomp(decided-2, grab-9)
+conj:and(run-4, grab-9)
+dobj(grab-9, it-10)
+
+(ROOT
+  (S
+    (ADVP (RB Now))
+    (NP (NNP Hippomenes))
+    (VP (VBD had)
+      (NP (DT a) (JJR bigger) (NN lead)))
+    (. .)))
+
+advmod(had-3, Now-1)
+nsubj(had-3, Hippomenes-2)
+root(ROOT-0, had-3)
+det(lead-6, a-4)
+amod(lead-6, bigger-5)
+dobj(had-3, lead-6)
+
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (VBD was)
+      (ADVP (RB almost))
+      (VP (VBG approaching)
+        (NP (DT the) (NN finish) (NN line))))
+    (. .)))
+
+nsubj(approaching-4, He-1)
+aux(approaching-4, was-2)
+advmod(approaching-4, almost-3)
+root(ROOT-0, approaching-4)
+det(line-7, the-5)
+compound(line-7, finish-6)
+dobj(approaching-4, line-7)
+
+(ROOT
+  (S
+    (S
+      (NP (PRP$ His) (NN face))
+      (VP (VBD was)
+        (ADJP (JJ red)
+          (PP (IN with)
+            (NP (NN exhaustion))))))
+    (CC and)
+    (S
+      (NP (PRP he))
+      (VP (VBD was)
+        (VP (VBG gasping)
+          (PP (IN for)
+            (NP (NN air))))))
+    (. .)))
+
+nmod:poss(face-2, His-1)
+nsubj(red-4, face-2)
+cop(red-4, was-3)
+root(ROOT-0, red-4)
+case(exhaustion-6, with-5)
+nmod:with(red-4, exhaustion-6)
+cc(red-4, and-7)
+nsubj(gasping-10, he-8)
+aux(gasping-10, was-9)
+conj:and(red-4, gasping-10)
+case(air-12, for-11)
+nmod:for(gasping-10, air-12)
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP Atalanta))
+      (, ,)
+      (PP (IN on)
+        (NP (DT the) (JJ other) (NN hand)))
+      (, ,))
+    (VP (VBD was)
+      (VP (VBG running)
+        (ADVP (RB as) (RB swiftly))
+        (PP (IN as)
+          (NP
+            (NP (DT an) (NN arrow))
+            (VP (VBG shooting)
+              (PP (IN toward)
+                (NP (PRP$ its) (NN target))))))))
+    (. .)))
+
+nsubj(running-9, Atalanta-1)
+case(hand-6, on-3)
+det(hand-6, the-4)
+amod(hand-6, other-5)
+nmod:on(Atalanta-1, hand-6)
+aux(running-9, was-8)
+root(ROOT-0, running-9)
+advmod(swiftly-11, as-10)
+advmod(running-9, swiftly-11)
+case(arrow-14, as-12)
+det(arrow-14, an-13)
+nmod:as(running-9, arrow-14)
+acl(arrow-14, shooting-15)
+case(target-18, toward-16)
+nmod:poss(target-18, its-17)
+nmod:toward(shooting-15, target-18)
+
+(ROOT
+  (S (CC But)
+    (NP (PRP it))
+    (VP (VBD was)
+      (ADJP (RB too) (JJ late)))
+    (. .)))
+
+cc(late-5, But-1)
+nsubj(late-5, it-2)
+cop(late-5, was-3)
+advmod(late-5, too-4)
+root(ROOT-0, late-5)
+
+(ROOT
+  (S
+    (S
+      (NP (NNS Hippomenes))
+      (VP (VBD crossed)
+        (NP (DT the) (NN finish) (NN line))
+        (ADVP (RB first))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (PRP he))
+      (VP (VBD was)
+        (ADVP (RB barely))
+        (ADVP
+          (NP (CD one) (NN step))
+          (RB ahead))))
+    (. .)))
+
+nsubj(crossed-2, Hippomenes-1)
+root(ROOT-0, crossed-2)
+det(line-5, the-3)
+compound(line-5, finish-4)
+dobj(crossed-2, line-5)
+advmod(crossed-2, first-6)
+cc(crossed-2, and-8)
+nsubj(was-10, he-9)
+conj:and(crossed-2, was-10)
+advmod(was-10, barely-11)
+nummod(step-13, one-12)
+nmod:npmod(ahead-14, step-13)
+advmod(was-10, ahead-14)
+
+(ROOT
+  (S
+    (NP (NNP Atalanta))
+    (VP (VBD lost)
+      (NP (DT the) (NN race)))
+    (. .)))
+
+nsubj(lost-2, Atalanta-1)
+root(ROOT-0, lost-2)
+det(race-4, the-3)
+dobj(lost-2, race-4)
+
+(ROOT
+  (S
+    (NP (PRP She))
+    (VP (VBD had)
+      (S
+        (VP (TO to)
+          (VP
+            (VP (VB keep)
+              (NP (PRP$ her) (NN promise)))
+            (CC and)
+            (VP (VB marry)
+              (NP (NNS Hippomenes)))))))
+    (. .)))
+
+nsubj(had-2, She-1)
+nsubj(keep-4, She-1)
+nsubj(marry-8, She-1)
+root(ROOT-0, had-2)
+mark(keep-4, to-3)
+xcomp(had-2, keep-4)
+nmod:poss(promise-6, her-5)
+dobj(keep-4, promise-6)
+cc(keep-4, and-7)
+xcomp(had-2, marry-8)
+conj:and(keep-4, marry-8)
+dobj(marry-8, Hippomenes-9)
+
+(ROOT
+  (S
+    (PP (IN From)
+      (ADVP (RB then) (RB on)))
+    (, ,)
+    (NP (DT the) (NN couple))
+    (VP (VBD were)
+      (VP (VBN seen)
+        (S
+          (VP (VBG racing)
+            (PP (IN in)
+              (NP (DT the) (NN countryside)))
+            (NP (JJ many) (NNS times))))))
+    (. .)))
+
+case(on-3, From-1)
+advmod(on-3, then-2)
+advcl:from(seen-8, on-3)
+det(couple-6, the-5)
+nsubjpass(seen-8, couple-6)
+auxpass(seen-8, were-7)
+root(ROOT-0, seen-8)
+xcomp(seen-8, racing-9)
+case(countryside-12, in-10)
+det(countryside-12, the-11)
+nmod:in(racing-9, countryside-12)
+amod(times-14, many-13)
+dobj(racing-9, times-14)
+
+(ROOT
+  (S (CC But)
+    (NP (NNP Hippomenes))
+    (ADVP (RB never))
+    (VP (VBD won)
+      (ADVP (RB again)))
+    (. .)))
+
+cc(won-4, But-1)
+nsubj(won-4, Hippomenes-2)
+neg(won-4, never-3)
+root(ROOT-0, won-4)
+advmod(won-4, again-5)
+

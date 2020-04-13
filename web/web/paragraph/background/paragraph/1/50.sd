@@ -1,0 +1,1333 @@
+(ROOT
+  (NP
+    (NP (DT The) (NN Power))
+    (PP (IN of)
+      (NP (NNP Advertising)))
+    (. .)))
+
+det(Power-2, The-1)
+root(ROOT-0, Power-2)
+case(Advertising-4, of-3)
+nmod:of(Power-2, Advertising-4)
+
+(ROOT
+  (S
+    (NP (NNP Advertising))
+    (VP (VBZ is)
+      (ADVP (RB everywhere)))
+    (. .)))
+
+nsubj(is-2, Advertising-1)
+root(ROOT-0, is-2)
+advmod(is-2, everywhere-3)
+
+(ROOT
+  (SQ (VBP Do)
+    (NP (PRP you))
+    (VP (VB know)
+      (SBAR
+        (WHADVP (WRB how))
+        (S
+          (NP (PRP it))
+          (VP (VBZ affects)
+            (NP (PRP you))))))
+    (. ?)))
+
+aux(know-3, Do-1)
+nsubj(know-3, you-2)
+root(ROOT-0, know-3)
+advmod(affects-6, how-4)
+nsubj(affects-6, it-5)
+ccomp(know-3, affects-6)
+dobj(affects-6, you-7)
+
+(ROOT
+  (S
+    (NP (NNP Advertising) (NNS messages))
+    (VP (VBD bombard)
+      (NP (PRP you))
+      (PP (IN from)
+        (NP (RB everywhere))))
+    (. .)))
+
+compound(messages-2, Advertising-1)
+nsubj(bombard-3, messages-2)
+root(ROOT-0, bombard-3)
+dobj(bombard-3, you-4)
+case(everywhere-6, from-5)
+nmod:from(bombard-3, everywhere-6)
+
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP
+      (VP (VB see)
+        (NP (PRP them)))
+      (CC or)
+      (VP (VB hear)
+        (NP (PRP them))
+        (NP (DT every) (NN time))
+        (SBAR
+          (S
+            (NP (PRP you))
+            (VP (VBP turn)
+              (PP (IN on)
+                (NP (DT the) (NN TV)))))))
+      (CC or)
+      (VP (VB listen)
+        (PP (TO to)
+          (NP (DT the) (NN radio)))))
+    (. .)))
+
+nsubj(see-2, You-1)
+nsubj(hear-5, You-1)
+nsubj(listen-15, You-1)
+root(ROOT-0, see-2)
+dobj(see-2, them-3)
+cc(see-2, or-4)
+conj:or(see-2, hear-5)
+iobj(hear-5, them-6)
+det(time-8, every-7)
+dobj(hear-5, time-8)
+nsubj(turn-10, you-9)
+dep(hear-5, turn-10)
+case(TV-13, on-11)
+det(TV-13, the-12)
+nmod:on(turn-10, TV-13)
+cc(see-2, or-14)
+conj:or(see-2, listen-15)
+case(radio-18, to-16)
+det(radio-18, the-17)
+nmod:to(listen-15, radio-18)
+
+(ROOT
+  (S
+    (SBAR
+      (WHADVP (WRB Whenever))
+      (S
+        (NP (PRP you))
+        (VP
+          (VP (VB open)
+            (NP (DT a) (NN newspaper)))
+          (CC or)
+          (VP (VB surf)
+            (NP (DT the) (NN Internet))))))
+    (, ,)
+    (VP (VB theyre)
+      (ADVP (RB there))
+      (, ,)
+      (ADVP (RB too)))
+    (. .)))
+
+advmod(open-3, Whenever-1)
+nsubj(open-3, you-2)
+nsubj(surf-7, you-2)
+advcl(theyre-11, open-3)
+det(newspaper-5, a-4)
+dobj(open-3, newspaper-5)
+cc(open-3, or-6)
+conj:or(open-3, surf-7)
+advcl(theyre-11, surf-7)
+det(Internet-9, the-8)
+dobj(surf-7, Internet-9)
+root(ROOT-0, theyre-11)
+advmod(theyre-11, there-12)
+advmod(theyre-11, too-14)
+
+(ROOT
+  (S
+    (NP (NNS Ads))
+    (VP (VBP cover)
+      (NP
+        (NP (NNS billboards))
+        (, ,)
+        (NP
+          (NP (NNS sides))
+          (PP (IN of)
+            (NP (NNS buses)
+              (CC and)
+              (NNS buildings))))))
+    (. .)))
+
+nsubj(cover-2, Ads-1)
+root(ROOT-0, cover-2)
+dobj(cover-2, billboards-3)
+appos(billboards-3, sides-5)
+case(buses-7, of-6)
+nmod:of(sides-5, buses-7)
+cc(buses-7, and-8)
+nmod:of(sides-5, buildings-9)
+conj:and(buses-7, buildings-9)
+
+(ROOT
+  (S
+    (NP (PRP$ Its)
+      (ADJP (JJ impossible)
+        (S
+          (VP (TO to)
+            (VP (VB count)
+              (NP
+                (NP (DT the) (NN number))
+                (PP (IN of)
+                  (NP (NNS advertisements))))))))
+      (NN you))
+    (VP (VBP see)
+      (NP (DT every) (NN day)))
+    (. .)))
+
+nmod:poss(you-9, Its-1)
+amod(you-9, impossible-2)
+mark(count-4, to-3)
+xcomp(impossible-2, count-4)
+det(number-6, the-5)
+dobj(count-4, number-6)
+case(advertisements-8, of-7)
+nmod:of(number-6, advertisements-8)
+nsubj(see-10, you-9)
+root(ROOT-0, see-10)
+det(day-12, every-11)
+nmod:tmod(see-10, day-12)
+
+(ROOT
+  (S
+    (NP
+      (NP (CD One) (NN organization))
+      (PP (IN in)
+        (NP (NNP America))))
+    (VP (VBD tried))
+    (. .)))
+
+nummod(organization-2, One-1)
+nsubj(tried-5, organization-2)
+case(America-4, in-3)
+nmod:in(organization-2, America-4)
+root(ROOT-0, tried-5)
+
+(ROOT
+  (S
+    (S
+      (NP (DT The) (NN organization))
+      (VP (VBD estimated)
+        (SBAR (IN that)
+          (S
+            (PP (IN by)
+              (NP (DT the) (NN time)))
+            (NP (NNPS Americans))
+            (VP (VBP are)
+              (ADJP (JJ sixty-five)))))))
+    (, ,)
+    (NP (PRP they))
+    (VP (VBP have)
+      (VP (VBN seen)
+        (NP
+          (QP (CD two) (CD million))
+          (NN TV) (NNS commercials))))
+    (. .)))
+
+det(organization-2, The-1)
+nsubj(estimated-3, organization-2)
+ccomp(seen-14, estimated-3)
+mark(sixty-five-10, that-4)
+case(time-7, by-5)
+det(time-7, the-6)
+nmod:by(sixty-five-10, time-7)
+nsubj(sixty-five-10, Americans-8)
+cop(sixty-five-10, are-9)
+ccomp(estimated-3, sixty-five-10)
+nsubj(seen-14, they-12)
+aux(seen-14, have-13)
+root(ROOT-0, seen-14)
+compound(million-16, two-15)
+nummod(commercials-18, million-16)
+compound(commercials-18, TV-17)
+dobj(seen-14, commercials-18)
+
+(ROOT
+  (S
+    (S
+      (VP (VB Add)
+        (NP (JJ other) (NN advertising))
+        (PP (TO to)
+          (NP (DT that)))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (PRP you))
+      (VP (VBP realize)
+        (SBAR
+          (WHNP
+            (WHADJP (RB just) (WRB how) (JJ many))
+            (NNS ads))
+          (S
+            (NP (NNS people))
+            (VP (VBP see))))))
+    (. .)))
+
+root(ROOT-0, Add-1)
+amod(advertising-3, other-2)
+dobj(Add-1, advertising-3)
+case(that-5, to-4)
+nmod:to(Add-1, that-5)
+cc(Add-1, and-7)
+nsubj(realize-9, you-8)
+conj:and(Add-1, realize-9)
+advmod(many-12, just-10)
+advmod(many-12, how-11)
+amod(ads-13, many-12)
+dobj(see-15, ads-13)
+nsubj(see-15, people-14)
+ccomp(realize-9, see-15)
+
+(ROOT
+  (S
+    (NP (NNP Advertising))
+    (VP (VBZ tries)
+      (S
+        (VP (TO to)
+          (VP (VB convince)
+            (S
+              (NP (PRP you))
+              (VP (TO to)
+                (VP (VB buy)
+                  (NP (DT a) (JJ particular) (NN product)
+                    (CC or)
+                    (NN service)))))))))
+    (. .)))
+
+nsubj(tries-2, Advertising-1)
+nsubj(convince-4, Advertising-1)
+root(ROOT-0, tries-2)
+mark(convince-4, to-3)
+xcomp(tries-2, convince-4)
+dobj(convince-4, you-5)
+nsubj(buy-7, you-5)
+mark(buy-7, to-6)
+xcomp(convince-4, buy-7)
+det(product-10, a-8)
+amod(product-10, particular-9)
+dobj(buy-7, product-10)
+cc(product-10, or-11)
+dobj(buy-7, service-12)
+conj:or(product-10, service-12)
+
+(ROOT
+  (S
+    (NP (DT Some) (NNS ads))
+    (VP (VBP are)
+      (ADJP (RB so) (JJ creative)
+        (CC and)
+        (JJ persuasive)
+        (SBAR (IN that)
+          (S
+            (NP (PRP you))
+            (VP (MD cant)
+              (VP (VB help)
+                (S
+                  (VP (VBG buying)
+                    (NP (DT the) (NN product))))))))))
+    (. !)))
+
+det(ads-2, Some-1)
+nsubj(creative-5, ads-2)
+nsubj(persuasive-7, ads-2)
+cop(creative-5, are-3)
+advmod(creative-5, so-4)
+root(ROOT-0, creative-5)
+cc(creative-5, and-6)
+conj:and(creative-5, persuasive-7)
+mark(help-11, that-8)
+nsubj(help-11, you-9)
+aux(help-11, cant-10)
+ccomp(creative-5, help-11)
+xcomp(help-11, buying-12)
+det(product-14, the-13)
+dobj(buying-12, product-14)
+
+(ROOT
+  (S
+    (SBAR
+      (X (DT The) (JJR more))
+      (S
+        (ADVP (RB often))
+        (NP (PRP you))
+        (VP (VBP see)
+          (NP (DT an) (NN ad)))))
+    (, ,)
+    (X (DT the)
+      (ADJP (RBR more) (JJ familiar)))
+    (NP (PRP you))
+    (VP (VBP become)
+      (PP (IN with)
+        (NP (DT the) (NN product))))
+    (. .)))
+
+det(more-2, The-1)
+dep(see-5, more-2)
+advmod(see-5, often-3)
+nsubj(see-5, you-4)
+advcl(become-13, see-5)
+det(ad-7, an-6)
+dobj(see-5, ad-7)
+det(familiar-11, the-9)
+advmod(familiar-11, more-10)
+dep(become-13, familiar-11)
+nsubj(become-13, you-12)
+root(ROOT-0, become-13)
+case(product-16, with-14)
+det(product-16, the-15)
+nmod:with(become-13, product-16)
+
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (VBP find)
+      (S
+        (NP (PRP yourself))
+        (VP (VBG remembering)
+          (NP
+            (NP (DT the) (NNS slogans) (, ,) (NNS catchphrases)
+              (CC and)
+              (NNS jingles))
+            (PP (IN of)
+              (NP (NNS advertisements)))))))
+    (. .)))
+
+nsubj(find-2, You-1)
+root(ROOT-0, find-2)
+nsubj(remembering-4, yourself-3)
+dep(find-2, remembering-4)
+det(slogans-6, the-5)
+dobj(remembering-4, slogans-6)
+dobj(remembering-4, catchphrases-8)
+conj:and(slogans-6, catchphrases-8)
+cc(slogans-6, and-9)
+dobj(remembering-4, jingles-10)
+conj:and(slogans-6, jingles-10)
+case(advertisements-12, of-11)
+nmod:of(slogans-6, advertisements-12)
+
+(ROOT
+  (S
+    (SBAR
+      (WHADVP (WRB When))
+      (S
+        (NP (PRP you))
+        (VP (VBP do))))
+    (, ,)
+    (NP (PRP you))
+    (VP (MD may)
+      (VP (VB be)
+        (ADJP (RBR more) (JJ likely)
+          (S
+            (VP (TO to)
+              (VP (VB buy)
+                (NP (DT those) (NNS products))))))))
+    (. .)))
+
+advmod(do-3, When-1)
+nsubj(do-3, you-2)
+advcl(likely-9, do-3)
+nsubj(likely-9, you-5)
+nsubj(buy-11, you-5)
+aux(likely-9, may-6)
+cop(likely-9, be-7)
+advmod(likely-9, more-8)
+root(ROOT-0, likely-9)
+mark(buy-11, to-10)
+xcomp(likely-9, buy-11)
+det(products-13, those-12)
+dobj(buy-11, products-13)
+
+(ROOT
+  (SQ (NNP Does)
+    (NP (PRP it))
+    (VP (VB work))
+    (. ?)))
+
+dep(work-3, Does-1)
+nsubj(work-3, it-2)
+root(ROOT-0, work-3)
+
+(ROOT
+  (S
+    (NP (NNS Companies))
+    (VP (VBP pay)
+      (NP
+        (NP (DT a) (NN lot))
+        (PP (IN of)
+          (NP
+            (NP (NN money))
+            (PP (TO to)
+              (NP (NN advertising) (NNS firms))))))
+      (S
+        (VP (TO to)
+          (VP (VB think)
+            (PRT (RP up))
+            (NP (JJ catchy) (NNS phrases)))))
+      (SBAR (IN that)
+        (S
+          (NP (NNS people) (NN cant))
+          (VP (VBP get)
+            (PRT (RP out))
+            (PP (IN of)
+              (NP (PRP$ their) (NNS heads)))))))
+    (. .)))
+
+nsubj(pay-2, Companies-1)
+root(ROOT-0, pay-2)
+det(lot-4, a-3)
+dobj(pay-2, lot-4)
+case(money-6, of-5)
+nmod:of(lot-4, money-6)
+case(firms-9, to-7)
+compound(firms-9, advertising-8)
+nmod:to(money-6, firms-9)
+mark(think-11, to-10)
+advcl(pay-2, think-11)
+compound:prt(think-11, up-12)
+amod(phrases-14, catchy-13)
+dobj(think-11, phrases-14)
+mark(get-18, that-15)
+compound(cant-17, people-16)
+nsubj(get-18, cant-17)
+ccomp(pay-2, get-18)
+compound:prt(get-18, out-19)
+case(heads-22, of-20)
+nmod:poss(heads-22, their-21)
+nmod:of(get-18, heads-22)
+
+(ROOT
+  (S
+    (ADVP
+      (NP (RB Even) (NNS years))
+      (RB later))
+    (, ,)
+    (NP (NNS people))
+    (VP (VBP remember)
+      (NP (DT the) (NNS slogans)
+        (CC and)
+        (NNS jingles)))
+    (. .)))
+
+advmod(years-2, Even-1)
+nmod:npmod(later-3, years-2)
+advmod(remember-6, later-3)
+nsubj(remember-6, people-5)
+root(ROOT-0, remember-6)
+det(slogans-8, the-7)
+dobj(remember-6, slogans-8)
+cc(slogans-8, and-9)
+dobj(remember-6, jingles-10)
+conj:and(slogans-8, jingles-10)
+
+(ROOT
+  (S
+    (NP (NNP American) (NNP Express) (NN credit) (NNS cards))
+    (VP (VB remind)
+      (S
+        (NP (PRP you))
+        (VP (TO to)
+          (VP
+            (ADVP (RB Never))
+            (VB leave)
+            (NP (NN home))
+            (PP (IN without)
+              (NP (PRP it)))))))
+    (. .)))
+
+compound(cards-4, American-1)
+compound(cards-4, Express-2)
+compound(cards-4, credit-3)
+nsubj(remind-5, cards-4)
+root(ROOT-0, remind-5)
+dobj(remind-5, you-6)
+nsubj(leave-9, you-6)
+mark(leave-9, to-7)
+neg(leave-9, Never-8)
+xcomp(remind-5, leave-9)
+dobj(leave-9, home-10)
+case(it-12, without-11)
+nmod:without(leave-9, it-12)
+
+(ROOT
+  (S
+    (NP (NNP McDonalds))
+    (VP (VBZ wants)
+      (S
+        (NP (PRP you))
+        (VP (TO to)
+          (VP (VB think)
+            (S
+              (NP (NNP Im))
+              (VP (VB lovin)
+                (NP (PRP it))
+                (SBAR
+                  (WHADVP (WRB when))
+                  (S
+                    (NP (PRP you))
+                    (VP (VBP eat)
+                      (NP (PRP$ their) (NNS sandwiches)))))))))))
+    (. .)))
+
+nsubj(wants-2, McDonalds-1)
+root(ROOT-0, wants-2)
+dobj(wants-2, you-3)
+nsubj(think-5, you-3)
+mark(think-5, to-4)
+xcomp(wants-2, think-5)
+nsubj(lovin-7, Im-6)
+ccomp(think-5, lovin-7)
+dobj(lovin-7, it-8)
+advmod(eat-11, when-9)
+nsubj(eat-11, you-10)
+advcl(lovin-7, eat-11)
+nmod:poss(sandwiches-13, their-12)
+dobj(eat-11, sandwiches-13)
+
+(ROOT
+  (S
+    (S
+      (NP (NNP Pepsi))
+      (VP (VBZ belongs)
+        (PP (TO to)
+          (NP (NNP Generation) (NNP Next)))))
+    (CC And)
+    (S
+      (NP (NNP Nike))
+      (VP (VBZ wants)
+        (S
+          (NP (NNS consumers))
+          (VP (TO to)
+            (VP
+              (ADVP (RB Just))
+              (VB do)
+              (NP (PRP it)))))))
+    (. .)))
+
+nsubj(belongs-2, Pepsi-1)
+root(ROOT-0, belongs-2)
+case(Next-5, to-3)
+compound(Next-5, Generation-4)
+nmod:to(belongs-2, Next-5)
+cc(belongs-2, And-6)
+nsubj(wants-8, Nike-7)
+conj:and(belongs-2, wants-8)
+dobj(wants-8, consumers-9)
+nsubj(do-12, consumers-9)
+mark(do-12, to-10)
+advmod(do-12, Just-11)
+xcomp(wants-8, do-12)
+dobj(do-12, it-13)
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN power))
+      (PP (IN of)
+        (NP (NN advertising) (NN cant))))
+    (VP (VB be)
+      (VP (VBN underestimated) (, ,)
+        (PP
+          (ADVP (RB especially))
+          (IN on)
+          (NP (NNS children)))))
+    (. .)))
+
+det(power-2, The-1)
+nsubjpass(underestimated-7, power-2)
+case(cant-5, of-3)
+compound(cant-5, advertising-4)
+nmod:of(power-2, cant-5)
+auxpass(underestimated-7, be-6)
+root(ROOT-0, underestimated-7)
+advmod(children-11, especially-9)
+case(children-11, on-10)
+nmod:on(underestimated-7, children-11)
+
+(ROOT
+  (S
+    (S
+      (PP (IN By)
+        (NP (DT the) (NN time)))
+      (NP (NNS children))
+      (VP (VBP are)
+        (NP (CD six))))
+    (, ,)
+    (NP (PRP they))
+    (VP (VBP know)
+      (NP
+        (QP (CD two) (CD hundred))
+        (NN brand) (NNS names)))
+    (. .)))
+
+case(time-3, By-1)
+det(time-3, the-2)
+nmod:by(six-6, time-3)
+nsubj(six-6, children-4)
+cop(six-6, are-5)
+ccomp(know-9, six-6)
+nsubj(know-9, they-8)
+root(ROOT-0, know-9)
+compound(hundred-11, two-10)
+nummod(names-13, hundred-11)
+compound(names-13, brand-12)
+dobj(know-9, names-13)
+
+(ROOT
+  (S
+    (NP (PRP They))
+    (VP (MD will)
+      (VP (VB be)
+        (ADJP (JJ loyal)
+          (PP (TO to)
+            (NP
+              (NP (JJ many))
+              (PP (IN of)
+                (NP (PRP them))))))
+        (PP (IN for)
+          (NP (NN life)))))
+    (. .)))
+
+nsubj(loyal-4, They-1)
+aux(loyal-4, will-2)
+cop(loyal-4, be-3)
+root(ROOT-0, loyal-4)
+case(many-6, to-5)
+nmod:to(loyal-4, many-6)
+case(them-8, of-7)
+nmod:of(many-6, them-8)
+case(life-10, for-9)
+nmod:for(loyal-4, life-10)
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (NN advertising)))
+    (, ,)
+    (NP (NNS slogans)
+      (CC and)
+      (NNS jingles))
+    (VP
+      (VP (VBP sell)
+        (NP (NNS products)))
+      (CC and)
+      (ADVP (RB so))
+      (VP (VB do)
+        (ADJP (JJ famous))
+        (VBZ faces)))
+    (. .)))
+
+case(advertising-2, In-1)
+nmod:in(sell-7, advertising-2)
+nsubj(sell-7, slogans-4)
+nsubj(faces-13, slogans-4)
+cc(slogans-4, and-5)
+conj:and(slogans-4, jingles-6)
+nsubj(sell-7, jingles-6)
+root(ROOT-0, sell-7)
+dobj(sell-7, products-8)
+cc(sell-7, and-9)
+dep(and-9, so-10)
+dep(faces-13, do-11)
+xcomp(faces-13, famous-12)
+conj:and(sell-7, faces-13)
+
+(ROOT
+  (S
+    (NP (NNS Companies))
+    (VP (VBP think)
+      (SBAR
+        (S
+          (NP (PRP you))
+          (VP (MD will)
+            (VP (VB use)
+              (NP (PRP$ their) (NNS products))
+              (SBAR (IN if)
+                (S
+                  (NP (NNS celebrities))
+                  (VP (VB tell)
+                    (NP (PRP you))
+                    (SBAR
+                      (S
+                        (NP (PRP they))
+                        (VP (VBP do))))))))))))
+    (. .)))
+
+nsubj(think-2, Companies-1)
+root(ROOT-0, think-2)
+nsubj(use-5, you-3)
+aux(use-5, will-4)
+ccomp(think-2, use-5)
+nmod:poss(products-7, their-6)
+dobj(use-5, products-7)
+mark(tell-10, if-8)
+nsubj(tell-10, celebrities-9)
+advcl(use-5, tell-10)
+dobj(tell-10, you-11)
+nsubj(do-13, they-12)
+ccomp(tell-10, do-13)
+
+(ROOT
+  (S
+    (PP (IN As)
+      (NP (DT a) (NN result)))
+    (, ,)
+    (NP (NNS companies))
+    (VP (VBP pay)
+      (NP
+        (NP (NNS millions))
+        (PP (IN of)
+          (NP (NNS dollars))))
+      (PP (TO to)
+        (NP
+          (NP (NNS sports) (NNS stars))
+          (, ,)
+          (SBAR
+            (WHNP (WP$ pop) (NNS stars)
+              (CC and)
+              (NN movie) (NNS stars))
+            (S
+              (VP (TO to)
+                (VP (VB endorse)
+                  (NP (PRP$ their) (NNS products)))))))))
+    (. .)))
+
+case(result-3, As-1)
+det(result-3, a-2)
+nmod:as(pay-6, result-3)
+nsubj(pay-6, companies-5)
+root(ROOT-0, pay-6)
+dobj(pay-6, millions-7)
+case(dollars-9, of-8)
+nmod:of(millions-7, dollars-9)
+case(stars-12, to-10)
+compound(stars-12, sports-11)
+nmod:to(pay-6, stars-12)
+nmod:poss(stars-18, pop-14)
+compound(stars-18, stars-15)
+cc(stars-18, and-16)
+compound(stars-18, movie-17)
+nsubj(endorse-20, stars-18)
+mark(endorse-20, to-19)
+acl(stars-12, endorse-20)
+nmod:poss(products-22, their-21)
+dobj(endorse-20, products-22)
+
+(ROOT
+  (S
+    (NP (NNP Nicole) (NNP Kidman))
+    (VP (VBZ promotes)
+      (NP (NNP Chanel)
+        (ADJP (NN No.) (CD 5))
+        (NN perfume)))
+    (. .)))
+
+compound(Kidman-2, Nicole-1)
+nsubj(promotes-3, Kidman-2)
+root(ROOT-0, promotes-3)
+compound(perfume-7, Chanel-4)
+amod(perfume-7, No.-5)
+compound(No.-5, 5-6)
+dobj(promotes-3, perfume-7)
+
+(ROOT
+  (S
+    (NP (NNP Tiger) (NNP Woods))
+    (VP (VBZ drives)
+      (NP
+        (NP (DT a) (NNP Buick))
+        (, ,)
+        (CC and)
+        (NP
+          (NP (NNP Celine) (NNP Dion))
+          (, ,)
+          (NP (DT a) (NNP Chrysler)))))
+    (. .)))
+
+compound(Woods-2, Tiger-1)
+nsubj(drives-3, Woods-2)
+root(ROOT-0, drives-3)
+det(Buick-5, a-4)
+dobj(drives-3, Buick-5)
+cc(Buick-5, and-7)
+compound(Dion-9, Celine-8)
+dobj(drives-3, Dion-9)
+conj:and(Buick-5, Dion-9)
+det(Chrysler-12, a-11)
+appos(Dion-9, Chrysler-12)
+
+(ROOT
+  (S
+    (ADVP (RB Even))
+    (NP (NNP Jackie) (NNP Chan))
+    (VP (VBZ wants)
+      (S
+        (NP (PRP you))
+        (VP (TO to)
+          (VP (VB wear)
+            (NP (NNP Hanes) (NNS T-shirts))
+            (SBAR (RB just) (IN like)
+              (S
+                (NP (PRP he))
+                (VP (VBZ does))))))))
+    (. .)))
+
+advmod(wants-4, Even-1)
+compound(Chan-3, Jackie-2)
+nsubj(wants-4, Chan-3)
+root(ROOT-0, wants-4)
+dobj(wants-4, you-5)
+nsubj(wear-7, you-5)
+mark(wear-7, to-6)
+xcomp(wants-4, wear-7)
+compound(T-shirts-9, Hanes-8)
+dobj(wear-7, T-shirts-9)
+advmod(does-13, just-10)
+mark(does-13, like-11)
+nsubj(does-13, he-12)
+advcl(wear-7, does-13)
+
+(ROOT
+  (S
+    (SBAR
+      (WHNP (WDT Whatever))
+      (S
+        (VP (VBD method)
+          (SBAR
+            (S
+              (NP (PRP they))
+              (VP (VBP use)))))))
+    (, ,)
+    (NP (NNS advertisements))
+    (VP (VBP are)
+      (VP (VBN meant)
+        (S
+          (VP (TO to)
+            (VP (VB encourage)
+              (S
+                (NP (PRP you))
+                (VP (TO to)
+                  (VP (VB buy)
+                    (NP (NNS products))))))))))
+    (. .)))
+
+nsubj(method-2, Whatever-1)
+advcl(meant-8, method-2)
+nsubj(use-4, they-3)
+ccomp(method-2, use-4)
+nsubjpass(meant-8, advertisements-6)
+nsubj(encourage-10, advertisements-6)
+auxpass(meant-8, are-7)
+root(ROOT-0, meant-8)
+mark(encourage-10, to-9)
+xcomp(meant-8, encourage-10)
+dobj(encourage-10, you-11)
+nsubj(buy-13, you-11)
+mark(buy-13, to-12)
+xcomp(encourage-10, buy-13)
+dobj(buy-13, products-14)
+
+(ROOT
+  (S
+    (NP (PRP They))
+    (VP (VBP want)
+      (S
+        (VP (TO to)
+          (VP (VB convince)
+            (NP (PRP you))
+            (SBAR (IN that)
+              (S
+                (NP (PRP$ their) (NN product))
+                (VP (MD will)
+                  (VP (VB make)
+                    (S
+                      (NP (PRP you))
+                      (ADJP (JJR happier)
+                        (CC or)
+                        (JJR better))
+                      (S
+                        (VP (VBG looking))))))))))))
+    (. .)))
+
+nsubj(want-2, They-1)
+nsubj(convince-4, They-1)
+root(ROOT-0, want-2)
+mark(convince-4, to-3)
+xcomp(want-2, convince-4)
+dobj(convince-4, you-5)
+mark(make-10, that-6)
+nmod:poss(product-8, their-7)
+nsubj(make-10, product-8)
+aux(make-10, will-9)
+ccomp(convince-4, make-10)
+nsubj(looking-15, you-11)
+dep(looking-15, happier-12)
+cc(happier-12, or-13)
+conj:or(happier-12, better-14)
+dep(looking-15, better-14)
+xcomp(make-10, looking-15)
+
+(ROOT
+  (S
+    (S
+      (VP (VB Think)
+        (PP (IN about)
+          (NP (DT the) (NNS people)))))
+    (NP (PRP you))
+    (VP (VBP see)
+      (PP (IN in)
+        (NP (NNS ads))))
+    (. .)))
+
+dep(see-6, Think-1)
+case(people-4, about-2)
+det(people-4, the-3)
+nmod:about(Think-1, people-4)
+nsubj(see-6, you-5)
+root(ROOT-0, see-6)
+case(ads-8, in-7)
+nmod:in(see-6, ads-8)
+
+(ROOT
+  (S
+    (NP
+      (NP (RB Almost) (DT all))
+      (PP (IN of)
+        (NP (PRP them))))
+    (VP
+      (VP (VBP are)
+        (ADJP (JJ attractive)))
+      (CC and)
+      (VP (VBP are)
+        (ADVP (RB usually))
+        (VP (VBG smiling))))
+    (. .)))
+
+advmod(all-2, Almost-1)
+nsubj(attractive-6, all-2)
+nsubj(smiling-10, all-2)
+case(them-4, of-3)
+nmod:of(all-2, them-4)
+cop(attractive-6, are-5)
+root(ROOT-0, attractive-6)
+cc(attractive-6, and-7)
+aux(smiling-10, are-8)
+advmod(smiling-10, usually-9)
+conj:and(attractive-6, smiling-10)
+
+(ROOT
+  (S (CC But)
+    (NP
+      (NP (DT the) (JJ subtle) (NN message))
+      (SBAR (IN that)
+        (S
+          (NP (NNS things))
+          (VP (VBP make)
+            (S
+              (NP (PRP you))
+              (ADJP (JJ happy))
+              (ADVP (RB simply)))))))
+    (VP (VBP isnt)
+      (ADJP (JJ true)))
+    (. .)))
+
+cc(isnt-11, But-1)
+det(message-4, the-2)
+amod(message-4, subtle-3)
+nsubj(isnt-11, message-4)
+mark(make-7, that-5)
+nsubj(make-7, things-6)
+dep(message-4, make-7)
+nsubj(happy-9, you-8)
+xcomp(make-7, happy-9)
+advmod(happy-9, simply-10)
+root(ROOT-0, isnt-11)
+xcomp(isnt-11, true-12)
+
+(ROOT
+  (S
+    (SBAR (IN If)
+      (S
+        (NP (PRP you))
+        (VP (VBP believe)
+          (NP (PRP it)))))
+    (, ,)
+    (NP (NN youll))
+    (VP (VBP end)
+      (PRT (RP up))
+      (S
+        (VP (VBG spending)
+          (NP
+            (ADJP (JJR more)
+              (CC and)
+              (JJR more))
+            (NN money)))))
+    (. .)))
+
+mark(believe-3, If-1)
+nsubj(believe-3, you-2)
+advcl(end-7, believe-3)
+dobj(believe-3, it-4)
+nsubj(end-7, youll-6)
+root(ROOT-0, end-7)
+compound:prt(end-7, up-8)
+xcomp(end-7, spending-9)
+amod(money-13, more-10)
+cc(more-10, and-11)
+conj:and(more-10, more-12)
+amod(money-13, more-12)
+dobj(spending-9, money-13)
+
+(ROOT
+  (S
+    (NP (NNP Youll))
+    (VP (VBP find)
+      (S
+        (NP (PRP yourself))
+        (VP (VBG searching)
+          (PP (IN for)
+            (NP
+              (NP (DT the)
+                (ADJP (JJ elusive))
+                (NN happiness))
+              (SBAR
+                (S
+                  (NP (DT the) (NNS ads))
+                  (VP (VBP promise)
+                    (SBAR (CC but)
+                      (S
+                        (NP (DT the) (NNS products) (NN dont))
+                        (VP (VBP deliver))))))))))))
+    (. .)))
+
+nsubj(find-2, Youll-1)
+root(ROOT-0, find-2)
+nsubj(searching-4, yourself-3)
+dep(find-2, searching-4)
+case(happiness-8, for-5)
+det(happiness-8, the-6)
+amod(happiness-8, elusive-7)
+nmod:for(searching-4, happiness-8)
+det(ads-10, the-9)
+nsubj(promise-11, ads-10)
+acl:relcl(happiness-8, promise-11)
+cc(deliver-16, but-12)
+det(dont-15, the-13)
+compound(dont-15, products-14)
+nsubj(deliver-16, dont-15)
+ccomp(promise-11, deliver-16)
+
+(ROOT
+  (S
+    (NP (NNS People))
+    (VP (VBP need)
+      (S
+        (VP (TO to)
+          (VP (VB know)
+            (SBAR
+              (WHADVP (WRB how))
+              (S
+                (NP (NNS advertisers))
+                (VP (VBP use)
+                  (NP (NNS images)
+                    (CC and)
+                    (NN language))
+                  (S
+                    (VP (TO to)
+                      (VP (VB get)
+                        (S
+                          (NP (PRP them))
+                          (VP (TO to)
+                            (VP (VB buy)
+                              (NP (PRP$ their) (NNS products)))))))))))))))
+    (. .)))
+
+nsubj(need-2, People-1)
+nsubj(know-4, People-1)
+root(ROOT-0, need-2)
+mark(know-4, to-3)
+xcomp(need-2, know-4)
+advmod(use-7, how-5)
+nsubj(use-7, advertisers-6)
+ccomp(know-4, use-7)
+dobj(use-7, images-8)
+cc(images-8, and-9)
+dobj(use-7, language-10)
+conj:and(images-8, language-10)
+mark(get-12, to-11)
+advcl(use-7, get-12)
+dobj(get-12, them-13)
+nsubj(buy-15, them-13)
+mark(buy-15, to-14)
+xcomp(get-12, buy-15)
+nmod:poss(products-17, their-16)
+dobj(buy-15, products-17)
+
+(ROOT
+  (S
+    (PP (IN After)
+      (S
+        (VP (VBG seeing)
+          (NP (DT an) (NN ad)))))
+    (, ,)
+    (NP (NNS people))
+    (VP (MD should)
+      (VP (VB think)
+        (NP (NNS critically))))
+    (. .)))
+
+mark(seeing-2, After-1)
+advcl(think-8, seeing-2)
+det(ad-4, an-3)
+dobj(seeing-2, ad-4)
+nsubj(think-8, people-6)
+aux(think-8, should-7)
+root(ROOT-0, think-8)
+dobj(think-8, critically-9)
+
+(ROOT
+  (S
+    (S
+      (NP (PRP They))
+      (VP (MD should)
+        (VP (VB ask)
+          (NP
+            (NP (NNS questions))
+            (PP (JJ such) (IN as)
+              (NP (DT the) (NN following)))))))
+    (: :)
+    (S
+      (SBAR
+        (WHNP (WP What))
+        (S
+          (NP (NNS ways))
+          (VP (VBP are)
+            (VP (VBN used)
+              (S
+                (VP (TO to)
+                  (VP (VB get)
+                    (NP (PRP$ my) (NN attention))
+                    (SBAR
+                      (WHNP (WP What))
+                      (S
+                        (NP
+                          (NP (NNS values)
+                            (CC and)
+                            (NNS points))
+                          (PP (IN of)
+                            (NP (NN view))))
+                        (VP (VBP are)
+                          (VP (VBN presented)
+                            (PP (IN in)
+                              (NP (DT the) (NN message))))))))))))))
+      (VP (VBP Do)
+        (SBAR
+          (S
+            (NP (PRP I))
+            (VP (VBP need)
+              (SBAR
+                (S
+                  (NP
+                    (NP (DT this) (NN product) (NN Thinking))
+                    (ADJP (RB critically)
+                      (PP (IN about)
+                        (NP (DT an) (NN advertisement)))))
+                  (VP (MD will)
+                    (VP (VB reduce)
+                      (NP (DT the) (NN pressure)
+                        (S
+                          (VP (TO to)
+                            (VP (VB buy))))))))))))))
+    (. .)))
+
+nsubj(ask-3, They-1)
+aux(ask-3, should-2)
+root(ROOT-0, ask-3)
+dobj(ask-3, questions-4)
+case(following-8, such-5)
+mwe(such-5, as-6)
+det(following-8, the-7)
+nmod:such_as(questions-4, following-8)
+dobj(get-15, What-10)
+nsubjpass(used-13, ways-11)
+nsubj(get-15, ways-11)
+auxpass(used-13, are-12)
+csubj(Do-29, used-13)
+mark(get-15, to-14)
+xcomp(used-13, get-15)
+nmod:poss(attention-17, my-16)
+dobj(get-15, attention-17)
+dobj(presented-25, What-18)
+nsubjpass(presented-25, values-19)
+cc(values-19, and-20)
+conj:and(values-19, points-21)
+nsubjpass(presented-25, points-21)
+case(view-23, of-22)
+nmod:of(values-19, view-23)
+auxpass(presented-25, are-24)
+dep(get-15, presented-25)
+case(message-28, in-26)
+det(message-28, the-27)
+nmod:in(presented-25, message-28)
+parataxis(ask-3, Do-29)
+nsubj(need-31, I-30)
+ccomp(Do-29, need-31)
+det(Thinking-34, this-32)
+compound(Thinking-34, product-33)
+nsubj(reduce-40, Thinking-34)
+amod(Thinking-34, critically-35)
+case(advertisement-38, about-36)
+det(advertisement-38, an-37)
+nmod:about(critically-35, advertisement-38)
+aux(reduce-40, will-39)
+ccomp(need-31, reduce-40)
+det(pressure-42, the-41)
+dobj(reduce-40, pressure-42)
+mark(buy-44, to-43)
+acl(pressure-42, buy-44)
+
+(ROOT
+  (S
+    (S
+      (NP (PRP You))
+      (VP (MD may)
+        (VP (VB have)
+          (S
+            (VP (TO to)
+              (VP (VB look)
+                (PP (IN at)
+                  (NP (NNS advertisements)))))))))
+    (, ,)
+    (CC but)
+    (S
+      (NP (PRP you))
+      (VP (VBP dont)
+        (VP (VB have)
+          (S
+            (VP (TO to)
+              (VP (VB buy)
+                (SBAR
+                  (WHNP (WP what))
+                  (S
+                    (NP (PRP they))
+                    (VP (VBP sell))))))))))
+    (. .)))
+
+nsubj(have-3, You-1)
+nsubj(look-5, You-1)
+aux(have-3, may-2)
+root(ROOT-0, have-3)
+mark(look-5, to-4)
+xcomp(have-3, look-5)
+case(advertisements-7, at-6)
+nmod:at(look-5, advertisements-7)
+cc(have-3, but-9)
+nsubj(dont-11, you-10)
+conj:but(have-3, dont-11)
+xcomp(dont-11, have-12)
+mark(buy-14, to-13)
+xcomp(have-12, buy-14)
+dobj(sell-17, what-15)
+nsubj(sell-17, they-16)
+ccomp(buy-14, sell-17)
+

@@ -1,0 +1,861 @@
+(ROOT
+  (S
+    (VP (VB Imagine)
+      (SBAR
+        (S
+          (NP (EX there))
+          (VP (VBZ is)
+            (NP
+              (NP (DT a) (NN bank))
+              (SBAR
+                (WHNP (WDT that))
+                (S
+                  (VP (VBZ credits)
+                    (NP (PRP$ your) (NN account))
+                    (NP (DT each) (NN morning))
+                    (PP (IN with)
+                      (NP ($ $) (CD 86,400)))))))))))
+    (. .)))
+
+root(ROOT-0, Imagine-1)
+expl(is-3, there-2)
+ccomp(Imagine-1, is-3)
+det(bank-5, a-4)
+nsubj(is-3, bank-5)
+nsubj(credits-7, bank-5)
+ref(bank-5, that-6)
+acl:relcl(bank-5, credits-7)
+nmod:poss(account-9, your-8)
+dobj(credits-7, account-9)
+det(morning-11, each-10)
+nmod:tmod(credits-7, morning-11)
+case(86,400-14, with-12)
+dep(86,400-14, $-13)
+nmod:with(credits-7, 86,400-14)
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ carries)
+      (PP (IN over)
+        (NP
+          (NP (DT no) (NN balance))
+          (PP (IN from)
+            (NP (NN day)))))
+      (PP (TO to)
+        (NP (NN day))))
+    (. .)))
+
+nsubj(carries-2, It-1)
+root(ROOT-0, carries-2)
+case(balance-5, over-3)
+neg(balance-5, no-4)
+nmod:over(carries-2, balance-5)
+case(day-7, from-6)
+nmod:from(balance-5, day-7)
+case(day-9, to-8)
+nmod:to(carries-2, day-9)
+
+(ROOT
+  (S
+    (NP (DT Every) (NN evening))
+    (NP (PRP it))
+    (VP (VBZ deletes)
+      (SBAR
+        (WHNP
+          (WHNP (WDT whatever) (NN part))
+          (PP (IN of)
+            (NP (DT the) (NN balance))))
+        (S
+          (NP (PRP you))
+          (VP (VBD failed)
+            (S
+              (VP (TO to)
+                (VP (VB use)
+                  (PP (IN during)
+                    (NP (DT the) (NN day))))))))))
+    (. .)))
+
+det(evening-2, Every-1)
+nmod:tmod(deletes-4, evening-2)
+nsubj(deletes-4, it-3)
+root(ROOT-0, deletes-4)
+det(part-6, whatever-5)
+dobj(failed-11, part-6)
+nsubj(use-13, part-6)
+case(balance-9, of-7)
+det(balance-9, the-8)
+nmod:of(part-6, balance-9)
+nsubj(failed-11, you-10)
+ccomp(deletes-4, failed-11)
+mark(use-13, to-12)
+xcomp(failed-11, use-13)
+case(day-16, during-14)
+det(day-16, the-15)
+nmod:during(use-13, day-16)
+
+(ROOT
+  (SBARQ
+    (WHNP (WP What))
+    (SQ (MD would)
+      (NP (PRP you))
+      (VP (VB do)))
+    (. ?)))
+
+dobj(do-4, What-1)
+aux(do-4, would-2)
+nsubj(do-4, you-3)
+root(ROOT-0, do-4)
+
+(ROOT
+  (SQ
+    (VP (VB Draw)
+      (PRT (RP out))
+      (NP (DT every) (NN cent))
+      (, ,)
+      (PP (IN of)
+        (NP (NN course))))
+    (. !)))
+
+root(ROOT-0, Draw-1)
+compound:prt(Draw-1, out-2)
+det(cent-4, every-3)
+dobj(Draw-1, cent-4)
+case(course-7, of-6)
+nmod:of(Draw-1, course-7)
+
+(ROOT
+  (S
+    (NP
+      (NP (DT Each))
+      (PP (IN of)
+        (NP (PRP us))))
+    (VP (VBZ has)
+      (NP (PDT such) (DT a) (NN bank)))
+    (. .)))
+
+nsubj(has-4, Each-1)
+case(us-3, of-2)
+nmod:of(Each-1, us-3)
+root(ROOT-0, has-4)
+det:predet(bank-7, such-5)
+det(bank-7, a-6)
+dobj(has-4, bank-7)
+
+(ROOT
+  (S
+    (NP (PRP$ Its) (NN name))
+    (VP (VBZ is)
+      (ADJP (JJ TIME)))
+    (. .)))
+
+nmod:poss(name-2, Its-1)
+nsubj(TIME-4, name-2)
+cop(TIME-4, is-3)
+root(ROOT-0, TIME-4)
+
+(ROOT
+  (S
+    (NP (DT Every) (NN morning))
+    (, ,)
+    (NP (PRP it))
+    (VP (VBZ credits)
+      (NP (PRP you))
+      (PP (IN with)
+        (NP (CD 86,400) (NNS seconds))))
+    (. .)))
+
+det(morning-2, Every-1)
+nmod:tmod(credits-5, morning-2)
+nsubj(credits-5, it-4)
+root(ROOT-0, credits-5)
+dobj(credits-5, you-6)
+case(seconds-9, with-7)
+nummod(seconds-9, 86,400-8)
+nmod:with(credits-5, seconds-9)
+
+(ROOT
+  (S
+    (NP (DT Every) (NN night))
+    (NP (PRP it))
+    (VP (VBZ writes)
+      (PRT (RP off))
+      (, ,)
+      (SBAR (IN as)
+        (S
+          (VP (VBD lost))))
+      (, ,)
+      (SBAR
+        (WHNP (WDT whatever))
+        (S
+          (PP (IN of)
+            (NP (DT this)))
+          (NP (PRP you))
+          (VP (VBP have)
+            (VP (VBN failed)
+              (S
+                (VP (TO to)
+                  (VP (VB invest)
+                    (PP (TO to)
+                      (NP (JJ good) (NN purpose)))))))))))
+    (. .)))
+
+det(night-2, Every-1)
+nmod:tmod(writes-4, night-2)
+nsubj(writes-4, it-3)
+root(ROOT-0, writes-4)
+compound:prt(writes-4, off-5)
+mark(lost-8, as-7)
+advcl(writes-4, lost-8)
+dobj(invest-17, whatever-10)
+case(this-12, of-11)
+nmod:of(failed-15, this-12)
+nsubj(failed-15, you-13)
+nsubj(invest-17, you-13)
+aux(failed-15, have-14)
+ccomp(writes-4, failed-15)
+mark(invest-17, to-16)
+xcomp(failed-15, invest-17)
+case(purpose-20, to-18)
+amod(purpose-20, good-19)
+nmod:to(invest-17, purpose-20)
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ carries)
+      (PP (IN over)
+        (NP (DT no) (NN balance))))
+    (. .)))
+
+nsubj(carries-2, It-1)
+root(ROOT-0, carries-2)
+case(balance-5, over-3)
+neg(balance-5, no-4)
+nmod:over(carries-2, balance-5)
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ allows)
+      (NP (DT no) (NN overdraft)))
+    (. .)))
+
+nsubj(allows-2, It-1)
+root(ROOT-0, allows-2)
+neg(overdraft-4, no-3)
+dobj(allows-2, overdraft-4)
+
+(ROOT
+  (S
+    (NP (DT Each) (NN day))
+    (NP (PRP it))
+    (VP (VBZ opens)
+      (NP
+        (NP (DT a) (JJ new) (NN account))
+        (PP (IN for)
+          (NP (PRP you)))))
+    (. .)))
+
+det(day-2, Each-1)
+nmod:tmod(opens-4, day-2)
+nsubj(opens-4, it-3)
+root(ROOT-0, opens-4)
+det(account-7, a-5)
+amod(account-7, new-6)
+dobj(opens-4, account-7)
+case(you-9, for-8)
+nmod:for(account-7, you-9)
+
+(ROOT
+  (S
+    (NP (DT Each) (NN night))
+    (NP (PRP it))
+    (VP (VBZ burns)
+      (NP
+        (NP (DT the) (NNS remains))
+        (PP (IN of)
+          (NP (DT the) (NN day)))))
+    (. .)))
+
+det(night-2, Each-1)
+nmod:tmod(burns-4, night-2)
+nsubj(burns-4, it-3)
+root(ROOT-0, burns-4)
+det(remains-6, the-5)
+dobj(burns-4, remains-6)
+case(day-9, of-7)
+det(day-9, the-8)
+nmod:of(remains-6, day-9)
+
+(ROOT
+  (S
+    (SBAR (IN If)
+      (S
+        (NP (PRP you))
+        (VP (VBP fail)
+          (S
+            (VP (TO to)
+              (VP (VB use)
+                (NP (DT the) (NNS days) (NNS deposits))))))))
+    (, ,)
+    (NP (DT the) (NN loss))
+    (VP (VBZ is)
+      (ADJP (JJ yours)))
+    (. .)))
+
+mark(fail-3, If-1)
+nsubj(fail-3, you-2)
+nsubj(use-5, you-2)
+advcl(yours-13, fail-3)
+mark(use-5, to-4)
+xcomp(fail-3, use-5)
+det(deposits-8, the-6)
+compound(deposits-8, days-7)
+dobj(use-5, deposits-8)
+det(loss-11, the-10)
+nsubj(yours-13, loss-11)
+cop(yours-13, is-12)
+root(ROOT-0, yours-13)
+
+(ROOT
+  (S
+    (NP (EX There))
+    (VP (VBZ is)
+      (ADVP (RB no)
+        (VP (VBG going)
+          (ADVP (RB back)))))
+    (. .)))
+
+expl(is-2, There-1)
+root(ROOT-0, is-2)
+advmod(is-2, no-3)
+dep(no-3, going-4)
+advmod(going-4, back-5)
+
+(ROOT
+  (S
+    (NP (EX There))
+    (VP (VBZ is)
+      (NP
+        (NP (DT no) (NN drawing))
+        (PP (IN against)
+          (NP (DT the) (NN tomorrow)))))
+    (. .)))
+
+expl(is-2, There-1)
+root(ROOT-0, is-2)
+neg(drawing-4, no-3)
+nsubj(is-2, drawing-4)
+case(tomorrow-7, against-5)
+det(tomorrow-7, the-6)
+nmod:against(drawing-4, tomorrow-7)
+
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (MD must)
+      (VP (VB live)
+        (PP (IN in)
+          (NP
+            (NP (DT the) (NN present))
+            (PP (IN on)
+              (NP (JJ todays) (NNS deposits)))))))
+    (. .)))
+
+nsubj(live-3, You-1)
+aux(live-3, must-2)
+root(ROOT-0, live-3)
+case(present-6, in-4)
+det(present-6, the-5)
+nmod:in(live-3, present-6)
+case(deposits-9, on-7)
+amod(deposits-9, todays-8)
+nmod:on(present-6, deposits-9)
+
+(ROOT
+  (S
+    (VP (VB Invest)
+      (NP (PRP it))
+      (ADVP (RB so) (RB as)
+        (S
+          (VP (TO to)
+            (VP (VB get)
+              (PP (IN from)
+                (NP (PRP it)))
+              (NP
+                (NP (DT the) (NN utmost))
+                (PP (IN in)
+                  (NP (NN health) (, ,) (NN happiness)
+                    (CC and)
+                    (NN success)))))))))
+    (. !)))
+
+root(ROOT-0, Invest-1)
+dobj(Invest-1, it-2)
+advmod(as-4, so-3)
+advmod(Invest-1, as-4)
+mark(get-6, to-5)
+dep(as-4, get-6)
+case(it-8, from-7)
+nmod:from(get-6, it-8)
+det(utmost-10, the-9)
+dobj(get-6, utmost-10)
+case(health-12, in-11)
+nmod:in(utmost-10, health-12)
+nmod:in(utmost-10, happiness-14)
+conj:and(health-12, happiness-14)
+cc(health-12, and-15)
+nmod:in(utmost-10, success-16)
+conj:and(health-12, success-16)
+
+(ROOT
+  (S
+    (NP (DT The) (NN clock))
+    (VP (VBZ is)
+      (VP (VBG running)))
+    (. .)))
+
+det(clock-2, The-1)
+nsubj(running-4, clock-2)
+aux(running-4, is-3)
+root(ROOT-0, running-4)
+
+(ROOT
+  (S
+    (VP (VB Make)
+      (NP
+        (NP (DT the) (JJS most))
+        (PP (IN of)
+          (NP (NN today)))))
+    (. .)))
+
+root(ROOT-0, Make-1)
+det(most-3, the-2)
+dobj(Make-1, most-3)
+case(today-5, of-4)
+nmod:of(most-3, today-5)
+
+(ROOT
+  (S
+    (S
+      (VP (TO To)
+        (VP (VB realize)
+          (NP
+            (NP (DT the) (NN value))
+            (PP (IN of)
+              (NP (CD ONE) (NN YEAR)))))))
+    (, ,)
+    (VP (VBP ask)
+      (NP
+        (NP (DT a) (NN student))
+        (SBAR
+          (WHNP (WP who))
+          (S
+            (VP (VBD failed)
+              (NP (DT a) (NN grade)))))))
+    (. .)))
+
+mark(realize-2, To-1)
+dep(ask-9, realize-2)
+det(value-4, the-3)
+dobj(realize-2, value-4)
+case(YEAR-7, of-5)
+nummod(YEAR-7, ONE-6)
+nmod:of(value-4, YEAR-7)
+root(ROOT-0, ask-9)
+det(student-11, a-10)
+dobj(ask-9, student-11)
+nsubj(failed-13, student-11)
+ref(student-11, who-12)
+acl:relcl(student-11, failed-13)
+det(grade-15, a-14)
+dobj(failed-13, grade-15)
+
+(ROOT
+  (S
+    (S
+      (VP (TO To)
+        (VP (VB realize)
+          (NP
+            (NP (DT the) (NN value))
+            (PP (IN of)
+              (NP (CD ONE) (NNS MONTH)))))))
+    (, ,)
+    (VP (VBP ask)
+      (NP
+        (NP (DT a) (NN mother))
+        (SBAR
+          (WHNP (WP who))
+          (S
+            (VP (VBD gave)
+              (NP (NN birth))
+              (PP (TO to)
+                (NP (DT a) (JJ premature) (NN baby))))))))
+    (. .)))
+
+mark(realize-2, To-1)
+dep(ask-9, realize-2)
+det(value-4, the-3)
+dobj(realize-2, value-4)
+case(MONTH-7, of-5)
+nummod(MONTH-7, ONE-6)
+nmod:of(value-4, MONTH-7)
+root(ROOT-0, ask-9)
+det(mother-11, a-10)
+dobj(ask-9, mother-11)
+nsubj(gave-13, mother-11)
+ref(mother-11, who-12)
+acl:relcl(mother-11, gave-13)
+dobj(gave-13, birth-14)
+case(baby-18, to-15)
+det(baby-18, a-16)
+amod(baby-18, premature-17)
+nmod:to(gave-13, baby-18)
+
+(ROOT
+  (S
+    (S
+      (VP (TO To)
+        (VP (VB realize)
+          (NP
+            (NP (DT the) (NN value))
+            (PP (IN of)
+              (NP (CD ONE) (NN WEEK)))))))
+    (, ,)
+    (VP (VBP ask)
+      (NP
+        (NP (DT the) (NN editor))
+        (PP (IN of)
+          (NP (DT a) (JJ weekly) (NN newspaper)))))
+    (. .)))
+
+mark(realize-2, To-1)
+dep(ask-9, realize-2)
+det(value-4, the-3)
+dobj(realize-2, value-4)
+case(WEEK-7, of-5)
+nummod(WEEK-7, ONE-6)
+nmod:of(value-4, WEEK-7)
+root(ROOT-0, ask-9)
+det(editor-11, the-10)
+dobj(ask-9, editor-11)
+case(newspaper-15, of-12)
+det(newspaper-15, a-13)
+amod(newspaper-15, weekly-14)
+nmod:of(editor-11, newspaper-15)
+
+(ROOT
+  (S
+    (S
+      (VP (TO To)
+        (VP (VB realize)
+          (NP
+            (NP (DT the) (NN value))
+            (PP (IN of)
+              (NP (CD ONE))))
+          (NP (NNP DAY)))))
+    (, ,)
+    (VP (VBP ask)
+      (NP (DT a) (JJ daily) (NN laborer))
+      (PP (IN with)
+        (NP (NNS kids)))
+      (S
+        (VP (TO to)
+          (VP (VB feed)))))
+    (. .)))
+
+mark(realize-2, To-1)
+dep(ask-9, realize-2)
+det(value-4, the-3)
+dobj(realize-2, value-4)
+case(ONE-6, of-5)
+nmod:of(value-4, ONE-6)
+nmod:tmod(realize-2, DAY-7)
+root(ROOT-0, ask-9)
+det(laborer-12, a-10)
+amod(laborer-12, daily-11)
+dobj(ask-9, laborer-12)
+nsubj(feed-16, laborer-12)
+case(kids-14, with-13)
+nmod:with(ask-9, kids-14)
+mark(feed-16, to-15)
+xcomp(ask-9, feed-16)
+
+(ROOT
+  (S
+    (S
+      (VP (TO To)
+        (VP (VB realize)
+          (NP
+            (NP (DT the) (NN value))
+            (PP (IN of)
+              (NP (CD ONE) (NN HOUR)))))))
+    (, ,)
+    (VP (VBP ask)
+      (NP
+        (NP (DT the) (NNS lovers))
+        (SBAR
+          (WHNP (WP who))
+          (S
+            (VP (VBP are)
+              (VP (VBG waiting)
+                (S
+                  (VP (TO to)
+                    (VP (VB meet))))))))))
+    (. .)))
+
+mark(realize-2, To-1)
+dep(ask-9, realize-2)
+det(value-4, the-3)
+dobj(realize-2, value-4)
+case(HOUR-7, of-5)
+nummod(HOUR-7, ONE-6)
+nmod:of(value-4, HOUR-7)
+root(ROOT-0, ask-9)
+det(lovers-11, the-10)
+dobj(ask-9, lovers-11)
+nsubj(waiting-14, lovers-11)
+nsubj(meet-16, lovers-11)
+ref(lovers-11, who-12)
+aux(waiting-14, are-13)
+acl:relcl(lovers-11, waiting-14)
+mark(meet-16, to-15)
+xcomp(waiting-14, meet-16)
+
+(ROOT
+  (S
+    (S
+      (VP (TO To)
+        (VP (VB realize)
+          (NP
+            (NP (DT the) (NN value))
+            (PP (IN of)
+              (NP (CD ONE)))))))
+    (VP (VBP MINUTE) (, ,) (VBP ask)
+      (NP
+        (NP (DT a) (NN person))
+        (SBAR
+          (WHNP (WP who))
+          (S
+            (VP (VBD missed)
+              (NP (DT the) (NN train)))))))
+    (. .)))
+
+mark(realize-2, To-1)
+csubj(MINUTE-7, realize-2)
+det(value-4, the-3)
+dobj(realize-2, value-4)
+case(ONE-6, of-5)
+nmod:of(value-4, ONE-6)
+root(ROOT-0, MINUTE-7)
+dep(MINUTE-7, ask-9)
+det(person-11, a-10)
+dobj(MINUTE-7, person-11)
+nsubj(missed-13, person-11)
+ref(person-11, who-12)
+acl:relcl(person-11, missed-13)
+det(train-15, the-14)
+dobj(missed-13, train-15)
+
+(ROOT
+  (S
+    (S
+      (VP (TO To)
+        (VP (VB realize)
+          (NP
+            (NP (DT the) (NN value))
+            (PP (IN of)
+              (NP (CD ONE)))))))
+    (VP (VBD SECOND) (, ,)
+      (S
+        (VP (VB ask)
+          (NP
+            (NP (DT a) (NN person))
+            (SBAR
+              (WHNP (WP who))
+              (S
+                (ADVP (RB just))
+                (VP (VBD avoided)
+                  (NP (DT an) (NN accident)))))))))
+    (. .)))
+
+mark(realize-2, To-1)
+csubj(SECOND-7, realize-2)
+det(value-4, the-3)
+dobj(realize-2, value-4)
+case(ONE-6, of-5)
+nmod:of(value-4, ONE-6)
+root(ROOT-0, SECOND-7)
+ccomp(SECOND-7, ask-9)
+det(person-11, a-10)
+dobj(ask-9, person-11)
+nsubj(avoided-14, person-11)
+ref(person-11, who-12)
+advmod(avoided-14, just-13)
+acl:relcl(person-11, avoided-14)
+det(accident-16, an-15)
+dobj(avoided-14, accident-16)
+
+(ROOT
+  (S
+    (S
+      (VP (TO To)
+        (VP (VB realize)
+          (NP
+            (NP (DT the) (NN value))
+            (PP (IN of)
+              (NP (CD ONE)))))))
+    (VP (VBD MILLISECOND) (, ,)
+      (S
+        (VP (VB ask)
+          (NP
+            (NP (DT the) (NN person))
+            (SBAR
+              (WHNP (WP who))
+              (S
+                (VP (VBD won)
+                  (NP (DT a) (JJ silver) (NN medal))
+                  (PP (IN in)
+                    (NP (DT the) (NN Treasure)))
+                  (NP (DT every) (NN moment))
+                  (SBAR (IN that)
+                    (S
+                      (NP (PRP you))
+                      (VP (VBP have)))))))))))
+    (. !)))
+
+mark(realize-2, To-1)
+csubj(MILLISECOND-7, realize-2)
+det(value-4, the-3)
+dobj(realize-2, value-4)
+case(ONE-6, of-5)
+nmod:of(value-4, ONE-6)
+root(ROOT-0, MILLISECOND-7)
+ccomp(MILLISECOND-7, ask-9)
+det(person-11, the-10)
+dobj(ask-9, person-11)
+nsubj(won-13, person-11)
+ref(person-11, who-12)
+acl:relcl(person-11, won-13)
+det(medal-16, a-14)
+amod(medal-16, silver-15)
+dobj(won-13, medal-16)
+case(Treasure-19, in-17)
+det(Treasure-19, the-18)
+nmod:in(won-13, Treasure-19)
+det(moment-21, every-20)
+dobj(won-13, moment-21)
+mark(have-24, that-22)
+nsubj(have-24, you-23)
+ccomp(won-13, have-24)
+
+(ROOT
+  (S (CC And)
+    (VP (VB treasure)
+      (S
+        (NP (PRP it))
+        (ADJP (JJR more)))
+      (SBAR (IN because)
+        (S
+          (NP (PRP you))
+          (VP (VBD shared)
+            (NP (PRP it))
+            (PP (IN with)
+              (NP
+                (NP (NN someone) (NN special))
+                (, ,)
+                (NP (JJ special) (NN enough))))
+            (S
+              (VP (TO to)
+                (VP (VB spend)
+                  (NP (PRP$ your) (NN time))
+                  (PP (IN with)))))))))
+    (. .)))
+
+cc(treasure-2, And-1)
+root(ROOT-0, treasure-2)
+nsubj(more-4, it-3)
+xcomp(treasure-2, more-4)
+mark(shared-7, because-5)
+nsubj(shared-7, you-6)
+advcl(treasure-2, shared-7)
+dobj(shared-7, it-8)
+case(special-11, with-9)
+compound(special-11, someone-10)
+nmod:with(shared-7, special-11)
+amod(enough-14, special-13)
+appos(special-11, enough-14)
+mark(spend-16, to-15)
+advcl(shared-7, spend-16)
+nmod:poss(time-18, your-17)
+dobj(spend-16, time-18)
+nmod(spend-16, with-19)
+
+(ROOT
+  (S (CC And)
+    (VP (VB remember)
+      (SBAR (IN that)
+        (S
+          (NP (NN time))
+          (VP (VBZ waits)
+            (PP (IN for)
+              (NP (DT no) (NN one)))))))
+    (. .)))
+
+cc(remember-2, And-1)
+root(ROOT-0, remember-2)
+mark(waits-5, that-3)
+nsubj(waits-5, time-4)
+ccomp(remember-2, waits-5)
+case(one-8, for-6)
+neg(one-8, no-7)
+nmod:for(waits-5, one-8)
+
+(ROOT
+  (S
+    (NP (NN Yesterday))
+    (VP (VBZ is)
+      (NP (NN history)))
+    (. .)))
+
+nsubj(history-3, Yesterday-1)
+cop(history-3, is-2)
+root(ROOT-0, history-3)
+
+(ROOT
+  (S
+    (NP (NNP Tomorrow))
+    (VP (VBZ is)
+      (NP (DT a) (NN mystery)))
+    (. .)))
+
+nsubj(mystery-4, Tomorrow-1)
+cop(mystery-4, is-2)
+det(mystery-4, a-3)
+root(ROOT-0, mystery-4)
+
+(ROOT
+  (S
+    (NP (NNP Today))
+    (VP (VBZ is)
+      (NP
+        (NP (DT a) (NNS gift-thats))
+        (SBAR
+          (WHADVP (WRB why))
+          (S
+            (NP (PRP$ its))
+            (VP (VBD called)
+              (NP (DT the) (NN present)))))))
+    (. !)))
+
+nsubj(gift-thats-4, Today-1)
+cop(gift-thats-4, is-2)
+det(gift-thats-4, a-3)
+root(ROOT-0, gift-thats-4)
+advmod(called-7, why-5)
+nsubj(called-7, its-6)
+acl:relcl(gift-thats-4, called-7)
+det(present-9, the-8)
+dobj(called-7, present-9)
+

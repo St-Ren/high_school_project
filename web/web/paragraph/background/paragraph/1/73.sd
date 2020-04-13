@@ -1,0 +1,1302 @@
+(ROOT
+  (S
+    (NP
+      (NP (NNP Long))
+      (ADVP (RB ago)
+        (PP (IN in)
+          (NP (NNP Italy)))))
+    (, ,)
+    (PP (IN in)
+      (NP
+        (NP (DT the) (NN city))
+        (PP (IN of)
+          (NP (NNP Verona)))))
+    (, ,)
+    (NP (EX there))
+    (VP (VBD lived)
+      (NP
+        (NP (CD two) (JJ noble) (NNS families))
+        (, ,)
+        (NP (DT the) (NNPS Capulets))
+        (CC and)
+        (NP (DT the) (NNPS Montagues))))
+    (. .)))
+
+nsubj(lived-13, Long-1)
+advmod(Long-1, ago-2)
+case(Italy-4, in-3)
+nmod:in(ago-2, Italy-4)
+case(city-8, in-6)
+det(city-8, the-7)
+nmod:in(lived-13, city-8)
+case(Verona-10, of-9)
+nmod:of(city-8, Verona-10)
+expl(lived-13, there-12)
+root(ROOT-0, lived-13)
+nummod(families-16, two-14)
+amod(families-16, noble-15)
+dobj(lived-13, families-16)
+det(Capulets-19, the-18)
+dobj(lived-13, Capulets-19)
+conj:and(families-16, Capulets-19)
+cc(families-16, and-20)
+det(Montagues-22, the-21)
+dobj(lived-13, Montagues-22)
+conj:and(families-16, Montagues-22)
+
+(ROOT
+  (S (IN For)
+    (SBAR (RB as) (RB long) (IN as)
+      (S
+        (NP (NN anyone))
+        (VP (MD could)
+          (VP (VB remember)))))
+    (, ,)
+    (NP (DT an) (NN argument))
+    (VP (VBD had)
+      (VP (VBN existed)
+        (PP (IN between)
+          (NP (DT these) (CD two) (NNS families)))))
+    (. .)))
+
+dep(existed-12, For-1)
+advmod(remember-7, as-2)
+advmod(remember-7, long-3)
+mark(remember-7, as-4)
+nsubj(remember-7, anyone-5)
+aux(remember-7, could-6)
+advcl(existed-12, remember-7)
+det(argument-10, an-9)
+nsubj(existed-12, argument-10)
+aux(existed-12, had-11)
+root(ROOT-0, existed-12)
+case(families-16, between-13)
+det(families-16, these-14)
+nummod(families-16, two-15)
+nmod:between(existed-12, families-16)
+
+(ROOT
+  (S
+    (NP
+      (NP (CD One) (NN day) (NNP Romeo))
+      (, ,)
+      (NP (DT a) (NN Montague))
+      (, ,))
+    (VP (VBD heard)
+      (SBAR (IN that)
+        (S
+          (NP (EX there))
+          (VP (VBD was)
+            (VP (VBG going)
+              (S
+                (VP (TO to)
+                  (VP (VB be)
+                    (NP (DT a) (NN party)))))
+              (NP (DT that) (NN night))
+              (PP (IN at)
+                (NP
+                  (NP (DT the) (NN house))
+                  (PP (IN of)
+                    (NP (DT the) (NNPS Capulets))))))))))
+    (. .)))
+
+nummod(Romeo-3, One-1)
+compound(Romeo-3, day-2)
+nsubj(heard-8, Romeo-3)
+det(Montague-6, a-5)
+appos(Romeo-3, Montague-6)
+root(ROOT-0, heard-8)
+mark(going-12, that-9)
+expl(going-12, there-10)
+aux(going-12, was-11)
+ccomp(heard-8, going-12)
+mark(party-16, to-13)
+cop(party-16, be-14)
+det(party-16, a-15)
+xcomp(going-12, party-16)
+det(night-18, that-17)
+nmod:tmod(going-12, night-18)
+case(house-21, at-19)
+det(house-21, the-20)
+nmod:at(going-12, house-21)
+case(Capulets-24, of-22)
+det(Capulets-24, the-23)
+nmod:of(house-21, Capulets-24)
+
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (VBD decided)
+      (S
+        (VP (TO to)
+          (VP (VB go)
+            (PP (IN in)
+              (NP (DT a) (NN mask)))
+            (SBAR (RB so) (IN that)
+              (S
+                (NP (NN none))
+                (VP (MD would)
+                  (VP (VB know)
+                    (NP (PRP him))
+                    (PP (IN as)
+                      (NP (DT a) (NNP Montague)))))))))))
+    (. .)))
+
+nsubj(decided-2, He-1)
+nsubj(go-4, He-1)
+root(ROOT-0, decided-2)
+mark(go-4, to-3)
+xcomp(decided-2, go-4)
+case(mask-7, in-5)
+det(mask-7, a-6)
+nmod:in(go-4, mask-7)
+mark(know-12, so-8)
+mwe(so-8, that-9)
+nsubj(know-12, none-10)
+aux(know-12, would-11)
+advcl(go-4, know-12)
+dobj(know-12, him-13)
+case(Montague-16, as-14)
+det(Montague-16, a-15)
+nmod:as(know-12, Montague-16)
+
+(ROOT
+  (S
+    (NP (NNP Romeo))
+    (VP (VBD arrived)
+      (PP (IN at)
+        (NP (DT the) (NNP Capulets) (NN home)))
+      (SBAR (RB just) (IN as)
+        (S
+          (NP (DT the) (NN dancing))
+          (VP (VBD began)))))
+    (. .)))
+
+nsubj(arrived-2, Romeo-1)
+root(ROOT-0, arrived-2)
+case(home-6, at-3)
+det(home-6, the-4)
+compound(home-6, Capulets-5)
+nmod:at(arrived-2, home-6)
+advmod(began-11, just-7)
+mark(began-11, as-8)
+det(dancing-10, the-9)
+nsubj(began-11, dancing-10)
+advcl(arrived-2, began-11)
+
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (VBD looked)
+      (PP (IN around)
+        (NP (DT the) (NN room))))
+    (. .)))
+
+nsubj(looked-2, He-1)
+root(ROOT-0, looked-2)
+case(room-5, around-3)
+det(room-5, the-4)
+nmod:around(looked-2, room-5)
+
+(ROOT
+  (S
+    (ADVP (RB Suddenly))
+    (NP (PRP$ his) (NNS eyes))
+    (VP (VBD fell)
+      (PP (IN upon)
+        (NP
+          (NP (DT a) (NN girl))
+          (ADJP (RB so) (JJ beautiful))))
+      (SBAR (IN that)
+        (S
+          (NP (PRP he))
+          (ADVP (RB almost))
+          (VP (VBD lost)
+            (NP (PRP$ his) (NN mind))))))
+    (. .)))
+
+advmod(fell-4, Suddenly-1)
+nmod:poss(eyes-3, his-2)
+nsubj(fell-4, eyes-3)
+root(ROOT-0, fell-4)
+case(girl-7, upon-5)
+det(girl-7, a-6)
+nmod:upon(fell-4, girl-7)
+advmod(beautiful-9, so-8)
+amod(girl-7, beautiful-9)
+mark(lost-13, that-10)
+nsubj(lost-13, he-11)
+advmod(lost-13, almost-12)
+ccomp(fell-4, lost-13)
+nmod:poss(mind-15, his-14)
+dobj(lost-13, mind-15)
+
+(ROOT
+  (S
+    (ADVP (RB O))
+    (, ,)
+    (NP (PRP she))
+    (VP (VBZ does)
+      (VP (VB teach)
+        (S
+          (NP (DT the) (NNS lights))
+          (VP (TO to)
+            (VP (VB burn)
+              (ADJP (JJ bright)))))))
+    (. !)))
+
+advmod(teach-5, O-1)
+nsubj(teach-5, she-3)
+aux(teach-5, does-4)
+root(ROOT-0, teach-5)
+det(lights-7, the-6)
+dobj(teach-5, lights-7)
+nsubj(burn-9, lights-7)
+mark(burn-9, to-8)
+xcomp(teach-5, burn-9)
+xcomp(burn-9, bright-10)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (ADVP (RB never))
+    (VP (VBD saw)
+      (NP (JJ true) (NN beauty))
+      (PP (IN until)
+        (NP (RB tonight))))
+    (. .)))
+
+nsubj(saw-3, I-1)
+neg(saw-3, never-2)
+root(ROOT-0, saw-3)
+amod(beauty-5, true-4)
+dobj(saw-3, beauty-5)
+case(tonight-7, until-6)
+nmod:until(saw-3, tonight-7)
+
+(ROOT
+  (S (RB Then)
+    (NP (NNP Romeo))
+    (VP (VBD watched)
+      (PP (IN for)
+        (NP (DT an) (NN opportunity)))
+      (S
+        (VP (TO to)
+          (VP (VB speak)
+            (PP (TO to)
+              (NP (DT the) (NN girl)))))))
+    (. .)))
+
+advmod(watched-3, Then-1)
+nsubj(watched-3, Romeo-2)
+nsubj(speak-8, Romeo-2)
+root(ROOT-0, watched-3)
+case(opportunity-6, for-4)
+det(opportunity-6, an-5)
+nmod:for(watched-3, opportunity-6)
+mark(speak-8, to-7)
+xcomp(watched-3, speak-8)
+case(girl-11, to-9)
+det(girl-11, the-10)
+nmod:to(speak-8, girl-11)
+
+(ROOT
+  (S
+    (S
+      (NP (JJ next) (NN dance))
+      (VP
+        (VP (VBD ended) (, ,)
+          (S
+            (NP (PRP he))
+            (VP
+              (VP (VBD went)
+                (ADVP (RB forward)))
+              (CC and)
+              (VP (VBD took)
+                (NP (PRP her))
+                (PP (IN by)
+                  (NP (DT the) (NN hand)))))))
+        (CC and)
+        (VP (VBD said))))
+    (, ,)
+    (NP (PRP I))
+    (VP (VBP wish)
+      (SBAR
+        (S
+          (NP (PRP I))
+          (VP (MD could)
+            (VP (VB have)
+              (NP (DT a) (NN tender) (NN kiss)))))))
+    (. !)))
+
+amod(dance-2, next-1)
+nsubj(ended-3, dance-2)
+nsubj(said-15, dance-2)
+ccomp(wish-18, ended-3)
+nsubj(went-6, he-5)
+nsubj(took-9, he-5)
+ccomp(ended-3, went-6)
+advmod(went-6, forward-7)
+cc(went-6, and-8)
+ccomp(ended-3, took-9)
+conj:and(went-6, took-9)
+dobj(took-9, her-10)
+case(hand-13, by-11)
+det(hand-13, the-12)
+nmod:by(took-9, hand-13)
+cc(ended-3, and-14)
+conj:and(ended-3, said-15)
+ccomp(wish-18, said-15)
+nsubj(wish-18, I-17)
+root(ROOT-0, wish-18)
+nsubj(have-21, I-19)
+aux(have-21, could-20)
+ccomp(wish-18, have-21)
+det(kiss-24, a-22)
+compound(kiss-24, tender-23)
+dobj(have-21, kiss-24)
+
+(ROOT
+  (S
+    (S
+      (INTJ (VB Please))
+      (VP (VB give)
+        (NP (PRP me))
+        (NP
+          (NP (PRP$ your) (NNS hands))
+          (, ,) (RB not)
+          (NP (PRP$ your) (NNS lips)))))
+    (, ,)
+    (NP (DT the) (NN girl))
+    (VP (VBD answered))
+    (. .)))
+
+discourse(give-2, Please-1)
+ccomp(answered-13, give-2)
+iobj(give-2, me-3)
+nmod:poss(hands-5, your-4)
+dobj(give-2, hands-5)
+neg(lips-9, not-7)
+nmod:poss(lips-9, your-8)
+appos(hands-5, lips-9)
+det(girl-12, the-11)
+nsubj(answered-13, girl-12)
+root(ROOT-0, answered-13)
+
+(ROOT
+  (S
+    (S
+      (NP
+        (NP (NNP O))
+        (, ,)
+        (ADJP (RB dear))
+        (, ,))
+      (VP (VBD let)
+        (SBAR
+          (S
+            (NP (NNS lips))
+            (VP (VBP do)
+              (SBAR
+                (WHNP (WP what))
+                (S
+                  (NP (NNS hands))
+                  (VP (VBP do)))))))))
+    (, ,)
+    (VP (VBD said)
+      (NP (NNP Romeo)))
+    (, ,)
+    (CC and)
+    (S
+      (NP (PRP he))
+      (VP (VBD kissed)
+        (NP (PRP her))
+        (ADVP (RB gently))))
+    (. .)))
+
+nsubj(let-5, O-1)
+amod(O-1, dear-3)
+ccomp(said-12, let-5)
+nsubj(do-7, lips-6)
+ccomp(let-5, do-7)
+dobj(do-10, what-8)
+nsubj(do-10, hands-9)
+ccomp(do-7, do-10)
+root(ROOT-0, said-12)
+dobj(said-12, Romeo-13)
+cc(said-12, and-15)
+nsubj(kissed-17, he-16)
+conj:and(said-12, kissed-17)
+dobj(kissed-17, her-18)
+advmod(kissed-17, gently-19)
+
+(ROOT
+  (S
+    (S
+      (ADVP (RB Just))
+      (ADVP (RB then))
+      (NP (DT a) (NN woman))
+      (VP (VBD told)
+        (NP (DT the) (NN girl)
+          (S
+            (VP (TO to)
+              (VP (VB speak)
+                (PP (IN with)
+                  (NP
+                    (NP (PRP her))
+                    (SBAR
+                      (WHNP (WP Who))
+                      (S
+                        (VP (VBZ is)
+                          (NP (PRP$ her) (NN mother)))))))))))))
+    (NP (NNP Romeo))
+    (VP (VBD asked))
+    (. .)))
+
+advmod(told-5, Just-1)
+advmod(told-5, then-2)
+det(woman-4, a-3)
+nsubj(told-5, woman-4)
+dep(asked-17, told-5)
+det(girl-7, the-6)
+dobj(told-5, girl-7)
+mark(speak-9, to-8)
+acl(girl-7, speak-9)
+case(her-11, with-10)
+nmod:with(speak-9, her-11)
+nsubj(mother-15, her-11)
+ref(her-11, Who-12)
+cop(mother-15, is-13)
+nmod:poss(mother-15, her-14)
+acl:relcl(her-11, mother-15)
+nsubj(asked-17, Romeo-16)
+root(ROOT-0, asked-17)
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN lady))
+      (PP (IN of)
+        (NP (DT the) (NN house))))
+    (, ,)
+    (VP (VBD said)
+      (NP (DT the) (NN woman)))
+    (. .)))
+
+det(lady-2, The-1)
+nsubj(said-7, lady-2)
+case(house-5, of-3)
+det(house-5, the-4)
+nmod:of(lady-2, house-5)
+root(ROOT-0, said-7)
+det(woman-9, the-8)
+dobj(said-7, woman-9)
+
+(ROOT
+  (S
+    (NP (NNP Romeo))
+    (VP (VBD was)
+      (VP (VBN shocked)))
+    (. .)))
+
+nsubjpass(shocked-3, Romeo-1)
+auxpass(shocked-3, was-2)
+root(ROOT-0, shocked-3)
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBD seemed)
+      (SBAR (IN that)
+        (S
+          (NP (DT the) (JJ whole) (NN world))
+          (VP (VBD was)
+            (VP (VBG falling)
+              (ADVP (RB apart)))))))
+    (. .)))
+
+nsubj(seemed-2, It-1)
+root(ROOT-0, seemed-2)
+mark(falling-8, that-3)
+det(world-6, the-4)
+amod(world-6, whole-5)
+nsubj(falling-8, world-6)
+aux(falling-8, was-7)
+ccomp(seemed-2, falling-8)
+advmod(falling-8, apart-9)
+
+(ROOT
+  (S
+    (NP
+      (NP (PRP He))
+      (, ,)
+      (NP (DT a) (NN Montague))
+      (, ,))
+    (VP (VBD had)
+      (VP (VBN fallen)
+        (ADVP (RB hopelessly)
+          (PP (IN in)
+            (NP (NN love))))
+        (PP (IN with)
+          (NP
+            (NP (DT the) (NN daughter))
+            (PP (IN of)
+              (NP (JJ old) (NNP Capulet)))))))
+    (. !)))
+
+nsubj(fallen-7, He-1)
+det(Montague-4, a-3)
+appos(He-1, Montague-4)
+aux(fallen-7, had-6)
+root(ROOT-0, fallen-7)
+advmod(fallen-7, hopelessly-8)
+case(love-10, in-9)
+nmod:in(hopelessly-8, love-10)
+case(daughter-13, with-11)
+det(daughter-13, the-12)
+nmod:with(fallen-7, daughter-13)
+case(Capulet-16, of-14)
+amod(Capulet-16, old-15)
+nmod:of(daughter-13, Capulet-16)
+
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (VBD left)
+      (NP (DT the) (NN party))
+      (PP (IN in)
+        (NP (NN confusion))))
+    (. .)))
+
+nsubj(left-2, He-1)
+root(ROOT-0, left-2)
+det(party-4, the-3)
+dobj(left-2, party-4)
+case(confusion-6, in-5)
+nmod:in(left-2, confusion-6)
+
+(ROOT
+  (S
+    (NP (NNP Juliet))
+    (VP
+      (VP (VBD saw)
+        (S
+          (NP (PRP him))
+          (VP (VBG leaving))))
+      (CC and)
+      (VP (VBD sent)
+        (NP (PRP$ her) (NN servant) (NN girl))
+        (S
+          (VP (TO to)
+            (VP (VB find)
+              (PRT (RP out))
+              (NP (PRP$ his) (NN name)))))))
+    (. .)))
+
+nsubj(saw-2, Juliet-1)
+nsubj(sent-6, Juliet-1)
+root(ROOT-0, saw-2)
+nsubj(leaving-4, him-3)
+dep(saw-2, leaving-4)
+cc(saw-2, and-5)
+conj:and(saw-2, sent-6)
+nmod:poss(girl-9, her-7)
+compound(girl-9, servant-8)
+dobj(sent-6, girl-9)
+mark(find-11, to-10)
+advcl(sent-6, find-11)
+compound:prt(find-11, out-12)
+nmod:poss(name-14, his-13)
+dobj(find-11, name-14)
+
+(ROOT
+  (S
+    (SBAR
+      (WHADVP (WRB When))
+      (S
+        (NP (DT the) (NN girl))
+        (VP (VBD returned)
+          (PP (IN with)
+            (NP (DT the) (NN news)))
+          (SBAR (IN that)
+            (S
+              (NP (PRP he))
+              (VP (VBD was)
+                (NP
+                  (NP (NNP Romeo))
+                  (, ,)
+                  (NP
+                    (NP (DT the) (JJ only) (NN son))
+                    (PP (IN of)
+                      (NP (JJ old) (NNP Montague)))))))))))
+    (, ,)
+    (NP (NNP Juliet))
+    (VP (VBD found)
+      (S
+        (NP (PRP it))
+        (ADJP (RB too) (JJ horrible))
+        (S
+          (VP (TO to)
+            (VP (VB believe))))))
+    (. .)))
+
+advmod(returned-4, When-1)
+det(girl-3, the-2)
+nsubj(returned-4, girl-3)
+advcl(found-21, returned-4)
+case(news-7, with-5)
+det(news-7, the-6)
+nmod:with(returned-4, news-7)
+mark(Romeo-11, that-8)
+nsubj(Romeo-11, he-9)
+cop(Romeo-11, was-10)
+ccomp(returned-4, Romeo-11)
+det(son-15, the-13)
+amod(son-15, only-14)
+appos(Romeo-11, son-15)
+case(Montague-18, of-16)
+amod(Montague-18, old-17)
+nmod:of(son-15, Montague-18)
+nsubj(found-21, Juliet-20)
+root(ROOT-0, found-21)
+nsubj(believe-26, it-22)
+advmod(horrible-24, too-23)
+dep(believe-26, horrible-24)
+mark(believe-26, to-25)
+xcomp(found-21, believe-26)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (JJ only) (NN love))
+    (VP (VBD started)
+      (PP (IN from)
+        (NP (PRP$ my) (JJ only) (NN hate))))
+    (. !)))
+
+nmod:poss(love-3, My-1)
+amod(love-3, only-2)
+nsubj(started-4, love-3)
+root(ROOT-0, started-4)
+case(hate-8, from-5)
+nmod:poss(hate-8, my-6)
+amod(hate-8, only-7)
+nmod:from(started-4, hate-8)
+
+(ROOT
+  (S
+    (NP (PRP she))
+    (VP (VBD said)
+      (ADVP (RB sadly)))
+    (. .)))
+
+nsubj(said-2, she-1)
+root(ROOT-0, said-2)
+advmod(said-2, sadly-3)
+
+(ROOT
+  (S
+    (NP (NNP Romeo))
+    (VP (VBD walked)
+      (NP (NN home))
+      (PP (IN past)
+        (NP (DT the) (NNP Capulets) (NN orchard))))
+    (. .)))
+
+nsubj(walked-2, Romeo-1)
+root(ROOT-0, walked-2)
+dobj(walked-2, home-3)
+case(orchard-7, past-4)
+det(orchard-7, the-5)
+compound(orchard-7, Capulets-6)
+nmod:past(walked-2, orchard-7)
+
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (VBD stopped)
+      (CC and)
+      (VBD climbed)
+      (PRT (RP over))
+      (NP (DT the) (NN orchard) (NN wall)))
+    (. .)))
+
+nsubj(stopped-2, He-1)
+nsubj(climbed-4, He-1)
+root(ROOT-0, stopped-2)
+cc(stopped-2, and-3)
+conj:and(stopped-2, climbed-4)
+compound:prt(stopped-2, over-5)
+det(wall-8, the-6)
+compound(wall-8, orchard-7)
+dobj(stopped-2, wall-8)
+
+(ROOT
+  (S
+    (NP (NNP Romeo))
+    (VP
+      (VP (VBP hid)
+        (PP (IN in)
+          (NP (DT the) (NNS darkness))))
+      (CC and)
+      (VP (VBD looked)
+        (PRT (RP up))
+        (PP (IN at)
+          (NP (DT the) (NNP Capulets) (NN house)))
+        (, ,)
+        (VP (VBG hoping)
+          (S
+            (VP (TO to)
+              (VP (VB see)
+                (NP (PRP$ his) (NN love))))))))
+    (. .)))
+
+nsubj(hid-2, Romeo-1)
+nsubj(looked-7, Romeo-1)
+root(ROOT-0, hid-2)
+case(darkness-5, in-3)
+det(darkness-5, the-4)
+nmod:in(hid-2, darkness-5)
+cc(hid-2, and-6)
+conj:and(hid-2, looked-7)
+compound:prt(looked-7, up-8)
+case(house-12, at-9)
+det(house-12, the-10)
+compound(house-12, Capulets-11)
+nmod:at(looked-7, house-12)
+dep(looked-7, hoping-14)
+mark(see-16, to-15)
+xcomp(hoping-14, see-16)
+nmod:poss(love-18, his-17)
+dobj(see-16, love-18)
+
+(ROOT
+  (S
+    (ADVP (RB Suddenly))
+    (NP (PRP he))
+    (VP (VBD saw)
+      (NP (PRP her)))
+    (. .)))
+
+advmod(saw-3, Suddenly-1)
+nsubj(saw-3, he-2)
+root(ROOT-0, saw-3)
+dobj(saw-3, her-4)
+
+(ROOT
+  (S
+    (SBAR
+      (WHNP (WP What))
+      (S
+        (NP (NN light))
+        (VP (VBZ breaks)
+          (PP (IN through)
+            (NP (DT the) (NN window))))))
+    (NP (PRP he))
+    (VP (VBD said)
+      (PP (TO to)
+        (NP (PRP himself))))
+    (. .)))
+
+dobj(breaks-3, What-1)
+nsubj(breaks-3, light-2)
+advcl(said-8, breaks-3)
+case(window-6, through-4)
+det(window-6, the-5)
+nmod:through(breaks-3, window-6)
+nsubj(said-8, he-7)
+root(ROOT-0, said-8)
+case(himself-10, to-9)
+nmod:to(said-8, himself-10)
+
+(ROOT
+  (S
+    (S
+      (NP (PRP It))
+      (VP (VBZ is)
+        (NP (DT the) (JJ east))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (NNP Juliet))
+      (VP (VBZ is)
+        (NP (DT the) (NN sun))))
+    (. .)))
+
+nsubj(east-4, It-1)
+cop(east-4, is-2)
+det(east-4, the-3)
+root(ROOT-0, east-4)
+cc(east-4, and-6)
+nsubj(sun-10, Juliet-7)
+cop(sun-10, is-8)
+det(sun-10, the-9)
+conj:and(east-4, sun-10)
+
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (VBD watched)
+      (SBAR (IN as)
+        (S
+          (NP (NNP Juliet))
+          (VP (VBD stood)
+            (PP (IN at)
+              (NP (DT the) (NN balcony)))
+            (, ,)
+            (S
+              (VP (VBG leaning)
+                (NP (PRP$ her) (NN cheek))
+                (PP (IN upon)
+                  (NP (PRP$ her) (NN hand)))))))))
+    (. .)))
+
+nsubj(watched-2, He-1)
+root(ROOT-0, watched-2)
+mark(stood-5, as-3)
+nsubj(stood-5, Juliet-4)
+advcl(watched-2, stood-5)
+case(balcony-8, at-6)
+det(balcony-8, the-7)
+nmod:at(stood-5, balcony-8)
+xcomp(stood-5, leaning-10)
+nmod:poss(cheek-12, her-11)
+dobj(leaning-10, cheek-12)
+case(hand-15, upon-13)
+nmod:poss(hand-15, her-14)
+nmod:upon(leaning-10, hand-15)
+
+(ROOT
+  (S
+    (S
+      (NP
+        (NP (NNP O))
+        (, ,)
+        (SBAR (IN if)
+          (S
+            (NP (PRP I))
+            (VP (VBD were)
+              (NP
+                (NP (DT a) (NN glove))
+                (PP (IN upon)
+                  (NP (DT the) (NN hand)))))))
+        (, ,))
+      (VP (VBD said)
+        (NP (NNP Romeo))))
+    (, ,)
+    (NP (PRP I))
+    (VP (MD might)
+      (VP (VB touch)
+        (NP (DT that) (NN cheek))))
+    (. !)))
+
+nsubj(said-12, O-1)
+mark(glove-7, if-3)
+nsubj(glove-7, I-4)
+cop(glove-7, were-5)
+det(glove-7, a-6)
+dep(O-1, glove-7)
+case(hand-10, upon-8)
+det(hand-10, the-9)
+nmod:upon(glove-7, hand-10)
+ccomp(touch-17, said-12)
+dobj(said-12, Romeo-13)
+nsubj(touch-17, I-15)
+aux(touch-17, might-16)
+root(ROOT-0, touch-17)
+det(cheek-19, that-18)
+dobj(touch-17, cheek-19)
+
+(ROOT
+  (S
+    (NP (NNP Juliet))
+    (VP (VBD sighed)
+      (ADVP (RB sadly)))
+    (. .)))
+
+nsubj(sighed-2, Juliet-1)
+root(ROOT-0, sighed-2)
+advmod(sighed-2, sadly-3)
+
+(ROOT
+  (NP
+    (NP (NNP Romeo))
+    (, ,)
+    (NP (NNP Romeo))
+    (. !)))
+
+root(ROOT-0, Romeo-1)
+appos(Romeo-1, Romeo-3)
+
+(ROOT
+  (SBARQ
+    (WHADVP (WRB Where))
+    (SQ (VBP are)
+      (NP
+        (NP (PRP you))
+        (, ,)
+        (NP (NNP Romeo))))
+    (. ?)))
+
+advmod(are-2, Where-1)
+root(ROOT-0, are-2)
+nsubj(are-2, you-3)
+appos(you-3, Romeo-5)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB Give)
+        (PRT (RP up))
+        (NP (PRP$ your) (NN father)))
+      (, ,)
+      (CC and)
+      (VP
+        (VP (VB refuse)
+          (NP (PRP$ your) (NN name)))
+        (: ;)
+        (CC or)
+        (, ,)
+        (SBAR (IN if)
+          (S
+            (NP (PRP you))
+            (VP (VBP promise)
+              (S
+                (NP (PRP$ your) (NN love))
+                (, ,)
+                (NP (NNP Ill))
+                (ADVP (RB no) (RB longer))
+                (VP (VB be)
+                  (NP (DT a) (NN Capulet)))))))))
+    (. .)))
+
+root(ROOT-0, Give-1)
+compound:prt(Give-1, up-2)
+nmod:poss(father-4, your-3)
+dobj(Give-1, father-4)
+cc(Give-1, and-6)
+conj:and(Give-1, refuse-7)
+nmod:poss(name-9, your-8)
+dobj(refuse-7, name-9)
+cc(refuse-7, or-11)
+mark(promise-15, if-13)
+nsubj(promise-15, you-14)
+advcl(refuse-7, promise-15)
+nmod:poss(love-17, your-16)
+nsubj(Capulet-24, love-17)
+nsubj(Capulet-24, Ill-19)
+neg(longer-21, no-20)
+advmod(Capulet-24, longer-21)
+cop(Capulet-24, be-22)
+det(Capulet-24, a-23)
+ccomp(promise-15, Capulet-24)
+
+(ROOT
+  (S
+    (NP (NNP Romeo))
+    (VP (VBD listened)
+      (SBAR (IN as)
+        (S
+          (NP (PRP she))
+          (VP (VBD went)
+            (PRT (RP on))))))
+    (. .)))
+
+nsubj(listened-2, Romeo-1)
+root(ROOT-0, listened-2)
+mark(went-5, as-3)
+nsubj(went-5, she-4)
+advcl(listened-2, went-5)
+compound:prt(went-5, on-6)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB Its)
+        (NP
+          (NP (PRP$ your) (NN name))
+          (SBAR
+            (WHNP (WDT that))
+            (S
+              (VP (VBZ is)
+                (NP (PRP$ my) (NN enemy)))))))
+      (, ,)
+      (VP (VB O))
+      (, ,)
+      (VP (VB be)
+        (NP (DT some) (JJ other) (NN name))))
+    (. !)))
+
+root(ROOT-0, Its-1)
+nmod:poss(name-3, your-2)
+dobj(Its-1, name-3)
+nsubj(enemy-7, name-3)
+ref(name-3, that-4)
+cop(enemy-7, is-5)
+nmod:poss(enemy-7, my-6)
+acl:relcl(name-3, enemy-7)
+dep(Its-1, O-9)
+cop(name-14, be-11)
+det(name-14, some-12)
+amod(name-14, other-13)
+dep(Its-1, name-14)
+
+(ROOT
+  (NP
+    (NP (NNS Whats))
+    (PP (IN in)
+      (NP (DT a) (NN name)))
+    (. ?)))
+
+root(ROOT-0, Whats-1)
+case(name-4, in-2)
+det(name-4, a-3)
+nmod:in(Whats-1, name-4)
+
+(ROOT
+  (S
+    (NP
+      (NP (DT That))
+      (SBAR
+        (WHNP (WDT which))
+        (S
+          (NP (PRP we))
+          (VP (VBP call)
+            (SBAR
+              (S
+                (NP (SYM a))
+                (VP (VBD rose)
+                  (PP (IN by)
+                    (NP (DT any) (JJ other) (NN name))))))))))
+    (VP (MD would)
+      (VP (VB smell)
+        (ADJP (RB as) (JJ sweet))))
+    (. .)))
+
+dobj(call-4, That-1)
+nsubj(smell-12, That-1)
+ref(That-1, which-2)
+nsubj(call-4, we-3)
+acl:relcl(That-1, call-4)
+nsubj(rose-6, a-5)
+ccomp(call-4, rose-6)
+case(name-10, by-7)
+det(name-10, any-8)
+amod(name-10, other-9)
+nmod:by(rose-6, name-10)
+aux(smell-12, would-11)
+root(ROOT-0, smell-12)
+advmod(sweet-14, as-13)
+xcomp(smell-12, sweet-14)
+
+(ROOT
+  (S
+    (S
+      (S
+        (NP (NNP Juliet))
+        (VP
+          (VP (VBD was)
+            (ADJP (JJ surprised)
+              (S
+                (VP (TO to)
+                  (VP
+                    (VP (VB hear)
+                      (NP (NNP Romeos) (NN voice) (NN answer))
+                      (PP (IN from)
+                        (NP (DT the) (NNS darkness))))
+                    (: :)
+                    (VP (VB Call)
+                      (NP (PRP me))))))))
+          (CC but)
+          (VP (VBP love))))
+      (, ,)
+      (CC and)
+      (S
+        (NP (NNP Ill))
+        (VP (VBP have)
+          (NP (DT a) (JJ new) (NN name)))))
+    (: ;)
+    (S
+      (ADVP
+        (PP (IN from)
+          (ADVP (RB now)))
+        (IN on))
+      (, ,)
+      (NP (PRP I))
+      (ADVP (RB never))
+      (VP (MD will)
+        (VP (VB be)
+          (ADJP (JJ Romeo)))))
+    (. .)))
+
+nsubj(surprised-3, Juliet-1)
+nsubj(hear-5, Juliet-1)
+nsubj(love-16, Juliet-1)
+cop(surprised-3, was-2)
+root(ROOT-0, surprised-3)
+mark(hear-5, to-4)
+xcomp(surprised-3, hear-5)
+compound(answer-8, Romeos-6)
+compound(answer-8, voice-7)
+dobj(hear-5, answer-8)
+case(darkness-11, from-9)
+det(darkness-11, the-10)
+nmod:from(hear-5, darkness-11)
+dep(hear-5, Call-13)
+dobj(Call-13, me-14)
+cc(surprised-3, but-15)
+conj:but(surprised-3, love-16)
+cc(surprised-3, and-18)
+nsubj(have-20, Ill-19)
+conj:but(surprised-3, have-20)
+det(name-23, a-21)
+amod(name-23, new-22)
+dobj(have-20, name-23)
+case(now-26, from-25)
+advmod(Romeo-33, now-26)
+case(now-26, on-27)
+nsubj(Romeo-33, I-29)
+neg(Romeo-33, never-30)
+aux(Romeo-33, will-31)
+cop(Romeo-33, be-32)
+parataxis(surprised-3, Romeo-33)
+
+(ROOT
+  (S
+    (NP (NNP Juliet))
+    (VP (VBD asked)
+      (SBAR
+        (WHADVP (WRB how))
+        (S
+          (NP (PRP he))
+          (VP (VBD had)
+            (VP (VBN made)
+              (NP (PRP$ his) (NN way))
+              (PP (IN into)
+                (NP
+                  (NP (DT the) (NN garden))
+                  (VP (VBN surrounded)
+                    (PP (IN by)
+                      (NP (JJ high) (NN stone) (NNS walls)))))))))))
+    (. .)))
+
+nsubj(asked-2, Juliet-1)
+root(ROOT-0, asked-2)
+advmod(made-6, how-3)
+nsubj(made-6, he-4)
+aux(made-6, had-5)
+ccomp(asked-2, made-6)
+nmod:poss(way-8, his-7)
+dobj(made-6, way-8)
+case(garden-11, into-9)
+det(garden-11, the-10)
+nmod:into(made-6, garden-11)
+acl(garden-11, surrounded-12)
+case(walls-16, by-13)
+amod(walls-16, high-14)
+compound(walls-16, stone-15)
+nmod:by(surrounded-12, walls-16)
+
+(ROOT
+  (S
+    (SBAR (IN With)
+      (S
+        (VP (VBZ loves)
+          (NP
+            (NP (JJ light) (NNS wings))
+            (SBAR
+              (S
+                (NP (PRP I))
+                (VP (VBD landed)
+                  (PP (IN on)
+                    (NP (DT these) (NNS walls))))))))))
+    (, ,)
+    (NP (PRP he))
+    (VP (VBD said) (, ,)
+      (SBAR (IN for)
+        (S
+          (NP (JJ stony) (NNS limits))
+          (VP (MD can) (RB not)
+            (VP (VB hold)
+              (NP (NN love))
+              (PRT (RP out)))))))
+    (. .)))
+
+mark(loves-2, With-1)
+advcl(said-12, loves-2)
+amod(wings-4, light-3)
+dobj(loves-2, wings-4)
+nsubj(landed-6, I-5)
+acl:relcl(wings-4, landed-6)
+case(walls-9, on-7)
+det(walls-9, these-8)
+nmod:on(landed-6, walls-9)
+nsubj(said-12, he-11)
+root(ROOT-0, said-12)
+mark(hold-19, for-14)
+amod(limits-16, stony-15)
+nsubj(hold-19, limits-16)
+aux(hold-19, can-17)
+neg(hold-19, not-18)
+advcl(said-12, hold-19)
+dobj(hold-19, love-20)
+compound:prt(hold-19, out-21)
+
+(ROOT
+  (S
+    (S
+      (NP (DT That) (NN night))
+      (NP (PRP they))
+      (VP
+        (VP (VBD exchanged) (VBZ vows)
+          (PP (IN of)
+            (NP (NN love))))
+        (CC and)
+        (VP (VBD agreed)
+          (S
+            (VP (TO to)
+              (VP (VB get)
+                (NP
+                  (NP (JJ married) (DT the) (JJ next) (NN day))
+                  (VP (VBG braving)
+                    (NP (PDT all)
+                      (NP (NNS hardships))
+                      (CC and)
+                      (NP (JJ great) (NNS dangers)))))))))))
+    (NP (EX there))
+    (VP (MD might)
+      (VP (VB be)
+        (PP (IN in)
+          (NP (PRP$ their) (NN future)))))
+    (. .)))
+
+det(night-2, That-1)
+nmod:tmod(exchanged-4, night-2)
+nsubj(exchanged-4, they-3)
+nsubj(agreed-9, they-3)
+nsubj(get-11, they-3)
+dep(future-27, exchanged-4)
+dep(exchanged-4, vows-5)
+case(love-7, of-6)
+nmod:of(exchanged-4, love-7)
+cc(exchanged-4, and-8)
+conj:and(exchanged-4, agreed-9)
+dep(future-27, agreed-9)
+mark(get-11, to-10)
+xcomp(agreed-9, get-11)
+amod(day-15, married-12)
+det(day-15, the-13)
+amod(day-15, next-14)
+dobj(get-11, day-15)
+acl(day-15, braving-16)
+dep(hardships-18, all-17)
+dobj(braving-16, hardships-18)
+cc(hardships-18, and-19)
+amod(dangers-21, great-20)
+dobj(braving-16, dangers-21)
+conj:and(hardships-18, dangers-21)
+expl(future-27, there-22)
+aux(future-27, might-23)
+cop(future-27, be-24)
+case(future-27, in-25)
+nmod:poss(future-27, their-26)
+root(ROOT-0, future-27)
+

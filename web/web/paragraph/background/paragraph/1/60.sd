@@ -1,0 +1,864 @@
+(ROOT
+  (S
+    (NP (NN Today))
+    (, ,)
+    (NP
+      (QP (RB about) (CD 4) (CD billion))
+      (NNS people))
+    (VP (VBP are)
+      (VP (VBG using)
+        (NP
+          (NP (NNP English))
+          (PP (IN for)
+            (NP (PRP$ their) (JJ everyday) (NN life)
+              (CC and)
+              (NN work))))))
+    (. .)))
+
+nmod:tmod(using-8, Today-1)
+advmod(billion-5, about-3)
+compound(billion-5, 4-4)
+nummod(people-6, billion-5)
+nsubj(using-8, people-6)
+aux(using-8, are-7)
+root(ROOT-0, using-8)
+dobj(using-8, English-9)
+case(life-13, for-10)
+nmod:poss(life-13, their-11)
+amod(life-13, everyday-12)
+nmod:for(English-9, life-13)
+cc(life-13, and-14)
+nmod:for(English-9, work-15)
+conj:and(life-13, work-15)
+
+(ROOT
+  (S
+    (PP (IN Of)
+      (NP (DT this)
+        (QP (CD 4) (CD billion))))
+    (, ,)
+    (NP
+      (QP (RB about) (CD 40))
+      (NN %))
+    (VP (VBP are)
+      (ADJP (JJ native)
+        (SBAR
+          (S
+            (NP
+              (NP (JJ English) (NNS speakers))
+              (CC and)
+              (NP (CD 60) (NN %)))
+            (VP (VBP are)
+              (NP (JJ non-native) (NNS speakers)))))))
+    (. .)))
+
+case(billion-4, Of-1)
+det(billion-4, this-2)
+compound(billion-4, 4-3)
+nmod:of(native-10, billion-4)
+advmod(40-7, about-6)
+nummod(%-8, 40-7)
+nsubj(native-10, %-8)
+cop(native-10, are-9)
+root(ROOT-0, native-10)
+amod(speakers-12, English-11)
+nsubj(speakers-18, speakers-12)
+cc(speakers-12, and-13)
+nummod(%-15, 60-14)
+conj:and(speakers-12, %-15)
+nsubj(speakers-18, %-15)
+cop(speakers-18, are-16)
+amod(speakers-18, non-native-17)
+ccomp(native-10, speakers-18)
+
+(ROOT
+  (S
+    (SBAR (IN As)
+      (S
+        (NP (NNP English))
+        (VP (VBZ becomes)
+          (NP (DT an) (JJ important) (JJ second) (NN language))
+          (PP (IN throughout)
+            (NP (DT the) (NN world))))))
+    (, ,)
+    (NP (PRP it))
+    (VP (VBZ is)
+      (VP (VBG changing)
+        (PP (IN into)
+          (NP
+            (NP (DT a) (JJR simpler) (NN version))
+            (PP (IN of)
+              (NP (PRP itself)))))))
+    (. .)))
+
+mark(becomes-3, As-1)
+nsubj(becomes-3, English-2)
+advcl(changing-14, becomes-3)
+det(language-7, an-4)
+amod(language-7, important-5)
+amod(language-7, second-6)
+xcomp(becomes-3, language-7)
+case(world-10, throughout-8)
+det(world-10, the-9)
+nmod:throughout(becomes-3, world-10)
+nsubj(changing-14, it-12)
+aux(changing-14, is-13)
+root(ROOT-0, changing-14)
+case(version-18, into-15)
+det(version-18, a-16)
+amod(version-18, simpler-17)
+nmod:into(changing-14, version-18)
+case(itself-20, of-19)
+nmod:of(version-18, itself-20)
+
+(ROOT
+  (S
+    (PP (IN During)
+      (NP (DT the) (JJ last) (NN century)))
+    (, ,)
+    (NP (NNP American) (NNP English))
+    (VP (VBD was)
+      (VP (VBG getting)
+        (ADJP (RBR more) (JJ popular)
+          (PP (IN than)
+            (NP
+              (NP (DT the) (NN Queen) (POS 's))
+              (NNP English))))))
+    (. .)))
+
+case(century-4, During-1)
+det(century-4, the-2)
+amod(century-4, last-3)
+nmod:during(getting-9, century-4)
+compound(English-7, American-6)
+nsubj(getting-9, English-7)
+aux(getting-9, was-8)
+root(ROOT-0, getting-9)
+advmod(popular-11, more-10)
+xcomp(getting-9, popular-11)
+case(English-16, than-12)
+det(Queen-14, the-13)
+nmod:poss(English-16, Queen-14)
+case(Queen-14, 's-15)
+nmod:than(popular-11, English-16)
+
+(ROOT
+  (S
+    (ADVP (RB Now))
+    (, ,)
+    (NP (DT the) (JJ English) (NN language))
+    (VP (VBZ is)
+      (VP (VBG transforming)
+        (PP (IN into)
+          (NP (DT a) (JJ new) (JJ global) (NN language)))))
+    (. .)))
+
+advmod(transforming-7, Now-1)
+det(language-5, the-3)
+amod(language-5, English-4)
+nsubj(transforming-7, language-5)
+aux(transforming-7, is-6)
+root(ROOT-0, transforming-7)
+case(language-12, into-8)
+det(language-12, a-9)
+amod(language-12, new-10)
+amod(language-12, global-11)
+nmod:into(transforming-7, language-12)
+
+(ROOT
+  (S
+    (NP (NNS People))
+    (VP (VBP call)
+      (S
+        (NP (PRP it))
+        (NP
+          (NP (JJ global) (NNP English))
+          (CC or)
+          (NP
+            (NP (JJ Globish-a) (NN tool))
+            (PP (IN of)
+              (NP (NN communication)))))))
+    (. .)))
+
+nsubj(call-2, People-1)
+root(ROOT-0, call-2)
+nsubj(English-5, it-3)
+amod(English-5, global-4)
+xcomp(call-2, English-5)
+cc(English-5, or-6)
+amod(tool-8, Globish-a-7)
+xcomp(call-2, tool-8)
+conj:or(English-5, tool-8)
+case(communication-10, of-9)
+nmod:of(tool-8, communication-10)
+
+(ROOT
+  (S
+    (NP (NNP Globish))
+    (VP (VBZ aims)
+      (S
+        (VP (TO to)
+          (VP (VB help)
+            (NP (NNS people))
+            (PP (IN from)
+              (NP (JJ different) (NNS countries)))
+            (S
+              (VP (TO to)
+                (VP (VB communicate)
+                  (ADVP (RB easily)))))))))
+    (. .)))
+
+nsubj(aims-2, Globish-1)
+nsubj(help-4, Globish-1)
+root(ROOT-0, aims-2)
+mark(help-4, to-3)
+xcomp(aims-2, help-4)
+dobj(help-4, people-5)
+case(countries-8, from-6)
+amod(countries-8, different-7)
+nmod:from(help-4, countries-8)
+mark(communicate-10, to-9)
+advcl(help-4, communicate-10)
+advmod(communicate-10, easily-11)
+
+(ROOT
+  (S
+    (PP (IN As)
+      (NP (DT a) (NN result)))
+    (, ,)
+    (NP (EX there))
+    (VP (VBP are)
+      (NP
+        (NP (DT a) (NN number))
+        (PP (IN of)
+          (NP
+            (NP (NNS things))
+            (SBAR
+              (WHNP (WDT that))
+              (S
+                (VP (VBP make)
+                  (S
+                    (NP (NNP Globish))
+                    (ADJP (JJ different)
+                      (PP (IN from)
+                        (NP (DT the) (`` ``) (JJ standard) ('' '') (NN English))))))))))))
+    (. .)))
+
+case(result-3, As-1)
+det(result-3, a-2)
+nmod:as(are-6, result-3)
+expl(are-6, there-5)
+root(ROOT-0, are-6)
+det(number-8, a-7)
+nsubj(are-6, number-8)
+case(things-10, of-9)
+nmod:of(number-8, things-10)
+nsubj(make-12, things-10)
+ref(things-10, that-11)
+acl:relcl(things-10, make-12)
+nsubj(different-14, Globish-13)
+xcomp(make-12, different-14)
+case(English-20, from-15)
+det(English-20, the-16)
+amod(English-20, standard-18)
+nmod:from(different-14, English-20)
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP First))
+      (PP (IN of)
+        (NP
+          (NP (DT all))
+          (, ,)
+          (NP (NNP Globish) (NNP vocabulary)))))
+    (VP (VBZ starts)
+      (PP (IN with)
+        (NP
+          (NP (DT a) (JJ limited) (NN number))
+          (PP (IN of)
+            (NP (NNP English) (JJ words-just) (CD 1,500) (JJ easy) (NNS words))))))
+    (. .)))
+
+nsubj(starts-7, First-1)
+case(all-3, of-2)
+nmod:of(First-1, all-3)
+compound(vocabulary-6, Globish-5)
+appos(all-3, vocabulary-6)
+root(ROOT-0, starts-7)
+case(number-11, with-8)
+det(number-11, a-9)
+amod(number-11, limited-10)
+nmod:with(starts-7, number-11)
+case(words-17, of-12)
+compound(words-17, English-13)
+amod(words-17, words-just-14)
+nummod(words-17, 1,500-15)
+amod(words-17, easy-16)
+nmod:of(number-11, words-17)
+
+(ROOT
+  (S
+    (ADVP (RB Also))
+    (, ,)
+    (NP (NNP Globish))
+    (VP (VBZ takes)
+      (NP (DT all) (JJ different) (JJ English) (NNS spellings)))
+    (. .)))
+
+advmod(takes-4, Also-1)
+nsubj(takes-4, Globish-3)
+root(ROOT-0, takes-4)
+det(spellings-8, all-5)
+amod(spellings-8, different-6)
+amod(spellings-8, English-7)
+dobj(takes-4, spellings-8)
+
+(ROOT
+  (S
+    (PP (IN For)
+      (NP (NN example)))
+    (, ,)
+    (NP (NNS people))
+    (VP (MD can)
+      (VP (VB use)
+        (NP (DT both) (NN theatre)
+          (CC and)
+          (NN theater))))
+    (. .)))
+
+case(example-2, For-1)
+nmod:for(use-6, example-2)
+nsubj(use-6, people-4)
+aux(use-6, can-5)
+root(ROOT-0, use-6)
+cc:preconj(theatre-8, both-7)
+dobj(use-6, theatre-8)
+cc(theatre-8, and-9)
+dobj(use-6, theater-10)
+conj:and(theatre-8, theater-10)
+
+(ROOT
+  (S
+    (ADVP (RBS Most) (RB importantly))
+    (, ,)
+    (SBAR
+      (WHADVP (WRB when))
+      (S
+        (NP (NNS people))
+        (VP (VBP use)
+          (NP (NNP Globish)))))
+    (, ,)
+    (NP (JJ clear) (NN communication))
+    (VP (VBZ is)
+      (NP (PRP$ their) (JJS biggest) (NN concern)))
+    (. .)))
+
+advmod(importantly-2, Most-1)
+advmod(concern-14, importantly-2)
+advmod(use-6, when-4)
+nsubj(use-6, people-5)
+advcl(concern-14, use-6)
+dobj(use-6, Globish-7)
+amod(communication-10, clear-9)
+nsubj(concern-14, communication-10)
+cop(concern-14, is-11)
+nmod:poss(concern-14, their-12)
+amod(concern-14, biggest-13)
+root(ROOT-0, concern-14)
+
+(ROOT
+  (S
+    (NP (DT Every) (NN speaker))
+    (VP (MD should)
+      (VP (VB help)
+        (S
+          (NP (DT the) (NN listener))
+          (VP (VB understand)
+            (NP
+              (ADJP (PRP$ his)
+                (CC or)
+                (PRP$ her))
+              (NN message))))))
+    (. .)))
+
+det(speaker-2, Every-1)
+nsubj(help-4, speaker-2)
+aux(help-4, should-3)
+root(ROOT-0, help-4)
+det(listener-6, the-5)
+nsubj(understand-7, listener-6)
+ccomp(help-4, understand-7)
+amod(message-11, his-8)
+cc(his-8, or-9)
+conj:or(his-8, her-10)
+amod(message-11, her-10)
+dobj(understand-7, message-11)
+
+(ROOT
+  (S
+    (ADVP (RB Therefore))
+    (, ,)
+    (NP (DT a) (NNP Globish) (NN speaker))
+    (VP (MD will)
+      (VP (VB try)
+        (S
+          (VP (TO to)
+            (VP
+              (VP (VB use)
+                (NP (JJR shorter) (NNS sentences)))
+              (CC and)
+              (VP (VB keep)
+                (NP (NN grammar) (NN simple))))))))
+    (. .)))
+
+advmod(try-7, Therefore-1)
+det(speaker-5, a-3)
+compound(speaker-5, Globish-4)
+nsubj(try-7, speaker-5)
+nsubj(use-9, speaker-5)
+nsubj(keep-13, speaker-5)
+aux(try-7, will-6)
+root(ROOT-0, try-7)
+mark(use-9, to-8)
+xcomp(try-7, use-9)
+amod(sentences-11, shorter-10)
+dobj(use-9, sentences-11)
+cc(use-9, and-12)
+xcomp(try-7, keep-13)
+conj:and(use-9, keep-13)
+compound(simple-15, grammar-14)
+dobj(keep-13, simple-15)
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (NN addition)))
+    (, ,)
+    (NP (NNP Globish) (NNS speakers))
+    (VP (MD may)
+      (VP
+        (VP (VB repeat)
+          (NP (DT the) (JJ same) (NNS sentences))
+          (ADVP (RB twice)))
+        (CC or)
+        (VP (VB add)
+          (NP (NN body) (NN language))
+          (S
+            (VP (TO to)
+              (VP (VB help)
+                (S
+                  (NP (DT the) (NN listener))
+                  (VP (VB understand)))))))))
+    (. .)))
+
+case(addition-2, In-1)
+nmod:in(repeat-7, addition-2)
+compound(speakers-5, Globish-4)
+nsubj(repeat-7, speakers-5)
+nsubj(add-13, speakers-5)
+aux(repeat-7, may-6)
+root(ROOT-0, repeat-7)
+det(sentences-10, the-8)
+amod(sentences-10, same-9)
+dobj(repeat-7, sentences-10)
+advmod(repeat-7, twice-11)
+cc(repeat-7, or-12)
+conj:or(repeat-7, add-13)
+compound(language-15, body-14)
+dobj(add-13, language-15)
+mark(help-17, to-16)
+advcl(add-13, help-17)
+det(listener-19, the-18)
+nsubj(understand-20, listener-19)
+ccomp(help-17, understand-20)
+
+(ROOT
+  (S
+    (NP (PRP They))
+    (VP (MD would) (RB not)
+      (VP (VB use)
+        (NP (JJ such) (NNS questions))
+        (SBAR (IN as) (`` ``)
+          (S
+            (NP (PRP You))
+            (VP (VBP do) (RB n't)
+              (VP (VB like)
+                (NP (NNS cats))))))))
+    (. ?) ('' '')))
+
+nsubj(use-4, They-1)
+aux(use-4, would-2)
+neg(use-4, not-3)
+root(ROOT-0, use-4)
+amod(questions-6, such-5)
+dobj(use-4, questions-6)
+mark(like-12, as-7)
+nsubj(like-12, You-9)
+aux(like-12, do-10)
+neg(like-12, n't-11)
+advcl(use-4, like-12)
+dobj(like-12, cats-13)
+
+(ROOT
+  (FRAG
+    (PP (IN in)
+      (NP
+        (NP (PRP$ their) (NN talk))
+        (SBAR (IN because)
+          (S
+            (NP (DT the) (NN listener))
+            (VP (MD may) (RB not)
+              (VP (VB know)
+                (SBAR
+                  (WHADVP (WRB how))
+                  (S
+                    (VP (TO to)
+                      (VP (VB answer)
+                        (NP (DT the) (NN question))))))))))))
+    (. .)))
+
+case(talk-3, in-1)
+nmod:poss(talk-3, their-2)
+root(ROOT-0, talk-3)
+mark(know-9, because-4)
+det(listener-6, the-5)
+nsubj(know-9, listener-6)
+aux(know-9, may-7)
+neg(know-9, not-8)
+acl:relcl(talk-3, know-9)
+advmod(answer-12, how-10)
+mark(answer-12, to-11)
+ccomp(know-9, answer-12)
+det(question-14, the-13)
+dobj(answer-12, question-14)
+
+(ROOT
+  (S
+    (S
+      (VP (TO To)
+        (VP (VB help)
+          (S
+            (NP (DT the) (NN listener))
+            (VP (VB understand))))))
+    (PRN (, ,)
+      (S
+        (NP (NNP Globish) (NNS speakers))
+        (VP (MD will)
+          (VP (VB ask)))))
+    (`` ``)
+    (VP (VBP Do)
+      (NP (PRP you))
+      (PP (IN like)
+        (NP (NNS cats))))
+    (. ?) ('' '')))
+
+mark(help-2, To-1)
+csubj(Do-12, help-2)
+det(listener-4, the-3)
+nsubj(understand-5, listener-4)
+ccomp(help-2, understand-5)
+compound(speakers-8, Globish-7)
+nsubj(ask-10, speakers-8)
+aux(ask-10, will-9)
+parataxis(Do-12, ask-10)
+root(ROOT-0, Do-12)
+dobj(Do-12, you-13)
+case(cats-15, like-14)
+nmod:like(Do-12, cats-15)
+
+(ROOT
+  (FRAG
+    (PP (IN with)
+      (NP (NN gesture)))
+    (. .)))
+
+case(gesture-2, with-1)
+root(ROOT-0, gesture-2)
+
+(ROOT
+  (S
+    (ADVP (RB Then))
+    (, ,)
+    (NP (DT the) (NN listener))
+    (VP (MD will)
+      (VP (VB answer)
+        (NP (DT the) (NN question))
+        (PP (IN with)
+          (NP (DT a) (JJ full) (NN sentence)))
+        (SBAR (IN like) (`` ``)
+          (S
+            (INTJ (UH Yes))
+            (, ,)
+            (NP (PRP I))
+            (VP (VBP like)
+              (NP (NNS cats)))))))
+    (. .) ('' '')))
+
+advmod(answer-6, Then-1)
+det(listener-4, the-3)
+nsubj(answer-6, listener-4)
+aux(answer-6, will-5)
+root(ROOT-0, answer-6)
+det(question-8, the-7)
+dobj(answer-6, question-8)
+case(sentence-12, with-9)
+det(sentence-12, a-10)
+amod(sentence-12, full-11)
+nmod:with(answer-6, sentence-12)
+mark(like-18, like-13)
+discourse(like-18, Yes-15)
+nsubj(like-18, I-17)
+advcl(answer-6, like-18)
+dobj(like-18, cats-19)
+
+(ROOT
+  (S
+    (INTJ (UH Or))
+    (INTJ (`` ``) (UH No))
+    (, ,)
+    (NP (PRP I))
+    (VP (VBP do) (RB n't)
+      (VP (VB like)
+        (NP (NNS cats))))
+    (. .) ('' '')))
+
+discourse(like-8, Or-1)
+discourse(like-8, No-3)
+nsubj(like-8, I-5)
+aux(like-8, do-6)
+neg(like-8, n't-7)
+root(ROOT-0, like-8)
+dobj(like-8, cats-9)
+
+(ROOT
+  (FRAG
+    (PP (IN in)
+      (NP (NNP Globish)))
+    (. .)))
+
+case(Globish-2, in-1)
+root(ROOT-0, Globish-2)
+
+(ROOT
+  (S
+    (NP
+      (NP (DT A) (NN lot))
+      (PP (IN of)
+        (NP (NNS people))))
+    (VP (VBP find)
+      (S
+        (NP (NNP Globish))
+        (ADJP (RBR easier)))
+      (PP (IN than)
+        (NP (DT the) (`` ``) (JJ standard) ('' '') (NN English))))
+    (. .)))
+
+det(lot-2, A-1)
+nsubj(find-5, lot-2)
+case(people-4, of-3)
+nmod:of(lot-2, people-4)
+root(ROOT-0, find-5)
+nsubj(easier-7, Globish-6)
+xcomp(find-5, easier-7)
+case(English-13, than-8)
+det(English-13, the-9)
+amod(English-13, standard-11)
+nmod:than(find-5, English-13)
+
+(ROOT
+  (S
+    (NP (DT This))
+    (VP (VBZ is)
+      (ADJP (JJ true)))
+    (. .)))
+
+nsubj(true-3, This-1)
+cop(true-3, is-2)
+root(ROOT-0, true-3)
+
+(ROOT
+  (S
+    (ADVP (RB However))
+    (, ,)
+    (NP (DT some) (NNS people))
+    (VP (VBP think)
+      (SBAR
+        (S
+          (NP (NNP Globish))
+          (VP (MD can)
+            (VP (VB be)
+              (ADJP (RB too) (JJ simple)
+                (CC and)
+                (JJ direct)))))))
+    (. .)))
+
+advmod(think-5, However-1)
+det(people-4, some-3)
+nsubj(think-5, people-4)
+root(ROOT-0, think-5)
+nsubj(simple-10, Globish-6)
+nsubj(direct-12, Globish-6)
+aux(simple-10, can-7)
+cop(simple-10, be-8)
+advmod(simple-10, too-9)
+ccomp(think-5, simple-10)
+cc(simple-10, and-11)
+ccomp(think-5, direct-12)
+conj:and(simple-10, direct-12)
+
+(ROOT
+  (S
+    (NP (NNS Speakers))
+    (VP (MD may)
+      (VP (VB become)
+        (NP
+          (NP (NN impolite))
+          (CC or)
+          (NP (RB even) (JJ rude)))
+        (SBAR
+          (WHADVP (WRB when))
+          (S
+            (NP (PRP they))
+            (VP (VBP use)
+              (NP
+                (ADJP
+                  (ADJP (RB too) (RB much) (JJ short))
+                  (CC and)
+                  (ADJP (JJ direct)))
+                (NN language)))))))
+    (. .)))
+
+nsubj(become-3, Speakers-1)
+aux(become-3, may-2)
+root(ROOT-0, become-3)
+xcomp(become-3, impolite-4)
+cc(impolite-4, or-5)
+advmod(rude-7, even-6)
+xcomp(become-3, rude-7)
+conj:or(impolite-4, rude-7)
+advmod(use-10, when-8)
+nsubj(use-10, they-9)
+advcl(become-3, use-10)
+advmod(short-13, too-11)
+advmod(short-13, much-12)
+amod(language-16, short-13)
+cc(short-13, and-14)
+conj:and(short-13, direct-15)
+amod(language-16, direct-15)
+dobj(use-10, language-16)
+
+(ROOT
+  (S
+    (PP (IN For)
+      (NP (DT some) (NNS people)))
+    (, ,)
+    (NP
+      (NP (DT the) (NN study))
+      (PP (IN of)
+        (NP
+          (NP (DT the) (JJ English) (NN language))
+          (CC and)
+          (NP (PRP$ its) (NN culture)))))
+    (VP
+      (VP (VBZ is)
+        (ADVP (RB still))
+        (ADJP (JJ useful)))
+      (CC and)
+      (VP (MD can)
+        (VP (VB be)
+          (NP (NN fun)))))
+    (. .)))
+
+case(people-3, For-1)
+det(people-3, some-2)
+nmod:for(useful-16, people-3)
+det(study-6, the-5)
+nsubj(useful-16, study-6)
+case(language-10, of-7)
+det(language-10, the-8)
+amod(language-10, English-9)
+nmod:of(study-6, language-10)
+cc(language-10, and-11)
+nmod:poss(culture-13, its-12)
+nmod:of(study-6, culture-13)
+conj:and(language-10, culture-13)
+cop(useful-16, is-14)
+advmod(useful-16, still-15)
+root(ROOT-0, useful-16)
+cc(useful-16, and-17)
+aux(fun-20, can-18)
+cop(fun-20, be-19)
+conj:and(useful-16, fun-20)
+
+(ROOT
+  (S
+    (ADVP (RB Yet))
+    (, ,)
+    (NP (NNP Globish))
+    (VP (VBZ is) (RB not)
+      (NP
+        (NP (DT an) (JJ official) (NN language))
+        (PP (CC but)
+          (NP
+            (NP (DT a) (JJ linguistic) (NN tool))
+            (PP (IN for)
+              (NP (NNS people)
+                (S
+                  (VP (TO to)
+                    (VP (VB use)
+                      (PP (IN in)
+                        (NP (DT this) (JJ globalized) (NN world))))))))))))
+    (. .)))
+
+advmod(language-8, Yet-1)
+nsubj(language-8, Globish-3)
+cop(language-8, is-4)
+neg(language-8, not-5)
+det(language-8, an-6)
+amod(language-8, official-7)
+root(ROOT-0, language-8)
+case(tool-12, but-9)
+det(tool-12, a-10)
+amod(tool-12, linguistic-11)
+nmod:but(language-8, tool-12)
+case(people-14, for-13)
+nmod:for(tool-12, people-14)
+mark(use-16, to-15)
+acl(people-14, use-16)
+case(world-20, in-17)
+det(world-20, this-18)
+amod(world-20, globalized-19)
+nmod:in(use-16, world-20)
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ is)
+      (NP
+        (NP (CD one))
+        (PP (IN of)
+          (NP
+            (NP (DT the) (JJ modern) (NNS choices))
+            (PP (IN for)
+              (NP
+                (NP (JJ busy) (VBG working) (NNS people))
+                (PP (IN around)
+                  (NP (DT the) (NN world)))))))))
+    (. .)))
+
+nsubj(one-3, It-1)
+cop(one-3, is-2)
+root(ROOT-0, one-3)
+case(choices-7, of-4)
+det(choices-7, the-5)
+amod(choices-7, modern-6)
+nmod:of(one-3, choices-7)
+case(people-11, for-8)
+amod(people-11, busy-9)
+amod(people-11, working-10)
+nmod:for(choices-7, people-11)
+case(world-14, around-12)
+det(world-14, the-13)
+nmod:around(people-11, world-14)
+

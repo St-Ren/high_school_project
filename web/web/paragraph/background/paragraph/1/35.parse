@@ -1,0 +1,969 @@
+(ROOT
+  (NP
+    (NP (PRP$ Its))
+    (NP (RB just) (DT another) (NN morning))
+    (PP (IN in)
+      (NP (CD 2050)))
+    (. .)))
+
+root(ROOT-0, Its-1)
+advmod(morning-4, just-2)
+det(morning-4, another-3)
+dep(Its-1, morning-4)
+case(2050-6, in-5)
+nmod:in(Its-1, 2050-6)
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP Mario))
+      (, ,)
+      (NP (PRP$ your) (NN buddy) (NN bio-bot))
+      (, ,))
+    (VP (VBZ comes)
+      (PP (IN over)
+        (NP
+          (NP
+            (S
+              (VP (TO to)
+                (VP (VB wake)
+                  (NP (PRP you))
+                  (PRT (RP up)))))
+            (: :)
+            (NP
+              (NP (NNP Time))
+              (PP (IN for)
+                (NP (NN school)))))
+          (, ,)
+          (NP (NNP Elmer)))))
+    (. .)))
+
+nsubj(comes-7, Mario-1)
+nmod:poss(bio-bot-5, your-3)
+compound(bio-bot-5, buddy-4)
+appos(Mario-1, bio-bot-5)
+root(ROOT-0, comes-7)
+case(Time-14, over-8)
+mark(wake-10, to-9)
+dep(Time-14, wake-10)
+dobj(wake-10, you-11)
+compound:prt(wake-10, up-12)
+nmod:over(comes-7, Time-14)
+case(school-16, for-15)
+nmod:for(Time-14, school-16)
+appos(Time-14, Elmer-18)
+
+(ROOT
+  (S
+    (NP (NNP Dont))
+    (VP (VBP forget)
+      (S
+        (VP (TO to)
+          (VP (VB hand)
+            (PP (IN in)
+              (NP (PRP$ your) (JJ final) (NN report)))))))
+    (. .)))
+
+nsubj(forget-2, Dont-1)
+nsubj(hand-4, Dont-1)
+root(ROOT-0, forget-2)
+mark(hand-4, to-3)
+xcomp(forget-2, hand-4)
+case(report-8, in-5)
+nmod:poss(report-8, your-6)
+amod(report-8, final-7)
+nmod:in(hand-4, report-8)
+
+(ROOT
+  (NP
+    (NP (NNP Remember))
+    (, ,)
+    (NP (PRP$ its)
+      (NP
+        (NP (PRP$ your) (JJ fifth) (NN year))
+        (PP (IN in)
+          (NP (JJ high) (NN school)))))
+    (. .)))
+
+root(ROOT-0, Remember-1)
+nmod:poss(year-6, its-3)
+nmod:poss(year-6, your-4)
+amod(year-6, fifth-5)
+appos(Remember-1, year-6)
+case(school-9, in-7)
+amod(school-9, high-8)
+nmod:in(year-6, school-9)
+
+(ROOT
+  (FRAG
+    (X
+      (X (WP What))
+      (NP (DT a) (JJ nice) (NNP buddy) (NNP Mario)))
+    (VP (VBZ is))
+    (. !)))
+
+dep(Mario-5, What-1)
+det(Mario-5, a-2)
+amod(Mario-5, nice-3)
+compound(Mario-5, buddy-4)
+dep(is-6, Mario-5)
+root(ROOT-0, is-6)
+
+(ROOT
+  (S
+    (PP (IN With)
+      (NP
+        (NP (DT a) (NN word))
+        (PP (IN of)
+          (NP
+            (NP (NNS thanks))
+            (PP (TO to)
+              (NP (NNP Mario)))))))
+    (, ,)
+    (NP (PRP you))
+    (VP (VB hurry)
+      (PP (TO to)
+        (NP (DT the) (NN bathroom))))
+    (. .)))
+
+case(word-3, With-1)
+det(word-3, a-2)
+nmod:with(hurry-10, word-3)
+case(thanks-5, of-4)
+nmod:of(word-3, thanks-5)
+case(Mario-7, to-6)
+nmod:to(thanks-5, Mario-7)
+nsubj(hurry-10, you-9)
+root(ROOT-0, hurry-10)
+case(bathroom-13, to-11)
+det(bathroom-13, the-12)
+nmod:to(hurry-10, bathroom-13)
+
+(ROOT
+  (S
+    (NP
+      (NP (NN Morning))
+      (, ,)
+      (NP (NNP Elmer))
+      (, ,))
+    (VP (VBZ says)
+      (NP (DT the) (JJ wireless) (JJ magic) (NN mirror)))
+    (. .)))
+
+nsubj(says-5, Morning-1)
+appos(Morning-1, Elmer-3)
+root(ROOT-0, says-5)
+det(mirror-9, the-6)
+amod(mirror-9, wireless-7)
+amod(mirror-9, magic-8)
+dobj(says-5, mirror-9)
+
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (VBP look)
+      (ADJP (JJ good)
+        (PP (IN as)
+          (ADJP (JJ usual)))))
+    (. .)))
+
+nsubj(look-2, You-1)
+root(ROOT-0, look-2)
+xcomp(look-2, good-3)
+case(usual-5, as-4)
+advcl:as(good-3, usual-5)
+
+(ROOT
+  (S (CC But)
+    (VP (VB be)
+      (ADJP (JJ careful))
+      (PP (IN about)
+        (NP (PRP$ your) (NN BMI))))
+    (. .)))
+
+cc(careful-3, But-1)
+cop(careful-3, be-2)
+root(ROOT-0, careful-3)
+case(BMI-6, about-4)
+nmod:poss(BMI-6, your-5)
+nmod:about(careful-3, BMI-6)
+
+(ROOT
+  (S
+    (VP (VB Youre)
+      (PRT (RP about))
+      (S
+        (VP (TO to)
+          (VP (VB become)
+            (NP (NN overweight))))))
+    (. .)))
+
+root(ROOT-0, Youre-1)
+compound:prt(Youre-1, about-2)
+mark(become-4, to-3)
+xcomp(Youre-1, become-4)
+xcomp(become-4, overweight-5)
+
+(ROOT
+  (S
+    (NP
+      (NP (DT A) (NN bunch))
+      (PP (IN of)
+        (NP (NNS icons))))
+    (VP (VBP appear)
+      (PP (IN on)
+        (NP (DT the) (NN wall))))
+    (. .)))
+
+det(bunch-2, A-1)
+nsubj(appear-5, bunch-2)
+case(icons-4, of-3)
+nmod:of(bunch-2, icons-4)
+root(ROOT-0, appear-5)
+case(wall-8, on-6)
+det(wall-8, the-7)
+nmod:on(appear-5, wall-8)
+
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (VBP press)
+      (NP
+        (NP (CD one))
+        (PP (IN of)
+          (NP (PRP them)))))
+    (. .)))
+
+nsubj(press-2, You-1)
+root(ROOT-0, press-2)
+dobj(press-2, one-3)
+case(them-5, of-4)
+nmod:of(one-3, them-5)
+
+(ROOT
+  (S
+    (ADVP (IN At) (RB once))
+    (NP
+      (NP (DT a) (NN flash))
+      (PP (IN of)
+        (NP (NN light))))
+    (VP (VBZ flies)
+      (PP (IN across)
+        (PP (TO to)
+          (NP
+            (NP (PRP you))
+            (CC and)
+            (NP (PRP$ your) (NN body) (NN fat) (NNS changes)))))
+      (PP (IN into)
+        (NP
+          (NP (NN electricity))
+          (PP (IN for)
+            (S
+              (VP (VBG heating)
+                (NP (DT the) (NN water))))))))
+    (. .)))
+
+case(once-2, At-1)
+advmod(flies-7, once-2)
+det(flash-4, a-3)
+nsubj(flies-7, flash-4)
+case(light-6, of-5)
+nmod:of(flash-4, light-6)
+root(ROOT-0, flies-7)
+case(you-10, across-8)
+case(you-10, to-9)
+nmod:to(flies-7, you-10)
+cc(you-10, and-11)
+nmod:poss(changes-15, your-12)
+compound(changes-15, body-13)
+compound(changes-15, fat-14)
+nmod:to(flies-7, changes-15)
+conj:and(you-10, changes-15)
+case(electricity-17, into-16)
+nmod:into(flies-7, electricity-17)
+mark(heating-19, for-18)
+acl(electricity-17, heating-19)
+det(water-21, the-20)
+dobj(heating-19, water-21)
+
+(ROOT
+  (S
+    (ADVP (RB Now))
+    (, ,)
+    (NP (PRP you))
+    (VP (MD can)
+      (VP (VB enjoy)
+        (NP
+          (NP (DT a) (JJ nice) (JJ hot) (NN shower))
+          (, ,)
+          (ADJP (RB quite) (JJ sure)))
+        (SBAR (IN that)
+          (S
+            (NP (PRP you))
+            (VP (VBP have)
+              (ADVP (RB just))
+              (VP (VBN reduced)
+                (NP (PRP$ your) (NN BMI))))))))
+    (. .)))
+
+advmod(enjoy-5, Now-1)
+nsubj(enjoy-5, you-3)
+aux(enjoy-5, can-4)
+root(ROOT-0, enjoy-5)
+det(shower-9, a-6)
+amod(shower-9, nice-7)
+amod(shower-9, hot-8)
+dobj(enjoy-5, shower-9)
+advmod(sure-12, quite-11)
+amod(shower-9, sure-12)
+mark(reduced-17, that-13)
+nsubj(reduced-17, you-14)
+aux(reduced-17, have-15)
+advmod(reduced-17, just-16)
+ccomp(enjoy-5, reduced-17)
+nmod:poss(BMI-19, your-18)
+dobj(reduced-17, BMI-19)
+
+(ROOT
+  (S
+    (PP (IN On)
+      (NP
+        (NP (DT the) (JJ other) (NN side))
+        (PP (IN of)
+          (NP (DT the) (NN house)))))
+    (, ,)
+    (NP
+      (NP (DT the) (JJ mobile) (NN table))
+      (PP (IN in)
+        (NP (DT the) (NN kitchen))))
+    (VP (VBZ detects)
+      (NP (PRP$ your) (NN hunger)))
+    (. .)))
+
+case(side-4, On-1)
+det(side-4, the-2)
+amod(side-4, other-3)
+nmod:on(detects-15, side-4)
+case(house-7, of-5)
+det(house-7, the-6)
+nmod:of(side-4, house-7)
+det(table-11, the-9)
+amod(table-11, mobile-10)
+nsubj(detects-15, table-11)
+case(kitchen-14, in-12)
+det(kitchen-14, the-13)
+nmod:in(table-11, kitchen-14)
+root(ROOT-0, detects-15)
+nmod:poss(hunger-17, your-16)
+dobj(detects-15, hunger-17)
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP
+      (VP (VBZ starts)
+        (NP (DT the) (NN toaster)))
+      (CC and)
+      (VP (VBZ makes)
+        (NP (PRP$ your) (JJ scrambled) (NNS eggs))
+        (NP
+          (NP (DT the) (NN way))
+          (SBAR
+            (S
+              (NP (PRP you))
+              (VP (VBP like)
+                (NP (PRP them))))))))
+    (. .)))
+
+nsubj(starts-2, It-1)
+nsubj(makes-6, It-1)
+root(ROOT-0, starts-2)
+det(toaster-4, the-3)
+dobj(starts-2, toaster-4)
+cc(starts-2, and-5)
+conj:and(starts-2, makes-6)
+nmod:poss(eggs-9, your-7)
+amod(eggs-9, scrambled-8)
+dep(makes-6, eggs-9)
+det(way-11, the-10)
+dobj(makes-6, way-11)
+nsubj(like-13, you-12)
+acl:relcl(way-11, like-13)
+dobj(like-13, them-14)
+
+(ROOT
+  (S
+    (SBAR (IN As)
+      (S
+        (NP (PRP you))
+        (VP (VBP finish)
+          (NP (NN breakfast)))))
+    (, ,)
+    (NP (PRP you))
+    (VP (VBP turn)
+      (NP (PRP$ your) (NN attention))
+      (PP (TO to)
+        (NP (PRP$ your) (JJ heartbeat-powered) (NN watch))))
+    (. .)))
+
+mark(finish-3, As-1)
+nsubj(finish-3, you-2)
+advcl(turn-7, finish-3)
+dobj(finish-3, breakfast-4)
+nsubj(turn-7, you-6)
+root(ROOT-0, turn-7)
+nmod:poss(attention-9, your-8)
+dobj(turn-7, attention-9)
+case(watch-13, to-10)
+nmod:poss(watch-13, your-11)
+amod(watch-13, heartbeat-powered-12)
+nmod:to(turn-7, watch-13)
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ reads)
+      (NP
+        (NP (CD 7:57) (NN VV))
+        (PP
+          (NP (RB only) (CD three) (NNS minutes))
+          (PP (TO to)
+            (NP (PRP$ your) (JJ first) (NN class))))))
+    (. !)))
+
+nsubj(reads-2, It-1)
+root(ROOT-0, reads-2)
+nummod(VV-4, 7:57-3)
+dobj(reads-2, VV-4)
+advmod(minutes-7, only-5)
+nummod(minutes-7, three-6)
+nmod(VV-4, minutes-7)
+case(class-11, to-8)
+nmod:poss(class-11, your-9)
+amod(class-11, first-10)
+nmod:to(minutes-7, class-11)
+
+(ROOT
+  (S
+    (ADVP (RB Suddenly))
+    (, ,)
+    (NP (PRP you))
+    (VP (VBP recall)
+      (NP
+        (NP (DT the) (VBG flying) (NN car))
+        (VP (VBN parked)
+          (PP (IN in)
+            (NP
+              (NP (DT the) (NN garage))
+              (, ,)
+              (NP (DT a) (NN gift))))
+          (PP (TO to)
+            (NP (PRP$ your) (NN father)))
+          (PP (IN from)
+            (NP (PRP$ his) (NN boss))))))
+    (. .)))
+
+advmod(recall-4, Suddenly-1)
+nsubj(recall-4, you-3)
+root(ROOT-0, recall-4)
+det(car-7, the-5)
+amod(car-7, flying-6)
+dobj(recall-4, car-7)
+acl(car-7, parked-8)
+case(garage-11, in-9)
+det(garage-11, the-10)
+nmod:in(parked-8, garage-11)
+det(gift-14, a-13)
+appos(garage-11, gift-14)
+case(father-17, to-15)
+nmod:poss(father-17, your-16)
+nmod:to(parked-8, father-17)
+case(boss-20, from-18)
+nmod:poss(boss-20, his-19)
+nmod:from(parked-8, boss-20)
+
+(ROOT
+  (S
+    (S
+      (NP (PRP He))
+      (VP (VBP wont)
+        (VP (VB be)
+          (VP (VBG driving)
+            (NP (PRP it))
+            (NP (NN today))))))
+    (: ;)
+    (S
+      (NP (PRP he))
+      (VP (VBZ walks)
+        (PP (TO to)
+          (NP (DT the) (NN office)))
+        (SBAR
+          (WHADVP (WRB when))
+          (S
+            (NP (PRP it))
+            (VP (VBZ is)
+              (ADJP (JJ sunny)))))))
+    (. .)))
+
+nsubj(wont-2, He-1)
+nsubj(driving-4, He-1)
+root(ROOT-0, wont-2)
+aux(driving-4, be-3)
+xcomp(wont-2, driving-4)
+dobj(driving-4, it-5)
+nmod:tmod(driving-4, today-6)
+nsubj(walks-9, he-8)
+parataxis(wont-2, walks-9)
+case(office-12, to-10)
+det(office-12, the-11)
+nmod:to(walks-9, office-12)
+advmod(sunny-16, when-13)
+nsubj(sunny-16, it-14)
+cop(sunny-16, is-15)
+advcl(walks-9, sunny-16)
+
+(ROOT
+  (S
+    (NP (DT The) (VBG flying) (NN car))
+    (VP (MD can)
+      (VP
+        (VP (VB take)
+          (PRT (RP off)))
+        (CC and)
+        (VP (VB fly)
+          (NP
+            (NP (CD three) (NNS meters))
+            (PP (IN above)
+              (NP (DT the) (NN road)))))))
+    (. .)))
+
+det(car-3, The-1)
+amod(car-3, flying-2)
+nsubj(take-5, car-3)
+nsubj(fly-8, car-3)
+aux(take-5, can-4)
+root(ROOT-0, take-5)
+compound:prt(take-5, off-6)
+cc(take-5, and-7)
+conj:and(take-5, fly-8)
+nummod(meters-10, three-9)
+dobj(fly-8, meters-10)
+case(road-13, above-11)
+det(road-13, the-12)
+nmod:above(meters-10, road-13)
+
+(ROOT
+  (S
+    (NP (NNP Beep))
+    (, ,)
+    (VP (VB welcome))
+    (. !)))
+
+nsubj(welcome-3, Beep-1)
+root(ROOT-0, welcome-3)
+
+(ROOT
+  (S
+    (NP (PRP it))
+    (VP (VBZ says)
+      (PP (TO to)
+        (NP (PRP you)))
+      (SBAR (IN as)
+        (S
+          (NP (PRP it))
+          (VP (VBZ opens)
+            (NP (PRP$ its) (NN door))))))
+    (. .)))
+
+nsubj(says-2, it-1)
+root(ROOT-0, says-2)
+case(you-4, to-3)
+nmod:to(says-2, you-4)
+mark(opens-7, as-5)
+nsubj(opens-7, it-6)
+advcl(says-2, opens-7)
+nmod:poss(door-9, its-8)
+dobj(opens-7, door-9)
+
+(ROOT
+  (NP
+    (NP (NNS Thanks))
+    (PP (IN for)
+      (S
+        (VP (VBG riding)
+          (PP (IN in)
+            (NP (PRP me))))))
+    (. .)))
+
+root(ROOT-0, Thanks-1)
+mark(riding-3, for-2)
+acl(Thanks-1, riding-3)
+case(me-5, in-4)
+nmod:in(riding-3, me-5)
+
+(ROOT
+  (SBARQ
+    (WHADVP (WRB Where))
+    (SQ (VBP are)
+      (NP (PRP you))
+      (VP (VBG heading)))
+    (. ?)))
+
+advmod(heading-4, Where-1)
+aux(heading-4, are-2)
+nsubj(heading-4, you-3)
+root(ROOT-0, heading-4)
+
+(ROOT
+  (FRAG
+    (NP (NNP School))
+    (. !)))
+
+root(ROOT-0, School-1)
+
+(ROOT
+  (S
+    (NP (PRP you))
+    (VP (VBP say))
+    (. .)))
+
+nsubj(say-2, you-1)
+root(ROOT-0, say-2)
+
+(ROOT
+  (NP (JJ Full) (NN speed) (. !)))
+
+amod(speed-2, Full-1)
+root(ROOT-0, speed-2)
+
+(ROOT
+  (S
+    (ADVP (RB Quickly))
+    (, ,)
+    (S
+      (NP (DT the) (VBG flying) (NN car))
+      (VP (VBZ takes)
+        (PRT (RP off))))
+    (, ,)
+    (CC and)
+    (S
+      (PP (IN within)
+        (NP (RB just) (CD thirty)))
+      (NP (NNS seconds))
+      (VP (VBP youre)
+        (PP (IN in)
+          (NP (NN school)))))
+    (. .)))
+
+advmod(takes-6, Quickly-1)
+det(car-5, the-3)
+amod(car-5, flying-4)
+nsubj(takes-6, car-5)
+root(ROOT-0, takes-6)
+compound:prt(takes-6, off-7)
+cc(takes-6, and-9)
+case(thirty-12, within-10)
+advmod(thirty-12, just-11)
+nmod:within(youre-14, thirty-12)
+nsubj(youre-14, seconds-13)
+conj:and(takes-6, youre-14)
+case(school-16, in-15)
+nmod:in(youre-14, school-16)
+
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (VBP get)
+      (PP (TO to)
+        (NP (PRP$ your) (NN classroom) (NN right)))
+      (PP (IN on)
+        (NP (NN time))))
+    (. .)))
+
+nsubj(get-2, You-1)
+root(ROOT-0, get-2)
+case(right-6, to-3)
+nmod:poss(right-6, your-4)
+compound(right-6, classroom-5)
+nmod:to(get-2, right-6)
+case(time-8, on-7)
+nmod:on(get-2, time-8)
+
+(ROOT
+  (S
+    (PP (IN After)
+      (NP (NN school)))
+    (, ,)
+    (NP (PRP you))
+    (VP (VBP fly)
+      (NP (NN home))
+      (ADVP (RB again)))
+    (. .)))
+
+case(school-2, After-1)
+nmod:after(fly-5, school-2)
+nsubj(fly-5, you-4)
+root(ROOT-0, fly-5)
+dobj(fly-5, home-6)
+advmod(fly-5, again-7)
+
+(ROOT
+  (S
+    (SBAR (IN As)
+      (S
+        (NP (NNP Mario))
+        (VP (VBZ passes)
+          (PP (TO to)
+            (NP (PRP you)))
+          (NP
+            (NP (DT an) (JJ ice-cold) (NN bottle))
+            (PP (IN of)
+              (NP (NN soda)))))))
+    (, ,)
+    (NP (PRP you))
+    (VP (VBP notice)
+      (NP
+        (NP (DT a) (NN text) (NN message))
+        (VP (VBG hovering)
+          (PP (IN in)
+            (NP (DT the) (NN air))))))
+    (. .)))
+
+mark(passes-3, As-1)
+nsubj(passes-3, Mario-2)
+advcl(notice-13, passes-3)
+case(you-5, to-4)
+nmod:to(passes-3, you-5)
+det(bottle-8, an-6)
+amod(bottle-8, ice-cold-7)
+dobj(passes-3, bottle-8)
+case(soda-10, of-9)
+nmod:of(bottle-8, soda-10)
+nsubj(notice-13, you-12)
+root(ROOT-0, notice-13)
+det(message-16, a-14)
+compound(message-16, text-15)
+dobj(notice-13, message-16)
+acl(message-16, hovering-17)
+case(air-20, in-18)
+det(air-20, the-19)
+nmod:in(hovering-17, air-20)
+
+(ROOT
+  (S
+    (NP
+      (NP (PRP$ Your) (JJ new) (NN order))
+      (, ,)
+      (NP (DT the) (JJ wearable) (NN computer))
+      (, ,))
+    (VP (VBZ has)
+      (VP (VBN arrived)))
+    (. .)))
+
+nmod:poss(order-3, Your-1)
+amod(order-3, new-2)
+nsubj(arrived-10, order-3)
+det(computer-7, the-5)
+amod(computer-7, wearable-6)
+appos(order-3, computer-7)
+aux(arrived-10, has-9)
+root(ROOT-0, arrived-10)
+
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (MD can)
+      (VP (VB collect)
+        (NP (PRP it))
+        (PP (IN from)
+          (NP
+            (NP (DT the) (NN store))
+            (PP (IN at)
+              (NP (DT any) (NN time)))))))
+    (. .)))
+
+nsubj(collect-3, You-1)
+aux(collect-3, can-2)
+root(ROOT-0, collect-3)
+dobj(collect-3, it-4)
+case(store-7, from-5)
+det(store-7, the-6)
+nmod:from(collect-3, store-7)
+case(time-10, at-8)
+det(time-10, any-9)
+nmod:at(store-7, time-10)
+
+(ROOT
+  (S
+    (VP (VB Thank)
+      (NP (PRP you)))
+    (. .)))
+
+root(ROOT-0, Thank-1)
+dobj(Thank-1, you-2)
+
+(ROOT
+  (FRAG
+    (WHNP (WDT What))
+    (PP (FW a)
+      (NP (JJ nice) (NN surprise)))
+    (. !)))
+
+root(ROOT-0, What-1)
+dep(surprise-4, a-2)
+amod(surprise-4, nice-3)
+nmod(What-1, surprise-4)
+
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (VBP have)
+      (VP (VBN been)
+        (VP (VBG expecting)
+          (NP (CD one))
+          (SBAR (IN since)
+            (S
+              (NP (PRP it))
+              (VP (VBD was)
+                (VP (VBN put)
+                  (PP (IN on)
+                    (NP (DT the) (NN market))
+                    (NP (DT a) (NN week) (IN ago))))))))))
+    (. .)))
+
+nsubj(expecting-4, You-1)
+aux(expecting-4, have-2)
+aux(expecting-4, been-3)
+root(ROOT-0, expecting-4)
+dobj(expecting-4, one-5)
+mark(put-9, since-6)
+nsubjpass(put-9, it-7)
+auxpass(put-9, was-8)
+advcl(expecting-4, put-9)
+case(market-12, on-10)
+det(market-12, the-11)
+nmod:on(put-9, market-12)
+det(week-14, a-13)
+nmod:tmod(market-12, week-14)
+amod(week-14, ago-15)
+
+(ROOT
+  (S
+    (S
+      (SBAR (RB Just) (IN as)
+        (S
+          (NP (PRP you))
+          (VP (VBP are)
+            (VP (VBG wondering)
+              (SBAR
+                (WHADVP (WRB how))
+                (S
+                  (VP (TO to)
+                    (VP (VB show)
+                      (PRT (RP off))
+                      (NP (DT this) (JJ new) (NN gadget))
+                      (PP (TO to)
+                        (NP (PRP$ your) (NNS classmates)))))))))))
+      (, ,)
+      (NP (DT another) (NN text) (NN message))
+      (VP
+        (VP (VBZ flies)
+          (PRT (RP in)))
+        (CC and)
+        (VP (VBZ hovers)
+          (ADVP (RB right)
+            (PP (IN in)
+              (NP
+                (NP (NN front))
+                (PP (IN of)
+                  (NP (PRP you))))
+              (, ,)
+              (NP (DT this) (NN time))))
+          (PP (IN for)
+            (NP (PRP$ your) (NN father))))))
+    (: :)
+    (S
+      (NP
+        (NP (NNP Mr.) (NNP Wilson))
+        (, ,)
+        (NP
+          (NP (DT the) (NN vehicle) (NN registration) (NN card))
+          (PP (IN of)
+            (NP (PRP$ your) (VBG flying) (NN car)))))
+      (VP (MD will)
+        (VP (VB be)
+          (VP (VBN suspended)))))
+    (. .)))
+
+advmod(wondering-5, Just-1)
+mark(wondering-5, as-2)
+nsubj(wondering-5, you-3)
+aux(wondering-5, are-4)
+advcl(flies-20, wondering-5)
+advmod(show-8, how-6)
+mark(show-8, to-7)
+ccomp(wondering-5, show-8)
+compound:prt(show-8, off-9)
+det(gadget-12, this-10)
+amod(gadget-12, new-11)
+dobj(show-8, gadget-12)
+case(classmates-15, to-13)
+nmod:poss(classmates-15, your-14)
+nmod:to(show-8, classmates-15)
+det(message-19, another-17)
+compound(message-19, text-18)
+nsubj(flies-20, message-19)
+nsubj(hovers-23, message-19)
+root(ROOT-0, flies-20)
+compound:prt(flies-20, in-21)
+cc(flies-20, and-22)
+conj:and(flies-20, hovers-23)
+advmod(hovers-23, right-24)
+case(you-28, in-25)
+mwe(in-25, front-26)
+mwe(in-25, of-27)
+nmod:in_front_of(right-24, you-28)
+det(time-31, this-30)
+dep(you-28, time-31)
+case(father-34, for-32)
+nmod:poss(father-34, your-33)
+nmod:for(hovers-23, father-34)
+compound(Wilson-37, Mr.-36)
+nsubjpass(suspended-49, Wilson-37)
+det(card-42, the-39)
+compound(card-42, vehicle-40)
+compound(card-42, registration-41)
+appos(Wilson-37, card-42)
+case(car-46, of-43)
+nmod:poss(car-46, your-44)
+amod(car-46, flying-45)
+nmod:of(card-42, car-46)
+aux(suspended-49, will-47)
+auxpass(suspended-49, be-48)
+parataxis(flies-20, suspended-49)
+
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (VBP have)
+      (VP (VBN been)
+        (VP (VBN accused)
+          (PP (IN of)
+            (S
+              (VP (VBG speeding)))))))
+    (. .)))
+
+nsubjpass(accused-4, You-1)
+aux(accused-4, have-2)
+auxpass(accused-4, been-3)
+root(ROOT-0, accused-4)
+mark(speeding-6, of-5)
+advcl(accused-4, speeding-6)
+
+(ROOT
+  (NP (NNP Air) (NNP Traffic) (NNP Police)))
+
+compound(Police-3, Air-1)
+compound(Police-3, Traffic-2)
+root(ROOT-0, Police-3)
+

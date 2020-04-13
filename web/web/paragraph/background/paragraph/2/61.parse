@@ -1,0 +1,1163 @@
+(ROOT
+  (S
+    (NP (NNP Learning))
+    (VP (TO to)
+      (VP (VB Keep)
+        (NP (PRP$ Your) (NN Cool))))
+    (. .)))
+
+nsubj(Keep-3, Learning-1)
+mark(Keep-3, to-2)
+root(ROOT-0, Keep-3)
+nmod:poss(Cool-5, Your-4)
+dobj(Keep-3, Cool-5)
+
+(ROOT
+  (SQ (VBP Have)
+    (NP (PRP you))
+    (VP
+      (VP
+        (ADVP (RB ever))
+        (VBN panicked))
+      (CC or)
+      (VP (VBN blanked)
+        (PRT (RP out))
+        (PP (IN during)
+          (NP (DT a) (NN test)))))
+    (. ?)))
+
+aux(panicked-4, Have-1)
+nsubj(panicked-4, you-2)
+nsubj(blanked-6, you-2)
+advmod(panicked-4, ever-3)
+root(ROOT-0, panicked-4)
+cc(panicked-4, or-5)
+conj:or(panicked-4, blanked-6)
+compound:prt(blanked-6, out-7)
+case(test-10, during-8)
+det(test-10, a-9)
+nmod:during(blanked-6, test-10)
+
+(ROOT
+  (S
+    (NP (JJS Most) (NNS students))
+    (VP (VBP experience)
+      (NP
+        (NP (DT some) (NN level))
+        (PP (IN of)
+          (NP (NN anxiety))))
+      (PP
+        (CONJP (RB not) (JJ only))
+        (PP (IN during)
+          (NP (DT a) (NN test)))
+        (, ,)
+        (CONJP (CC but)
+          (RB also))
+        (PP (IN before)
+          (NP (DT a) (NN test)))))
+    (. .)))
+
+amod(students-2, Most-1)
+nsubj(experience-3, students-2)
+nsubj(experience-3', students-2)
+root(ROOT-0, experience-3)
+conj:and(experience-3, experience-3')
+det(level-5, some-4)
+dobj(experience-3, level-5)
+case(anxiety-7, of-6)
+nmod:of(level-5, anxiety-7)
+neg(only-9, not-8)
+cc:preconj(test-12, only-9)
+case(test-12, during-10)
+det(test-12, a-11)
+nmod:during(experience-3, test-12)
+cc(experience-3, but-14)
+advmod(test-18, also-15)
+case(test-18, before-16)
+det(test-18, a-17)
+nmod:before(experience-3', test-18)
+
+(ROOT
+  (NP
+    (NP (DT Some) (NN experience))
+    (NP (RB mainly) (JJ physical) (NNS symptoms))
+    (, ,)
+    (PP (JJ such) (IN as)
+      (NP
+        (NP (NNS headaches))
+        (, ,)
+        (NP (JJ upset) (NN stomach))
+        (, ,)
+        (NP (NN nausea))
+        (, ,)
+        (NP (NNS restlessness))
+        (, ,)
+        (CC and)
+        (NP (NN sleep) (NNS problems))))
+    (. .)))
+
+det(experience-2, Some-1)
+root(ROOT-0, experience-2)
+advmod(symptoms-5, mainly-3)
+amod(symptoms-5, physical-4)
+dep(experience-2, symptoms-5)
+case(headaches-9, such-7)
+mwe(such-7, as-8)
+nmod:such_as(experience-2, headaches-9)
+amod(stomach-12, upset-11)
+nmod:such_as(experience-2, stomach-12)
+conj:and(headaches-9, stomach-12)
+nmod:such_as(experience-2, nausea-14)
+conj:and(headaches-9, nausea-14)
+nmod:such_as(experience-2, restlessness-16)
+conj:and(headaches-9, restlessness-16)
+cc(headaches-9, and-18)
+compound(problems-20, sleep-19)
+nmod:such_as(experience-2, problems-20)
+conj:and(headaches-9, problems-20)
+
+(ROOT
+  (S
+    (NP (NNS Others))
+    (VP (VBP experience)
+      (NP
+        (ADJP (RBR more) (JJ emotional))
+        (NNS symptoms))
+      (, ,)
+      (PP (IN like)
+        (S
+          (VP
+            (VP (VBG crying)
+              (ADVP (RB easily)))
+            (, ,)
+            (VP (VBG feeling)
+              (NP (NN irritable)))
+            (, ,)
+            (CC or)
+            (VP (VBG getting)
+              (S
+                (VP (VBN frustrated)
+                  (ADVP (RB quickly)))))))))
+    (. .)))
+
+nsubj(experience-2, Others-1)
+root(ROOT-0, experience-2)
+advmod(emotional-4, more-3)
+amod(symptoms-5, emotional-4)
+dobj(experience-2, symptoms-5)
+mark(crying-8, like-7)
+advcl(experience-2, crying-8)
+advmod(crying-8, easily-9)
+advcl(experience-2, feeling-11)
+conj:or(crying-8, feeling-11)
+dobj(feeling-11, irritable-12)
+cc(crying-8, or-14)
+advcl(experience-2, getting-15)
+conj:or(crying-8, getting-15)
+dep(getting-15, frustrated-16)
+advmod(frustrated-16, quickly-17)
+
+(ROOT
+  (S
+    (NP (PRP They))
+    (VP (VBP are)
+      (VP (VBG suffering)
+        (PP (IN from)
+          (SBAR
+            (WHNP (WP what))
+            (S
+              (VP (VBZ is)
+                (VP (VBN called)
+                  (NP (NN test) (NN anxiety)))))))))
+    (. .)))
+
+nsubj(suffering-3, They-1)
+aux(suffering-3, are-2)
+root(ROOT-0, suffering-3)
+mark(called-7, from-4)
+nsubjpass(called-7, what-5)
+auxpass(called-7, is-6)
+advcl(suffering-3, called-7)
+compound(anxiety-9, test-8)
+dobj(called-7, anxiety-9)
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (NN fact)))
+    (, ,)
+    (NP
+      (NP (DT a) (JJ little) (NN bit))
+      (PP (IN of)
+        (NP (NN stress))))
+    (VP (VBZ is)
+      (ADJP (JJ helpful)))
+    (. .)))
+
+case(fact-2, In-1)
+nmod:in(helpful-10, fact-2)
+det(bit-6, a-4)
+amod(bit-6, little-5)
+nsubj(helpful-10, bit-6)
+case(stress-8, of-7)
+nmod:of(bit-6, stress-8)
+cop(helpful-10, is-9)
+root(ROOT-0, helpful-10)
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ makes)
+      (SBAR
+        (S
+          (NP (NNS students))
+          (VP
+            (VP (VBP feel)
+              (ADJP (JJ keyed)
+                (PRT (RP up))))
+            (CC and)
+            (VP (VBZ helps)
+              (S
+                (NP (PRP them))
+                (VP (TO to)
+                  (VP (VB perform)
+                    (ADVP (RBR better))))))))))
+    (. .)))
+
+nsubj(makes-2, It-1)
+root(ROOT-0, makes-2)
+nsubj(feel-4, students-3)
+nsubj(helps-8, students-3)
+ccomp(makes-2, feel-4)
+xcomp(feel-4, keyed-5)
+dep(keyed-5, up-6)
+cc(feel-4, and-7)
+ccomp(makes-2, helps-8)
+conj:and(feel-4, helps-8)
+dobj(helps-8, them-9)
+nsubj(perform-11, them-9)
+mark(perform-11, to-10)
+xcomp(helps-8, perform-11)
+advmod(perform-11, better-12)
+
+(ROOT
+  (S
+    (ADVP (RB However))
+    (, ,)
+    (NP (NN test) (NN anxiety))
+    (VP (MD can)
+      (VP (VB make)
+        (S
+          (NP (PRP it))
+          (ADJP (JJ difficult)
+            (S
+              (VP (TO to)
+                (VP (VB concentrate)
+                  (SBAR (IN because)
+                    (S
+                      (NP (NNS students))
+                      (VP (MD may) (RB not)
+                        (VP (VB have)
+                          (VP (VBN had)
+                            (NP (JJ enough) (NN sleep))))))))))))))
+    (. .)))
+
+advmod(make-6, However-1)
+compound(anxiety-4, test-3)
+nsubj(make-6, anxiety-4)
+aux(make-6, can-5)
+root(ROOT-0, make-6)
+nsubj(difficult-8, it-7)
+nsubj(concentrate-10, it-7)
+xcomp(make-6, difficult-8)
+mark(concentrate-10, to-9)
+xcomp(difficult-8, concentrate-10)
+mark(had-16, because-11)
+nsubj(had-16, students-12)
+aux(had-16, may-13)
+neg(had-16, not-14)
+aux(had-16, have-15)
+advcl(concentrate-10, had-16)
+amod(sleep-18, enough-17)
+dobj(had-16, sleep-18)
+
+(ROOT
+  (S
+    (ADVP (RB Thus))
+    (, ,)
+    (NP (JJ such) (NN anxiety))
+    (VP (MD may)
+      (VP (VB increase)
+        (NP
+          (NP (DT the) (NN likelihood))
+          (PP (IN of)
+            (S
+              (VP (VBG forgetting)
+                (CC and)
+                (VBG making)
+                (NP (JJ careless) (NNS errors))
+                (PP (IN on)
+                  (NP (DT an) (NN exam)))))))))
+    (. .)))
+
+advmod(increase-6, Thus-1)
+amod(anxiety-4, such-3)
+nsubj(increase-6, anxiety-4)
+aux(increase-6, may-5)
+root(ROOT-0, increase-6)
+det(likelihood-8, the-7)
+dobj(increase-6, likelihood-8)
+mark(forgetting-10, of-9)
+acl(likelihood-8, forgetting-10)
+cc(forgetting-10, and-11)
+acl(likelihood-8, making-12)
+conj:and(forgetting-10, making-12)
+amod(errors-14, careless-13)
+dobj(forgetting-10, errors-14)
+case(exam-17, on-15)
+det(exam-17, an-16)
+nmod:on(forgetting-10, exam-17)
+
+(ROOT
+  (S
+    (NP (DT This) (NN anxiety))
+    (VP (MD can)
+      (ADVP (RB also))
+      (VP (VB affect)
+        (NP (NN exam) (NN performance))
+        (PP (IN by)
+          (S
+            (VP (VBG making)
+              (S
+                (NP (PRP it))
+                (ADJP (JJ hard)
+                  (PP (IN for)
+                    (NP (NNS students))))
+                (S
+                  (VP (TO to)
+                    (VP (VB prepare)
+                      (ADVP (RB well))
+                      (PP (IN for)
+                        (NP (DT a) (NN test))))))))))))
+    (. .)))
+
+det(anxiety-2, This-1)
+nsubj(affect-5, anxiety-2)
+aux(affect-5, can-3)
+advmod(affect-5, also-4)
+root(ROOT-0, affect-5)
+compound(performance-7, exam-6)
+dobj(affect-5, performance-7)
+mark(making-9, by-8)
+advcl(affect-5, making-9)
+nsubj(prepare-15, it-10)
+dep(prepare-15, hard-11)
+case(students-13, for-12)
+nmod:for(hard-11, students-13)
+mark(prepare-15, to-14)
+xcomp(making-9, prepare-15)
+advmod(prepare-15, well-16)
+case(test-19, for-17)
+det(test-19, a-18)
+nmod:for(prepare-15, test-19)
+
+(ROOT
+  (S
+    (S
+      (NP (NNP Poor) (NN preparation))
+      (VP (MD may)
+        (VP (VB result)
+          (PP (IN from)
+            (NP
+              (NP (DT any))
+              (PP (IN of)
+                (NP (DT the) (NN following)))))
+          (: :)
+          (S
+            (NP (JJ poor) (NN time) (NN management) (NN failure))
+            (VP (TO to)
+              (VP (VB organize)
+                (S
+                  (NP (NN course) (NN information))
+                  (NP (JJ poor) (NN study) (NNS habits))
+                  (SBAR (IN If)
+                    (S
+                      (NP (PRP you))
+                      (VP (VBP suffer)
+                        (PP (IN from)
+                          (NP (NN test) (NN anxiety)))))))))))))
+    (, ,)
+    (NP (PRP you))
+    (VP (MD should)
+      (VP (VB know)
+        (SBAR (IN that)
+          (S
+            (NP (EX there))
+            (VP (VBP are)
+              (NP (NNS ways)
+                (S
+                  (VP (TO to)
+                    (VP (VB overcome)
+                      (NP (PRP it)))))))))))
+    (. .)))
+
+compound(preparation-2, Poor-1)
+nsubj(result-4, preparation-2)
+aux(result-4, may-3)
+ccomp(know-31, result-4)
+case(any-6, from-5)
+nmod:from(result-4, any-6)
+case(following-9, of-7)
+det(following-9, the-8)
+nmod:of(any-6, following-9)
+amod(failure-14, poor-11)
+compound(failure-14, time-12)
+compound(failure-14, management-13)
+dobj(result-4, failure-14)
+mark(organize-16, to-15)
+parataxis(result-4, organize-16)
+compound(information-18, course-17)
+nsubj(suffer-24, information-18)
+amod(habits-21, poor-19)
+compound(habits-21, study-20)
+dep(suffer-24, habits-21)
+mark(suffer-24, If-22)
+nsubj(suffer-24, you-23)
+xcomp(organize-16, suffer-24)
+case(anxiety-27, from-25)
+compound(anxiety-27, test-26)
+nmod:from(suffer-24, anxiety-27)
+nsubj(know-31, you-29)
+aux(know-31, should-30)
+root(ROOT-0, know-31)
+mark(are-34, that-32)
+expl(are-34, there-33)
+ccomp(know-31, are-34)
+nsubj(are-34, ways-35)
+mark(overcome-37, to-36)
+acl(ways-35, overcome-37)
+dobj(overcome-37, it-38)
+
+(ROOT
+  (S
+    (PP (IN Before)
+      (NP (DT a) (NN test)))
+    (, ,)
+    (VP (VB try)
+      (S
+        (VP (TO to)
+          (VP (VB build)
+            (PRT (RP up))
+            (NP (PRP$ your) (NN confidence))))))
+    (. .)))
+
+case(test-3, Before-1)
+det(test-3, a-2)
+nmod:before(try-5, test-3)
+root(ROOT-0, try-5)
+mark(build-7, to-6)
+xcomp(try-5, build-7)
+compound:prt(build-7, up-8)
+nmod:poss(confidence-10, your-9)
+dobj(build-7, confidence-10)
+
+(ROOT
+  (S
+    (VP (VB View)
+      (NP (DT the) (NN test))
+      (PP (IN as)
+        (NP (DT an) (NN opportunity)
+          (S
+            (VP (TO to)
+              (VP (VB show)
+                (SBAR
+                  (WHADJP (WRB how) (JJ much))
+                  (S
+                    (NP (NN youve))
+                    (VP (VBD studied))))))))))
+    (. .)))
+
+root(ROOT-0, View-1)
+det(test-3, the-2)
+dobj(View-1, test-3)
+case(opportunity-6, as-4)
+det(opportunity-6, an-5)
+nmod:as(View-1, opportunity-6)
+mark(show-8, to-7)
+acl(opportunity-6, show-8)
+advmod(much-10, how-9)
+dep(studied-12, much-10)
+nsubj(studied-12, youve-11)
+ccomp(show-8, studied-12)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB Digest))
+      (CC and)
+      (VP (VB organize)
+        (NP (DT the) (NN material))
+        (ADVP (RB thoroughly))))
+    (. .)))
+
+root(ROOT-0, Digest-1)
+cc(Digest-1, and-2)
+conj:and(Digest-1, organize-3)
+det(material-5, the-4)
+dobj(organize-3, material-5)
+advmod(organize-3, thoroughly-6)
+
+(ROOT
+  (S
+    (VP
+      (VP (VB Allow)
+        (S
+          (NP (PRP yourself))
+          (NP
+            (NP (RB plenty))
+            (PP (IN of)
+              (NP (NN time))))))
+      (CC and)
+      (VP (VB avoid)
+        (S
+          (VP (VBG thinking)
+            (SBAR
+              (S
+                (NP (PRP you))
+                (VP (VBP need)
+                  (S
+                    (VP (TO to)
+                      (VP (VB cram)
+                        (ADVP (RB just))
+                        (PP (IN before)
+                          (NP (DT the) (JJ big) (NN test)))))))))))))
+    (. .)))
+
+root(ROOT-0, Allow-1)
+nsubj(plenty-3, yourself-2)
+xcomp(Allow-1, plenty-3)
+case(time-5, of-4)
+nmod:of(plenty-3, time-5)
+cc(Allow-1, and-6)
+conj:and(Allow-1, avoid-7)
+xcomp(avoid-7, thinking-8)
+nsubj(need-10, you-9)
+nsubj(cram-12, you-9)
+ccomp(thinking-8, need-10)
+mark(cram-12, to-11)
+xcomp(need-10, cram-12)
+advmod(cram-12, just-13)
+case(test-17, before-14)
+det(test-17, the-15)
+amod(test-17, big-16)
+nmod:before(cram-12, test-17)
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (NN addition)))
+    (, ,)
+    (S
+      (VP (VBG getting)
+        (NP (DT a) (JJ good) (NNS nights) (NN sleep))))
+    (VP (MD can)
+      (VP (VB sharpen)
+        (NP (DT the) (NN mind))))
+    (. .)))
+
+case(addition-2, In-1)
+nmod:in(sharpen-10, addition-2)
+csubj(sharpen-10, getting-4)
+det(sleep-8, a-5)
+amod(sleep-8, good-6)
+compound(sleep-8, nights-7)
+dobj(getting-4, sleep-8)
+aux(sharpen-10, can-9)
+root(ROOT-0, sharpen-10)
+det(mind-12, the-11)
+dobj(sharpen-10, mind-12)
+
+(ROOT
+  (S
+    (PP (IN During)
+      (NP (DT the) (NN test)))
+    (, ,)
+    (VP (VB read)
+      (S
+        (NP (DT the) (NNS directions))
+        (UCP
+          (ADVP (RB carefully))
+          (CC and)
+          (NP
+            (NP (NN budget))
+            (NP (PRP$ your) (JJ test-taking) (NN time))))))
+    (. .)))
+
+case(test-3, During-1)
+det(test-3, the-2)
+nmod:during(read-5, test-3)
+root(ROOT-0, read-5)
+det(directions-7, the-6)
+xcomp(read-5, directions-7)
+advmod(directions-7, carefully-8)
+cc(carefully-8, and-9)
+advmod(directions-7, budget-10)
+conj:and(carefully-8, budget-10)
+nmod:poss(time-13, your-11)
+amod(time-13, test-taking-12)
+dep(budget-10, time-13)
+
+(ROOT
+  (S
+    (SBAR (IN If)
+      (S
+        (NP (PRP you))
+        (VP (VBP go)
+          (ADJP (JJ blank)))))
+    (, ,)
+    (VP
+      (VP (VB skip)
+        (NP (DT that) (NN question)))
+      (CC and)
+      (VP (VB go)
+        (PRT (RP on))))
+    (. .)))
+
+mark(go-3, If-1)
+nsubj(go-3, you-2)
+advcl(skip-6, go-3)
+xcomp(go-3, blank-4)
+root(ROOT-0, skip-6)
+det(question-8, that-7)
+dobj(skip-6, question-8)
+cc(skip-6, and-9)
+conj:and(skip-6, go-10)
+compound:prt(go-10, on-11)
+
+(ROOT
+  (S
+    (SBAR
+      (WHADVP (WRB When))
+      (S
+        (NP (JJ other) (NNS students))
+        (VP (VBP start)
+          (S
+            (VP (VBG handing)
+              (PP (IN in)
+                (NP (PRP$ their) (NNS papers))))))))
+    (, ,)
+    (VP (VB dont)
+      (NP (NN panic)))
+    (. .)))
+
+advmod(start-4, When-1)
+amod(students-3, other-2)
+nsubj(start-4, students-3)
+advcl(dont-10, start-4)
+xcomp(start-4, handing-5)
+case(papers-8, in-6)
+nmod:poss(papers-8, their-7)
+nmod:in(handing-5, papers-8)
+root(ROOT-0, dont-10)
+dobj(dont-10, panic-11)
+
+(ROOT
+  (S
+    (VP (VB Theres)
+      (NP (DT no) (NN reward))
+      (PP (IN for)
+        (S
+          (VP (VBG being)
+            (NP
+              (NP (DT the) (JJ first) (NN one))
+              (VP (VBN done)))))))
+    (. .)))
+
+root(ROOT-0, Theres-1)
+neg(reward-3, no-2)
+dobj(Theres-1, reward-3)
+mark(one-8, for-4)
+cop(one-8, being-5)
+det(one-8, the-6)
+amod(one-8, first-7)
+advcl(Theres-1, one-8)
+acl(one-8, done-9)
+
+(ROOT
+  (S
+    (SBAR (IN If)
+      (S
+        (NP (PRP you))
+        (VP (VBP find)
+          (S
+            (NP (PRP yourself))
+            (VP
+              (VP (VBG tensing)
+                (PRT (RP up)))
+              (CC and)
+              (VP (VBG getting)
+                (ADJP (JJ anxious))))))))
+    (, ,)
+    (VP (VB try)
+      (S
+        (VP (TO to)
+          (VP (VB relax)))))
+    (. .)))
+
+mark(find-3, If-1)
+nsubj(find-3, you-2)
+advcl(try-11, find-3)
+nsubj(tensing-5, yourself-4)
+nsubj(getting-8, yourself-4)
+ccomp(find-3, tensing-5)
+compound:prt(tensing-5, up-6)
+cc(tensing-5, and-7)
+ccomp(find-3, getting-8)
+conj:and(tensing-5, getting-8)
+xcomp(getting-8, anxious-9)
+root(ROOT-0, try-11)
+mark(relax-13, to-12)
+xcomp(try-11, relax-13)
+
+(ROOT
+  (S
+    (ADVP (RB Otherwise))
+    (, ,)
+    (NP (PRP you))
+    (VP (MD might) (RB not)
+      (ADVP (RB even))
+      (VP (VB be)
+        (ADJP (JJ able)
+          (S
+            (VP (TO to)
+              (VP (VB put)
+                (PRT (RP down))
+                (NP
+                  (NP (DT the) (NNS answers))
+                  (SBAR
+                    (S
+                      (NP (PRP you))
+                      (ADVP (RB actually))
+                      (VP (VBP know)))))))))))
+    (. .)))
+
+advmod(able-8, Otherwise-1)
+nsubj(able-8, you-3)
+nsubj(put-10, you-3)
+aux(able-8, might-4)
+neg(able-8, not-5)
+advmod(able-8, even-6)
+cop(able-8, be-7)
+root(ROOT-0, able-8)
+mark(put-10, to-9)
+xcomp(able-8, put-10)
+compound:prt(put-10, down-11)
+det(answers-13, the-12)
+dobj(put-10, answers-13)
+nsubj(know-16, you-14)
+advmod(know-16, actually-15)
+acl:relcl(answers-13, know-16)
+
+(ROOT
+  (S
+    (VP (VB Try)
+      (S
+        (VP (VBG stretching)
+          (ADJP (RB as) (JJ hard))
+          (SBAR (IN as)
+            (S
+              (NP (PRP you))
+              (VP (MD can)))))))
+    (. .)))
+
+root(ROOT-0, Try-1)
+xcomp(Try-1, stretching-2)
+advmod(hard-4, as-3)
+xcomp(stretching-2, hard-4)
+mark(can-7, as-5)
+nsubj(can-7, you-6)
+advcl(stretching-2, can-7)
+
+(ROOT
+  (S
+    (ADVP (RB Tense))
+    (NP
+      (NP (DT the) (NNS muscles))
+      (PP (IN in)
+        (NP (PRP$ your) (NNS arms)
+          (CC and)
+          (NNS legs))))
+    (: ;)
+    (ADVP (RB then))
+    (VP
+      (ADVP (RB suddenly))
+      (VBP relax)
+      (NP
+        (NP (DT all))
+        (PP (IN of)
+          (NP (PRP them)))))
+    (. .)))
+
+advmod(relax-12, Tense-1)
+det(muscles-3, the-2)
+nsubj(relax-12, muscles-3)
+case(arms-6, in-4)
+nmod:poss(arms-6, your-5)
+nmod:in(muscles-3, arms-6)
+cc(arms-6, and-7)
+nmod:in(muscles-3, legs-8)
+conj:and(arms-6, legs-8)
+advmod(relax-12, then-10)
+advmod(relax-12, suddenly-11)
+root(ROOT-0, relax-12)
+dobj(relax-12, all-13)
+case(them-15, of-14)
+nmod:of(all-13, them-15)
+
+(ROOT
+  (S
+    (NP (DT This))
+    (VP (MD will)
+      (VP (VB help)
+        (VP (VB relieve)
+          (NP (NN tension)))))
+    (. .)))
+
+nsubj(help-3, This-1)
+aux(help-3, will-2)
+root(ROOT-0, help-3)
+xcomp(help-3, relieve-4)
+dobj(relieve-4, tension-5)
+
+(ROOT
+  (S (CC But)
+    (S
+      (VP (VB keep)
+        (PP (IN in)
+          (NP (NN mind)))
+        (SBAR (IN that)
+          (S
+            (NP (PRP you))
+            (VP (VBP dont))))))
+    (VP (VBP want)
+      (S
+        (VP (TO to)
+          (VP (VB be)
+            (VP
+              (ADVP (RB too))
+              (VBN relaxed))))))
+    (. .)))
+
+cc(want-8, But-1)
+csubj(want-8, keep-2)
+case(mind-4, in-3)
+nmod:in(keep-2, mind-4)
+mark(dont-7, that-5)
+nsubj(dont-7, you-6)
+ccomp(keep-2, dont-7)
+root(ROOT-0, want-8)
+mark(relaxed-12, to-9)
+auxpass(relaxed-12, be-10)
+advmod(relaxed-12, too-11)
+xcomp(want-8, relaxed-12)
+
+(ROOT
+  (S
+    (S
+      (VP (VBG Being)
+        (VP
+          (ADVP (RB totally))
+          (VBN relaxed))))
+    (VP (VBZ is)
+      (ADJP
+        (ADJP (RB no) (JJR better))
+        (PP (IN than)
+          (S
+            (VP (VBG being)
+              (ADJP (RB too) (JJ tense)))))))
+    (. .)))
+
+auxpass(relaxed-3, Being-1)
+advmod(relaxed-3, totally-2)
+csubj(better-6, relaxed-3)
+cop(better-6, is-4)
+neg(better-6, no-5)
+root(ROOT-0, better-6)
+mark(tense-10, than-7)
+cop(tense-10, being-8)
+advmod(tense-10, too-9)
+advcl(better-6, tense-10)
+
+(ROOT
+  (S
+    (SBAR (IN If)
+      (S
+        (NP (PRP you))
+        (VP (VBP are)
+          (ADJP (RB so) (JJ calm)
+            (SBAR (IN that)
+              (S
+                (NP (PRP you))
+                (VP (VBP dont)
+                  (NP (NN care))
+                  (SBAR
+                    (WHADVP (WRB how))
+                    (S
+                      (NP (PRP you))
+                      (VP (VBP do)
+                        (PP (IN on)
+                          (NP (DT a) (NN test)))))))))))))
+    (, ,)
+    (NP (PRP you))
+    (VP (VBP wont)
+      (S
+        (VP (VB do)
+          (ADVP (RB well)))))
+    (. .)))
+
+mark(calm-5, If-1)
+nsubj(calm-5, you-2)
+cop(calm-5, are-3)
+advmod(calm-5, so-4)
+advcl(wont-18, calm-5)
+mark(dont-8, that-6)
+nsubj(dont-8, you-7)
+ccomp(calm-5, dont-8)
+dobj(dont-8, care-9)
+advmod(do-12, how-10)
+nsubj(do-12, you-11)
+dep(dont-8, do-12)
+case(test-15, on-13)
+det(test-15, a-14)
+nmod:on(do-12, test-15)
+nsubj(wont-18, you-17)
+root(ROOT-0, wont-18)
+ccomp(wont-18, do-19)
+advmod(do-19, well-20)
+
+(ROOT
+  (S
+    (VP (VB Expect)
+      (NP (DT some) (NN anxiety)))
+    (. .)))
+
+root(ROOT-0, Expect-1)
+det(anxiety-3, some-2)
+dobj(Expect-1, anxiety-3)
+
+(ROOT
+  (S
+    (S
+      (VP (VBG Its)
+        (NP (DT a) (NN reminder))
+        (SBAR (IN that)
+          (S
+            (NP (PRP you))
+            (VP (VBP want)
+              (S
+                (VP (TO to)
+                  (VP (VB do)
+                    (NP (PRP$ your) (JJS best))))))))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (PRP it))
+      (VP
+        (VP (VBZ gives)
+          (NP (PRP you))
+          (NP (JJR more) (NN energy)))
+        (CC and)
+        (VP (VBZ helps)
+          (S
+            (NP (PRP you))
+            (VP (TO to)
+              (VP (VB concentrate)))))))
+    (. .)))
+
+root(ROOT-0, Its-1)
+det(reminder-3, a-2)
+dobj(Its-1, reminder-3)
+mark(want-6, that-4)
+nsubj(want-6, you-5)
+nsubj(do-8, you-5)
+ccomp(Its-1, want-6)
+mark(do-8, to-7)
+xcomp(want-6, do-8)
+nmod:poss(best-10, your-9)
+dobj(do-8, best-10)
+cc(Its-1, and-12)
+nsubj(gives-14, it-13)
+nsubj(helps-19, it-13)
+conj:and(Its-1, gives-14)
+iobj(gives-14, you-15)
+amod(energy-17, more-16)
+dobj(gives-14, energy-17)
+cc(gives-14, and-18)
+conj:and(Its-1, helps-19)
+conj:and(gives-14, helps-19)
+dobj(helps-19, you-20)
+nsubj(concentrate-22, you-20)
+mark(concentrate-22, to-21)
+xcomp(helps-19, concentrate-22)
+
+(ROOT
+  (S
+    (ADVP (RB Just))
+    (VP (VB keep)
+      (NP (PRP$ your) (NN anxiety))
+      (PP (IN at)
+        (NP
+          (NP (DT a) (NN level))
+          (SBAR
+            (WHNP (WDT that))
+            (S
+              (VP (VBZ is)
+                (ADJP (JJ manageable))))))))
+    (. .)))
+
+advmod(keep-2, Just-1)
+root(ROOT-0, keep-2)
+nmod:poss(anxiety-4, your-3)
+dobj(keep-2, anxiety-4)
+case(level-7, at-5)
+det(level-7, a-6)
+nmod:at(keep-2, level-7)
+nsubj(manageable-10, level-7)
+ref(level-7, that-8)
+cop(manageable-10, is-9)
+acl:relcl(level-7, manageable-10)
+
+(ROOT
+  (S
+    (VP (VB Realize)
+      (SBAR
+        (SBAR (IN that)
+          (S
+            (NP (NN anxiety))
+            (VP (MD can)
+              (ADVP (RB actually))
+              (VP (VB be)
+                (NP (DT a) (NN habit))))))
+        (CC and)
+        (SBAR (IN that)
+          (S
+            (NP (PRP it))
+            (VP (VBZ takes)
+              (NP (NN practice))
+              (S
+                (VP (TO to)
+                  (VP (VB use)
+                    (NP (PRP it))
+                    (PP (IN as)
+                      (NP (DT a) (NN means)
+                        (S
+                          (VP (TO to)
+                            (VP (VB succeed))))))))))))))
+    (. .)))
+
+root(ROOT-0, Realize-1)
+mark(habit-8, that-2)
+nsubj(habit-8, anxiety-3)
+aux(habit-8, can-4)
+advmod(habit-8, actually-5)
+cop(habit-8, be-6)
+det(habit-8, a-7)
+ccomp(Realize-1, habit-8)
+cc(habit-8, and-9)
+mark(takes-12, that-10)
+nsubj(takes-12, it-11)
+ccomp(Realize-1, takes-12)
+conj:and(habit-8, takes-12)
+dobj(takes-12, practice-13)
+mark(use-15, to-14)
+advcl(takes-12, use-15)
+dobj(use-15, it-16)
+case(means-19, as-17)
+det(means-19, a-18)
+nmod:as(use-15, means-19)
+mark(succeed-21, to-20)
+acl(means-19, succeed-21)
+
+(ROOT
+  (S
+    (SBAR (IN Once)
+      (S
+        (NP (PRP you))
+        (VP (VBP start)
+          (NP (DT the) (NN test)))))
+    (, ,)
+    (VP (VB stop)
+      (ADJP (JJ worrying)))
+    (. .)))
+
+mark(start-3, Once-1)
+nsubj(start-3, you-2)
+advcl(stop-7, start-3)
+det(test-5, the-4)
+dobj(start-3, test-5)
+root(ROOT-0, stop-7)
+xcomp(stop-7, worrying-8)
+
+(ROOT
+  (S
+    (VP (VB Do)
+      (NP (PRP$ your) (JJS best)))
+    (. .)))
+
+root(ROOT-0, Do-1)
+nmod:poss(best-3, your-2)
+dobj(Do-1, best-3)
+
+(ROOT
+  (S
+    (ADVP (IN Above) (DT all))
+    (, ,)
+    (NP (NN dont))
+    (VP (VBP forget)
+      (S
+        (VP (TO to)
+          (VP (VB celebrate)
+            (PP (IN after)
+              (NP (DT the) (NN test)))))))
+    (. .)))
+
+case(all-2, Above-1)
+advmod(forget-5, all-2)
+nsubj(forget-5, dont-4)
+nsubj(celebrate-7, dont-4)
+root(ROOT-0, forget-5)
+mark(celebrate-7, to-6)
+xcomp(forget-5, celebrate-7)
+case(test-10, after-8)
+det(test-10, the-9)
+nmod:after(celebrate-7, test-10)
+
+(ROOT
+  (SQ
+    (VP (VB Be)
+      (ADJP (JJ happy))
+      (SBAR (IN that)
+        (S
+          (NP (PRP you))
+          (VP (VBP have)
+            (VP (VBN overcome)
+              (NP (DT a) (JJ big) (NN obstacle)))))))
+    (. !)))
+
+cop(happy-2, Be-1)
+root(ROOT-0, happy-2)
+mark(overcome-6, that-3)
+nsubj(overcome-6, you-4)
+aux(overcome-6, have-5)
+ccomp(happy-2, overcome-6)
+det(obstacle-9, a-7)
+amod(obstacle-9, big-8)
+dobj(overcome-6, obstacle-9)
+
+(ROOT
+  (NP (NNP Xby) (NNP Eveline) (NNP Woolf)))
+
+compound(Woolf-3, Xby-1)
+compound(Woolf-3, Eveline-2)
+root(ROOT-0, Woolf-3)
+

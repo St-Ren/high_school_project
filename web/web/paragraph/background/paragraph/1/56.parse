@@ -1,0 +1,1285 @@
+(ROOT
+  (S
+    (VP (VB Follow)
+      (NP (PRP$ Your) (NN Dream)))
+    (. .)))
+
+root(ROOT-0, Follow-1)
+nmod:poss(Dream-3, Your-2)
+dobj(Follow-1, Dream-3)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP have)
+      (NP
+        (NP (DT a) (NN friend))
+        (VP (VBN named)
+          (NP (NNP Monty) (NNP Roberts)))))
+    (. .)))
+
+nsubj(have-2, I-1)
+root(ROOT-0, have-2)
+det(friend-4, a-3)
+dobj(have-2, friend-4)
+acl(friend-4, named-5)
+compound(Roberts-7, Monty-6)
+dobj(named-5, Roberts-7)
+
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (VBZ owns)
+      (NP (DT a) (NN horse) (NN ranch)))
+    (. .)))
+
+nsubj(owns-2, He-1)
+root(ROOT-0, owns-2)
+det(ranch-5, a-3)
+compound(ranch-5, horse-4)
+dobj(owns-2, ranch-5)
+
+(ROOT
+  (S
+    (NP (PRP He))
+    (ADVP (RB often))
+    (VP (VBZ lets)
+      (S
+        (NP (PRP me))
+        (VP (VB use)
+          (NP (PRP$ his) (NN house)
+            (S
+              (VP (TO to)
+                (VP (VB put)
+                  (PP (IN on)
+                    (NP (JJ fund-raising) (NNS events)))
+                  (SBAR (RB so) (IN that)
+                    (S
+                      (NP (PRP I))
+                      (VP (MD can)
+                        (VP (VB raise)
+                          (NP (NN money))
+                          (PP (IN for)
+                            (NP (JJ youth-at-risk) (NNS programs))))))))))))))
+    (. .)))
+
+nsubj(lets-3, He-1)
+advmod(lets-3, often-2)
+root(ROOT-0, lets-3)
+nsubj(use-5, me-4)
+ccomp(lets-3, use-5)
+nmod:poss(house-7, his-6)
+dobj(use-5, house-7)
+mark(put-9, to-8)
+acl(house-7, put-9)
+case(events-12, on-10)
+amod(events-12, fund-raising-11)
+nmod:on(put-9, events-12)
+mark(raise-17, so-13)
+mwe(so-13, that-14)
+nsubj(raise-17, I-15)
+aux(raise-17, can-16)
+advcl(put-9, raise-17)
+dobj(raise-17, money-18)
+case(programs-21, for-19)
+amod(programs-21, youth-at-risk-20)
+nmod:for(raise-17, programs-21)
+
+(ROOT
+  (S
+    (S
+      (NP
+        (NP (DT The) (JJ last) (NN time))
+        (SBAR
+          (S
+            (NP (PRP I))
+            (VP (VBD was)
+              (ADVP (RB there))
+              (NP (PRP he))))))
+      (VP (VBD introduced)
+        (NP (PRP me))
+        (PP (IN by)
+          (S
+            (VP (VBG saying))))))
+    (, ,)
+    (NP (PRP I))
+    (VP (VBP want)
+      (S
+        (VP (TO to)
+          (VP (VB tell)
+            (NP (PRP you))
+            (SBAR
+              (WHADVP (WRB why))
+              (S
+                (NP (PRP I))
+                (VP (VBD let)
+                  (SBAR
+                    (S
+                      (NP (NNP Jack))
+                      (VP (VBP use)
+                        (NP (PRP$ my) (NN house))))))))))))
+    (. .)))
+
+det(time-3, The-1)
+amod(time-3, last-2)
+nsubj(introduced-8, time-3)
+nsubj(he-7, I-4)
+cop(he-7, was-5)
+advmod(he-7, there-6)
+acl:relcl(time-3, he-7)
+ccomp(want-14, introduced-8)
+dobj(introduced-8, me-9)
+mark(saying-11, by-10)
+advcl(introduced-8, saying-11)
+nsubj(want-14, I-13)
+nsubj(tell-16, I-13)
+root(ROOT-0, want-14)
+mark(tell-16, to-15)
+xcomp(want-14, tell-16)
+dobj(tell-16, you-17)
+advmod(let-20, why-18)
+nsubj(let-20, I-19)
+ccomp(tell-16, let-20)
+nsubj(use-22, Jack-21)
+ccomp(let-20, use-22)
+nmod:poss(house-24, my-23)
+dobj(use-22, house-24)
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (ADVP (DT all))
+    (VP (VBZ goes)
+      (PRT (RP back))
+      (PP (TO to)
+        (NP
+          (NP (DT a) (NN story))
+          (PP (IN about)
+            (NP
+              (NP (DT a) (JJ young) (NN man))
+              (SBAR
+                (WHNP (WP who))
+                (S
+                  (VP (VBD was)
+                    (NP
+                      (NP
+                        (NP (DT the) (NN son))
+                        (PP (IN of)
+                          (NP (DT a) (NN horse) (NN trainer)))
+                        (SBAR
+                          (WHNP (WP who))
+                          (S
+                            (VP (MD would)
+                              (VP (VB go)
+                                (PP (IN from)
+                                  (NP
+                                    (ADJP (JJ stable) (TO to) (JJ stable))
+                                    (, ,) (NN race) (NN track)))
+                                (PP (TO to)
+                                  (NP (NN race) (NN track))))))))
+                      (, ,)
+                      (NP
+                        (NP (NN farm))
+                        (PP (TO to)
+                          (NP (NN farm))))
+                      (, ,)
+                      (CC and)
+                      (NP
+                        (NP (NN ranch))
+                        (PP (TO to)
+                          (NP
+                            (NP (NN ranch))
+                            (, ,)
+                            (NP (NN training) (NNS horses))))))))))))))
+    (. .)))
+
+nsubj(goes-3, It-1)
+advmod(goes-3, all-2)
+root(ROOT-0, goes-3)
+compound:prt(goes-3, back-4)
+case(story-7, to-5)
+det(story-7, a-6)
+nmod:to(goes-3, story-7)
+case(man-11, about-8)
+det(man-11, a-9)
+amod(man-11, young-10)
+nmod:about(story-7, man-11)
+nsubj(son-15, man-11)
+ref(man-11, who-12)
+cop(son-15, was-13)
+det(son-15, the-14)
+acl:relcl(man-11, son-15)
+nsubj(go-22, son-15)
+case(trainer-19, of-16)
+det(trainer-19, a-17)
+compound(trainer-19, horse-18)
+nmod:of(son-15, trainer-19)
+ref(son-15, who-20)
+aux(go-22, would-21)
+acl:relcl(son-15, go-22)
+case(track-29, from-23)
+amod(stable-26, stable-24)
+dep(stable-26, to-25)
+amod(track-29, stable-26)
+dep(track-29, race-28)
+nmod:from(go-22, track-29)
+case(track-32, to-30)
+compound(track-32, race-31)
+nmod:to(go-22, track-32)
+acl:relcl(man-11, farm-34)
+conj:and(son-15, farm-34)
+nsubj(go-22, farm-34)
+case(farm-36, to-35)
+nmod:to(farm-34, farm-36)
+cc(son-15, and-38)
+acl:relcl(man-11, ranch-39)
+conj:and(son-15, ranch-39)
+nsubj(go-22, ranch-39)
+case(ranch-41, to-40)
+nmod:to(ranch-39, ranch-41)
+compound(horses-44, training-43)
+appos(ranch-41, horses-44)
+
+(ROOT
+  (S
+    (PP (IN As)
+      (NP (DT a) (NN result)))
+    (, ,)
+    (NP (DT the) (JJ boys) (JJ high) (NN school) (NN career))
+    (VP (VBD was)
+      (VP
+        (ADVP (RB continually))
+        (VBN interrupted)))
+    (. .)))
+
+case(result-3, As-1)
+det(result-3, a-2)
+nmod:as(interrupted-12, result-3)
+det(career-9, the-5)
+amod(career-9, boys-6)
+amod(career-9, high-7)
+compound(career-9, school-8)
+nsubjpass(interrupted-12, career-9)
+auxpass(interrupted-12, was-10)
+advmod(interrupted-12, continually-11)
+root(ROOT-0, interrupted-12)
+
+(ROOT
+  (S
+    (SBAR
+      (WHADVP (WRB When))
+      (S
+        (NP (PRP he))
+        (VP (VBD was)
+          (NP (DT a) (JJ senior)))))
+    (, ,)
+    (NP (PRP he))
+    (VP (VBD was)
+      (VP (VBN asked)
+        (S
+          (VP (TO to)
+            (VP (VB write)
+              (NP (DT a) (NN paper))
+              (PP (IN about)
+                (SBAR
+                  (WHNP (WP what))
+                  (S
+                    (NP (PRP he))
+                    (VP
+                      (VP (VBD wanted)
+                        (S
+                          (VP (TO to)
+                            (VP (VB be)))))
+                      (CC and)
+                      (VP (VBP do)
+                        (SBAR
+                          (WHADVP (WRB when))
+                          (S
+                            (NP (PRP he))
+                            (VP (VBD grew)
+                              (PRT (RP up)))))))))))))))
+    (. .)))
+
+advmod(senior-5, When-1)
+nsubj(senior-5, he-2)
+cop(senior-5, was-3)
+det(senior-5, a-4)
+advcl(asked-9, senior-5)
+nsubjpass(asked-9, he-7)
+nsubj(write-11, he-7)
+auxpass(asked-9, was-8)
+root(ROOT-0, asked-9)
+mark(write-11, to-10)
+xcomp(asked-9, write-11)
+det(paper-13, a-12)
+dobj(write-11, paper-13)
+mark(wanted-17, about-14)
+dobj(be-19, what-15)
+nsubj(wanted-17, he-16)
+nsubj(be-19, he-16)
+nsubj(do-21, he-16)
+advcl(write-11, wanted-17)
+mark(be-19, to-18)
+xcomp(wanted-17, be-19)
+cc(wanted-17, and-20)
+advcl(write-11, do-21)
+conj:and(wanted-17, do-21)
+advmod(grew-24, when-22)
+nsubj(grew-24, he-23)
+advcl(do-21, grew-24)
+compound:prt(grew-24, up-25)
+
+(ROOT
+  (S
+    (NP (DT That) (NN night))
+    (NP (PRP he))
+    (VP (VBD wrote)
+      (NP (DT a) (JJ seven-page) (NN paper))
+      (S
+        (VP (VBG describing)
+          (NP
+            (NP (PRP$ his) (NN goal))
+            (PP (IN of)
+              (S
+                (VP
+                  (ADVP (RB someday))
+                  (VBG owning)
+                  (NP (DT a) (NN horse) (NN ranch)))))))))
+    (. .)))
+
+det(night-2, That-1)
+nmod:tmod(wrote-4, night-2)
+nsubj(wrote-4, he-3)
+root(ROOT-0, wrote-4)
+det(paper-7, a-5)
+amod(paper-7, seven-page-6)
+dobj(wrote-4, paper-7)
+xcomp(wrote-4, describing-8)
+nmod:poss(goal-10, his-9)
+dobj(describing-8, goal-10)
+mark(owning-13, of-11)
+advmod(owning-13, someday-12)
+acl(goal-10, owning-13)
+det(ranch-16, a-14)
+compound(ranch-16, horse-15)
+dobj(owning-13, ranch-16)
+
+(ROOT
+  (S
+    (S
+      (NP (PRP He))
+      (VP (VBD wrote)
+        (PP (IN about)
+          (NP (PRP$ his) (NN dream)))
+        (PP (IN in)
+          (NP (JJ great) (NN detail)))))
+    (CC and)
+    (S
+      (NP (PRP he))
+      (ADVP (RB even))
+      (VP (VBD drew)
+        (NP
+          (NP (DT a) (NN diagram))
+          (PP (IN of)
+            (NP (DT a) (JJ two-hundred-acre) (NN ranch))))
+        (, ,)
+        (S
+          (VP (VBG showing)
+            (NP
+              (NP (DT the) (NN location))
+              (PP (IN of)
+                (NP
+                  (NP (PDT all) (DT the) (NNS buildings))
+                  (, ,)
+                  (NP (DT the) (NNS stables))
+                  (, ,)
+                  (CC and)
+                  (NP (DT the) (NN track)))))))))
+    (. .)))
+
+nsubj(wrote-2, He-1)
+root(ROOT-0, wrote-2)
+case(dream-5, about-3)
+nmod:poss(dream-5, his-4)
+nmod:about(wrote-2, dream-5)
+case(detail-8, in-6)
+amod(detail-8, great-7)
+nmod:in(wrote-2, detail-8)
+cc(wrote-2, and-9)
+nsubj(drew-12, he-10)
+advmod(drew-12, even-11)
+conj:and(wrote-2, drew-12)
+det(diagram-14, a-13)
+dobj(drew-12, diagram-14)
+case(ranch-18, of-15)
+det(ranch-18, a-16)
+amod(ranch-18, two-hundred-acre-17)
+nmod:of(diagram-14, ranch-18)
+advcl(drew-12, showing-20)
+det(location-22, the-21)
+dobj(showing-20, location-22)
+case(buildings-26, of-23)
+det:predet(buildings-26, all-24)
+det(buildings-26, the-25)
+nmod:of(location-22, buildings-26)
+det(stables-29, the-28)
+nmod:of(location-22, stables-29)
+conj:and(buildings-26, stables-29)
+cc(buildings-26, and-31)
+det(track-33, the-32)
+nmod:of(location-22, track-33)
+conj:and(buildings-26, track-33)
+
+(ROOT
+  (S (RB Then)
+    (NP (PRP he))
+    (VP (VBD drew)
+      (NP (DT a) (JJ detailed) (NN floor) (NN plan))
+      (PP (IN for)
+        (NP
+          (NP (DT a) (JJ four-thousand-square-foot) (NN house))
+          (SBAR
+            (WHNP (WDT that))
+            (S
+              (VP (MD would)
+                (VP (VB sit)
+                  (PP (IN on)
+                    (NP (DT the) (JJ two-hundred-acre) (NN dream) (NN ranch))))))))))
+    (. .)))
+
+advmod(drew-3, Then-1)
+nsubj(drew-3, he-2)
+root(ROOT-0, drew-3)
+det(plan-7, a-4)
+amod(plan-7, detailed-5)
+compound(plan-7, floor-6)
+dobj(drew-3, plan-7)
+case(house-11, for-8)
+det(house-11, a-9)
+amod(house-11, four-thousand-square-foot-10)
+nmod:for(drew-3, house-11)
+nsubj(sit-14, house-11)
+ref(house-11, that-12)
+aux(sit-14, would-13)
+acl:relcl(house-11, sit-14)
+case(ranch-19, on-15)
+det(ranch-19, the-16)
+amod(ranch-19, two-hundred-acre-17)
+compound(ranch-19, dream-18)
+nmod:on(sit-14, ranch-19)
+
+(ROOT
+  (S
+    (S
+      (NP (PRP He))
+      (VP (VBD put)
+        (NP
+          (NP (DT a) (JJ great) (NN deal))
+          (PP (IN of)
+            (NP (PRP$ his) (NN heart))))
+        (PP (IN into)
+          (NP
+            (NP (DT the) (NN project))
+            (CC and)
+            (NP (DT the) (JJ next) (NN day))))))
+    (NP (PRP he))
+    (VP (VBD handed)
+      (NP (PRP it))
+      (PP (IN in)
+        (PP (TO to)
+          (NP (PRP$ his) (NN teacher)))))
+    (. .)))
+
+nsubj(put-2, He-1)
+dep(handed-17, put-2)
+det(deal-5, a-3)
+amod(deal-5, great-4)
+dobj(put-2, deal-5)
+case(heart-8, of-6)
+nmod:poss(heart-8, his-7)
+nmod:of(deal-5, heart-8)
+case(project-11, into-9)
+det(project-11, the-10)
+nmod:into(put-2, project-11)
+cc(project-11, and-12)
+det(day-15, the-13)
+amod(day-15, next-14)
+nmod:into(put-2, day-15)
+conj:and(project-11, day-15)
+nsubj(handed-17, he-16)
+root(ROOT-0, handed-17)
+dobj(handed-17, it-18)
+case(teacher-22, in-19)
+case(teacher-22, to-20)
+nmod:poss(teacher-22, his-21)
+nmod:to(handed-17, teacher-22)
+
+(ROOT
+  (S
+    (NP (CD Two) (NNS days) (RB later))
+    (NP (PRP he))
+    (VP (VBD received)
+      (NP (PRP$ his) (NN paper))
+      (ADVP (RB back)))
+    (. .)))
+
+nummod(days-2, Two-1)
+nmod:tmod(received-5, days-2)
+advmod(days-2, later-3)
+nsubj(received-5, he-4)
+root(ROOT-0, received-5)
+nmod:poss(paper-7, his-6)
+dobj(received-5, paper-7)
+advmod(received-5, back-8)
+
+(ROOT
+  (S
+    (PP (IN On)
+      (NP
+        (NP (DT the) (JJ front) (NN page))
+        (SBAR
+          (S
+            (VP (VBD was)
+              (NP
+                (NP (DT a) (JJ large) (JJ red) (NN F))
+                (PP (IN with)
+                  (NP
+                    (NP (DT a) (NN note))
+                    (SBAR
+                      (WHNP (WDT that))
+                      (S
+                        (VP (VBD read))))))))))))
+    (, ,)
+    (VP (VB See)
+      (NP (PRP me))
+      (PP (IN after)
+        (NP (NN class))))
+    (. .)))
+
+case(page-4, On-1)
+det(page-4, the-2)
+amod(page-4, front-3)
+nsubj(read-14, page-4)
+nmod:on(See-16, page-4)
+cop(F-9, was-5)
+det(F-9, a-6)
+amod(F-9, large-7)
+amod(F-9, red-8)
+acl:relcl(page-4, F-9)
+case(note-12, with-10)
+det(note-12, a-11)
+nmod:with(F-9, note-12)
+nsubj(read-14, note-12)
+ref(page-4, that-13)
+ref(note-12, that-13)
+acl:relcl(note-12, read-14)
+root(ROOT-0, See-16)
+dobj(See-16, me-17)
+case(class-19, after-18)
+nmod:after(See-16, class-19)
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN boy))
+      (PP (IN with)
+        (NP (DT the) (NN dream))))
+    (VP
+      (VP (VBD went)
+        (S
+          (VP (TO to)
+            (VP (VB see)
+              (NP (DT the) (NN teacher))
+              (PP (IN after)
+                (NP (NN class)))))))
+      (CC and)
+      (VP (VBD asked) (, ,)
+        (SBARQ
+          (WHADVP (WRB Why))
+          (SQ (VBD did)
+            (NP (PRP I))
+            (VP (VB receive)
+              (NP (DT an) (NN F))))
+          (. ?))))))
+
+det(boy-2, The-1)
+nsubj(went-6, boy-2)
+nsubj(see-8, boy-2)
+nsubj(asked-14, boy-2)
+case(dream-5, with-3)
+det(dream-5, the-4)
+nmod:with(boy-2, dream-5)
+root(ROOT-0, went-6)
+mark(see-8, to-7)
+xcomp(went-6, see-8)
+det(teacher-10, the-9)
+dobj(see-8, teacher-10)
+case(class-12, after-11)
+nmod:after(see-8, class-12)
+cc(went-6, and-13)
+conj:and(went-6, asked-14)
+advmod(receive-19, Why-16)
+aux(receive-19, did-17)
+nsubj(receive-19, I-18)
+ccomp(asked-14, receive-19)
+det(F-21, an-20)
+dobj(receive-19, F-21)
+
+(ROOT
+  (S
+    (S
+      (NP (DT The) (NN teacher))
+      (VP (VBD said)))
+    (, ,)
+    (NP (DT This))
+    (VP (VBZ is)
+      (NP
+        (NP (DT an) (JJ unrealistic) (NN dream))
+        (PP (IN for)
+          (NP
+            (NP (DT a) (JJ young) (NN boy))
+            (PP (IN like)
+              (NP (PRP you)))))))
+    (. .)))
+
+det(teacher-2, The-1)
+nsubj(said-3, teacher-2)
+ccomp(dream-9, said-3)
+nsubj(dream-9, This-5)
+cop(dream-9, is-6)
+det(dream-9, an-7)
+amod(dream-9, unrealistic-8)
+root(ROOT-0, dream-9)
+case(boy-13, for-10)
+det(boy-13, a-11)
+amod(boy-13, young-12)
+nmod:for(dream-9, boy-13)
+case(you-15, like-14)
+nmod:like(boy-13, you-15)
+
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (VBP have)
+      (NP (DT no) (NN money)))
+    (. .)))
+
+nsubj(have-2, You-1)
+root(ROOT-0, have-2)
+neg(money-4, no-3)
+dobj(have-2, money-4)
+
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (VBP come)
+      (PP (IN from)
+        (NP (DT a) (JJ poor) (NN family))))
+    (. .)))
+
+nsubj(come-2, You-1)
+root(ROOT-0, come-2)
+case(family-6, from-3)
+det(family-6, a-4)
+amod(family-6, poor-5)
+nmod:from(come-2, family-6)
+
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (VBP have)
+      (NP (DT no) (NNS resources)))
+    (. .)))
+
+nsubj(have-2, You-1)
+root(ROOT-0, have-2)
+neg(resources-4, no-3)
+dobj(have-2, resources-4)
+
+(ROOT
+  (S
+    (S
+      (VP (VBG Owning)
+        (NP (DT a) (NN horse) (NN ranch))))
+    (VP (VBZ requires)
+      (NP
+        (NP (DT a) (NN lot))
+        (PP (IN of)
+          (NP (NN money)))))
+    (. .)))
+
+csubj(requires-5, Owning-1)
+det(ranch-4, a-2)
+compound(ranch-4, horse-3)
+dobj(Owning-1, ranch-4)
+root(ROOT-0, requires-5)
+det(lot-7, a-6)
+dobj(requires-5, lot-7)
+case(money-9, of-8)
+nmod:of(lot-7, money-9)
+
+(ROOT
+  (NP
+    (NP
+      (NP (NNS Theres))
+      (NP (DT no) (NN way)))
+    (SBAR
+      (S
+        (NP (PRP you))
+        (VP (MD could)
+          (ADVP (RB ever))
+          (VP (VB do)
+            (NP (PRP it))))))
+    (. .)))
+
+root(ROOT-0, Theres-1)
+neg(way-3, no-2)
+dep(Theres-1, way-3)
+nsubj(do-7, you-4)
+aux(do-7, could-5)
+advmod(do-7, ever-6)
+acl:relcl(Theres-1, do-7)
+dobj(do-7, it-8)
+
+(ROOT
+  (S
+    (ADVP (RB Then))
+    (PRN
+      (S
+        (NP (DT the) (NN teacher))
+        (VP (VBD added)))
+      (, ,))
+    (SBAR (IN If)
+      (S
+        (NP (PRP you))
+        (VP (MD will)
+          (VP (VB rewrite)
+            (NP (DT this) (NN paper))
+            (PP (IN with)
+              (NP (DT a)
+                (ADJP (RBR more) (JJ realistic))
+                (NN goal)))))))
+    (, ,)
+    (NP (PRP I))
+    (VP (MD will)
+      (VP (VB reconsider)
+        (NP (PRP$ your) (NN grade))))
+    (. .)))
+
+advmod(reconsider-20, Then-1)
+det(teacher-3, the-2)
+nsubj(added-4, teacher-3)
+parataxis(reconsider-20, added-4)
+mark(rewrite-9, If-6)
+nsubj(rewrite-9, you-7)
+aux(rewrite-9, will-8)
+advcl(reconsider-20, rewrite-9)
+det(paper-11, this-10)
+dobj(rewrite-9, paper-11)
+case(goal-16, with-12)
+det(goal-16, a-13)
+advmod(realistic-15, more-14)
+amod(goal-16, realistic-15)
+nmod:with(rewrite-9, goal-16)
+nsubj(reconsider-20, I-18)
+aux(reconsider-20, will-19)
+root(ROOT-0, reconsider-20)
+nmod:poss(grade-22, your-21)
+dobj(reconsider-20, grade-22)
+
+(ROOT
+  (S
+    (NP (DT The) (NN boy))
+    (VP
+      (VP (VBD went)
+        (NP (NN home)))
+      (CC and)
+      (VP (VBD thought)
+        (PP (IN about)
+          (NP (PRP it)))
+        (ADVP (RB long)
+          (CC and)
+          (RB hard))))
+    (. .)))
+
+det(boy-2, The-1)
+nsubj(went-3, boy-2)
+nsubj(thought-6, boy-2)
+root(ROOT-0, went-3)
+dobj(went-3, home-4)
+cc(went-3, and-5)
+conj:and(went-3, thought-6)
+case(it-8, about-7)
+nmod:about(thought-6, it-8)
+advmod(thought-6, long-9)
+cc(long-9, and-10)
+advmod(thought-6, hard-11)
+conj:and(long-9, hard-11)
+
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (VBD asked)
+      (NP (PRP$ his) (NN father))
+      (SBAR
+        (WHNP (WP what))
+        (S
+          (NP (PRP he))
+          (VP (MD should)
+            (VP (VB do))))))
+    (. .)))
+
+nsubj(asked-2, He-1)
+root(ROOT-0, asked-2)
+nmod:poss(father-4, his-3)
+dobj(asked-2, father-4)
+dobj(do-8, what-5)
+nsubj(do-8, he-6)
+aux(do-8, should-7)
+dep(asked-2, do-8)
+
+(ROOT
+  (S
+    (S
+      (NP (PRP$ His) (NN father))
+      (VP
+        (VP (VBD said))
+        (, ,)
+        (VP (VB Look))
+        (, ,)
+        (NP (NN son))))
+    (, ,)
+    (NP (PRP you))
+    (VP (VBP have)
+      (S
+        (VP (TO to)
+          (VP (VB make)
+            (PRT (RP up))
+            (NP (PRP$ your) (JJ own) (NN mind))
+            (PP (IN on)
+              (NP (DT this)))))))
+    (. .)))
+
+nmod:poss(father-2, His-1)
+nsubj(said-3, father-2)
+ccomp(have-10, said-3)
+dep(said-3, Look-5)
+dobj(said-3, son-7)
+nsubj(have-10, you-9)
+nsubj(make-12, you-9)
+root(ROOT-0, have-10)
+mark(make-12, to-11)
+xcomp(have-10, make-12)
+compound:prt(make-12, up-13)
+nmod:poss(mind-16, your-14)
+amod(mind-16, own-15)
+dobj(make-12, mind-16)
+case(this-18, on-17)
+nmod:on(make-12, this-18)
+
+(ROOT
+  (S
+    (ADVP (RB However))
+    (, ,)
+    (NP (PRP I))
+    (VP (VBP think)
+      (SBAR
+        (S
+          (NP (PRP it))
+          (VP (VBZ is)
+            (NP
+              (NP (DT a)
+                (ADJP (RB very) (JJ important))
+                (NN decision))
+              (PP (IN for)
+                (NP (PRP you))))))))
+    (. .)))
+
+advmod(think-4, However-1)
+nsubj(think-4, I-3)
+root(ROOT-0, think-4)
+nsubj(decision-10, it-5)
+cop(decision-10, is-6)
+det(decision-10, a-7)
+advmod(important-9, very-8)
+amod(decision-10, important-9)
+ccomp(think-4, decision-10)
+case(you-12, for-11)
+nmod:for(decision-10, you-12)
+
+(ROOT
+  (S
+    (ADVP (RB Finally))
+    (, ,)
+    (PP (IN after)
+      (S
+        (VP (VBG sitting)
+          (PP (IN with)
+            (NP (PRP it)))
+          (PP (IN for)
+            (NP (DT a) (NN week))))))
+    (, ,)
+    (NP (DT the) (NN boy))
+    (VP (VBD turned)
+      (PP (IN in)
+        (NP (DT the) (JJ same) (NN paper)))
+      (, ,)
+      (S
+        (VP (VBG making)
+          (NP (DT no) (NNS changes))
+          (ADVP (IN at) (DT all)))))
+    (. .)))
+
+advmod(turned-13, Finally-1)
+mark(sitting-4, after-3)
+advcl(turned-13, sitting-4)
+case(it-6, with-5)
+nmod:with(sitting-4, it-6)
+case(week-9, for-7)
+det(week-9, a-8)
+nmod:for(sitting-4, week-9)
+det(boy-12, the-11)
+nsubj(turned-13, boy-12)
+root(ROOT-0, turned-13)
+case(paper-17, in-14)
+det(paper-17, the-15)
+amod(paper-17, same-16)
+nmod:in(turned-13, paper-17)
+xcomp(turned-13, making-19)
+neg(changes-21, no-20)
+dobj(making-19, changes-21)
+case(all-23, at-22)
+nmod:at(making-19, all-23)
+
+(ROOT
+  (S
+    (S
+      (NP (PRP He))
+      (VP (VBD stated)))
+    (, ,)
+    (NP (PRP You))
+    (VP (MD can)
+      (VP (VB keep)
+        (S
+          (NP (DT the) (NNP F)
+            (CC and)
+            (NNP Ill))
+          (VP (VB keep)
+            (NP (PRP$ my) (NN dream))))))
+    (. .)))
+
+nsubj(stated-2, He-1)
+ccomp(keep-6, stated-2)
+nsubj(keep-6, You-4)
+aux(keep-6, can-5)
+root(ROOT-0, keep-6)
+det(F-8, the-7)
+nsubj(keep-11, F-8)
+cc(F-8, and-9)
+conj:and(F-8, Ill-10)
+nsubj(keep-11, Ill-10)
+ccomp(keep-6, keep-11)
+nmod:poss(dream-13, my-12)
+dobj(keep-11, dream-13)
+
+(ROOT
+  (S
+    (S
+      (NP (NNP Monty))
+      (VP
+        (VP
+          (ADVP (RB then))
+          (VBD turned)
+          (PP (TO to)
+            (NP (DT the) (NN group))))
+        (CC and)
+        (VP (VBD said))))
+    (, ,)
+    (NP (PRP I))
+    (VP (VBP tell)
+      (S
+        (NP (PRP you))
+        (NP (DT this) (NN story)))
+      (SBAR (IN because)
+        (S
+          (NP (PRP you))
+          (VP (VBP are)
+            (VP (VBG sitting)
+              (PP (IN in)
+                (NP
+                  (NP (PRP$ my) (JJ four-thousand-square-foot) (NN house))
+                  (PP (IN in)
+                    (NP
+                      (NP (DT the) (NN middle))
+                      (PP (IN of)
+                        (NP (PRP$ my) (JJ two-hundred-acre) (NN horse) (NN ranch))))))))))))
+    (. .)))
+
+nsubj(turned-3, Monty-1)
+nsubj(said-8, Monty-1)
+advmod(turned-3, then-2)
+ccomp(tell-11, turned-3)
+case(group-6, to-4)
+det(group-6, the-5)
+nmod:to(turned-3, group-6)
+cc(turned-3, and-7)
+conj:and(turned-3, said-8)
+ccomp(tell-11, said-8)
+nsubj(tell-11, I-10)
+root(ROOT-0, tell-11)
+nsubj(story-14, you-12)
+det(story-14, this-13)
+xcomp(tell-11, story-14)
+mark(sitting-18, because-15)
+nsubj(sitting-18, you-16)
+aux(sitting-18, are-17)
+advcl(tell-11, sitting-18)
+case(house-22, in-19)
+nmod:poss(house-22, my-20)
+amod(house-22, four-thousand-square-foot-21)
+nmod:in(sitting-18, house-22)
+case(middle-25, in-23)
+det(middle-25, the-24)
+nmod:in(house-22, middle-25)
+case(ranch-30, of-26)
+nmod:poss(ranch-30, my-27)
+amod(ranch-30, two-hundred-acre-28)
+compound(ranch-30, horse-29)
+nmod:of(middle-25, ranch-30)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (ADVP (RB still))
+    (VP (VBP have)
+      (NP (DT that) (NN school) (NN paper))
+      (, ,)
+      (VP (VBN framed)
+        (PP (IN over)
+          (NP (DT the) (NN fireplace)))))
+    (. .)))
+
+nsubj(framed-8, I-1)
+advmod(framed-8, still-2)
+aux(framed-8, have-3)
+det(paper-6, that-4)
+compound(paper-6, school-5)
+dobj(framed-8, paper-6)
+root(ROOT-0, framed-8)
+case(fireplace-11, over-9)
+det(fireplace-11, the-10)
+nmod:over(framed-8, fireplace-11)
+
+(ROOT
+  (S
+    (S
+      (NP (PRP He))
+      (VP (VBD added)))
+    (, ,)
+    (NP
+      (NP (DT The) (JJS best) (NN part))
+      (PP (IN of)
+        (NP (DT the) (NN story))))
+    (VP (VBZ is)
+      (SBAR (IN that)
+        (S
+          (ADVP
+            (NP (CD two) (NNS summers))
+            (RB ago))
+          (NP (DT that) (JJ same) (NN schoolteacher))
+          (VP (VBD brought)
+            (NP (CD thirty) (NNS kids))
+            (PP (TO to)
+              (NP (NN camp)))
+            (PP (RB out) (IN on)
+              (NP
+                (NP (PRP$ my) (NN ranch))
+                (PP (IN for)
+                  (NP (DT a) (NN week)))))))))
+    (. .)))
+
+nsubj(added-2, He-1)
+ccomp(is-10, added-2)
+det(part-6, The-4)
+amod(part-6, best-5)
+nsubj(is-10, part-6)
+case(story-9, of-7)
+det(story-9, the-8)
+nmod:of(part-6, story-9)
+root(ROOT-0, is-10)
+mark(brought-18, that-11)
+nummod(summers-13, two-12)
+nmod:npmod(ago-14, summers-13)
+advmod(brought-18, ago-14)
+det(schoolteacher-17, that-15)
+amod(schoolteacher-17, same-16)
+nsubj(brought-18, schoolteacher-17)
+ccomp(is-10, brought-18)
+nummod(kids-20, thirty-19)
+dobj(brought-18, kids-20)
+case(camp-22, to-21)
+nmod:to(brought-18, camp-22)
+advmod(ranch-26, out-23)
+case(ranch-26, on-24)
+nmod:poss(ranch-26, my-25)
+nmod:on(brought-18, ranch-26)
+case(week-29, for-27)
+det(week-29, a-28)
+nmod:for(ranch-26, week-29)
+
+(ROOT
+  (S
+    (SBAR
+      (WHADVP (WRB When))
+      (S
+        (NP (DT the) (NN teacher))
+        (VP (VBD was)
+          (VP (VBG leaving)
+            (PRN (, ,)
+              (S
+                (NP (PRP he))
+                (VP (VBD said)))
+              (, ,))
+            (S
+              (VP (VB Look)))))))
+    (, ,)
+    (ADVP (RB Monty))
+    (, ,)
+    (NP (PRP I))
+    (VP (MD can)
+      (VP (VB tell)
+        (NP (PRP you) (DT this))
+        (ADVP (RB now))))
+    (. .)))
+
+advmod(leaving-5, When-1)
+det(teacher-3, the-2)
+nsubj(leaving-5, teacher-3)
+aux(leaving-5, was-4)
+advcl(tell-16, leaving-5)
+nsubj(said-8, he-7)
+parataxis(leaving-5, said-8)
+ccomp(leaving-5, Look-10)
+advmod(tell-16, Monty-12)
+nsubj(tell-16, I-14)
+aux(tell-16, can-15)
+root(ROOT-0, tell-16)
+dobj(tell-16, you-17)
+dep(you-17, this-18)
+advmod(tell-16, now-19)
+
+(ROOT
+  (S
+    (SBAR
+      (WHADVP (WRB When))
+      (S
+        (NP (PRP I))
+        (VP (VBD was)
+          (NP (PRP$ your) (NN teacher)))))
+    (, ,)
+    (NP (PRP I))
+    (VP (VBD was)
+      (NP
+        (NP (NN something))
+        (PP (IN of)
+          (NP (DT a) (NN dream) (NN stealer)))))
+    (. .)))
+
+advmod(teacher-5, When-1)
+nsubj(teacher-5, I-2)
+cop(teacher-5, was-3)
+nmod:poss(teacher-5, your-4)
+advcl(something-9, teacher-5)
+nsubj(something-9, I-7)
+cop(something-9, was-8)
+root(ROOT-0, something-9)
+case(stealer-13, of-10)
+det(stealer-13, a-11)
+compound(stealer-13, dream-12)
+nmod:of(something-9, stealer-13)
+
+(ROOT
+  (S
+    (PP (IN During)
+      (NP (DT those) (NNS years)))
+    (NP (PRP I))
+    (VP (VBD stole)
+      (NP
+        (NP (DT a) (NN lot))
+        (PP (IN of)
+          (NP (NNS kids) (NNS dreams)))))
+    (. .)))
+
+case(years-3, During-1)
+det(years-3, those-2)
+nmod:during(stole-5, years-3)
+nsubj(stole-5, I-4)
+root(ROOT-0, stole-5)
+det(lot-7, a-6)
+dobj(stole-5, lot-7)
+case(dreams-10, of-8)
+compound(dreams-10, kids-9)
+nmod:of(lot-7, dreams-10)
+
+(ROOT
+  (S
+    (ADVP (RB Fortunately))
+    (NP (PRP you))
+    (VP (VBD had)
+      (S
+        (NP (JJ enough) (NN courage))
+        (RB not)
+        (VP (TO to)
+          (VP (VB give)
+            (PRT (RP up))
+            (PP (IN on)
+              (NP (NNP yours)))))))
+    (. .)))
+
+advmod(had-3, Fortunately-1)
+nsubj(had-3, you-2)
+root(ROOT-0, had-3)
+amod(courage-5, enough-4)
+dobj(had-3, courage-5)
+neg(give-8, not-6)
+mark(give-8, to-7)
+ccomp(had-3, give-8)
+compound:prt(give-8, up-9)
+case(yours-11, on-10)
+nmod:on(give-8, yours-11)
+
+(ROOT
+  (S
+    (NP (NNP Dont))
+    (VP (VBP let)
+      (S
+        (NP (NN anyone))
+        (VP (VB steal)
+          (NP (PRP$ your) (NNS dreams)))))
+    (. .)))
+
+nsubj(let-2, Dont-1)
+root(ROOT-0, let-2)
+nsubj(steal-4, anyone-3)
+ccomp(let-2, steal-4)
+nmod:poss(dreams-6, your-5)
+dobj(steal-4, dreams-6)
+
+(ROOT
+  (S
+    (VP (VB Follow)
+      (NP
+        (NP (PRP$ your) (NN heart))
+        (, ,)
+        (RRC
+          (ADVP (DT no) (NN matter))
+          (NP (WP what)))))
+    (. .)))
+
+root(ROOT-0, Follow-1)
+nmod:poss(heart-3, your-2)
+dobj(Follow-1, heart-3)
+neg(matter-6, no-5)
+advmod(what-7, matter-6)
+acl:relcl(heart-3, what-7)
+

@@ -1,0 +1,1239 @@
+(ROOT
+  (S
+    (NP
+      (NP (NNP Steven) (NNP Spielberg) (NNP Most))
+      (PP (IN of)
+        (NP (PRP us))))
+    (VP (MD can)
+      (VP (VB remember)
+        (NP
+          (NP (DT the) (NNS titles))
+          (PP (IN of)
+            (NP (PRP$ our) (JJ favorite) (NNS films))))))
+    (. .)))
+
+compound(Most-3, Steven-1)
+compound(Most-3, Spielberg-2)
+nsubj(remember-7, Most-3)
+case(us-5, of-4)
+nmod:of(Most-3, us-5)
+aux(remember-7, can-6)
+root(ROOT-0, remember-7)
+det(titles-9, the-8)
+dobj(remember-7, titles-9)
+case(films-13, of-10)
+nmod:poss(films-13, our-11)
+amod(films-13, favorite-12)
+nmod:of(titles-9, films-13)
+
+(ROOT
+  (S
+    (NP (JJ Few))
+    (, ,)
+    (ADVP (RB however))
+    (, ,)
+    (VP (MD can)
+      (VP (VB remember)
+        (NP
+          (NP (DT the) (NNS directors))
+          (PP (IN of)
+            (NP (DT those) (JJ filmsXwith)
+              (QP (DT a) (JJ few))
+              (NNS exceptions))))))
+    (. .)))
+
+nsubj(remember-6, Few-1)
+advmod(remember-6, however-3)
+aux(remember-6, can-5)
+root(ROOT-0, remember-6)
+det(directors-8, the-7)
+dobj(remember-6, directors-8)
+case(exceptions-14, of-9)
+det(exceptions-14, those-10)
+amod(exceptions-14, filmsXwith-11)
+advmod(few-13, a-12)
+nummod(exceptions-14, few-13)
+nmod:of(directors-8, exceptions-14)
+
+(ROOT
+  (S
+    (NP
+      (NP
+        (NP (CD One))
+        (PP (IN of)
+          (NP (PRP them))))
+      (, ,)
+      (NP (NNP Steven) (NNP Spielberg))
+      (, ,))
+    (VP (VBZ is)
+      (NP (DT a) (NN household) (NN name)))
+    (. .)))
+
+nsubj(name-11, One-1)
+case(them-3, of-2)
+nmod:of(One-1, them-3)
+compound(Spielberg-6, Steven-5)
+appos(One-1, Spielberg-6)
+cop(name-11, is-8)
+det(name-11, a-9)
+compound(name-11, household-10)
+root(ROOT-0, name-11)
+
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (VBZ has)
+      (VP (VBN entertained)
+        (NP (DT the) (NN world))
+        (PP (IN with)
+          (NP
+            (NP (NNS stories))
+            (PP (IN of)
+              (NP (DT a) (JJ daring) (NN archeologist)))))))
+    (. .)))
+
+nsubj(entertained-3, He-1)
+aux(entertained-3, has-2)
+root(ROOT-0, entertained-3)
+det(world-5, the-4)
+dobj(entertained-3, world-5)
+case(stories-7, with-6)
+nmod:with(entertained-3, stories-7)
+case(archeologist-11, of-8)
+det(archeologist-11, a-9)
+amod(archeologist-11, daring-10)
+nmod:of(stories-7, archeologist-11)
+
+(ROOT
+  (S
+    (NP (NNP Hes))
+    (VP (VBD made)
+      (S
+        (NP (PRP us))
+        (VP (VB cry)
+          (PP (IN with)
+            (NP
+              (NP (DT the) (NN tale))
+              (PP (IN of)
+                (NP
+                  (NP (DT a) (NN space) (NN alien))
+                  (SBAR
+                    (WHNP (WP who))
+                    (S
+                      (ADVP (RB just))
+                      (VP (VBD wanted)
+                        (S
+                          (VP (TO to)
+                            (VP (VB go)
+                              (NP (NN home)))))))))))))))
+    (. .)))
+
+nsubj(made-2, Hes-1)
+root(ROOT-0, made-2)
+nsubj(cry-4, us-3)
+ccomp(made-2, cry-4)
+case(tale-7, with-5)
+det(tale-7, the-6)
+nmod:with(cry-4, tale-7)
+case(alien-11, of-8)
+det(alien-11, a-9)
+compound(alien-11, space-10)
+nmod:of(tale-7, alien-11)
+nsubj(wanted-14, alien-11)
+nsubj(go-16, alien-11)
+ref(alien-11, who-12)
+advmod(wanted-14, just-13)
+acl:relcl(alien-11, wanted-14)
+mark(go-16, to-15)
+xcomp(wanted-14, go-16)
+dobj(go-16, home-17)
+
+(ROOT
+  (S
+    (NP (NNP Hes))
+    (VP (VBD scared)
+      (NP (PRP us))
+      (PP (IN with)
+        (NP (NNS sharks)
+          (CC and)
+          (NNS dinosaurs))))
+    (. .)))
+
+nsubj(scared-2, Hes-1)
+root(ROOT-0, scared-2)
+dobj(scared-2, us-3)
+case(sharks-5, with-4)
+nmod:with(scared-2, sharks-5)
+cc(sharks-5, and-6)
+nmod:with(scared-2, dinosaurs-7)
+conj:and(sharks-5, dinosaurs-7)
+
+(ROOT
+  (S (CC And)
+    (NP (PRP he))
+    (VP
+      (VP (VBD brought)
+        (S
+          (NP (PRP us))
+          (NP
+            (NP (DT the) (NNS horrors))
+            (PP (IN of)
+              (NP
+                (NP (NNP World) (NNP War) (NNP II))
+                (PP (IN in)
+                  (NP (NNP Schindlers) (NNP List))))))))
+      (CC and)
+      (VP (NNP Saving)
+        (NP (NNP Private) (NNP Ryan))))
+    (. .)))
+
+cc(brought-3, And-1)
+nsubj(brought-3, he-2)
+root(ROOT-0, brought-3)
+nsubj(horrors-6, us-4)
+det(horrors-6, the-5)
+xcomp(brought-3, horrors-6)
+case(II-10, of-7)
+compound(II-10, World-8)
+compound(II-10, War-9)
+nmod:of(horrors-6, II-10)
+case(List-13, in-11)
+compound(List-13, Schindlers-12)
+nmod:in(II-10, List-13)
+cc(brought-3, and-14)
+dep(Ryan-17, Saving-15)
+compound(Ryan-17, Private-16)
+conj:and(brought-3, Ryan-17)
+
+(ROOT
+  (S
+    (NP (NNP Spielberg))
+    (VP (VBD developed)
+      (NP (DT an) (NN interest))
+      (PP (IN in)
+        (NP (NNS movies)))
+      (PP (IN at)
+        (NP (DT an) (JJ early) (NN age))))
+    (. .)))
+
+nsubj(developed-2, Spielberg-1)
+root(ROOT-0, developed-2)
+det(interest-4, an-3)
+dobj(developed-2, interest-4)
+case(movies-6, in-5)
+nmod:in(developed-2, movies-6)
+case(age-10, at-7)
+det(age-10, an-8)
+amod(age-10, early-9)
+nmod:at(developed-2, age-10)
+
+(ROOT
+  (S
+    (PP (IN At)
+      (NP (CD twelve)))
+    (, ,)
+    (NP (PRP he))
+    (VP (VBD started)
+      (S
+        (VP (VBG making)
+          (NP (PRP$ his) (JJ own) (JJ short) (NNS films))
+          (PP (IN with)
+            (NP (PRP$ his) (JJ dads) (NN movie) (NN camera))))))
+    (. .)))
+
+case(twelve-2, At-1)
+nmod:at(started-5, twelve-2)
+nsubj(started-5, he-4)
+root(ROOT-0, started-5)
+xcomp(started-5, making-6)
+nmod:poss(films-10, his-7)
+amod(films-10, own-8)
+amod(films-10, short-9)
+dobj(making-6, films-10)
+case(camera-15, with-11)
+nmod:poss(camera-15, his-12)
+amod(camera-15, dads-13)
+compound(camera-15, movie-14)
+nmod:with(making-6, camera-15)
+
+(ROOT
+  (S
+    (NP (PRP He))
+    (ADVP (RB sometimes))
+    (VP (VBD enlisted)
+      (NP (PRP$ his) (NNS mothers) (NN help)))
+    (. .)))
+
+nsubj(enlisted-3, He-1)
+advmod(enlisted-3, sometimes-2)
+root(ROOT-0, enlisted-3)
+nmod:poss(help-6, his-4)
+compound(help-6, mothers-5)
+dobj(enlisted-3, help-6)
+
+(ROOT
+  (S
+    (NP (PRP She))
+    (VP (MD would)
+      (VP (VB make)
+        (NP (NN movie) (NNS props))
+        (PP (IN for)
+          (NP (PRP him)))))
+    (. .)))
+
+nsubj(make-3, She-1)
+aux(make-3, would-2)
+root(ROOT-0, make-3)
+compound(props-5, movie-4)
+dobj(make-3, props-5)
+case(him-7, for-6)
+nmod:for(make-3, him-7)
+
+(ROOT
+  (S
+    (NP
+      (NP (NNS Spielbergs))
+      (SBAR
+        (S
+          (NP (CD three) (NNS sisters))
+          (ADVP (RB also))
+          (VP (VBD liked)
+            (S
+              (VP (TO to)
+                (VP (VB be)
+                  (PP (IN in)
+                    (NP (PRP$ his) (NN moviesXhe))))))))))
+    (VP (VBD killed)
+      (NP (PRP them))
+      (NP (DT all) (JJ several) (NNS times)))
+    (. .)))
+
+nsubj(killed-11, Spielbergs-1)
+nummod(sisters-3, three-2)
+nsubj(liked-5, sisters-3)
+nsubj(moviesXhe-10, sisters-3)
+advmod(liked-5, also-4)
+acl:relcl(Spielbergs-1, liked-5)
+mark(moviesXhe-10, to-6)
+cop(moviesXhe-10, be-7)
+case(moviesXhe-10, in-8)
+nmod:poss(moviesXhe-10, his-9)
+xcomp(liked-5, moviesXhe-10)
+root(ROOT-0, killed-11)
+iobj(killed-11, them-12)
+det(times-15, all-13)
+amod(times-15, several-14)
+dobj(killed-11, times-15)
+
+(ROOT
+  (S
+    (PP (IN At)
+      (NP (NN age) (NN sixteen)))
+    (, ,)
+    (NP (NNP Spielberg))
+    (VP (VBD made)
+      (NP
+        (NP (PRP$ his) (JJ first) (JJ feature-length) (NN film))
+        (, ,)
+        (NP (NNP Firelight))))
+    (. .)))
+
+case(sixteen-3, At-1)
+compound(sixteen-3, age-2)
+nmod:at(made-6, sixteen-3)
+nsubj(made-6, Spielberg-5)
+root(ROOT-0, made-6)
+nmod:poss(film-10, his-7)
+amod(film-10, first-8)
+amod(film-10, feature-length-9)
+dobj(made-6, film-10)
+appos(film-10, Firelight-12)
+
+(ROOT
+  (S
+    (NP (PRP$ His) (NN family))
+    (VP (VBD rented)
+      (NP (DT a) (JJ local) (NN movie) (NN theater))
+      (S
+        (VP (TO to)
+          (VP (VB show)
+            (NP (PRP it))))))
+    (. .)))
+
+nmod:poss(family-2, His-1)
+nsubj(rented-3, family-2)
+root(ROOT-0, rented-3)
+det(theater-7, a-4)
+amod(theater-7, local-5)
+compound(theater-7, movie-6)
+dobj(rented-3, theater-7)
+mark(show-9, to-8)
+advcl(rented-3, show-9)
+dobj(show-9, it-10)
+
+(ROOT
+  (S
+    (S
+      (NP (PRP He))
+      (VP (VBD spent)
+        (NP
+          (QP (CD five) (CD hundred))
+          (NNP U.S.) (NNS dollars))
+        (S
+          (VP (VBG making)
+            (NP (DT the) (NN film))))))
+    (, ,)
+    (CC but)
+    (S
+      (NP (PRP it))
+      (VP (VBD earned)
+        (PRT (RP back))
+        (NP
+          (NP (PRP$ its) (JJ whole) (NN budget))
+          (PP (IN in)
+            (NP (CD one))))
+        (NP (NN night))))
+    (. .)))
+
+nsubj(spent-2, He-1)
+root(ROOT-0, spent-2)
+compound(hundred-4, five-3)
+nummod(dollars-6, hundred-4)
+compound(dollars-6, U.S.-5)
+dobj(spent-2, dollars-6)
+xcomp(spent-2, making-7)
+det(film-9, the-8)
+dobj(making-7, film-9)
+cc(spent-2, but-11)
+nsubj(earned-13, it-12)
+conj:but(spent-2, earned-13)
+compound:prt(earned-13, back-14)
+nmod:poss(budget-17, its-15)
+amod(budget-17, whole-16)
+dobj(earned-13, budget-17)
+case(one-19, in-18)
+nmod:in(budget-17, one-19)
+nmod:tmod(earned-13, night-20)
+
+(ROOT
+  (S
+    (NP (NNP Spielberg))
+    (VP (VBD got)
+      (NP (JJ poor) (NNS grades))
+      (PP (IN in)
+        (NP
+          (NP (JJ high) (NN school)
+            (CC and)
+            (NN wasnt))
+          (VP (VBN accepted)
+            (PP (TO to)
+              (NP (DT any) (NN film) (NNS schools)))))))
+    (. .)))
+
+nsubj(got-2, Spielberg-1)
+root(ROOT-0, got-2)
+amod(grades-4, poor-3)
+dobj(got-2, grades-4)
+case(school-7, in-5)
+amod(school-7, high-6)
+nmod:in(got-2, school-7)
+cc(school-7, and-8)
+nmod:in(got-2, wasnt-9)
+conj:and(school-7, wasnt-9)
+acl(school-7, accepted-10)
+case(schools-14, to-11)
+det(schools-14, any-12)
+compound(schools-14, film-13)
+nmod:to(accepted-10, schools-14)
+
+(ROOT
+  (S (CC But)
+    (ADVP (RB never))
+    (VP (VBD had)
+      (S
+        (NP (PRP he))
+        (VP (VBD felt))))
+    (VP (VBN discouraged))
+    (. .)))
+
+cc(had-3, But-1)
+neg(had-3, never-2)
+root(ROOT-0, had-3)
+nsubj(felt-5, he-4)
+ccomp(had-3, felt-5)
+dep(had-3, discouraged-6)
+
+(ROOT
+  (S
+    (ADVP (RB Instead))
+    (, ,)
+    (NP (PRP he))
+    (ADVP (RB regularly))
+    (VP (VBD bluffed)
+      (NP (PRP$ his) (NN way))
+      (PP (IN onto)
+        (NP (DT the) (NNP Universal) (NNPS Studios) (NN lot))))
+    (. .)))
+
+advmod(bluffed-5, Instead-1)
+nsubj(bluffed-5, he-3)
+advmod(bluffed-5, regularly-4)
+root(ROOT-0, bluffed-5)
+nmod:poss(way-7, his-6)
+dobj(bluffed-5, way-7)
+case(lot-12, onto-8)
+det(lot-12, the-9)
+compound(lot-12, Universal-10)
+compound(lot-12, Studios-11)
+nmod:onto(bluffed-5, lot-12)
+
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (VBD used)
+      (NP (DT an) (JJ empty) (NN office))
+      (PP (IN as)
+        (NP
+          (NP (PRP$ his) (JJ own) (NN while))
+          (VP (VBG trying)
+            (S
+              (VP (TO to)
+                (VP (VB talk)
+                  (NP (NNS producers))
+                  (PP (IN into)
+                    (S
+                      (VP (VBG looking)
+                        (PP (IN at)
+                          (NP (PRP$ his) (NNS films)))))))))))))
+    (. .)))
+
+nsubj(used-2, He-1)
+root(ROOT-0, used-2)
+det(office-5, an-3)
+amod(office-5, empty-4)
+dobj(used-2, office-5)
+case(while-9, as-6)
+nmod:poss(while-9, his-7)
+amod(while-9, own-8)
+nmod:as(used-2, while-9)
+acl(while-9, trying-10)
+mark(talk-12, to-11)
+xcomp(trying-10, talk-12)
+dobj(talk-12, producers-13)
+mark(looking-15, into-14)
+advcl(talk-12, looking-15)
+case(films-18, at-16)
+nmod:poss(films-18, his-17)
+nmod:at(looking-15, films-18)
+
+(ROOT
+  (S
+    (NP (PRP$ His) (JJ twenty-two-minute) (NN film))
+    (VP (VBD called)
+      (SBAR
+        (S
+          (NP (NNP Amblin))
+          (VP (VBD won)
+            (NP (NNS awards))
+            (PP (IN at)
+              (NP (DT the) (NNP Venice)
+                (CC and)
+                (NNP Atlanta) (NN film) (NNS festivals)))))))
+    (. .)))
+
+nmod:poss(film-3, His-1)
+amod(film-3, twenty-two-minute-2)
+nsubj(called-4, film-3)
+root(ROOT-0, called-4)
+nsubj(won-6, Amblin-5)
+ccomp(called-4, won-6)
+dobj(won-6, awards-7)
+case(Venice-10, at-8)
+det(Venice-10, the-9)
+nmod:at(won-6, Venice-10)
+cc(Venice-10, and-11)
+compound(festivals-14, Atlanta-12)
+compound(festivals-14, film-13)
+nmod:at(won-6, festivals-14)
+conj:and(Venice-10, festivals-14)
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (ADVP (RB also))
+    (VP (VBD caught)
+      (NP
+        (NP (DT the) (NN attention))
+        (PP (IN of)
+          (NP
+            (NP (DT the) (NN head))
+            (PP (IN of)
+              (NP (NNP Universals) (NNP TV) (NN division)))))))
+    (. .)))
+
+nsubj(caught-3, It-1)
+advmod(caught-3, also-2)
+root(ROOT-0, caught-3)
+det(attention-5, the-4)
+dobj(caught-3, attention-5)
+case(head-8, of-6)
+det(head-8, the-7)
+nmod:of(attention-5, head-8)
+case(division-12, of-9)
+compound(division-12, Universals-10)
+compound(division-12, TV-11)
+nmod:of(head-8, division-12)
+
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (VBD signed)
+      (NP (NNP Spielberg))
+      (PP (TO to)
+        (NP (DT a) (JJ seven-year) (NN contract))))
+    (. .)))
+
+nsubj(signed-2, He-1)
+root(ROOT-0, signed-2)
+dobj(signed-2, Spielberg-3)
+case(contract-7, to-4)
+det(contract-7, a-5)
+amod(contract-7, seven-year-6)
+nmod:to(signed-2, contract-7)
+
+(ROOT
+  (S
+    (PP (IN At)
+      (NP (CD twenty)))
+    (, ,)
+    (NP (NNP Spielberg))
+    (VP (VBD was)
+      (NP
+        (NP (DT the) (JJS youngest) (NN director))
+        (ADVP (RB ever)))
+      (S
+        (VP (TO to)
+          (VP (VB get)
+            (NP (PDT such) (DT a) (NN deal))))))
+    (. .)))
+
+case(twenty-2, At-1)
+nmod:at(director-8, twenty-2)
+nsubj(director-8, Spielberg-4)
+cop(director-8, was-5)
+det(director-8, the-6)
+amod(director-8, youngest-7)
+root(ROOT-0, director-8)
+advmod(director-8, ever-9)
+mark(get-11, to-10)
+advcl(director-8, get-11)
+det:predet(deal-14, such-12)
+det(deal-14, a-13)
+dobj(get-11, deal-14)
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (CD 1974)))
+    (, ,)
+    (NP (NNP Spielberg))
+    (VP (VBD made)
+      (NP (PRP$ his) (NN feature) (NN film) (NN debut))
+      (PP (IN with)
+        (NP (DT The) (NNP Sugarland) (NNP Express))))
+    (. .)))
+
+case(1974-2, In-1)
+nmod:in(made-5, 1974-2)
+nsubj(made-5, Spielberg-4)
+root(ROOT-0, made-5)
+nmod:poss(debut-9, his-6)
+compound(debut-9, feature-7)
+compound(debut-9, film-8)
+dobj(made-5, debut-9)
+case(Express-13, with-10)
+det(Express-13, The-11)
+compound(Express-13, Sugarland-12)
+nmod:with(made-5, Express-13)
+
+(ROOT
+  (S
+    (NP (NNP Spielberg))
+    (ADVP (RB really))
+    (VP (VBD impressed)
+      (NP
+        (NP (NN producer) (NNP Richard) (NNP Zanuck))
+        (PP (IN with)
+          (NP (PRP$ his) (NN skill))))
+      (PP (IN in)
+        (NP (VBG managing) (NN movie) (NNS scenes))))
+    (. .)))
+
+nsubj(impressed-3, Spielberg-1)
+advmod(impressed-3, really-2)
+root(ROOT-0, impressed-3)
+compound(Zanuck-6, producer-4)
+compound(Zanuck-6, Richard-5)
+dobj(impressed-3, Zanuck-6)
+case(skill-9, with-7)
+nmod:poss(skill-9, his-8)
+nmod:with(Zanuck-6, skill-9)
+case(scenes-13, in-10)
+amod(scenes-13, managing-11)
+compound(scenes-13, movie-12)
+nmod:in(impressed-3, scenes-13)
+
+(ROOT
+  (S (CC But)
+    (NP (NNS audiences))
+    (VP (VBD were)
+      (ADVP (RBR less) (IN than))
+      (VP (VBN thrilled)
+        (PP (IN with)
+          (NP (PRP$ his) (NNS efforts)))))
+    (. .)))
+
+cc(thrilled-6, But-1)
+nsubjpass(thrilled-6, audiences-2)
+auxpass(thrilled-6, were-3)
+advmod(thrilled-6, less-4)
+case(less-4, than-5)
+root(ROOT-0, thrilled-6)
+case(efforts-9, with-7)
+nmod:poss(efforts-9, his-8)
+nmod:with(thrilled-6, efforts-9)
+
+(ROOT
+  (S
+    (NP (DT The) (NN film))
+    (VP (VBD performed)
+      (ADVP (RB poorly))
+      (PP (IN at)
+        (NP (DT the) (NN box) (NN office))))
+    (. .)))
+
+det(film-2, The-1)
+nsubj(performed-3, film-2)
+root(ROOT-0, performed-3)
+advmod(performed-3, poorly-4)
+case(office-8, at-5)
+det(office-8, the-6)
+compound(office-8, box-7)
+nmod:at(performed-3, office-8)
+
+(ROOT
+  (S
+    (NP (CD 1975))
+    (VP (VBD was)
+      (NP (DT a) (JJ different) (NN story))
+      (, ,)
+      (ADVP (RB however)))
+    (. .)))
+
+nsubj(story-5, 1975-1)
+cop(story-5, was-2)
+det(story-5, a-3)
+amod(story-5, different-4)
+root(ROOT-0, story-5)
+advmod(story-5, however-7)
+
+(ROOT
+  (S
+    (NP (NNP Spielberg))
+    (VP (VBD was)
+      (VP (VBN chosen)
+        (PP (TO to)
+          (NP (JJ direct) (NNP Jaws)))))
+    (. .)))
+
+nsubjpass(chosen-3, Spielberg-1)
+auxpass(chosen-3, was-2)
+root(ROOT-0, chosen-3)
+case(Jaws-6, to-4)
+amod(Jaws-6, direct-5)
+nmod:to(chosen-3, Jaws-6)
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP
+        (NP (DT an) (NN interview))
+        (PP (IN with)
+          (NP (DT a) (NNP New) (NNP York) (NN magazine)))))
+    (, ,)
+    (NP (NNP Spielberg))
+    (VP
+      (VP (VBD said))
+      (, ,)
+      (NP
+        (NP (NNS Parts))
+        (PP (IN of)
+          (NP
+            (NP (DT the) (NN book))
+            (VP (VBN terrorized)
+              (NP (PRP me)))))))
+    (. .)))
+
+case(interview-3, In-1)
+det(interview-3, an-2)
+nmod:in(said-11, interview-3)
+case(magazine-8, with-4)
+det(magazine-8, a-5)
+compound(magazine-8, New-6)
+compound(magazine-8, York-7)
+nmod:with(interview-3, magazine-8)
+nsubj(said-11, Spielberg-10)
+root(ROOT-0, said-11)
+dobj(said-11, Parts-13)
+case(book-16, of-14)
+det(book-16, the-15)
+nmod:of(Parts-13, book-16)
+acl(book-16, terrorized-17)
+dobj(terrorized-17, me-18)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBD tried)
+      (S
+        (VP (TO to)
+          (VP (VB translate)
+            (NP (PRP$ my) (NN fear))
+            (PP (IN into)
+              (NP (JJ visual) (NN language)))))))
+    (. .)))
+
+nsubj(tried-2, I-1)
+nsubj(translate-4, I-1)
+root(ROOT-0, tried-2)
+mark(translate-4, to-3)
+xcomp(tried-2, translate-4)
+nmod:poss(fear-6, my-5)
+dobj(translate-4, fear-6)
+case(language-9, into-7)
+amod(language-9, visual-8)
+nmod:into(translate-4, language-9)
+
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (VBD succeeded))
+    (. .)))
+
+nsubj(succeeded-2, He-1)
+root(ROOT-0, succeeded-2)
+
+(ROOT
+  (S
+    (NP (NNS People))
+    (VP (VBD flocked)
+      (PP (TO to)
+        (NP (NNS theaters)))
+      (S
+        (VP (TO to)
+          (VP (VB be)
+            (VP (VBN scared)
+              (PRT (RP out))
+              (PP (IN of)
+                (NP (PRP$ their) (NNS wits))))))))
+    (. .)))
+
+nsubj(flocked-2, People-1)
+nsubjpass(scared-7, People-1)
+root(ROOT-0, flocked-2)
+case(theaters-4, to-3)
+nmod:to(flocked-2, theaters-4)
+mark(scared-7, to-5)
+auxpass(scared-7, be-6)
+xcomp(flocked-2, scared-7)
+compound:prt(scared-7, out-8)
+case(wits-11, of-9)
+nmod:poss(wits-11, their-10)
+nmod:of(scared-7, wits-11)
+
+(ROOT
+  (S
+    (NP (NNP Spielberg))
+    (VP (VBD continued)
+      (NP
+        (NP (PRP$ his) (NN string))
+        (PP (IN of)
+          (NP
+            (NP (NNS hits))
+            (PP (IN in)
+              (NP (CD 1981))))))
+      (PP (IN with)
+        (NP
+          (NP (NNPS Raiders))
+          (PP (IN of)
+            (NP (DT the) (NNP Lost) (NNP Ark.))))))
+    (. .)))
+
+nsubj(continued-2, Spielberg-1)
+root(ROOT-0, continued-2)
+nmod:poss(string-4, his-3)
+dobj(continued-2, string-4)
+case(hits-6, of-5)
+nmod:of(string-4, hits-6)
+case(1981-8, in-7)
+nmod:in(hits-6, 1981-8)
+case(Raiders-10, with-9)
+nmod:with(continued-2, Raiders-10)
+case(Ark.-14, of-11)
+det(Ark.-14, the-12)
+compound(Ark.-14, Lost-13)
+nmod:of(Raiders-10, Ark.-14)
+
+(ROOT
+  (S
+    (NP (DT The) (NN film))
+    (VP (VBD earned)
+      (NP (NNP Spielberg))
+      (NP
+        (NP (PRP$ his) (JJ first) (NNP Oscar) (NN nomination))
+        (PP (IN for)
+          (NP (JJS best) (NN director)))))
+    (. .)))
+
+det(film-2, The-1)
+nsubj(earned-3, film-2)
+root(ROOT-0, earned-3)
+iobj(earned-3, Spielberg-4)
+nmod:poss(nomination-8, his-5)
+amod(nomination-8, first-6)
+compound(nomination-8, Oscar-7)
+dobj(earned-3, nomination-8)
+case(director-11, for-9)
+amod(director-11, best-10)
+nmod:for(nomination-8, director-11)
+
+(ROOT
+  (S
+    (NP
+      (NP (NNS Films) (CD two)
+        (CC and)
+        (CD three))
+      (PP (IN in)
+        (NP (DT the) (NN series))))
+    (VP
+      (ADVP (RB also))
+      (VBN thrilled)
+      (NP (NNS audiences)))
+    (. .)))
+
+nsubj(thrilled-9, Films-1)
+nummod(Films-1, two-2)
+cc(Films-1, and-3)
+conj:and(Films-1, three-4)
+nsubj(thrilled-9, three-4)
+case(series-7, in-5)
+det(series-7, the-6)
+nmod:in(Films-1, series-7)
+advmod(thrilled-9, also-8)
+root(ROOT-0, thrilled-9)
+dobj(thrilled-9, audiences-10)
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (CD 1985)))
+    (, ,)
+    (NP (NNP Spielberg))
+    (VP (VBD challenged)
+      (S
+        (NP (PRP himself))
+        (VP (TO to)
+          (VP (VB make)
+            (NP (DT a)
+              (ADJP (RBR more) (JJ serious))
+              (NN film))))))
+    (. .)))
+
+case(1985-2, In-1)
+nmod:in(challenged-5, 1985-2)
+nsubj(challenged-5, Spielberg-4)
+root(ROOT-0, challenged-5)
+dobj(challenged-5, himself-6)
+nsubj(make-8, himself-6)
+mark(make-8, to-7)
+xcomp(challenged-5, make-8)
+det(film-12, a-9)
+advmod(serious-11, more-10)
+amod(film-12, serious-11)
+dobj(make-8, film-12)
+
+(ROOT
+  (S
+    (NP (DT The) (NNP Color) (NNP Purple))
+    (VP (VBD was)
+      (NP (DT the) (NN result)))
+    (. .)))
+
+det(Purple-3, The-1)
+compound(Purple-3, Color-2)
+nsubj(result-6, Purple-3)
+cop(result-6, was-4)
+det(result-6, the-5)
+root(ROOT-0, result-6)
+
+(ROOT
+  (S
+    (S
+      (NP (DT The) (NN film))
+      (VP (VBD earned)
+        (NP (NNP eleven) (NNP Academy) (NN Award) (NNS nominations))))
+    (, ,)
+    (CC but)
+    (S
+      (NP (NN didnt))
+      (VP (VBP win)
+        (NP (DT a) (JJ single) (NN award))))
+    (. .)))
+
+det(film-2, The-1)
+nsubj(earned-3, film-2)
+root(ROOT-0, earned-3)
+compound(nominations-7, eleven-4)
+compound(nominations-7, Academy-5)
+compound(nominations-7, Award-6)
+dobj(earned-3, nominations-7)
+cc(earned-3, but-9)
+nsubj(win-11, didnt-10)
+conj:but(earned-3, win-11)
+det(award-14, a-12)
+amod(award-14, single-13)
+dobj(win-11, award-14)
+
+(ROOT
+  (S
+    (ADVP (RB Finally))
+    (, ,)
+    (PP (IN in)
+      (NP (CD 1993)))
+    (, ,)
+    (NP (NNP Spielbergs) (NN heartbreaking) (NN film) (NNP Schindlers) (NNP List))
+    (VP (VBD earned)
+      (NP (PRP him))
+      (NP
+        (NP (DT an) (NNP Academy) (NN Award))
+        (PP (IN for)
+          (NP (JJS best) (NN director)))))
+    (. .)))
+
+advmod(earned-11, Finally-1)
+case(1993-4, in-3)
+nmod:in(earned-11, 1993-4)
+compound(List-10, Spielbergs-6)
+compound(List-10, heartbreaking-7)
+compound(List-10, film-8)
+compound(List-10, Schindlers-9)
+nsubj(earned-11, List-10)
+root(ROOT-0, earned-11)
+iobj(earned-11, him-12)
+det(Award-15, an-13)
+compound(Award-15, Academy-14)
+dobj(earned-11, Award-15)
+case(director-18, for-16)
+amod(director-18, best-17)
+nmod:for(Award-15, director-18)
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (CD 2002)))
+    (NP (NNP Spielberg))
+    (VP (VBD received)
+      (NP (DT another) (NN honor))
+      (SBAR (IN that)
+        (S
+          (NP (PRP he))
+          (VP (VBZ treasured)
+            (NP (JJ highlyXa) (NN college) (NN diploma))))))
+    (. .)))
+
+case(2002-2, In-1)
+nmod:in(received-4, 2002-2)
+nsubj(received-4, Spielberg-3)
+root(ROOT-0, received-4)
+det(honor-6, another-5)
+dobj(received-4, honor-6)
+mark(treasured-9, that-7)
+nsubj(treasured-9, he-8)
+ccomp(received-4, treasured-9)
+amod(diploma-12, highlyXa-10)
+compound(diploma-12, college-11)
+dobj(treasured-9, diploma-12)
+
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (VBD wanted)
+      (S
+        (VP (TO to)
+          (VP (VB set)
+            (NP (DT an) (NN example))
+            (PP (IN for)
+              (NP
+                (NP (JJ young) (NNS people))
+                (PP (IN of)
+                  (NP
+                    (NP (DT the) (NN importance))
+                    (PP (IN of)
+                      (NP (DT a) (NN college) (NN education)))))))))))
+    (. .)))
+
+nsubj(wanted-2, He-1)
+nsubj(set-4, He-1)
+root(ROOT-0, wanted-2)
+mark(set-4, to-3)
+xcomp(wanted-2, set-4)
+det(example-6, an-5)
+dobj(set-4, example-6)
+case(people-9, for-7)
+amod(people-9, young-8)
+nmod:for(set-4, people-9)
+case(importance-12, of-10)
+det(importance-12, the-11)
+nmod:of(people-9, importance-12)
+case(education-16, of-13)
+det(education-16, a-14)
+compound(education-16, college-15)
+nmod:of(importance-12, education-16)
+
+(ROOT
+  (S (CC But)
+    (NP (PRP he))
+    (VP (VBZ hopes)
+      (S
+        (NP (PRP$ his) (NNS children) (NN wont))
+        (VP (VB take)
+          (S
+            (NP (JJ thirty-three) (NNS years))
+            (VP (TO to)
+              (VP (VB finish)
+                (NP (PRP$ their) (NNS degrees))))))))
+    (. !)))
+
+cc(hopes-3, But-1)
+nsubj(hopes-3, he-2)
+root(ROOT-0, hopes-3)
+nmod:poss(wont-6, his-4)
+compound(wont-6, children-5)
+nsubj(take-7, wont-6)
+ccomp(hopes-3, take-7)
+amod(years-9, thirty-three-8)
+dobj(take-7, years-9)
+nsubj(finish-11, years-9)
+mark(finish-11, to-10)
+xcomp(take-7, finish-11)
+nmod:poss(degrees-13, their-12)
+dobj(finish-11, degrees-13)
+
+(ROOT
+  (S
+    (NP (NNP Spielberg))
+    (VP (VBZ continues)
+      (S
+        (VP (TO to)
+          (VP (VB make)
+            (NP (NNS films))))))
+    (. .)))
+
+nsubj(continues-2, Spielberg-1)
+nsubj(make-4, Spielberg-1)
+root(ROOT-0, continues-2)
+mark(make-4, to-3)
+xcomp(continues-2, make-4)
+dobj(make-4, films-5)
+
+(ROOT
+  (S
+    (S (RB Not)
+      (NP (DT all))
+      (VP (VBP are)
+        (NP (NN box) (NN office) (NNS hits))))
+    (, ,)
+    (CC but)
+    (S
+      (NP (DT each))
+      (VP (VBZ tells)
+        (NP (DT a) (NN story))
+        (SBAR (IN as)
+          (S
+            (NP (RB only) (NNP Spielberg))
+            (VP (MD can))))))
+    (. .)))
+
+neg(hits-6, Not-1)
+nsubj(hits-6, all-2)
+cop(hits-6, are-3)
+compound(hits-6, box-4)
+compound(hits-6, office-5)
+root(ROOT-0, hits-6)
+cc(hits-6, but-8)
+nsubj(tells-10, each-9)
+conj:but(hits-6, tells-10)
+det(story-12, a-11)
+dobj(tells-10, story-12)
+mark(can-16, as-13)
+advmod(Spielberg-15, only-14)
+nsubj(can-16, Spielberg-15)
+advcl(tells-10, can-16)
+
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (VBZ has)
+      (VP (VBN ranked)
+        (PP (IN as)
+          (NP
+            (NP (DT the)
+              (ADJP (RBS most) (JJ successful))
+              (NN director))
+            (PP (IN in)
+              (NP (DT the) (JJ American) (NN film) (NN industry)))))))
+    (. .)))
+
+nsubj(ranked-3, He-1)
+aux(ranked-3, has-2)
+root(ROOT-0, ranked-3)
+case(director-8, as-4)
+det(director-8, the-5)
+advmod(successful-7, most-6)
+amod(director-8, successful-7)
+nmod:as(ranked-3, director-8)
+case(industry-13, in-9)
+det(industry-13, the-10)
+amod(industry-13, American-11)
+compound(industry-13, film-12)
+nmod:in(director-8, industry-13)
+
+(ROOT
+  (S
+    (S
+      (NP (JJ Other) (NNS directors))
+      (VP (MD may)
+        (VP (VB try)
+          (S
+            (VP (TO to)
+              (VP (VB catch)
+                (PRT (RP up))
+                (PP (IN with)
+                  (NP (NN himXif)))))))))
+    (NP (PRP they))
+    (VP (MD can))
+    (. .)))
+
+amod(directors-2, Other-1)
+nsubj(try-4, directors-2)
+nsubj(catch-6, directors-2)
+aux(try-4, may-3)
+dep(can-11, try-4)
+mark(catch-6, to-5)
+xcomp(try-4, catch-6)
+compound:prt(catch-6, up-7)
+case(himXif-9, with-8)
+nmod:with(catch-6, himXif-9)
+nsubj(can-11, they-10)
+root(ROOT-0, can-11)
+

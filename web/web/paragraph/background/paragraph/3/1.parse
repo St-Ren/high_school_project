@@ -1,0 +1,1610 @@
+(ROOT
+  (SQ (MD Can)
+    (NP (NNPS Animals))
+    (VP (VB Think))
+    (. ?)))
+
+aux(Think-3, Can-1)
+nsubj(Think-3, Animals-2)
+root(ROOT-0, Think-3)
+
+(ROOT
+  (SQ (MD Can)
+    (NP (NNS animals))
+    (ADVP (RB really))
+    (VP (VB think))
+    (. ?)))
+
+aux(think-4, Can-1)
+nsubj(think-4, animals-2)
+advmod(think-4, really-3)
+root(ROOT-0, think-4)
+
+(ROOT
+  (SQ (MD Can)
+    (NP (PRP they))
+    (VP (VB make)
+      (NP (NNS decisions))
+      (PP (VBN based)
+        (PP (IN on)
+          (NP (NN information)))))
+    (. ?)))
+
+aux(make-3, Can-1)
+nsubj(make-3, they-2)
+root(ROOT-0, make-3)
+dobj(make-3, decisions-4)
+case(information-7, based-5)
+mwe(based-5, on-6)
+advcl:based_on(make-3, information-7)
+
+(ROOT
+  (S
+    (PP (IN For)
+      (NP (NNS years)))
+    (, ,)
+    (NP (NNS scientists))
+    (VP (VBP have)
+      (VP (VBN debated)
+        (NP (DT these) (NNS questions))))
+    (. .)))
+
+case(years-2, For-1)
+nmod:for(debated-6, years-2)
+nsubj(debated-6, scientists-4)
+aux(debated-6, have-5)
+root(ROOT-0, debated-6)
+det(questions-8, these-7)
+dobj(debated-6, questions-8)
+
+(ROOT
+  (S
+    (ADVP (RB Now))
+    (, ,)
+    (NP
+      (NP (JJ many))
+      (PP (IN of)
+        (NP (PRP them))))
+    (VP (VBP believe)
+      (SBAR (IN that)
+        (S
+          (NP (DT some) (NNS animals))
+          (VP (VBP have)
+            (NP (DT the) (NN brain) (NN power)
+              (S
+                (VP (TO to)
+                  (VP
+                    (VP (VB understand)
+                      (NP (JJ new) (NNS situations)))
+                    (, ,)
+                    (VP (VB make)
+                      (NP (NNS decisions)))
+                    (, ,)
+                    (CC and)
+                    (VP (VB plan)
+                      (ADVP (RB ahead)))))))))))
+    (. .)))
+
+advmod(believe-6, Now-1)
+nsubj(believe-6, many-3)
+case(them-5, of-4)
+nmod:of(many-3, them-5)
+root(ROOT-0, believe-6)
+mark(have-10, that-7)
+det(animals-9, some-8)
+nsubj(have-10, animals-9)
+ccomp(believe-6, have-10)
+det(power-13, the-11)
+compound(power-13, brain-12)
+dobj(have-10, power-13)
+mark(understand-15, to-14)
+acl(power-13, understand-15)
+amod(situations-17, new-16)
+dobj(understand-15, situations-17)
+acl(power-13, make-19)
+conj:and(understand-15, make-19)
+dobj(make-19, decisions-20)
+cc(understand-15, and-22)
+acl(power-13, plan-23)
+conj:and(understand-15, plan-23)
+advmod(plan-23, ahead-24)
+
+(ROOT
+  (S
+    (NP (DT The) (NN following))
+    (VP (VBP are)
+      (NP
+        (NP
+          (QP (RB just) (DT a) (JJ few)))
+        (PP (IN of)
+          (NP
+            (NP (DT the) (JJ many) (NNS examples))
+            (PP (IN of)
+              (NP (NN animal) (NN intelligence))))))
+      (SBAR (IN that)
+        (S
+          (NP (NNS scientists))
+          (VP (VBP have)
+            (VP (VBN observed))))))
+    (. .)))
+
+det(following-2, The-1)
+nsubj(few-6, following-2)
+cop(few-6, are-3)
+advmod(few-6, just-4)
+advmod(few-6, a-5)
+root(ROOT-0, few-6)
+case(examples-10, of-7)
+det(examples-10, the-8)
+amod(examples-10, many-9)
+nmod:of(few-6, examples-10)
+case(intelligence-13, of-11)
+compound(intelligence-13, animal-12)
+nmod:of(examples-10, intelligence-13)
+mark(observed-17, that-14)
+nsubj(observed-17, scientists-15)
+aux(observed-17, have-16)
+ccomp(few-6, observed-17)
+
+(ROOT
+  (S
+    (NP (NNP Dandy))
+    (VP (VBZ is)
+      (NP
+        (NP (DT a) (JJ young) (JJ male) (NN chimpanzee))
+        (PP (IN at)
+          (NP (DT the) (NNP Wisconsin) (NNP Regional) (NNP Primate) (NNP Center)))))
+    (. .)))
+
+nsubj(chimpanzee-6, Dandy-1)
+cop(chimpanzee-6, is-2)
+det(chimpanzee-6, a-3)
+amod(chimpanzee-6, young-4)
+amod(chimpanzee-6, male-5)
+root(ROOT-0, chimpanzee-6)
+case(Center-12, at-7)
+det(Center-12, the-8)
+compound(Center-12, Wisconsin-9)
+compound(Center-12, Regional-10)
+compound(Center-12, Primate-11)
+nmod:at(chimpanzee-6, Center-12)
+
+(ROOT
+  (S
+    (ADVP (RB Recently))
+    (, ,)
+    (NP (PRP he))
+    (VP (VBD did)
+      (NP
+        (NP (NN something))
+        (SBAR
+          (WHNP (WDT that))
+          (S
+            (VP (VBD surprised)
+              (NP (NNS scientists))
+              (ADVP (RB there)))))))
+    (. .)))
+
+advmod(did-4, Recently-1)
+nsubj(did-4, he-3)
+root(ROOT-0, did-4)
+dobj(did-4, something-5)
+nsubj(surprised-7, something-5)
+ref(something-5, that-6)
+acl:relcl(something-5, surprised-7)
+dobj(surprised-7, scientists-8)
+advmod(surprised-7, there-9)
+
+(ROOT
+  (S
+    (NP (DT The) (NNS scientists))
+    (VP (VBD had)
+      (VP (VBN buried)
+        (NP
+          (NP (DT some) (NN grapefruit))
+          (PP (IN in)
+            (NP (DT the) (NN sand))))))
+    (. .)))
+
+det(scientists-2, The-1)
+nsubj(buried-4, scientists-2)
+aux(buried-4, had-3)
+root(ROOT-0, buried-4)
+det(grapefruit-6, some-5)
+dobj(buried-4, grapefruit-6)
+case(sand-9, in-7)
+det(sand-9, the-8)
+nmod:in(grapefruit-6, sand-9)
+
+(ROOT
+  (S
+    (S
+      (NP (NNP Dandy))
+      (VP (VBD knew)
+        (SBAR
+          (WHADVP (WRB where))
+          (S
+            (NP (DT the) (NN grapefruit))
+            (VP (VBD was))))))
+    (, ,)
+    (CC but)
+    (S
+      (SBAR
+        (WHADVP (WRB when))
+        (S
+          (NP (DT the) (JJ other) (NNS chimps))
+          (VP (VBD were)
+            (PP (IN in)
+              (NP (DT the) (NN area))))))
+      (, ,)
+      (NP (PRP he))
+      (VP (VBD pretended)
+        (SBAR (IN that)
+          (S
+            (NP (PRP he))
+            (VP (VBD did) (RB not)
+              (VP (VB know)
+                (NP (DT the) (NN location))))))))
+    (. .)))
+
+nsubj(knew-2, Dandy-1)
+root(ROOT-0, knew-2)
+advmod(was-6, where-3)
+det(grapefruit-5, the-4)
+nsubj(was-6, grapefruit-5)
+ccomp(knew-2, was-6)
+cc(knew-2, but-8)
+advmod(area-16, when-9)
+det(chimps-12, the-10)
+amod(chimps-12, other-11)
+nsubj(area-16, chimps-12)
+cop(area-16, were-13)
+case(area-16, in-14)
+det(area-16, the-15)
+advcl:in(pretended-19, area-16)
+nsubj(pretended-19, he-18)
+conj:but(knew-2, pretended-19)
+mark(know-24, that-20)
+nsubj(know-24, he-21)
+aux(know-24, did-22)
+neg(know-24, not-23)
+ccomp(pretended-19, know-24)
+det(location-26, the-25)
+dobj(know-24, location-26)
+
+(ROOT
+  (S
+    (ADVP (RB Later))
+    (, ,)
+    (SBAR
+      (WHADVP (WRB when))
+      (S
+        (NP (DT the) (JJ other) (NNS chimps))
+        (VP (VBD fell)
+          (ADJP (RB asleep)))))
+    (, ,)
+    (NP (PRP he))
+    (VP
+      (VP (VBD went)
+        (ADVP (RB right)
+          (PP (TO to)
+            (NP (DT the) (NN spot))))
+        (SBAR
+          (WHADVP (WRB where))
+          (S
+            (NP (DT the) (NN grapefruit))
+            (VP (VBD was)
+              (VP (VBN hidden))))))
+      (, ,)
+      (VP (VBD dug)
+        (NP (PRP it))
+        (PRT (RP up)))
+      (, ,)
+      (CC and)
+      (VP (VBD ate)
+        (NP (PRP it))))
+    (. .)))
+
+advmod(went-11, Later-1)
+advmod(fell-7, when-3)
+det(chimps-6, the-4)
+amod(chimps-6, other-5)
+nsubj(fell-7, chimps-6)
+advcl(went-11, fell-7)
+xcomp(fell-7, asleep-8)
+nsubj(went-11, he-10)
+nsubj(dug-22, he-10)
+nsubj(ate-27, he-10)
+root(ROOT-0, went-11)
+advmod(went-11, right-12)
+case(spot-15, to-13)
+det(spot-15, the-14)
+nmod:to(right-12, spot-15)
+advmod(hidden-20, where-16)
+det(grapefruit-18, the-17)
+nsubjpass(hidden-20, grapefruit-18)
+auxpass(hidden-20, was-19)
+advcl(went-11, hidden-20)
+conj:and(went-11, dug-22)
+dobj(dug-22, it-23)
+compound:prt(dug-22, up-24)
+cc(went-11, and-26)
+conj:and(went-11, ate-27)
+dobj(ate-27, it-28)
+
+(ROOT
+  (S
+    (ADVP (RB Amazingly))
+    (, ,)
+    (NP (NNP Dandy))
+    (VP (VBD was)
+      (ADJP (JJ able)
+        (S
+          (VP (TO to)
+            (VP
+              (VP (VB plan)
+                (ADVP (RB ahead)))
+              (CC and)
+              (VP (VB trick)
+                (NP (PRP$ his) (NNS friends))))))))
+    (. .)))
+
+advmod(able-5, Amazingly-1)
+nsubj(able-5, Dandy-3)
+nsubj(plan-7, Dandy-3)
+nsubj(trick-10, Dandy-3)
+cop(able-5, was-4)
+root(ROOT-0, able-5)
+mark(plan-7, to-6)
+xcomp(able-5, plan-7)
+advmod(plan-7, ahead-8)
+cc(plan-7, and-9)
+xcomp(able-5, trick-10)
+conj:and(plan-7, trick-10)
+nmod:poss(friends-12, his-11)
+dobj(trick-10, friends-12)
+
+(ROOT
+  (S
+    (NP
+      (NP (DT A) (JJ green-backed) (JJ female) (NN heron))
+      (PP (IN in)
+        (NP (NNP Japan))))
+    (ADVP (RB also))
+    (VP (VBD did)
+      (S
+        (NP (NN something))
+        (ADJP (JJ surprising))))
+    (. .)))
+
+det(heron-4, A-1)
+amod(heron-4, green-backed-2)
+amod(heron-4, female-3)
+nsubj(did-8, heron-4)
+case(Japan-6, in-5)
+nmod:in(heron-4, Japan-6)
+advmod(did-8, also-7)
+root(ROOT-0, did-8)
+nsubj(surprising-10, something-9)
+xcomp(did-8, surprising-10)
+
+(ROOT
+  (S
+    (NP (PRP She))
+    (VP (VBD invented)
+      (NP (DT a) (JJ new) (, ,) (JJ creative) (NN way))
+      (S
+        (VP (TO to)
+          (VP (VB get)
+            (NP (PRP$ her) (NN food))))))
+    (. .)))
+
+nsubj(invented-2, She-1)
+root(ROOT-0, invented-2)
+det(way-7, a-3)
+amod(way-7, new-4)
+amod(way-7, creative-6)
+dobj(invented-2, way-7)
+mark(get-9, to-8)
+advcl(invented-2, get-9)
+nmod:poss(food-11, her-10)
+dobj(get-9, food-11)
+
+(ROOT
+  (S
+    (SBAR
+      (WHADVP (WRB When))
+      (S
+        (NP (PRP she))
+        (VP (VBD saw)
+          (NP (DT some) (JJ minnows) (NN swimming))
+          (PRT (RP around))
+          (PP (IN in)
+            (NP (DT a) (NN pond))))))
+    (, ,)
+    (NP (PRP she))
+    (VP (VBD came)
+      (PRT (RP up))
+      (PP (IN with)
+        (NP (DT a) (NN way)))
+      (S
+        (VP (TO to)
+          (VP (VB catch)
+            (NP (PRP them))))))
+    (. .)))
+
+advmod(saw-3, When-1)
+nsubj(saw-3, she-2)
+advcl(came-13, saw-3)
+det(swimming-6, some-4)
+amod(swimming-6, minnows-5)
+dobj(saw-3, swimming-6)
+compound:prt(saw-3, around-7)
+case(pond-10, in-8)
+det(pond-10, a-9)
+nmod:in(saw-3, pond-10)
+nsubj(came-13, she-12)
+nsubj(catch-19, she-12)
+root(ROOT-0, came-13)
+compound:prt(came-13, up-14)
+case(way-17, with-15)
+det(way-17, a-16)
+nmod:with(came-13, way-17)
+mark(catch-19, to-18)
+xcomp(came-13, catch-19)
+dobj(catch-19, them-20)
+
+(ROOT
+  (S
+    (ADVP (RB First))
+    (, ,)
+    (NP (PRP she))
+    (VP
+      (VP (VBD found)
+        (NP (DT a) (NN twig)))
+      (CC and)
+      (VP (VBD broke)
+        (NP (PRP it))
+        (PP (IN into)
+          (NP (JJ small) (NNS pieces)))))
+    (. .)))
+
+advmod(found-4, First-1)
+nsubj(found-4, she-3)
+nsubj(broke-8, she-3)
+root(ROOT-0, found-4)
+det(twig-6, a-5)
+dobj(found-4, twig-6)
+cc(found-4, and-7)
+conj:and(found-4, broke-8)
+dobj(broke-8, it-9)
+case(pieces-12, into-10)
+amod(pieces-12, small-11)
+nmod:into(broke-8, pieces-12)
+
+(ROOT
+  (S
+    (ADVP (RB Then))
+    (, ,)
+    (NP (PRP she))
+    (VP
+      (VP (VBD took)
+        (NP (PRP it))
+        (PP (TO to)
+          (NP (DT the) (NN pond))))
+      (CC and)
+      (VP (VBD put)
+        (NP (PRP it))
+        (PP (IN in)
+          (NP (DT the) (NN water)))))
+    (. .)))
+
+advmod(took-4, Then-1)
+nsubj(took-4, she-3)
+nsubj(put-10, she-3)
+root(ROOT-0, took-4)
+dobj(took-4, it-5)
+case(pond-8, to-6)
+det(pond-8, the-7)
+nmod:to(took-4, pond-8)
+cc(took-4, and-9)
+conj:and(took-4, put-10)
+dobj(put-10, it-11)
+case(water-14, in-12)
+det(water-14, the-13)
+nmod:in(put-10, water-14)
+
+(ROOT
+  (S
+    (NP (PRP She))
+    (ADVP (RB even))
+    (VP (VBD moved)
+      (NP (PRP it))
+      (PP (TO to)
+        (NP
+          (NP (DT a) (NN place))
+          (PP (IN in)
+            (NP (DT the) (NN pond)))))
+      (SBAR
+        (WHADVP (WRB where))
+        (S
+          (NP (PRP it))
+          (VP (MD would)
+            (VP (VB attract)
+              (NP (DT the) (NNS minnows)))))))
+    (. .)))
+
+nsubj(moved-3, She-1)
+advmod(moved-3, even-2)
+root(ROOT-0, moved-3)
+dobj(moved-3, it-4)
+case(place-7, to-5)
+det(place-7, a-6)
+nmod:to(moved-3, place-7)
+case(pond-10, in-8)
+det(pond-10, the-9)
+nmod:in(place-7, pond-10)
+advmod(attract-14, where-11)
+nsubj(attract-14, it-12)
+aux(attract-14, would-13)
+advcl(moved-3, attract-14)
+det(minnows-16, the-15)
+dobj(attract-14, minnows-16)
+
+(ROOT
+  (S
+    (ADVP (RB Finally))
+    (, ,)
+    (SBAR
+      (WHADVP (WRB when))
+      (S
+        (NP (DT the) (NNS minnows))
+        (VP (VBP swam)
+          (PRT (RP over))
+          (PP (TO to)
+            (NP (DT the) (NN twig))))))
+    (, ,)
+    (NP (PRP she))
+    (VP (VBD was)
+      (ADJP (JJ able)
+        (S
+          (VP (TO to)
+            (VP (VB catch)
+              (NP (CD one))
+              (PP (IN for)
+                (NP (PRP$ her) (NN lunch))))))))
+    (. .)))
+
+advmod(able-14, Finally-1)
+advmod(swam-6, when-3)
+det(minnows-5, the-4)
+nsubj(swam-6, minnows-5)
+advcl(able-14, swam-6)
+compound:prt(swam-6, over-7)
+case(twig-10, to-8)
+det(twig-10, the-9)
+nmod:to(swam-6, twig-10)
+nsubj(able-14, she-12)
+nsubj(catch-16, she-12)
+cop(able-14, was-13)
+root(ROOT-0, able-14)
+mark(catch-16, to-15)
+xcomp(able-14, catch-16)
+dobj(catch-16, one-17)
+case(lunch-20, for-18)
+nmod:poss(lunch-20, her-19)
+nmod:for(catch-16, lunch-20)
+
+(ROOT
+  (S
+    (NP (DT This))
+    (VP (VBZ shows)
+      (SBAR
+        (WHADVP (WRB how))
+        (S
+          (NP (DT the) (NN heron))
+          (VP (VBD was)
+            (ADJP (JJ able)
+              (S
+                (VP (TO to)
+                  (VP (VB make)
+                    (NP
+                      (NP (NN use))
+                      (PP (IN of)
+                        (NP (DT a) (NN tool))))))))))))
+    (. .)))
+
+nsubj(shows-2, This-1)
+root(ROOT-0, shows-2)
+advmod(able-7, how-3)
+det(heron-5, the-4)
+nsubj(able-7, heron-5)
+nsubj(make-9, heron-5)
+cop(able-7, was-6)
+ccomp(shows-2, able-7)
+mark(make-9, to-8)
+xcomp(able-7, make-9)
+dobj(make-9, use-10)
+case(tool-13, of-11)
+det(tool-13, a-12)
+nmod:of(use-10, tool-13)
+
+(ROOT
+  (S
+    (PP (IN At)
+      (NP
+        (NP (DT the) (NNP University))
+        (PP (IN of)
+          (NP (NNP Arizona)))))
+    (, ,)
+    (NP (DT a) (JJ gray) (NN parrot))
+    (VP (VBD named)
+      (SBAR
+        (S
+          (NP (NNP Alex))
+          (VP (VBD surprised)
+            (NP
+              (NP (PRP$ his) (NN trainer))
+              (, ,)
+              (NP (NNP Irene) (NNP Pepperberg)))))))
+    (. .)))
+
+case(University-3, At-1)
+det(University-3, the-2)
+nmod:at(named-10, University-3)
+case(Arizona-5, of-4)
+nmod:of(University-3, Arizona-5)
+det(parrot-9, a-7)
+amod(parrot-9, gray-8)
+nsubj(named-10, parrot-9)
+root(ROOT-0, named-10)
+nsubj(surprised-12, Alex-11)
+ccomp(named-10, surprised-12)
+nmod:poss(trainer-14, his-13)
+dobj(surprised-12, trainer-14)
+compound(Pepperberg-17, Irene-16)
+appos(trainer-14, Pepperberg-17)
+
+(ROOT
+  (S
+    (NP (PRP She))
+    (VP (VBZ has)
+      (VP (VBN been)
+        (VP (VBG working)
+          (PP (IN with)
+            (NP
+              (NP (NNP Alex))
+              (PP (IN for)
+                (NP (CD 15) (NNS years)))))
+          (, ,)
+          (S
+            (VP (VBG teaching)
+              (S
+                (NP (PRP him))
+                (VP
+                  (VP (TO to)
+                    (VP (VB talk)))
+                  (, ,)
+                  (VP (TO to)
+                    (VP (VB name)
+                      (CC and)
+                      (VB count)
+                      (NP (NNS objects))))
+                  (, ,)
+                  (CC and)
+                  (VP (TO to)
+                    (VP (VB answer)
+                      (NP (JJ simple) (NNS questions))
+                      (PP (IN about)
+                        (NP (PRP them))))))))))))
+    (. .)))
+
+nsubj(working-4, She-1)
+aux(working-4, has-2)
+aux(working-4, been-3)
+root(ROOT-0, working-4)
+case(Alex-6, with-5)
+nmod:with(working-4, Alex-6)
+case(years-9, for-7)
+nummod(years-9, 15-8)
+nmod:for(Alex-6, years-9)
+advcl(working-4, teaching-11)
+nsubj(talk-14, him-12)
+nsubj(name-17, him-12)
+nsubj(answer-24, him-12)
+mark(talk-14, to-13)
+ccomp(teaching-11, talk-14)
+mark(name-17, to-16)
+ccomp(teaching-11, name-17)
+conj:and(talk-14, name-17)
+cc(name-17, and-18)
+conj:and(talk-14, count-19)
+conj:and(name-17, count-19)
+dobj(name-17, objects-20)
+cc(talk-14, and-22)
+mark(answer-24, to-23)
+ccomp(teaching-11, answer-24)
+conj:and(talk-14, answer-24)
+amod(questions-26, simple-25)
+dobj(answer-24, questions-26)
+case(them-28, about-27)
+nmod:about(answer-24, them-28)
+
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (VBZ is)
+      (ADJP (RB very) (JJ good)
+        (PP (IN at)
+          (NP (DT these) (NNS tasks)))))
+    (. .)))
+
+nsubj(good-4, He-1)
+cop(good-4, is-2)
+advmod(good-4, very-3)
+root(ROOT-0, good-4)
+case(tasks-7, at-5)
+det(tasks-7, these-6)
+nmod:at(good-4, tasks-7)
+
+(ROOT
+  (S
+    (NP (PRP He))
+    (ADVP (RB even))
+    (VP (VBZ says) (, ,)
+      (S
+        (NP (NNP Im))
+        (ADJP (JJ sorry))
+        (SBAR
+          (WHADVP (WRB when))
+          (S
+            (NP (PRP he))
+            (VP (VBZ makes)
+              (NP
+                (NP (DT a) (NN mistake))
+                (VP (VBG answering)
+                  (NP (DT a) (NN question)))))))))
+    (. .)))
+
+nsubj(says-3, He-1)
+advmod(says-3, even-2)
+root(ROOT-0, says-3)
+nsubj(makes-9, Im-5)
+dep(makes-9, sorry-6)
+advmod(makes-9, when-7)
+nsubj(makes-9, he-8)
+xcomp(says-3, makes-9)
+det(mistake-11, a-10)
+dobj(makes-9, mistake-11)
+acl(mistake-11, answering-12)
+det(question-14, a-13)
+dobj(answering-12, question-14)
+
+(ROOT
+  (S (CC But)
+    (SBAR
+      (WHNP (WP what))
+      (S
+        (NP (NNP Alex))
+        (ADVP (RB once))
+        (VP (VBD did)
+          (NP
+            (NP (RB outside))
+            (PP (IN of)
+              (NP (DT the) (NN laboratory)))))))
+    (VP (VBD was)
+      (ADJP (RB even) (RBR more) (JJ impressive)))
+    (. .)))
+
+cc(impressive-13, But-1)
+dobj(did-5, what-2)
+nsubj(did-5, Alex-3)
+advmod(did-5, once-4)
+csubj(impressive-13, did-5)
+case(laboratory-9, outside-6)
+mwe(outside-6, of-7)
+det(laboratory-9, the-8)
+nmod:outside_of(did-5, laboratory-9)
+cop(impressive-13, was-10)
+advmod(impressive-13, even-11)
+advmod(impressive-13, more-12)
+root(ROOT-0, impressive-13)
+
+(ROOT
+  (S
+    (SBAR
+      (WHADVP (WRB When))
+      (S
+        (NP (PRP he))
+        (VP (VBD had)
+          (S
+            (VP (TO to)
+              (VP (VB go)
+                (PP (TO to)
+                  (NP
+                    (NP (DT the) (JJ veterinarians) (NN office))
+                    (PP (IN for)
+                      (NP (NN lung) (NN surgery)))))))))))
+    (, ,)
+    (NP (PRP he))
+    (VP (VBD became)
+      (ADJP (JJ upset)))
+    (. .)))
+
+advmod(had-3, When-1)
+nsubj(had-3, he-2)
+nsubj(go-5, he-2)
+advcl(became-15, had-3)
+mark(go-5, to-4)
+xcomp(had-3, go-5)
+case(office-9, to-6)
+det(office-9, the-7)
+amod(office-9, veterinarians-8)
+nmod:to(go-5, office-9)
+case(surgery-12, for-10)
+compound(surgery-12, lung-11)
+nmod:for(office-9, surgery-12)
+nsubj(became-15, he-14)
+root(ROOT-0, became-15)
+xcomp(became-15, upset-16)
+
+(ROOT
+  (S
+    (SBAR (IN As)
+      (S
+        (NP (NNP Pepperberg))
+        (VP (VBD started)
+          (S
+            (VP (TO to)
+              (VP (VB leave)))))))
+    (, ,)
+    (NP (NNP Alex))
+    (VP (VBD said) (, ,)
+      (S
+        (VP (VB Come)
+          (ADVP (RB here)))))
+    (. .)))
+
+mark(started-3, As-1)
+nsubj(started-3, Pepperberg-2)
+nsubj(leave-5, Pepperberg-2)
+advcl(said-8, started-3)
+mark(leave-5, to-4)
+xcomp(started-3, leave-5)
+nsubj(said-8, Alex-7)
+root(ROOT-0, said-8)
+ccomp(said-8, Come-10)
+advmod(Come-10, here-11)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP love)
+      (NP (PRP you)))
+    (. .)))
+
+nsubj(love-2, I-1)
+root(ROOT-0, love-2)
+dobj(love-2, you-3)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP want)
+      (S
+        (VP (TO to)
+          (VP (VB go)
+            (ADVP (RB back))))))
+    (. .)))
+
+nsubj(want-2, I-1)
+nsubj(go-4, I-1)
+root(ROOT-0, want-2)
+mark(go-4, to-3)
+xcomp(want-2, go-4)
+advmod(go-4, back-5)
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ seems)
+      (SBAR (IN that)
+        (S
+          (NP (NNP Alex))
+          (ADVP (RB either))
+          (VP
+            (VP (VBD thought)
+              (SBAR
+                (S
+                  (NP (PRP he))
+                  (VP (VBD was)
+                    (VP (VBG being)
+                      (VP (VBN punished)
+                        (PP (IN for)
+                          (S
+                            (VP (VBG doing)
+                              (S
+                                (NP (NN something))
+                                (ADJP (JJ wrong))))))))))))
+            (, ,)
+            (CC or)
+            (VP
+              (ADVP (RB simply))
+              (VBD felt)
+              (ADJP (JJ afraid)))))))
+    (. .)))
+
+nsubj(seems-2, It-1)
+root(ROOT-0, seems-2)
+mark(thought-6, that-3)
+nsubj(thought-6, Alex-4)
+nsubj(felt-18, Alex-4)
+advmod(thought-6, either-5)
+ccomp(seems-2, thought-6)
+nsubjpass(punished-10, he-7)
+aux(punished-10, was-8)
+auxpass(punished-10, being-9)
+ccomp(thought-6, punished-10)
+mark(doing-12, for-11)
+advcl(punished-10, doing-12)
+nsubj(wrong-14, something-13)
+xcomp(doing-12, wrong-14)
+cc(thought-6, or-16)
+advmod(felt-18, simply-17)
+ccomp(seems-2, felt-18)
+conj:or(thought-6, felt-18)
+xcomp(felt-18, afraid-19)
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (DT either) (NN case)))
+    (, ,)
+    (NP (PRP$ his) (NN trainer) (NN couldnt))
+    (VP
+      (VP (VBP help))
+      (CC but)
+      (VP (VBP think)
+        (SBAR (IN that)
+          (S
+            (NP (NNP Alex))
+            (VP (VBD had)
+              (VP (VBN learned)
+                (S
+                  (VP (TO to)
+                    (VP (VB use)
+                      (NP (NN language))
+                      (S
+                        (VP (TO to)
+                          (VP (VB express)
+                            (NP (PRP$ his) (NNS thoughts))))))))))))))
+    (. .)))
+
+case(case-3, In-1)
+det(case-3, either-2)
+nmod:in(help-8, case-3)
+nmod:poss(couldnt-7, his-5)
+compound(couldnt-7, trainer-6)
+nsubj(help-8, couldnt-7)
+nsubj(think-10, couldnt-7)
+root(ROOT-0, help-8)
+cc(help-8, but-9)
+conj:but(help-8, think-10)
+mark(learned-14, that-11)
+nsubj(learned-14, Alex-12)
+nsubj(use-16, Alex-12)
+aux(learned-14, had-13)
+ccomp(think-10, learned-14)
+mark(use-16, to-15)
+xcomp(learned-14, use-16)
+dobj(use-16, language-17)
+mark(express-19, to-18)
+advcl(use-16, express-19)
+nmod:poss(thoughts-21, his-20)
+dobj(express-19, thoughts-21)
+
+(ROOT
+  (S
+    (NP (DT A) (NN gorilla))
+    (VP (VBD named)
+      (SBAR
+        (S
+          (NP
+            (NP (NNP Timmy))
+            (, ,)
+            (SBAR
+              (WHNP (WP who))
+              (S
+                (VP (VBD had)
+                  (VP (VBN lived)
+                    (ADVP (RB alone))
+                    (PP (IN for)
+                      (NP
+                        (NP (JJS most))
+                        (PP (IN of)
+                          (NP (PRP$ his) (NN life)))))))))
+            (, ,))
+          (VP (VBD provided)
+            (NP
+              (NP (DT another) (JJ unusual) (NN example))
+              (PP (IN of)
+                (NP (NN animal) (NN behavior))))))))
+    (. .)))
+
+det(gorilla-2, A-1)
+nsubj(named-3, gorilla-2)
+root(ROOT-0, named-3)
+nsubj(lived-8, Timmy-4)
+nsubj(provided-16, Timmy-4)
+ref(Timmy-4, who-6)
+aux(lived-8, had-7)
+acl:relcl(Timmy-4, lived-8)
+advmod(lived-8, alone-9)
+case(most-11, for-10)
+nmod:for(lived-8, most-11)
+case(life-14, of-12)
+nmod:poss(life-14, his-13)
+nmod:of(most-11, life-14)
+ccomp(named-3, provided-16)
+det(example-19, another-17)
+amod(example-19, unusual-18)
+dobj(provided-16, example-19)
+case(behavior-22, of-20)
+compound(behavior-22, animal-21)
+nmod:of(example-19, behavior-22)
+
+(ROOT
+  (S
+    (NP (NNP Timmy))
+    (VP (VBD was)
+      (VP (VBN brought)
+        (PP (TO to)
+          (NP
+            (NP (DT the) (NNP Bronx) (NNP Zoo))
+            (PP (IN in)
+              (NP (NNP New) (NNP York)))))
+        (S
+          (VP (TO to)
+            (VP (VB mate)
+              (PP (IN with)
+                (NP
+                  (NP (NNP Pattycake))
+                  (, ,)
+                  (NP
+                    (NP (DT a) (JJ female) (NN gorilla))
+                    (SBAR
+                      (WHNP (WP who))
+                      (S
+                        (VP (VBD lived)
+                          (PP (IN at)
+                            (NP (DT the) (NN zoo))))))))))))))
+    (. .)))
+
+nsubjpass(brought-3, Timmy-1)
+nsubj(mate-12, Timmy-1)
+auxpass(brought-3, was-2)
+root(ROOT-0, brought-3)
+case(Zoo-7, to-4)
+det(Zoo-7, the-5)
+compound(Zoo-7, Bronx-6)
+nmod:to(brought-3, Zoo-7)
+case(York-10, in-8)
+compound(York-10, New-9)
+nmod:in(Zoo-7, York-10)
+mark(mate-12, to-11)
+xcomp(brought-3, mate-12)
+case(Pattycake-14, with-13)
+nmod:with(mate-12, Pattycake-14)
+det(gorilla-18, a-16)
+amod(gorilla-18, female-17)
+appos(Pattycake-14, gorilla-18)
+nsubj(lived-20, gorilla-18)
+ref(gorilla-18, who-19)
+acl:relcl(gorilla-18, lived-20)
+case(zoo-23, at-21)
+det(zoo-23, the-22)
+nmod:at(lived-20, zoo-23)
+
+(ROOT
+  (S
+    (SBAR (IN After)
+      (S
+        (NP (PRP$ their) (NN baby))
+        (VP (VBD was)
+          (VP (VBN born)))))
+    (, ,)
+    (NP (PRP it))
+    (VP (VBD became)
+      (SBAR
+        (S
+          (NP
+            (NP (JJ sick))
+            (CC and)
+            (NP (DT the) (NN mother)
+              (CC and)
+              (NN baby)))
+          (VP (VBD were)
+            (VP (VBN taken)
+              (PRT (RP away)))))))
+    (. .)))
+
+mark(born-5, After-1)
+nmod:poss(baby-3, their-2)
+nsubjpass(born-5, baby-3)
+auxpass(born-5, was-4)
+advcl(became-8, born-5)
+nsubj(became-8, it-7)
+root(ROOT-0, became-8)
+nsubjpass(taken-16, sick-9)
+cc(sick-9, and-10)
+det(mother-12, the-11)
+conj:and(sick-9, mother-12)
+nsubjpass(taken-16, mother-12)
+cc(mother-12, and-13)
+conj:and(sick-9, baby-14)
+conj:and(mother-12, baby-14)
+auxpass(taken-16, were-15)
+ccomp(became-8, taken-16)
+compound:prt(taken-16, away-17)
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN head))
+      (PP (IN of)
+        (NP (DT the) (NN zoo))))
+    (VP (VBD reported)
+      (SBAR (IN that)
+        (S
+          (NP (NNP Timmy))
+          (VP (VBD became)
+            (ADJP (RB very) (JJ upset))
+            (SBAR
+              (WHADVP (WRB when))
+              (S
+                (NP (PRP they))
+                (VP (VBD left))))))))
+    (. .)))
+
+det(head-2, The-1)
+nsubj(reported-6, head-2)
+case(zoo-5, of-3)
+det(zoo-5, the-4)
+nmod:of(head-2, zoo-5)
+root(ROOT-0, reported-6)
+mark(became-9, that-7)
+nsubj(became-9, Timmy-8)
+ccomp(reported-6, became-9)
+advmod(upset-11, very-10)
+xcomp(became-9, upset-11)
+advmod(left-14, when-12)
+nsubj(left-14, they-13)
+advcl(became-9, left-14)
+
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (MD would) (RB neither)
+      (VP (VB eat)
+        (NP (CC nor)
+          (NN sleep))))
+    (. .)))
+
+nsubj(eat-4, He-1)
+aux(eat-4, would-2)
+advmod(eat-4, neither-3)
+root(ROOT-0, eat-4)
+cc(sleep-6, nor-5)
+dobj(eat-4, sleep-6)
+
+(ROOT
+  (S
+    (NP (PRP He))
+    (ADVP (RB even))
+    (VP (VBD cried))
+    (. .)))
+
+nsubj(cried-3, He-1)
+advmod(cried-3, even-2)
+root(ROOT-0, cried-3)
+
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (VBD looked)
+      (ADVP (RB everywhere))
+      (S
+        (VP (TO to)
+          (VP (VB see)
+            (SBAR (IN if)
+              (S
+                (NP (NNP Pattycake))
+                (VP (VBD had)
+                  (VP (VBN returned)))))))))
+    (. .)))
+
+nsubj(looked-2, He-1)
+nsubj(see-5, He-1)
+root(ROOT-0, looked-2)
+advmod(looked-2, everywhere-3)
+mark(see-5, to-4)
+xcomp(looked-2, see-5)
+mark(returned-9, if-6)
+nsubj(returned-9, Pattycake-7)
+aux(returned-9, had-8)
+advcl(see-5, returned-9)
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (ADVP (RB certainly))
+    (VP (VBD seemed)
+      (SBAR (IN like)
+        (S
+          (NP (PRP he))
+          (VP (VBD had)
+            (VP (VBN fallen)
+              (PP (IN in)
+                (NP (NN love))))))))
+    (. .)))
+
+nsubj(seemed-3, It-1)
+advmod(seemed-3, certainly-2)
+root(ROOT-0, seemed-3)
+mark(fallen-7, like-4)
+nsubj(fallen-7, he-5)
+aux(fallen-7, had-6)
+advcl(seemed-3, fallen-7)
+case(love-9, in-8)
+nmod:in(fallen-7, love-9)
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (NNP Italy)))
+    (, ,)
+    (NP (NNS scientists))
+    (VP (VBD showed)
+      (SBAR (IN that)
+        (S
+          (NP (DT an) (NNS octopus))
+          (VP (MD could)
+            (VP (VB learn)
+              (SBAR
+                (WHADVP (WRB how))
+                (S
+                  (VP (TO to)
+                    (VP (VB perform)
+                      (NP (DT a) (NN task))
+                      (PP (IN by)
+                        (S
+                          (VP (VBG watching)
+                            (SBAR
+                              (S
+                                (NP (DT another) (NNS octopus))
+                                (VP (VBP do)
+                                  (NP (PRP it)))))))))))))))))
+    (. .)))
+
+case(Italy-2, In-1)
+nmod:in(showed-5, Italy-2)
+nsubj(showed-5, scientists-4)
+root(ROOT-0, showed-5)
+mark(learn-10, that-6)
+det(octopus-8, an-7)
+nsubj(learn-10, octopus-8)
+aux(learn-10, could-9)
+ccomp(showed-5, learn-10)
+advmod(perform-13, how-11)
+mark(perform-13, to-12)
+ccomp(learn-10, perform-13)
+det(task-15, a-14)
+dobj(perform-13, task-15)
+mark(watching-17, by-16)
+advcl(perform-13, watching-17)
+det(octopus-19, another-18)
+nsubj(do-20, octopus-19)
+ccomp(watching-17, do-20)
+dobj(do-20, it-21)
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (DT this) (NN experiment)))
+    (, ,)
+    (NP
+      (NP (DT an) (NNS octopus))
+      (SBAR
+        (WHNP (WP who))
+        (S
+          (VP (VBD did) (RB not)
+            (VP (VB know)
+              (SBAR
+                (WHADVP (WRB how))
+                (S
+                  (VP (TO to)
+                    (VP (VB open)
+                      (NP (DT a) (NN jar)
+                        (S
+                          (VP (TO to)
+                            (VP (VB get)
+                              (PP (TO to)
+                                (NP (DT a) (NN crab))))))))))))))))
+    (ADVP (RB inside))
+    (VP (VBD was)
+      (VP (VBN allowed)
+        (S
+          (VP (TO to)
+            (VP (VB watch)
+              (NP
+                (NP (DT another) (NNS octopus))
+                (SBAR
+                  (WHNP (WP who))
+                  (S
+                    (VP (VBD did)
+                      (VP (VB know)
+                        (NP (WRB how))))))))))))
+    (. .)))
+
+case(experiment-3, In-1)
+det(experiment-3, this-2)
+nmod:in(allowed-23, experiment-3)
+det(octopus-6, an-5)
+nsubj(know-10, octopus-6)
+nsubjpass(allowed-23, octopus-6)
+nsubj(watch-25, octopus-6)
+ref(octopus-6, who-7)
+aux(know-10, did-8)
+neg(know-10, not-9)
+acl:relcl(octopus-6, know-10)
+advmod(open-13, how-11)
+mark(open-13, to-12)
+ccomp(know-10, open-13)
+det(jar-15, a-14)
+dobj(open-13, jar-15)
+mark(get-17, to-16)
+acl(jar-15, get-17)
+case(crab-20, to-18)
+det(crab-20, a-19)
+nmod:to(get-17, crab-20)
+advmod(allowed-23, inside-21)
+auxpass(allowed-23, was-22)
+root(ROOT-0, allowed-23)
+mark(watch-25, to-24)
+xcomp(allowed-23, watch-25)
+det(octopus-27, another-26)
+dobj(watch-25, octopus-27)
+nsubj(know-30, octopus-27)
+ref(octopus-27, who-28)
+aux(know-30, did-29)
+acl:relcl(octopus-27, know-30)
+dobj(know-30, how-31)
+
+(ROOT
+  (S
+    (PP (IN After)
+      (S
+        (VP (VBG observing)
+          (SBAR
+            (WHADVP (WRB how))
+            (S
+              (NP (DT the) (JJ second) (NNS octopus))
+              (VP (VBD did)
+                (NP (PRP it))))))))
+    (, ,)
+    (NP (DT the) (JJ first) (NNS octopus))
+    (VP (VBD was)
+      (ADJP (JJ able)
+        (S
+          (VP (TO to)
+            (VP (VB open)
+              (S
+                (NP (DT the) (NN jar))
+                (NP (PRP himself))))))))
+    (. .)))
+
+mark(observing-2, After-1)
+advcl(able-14, observing-2)
+advmod(did-7, how-3)
+det(octopus-6, the-4)
+amod(octopus-6, second-5)
+nsubj(did-7, octopus-6)
+ccomp(observing-2, did-7)
+dobj(did-7, it-8)
+det(octopus-12, the-10)
+amod(octopus-12, first-11)
+nsubj(able-14, octopus-12)
+nsubj(open-16, octopus-12)
+cop(able-14, was-13)
+root(ROOT-0, able-14)
+mark(open-16, to-15)
+xcomp(able-14, open-16)
+det(jar-18, the-17)
+nsubj(himself-19, jar-18)
+xcomp(open-16, himself-19)
+
+(ROOT
+  (S
+    (PP (IN Until)
+      (ADVP (RB recently)))
+    (, ,)
+    (NP (JJ many) (NNS scientists))
+    (VP (VBD had)
+      (VP (VBN thought)
+        (SBAR (IN that)
+          (S
+            (NP (JJ only) (NNS mammals))
+            (VP (MD could)
+              (VP (VB learn)
+                (PP (IN by)
+                  (S
+                    (VP (VBG watching)
+                      (NP (NNS others)))))))))))
+    (. .)))
+
+case(recently-2, Until-1)
+advcl:until(thought-7, recently-2)
+amod(scientists-5, many-4)
+nsubj(thought-7, scientists-5)
+aux(thought-7, had-6)
+root(ROOT-0, thought-7)
+mark(learn-12, that-8)
+amod(mammals-10, only-9)
+nsubj(learn-12, mammals-10)
+aux(learn-12, could-11)
+ccomp(thought-7, learn-12)
+mark(watching-14, by-13)
+advcl(learn-12, watching-14)
+dobj(watching-14, others-15)
+
+(ROOT
+  (S
+    (NP (NNS Stories))
+    (VP (VBP like)
+      (S
+        (NP (DT these))
+        (VP
+          (VP (VB raise)
+            (NP (JJ many) (NNS questions))
+            (PP (IN about)
+              (NP
+                (NP (NNS animals))
+                (CC and)
+                (NP
+                  (NP (DT the) (NN way))
+                  (SBAR
+                    (S
+                      (NP (PRP they))
+                      (VP (VBP think))))))))
+          (CC and)
+          (VP (VB behave)))))
+    (. .)))
+
+nsubj(like-2, Stories-1)
+root(ROOT-0, like-2)
+nsubj(raise-4, these-3)
+nsubj(behave-15, these-3)
+ccomp(like-2, raise-4)
+amod(questions-6, many-5)
+dobj(raise-4, questions-6)
+case(animals-8, about-7)
+nmod:about(raise-4, animals-8)
+cc(animals-8, and-9)
+det(way-11, the-10)
+nmod:about(raise-4, way-11)
+conj:and(animals-8, way-11)
+nsubj(think-13, they-12)
+acl:relcl(way-11, think-13)
+cc(raise-4, and-14)
+ccomp(like-2, behave-15)
+conj:and(raise-4, behave-15)
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ seems)
+      (SBAR (IN that)
+        (S
+          (NP (NNS animals))
+          (VP (VBP are)
+            (ADJP (JJ capable)
+              (PP (IN of)
+                (NP
+                  (NP
+                    (QP (JJR more) (IN than) (RB just))
+                    (VBG processing) (NN information))
+                  (PP (IN like)
+                    (NP (DT a) (NN robot))))))))))
+    (. .)))
+
+nsubj(seems-2, It-1)
+root(ROOT-0, seems-2)
+mark(capable-6, that-3)
+nsubj(capable-6, animals-4)
+cop(capable-6, are-5)
+ccomp(seems-2, capable-6)
+case(information-12, of-7)
+advmod(just-10, more-8)
+mwe(more-8, than-9)
+nummod(information-12, just-10)
+amod(information-12, processing-11)
+nmod:of(capable-6, information-12)
+case(robot-15, like-13)
+det(robot-15, a-14)
+nmod:like(information-12, robot-15)
+
+(ROOT
+  (S
+    (ADVP (RB Perhaps))
+    (NP (PRP$ their) (NN behavior))
+    (VP (VBZ is)
+      (NP
+        (NP (DT the) (NN result))
+        (PP (IN of)
+          (NP
+            (QP (JJR more) (IN than) (RB just))
+            (NN instinct)
+            (CC and)
+            (NN memorized) (NNS rules)))))
+    (. .)))
+
+advmod(result-6, Perhaps-1)
+nmod:poss(behavior-3, their-2)
+nsubj(result-6, behavior-3)
+cop(result-6, is-4)
+det(result-6, the-5)
+root(ROOT-0, result-6)
+case(instinct-11, of-7)
+advmod(just-10, more-8)
+mwe(more-8, than-9)
+nummod(instinct-11, just-10)
+nmod:of(result-6, instinct-11)
+cc(instinct-11, and-12)
+compound(rules-14, memorized-13)
+nmod:of(result-6, rules-14)
+conj:and(instinct-11, rules-14)
+
+(ROOT
+  (S
+    (PP (VBN Based)
+      (PP (IN on)
+        (NP (DT these) (NNS observations))))
+    (, ,)
+    (NP (JJR more) (NNS scientists))
+    (VP (VBP are)
+      (VP (VBG concluding)
+        (SBAR (IN that)
+          (S
+            (NP (NNS animals))
+            (ADVP (RB really))
+            (VP (MD can)
+              (VP (VB think)))))))
+    (. .)))
+
+case(observations-4, Based-1)
+mwe(Based-1, on-2)
+det(observations-4, these-3)
+advcl:based_on(concluding-9, observations-4)
+amod(scientists-7, more-6)
+nsubj(concluding-9, scientists-7)
+aux(concluding-9, are-8)
+root(ROOT-0, concluding-9)
+mark(think-14, that-10)
+nsubj(think-14, animals-11)
+advmod(think-14, really-12)
+aux(think-14, can-13)
+ccomp(concluding-9, think-14)
+
+(ROOT
+  (SBARQ
+    (WHNP (WP What))
+    (SQ (VBP do)
+      (NP (PRP you))
+      (VP (VB think)))
+    (. ?)))
+
+dobj(think-4, What-1)
+aux(think-4, do-2)
+nsubj(think-4, you-3)
+root(ROOT-0, think-4)
+

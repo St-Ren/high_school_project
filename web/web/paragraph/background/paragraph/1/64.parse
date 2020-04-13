@@ -1,0 +1,964 @@
+(ROOT
+  (S
+    (NP (NNP Rock) (NNP climbing))
+    (VP (VBZ is)
+      (NP (DT a) (JJ popular) (NN sport)))
+    (. .)))
+
+compound(climbing-2, Rock-1)
+nsubj(sport-6, climbing-2)
+cop(sport-6, is-3)
+det(sport-6, a-4)
+amod(sport-6, popular-5)
+root(ROOT-0, sport-6)
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ trains)
+      (NP
+        (NP
+          (NP (NNS climbers) (POS '))
+          (NN use))
+        (PP (IN of)
+          (NP (PRP$ their) (NNS hands)
+            (S
+              (VP
+                (VP (TO to)
+                  (VP (VB hold)
+                    (NP (PRP$ their) (NN weight))))
+                (CC and)
+                (VP (TO to)
+                  (VP (VB balance)))))))))
+    (. .)))
+
+nsubj(trains-2, It-1)
+root(ROOT-0, trains-2)
+nmod:poss(use-5, climbers-3)
+case(climbers-3, '-4)
+dobj(trains-2, use-5)
+case(hands-8, of-6)
+nmod:poss(hands-8, their-7)
+nmod:of(use-5, hands-8)
+mark(hold-10, to-9)
+dep(hands-8, hold-10)
+nmod:poss(weight-12, their-11)
+dobj(hold-10, weight-12)
+cc(hold-10, and-13)
+mark(balance-15, to-14)
+dep(hands-8, balance-15)
+conj:and(hold-10, balance-15)
+
+(ROOT
+  (S
+    (S
+      (ADVP (RB Sometimes))
+      (NP
+        (NP (DT the) (NN goal))
+        (PP (IN of)
+          (NP (DT the) (NN climber))))
+      (VP (VBZ is)
+        (S
+          (VP (TO to)
+            (VP (VB find)
+              (NP (DT an) (NN area)
+                (S
+                  (VP (TO to)
+                    (VP (VB climb)
+                      (PP (IN for)
+                        (NP
+                          (NP (DT the) (JJ real) (NN pleasure))
+                          (PP (IN of)
+                            (S
+                              (VP (VBG climbing)))))))))))))))
+    (: ;)
+    (S
+      (PP (IN at)
+        (NP (JJ other) (NNS times)))
+      (, ,)
+      (NP (DT the) (NN goal))
+      (VP (VBZ is)
+        (S
+          (VP (TO to)
+            (VP (VB climb)
+              (NP
+                (NP (DT a)
+                  (ADJP (RB very) (JJ difficult))
+                  (NN peak))
+                (PP (IN for)
+                  (NP
+                    (NP (DT the) (NN sense))
+                    (PP (IN of)
+                      (NP (NN accomplishment)))))))))))
+    (. .)))
+
+advmod(is-7, Sometimes-1)
+det(goal-3, the-2)
+nsubj(is-7, goal-3)
+nsubj(find-9, goal-3)
+case(climber-6, of-4)
+det(climber-6, the-5)
+nmod:of(goal-3, climber-6)
+root(ROOT-0, is-7)
+mark(find-9, to-8)
+xcomp(is-7, find-9)
+det(area-11, an-10)
+dobj(find-9, area-11)
+mark(climb-13, to-12)
+acl(area-11, climb-13)
+case(pleasure-17, for-14)
+det(pleasure-17, the-15)
+amod(pleasure-17, real-16)
+nmod:for(climb-13, pleasure-17)
+mark(climbing-19, of-18)
+acl(pleasure-17, climbing-19)
+case(times-23, at-21)
+amod(times-23, other-22)
+nmod:at(is-27, times-23)
+det(goal-26, the-25)
+nsubj(is-27, goal-26)
+nsubj(climb-29, goal-26)
+parataxis(is-7, is-27)
+mark(climb-29, to-28)
+xcomp(is-27, climb-29)
+det(peak-33, a-30)
+advmod(difficult-32, very-31)
+amod(peak-33, difficult-32)
+dobj(climb-29, peak-33)
+case(sense-36, for-34)
+det(sense-36, the-35)
+nmod:for(peak-33, sense-36)
+case(accomplishment-38, of-37)
+nmod:of(sense-36, accomplishment-38)
+
+(ROOT
+  (S
+    (SBAR (IN If)
+      (S
+        (NP (PRP you))
+        (VP (VBP think)
+          (SBAR (IN that)
+            (S
+              (NP (PRP you))
+              (VP (VBP have)
+                (S
+                  (VP (TO to)
+                    (VP (VB go)
+                      (PP (TO to)
+                        (NP (DT the) (NNS mountains))))))
+                (S
+                  (VP (TO to)
+                    (VP (VB learn)
+                      (SBAR
+                        (WHADVP (WRB how))
+                        (S
+                          (VP (TO to)
+                            (VP (VB climb))))))))))))))
+    (, ,)
+    (NP (PRP you))
+    (VP (VBP are)
+      (ADJP (JJ wrong)))
+    (. .)))
+
+mark(think-3, If-1)
+nsubj(think-3, you-2)
+advcl(wrong-20, think-3)
+mark(have-6, that-4)
+nsubj(have-6, you-5)
+nsubj(go-8, you-5)
+nsubj(learn-13, you-5)
+ccomp(think-3, have-6)
+mark(go-8, to-7)
+xcomp(have-6, go-8)
+case(mountains-11, to-9)
+det(mountains-11, the-10)
+nmod:to(go-8, mountains-11)
+mark(learn-13, to-12)
+xcomp(have-6, learn-13)
+advmod(climb-16, how-14)
+mark(climb-16, to-15)
+ccomp(learn-13, climb-16)
+nsubj(wrong-20, you-18)
+cop(wrong-20, are-19)
+root(ROOT-0, wrong-20)
+
+(ROOT
+  (S
+    (NP (EX There))
+    (VP (VBP are)
+      (NP (JJ many) (NNS places)
+        (S
+          (VP (TO to)
+            (VP (VB learn)
+              (NP
+                (NP (NN rock))
+                (VP (VBG climbing)
+                  (PP (IN in)
+                    (NP
+                      (NP (DT the) (NN middle))
+                      (PP (IN of)
+                        (NP (DT a) (NN city))))))))))))
+    (. .)))
+
+expl(are-2, There-1)
+root(ROOT-0, are-2)
+amod(places-4, many-3)
+nsubj(are-2, places-4)
+mark(learn-6, to-5)
+acl(places-4, learn-6)
+dobj(learn-6, rock-7)
+acl(rock-7, climbing-8)
+case(middle-11, in-9)
+det(middle-11, the-10)
+nmod:in(climbing-8, middle-11)
+case(city-14, of-12)
+det(city-14, a-13)
+nmod:of(middle-11, city-14)
+
+(ROOT
+  (S
+    (NP (DT Some) (NNS people))
+    (VP (VBP learn)
+      (S
+        (VP (TO to)
+          (VP (VB climb)
+            (PP (IN on)
+              (NP
+                (NP (JJ artificial) (NN rock) (NNS walls))
+                (PP (IN in)
+                  (NP (NN city) (NNS gyms)))))))))
+    (. .)))
+
+det(people-2, Some-1)
+nsubj(learn-3, people-2)
+nsubj(climb-5, people-2)
+root(ROOT-0, learn-3)
+mark(climb-5, to-4)
+xcomp(learn-3, climb-5)
+case(walls-9, on-6)
+amod(walls-9, artificial-7)
+compound(walls-9, rock-8)
+nmod:on(climb-5, walls-9)
+case(gyms-12, in-10)
+compound(gyms-12, city-11)
+nmod:in(walls-9, gyms-12)
+
+(ROOT
+  (S
+    (NP (PRP One))
+    (VP (MD can)
+      (VP (VB find)
+        (S
+          (VP (VBG climbing)
+            (NP (NNS walls))
+            (PP
+              (PP (IN in)
+                (NP (NNS parks)))
+              (, ,)
+              (PP (IN at)
+                (NP (NNS schools)))
+              (, ,)
+              (CC or)
+              (RB even)
+              (PP (IN in)
+                (NP (NN coffee) (NNS shops))))))))
+    (. !)))
+
+nsubj(find-3, One-1)
+aux(find-3, can-2)
+root(ROOT-0, find-3)
+xcomp(find-3, climbing-4)
+xcomp(find-3, climbing-4')
+conj:or(climbing-4, climbing-4')
+dobj(climbing-4, walls-5)
+case(parks-7, in-6)
+nmod:in(climbing-4, parks-7)
+case(schools-10, at-9)
+nmod:at(climbing-4', schools-10)
+cc(climbing-4, or-12)
+conj(parks-7, even-13)
+case(shops-16, in-14)
+compound(shops-16, coffee-15)
+nmod:in(parks-7, shops-16)
+
+(ROOT
+  (S
+    (NP (NNP Remember))
+    (, ,)
+    (ADVP (DT no) (NN matter)
+      (SBAR
+        (WHADVP (WRB where))
+        (S
+          (NP (PRP you))
+          (VP (VBP go)))))
+    (, ,)
+    (NP (PRP you))
+    (VP (VBP are)
+      (ADJP (JJ sure)
+        (S
+          (VP (TO to)
+            (VP (VB get)
+              (NP (DT some) (JJ good) (NN exercise)))))))
+    (. .)))
+
+nsubj(sure-11, Remember-1)
+nsubj(get-13, Remember-1)
+neg(matter-4, no-3)
+advmod(sure-11, matter-4)
+advmod(go-7, where-5)
+nsubj(go-7, you-6)
+dep(matter-4, go-7)
+nsubj(sure-11, you-9)
+nsubj(get-13, you-9)
+cop(sure-11, are-10)
+root(ROOT-0, sure-11)
+mark(get-13, to-12)
+xcomp(sure-11, get-13)
+det(exercise-16, some-14)
+amod(exercise-16, good-15)
+dobj(get-13, exercise-16)
+
+(ROOT
+  (SBARQ
+    (WHNP (WP What))
+    (SQ (VBP do)
+      (NP (PRP you))
+      (VP (VB need)
+        (S
+          (VP (TO to)
+            (VP (VB wear)
+              (S
+                (VP (TO to)
+                  (VP (VB go)
+                    (S
+                      (VP (VBG climbing)))))))))))
+    (. ?)))
+
+dep(need-4, What-1)
+aux(need-4, do-2)
+nsubj(need-4, you-3)
+nsubj(wear-6, you-3)
+nsubj(go-8, you-3)
+root(ROOT-0, need-4)
+mark(wear-6, to-5)
+xcomp(need-4, wear-6)
+mark(go-8, to-7)
+xcomp(wear-6, go-8)
+xcomp(go-8, climbing-9)
+
+(ROOT
+  (S
+    (NP (RB Here))
+    (VP (VBP are)
+      (NP (DT some) (NNS suggestions)))
+    (. .)))
+
+nsubj(suggestions-4, Here-1)
+cop(suggestions-4, are-2)
+det(suggestions-4, some-3)
+root(ROOT-0, suggestions-4)
+
+(ROOT
+  (S
+    (S
+      (VP (TO To)
+        (VP (VB climb))))
+    (, ,)
+    (NP (PRP you))
+    (VP (VBP need)
+      (NP
+        (NP (JJ special) (NNS shoes))
+        (CC and)
+        (NP (DT a) (NN harness)))
+      (PP (IN around)
+        (NP (PRP$ your) (NN chest)
+          (S
+            (VP (TO to)
+              (VP (VB hold)
+                (NP (PRP you))))))))
+    (. .)))
+
+mark(climb-2, To-1)
+advcl(need-5, climb-2)
+nsubj(need-5, you-4)
+root(ROOT-0, need-5)
+amod(shoes-7, special-6)
+dobj(need-5, shoes-7)
+cc(shoes-7, and-8)
+det(harness-10, a-9)
+dobj(need-5, harness-10)
+conj:and(shoes-7, harness-10)
+case(chest-13, around-11)
+nmod:poss(chest-13, your-12)
+nmod:around(need-5, chest-13)
+mark(hold-15, to-14)
+acl(chest-13, hold-15)
+dobj(hold-15, you-16)
+
+(ROOT
+  (S
+    (NP (EX There))
+    (VP (VBP are)
+      (ADJP (JJ ropes)
+        (S
+          (VP (TO to)
+            (VP (VB attach)
+              (PP (TO to)
+                (NP (PRP$ your) (NN harness))))))))
+    (. .)))
+
+expl(are-2, There-1)
+root(ROOT-0, are-2)
+xcomp(are-2, ropes-3)
+mark(attach-5, to-4)
+xcomp(ropes-3, attach-5)
+case(harness-8, to-6)
+nmod:poss(harness-8, your-7)
+nmod:to(attach-5, harness-8)
+
+(ROOT
+  (S
+    (NP (DT The) (NNS ropes))
+    (VP (VBP hold)
+      (NP (PRP you))
+      (ADVP
+        (ADVP (RB securely) (RB so))
+        (SBAR (IN that)
+          (S
+            (NP (PRP you))
+            (VP (VBP do) (RB not)
+              (VP (VB fall)))))))
+    (. .)))
+
+det(ropes-2, The-1)
+nsubj(hold-3, ropes-2)
+root(ROOT-0, hold-3)
+dobj(hold-3, you-4)
+advmod(so-6, securely-5)
+advmod(hold-3, so-6)
+mark(fall-11, that-7)
+nsubj(fall-11, you-8)
+aux(fall-11, do-9)
+neg(fall-11, not-10)
+advcl(so-6, fall-11)
+
+(ROOT
+  (S
+    (S
+      (NP
+        (NP (DT A) (NN beginner) (POS 's))
+        (NN wall))
+      (VP (VBZ is)
+        (ADVP (RB usually))
+        (ADJP
+          (NP
+            (QP (RB about) (CD fifteen))
+            (NNS feet))
+          (JJ high))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (PRP you))
+      (VP (VB climb)
+        (ADVP (RB straight))
+        (PP (RP up))))
+    (. .)))
+
+det(beginner-2, A-1)
+nmod:poss(wall-4, beginner-2)
+case(beginner-2, 's-3)
+nsubj(high-10, wall-4)
+cop(high-10, is-5)
+advmod(high-10, usually-6)
+advmod(fifteen-8, about-7)
+nummod(feet-9, fifteen-8)
+nmod:npmod(high-10, feet-9)
+root(ROOT-0, high-10)
+cc(high-10, and-12)
+nsubj(climb-14, you-13)
+conj:and(high-10, climb-14)
+advmod(climb-14, straight-15)
+advcl(climb-14, up-16)
+
+(ROOT
+  (S
+    (NP (EX There))
+    (VP (VBP are)
+      (NP
+        (NP (JJ small) (NNS pieces))
+        (PP (IN of)
+          (NP (NN metal)))
+        (SBAR
+          (WHNP (WDT that))
+          (S
+            (VP (VBP stick)
+              (PRT (RP out))
+              (SBAR (IN for)
+                (S
+                  (NP (PRP you))
+                  (VP (TO to)
+                    (VP
+                      (VP (VB stand)
+                        (PRT (RP on)))
+                      (CC and)
+                      (VP (VB hold)
+                        (PRT (RP on))
+                        (PP (TO to))))))))))))
+    (. .)))
+
+expl(are-2, There-1)
+root(ROOT-0, are-2)
+amod(pieces-4, small-3)
+nsubj(are-2, pieces-4)
+nsubj(stick-8, pieces-4)
+case(metal-6, of-5)
+nmod:of(pieces-4, metal-6)
+ref(pieces-4, that-7)
+acl:relcl(pieces-4, stick-8)
+compound:prt(stick-8, out-9)
+mark(stand-13, for-10)
+nsubj(stand-13, you-11)
+nsubj(hold-16, you-11)
+mark(stand-13, to-12)
+advcl(stick-8, stand-13)
+compound:prt(stand-13, on-14)
+cc(stand-13, and-15)
+advcl(stick-8, hold-16)
+conj:and(stand-13, hold-16)
+compound:prt(hold-16, on-17)
+nmod(hold-16, to-18)
+
+(ROOT
+  (S
+    (ADVP (RB Sometimes))
+    (NP (PRP it))
+    (VP (VBZ is)
+      (ADJP (JJ easy)
+        (S
+          (VP (TO to)
+            (VP (VB see)
+              (NP
+                (NP (DT the) (JJ next) (NN piece))
+                (PP (IN of)
+                  (NP (NN metal))))
+              (S
+                (VP (TO to)
+                  (VP (VB choose)))))))))
+    (. .)))
+
+advmod(easy-4, Sometimes-1)
+nsubj(easy-4, it-2)
+nsubj(see-6, it-2)
+cop(easy-4, is-3)
+root(ROOT-0, easy-4)
+mark(see-6, to-5)
+xcomp(easy-4, see-6)
+det(piece-9, the-7)
+amod(piece-9, next-8)
+dobj(see-6, piece-9)
+case(metal-11, of-10)
+nmod:of(piece-9, metal-11)
+mark(choose-13, to-12)
+advcl(see-6, choose-13)
+
+(ROOT
+  (S
+    (ADVP (RB Sometimes))
+    (, ,)
+    (NP (PRP it))
+    (VP (VBZ 's) (RB not))
+    (. .)))
+
+advmod('s-4, Sometimes-1)
+nsubj('s-4, it-3)
+root(ROOT-0, 's-4)
+neg('s-4, not-5)
+
+(ROOT
+  (S
+    (NP (JJS Most) (NNS people))
+    (VP (VBP have)
+      (NP
+        (NP (NN difficulty))
+        (VP (VBG controlling)
+          (NP (PRP$ their) (NN fear))
+          (PP (IN at)
+            (NP (JJ first))))))
+    (. .)))
+
+amod(people-2, Most-1)
+nsubj(have-3, people-2)
+root(ROOT-0, have-3)
+dobj(have-3, difficulty-4)
+acl(difficulty-4, controlling-5)
+nmod:poss(fear-7, their-6)
+dobj(controlling-5, fear-7)
+case(first-9, at-8)
+nmod:at(controlling-5, first-9)
+
+(ROOT
+  (S
+    (S
+      (NP
+        (NP (NN Fear))
+        (PP (IN of)
+          (NP (VBG falling))))
+      (VP (VBZ is)
+        (NP (DT a) (JJ normal) (NN reaction))))
+    (, ,) (IN so)
+    (S
+      (NP (PRP it))
+      (VP (VBZ is)
+        (ADJP (JJ difficult))
+        (S (RB not)
+          (VP (TO to)
+            (VP (VB feel)
+              (NP (NN fear)))))))
+    (. .)))
+
+nsubj(reaction-7, Fear-1)
+case(falling-3, of-2)
+nmod:of(Fear-1, falling-3)
+cop(reaction-7, is-4)
+det(reaction-7, a-5)
+amod(reaction-7, normal-6)
+root(ROOT-0, reaction-7)
+dep(reaction-7, so-9)
+nsubj(difficult-12, it-10)
+nsubj(feel-15, it-10)
+cop(difficult-12, is-11)
+parataxis(reaction-7, difficult-12)
+neg(feel-15, not-13)
+mark(feel-15, to-14)
+xcomp(difficult-12, feel-15)
+dobj(feel-15, fear-16)
+
+(ROOT
+  (S
+    (ADVP (RB However))
+    (, ,)
+    (SBAR
+      (WHADVP (WRB when))
+      (S
+        (NP (PRP you))
+        (VP
+          (VP (VB move)
+            (PRT (RP away))
+            (PP (IN from)
+              (NP (DT the) (NN wall))))
+          (CC and)
+          (VP (VB find)
+            (SBAR (IN that)
+              (S
+                (NP (PRP you))
+                (VP (VBP are)
+                  (VP (VBN held)
+                    (PP (IN by)
+                      (NP
+                        (NP (DT the) (NN harness))
+                        (CC and)
+                        (NP (DT the) (NNS ropes))))))))))))
+    (, ,)
+    (NP (PRP you))
+    (VP (VBP begin)
+      (S
+        (VP (TO to)
+          (VP (VB feel)
+            (ADJP (JJ safe))))))
+    (. .)))
+
+advmod(begin-24, However-1)
+advmod(move-5, when-3)
+nsubj(move-5, you-4)
+nsubj(find-11, you-4)
+advcl(begin-24, move-5)
+compound:prt(move-5, away-6)
+case(wall-9, from-7)
+det(wall-9, the-8)
+nmod:from(move-5, wall-9)
+cc(move-5, and-10)
+conj:and(move-5, find-11)
+advcl(begin-24, find-11)
+mark(held-15, that-12)
+nsubjpass(held-15, you-13)
+auxpass(held-15, are-14)
+ccomp(find-11, held-15)
+case(harness-18, by-16)
+det(harness-18, the-17)
+nmod:by(held-15, harness-18)
+cc(harness-18, and-19)
+det(ropes-21, the-20)
+nmod:by(held-15, ropes-21)
+conj:and(harness-18, ropes-21)
+nsubj(begin-24, you-23)
+nsubj(feel-26, you-23)
+root(ROOT-0, begin-24)
+mark(feel-26, to-25)
+xcomp(begin-24, feel-26)
+xcomp(feel-26, safe-27)
+
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (VBP move)
+      (ADVP (RB slowly))
+      (SBAR (IN until)
+        (S
+          (NP (PRP you))
+          (VP (VBP arrive)
+            (PP (IN at)
+              (NP (DT the) (NN top)))))))
+    (. .)))
+
+nsubj(move-2, You-1)
+root(ROOT-0, move-2)
+advmod(move-2, slowly-3)
+mark(arrive-6, until-4)
+nsubj(arrive-6, you-5)
+advcl(move-2, arrive-6)
+case(top-9, at-7)
+det(top-9, the-8)
+nmod:at(arrive-6, top-9)
+
+(ROOT
+  (S
+    (PP (IN At)
+      (NP (DT the) (NN top)))
+    (, ,)
+    (S
+      (NP (DT the) (NN teacher))
+      (ADVP (RB slowly))
+      (VP (VBZ releases)
+        (NP (DT the) (NN rope))))
+    (, ,)
+    (CC and)
+    (RB then)
+    (S
+      (NP (PRP you))
+      (VP (VB slide)
+        (PRT (RP back))
+        (PP (TO to)
+          (NP (DT the) (NN floor)))))
+    (. .)))
+
+case(top-3, At-1)
+det(top-3, the-2)
+nmod:at(releases-8, top-3)
+det(teacher-6, the-5)
+nsubj(releases-8, teacher-6)
+advmod(releases-8, slowly-7)
+root(ROOT-0, releases-8)
+det(rope-10, the-9)
+dobj(releases-8, rope-10)
+cc(releases-8, and-12)
+advmod(slide-15, then-13)
+nsubj(slide-15, you-14)
+conj:and(releases-8, slide-15)
+compound:prt(slide-15, back-16)
+case(floor-19, to-17)
+det(floor-19, the-18)
+nmod:to(slide-15, floor-19)
+
+(ROOT
+  (S
+    (S
+      (NP (PRP$ Your) (NNS arms)
+        (CC and)
+        (NNS legs))
+      (VP (VBP feel)
+        (ADJP (JJ tired))))
+    (, ,)
+    (CC but)
+    (S
+      (NP (PRP you))
+      (VP (VBP feel)
+        (ADJP (JJ great))))
+    (. .)))
+
+nmod:poss(arms-2, Your-1)
+nsubj(feel-5, arms-2)
+cc(arms-2, and-3)
+conj:and(arms-2, legs-4)
+nsubj(feel-5, legs-4)
+root(ROOT-0, feel-5)
+xcomp(feel-5, tired-6)
+cc(feel-5, but-8)
+nsubj(feel-10, you-9)
+conj:but(feel-5, feel-10)
+xcomp(feel-10, great-11)
+
+(ROOT
+  (S
+    (NP (NNP Climbing))
+    (VP (VBZ attracts)
+      (NP (JJ many) (NNS people))
+      (SBAR (IN because)
+        (S
+          (NP (PRP it))
+          (VP (VBZ is)
+            (NP
+              (NP (JJ good) (NN exercise))
+              (PP (IN for)
+                (NP (RB almost) (NN everyone))))))))
+    (. .)))
+
+nsubj(attracts-2, Climbing-1)
+root(ROOT-0, attracts-2)
+amod(people-4, many-3)
+dobj(attracts-2, people-4)
+mark(exercise-9, because-5)
+nsubj(exercise-9, it-6)
+cop(exercise-9, is-7)
+amod(exercise-9, good-8)
+advcl(attracts-2, exercise-9)
+case(everyone-12, for-10)
+advmod(everyone-12, almost-11)
+nmod:for(exercise-9, everyone-12)
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP Learning))
+      (PP (TO to)
+        (NP (NN climb))))
+    (VP (VBZ is) (RB not)
+      (ADJP (RB very) (JJ difficult)))
+    (. .)))
+
+nsubj(difficult-7, Learning-1)
+case(climb-3, to-2)
+nmod:to(Learning-1, climb-3)
+cop(difficult-7, is-4)
+neg(difficult-7, not-5)
+advmod(difficult-7, very-6)
+root(ROOT-0, difficult-7)
+
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (VBP do) (RB not)
+      (VP (VB have)
+        (S
+          (VP (TO to)
+            (VP (VB be)
+              (NP (DT a) (JJ super) (NN athlete)
+                (S
+                  (VP (TO to)
+                    (VP (VB climb)
+                      (NP (DT a) (NN wall)))))))))))
+    (. .)))
+
+nsubj(have-4, You-1)
+nsubj(athlete-9, You-1)
+aux(have-4, do-2)
+neg(have-4, not-3)
+root(ROOT-0, have-4)
+mark(athlete-9, to-5)
+cop(athlete-9, be-6)
+det(athlete-9, a-7)
+amod(athlete-9, super-8)
+xcomp(have-4, athlete-9)
+mark(climb-11, to-10)
+acl(athlete-9, climb-11)
+det(wall-13, a-12)
+dobj(climb-11, wall-13)
+
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (VBP use)
+      (NP
+        (NP (PRP$ your) (JJ whole) (NN body))
+        (, ,) (RB especially)
+        (NP (PRP$ your) (NNS arms)
+          (CC and)
+          (NNS legs))))
+    (. .)))
+
+nsubj(use-2, You-1)
+root(ROOT-0, use-2)
+nmod:poss(body-5, your-3)
+amod(body-5, whole-4)
+dobj(use-2, body-5)
+advmod(body-5, especially-7)
+nmod:poss(arms-9, your-8)
+dep(body-5, arms-9)
+cc(arms-9, and-10)
+dep(body-5, legs-11)
+conj:and(arms-9, legs-11)
+
+(ROOT
+  (S
+    (NP (DT This) (NN sport))
+    (VP (VBZ gives)
+      (NP (PRP$ your) (NN body))
+      (NP (DT a) (JJ complete) (NN exercise)))
+    (. .)))
+
+det(sport-2, This-1)
+nsubj(gives-3, sport-2)
+root(ROOT-0, gives-3)
+nmod:poss(body-5, your-4)
+dep(gives-3, body-5)
+det(exercise-8, a-6)
+amod(exercise-8, complete-7)
+dobj(gives-3, exercise-8)
+
+(ROOT
+  (S
+    (SBAR
+      (WHADVP (WRB When))
+      (S
+        (NP (PRP you))
+        (VP (VB climb))))
+    (, ,)
+    (NP (PRP you))
+    (VP (VBP strengthen)
+      (NP
+        (NP (PRP$ your) (NN mind))
+        (CONJP (RB as) (RB well) (IN as))
+        (NP (PRP$ your) (NN body))))
+    (. .)))
+
+advmod(climb-3, When-1)
+nsubj(climb-3, you-2)
+advcl(strengthen-6, climb-3)
+nsubj(strengthen-6, you-5)
+root(ROOT-0, strengthen-6)
+nmod:poss(mind-8, your-7)
+dobj(strengthen-6, mind-8)
+cc(mind-8, as-9)
+mwe(as-9, well-10)
+mwe(as-9, as-11)
+nmod:poss(body-13, your-12)
+dobj(strengthen-6, body-13)
+conj:and(mind-8, body-13)
+
+(ROOT
+  (S
+    (NP (DT This))
+    (VP (VBZ is)
+      (NP
+        (NP (DT a) (NN sport))
+        (PP (IN for)
+          (NP
+            (NP (NNS people))
+            (SBAR
+              (WHNP (WP who))
+              (S
+                (VP (VBP like)
+                  (NP (DT a) (NN challenge)))))))))
+    (. .)))
+
+nsubj(sport-4, This-1)
+cop(sport-4, is-2)
+det(sport-4, a-3)
+root(ROOT-0, sport-4)
+case(people-6, for-5)
+nmod:for(sport-4, people-6)
+nsubj(like-8, people-6)
+ref(people-6, who-7)
+acl:relcl(people-6, like-8)
+det(challenge-10, a-9)
+dobj(like-8, challenge-10)
+
